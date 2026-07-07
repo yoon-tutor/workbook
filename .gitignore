@@ -1,0 +1,30 @@
+# Generated workbook artifacts
+inputs/
+outputs/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Browser/rendering caches
+.playwright/
+playwright-report/
+test-results/
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+tmp/

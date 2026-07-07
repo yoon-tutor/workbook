@@ -1,0 +1,2658 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>__DOCUMENT_TITLE__</title>
+    <link rel="icon" href="data:," />
+    <style>
+      :root {
+        --primary: #1d1d1f;
+        --primary-focus: #333333;
+        --point: #d71920;
+        --point-soft: #fff5f5;
+        --point-border: rgba(215, 25, 32, 0.28);
+        --ink: #1d1d1f;
+        --ink-soft: #333333;
+        --muted: #7a7a7a;
+        --canvas: #ffffff;
+        --parchment: #f5f5f7;
+        --pearl: #fafafc;
+        --guide: #f7f7f9;
+        --answer-bg: #fffdf7;
+        --hairline: #e0e0e0;
+        --divider: #f0f0f0;
+        --blue: #4f8fd6;
+        --green: #5aa884;
+        --violet: #9b7ed8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--parchment);
+        color: var(--ink);
+        font-family: "Noto Sans KR";
+      }
+
+      .screen-bar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        min-height: 52px;
+        padding: 10px 24px;
+        background: rgba(245, 245, 247, 0.86);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        backdrop-filter: blur(16px);
+      }
+
+      .screen-title {
+        margin: 0;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 1.24;
+        letter-spacing: 0;
+      }
+
+      button {
+        appearance: none;
+        border: 0;
+        border-radius: 9999px;
+        background: var(--primary);
+        color: #ffffff;
+        cursor: pointer;
+        font: inherit;
+        padding: 8px 17px;
+        transition: transform 120ms ease;
+      }
+
+      button:active {
+        transform: scale(0.95);
+      }
+
+      button:focus-visible {
+        outline: 2px solid var(--primary-focus);
+        outline-offset: 2px;
+      }
+
+      main {
+        display: grid;
+        gap: 24px;
+        padding: 24px;
+      }
+
+      .page {
+        width: 210mm;
+        height: 297mm;
+        margin: 0 auto;
+        padding: 5mm;
+        background: var(--canvas);
+        border: 1px solid var(--hairline);
+        overflow: hidden;
+      }
+
+      .sheet {
+        display: flex;
+        flex-direction: column;
+        gap: 2mm;
+        height: 100%;
+      }
+
+      .masthead {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 6mm;
+        align-items: center;
+        padding-bottom: 1.8mm;
+        border-bottom: 1px solid var(--hairline);
+      }
+
+      .mast-meta {
+        display: flex;
+        align-items: center;
+        gap: 1.8mm;
+        min-width: 0;
+      }
+
+      .lesson-chip,
+      .grade-chip,
+      .stage-chip {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 5.4mm;
+        padding: 0.65mm 2.2mm;
+        border: 1px solid var(--hairline);
+        color: var(--ink);
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 1;
+        white-space: nowrap;
+      }
+
+      .lesson-chip {
+        background: var(--point);
+        border-color: var(--point);
+        color: #ffffff;
+      }
+
+      .grade-chip,
+      .stage-chip {
+        background: var(--point-soft);
+        border-color: var(--point-border);
+        color: var(--point);
+      }
+
+      .kicker {
+        overflow: hidden;
+        color: var(--ink-soft);
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: 0;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .step-title {
+        color: var(--point);
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: 0;
+        text-align: right;
+        white-space: nowrap;
+      }
+
+      .instruction {
+        display: block;
+        padding: 1.2mm 0;
+      }
+
+      .instruction-text {
+        margin: 0;
+        color: var(--ink-soft);
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 1.25;
+      }
+
+      .study-summary {
+        display: grid;
+        gap: 1.2mm;
+      }
+
+      .topic-line {
+        display: grid;
+        grid-template-columns: 25mm 1fr;
+        gap: 2mm;
+        align-items: end;
+        padding: 1.5mm 2mm;
+        background: var(--pearl);
+        border: 1px solid var(--hairline);
+      }
+
+      .topic-label {
+        color: var(--primary);
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 1.2;
+      }
+
+      .topic-write {
+        min-height: 4mm;
+        color: var(--ink);
+        font-size: 9.5px;
+        font-weight: 600;
+        line-height: 1.25;
+        border-bottom: 1px solid var(--hairline);
+      }
+
+      .answer-line {
+        display: grid;
+        grid-template-columns: 25mm 1fr 24mm;
+        gap: 2mm;
+        align-items: center;
+        padding: 1.5mm 2mm;
+        background: var(--answer-bg);
+        border: 1px solid var(--hairline);
+      }
+
+      .answer-label {
+        color: var(--ink);
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+
+      .answer-write {
+        min-height: 4mm;
+        color: var(--ink);
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 1.25;
+        border-bottom: 1px solid var(--hairline);
+      }
+
+      .answer-check {
+        color: var(--muted);
+        font-size: 9px;
+        font-weight: 700;
+        line-height: 1.15;
+        text-align: right;
+      }
+
+      .work-area {
+        flex: 0 0 auto;
+        min-height: 0;
+        overflow: hidden;
+        border: 1px solid var(--hairline);
+      }
+
+      .meaning-work-area {
+        border: 0;
+      }
+
+      .item-work-area {
+        border: 0;
+      }
+
+      .meaning-board {
+        display: grid;
+        grid-template-rows: auto auto;
+        border: 1px solid var(--hairline);
+      }
+
+      .meaning-board-head,
+      .meaning-row {
+        display: grid;
+        grid-template-columns: 10mm minmax(0, 1fr);
+      }
+
+      .meaning-board-head {
+        background: var(--pearl);
+        border-bottom: 1px solid var(--hairline);
+        color: var(--ink-soft);
+        font-size: 10px;
+        font-weight: 600;
+      }
+
+      .meaning-board-head div,
+      .meaning-cell {
+        padding: 1.23mm 1.45mm;
+        border-right: 1px solid var(--divider);
+      }
+
+      .meaning-board-head div {
+        display: grid;
+        align-items: center;
+      }
+
+      .meaning-board-head div:first-child {
+        justify-items: center;
+        text-align: center;
+      }
+
+      .meaning-board-head div:last-child,
+      .meaning-cell:last-child {
+        border-right: 0;
+      }
+
+      .meaning-list {
+        display: grid;
+        align-content: start;
+        min-height: 0;
+      }
+
+      .meaning-row {
+        min-height: 15.6mm;
+        border-bottom: 1px solid var(--divider);
+      }
+
+      .meaning-row:last-child {
+        border-bottom: 0;
+      }
+
+      .unit-no {
+        display: grid;
+        place-items: center;
+        color: var(--primary);
+        font-size: 11px;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      .text-cell {
+        min-width: 0;
+        padding: 1.9mm 2mm;
+      }
+
+      .item-list {
+        display: grid;
+        align-content: start;
+        gap: 3pt;
+        min-height: 0;
+      }
+
+      .practice-item {
+        display: grid;
+        grid-template-columns: 8mm minmax(0, 1fr);
+        border: 1px solid var(--hairline);
+      }
+
+      .item-no {
+        display: grid;
+        place-items: center;
+        padding: 2.5pt 1mm;
+        background: var(--guide);
+        color: var(--ink-soft);
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: center;
+      }
+
+      .item-main {
+        display: grid;
+        gap: 1mm;
+        min-width: 0;
+        padding: 2.5pt 1.9mm;
+      }
+
+      .reading-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 0.82fr);
+        gap: 3mm;
+      }
+
+      .reading-grid .korean {
+        padding-left: 3mm;
+        border-left: 1px solid var(--divider);
+      }
+
+      .field-row {
+        display: grid;
+        gap: 0.8mm;
+      }
+
+      .field-label,
+      .bank-label,
+      .write-label {
+        color: var(--muted);
+        font-size: 8.4px;
+        font-weight: 700;
+        line-height: 1;
+      }
+
+      .english {
+        margin: 0;
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Text";
+        font-size: 11pt;
+        font-weight: 400;
+        line-height: 1.32;
+        letter-spacing: 0;
+        text-align: left;
+      }
+
+      .korean,
+      .hint,
+      .prompt,
+      .paragraph {
+        margin: 0;
+        font-family: "Noto Sans KR";
+        color: var(--ink);
+        font-size: 10pt;
+        font-weight: 400;
+        line-height: 1.32;
+        letter-spacing: 0;
+        text-align: left;
+      }
+
+      .english strong,
+      .korean strong,
+      .hint strong,
+      .prompt strong,
+      .paragraph strong {
+        font-weight: inherit;
+        text-decoration: none;
+      }
+
+      .meaning-board .english strong,
+      .meaning-board .korean strong,
+      .meaning-board .hint strong,
+      .meaning-board .prompt strong,
+      .meaning-board .paragraph strong {
+        font-weight: 700;
+      }
+
+      .meaning-hint-cell {
+        display: grid;
+        grid-template-rows: 1fr auto;
+        gap: 0.6mm;
+      }
+
+      .lines {
+        display: grid;
+        gap: 0.9mm;
+        align-content: end;
+      }
+
+      .meaning-board .english strong {
+        text-decoration: underline;
+        text-decoration-thickness: 0.08em;
+        text-underline-offset: 0.16em;
+      }
+
+      .blank {
+        display: inline-block;
+        min-width: 18mm;
+        height: 1em;
+        border-bottom: 1px solid var(--ink);
+        vertical-align: -0.05em;
+      }
+
+      .word-bank {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1.5mm;
+        align-items: center;
+        min-height: 5.4mm;
+        padding: 0.7mm 1.4mm;
+        background: var(--guide);
+      }
+
+      .bank-text {
+        color: var(--ink-soft);
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Text";
+        font-size: 9.4px;
+        font-weight: 600;
+        line-height: 1.25;
+        letter-spacing: 0;
+        text-align: center;
+      }
+
+      .validation-panel {
+        padding: 8mm;
+        color: var(--point);
+        font-family: "Noto Sans KR";
+      }
+
+      .validation-panel h1 {
+        margin: 0 0 4mm;
+        font-size: 15pt;
+        line-height: 1.3;
+      }
+
+      .validation-panel li {
+        margin: 0 0 2mm;
+        font-size: 10pt;
+        line-height: 1.4;
+      }
+
+      .write-box {
+        display: grid;
+        gap: 5.8mm;
+        align-content: end;
+        min-height: var(--answer-height, 14mm);
+        padding: 2pt 1mm;
+      }
+
+      .write-line {
+        height: 1px;
+        border-bottom: 1px solid var(--hairline);
+      }
+
+      .correction-passage {
+        padding: 2.4mm 2.8mm;
+        border-bottom: 1px solid var(--divider);
+      }
+
+      .correction-rows {
+        display: grid;
+        gap: 5.2mm;
+        padding: 3mm 5mm;
+      }
+
+      .correction-row {
+        display: grid;
+        grid-template-columns: auto 1fr auto 1fr;
+        gap: 2.2mm;
+        align-items: end;
+      }
+
+      .correction-no,
+      .arrow {
+        color: var(--ink-soft);
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 1;
+      }
+
+      .paragraph-list {
+        display: grid;
+        gap: 1.7mm;
+        padding: 2.4mm 2.8mm;
+      }
+
+      .paragraph-block {
+        display: grid;
+        grid-template-columns: 7mm 1fr;
+        gap: 1.4mm;
+      }
+
+      .paragraph-label {
+        color: var(--primary);
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Text";
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 1.32;
+      }
+
+      .sequence-row {
+        display: flex;
+        justify-content: center;
+        gap: 3mm;
+        padding: 5mm 0 2mm;
+      }
+
+      .sequence-slot {
+        width: 26mm;
+        border-bottom: 1px solid var(--ink);
+      }
+
+      .sequence-arrow {
+        color: var(--ink-soft);
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1;
+      }
+
+      .footer {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        flex: 0 0 6.4mm;
+        min-height: 6.4mm;
+        margin-top: auto;
+        padding-top: 1.1mm;
+        border-top: 1px solid var(--divider);
+        color: var(--muted);
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 1;
+      }
+
+      .footer-logo-mark {
+        display: block;
+        width: 16mm;
+        height: auto;
+        margin-left: auto;
+        opacity: 0.72;
+        object-fit: contain;
+      }
+
+
+      .vocab {
+        font-weight: inherit;
+        color: inherit;
+      }
+
+      .answer-fill {
+        color: inherit;
+        font-weight: inherit;
+        text-decoration: none;
+      }
+
+      .meaning-board .vocab {
+        font-weight: 700;
+      }
+
+      .meaning-board .answer-fill {
+        color: var(--ink);
+        font-weight: 700;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+
+      .meaning-board .english .gloss {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.15mm;
+        line-height: 1;
+        vertical-align: baseline;
+        white-space: nowrap;
+      }
+
+      .meaning-board .english .gloss::after {
+        content: attr(data-meaning);
+        color: inherit;
+        font-size: 6pt;
+        font-weight: 600;
+        line-height: 1;
+        letter-spacing: 0;
+      }
+
+      .meaning-board .vocab-1 { color: var(--blue); }
+      .meaning-board .vocab-2 { color: var(--ink); }
+      .meaning-board .vocab-3 { color: var(--green); }
+      .meaning-board .vocab-4 { color: var(--ink); }
+      .meaning-board .vocab-5 { color: var(--violet); }
+      .meaning-board .vocab-6 { color: var(--ink); }
+      .meaning-board .vocab-7 { color: #5d9fc7; }
+      .meaning-board .vocab-8 { color: #88a85a; }
+
+      .english.inline-gloss {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        column-gap: 1.05mm;
+        row-gap: 1.6mm;
+        padding: 0;
+      }
+
+      .unit-chunk {
+        display: inline-flex;
+        flex: 0 1 auto;
+        max-width: 100%;
+        align-items: flex-start;
+      }
+
+      .segment-gloss {
+        display: inline-block;
+        max-width: 100%;
+        color: var(--ink);
+        line-height: 1.3;
+        text-align: center;
+        vertical-align: top;
+      }
+
+      .segment-meaning {
+        display: block;
+        margin-top: 0.7mm;
+        max-width: 100%;
+        color: var(--muted);
+        font-family: "Noto Sans KR";
+        font-size: 7.8pt;
+        font-weight: 500;
+        line-height: 1.22;
+        letter-spacing: 0;
+        text-align: center;
+      }
+
+      .segment-meaning strong {
+        color: var(--ink);
+        font-weight: 700;
+      }
+
+      .inline-gloss .slash {
+        color: var(--ink-soft);
+        font-weight: 400;
+        line-height: 1.3;
+      }
+
+      .inline-gloss .segment-gloss .gloss::after {
+        content: none;
+      }
+
+      @page {
+        size: A4 portrait;
+        margin: 0;
+      }
+
+      @media print {
+        html,
+        body {
+          width: 210mm;
+          background: #ffffff;
+        }
+
+        .screen-bar {
+          display: none;
+        }
+
+        main {
+          display: block;
+          padding: 0;
+        }
+
+        .page {
+          margin: 0;
+          border: 0;
+          page-break-after: always;
+          break-after: page;
+        }
+
+        .page:last-child {
+          page-break-after: auto;
+          break-after: auto;
+        }
+      }
+
+      @media screen and (max-width: 920px) {
+        main {
+          padding: 12px;
+        }
+
+        .page {
+          width: min(100%, 210mm);
+          overflow: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="screen-bar">
+      <p class="screen-title">__SCREEN_TITLE__</p>
+      <button type="button" onclick="window.print()">인쇄</button>
+    </header>
+
+    <main id="pages"></main>
+
+    <script>
+      const previewWorksheets = [
+        {
+                "no": "Chocolate",
+                "kicker": "Middle Reading",
+                "grade": "중등",
+                "topic": "초콜릿의 기원과 역사, 그리고 현대 초콜릿 산업의 발달",
+                "steps": [
+                        {
+                                "no": "1",
+                                "title": "지문 연습하기",
+                                "part": "1-12",
+                                "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+                                "mode": "meaning",
+                                "allowPartial": true,
+                                "units": [
+                                        {
+                                                "no": 1,
+                                                "en": "Chocolate bars.. / Chocolate ice cream.. / Chocolate milk.. / <strong>Delicious</strong>!",
+                                                "hint": "초콜릿 바.. / 초콜릿 아이스크림.. / 초콜릿 우유.. / <strong>맛있는</strong>!"
+                                        },
+                                        {
+                                                "no": 2,
+                                                "en": "But / where <strong>does</strong> chocolate <strong>come from</strong>?",
+                                                "hint": "하지만 / 초콜릿은 어디에서 <strong>오는가</strong>?"
+                                        },
+                                        {
+                                                "no": 3,
+                                                "en": "Chocolate <strong>is made</strong> / from the fruit of cacao trees, / starting about 100 million years ago.",
+                                                "hint": "초콜릿은 <strong>만들어진다</strong> / 카카오 나무의 열매로 / 약 1억 년 전부터 시작하여."
+                                        },
+                                        {
+                                                "no": 4,
+                                                "en": "The Olmecs of Mexico / were probably the first / to <strong>grow</strong> the cacao plant.",
+                                                "hint": "멕시코의 올멕족은 / 아마도 최초의 사람들이었다 / 카카오 식물을 <strong>재배한</strong>."
+                                        },
+                                        {
+                                                "no": 5,
+                                                "en": "It is thought / that they <strong>used</strong> the cacao beans / to make drinks, / but there is no written history / for the Olmecs.",
+                                                "hint": "여겨진다 / 그들이 카카오콩을 <strong>사용했다고</strong> / 음료를 만들기 위해 / 하지만 기록된 역사는 없다 / 올멕족에 대한."
+                                        },
+                                        {
+                                                "no": 6,
+                                                "en": "The Olmecs <strong>passed</strong> their cacao knowledge / to the Ancient Maya of Mexico and Central America, / who <strong>made</strong> chocolate / into a spicy drink used in ceremonies.",
+                                                "hint": "올멕족은 카카오 지식을 <strong>전했다</strong> / 멕시코와 중앙아메리카의 고대 마야인들에게 / 그들은 초콜릿을 <strong>만들었다</strong> / 의식에 사용되는 매운 음료로."
+                                        },
+                                        {
+                                                "no": 7,
+                                                "en": "Cacao <strong>started</strong> / to become very precious.",
+                                                "hint": "카카오는 <strong>시작했다</strong> / 매우 귀중해지기."
+                                        },
+                                        {
+                                                "no": 8,
+                                                "en": "Later / the Aztecs <strong>used</strong> cacao for trade / and the cacao seeds as a form of money.",
+                                                "hint": "나중에 / 아즈텍인들은 카카오를 무역에 <strong>사용했다</strong> / 그리고 카카오 씨앗을 화폐의 한 형태로."
+                                        },
+                                        {
+                                                "no": 9,
+                                                "en": "In 1502, / Christopher Columbus <strong>was</strong> the first European explorer / to come into contact with cacao beans / when he and his crew <strong>captured</strong> a trade ship.",
+                                                "hint": "1502년에 / 크리스토퍼 콜럼버스는 최초의 유럽 탐험가<strong>였다</strong> / 카카오콩과 접촉하게 된 / 그와 선원들이 무역선을 <strong>나포했을</strong> 때."
+                                        },
+                                        {
+                                                "no": 10,
+                                                "en": "He <strong>presumed</strong> / the beans were a type of almond / and <strong>brought</strong> them back to Europe, / not knowing the potential value of the unusual beans.",
+                                                "hint": "그는 <strong>추정했다</strong> / 그 콩들이 아몬드의 한 종류라고 / 그리고 그것들을 유럽으로 <strong>가져갔다</strong> / 그 특이한 콩들의 잠재적 가치를 알지 못한 채."
+                                        },
+                                        {
+                                                "no": 11,
+                                                "en": "The Spanish Conquistador, Hernán Cortés, / <strong>arrived</strong> in Central America / in 1519.",
+                                                "hint": "스페인 정복자 에르난 코르테스는 / 중앙아메리카에 <strong>도착했다</strong> / 1519년에."
+                                        },
+                                        {
+                                                "no": 12,
+                                                "en": "There / he <strong>saw</strong> the Aztec Emperor drinking 'Xocalatl,' / the earliest known hot chocolate, / and Cortés <strong>realised</strong> the great value / that it had.",
+                                                "hint": "그곳에서 / 그는 아즈텍 황제가 'Xocalatl'을 마시는 것을 <strong>보았다</strong> / 가장 이른 형태의 알려진 핫 초콜릿인 / 그리고 코르테스는 큰 가치를 <strong>깨달았다</strong> / 그것이 가진."
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "1",
+                                "title": "지문 연습하기",
+                                "part": "13-24",
+                                "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+                                "mode": "meaning",
+                                "allowPartial": true,
+                                "units": [
+                                        {
+                                                "no": 13,
+                                                "en": "Almost ten years later / Cortés <strong>established</strong> a cacao plantation / for trading.",
+                                                "hint": "거의 10년 후 / 코르테스는 카카오 농장을 <strong>세웠다</strong> / 무역을 위해."
+                                        },
+                                        {
+                                                "no": 14,
+                                                "en": "He <strong>took</strong> the beans back to Spain / along with the chocolate drink recipe.",
+                                                "hint": "그는 그 콩들을 스페인으로 <strong>가져갔다</strong> / 초콜릿 음료 제조법과 함께."
+                                        },
+                                        {
+                                                "no": 15,
+                                                "en": "Here, / cinnamon and other spices <strong>were added</strong> / to the bitter brew / and it <strong>was sweetened</strong> with sugar.",
+                                                "hint": "여기서 / 계피와 다른 향신료들이 <strong>더해졌다</strong> / 그 쓴 음료에 / 그리고 그것은 설탕으로 <strong>달게 되었다</strong>."
+                                        },
+                                        {
+                                                "no": 16,
+                                                "en": "In 1657, / the first chocolate house / <strong>was opened</strong> in London.",
+                                                "hint": "1657년에 / 최초의 초콜릿 하우스가 / 런던에 <strong>열렸다</strong>."
+                                        },
+                                        {
+                                                "no": 17,
+                                                "en": "Cacao <strong>was</strong> an expensive import / and only the rich <strong>could afford</strong> / to drink chocolate.",
+                                                "hint": "카카오는 비싼 수입품<strong>이었다</strong> / 그리고 오직 부유한 사람들만 <strong>여유가 있었다</strong> / 초콜릿을 마실."
+                                        },
+                                        {
+                                                "no": 18,
+                                                "en": "In fact, / in France, / chocolate <strong>could be drunk</strong> / only by the royal family.",
+                                                "hint": "사실 / 프랑스에서는 / 초콜릿이 <strong>마셔질 수 있었다</strong> / 오직 왕실에 의해서만."
+                                        },
+                                        {
+                                                "no": 19,
+                                                "en": "Up until the 1700s, / chocolate <strong>was</strong> mainly a drink, / but in 1830 / the first real, moulded chocolate bar <strong>was produced</strong>.",
+                                                "hint": "1700년대까지 / 초콜릿은 주로 음료<strong>였다</strong> / 하지만 1830년에 / 최초의 진짜 성형 초콜릿 바가 <strong>생산되었다</strong>."
+                                        },
+                                        {
+                                                "no": 20,
+                                                "en": "By the late 19th century, / chocolate companies such as Cadbury / <strong>were mass-producing</strong> boxes of chocolates.",
+                                                "hint": "19세기 후반까지 / 캐드버리와 같은 초콜릿 회사들은 / 초콜릿 상자들을 <strong>대량 생산하고 있었다</strong>."
+                                        },
+                                        {
+                                                "no": 21,
+                                                "en": "Today, / chocolate <strong>is</strong> a multi-billion dollar industry / and people all over the world <strong>love</strong> the taste of chocolate.",
+                                                "hint": "오늘날 / 초콜릿은 수십억 달러 규모의 산업<strong>이다</strong> / 그리고 전 세계 사람들이 초콜릿의 맛을 <strong>사랑한다</strong>."
+                                        },
+                                        {
+                                                "no": 22,
+                                                "en": "This <strong>is</strong> an industry / that will not go away any time soon.",
+                                                "hint": "이것은 산업<strong>이다</strong> / 곧 사라지지 않을."
+                                        },
+                                        {
+                                                "no": 23,
+                                                "en": "You can even <strong>make</strong> / your own!",
+                                                "hint": "여러분은 심지어 <strong>만들 수 있다</strong> / 직접!"
+                                        },
+                                        {
+                                                "no": 24,
+                                                "en": "Did you know...? / To <strong>make</strong> a good chocolate / you only <strong>need</strong> four ingredients: / cocoa beans, cocoa butter, sugar and milk powder.",
+                                                "hint": "알고 있었나요...? / 좋은 초콜릿을 <strong>만들기</strong> 위해 / 네 가지 재료만 <strong>필요하다</strong> / 카카오콩, 코코아 버터, 설탕, 분유라는."
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "2",
+                                "title": "빈칸 완성하기 (우리말)",
+                                "part": "1-14",
+                                "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+                                "allowPartial": true,
+                                "fields": [
+                                        {
+                                                "key": "en",
+                                                "className": "english"
+                                        },
+                                        {
+                                                "key": "ko",
+                                                "className": "korean"
+                                        }
+                                ],
+                                "items": [
+                                        {
+                                                "en": "Chocolate bars.. Chocolate ice cream.. Chocolate milk.. Delicious!",
+                                                "ko": "초콜릿 바.. 초콜릿 아이스크림.. 초콜릿 우유.. <span class=\"blank\"></span>!",
+                                                "no": 1
+                                        },
+                                        {
+                                                "en": "But where does chocolate come from?",
+                                                "ko": "하지만 초콜릿은 <span class=\"blank\"></span> 올까?",
+                                                "no": 2
+                                        },
+                                        {
+                                                "en": "Chocolate is made from the fruit of cacao trees, starting about 100 million years ago.",
+                                                "ko": "초콜릿은 카카오 나무의 <span class=\"blank\"></span>로 만들어지며, 그 시작은 약 <span class=\"blank\"></span> 전으로 거슬러 올라간다.",
+                                                "no": 3
+                                        },
+                                        {
+                                                "en": "The Olmecs of Mexico were probably the first to grow the cacao plant.",
+                                                "ko": "멕시코의 <span class=\"blank\"></span>은 아마도 카카오 식물을 <span class=\"blank\"></span> 최초의 사람들이었을 것이다.",
+                                                "no": 4
+                                        },
+                                        {
+                                                "en": "It is thought that they used the cacao beans to make drinks, but there is no written history for the Olmecs.",
+                                                "ko": "그들이 카카오콩으로 <span class=\"blank\"></span>를 만들었다고 여겨지지만, 올멕족에 대한 기록된 <span class=\"blank\"></span>는 없다.",
+                                                "no": 5
+                                        },
+                                        {
+                                                "en": "The Olmecs passed their cacao knowledge to the Ancient Maya of Mexico and Central America, who made chocolate into a spicy drink used in ceremonies.",
+                                                "ko": "올멕족은 카카오 <span class=\"blank\"></span>을 고대 마야인들에게 전했고, 그들은 초콜릿을 의식에 사용되는 <span class=\"blank\"></span> 음료로 만들었다.",
+                                                "no": 6
+                                        },
+                                        {
+                                                "en": "Cacao started to become very precious.",
+                                                "ko": "카카오는 매우 <span class=\"blank\"></span> 시작했다.",
+                                                "no": 7
+                                        },
+                                        {
+                                                "en": "Later the Aztecs used cacao for trade and the cacao seeds as a form of money.",
+                                                "ko": "아즈텍인들은 카카오를 <span class=\"blank\"></span>에 사용했고 카카오 씨앗을 <span class=\"blank\"></span>의 한 형태로 사용했다.",
+                                                "no": 8
+                                        },
+                                        {
+                                                "en": "In 1502, Christopher Columbus was the first European explorer to come into contact with cacao beans when he and his crew captured a trade ship.",
+                                                "ko": "1502년에 콜럼버스는 카카오콩과 접촉하게 된 최초의 <span class=\"blank\"></span>였고, 그와 선원들은 <span class=\"blank\"></span>을 나포했다.",
+                                                "no": 9
+                                        },
+                                        {
+                                                "en": "He presumed the beans were a type of almond and brought them back to Europe, not knowing the potential value of the unusual beans.",
+                                                "ko": "그는 그 콩들이 아몬드의 한 종류라고 <span class=\"blank\"></span>, 잠재적 가치를 알지 못한 채 그것들을 <span class=\"blank\"></span>으로 가져갔다.",
+                                                "no": 10
+                                        },
+                                        {
+                                                "en": "The Spanish Conquistador, Hernán Cortés, arrived in Central America in 1519.",
+                                                "ko": "스페인 <span class=\"blank\"></span> 에르난 코르테스는 1519년에 <span class=\"blank\"></span>에 도착했다.",
+                                                "no": 11
+                                        },
+                                        {
+                                                "en": "There he saw the Aztec Emperor drinking 'Xocalatl,' the earliest known hot chocolate, and Cortés realised the great value that it had.",
+                                                "ko": "그는 아즈텍 황제가 'Xocalatl'을 <span class=\"blank\"></span> 것을 보았고, 코르테스는 그것이 가진 큰 <span class=\"blank\"></span>를 깨달았다.",
+                                                "no": 12
+                                        },
+                                        {
+                                                "en": "Almost ten years later Cortés established a cacao plantation for trading.",
+                                                "ko": "거의 <span class=\"blank\"></span> 후 코르테스는 무역을 위해 카카오 <span class=\"blank\"></span>을 세웠다.",
+                                                "no": 13
+                                        },
+                                        {
+                                                "en": "He took the beans back to Spain along with the chocolate drink recipe.",
+                                                "ko": "그는 초콜릿 음료 <span class=\"blank\"></span>과 함께 그 콩들을 <span class=\"blank\"></span>으로 가져갔다.",
+                                                "no": 14
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "2",
+                                "title": "빈칸 완성하기 (우리말)",
+                                "part": "15-24",
+                                "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+                                "allowPartial": true,
+                                "fields": [
+                                        {
+                                                "key": "en",
+                                                "className": "english"
+                                        },
+                                        {
+                                                "key": "ko",
+                                                "className": "korean"
+                                        }
+                                ],
+                                "items": [
+                                        {
+                                                "en": "Here, cinnamon and other spices were added to the bitter brew and it was sweetened with sugar.",
+                                                "ko": "계피와 다른 <span class=\"blank\"></span>들이 쓴 음료에 더해졌고, 그것은 설탕으로 <span class=\"blank\"></span>.",
+                                                "no": 15
+                                        },
+                                        {
+                                                "en": "In 1657, the first chocolate house was opened in London.",
+                                                "ko": "1657년에 최초의 <span class=\"blank\"></span>가 <span class=\"blank\"></span>에 열렸다.",
+                                                "no": 16
+                                        },
+                                        {
+                                                "en": "Cacao was an expensive import and only the rich could afford to drink chocolate.",
+                                                "ko": "카카오는 비싼 <span class=\"blank\"></span>이었고 오직 <span class=\"blank\"></span> 사람들만 초콜릿을 마실 여유가 있었다.",
+                                                "no": 17
+                                        },
+                                        {
+                                                "en": "In fact, in France, chocolate could be drunk only by the royal family.",
+                                                "ko": "프랑스에서는 초콜릿이 오직 <span class=\"blank\"></span>에 의해서만 <span class=\"blank\"></span> 수 있었다.",
+                                                "no": 18
+                                        },
+                                        {
+                                                "en": "Up until the 1700s, chocolate was mainly a drink, but in 1830 the first real, moulded chocolate bar was produced.",
+                                                "ko": "1700년대까지 초콜릿은 주로 <span class=\"blank\"></span>였지만, 1830년에 최초의 진짜 <span class=\"blank\"></span> 초콜릿 바가 생산되었다.",
+                                                "no": 19
+                                        },
+                                        {
+                                                "en": "By the late 19th century, chocolate companies such as Cadbury were mass-producing boxes of chocolates.",
+                                                "ko": "19세기 후반까지 캐드버리와 같은 초콜릿 회사들은 초콜릿 상자들을 <span class=\"blank\"></span>하고 있었다.",
+                                                "no": 20
+                                        },
+                                        {
+                                                "en": "Today, chocolate is a multi-billion dollar industry and people all over the world love the taste of chocolate.",
+                                                "ko": "오늘날 초콜릿은 수십억 달러 규모의 <span class=\"blank\"></span>이며 전 세계 사람들이 초콜릿의 <span class=\"blank\"></span>을 사랑한다.",
+                                                "no": 21
+                                        },
+                                        {
+                                                "en": "This is an industry that will not go away any time soon.",
+                                                "ko": "이것은 곧 <span class=\"blank\"></span> 않을 산업이다.",
+                                                "no": 22
+                                        },
+                                        {
+                                                "en": "You can even make your own!",
+                                                "ko": "여러분은 심지어 <span class=\"blank\"></span> 만들 수도 있다!",
+                                                "no": 23
+                                        },
+                                        {
+                                                "en": "Did you know...? To make a good chocolate you only need four ingredients: cocoa beans, cocoa butter, sugar and milk powder.",
+                                                "ko": "좋은 초콜릿을 만들려면 카카오콩, 코코아 버터, 설탕, 분유라는 네 가지 <span class=\"blank\"></span>만 필요하다.",
+                                                "no": 24
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "3",
+                                "title": "빈칸 완성하기 (영문)",
+                                "part": "1-14",
+                                "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+                                "allowPartial": true,
+                                "fields": [
+                                        {
+                                                "key": "ko",
+                                                "className": "korean"
+                                        },
+                                        {
+                                                "key": "en",
+                                                "className": "english"
+                                        }
+                                ],
+                                "items": [
+                                        {
+                                                "ko": "초콜릿 바.. 초콜릿 아이스크림.. 초콜릿 우유.. 맛있다!",
+                                                "en": "Chocolate bars.. Chocolate ice cream.. Chocolate milk.. <span class=\"blank\"></span>!",
+                                                "no": 1
+                                        },
+                                        {
+                                                "ko": "하지만 초콜릿은 어디에서 올까?",
+                                                "en": "But <span class=\"blank\"></span> does chocolate <span class=\"blank\"></span> from?",
+                                                "no": 2
+                                        },
+                                        {
+                                                "ko": "초콜릿은 카카오 나무의 열매로 만들어지며, 그 시작은 약 1억 년 전으로 거슬러 올라간다.",
+                                                "en": "Chocolate <span class=\"blank\"></span> from the <span class=\"blank\"></span> of cacao trees, starting about 100 million years ago.",
+                                                "no": 3
+                                        },
+                                        {
+                                                "ko": "멕시코의 올멕족은 아마도 카카오 식물을 재배한 최초의 사람들이었을 것이다.",
+                                                "en": "The Olmecs of Mexico were probably the first to <span class=\"blank\"></span> the cacao <span class=\"blank\"></span>.",
+                                                "no": 4
+                                        },
+                                        {
+                                                "ko": "그들이 카카오콩으로 음료를 만들었다고 여겨지지만, 올멕족에 대한 기록된 역사는 없다.",
+                                                "en": "It is thought <span class=\"blank\"></span> they used the cacao beans to make drinks, but there is no <span class=\"blank\"></span> history for the Olmecs.",
+                                                "no": 5
+                                        },
+                                        {
+                                                "ko": "올멕족은 자신들의 카카오 지식을 멕시코와 중앙아메리카의 고대 마야인들에게 전했고, 그들은 초콜릿을 의식에 사용되는 매운 음료로 만들었다.",
+                                                "en": "The Olmecs passed their cacao <span class=\"blank\"></span> to the Ancient Maya of Mexico and Central America, who made chocolate into a <span class=\"blank\"></span> drink used in ceremonies.",
+                                                "no": 6
+                                        },
+                                        {
+                                                "ko": "카카오는 매우 귀중해지기 시작했다.",
+                                                "en": "Cacao started to become very <span class=\"blank\"></span>.",
+                                                "no": 7
+                                        },
+                                        {
+                                                "ko": "나중에 아즈텍인들은 카카오를 무역에 사용했고 카카오 씨앗을 화폐의 한 형태로 사용했다.",
+                                                "en": "Later the Aztecs used cacao for <span class=\"blank\"></span> and the cacao seeds as a form of <span class=\"blank\"></span>.",
+                                                "no": 8
+                                        },
+                                        {
+                                                "ko": "1502년에 크리스토퍼 콜럼버스는 그와 선원들이 무역선을 나포했을 때 카카오콩과 접촉하게 된 최초의 유럽 탐험가였다.",
+                                                "en": "In 1502, Christopher Columbus was the first European <span class=\"blank\"></span> to come into contact with cacao beans when he and his crew <span class=\"blank\"></span> a trade ship.",
+                                                "no": 9
+                                        },
+                                        {
+                                                "ko": "그는 그 콩들이 아몬드의 한 종류라고 추정했고, 그 특이한 콩들의 잠재적 가치를 알지 못한 채 그것들을 유럽으로 가져갔다.",
+                                                "en": "He presumed the beans were a type of <span class=\"blank\"></span> and brought them back to Europe, not knowing the <span class=\"blank\"></span> value of the unusual beans.",
+                                                "no": 10
+                                        },
+                                        {
+                                                "ko": "스페인 정복자 에르난 코르테스는 1519년에 중앙아메리카에 도착했다.",
+                                                "en": "The Spanish <span class=\"blank\"></span>, Hernán Cortés, arrived in Central America in <span class=\"blank\"></span>.",
+                                                "no": 11
+                                        },
+                                        {
+                                                "ko": "그곳에서 그는 아즈텍 황제가 가장 이른 형태의 알려진 핫 초콜릿인 'Xocalatl'을 마시는 것을 보았고, 코르테스는 그것이 가진 큰 가치를 깨달았다.",
+                                                "en": "There he saw the Aztec Emperor drinking 'Xocalatl,' the earliest known hot chocolate, and Cortés <span class=\"blank\"></span> the great value that it <span class=\"blank\"></span>.",
+                                                "no": 12
+                                        },
+                                        {
+                                                "ko": "거의 10년 후 코르테스는 무역을 위해 카카오 농장을 세웠다.",
+                                                "en": "Almost ten years later Cortés established a cacao <span class=\"blank\"></span> for <span class=\"blank\"></span>.",
+                                                "no": 13
+                                        },
+                                        {
+                                                "ko": "그는 초콜릿 음료 제조법과 함께 그 콩들을 스페인으로 가져갔다.",
+                                                "en": "He took the beans back to Spain along with the chocolate drink <span class=\"blank\"></span>.",
+                                                "no": 14
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "3",
+                                "title": "빈칸 완성하기 (영문)",
+                                "part": "15-24",
+                                "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+                                "allowPartial": true,
+                                "fields": [
+                                        {
+                                                "key": "ko",
+                                                "className": "korean"
+                                        },
+                                        {
+                                                "key": "en",
+                                                "className": "english"
+                                        }
+                                ],
+                                "items": [
+                                        {
+                                                "ko": "여기서 계피와 다른 향신료들이 그 쓴 음료에 더해졌고 그것은 설탕으로 달게 되었다.",
+                                                "en": "Here, cinnamon and other spices were added to the <span class=\"blank\"></span> brew and it was <span class=\"blank\"></span> with sugar.",
+                                                "no": 15
+                                        },
+                                        {
+                                                "ko": "1657년에 최초의 초콜릿 하우스가 런던에 열렸다.",
+                                                "en": "In 1657, the first chocolate <span class=\"blank\"></span> was opened in <span class=\"blank\"></span>.",
+                                                "no": 16
+                                        },
+                                        {
+                                                "ko": "카카오는 비싼 수입품이었고 오직 부유한 사람들만 초콜릿을 마실 여유가 있었다.",
+                                                "en": "Cacao was an expensive <span class=\"blank\"></span> and only the rich could <span class=\"blank\"></span> to drink chocolate.",
+                                                "no": 17
+                                        },
+                                        {
+                                                "ko": "사실 프랑스에서는 초콜릿이 오직 왕실에 의해서만 마셔질 수 있었다.",
+                                                "en": "In fact, in France, chocolate could be <span class=\"blank\"></span> only by the <span class=\"blank\"></span> family.",
+                                                "no": 18
+                                        },
+                                        {
+                                                "ko": "1700년대까지 초콜릿은 주로 음료였지만, 1830년에 최초의 진짜 성형 초콜릿 바가 생산되었다.",
+                                                "en": "Up until the 1700s, chocolate was mainly a drink, but in 1830 the first real, <span class=\"blank\"></span> chocolate bar was <span class=\"blank\"></span>.",
+                                                "no": 19
+                                        },
+                                        {
+                                                "ko": "19세기 후반까지 캐드버리와 같은 초콜릿 회사들은 초콜릿 상자들을 대량 생산하고 있었다.",
+                                                "en": "By the late 19th century, chocolate companies such as <span class=\"blank\"></span> were mass-producing boxes of <span class=\"blank\"></span>.",
+                                                "no": 20
+                                        },
+                                        {
+                                                "ko": "오늘날 초콜릿은 수십억 달러 규모의 산업이며 전 세계 사람들이 초콜릿의 맛을 사랑한다.",
+                                                "en": "Today, chocolate is a multi-billion dollar <span class=\"blank\"></span> and people all over the world love the <span class=\"blank\"></span> of chocolate.",
+                                                "no": 21
+                                        },
+                                        {
+                                                "ko": "이것은 곧 사라지지 않을 산업이다.",
+                                                "en": "This is an industry that will not <span class=\"blank\"></span> any time <span class=\"blank\"></span>.",
+                                                "no": 22
+                                        },
+                                        {
+                                                "ko": "여러분은 심지어 직접 만들 수도 있다!",
+                                                "en": "You can even make your <span class=\"blank\"></span>!",
+                                                "no": 23
+                                        },
+                                        {
+                                                "ko": "알고 있었나요...? 좋은 초콜릿을 만들려면 카카오콩, 코코아 버터, 설탕, 분유라는 네 가지 재료만 필요하다.",
+                                                "en": "To make a good chocolate you only need four <span class=\"blank\"></span>: cocoa beans, cocoa butter, sugar and milk <span class=\"blank\"></span>.",
+                                                "no": 24
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "4",
+                                "title": "해석 연습하기",
+                                "part": "1-10",
+                                "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+                                "mode": "writing",
+                                "allowPartial": true,
+                                "items": [
+                                        {
+                                                "en": "Chocolate bars.. Chocolate ice cream.. Chocolate milk.. Delicious!",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 1
+                                        },
+                                        {
+                                                "en": "But where does chocolate come from?",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 2
+                                        },
+                                        {
+                                                "en": "Chocolate is made from the fruit of cacao trees, starting about 100 million years ago.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 3
+                                        },
+                                        {
+                                                "en": "The Olmecs of Mexico were probably the first to grow the cacao plant.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 4
+                                        },
+                                        {
+                                                "en": "It is thought that they used the cacao beans to make drinks, but there is no written history for the Olmecs.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 5
+                                        },
+                                        {
+                                                "en": "The Olmecs passed their cacao knowledge to the Ancient Maya of Mexico and Central America, who made chocolate into a spicy drink used in ceremonies.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 6
+                                        },
+                                        {
+                                                "en": "Cacao started to become very precious.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 7
+                                        },
+                                        {
+                                                "en": "Later the Aztecs used cacao for trade and the cacao seeds as a form of money.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 8
+                                        },
+                                        {
+                                                "en": "In 1502, Christopher Columbus was the first European explorer to come into contact with cacao beans when he and his crew captured a trade ship.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 9
+                                        },
+                                        {
+                                                "en": "He presumed the beans were a type of almond and brought them back to Europe, not knowing the potential value of the unusual beans.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 10
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "4",
+                                "title": "해석 연습하기",
+                                "part": "11-20",
+                                "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+                                "mode": "writing",
+                                "allowPartial": true,
+                                "items": [
+                                        {
+                                                "en": "The Spanish Conquistador, Hernán Cortés, arrived in Central America in 1519.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 11
+                                        },
+                                        {
+                                                "en": "There he saw the Aztec Emperor drinking 'Xocalatl,' the earliest known hot chocolate, and Cortés realised the great value that it had.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 12
+                                        },
+                                        {
+                                                "en": "Almost ten years later Cortés established a cacao plantation for trading.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 13
+                                        },
+                                        {
+                                                "en": "He took the beans back to Spain along with the chocolate drink recipe.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 14
+                                        },
+                                        {
+                                                "en": "Here, cinnamon and other spices were added to the bitter brew and it was sweetened with sugar.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 15
+                                        },
+                                        {
+                                                "en": "In 1657, the first chocolate house was opened in London.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 16
+                                        },
+                                        {
+                                                "en": "Cacao was an expensive import and only the rich could afford to drink chocolate.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 17
+                                        },
+                                        {
+                                                "en": "In fact, in France, chocolate could be drunk only by the royal family.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 18
+                                        },
+                                        {
+                                                "en": "Up until the 1700s, chocolate was mainly a drink, but in 1830 the first real, moulded chocolate bar was produced.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 19
+                                        },
+                                        {
+                                                "en": "By the late 19th century, chocolate companies such as Cadbury were mass-producing boxes of chocolates.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 20
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "4",
+                                "title": "해석 연습하기",
+                                "part": "21-24",
+                                "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+                                "mode": "writing",
+                                "allowPartial": true,
+                                "items": [
+                                        {
+                                                "en": "Today, chocolate is a multi-billion dollar industry and people all over the world love the taste of chocolate.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 21
+                                        },
+                                        {
+                                                "en": "This is an industry that will not go away any time soon.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 22
+                                        },
+                                        {
+                                                "en": "You can even make your own!",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 23
+                                        },
+                                        {
+                                                "en": "Did you know...? To make a good chocolate you only need four ingredients: cocoa beans, cocoa butter, sugar and milk powder.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 24
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "5",
+                                "title": "동사형 연습하기",
+                                "part": "1-14",
+                                "instruction": "괄호 안에 주어진 단어를 알맞게 고쳐 쓰세요.",
+                                "allowPartial": true,
+                                "fields": [
+                                        {
+                                                "key": "ko",
+                                                "className": "korean"
+                                        },
+                                        {
+                                                "key": "en",
+                                                "className": "english"
+                                        }
+                                ],
+                                "items": [
+                                        {
+                                                "ko": "초콜릿 바.. 초콜릿 아이스크림.. 초콜릿 우유.. 맛있다!",
+                                                "en": "Chocolate bars.. Chocolate ice cream.. Chocolate milk.. (be) delicious!",
+                                                "no": 1
+                                        },
+                                        {
+                                                "ko": "하지만 초콜릿은 어디에서 올까?",
+                                                "en": "But where (do) chocolate (come) from?",
+                                                "no": 2
+                                        },
+                                        {
+                                                "ko": "초콜릿은 카카오 나무의 열매로 만들어지며, 그 시작은 약 1억 년 전으로 거슬러 올라간다.",
+                                                "en": "Chocolate (make) from the fruit of cacao trees, starting about 100 million years ago.",
+                                                "no": 3
+                                        },
+                                        {
+                                                "ko": "멕시코의 올멕족은 아마도 카카오 식물을 재배한 최초의 사람들이었을 것이다.",
+                                                "en": "The Olmecs of Mexico (be) probably the first to (grow) the cacao plant.",
+                                                "no": 4
+                                        },
+                                        {
+                                                "ko": "그들이 카카오콩으로 음료를 만들었다고 여겨지지만, 올멕족에 대한 기록된 역사는 없다.",
+                                                "en": "It (think) that they (use) the cacao beans to make drinks, but there (be) no written history for the Olmecs.",
+                                                "no": 5
+                                        },
+                                        {
+                                                "ko": "올멕족은 자신들의 카카오 지식을 멕시코와 중앙아메리카의 고대 마야인들에게 전했고, 그들은 초콜릿을 의식에 사용되는 매운 음료로 만들었다.",
+                                                "en": "The Olmecs (pass) their cacao knowledge to the Ancient Maya of Mexico and Central America, who (make) chocolate into a spicy drink used in ceremonies.",
+                                                "no": 6
+                                        },
+                                        {
+                                                "ko": "카카오는 매우 귀중해지기 시작했다.",
+                                                "en": "Cacao (start) to (become) very precious.",
+                                                "no": 7
+                                        },
+                                        {
+                                                "ko": "나중에 아즈텍인들은 카카오를 무역에 사용했고 카카오 씨앗을 화폐의 한 형태로 사용했다.",
+                                                "en": "Later the Aztecs (use) cacao for trade and the cacao seeds as a form of money.",
+                                                "no": 8
+                                        },
+                                        {
+                                                "ko": "1502년에 크리스토퍼 콜럼버스는 그와 선원들이 무역선을 나포했을 때 카카오콩과 접촉하게 된 최초의 유럽 탐험가였다.",
+                                                "en": "In 1502, Christopher Columbus (be) the first European explorer to come into contact with cacao beans when he and his crew (capture) a trade ship.",
+                                                "no": 9
+                                        },
+                                        {
+                                                "ko": "그는 그 콩들이 아몬드의 한 종류라고 추정했고, 그 특이한 콩들의 잠재적 가치를 알지 못한 채 그것들을 유럽으로 가져갔다.",
+                                                "en": "He (presume) the beans were a type of almond and (bring) them back to Europe, not (know) the potential value of the unusual beans.",
+                                                "no": 10
+                                        },
+                                        {
+                                                "ko": "스페인 정복자 에르난 코르테스는 1519년에 중앙아메리카에 도착했다.",
+                                                "en": "The Spanish Conquistador, Hernán Cortés, (arrive) in Central America in 1519.",
+                                                "no": 11
+                                        },
+                                        {
+                                                "ko": "그곳에서 그는 아즈텍 황제가 가장 이른 형태의 알려진 핫 초콜릿인 'Xocalatl'을 마시는 것을 보았고, 코르테스는 그것이 가진 큰 가치를 깨달았다.",
+                                                "en": "There he (see) the Aztec Emperor (drink) 'Xocalatl,' the earliest known hot chocolate, and Cortés (realise) the great value that it (have).",
+                                                "no": 12
+                                        },
+                                        {
+                                                "ko": "거의 10년 후 코르테스는 무역을 위해 카카오 농장을 세웠다.",
+                                                "en": "Almost ten years later Cortés (establish) a cacao plantation for trading.",
+                                                "no": 13
+                                        },
+                                        {
+                                                "ko": "그는 초콜릿 음료 제조법과 함께 그 콩들을 스페인으로 가져갔다.",
+                                                "en": "He (take) the beans back to Spain along with the chocolate drink recipe.",
+                                                "no": 14
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "5",
+                                "title": "동사형 연습하기",
+                                "part": "15-24",
+                                "instruction": "괄호 안에 주어진 단어를 알맞게 고쳐 쓰세요.",
+                                "allowPartial": true,
+                                "fields": [
+                                        {
+                                                "key": "ko",
+                                                "className": "korean"
+                                        },
+                                        {
+                                                "key": "en",
+                                                "className": "english"
+                                        }
+                                ],
+                                "items": [
+                                        {
+                                                "ko": "여기서 계피와 다른 향신료들이 그 쓴 음료에 더해졌고 그것은 설탕으로 달게 되었다.",
+                                                "en": "Here, cinnamon and other spices (add) to the bitter brew and it (sweeten) with sugar.",
+                                                "no": 15
+                                        },
+                                        {
+                                                "ko": "1657년에 최초의 초콜릿 하우스가 런던에 열렸다.",
+                                                "en": "In 1657, the first chocolate house (open) in London.",
+                                                "no": 16
+                                        },
+                                        {
+                                                "ko": "카카오는 비싼 수입품이었고 오직 부유한 사람들만 초콜릿을 마실 여유가 있었다.",
+                                                "en": "Cacao (be) an expensive import and only the rich (can) afford to drink chocolate.",
+                                                "no": 17
+                                        },
+                                        {
+                                                "ko": "사실 프랑스에서는 초콜릿이 오직 왕실에 의해서만 마셔질 수 있었다.",
+                                                "en": "In fact, in France, chocolate (can drink) only by the royal family.",
+                                                "no": 18
+                                        },
+                                        {
+                                                "ko": "1700년대까지 초콜릿은 주로 음료였지만, 1830년에 최초의 진짜 성형 초콜릿 바가 생산되었다.",
+                                                "en": "Up until the 1700s, chocolate (be) mainly a drink, but in 1830 the first real, moulded chocolate bar (produce).",
+                                                "no": 19
+                                        },
+                                        {
+                                                "ko": "19세기 후반까지 캐드버리와 같은 초콜릿 회사들은 초콜릿 상자들을 대량 생산하고 있었다.",
+                                                "en": "By the late 19th century, chocolate companies such as Cadbury (mass-produce) boxes of chocolates.",
+                                                "no": 20
+                                        },
+                                        {
+                                                "ko": "오늘날 초콜릿은 수십억 달러 규모의 산업이며 전 세계 사람들이 초콜릿의 맛을 사랑한다.",
+                                                "en": "Today, chocolate (be) a multi-billion dollar industry and people all over the world (love) the taste of chocolate.",
+                                                "no": 21
+                                        },
+                                        {
+                                                "ko": "이것은 곧 사라지지 않을 산업이다.",
+                                                "en": "This (be) an industry that (will not go) away any time soon.",
+                                                "no": 22
+                                        },
+                                        {
+                                                "ko": "여러분은 심지어 직접 만들 수도 있다!",
+                                                "en": "You can even (make) your own!",
+                                                "no": 23
+                                        },
+                                        {
+                                                "ko": "알고 있었나요...? 좋은 초콜릿을 만들려면 카카오콩, 코코아 버터, 설탕, 분유라는 네 가지 재료만 필요하다.",
+                                                "en": "Did you know...? To (make) a good chocolate you only (need) four ingredients: cocoa beans, cocoa butter, sugar and milk powder.",
+                                                "no": 24
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "6",
+                                "title": "어법·어휘 고르기",
+                                "part": "1-14",
+                                "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+                                "allowPartial": true,
+                                "fields": [
+                                        {
+                                                "key": "ko",
+                                                "className": "korean"
+                                        },
+                                        {
+                                                "key": "en",
+                                                "className": "english"
+                                        }
+                                ],
+                                "items": [
+                                        {
+                                                "ko": "초콜릿 바.. 초콜릿 아이스크림.. 초콜릿 우유.. 맛있다!",
+                                                "en": "Chocolate bars.. [Chocolate ice cream / Chocolate icy cream].. Chocolate milk.. Delicious!",
+                                                "no": 1
+                                        },
+                                        {
+                                                "ko": "하지만 초콜릿은 어디에서 올까?",
+                                                "en": "But [where / when] does chocolate come from?",
+                                                "no": 2
+                                        },
+                                        {
+                                                "ko": "초콜릿은 카카오 나무의 열매로 만들어지며, 그 시작은 약 1억 년 전으로 거슬러 올라간다.",
+                                                "en": "Chocolate [is made / made] from the fruit of cacao trees, starting about 100 [million / millions] years ago.",
+                                                "no": 3
+                                        },
+                                        {
+                                                "ko": "멕시코의 올멕족은 아마도 카카오 식물을 재배한 최초의 사람들이었을 것이다.",
+                                                "en": "The Olmecs of Mexico [were / was] probably the first [to grow / growing] the cacao plant.",
+                                                "no": 4
+                                        },
+                                        {
+                                                "ko": "그들이 카카오콩으로 음료를 만들었다고 여겨지지만, 올멕족에 대한 기록된 역사는 없다.",
+                                                "en": "It is thought [that / what] they used the cacao beans to make drinks, but there [is / are] no written history for the Olmecs.",
+                                                "no": 5
+                                        },
+                                        {
+                                                "ko": "올멕족은 자신들의 카카오 지식을 멕시코와 중앙아메리카의 고대 마야인들에게 전했고, 그들은 초콜릿을 의식에 사용되는 매운 음료로 만들었다.",
+                                                "en": "The Olmecs passed their cacao knowledge to the Ancient Maya, who [made / making] chocolate into a spicy drink [used / using] in ceremonies.",
+                                                "no": 6
+                                        },
+                                        {
+                                                "ko": "카카오는 매우 귀중해지기 시작했다.",
+                                                "en": "Cacao started [to become / becoming] very [precious / previous].",
+                                                "no": 7
+                                        },
+                                        {
+                                                "ko": "나중에 아즈텍인들은 카카오를 무역에 사용했고 카카오 씨앗을 화폐의 한 형태로 사용했다.",
+                                                "en": "Later the Aztecs used cacao [for / to] trade and the cacao seeds [as / like] a form of money.",
+                                                "no": 8
+                                        },
+                                        {
+                                                "ko": "1502년에 크리스토퍼 콜럼버스는 그와 선원들이 무역선을 나포했을 때 카카오콩과 접촉하게 된 최초의 유럽 탐험가였다.",
+                                                "en": "Christopher Columbus was the first European explorer [to come / coming] into contact with cacao beans when his crew [captured / capturing] a trade ship.",
+                                                "no": 9
+                                        },
+                                        {
+                                                "ko": "그는 그 콩들이 아몬드의 한 종류라고 추정했고, 그 특이한 콩들의 잠재적 가치를 알지 못한 채 그것들을 유럽으로 가져갔다.",
+                                                "en": "He brought them [back / forward] to Europe, [not knowing / not known] the potential value of the unusual beans.",
+                                                "no": 10
+                                        },
+                                        {
+                                                "ko": "스페인 정복자 에르난 코르테스는 1519년에 중앙아메리카에 도착했다.",
+                                                "en": "Hernán Cortés [arrived / arriving] in Central America [in / on] 1519.",
+                                                "no": 11
+                                        },
+                                        {
+                                                "ko": "그곳에서 그는 아즈텍 황제가 가장 이른 형태의 알려진 핫 초콜릿인 'Xocalatl'을 마시는 것을 보았고, 코르테스는 그것이 가진 큰 가치를 깨달았다.",
+                                                "en": "There he saw the Aztec Emperor [drinking / to drink] 'Xocalatl,' and Cortés [realised / realising] the great value that it had.",
+                                                "no": 12
+                                        },
+                                        {
+                                                "ko": "거의 10년 후 코르테스는 무역을 위해 카카오 농장을 세웠다.",
+                                                "en": "Almost [ten / tenth] years later Cortés [established / was established] a cacao plantation for trading.",
+                                                "no": 13
+                                        },
+                                        {
+                                                "ko": "그는 초콜릿 음료 제조법과 함께 그 콩들을 스페인으로 가져갔다.",
+                                                "en": "He took the beans [back / backwards] to Spain [along with / according to] the chocolate drink recipe.",
+                                                "no": 14
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "6",
+                                "title": "어법·어휘 고르기",
+                                "part": "15-24",
+                                "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+                                "allowPartial": true,
+                                "fields": [
+                                        {
+                                                "key": "ko",
+                                                "className": "korean"
+                                        },
+                                        {
+                                                "key": "en",
+                                                "className": "english"
+                                        }
+                                ],
+                                "items": [
+                                        {
+                                                "ko": "여기서 계피와 다른 향신료들이 그 쓴 음료에 더해졌고 그것은 설탕으로 달게 되었다.",
+                                                "en": "Cinnamon and other spices [were added / added] to the bitter brew and it [was sweetened / sweetened] with sugar.",
+                                                "no": 15
+                                        },
+                                        {
+                                                "ko": "1657년에 최초의 초콜릿 하우스가 런던에 열렸다.",
+                                                "en": "In 1657, the first chocolate house [was opened / opened] in [London / Londen].",
+                                                "no": 16
+                                        },
+                                        {
+                                                "ko": "카카오는 비싼 수입품이었고 오직 부유한 사람들만 초콜릿을 마실 여유가 있었다.",
+                                                "en": "Cacao was an [expensive / expansive] import and only the [rich / richness] could afford to drink chocolate.",
+                                                "no": 17
+                                        },
+                                        {
+                                                "ko": "사실 프랑스에서는 초콜릿이 오직 왕실에 의해서만 마셔질 수 있었다.",
+                                                "en": "In France, chocolate could [be drunk / drink] only [by / with] the royal family.",
+                                                "no": 18
+                                        },
+                                        {
+                                                "ko": "1700년대까지 초콜릿은 주로 음료였지만, 1830년에 최초의 진짜 성형 초콜릿 바가 생산되었다.",
+                                                "en": "Chocolate was mainly a [drink / drinking], but the first real, [moulded / moulding] chocolate bar was produced.",
+                                                "no": 19
+                                        },
+                                        {
+                                                "ko": "19세기 후반까지 캐드버리와 같은 초콜릿 회사들은 초콜릿 상자들을 대량 생산하고 있었다.",
+                                                "en": "Chocolate companies such as Cadbury [were / was] mass-producing boxes of [chocolates / chocolate].",
+                                                "no": 20
+                                        },
+                                        {
+                                                "ko": "오늘날 초콜릿은 수십억 달러 규모의 산업이며 전 세계 사람들이 초콜릿의 맛을 사랑한다.",
+                                                "en": "Chocolate is a multi-billion dollar [industry / industrial] and people [all over / all above] the world love its taste.",
+                                                "no": 21
+                                        },
+                                        {
+                                                "ko": "이것은 곧 사라지지 않을 산업이다.",
+                                                "en": "This is an industry [that / what] will not go away [any time / no time] soon.",
+                                                "no": 22
+                                        },
+                                        {
+                                                "ko": "여러분은 심지어 직접 만들 수도 있다!",
+                                                "en": "You can even [make / made] your [own / owe]!",
+                                                "no": 23
+                                        },
+                                        {
+                                                "ko": "알고 있었나요...? 좋은 초콜릿을 만들려면 카카오콩, 코코아 버터, 설탕, 분유라는 네 가지 재료만 필요하다.",
+                                                "en": "To make a [good / well] chocolate you only [need / needs] four ingredients.",
+                                                "no": 24
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "7",
+                                "title": "어색한 곳 찾기",
+                                "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+                                "mode": "correction",
+                                "passage": "It is thought <strong>what</strong> they used the cacao beans to make drinks. The Olmecs passed their cacao knowledge to the Ancient Maya, who <strong>make</strong> chocolate into a spicy drink used in ceremonies. Columbus brought the beans back to Europe, <strong>not known</strong> the potential value of the unusual beans. Here, cinnamon and other spices <strong>added</strong> to the bitter brew. In France, chocolate <strong>could drink</strong> only by the royal family.",
+                                "rows": [
+                                        {},
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                ]
+                        },
+                        {
+                                "no": "8",
+                                "title": "순서 배열하기",
+                                "part": "1-6",
+                                "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+                                "mode": "writing",
+                                "allowPartial": true,
+                                "items": [
+                                        {
+                                                "ko": "초콜릿 바.. 초콜릿 아이스크림.. 초콜릿 우유.. 맛있다!",
+                                                "bank": "Delicious / Chocolate milk / Chocolate ice cream / Chocolate bars",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>!",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 1
+                                        },
+                                        {
+                                                "ko": "하지만 초콜릿은 어디에서 올까?",
+                                                "bank": "come from / does chocolate / where / But",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>?",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 2
+                                        },
+                                        {
+                                                "ko": "초콜릿은 카카오 나무의 열매로 만들어지며, 그 시작은 약 1억 년 전으로 거슬러 올라간다.",
+                                                "bank": "starting about 100 million years ago / of cacao trees / from the fruit / is made / Chocolate",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 3
+                                        },
+                                        {
+                                                "ko": "멕시코의 올멕족은 아마도 카카오 식물을 재배한 최초의 사람들이었을 것이다.",
+                                                "bank": "to grow the cacao plant / the first / were probably / The Olmecs of Mexico",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 4
+                                        },
+                                        {
+                                                "ko": "그들이 카카오콩으로 음료를 만들었다고 여겨지지만, 올멕족에 대한 기록된 역사는 없다.",
+                                                "bank": "for the Olmecs / but there is no written history / to make drinks / that they used the cacao beans / It is thought",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 5
+                                        },
+                                        {
+                                                "ko": "올멕족은 자신들의 카카오 지식을 멕시코와 중앙아메리카의 고대 마야인들에게 전했고, 그들은 초콜릿을 의식에 사용되는 매운 음료로 만들었다.",
+                                                "bank": "into a spicy drink used in ceremonies / who made chocolate / to the Ancient Maya / passed their cacao knowledge / The Olmecs",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 6
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "8",
+                                "title": "순서 배열하기",
+                                "part": "7-12",
+                                "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+                                "mode": "writing",
+                                "allowPartial": true,
+                                "items": [
+                                        {
+                                                "ko": "카카오는 매우 귀중해지기 시작했다.",
+                                                "bank": "very precious / to become / started / Cacao",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 7
+                                        },
+                                        {
+                                                "ko": "나중에 아즈텍인들은 카카오를 무역에 사용했고 카카오 씨앗을 화폐의 한 형태로 사용했다.",
+                                                "bank": "as a form of money / and the cacao seeds / used cacao for trade / Later the Aztecs",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 8
+                                        },
+                                        {
+                                                "ko": "1502년에 크리스토퍼 콜럼버스는 그와 선원들이 무역선을 나포했을 때 카카오콩과 접촉하게 된 최초의 유럽 탐험가였다.",
+                                                "bank": "when his crew captured a trade ship / to come into contact with cacao beans / was the first European explorer / Christopher Columbus / In 1502",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 9
+                                        },
+                                        {
+                                                "ko": "그는 그 콩들이 아몬드의 한 종류라고 추정했고, 그 특이한 콩들의 잠재적 가치를 알지 못한 채 그것들을 유럽으로 가져갔다.",
+                                                "bank": "the potential value of the unusual beans / not knowing / and brought them back to Europe / the beans were a type of almond / He presumed",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 10
+                                        },
+                                        {
+                                                "ko": "스페인 정복자 에르난 코르테스는 1519년에 중앙아메리카에 도착했다.",
+                                                "bank": "in 1519 / arrived in Central America / Hernán Cortés / The Spanish Conquistador",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 11
+                                        },
+                                        {
+                                                "ko": "그곳에서 그는 아즈텍 황제가 가장 이른 형태의 알려진 핫 초콜릿인 'Xocalatl'을 마시는 것을 보았고, 코르테스는 그것이 가진 큰 가치를 깨달았다.",
+                                                "bank": "the great value that it had / and Cortés realised / the earliest known hot chocolate / the Aztec Emperor drinking 'Xocalatl,' / There he saw",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 12
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "8",
+                                "title": "순서 배열하기",
+                                "part": "13-18",
+                                "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+                                "mode": "writing",
+                                "allowPartial": true,
+                                "items": [
+                                        {
+                                                "ko": "거의 10년 후 코르테스는 무역을 위해 카카오 농장을 세웠다.",
+                                                "bank": "for trading / a cacao plantation / Cortés established / Almost ten years later",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 13
+                                        },
+                                        {
+                                                "ko": "그는 초콜릿 음료 제조법과 함께 그 콩들을 스페인으로 가져갔다.",
+                                                "bank": "the chocolate drink recipe / along with / back to Spain / He took the beans",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 14
+                                        },
+                                        {
+                                                "ko": "여기서 계피와 다른 향신료들이 그 쓴 음료에 더해졌고 그것은 설탕으로 달게 되었다.",
+                                                "bank": "and it was sweetened with sugar / to the bitter brew / were added / cinnamon and other spices / Here",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 15
+                                        },
+                                        {
+                                                "ko": "1657년에 최초의 초콜릿 하우스가 런던에 열렸다.",
+                                                "bank": "in London / was opened / the first chocolate house / In 1657",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 16
+                                        },
+                                        {
+                                                "ko": "카카오는 비싼 수입품이었고 오직 부유한 사람들만 초콜릿을 마실 여유가 있었다.",
+                                                "bank": "to drink chocolate / could afford / and only the rich / an expensive import / Cacao was",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 17
+                                        },
+                                        {
+                                                "ko": "사실 프랑스에서는 초콜릿이 오직 왕실에 의해서만 마셔질 수 있었다.",
+                                                "bank": "only by the royal family / could be drunk / chocolate / In fact, in France",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 18
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "8",
+                                "title": "순서 배열하기",
+                                "part": "19-24",
+                                "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+                                "mode": "writing",
+                                "allowPartial": true,
+                                "items": [
+                                        {
+                                                "ko": "1700년대까지 초콜릿은 주로 음료였지만, 1830년에 최초의 진짜 성형 초콜릿 바가 생산되었다.",
+                                                "bank": "was produced / the first real, moulded chocolate bar / but in 1830 / chocolate was mainly a drink / Up until the 1700s",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 19
+                                        },
+                                        {
+                                                "ko": "19세기 후반까지 캐드버리와 같은 초콜릿 회사들은 초콜릿 상자들을 대량 생산하고 있었다.",
+                                                "bank": "boxes of chocolates / were mass-producing / chocolate companies such as Cadbury / By the late 19th century",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 20
+                                        },
+                                        {
+                                                "ko": "오늘날 초콜릿은 수십억 달러 규모의 산업이며 전 세계 사람들이 초콜릿의 맛을 사랑한다.",
+                                                "bank": "love the taste of chocolate / and people all over the world / chocolate is a multi-billion dollar industry / Today",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 21
+                                        },
+                                        {
+                                                "ko": "이것은 곧 사라지지 않을 산업이다.",
+                                                "bank": "any time soon / that will not go away / an industry / This is",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 22
+                                        },
+                                        {
+                                                "ko": "여러분은 심지어 직접 만들 수도 있다!",
+                                                "bank": "your own / can even make / You",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>!",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 23
+                                        },
+                                        {
+                                                "ko": "알고 있었나요...? 좋은 초콜릿을 만들려면 카카오콩, 코코아 버터, 설탕, 분유라는 네 가지 재료만 필요하다.",
+                                                "bank": "cocoa beans, cocoa butter, sugar and milk powder / four ingredients / you only need / To make a good chocolate / Did you know...?",
+                                                "en": "<span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span> <span class=\"blank\"></span>.",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 24
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "9",
+                                "title": "문단 배열하기",
+                                "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+                                "mode": "paragraph-order",
+                                "blocks": [
+                                        {
+                                                "label": "(A)",
+                                                "text": "In 1502, Christopher Columbus was the first European explorer to come into contact with cacao beans when he and his crew captured a trade ship. He presumed the beans were a type of almond and brought them back to Europe, not knowing the potential value of the unusual beans. The Spanish Conquistador, Hernán Cortés, arrived in Central America in 1519."
+                                        },
+                                        {
+                                                "label": "(B)",
+                                                "text": "Today, chocolate is a multi-billion dollar industry and people all over the world love the taste of chocolate. This is an industry that will not go away any time soon. You can even make your own! Did you know...? To make a good chocolate you only need four ingredients: cocoa beans, cocoa butter, sugar and milk powder."
+                                        },
+                                        {
+                                                "label": "(C)",
+                                                "text": "Chocolate bars.. Chocolate ice cream.. Chocolate milk.. Delicious! But where does chocolate come from? Chocolate is made from the fruit of cacao trees, starting about 100 million years ago."
+                                        },
+                                        {
+                                                "label": "(D)",
+                                                "text": "The Olmecs of Mexico were probably the first to grow the cacao plant. It is thought that they used the cacao beans to make drinks, but there is no written history for the Olmecs. The Olmecs passed their cacao knowledge to the Ancient Maya of Mexico and Central America, who made chocolate into a spicy drink used in ceremonies. Cacao started to become very precious. Later the Aztecs used cacao for trade and the cacao seeds as a form of money."
+                                        },
+                                        {
+                                                "label": "(E)",
+                                                "text": "There he saw the Aztec Emperor drinking 'Xocalatl,' the earliest known hot chocolate, and Cortés realised the great value that it had. Almost ten years later Cortés established a cacao plantation for trading. He took the beans back to Spain along with the chocolate drink recipe. Here, cinnamon and other spices were added to the bitter brew and it was sweetened with sugar. In 1657, the first chocolate house was opened in London. Cacao was an expensive import and only the rich could afford to drink chocolate. In fact, in France, chocolate could be drunk only by the royal family. Up until the 1700s, chocolate was mainly a drink, but in 1830 the first real, moulded chocolate bar was produced. By the late 19th century, chocolate companies such as Cadbury were mass-producing boxes of chocolates."
+                                        }
+                                ],
+                                "sequenceSlots": 5
+                        },
+                        {
+                                "no": "10",
+                                "title": "영작 연습하기",
+                                "part": "1-8",
+                                "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+                                "mode": "writing",
+                                "allowPartial": true,
+                                "items": [
+                                        {
+                                                "ko": "초콜릿 바.. 초콜릿 아이스크림.. 초콜릿 우유.. 맛있다!",
+                                                "bank": "chocolate bars, ice cream, milk, delicious",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 1
+                                        },
+                                        {
+                                                "ko": "하지만 초콜릿은 어디에서 올까?",
+                                                "bank": "where, come from",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 2
+                                        },
+                                        {
+                                                "ko": "초콜릿은 카카오 나무의 열매로 만들어지며, 그 시작은 약 1억 년 전으로 거슬러 올라간다.",
+                                                "bank": "be made, fruit, cacao trees, 100 million years ago",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 3
+                                        },
+                                        {
+                                                "ko": "멕시코의 올멕족은 아마도 카카오 식물을 재배한 최초의 사람들이었을 것이다.",
+                                                "bank": "Olmecs, first, grow, cacao plant",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 4
+                                        },
+                                        {
+                                                "ko": "그들이 카카오콩으로 음료를 만들었다고 여겨지지만, 올멕족에 대한 기록된 역사는 없다.",
+                                                "bank": "be thought, cacao beans, drinks, written history",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 5
+                                        },
+                                        {
+                                                "ko": "올멕족은 자신들의 카카오 지식을 멕시코와 중앙아메리카의 고대 마야인들에게 전했고, 그들은 초콜릿을 의식에 사용되는 매운 음료로 만들었다.",
+                                                "bank": "pass, knowledge, Ancient Maya, spicy drink, ceremonies",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 6
+                                        },
+                                        {
+                                                "ko": "카카오는 매우 귀중해지기 시작했다.",
+                                                "bank": "start, become, precious",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 7
+                                        },
+                                        {
+                                                "ko": "나중에 아즈텍인들은 카카오를 무역에 사용했고 카카오 씨앗을 화폐의 한 형태로 사용했다.",
+                                                "bank": "Aztecs, trade, seeds, money",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 8
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "10",
+                                "title": "영작 연습하기",
+                                "part": "9-16",
+                                "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+                                "mode": "writing",
+                                "allowPartial": true,
+                                "items": [
+                                        {
+                                                "ko": "1502년에 크리스토퍼 콜럼버스는 그와 선원들이 무역선을 나포했을 때 카카오콩과 접촉하게 된 최초의 유럽 탐험가였다.",
+                                                "bank": "Christopher Columbus, European explorer, contact, captured",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 9
+                                        },
+                                        {
+                                                "ko": "그는 그 콩들이 아몬드의 한 종류라고 추정했고, 그 특이한 콩들의 잠재적 가치를 알지 못한 채 그것들을 유럽으로 가져갔다.",
+                                                "bank": "presume, almond, brought back, not knowing, potential value",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 10
+                                        },
+                                        {
+                                                "ko": "스페인 정복자 에르난 코르테스는 1519년에 중앙아메리카에 도착했다.",
+                                                "bank": "Spanish Conquistador, Hernán Cortés, Central America, 1519",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 11
+                                        },
+                                        {
+                                                "ko": "그곳에서 그는 아즈텍 황제가 가장 이른 형태의 알려진 핫 초콜릿인 'Xocalatl'을 마시는 것을 보았고, 코르테스는 그것이 가진 큰 가치를 깨달았다.",
+                                                "bank": "Aztec Emperor, drinking, Xocalatl, realised, value",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 12
+                                        },
+                                        {
+                                                "ko": "거의 10년 후 코르테스는 무역을 위해 카카오 농장을 세웠다.",
+                                                "bank": "ten years later, established, plantation, trading",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 13
+                                        },
+                                        {
+                                                "ko": "그는 초콜릿 음료 제조법과 함께 그 콩들을 스페인으로 가져갔다.",
+                                                "bank": "took, back to Spain, recipe",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 14
+                                        },
+                                        {
+                                                "ko": "여기서 계피와 다른 향신료들이 그 쓴 음료에 더해졌고 그것은 설탕으로 달게 되었다.",
+                                                "bank": "cinnamon, spices, were added, bitter brew, sweetened",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 15
+                                        },
+                                        {
+                                                "ko": "1657년에 최초의 초콜릿 하우스가 런던에 열렸다.",
+                                                "bank": "1657, chocolate house, opened, London",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 16
+                                        }
+                                ]
+                        },
+                        {
+                                "no": "10",
+                                "title": "영작 연습하기",
+                                "part": "17-24",
+                                "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+                                "mode": "writing",
+                                "allowPartial": true,
+                                "items": [
+                                        {
+                                                "ko": "카카오는 비싼 수입품이었고 오직 부유한 사람들만 초콜릿을 마실 여유가 있었다.",
+                                                "bank": "expensive import, rich, afford, drink",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 17
+                                        },
+                                        {
+                                                "ko": "사실 프랑스에서는 초콜릿이 오직 왕실에 의해서만 마셔질 수 있었다.",
+                                                "bank": "France, could be drunk, royal family",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 18
+                                        },
+                                        {
+                                                "ko": "1700년대까지 초콜릿은 주로 음료였지만, 1830년에 최초의 진짜 성형 초콜릿 바가 생산되었다.",
+                                                "bank": "1700s, mainly, drink, 1830, moulded, produced",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 19
+                                        },
+                                        {
+                                                "ko": "19세기 후반까지 캐드버리와 같은 초콜릿 회사들은 초콜릿 상자들을 대량 생산하고 있었다.",
+                                                "bank": "late 19th century, Cadbury, mass-producing, chocolates",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 20
+                                        },
+                                        {
+                                                "ko": "오늘날 초콜릿은 수십억 달러 규모의 산업이며 전 세계 사람들이 초콜릿의 맛을 사랑한다.",
+                                                "bank": "today, multi-billion dollar industry, all over the world, taste",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 21
+                                        },
+                                        {
+                                                "ko": "이것은 곧 사라지지 않을 산업이다.",
+                                                "bank": "industry, will not go away, any time soon",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 22
+                                        },
+                                        {
+                                                "ko": "여러분은 심지어 직접 만들 수도 있다!",
+                                                "bank": "even, make, own",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 23
+                                        },
+                                        {
+                                                "ko": "알고 있었나요...? 좋은 초콜릿을 만들려면 카카오콩, 코코아 버터, 설탕, 분유라는 네 가지 재료만 필요하다.",
+                                                "bank": "make, good chocolate, four ingredients, cocoa beans, cocoa butter, sugar, milk powder",
+                                                "lines": 2,
+                                                "answerHeight": "14mm",
+                                                "no": 24
+                                        }
+                                ]
+                        }
+                ],
+                "sourceSentences": [
+                        "Chocolate bars.. Chocolate ice cream.. Chocolate milk.. Delicious!",
+                        "But where does chocolate come from?",
+                        "Chocolate is made from the fruit of cacao trees, starting about 100 million years ago.",
+                        "The Olmecs of Mexico were probably the first to grow the cacao plant.",
+                        "It is thought that they used the cacao beans to make drinks, but there is no written history for the Olmecs.",
+                        "The Olmecs passed their cacao knowledge to the Ancient Maya of Mexico and Central America, who made chocolate into a spicy drink used in ceremonies.",
+                        "Cacao started to become very precious.",
+                        "Later the Aztecs used cacao for trade and the cacao seeds as a form of money.",
+                        "In 1502, Christopher Columbus was the first European explorer to come into contact with cacao beans when he and his crew captured a trade ship.",
+                        "He presumed the beans were a type of almond and brought them back to Europe, not knowing the potential value of the unusual beans.",
+                        "The Spanish Conquistador, Hernán Cortés, arrived in Central America in 1519.",
+                        "There he saw the Aztec Emperor drinking 'Xocalatl,' the earliest known hot chocolate, and Cortés realised the great value that it had.",
+                        "Almost ten years later Cortés established a cacao plantation for trading.",
+                        "He took the beans back to Spain along with the chocolate drink recipe.",
+                        "Here, cinnamon and other spices were added to the bitter brew and it was sweetened with sugar.",
+                        "In 1657, the first chocolate house was opened in London.",
+                        "Cacao was an expensive import and only the rich could afford to drink chocolate.",
+                        "In fact, in France, chocolate could be drunk only by the royal family.",
+                        "Up until the 1700s, chocolate was mainly a drink, but in 1830 the first real, moulded chocolate bar was produced.",
+                        "By the late 19th century, chocolate companies such as Cadbury were mass-producing boxes of chocolates.",
+                        "Today, chocolate is a multi-billion dollar industry and people all over the world love the taste of chocolate.",
+                        "This is an industry that will not go away any time soon.",
+                        "You can even make your own!",
+                        "[Did you know...?] To make a good chocolate you only need four ingredients: cocoa beans, cocoa butter, sugar and milk powder."
+                ]
+        }
+];
+
+      const worksheets = (() => {
+        try {
+          return __WORKSHEETS__;
+        } catch (error) {
+          return previewWorksheets;
+        }
+      })();
+
+      if (document.title.includes("__DOCUMENT_TITLE__")) {
+        document.title = "워크북 디자인 템플릿 미리보기";
+      }
+      const screenTitle = document.querySelector(".screen-title");
+      if (screenTitle && screenTitle.textContent.includes("__SCREEN_TITLE__")) {
+        screenTitle.textContent = "워크북 디자인 템플릿 미리보기";
+      }
+
+      const pages = document.querySelector("#pages");
+      let pageCounter = 0;
+
+      function value(text) {
+        return text || "";
+      }
+
+      function practiceValue(text) {
+        const html = value(text);
+        if (!html) return "";
+        const template = document.createElement("template");
+        template.innerHTML = html;
+        template.content.querySelectorAll("strong").forEach((node) => {
+          node.replaceWith(...Array.from(node.childNodes));
+        });
+        template.content.querySelectorAll(".vocab, .gloss, .answer-fill").forEach((node) => {
+          node.removeAttribute("class");
+          node.removeAttribute("data-meaning");
+        });
+        return template.innerHTML;
+      }
+
+      function list(items) {
+        return Array.isArray(items) ? items : [];
+      }
+
+      function plainText(html) {
+        const template = document.createElement("template");
+        template.innerHTML = value(html);
+        return (template.content.textContent || "").trim();
+      }
+
+      function splitBankItems(bank) {
+        const text = plainText(bank);
+        if (!text) return [];
+        const delimiter = text.includes("/") ? "/" : (text.includes(",") ? "," : "");
+        return delimiter
+          ? text.split(delimiter).map((item) => item.trim()).filter(Boolean)
+          : [text];
+      }
+
+      function countBlankTargets(html) {
+        return (value(html).match(/<span\s+class=["']blank["']\s*><\/span>/g) || []).length;
+      }
+
+      function countItemBlankTargets(item) {
+        return ["en", "ko", "prompt"]
+          .reduce((total, key) => total + countBlankTargets(item[key]), 0);
+      }
+
+      function isCompositionStep(step) {
+        return /영작/.test([step.title, step.instruction].filter(Boolean).join(" "));
+      }
+
+      function sourceSentenceCount(sheet) {
+        const arrays = [
+          sheet.sourceSentences,
+          sheet.originalSentences,
+          sheet.passageSentences,
+          sheet.sentences
+        ];
+        const found = arrays.find((items) => Array.isArray(items) && items.length);
+        if (found) return found.length;
+        const count = Number(sheet.sourceSentenceCount || sheet.originalSentenceCount || sheet.sentenceCount);
+        return Number.isFinite(count) && count > 0 ? count : 0;
+      }
+
+      function isSentenceLevelStep(step) {
+        if (!list(step.items).length) return false;
+        if (step.mode === "meaning" || step.mode === "paragraph-order") return false;
+        if (step.allowPartial || step.fullPassage === false) return false;
+        const label = [step.no, step.title, step.part, step.instruction, step.mode].filter(Boolean).join(" ");
+        return step.fullPassage === true || /빈칸|동사|어법|어휘|해석|순서|배열|영작|문장/.test(label);
+      }
+
+      function validateWorksheets() {
+        const errors = [];
+        list(worksheets).forEach((sheet, sheetIndex) => {
+          const sentenceCount = sourceSentenceCount(sheet);
+          list(sheet.steps).forEach((step) => {
+            if (sentenceCount && isSentenceLevelStep(step)) {
+              const itemCount = list(step.items).length;
+              if (itemCount !== sentenceCount) {
+                errors.push(`${value(sheet.no || sheetIndex + 1)} ${stepLabel(step)}: 원문 문장 ${sentenceCount}개, 문항 ${itemCount}개`);
+              }
+            }
+            list(step.items).forEach((item, itemIndex) => {
+              if (!item.bank || isCompositionStep(step)) return;
+              const bankCount = splitBankItems(item.bank).length;
+              const blankCount = countItemBlankTargets(item);
+              if (blankCount > 0 && bankCount !== blankCount) {
+                errors.push(`${value(sheet.no || sheetIndex + 1)} ${stepLabel(step)} ${itemIndex + 1}번: 제시어 ${bankCount}개, 빈칸 ${blankCount}개`);
+              }
+            });
+          });
+        });
+        return errors;
+      }
+
+      function renderValidationErrors(errors, title = "워크북 데이터 검토 오류") {
+        document.documentElement.dataset.renderValidation = "failed";
+        pages.innerHTML = `
+          <article class="page">
+            <section class="validation-panel">
+              <h1>${title}</h1>
+              <ul>${errors.map((error) => `<li>${error}</li>`).join("")}</ul>
+            </section>
+          </article>
+        `;
+      }
+
+      function renderWriteLines(count = 1) {
+        return Array.from({ length: count }, () => `<div class="write-line"></div>`).join("");
+      }
+
+      function splitOutsideTags(html) {
+        const parts = [];
+        let current = "";
+        let inTag = false;
+        for (const char of String(html || "")) {
+          if (char === "<") {
+            inTag = true;
+            current += char;
+          } else if (char === ">") {
+            inTag = false;
+            current += char;
+          } else if (char === "/" && !inTag) {
+            parts.push(current);
+            current = "";
+          } else {
+            current += char;
+          }
+        }
+        parts.push(current);
+        return parts;
+      }
+
+      function renderInlineGloss(en, hint) {
+        const enParts = splitOutsideTags(en);
+        const hintParts = splitOutsideTags(hint);
+        return enParts
+          .map((part, index) => {
+            const meaning = (hintParts[index] || "").trim();
+            const slash = index < enParts.length - 1 ? "&nbsp;/&nbsp;" : "";
+            return `<span class="unit-chunk"><span class="segment-gloss">${part.trim()}<span class="segment-meaning">${meaning}</span></span></span>${slash}`;
+          })
+          .join("");
+      }
+
+      function stepLabel(step) {
+        return [step.no, step.title, step.part].filter(Boolean).map(value).join(" ");
+      }
+
+      function renderMasthead(sheet, step) {
+        return `
+          <header class="masthead">
+            <div class="mast-meta">
+              <span class="lesson-chip">${value(sheet.no || sheet.lesson || "")}</span>
+              <span class="kicker">${value(sheet.kicker)}</span>
+              ${sheet.grade ? `<span class="grade-chip">${value(sheet.grade)}</span>` : ""}
+            </div>
+            <div class="step-title">${stepLabel(step)}</div>
+          </header>
+        `;
+      }
+
+      function renderInstruction(step) {
+        return `
+          <section class="instruction">
+            <p class="instruction-text">${value(step.instruction)}</p>
+          </section>
+        `;
+      }
+
+      function renderStudySummary(sheet, step) {
+        const shouldShow = step.mode === "meaning" || step.showStudySummary;
+        if (!shouldShow || (!sheet.topic && !sheet.answer)) return "";
+        return `
+          <section class="study-summary">
+            ${sheet.topic ? `
+              <section class="topic-line">
+                <div class="topic-label">주제 한 문장</div>
+                <div class="topic-write">${value(sheet.topic)}</div>
+              </section>
+            ` : ""}
+            ${sheet.answer ? `
+              <section class="answer-line">
+                <div class="answer-label">${value(sheet.answer.label || "정답 확인")}</div>
+                <div class="answer-write">${value(sheet.answer.text)}</div>
+                <div class="answer-check">${value(sheet.answer.check || "검토 완료")}</div>
+              </section>
+            ` : ""}
+          </section>
+        `;
+      }
+
+      function renderField(field, item) {
+        const className = field.className || "";
+        const html = practiceValue(item[field.key]);
+        if (!html) return "";
+        return `
+          <div class="field-row">
+            ${field.label ? `<div class="field-label">${value(field.label)}</div>` : ""}
+            <p class="${className}">${html}</p>
+          </div>
+        `;
+      }
+
+      function renderBank(item) {
+        if (!item.bank) return "";
+        return `
+          <div class="word-bank">
+            <span class="bank-label">${value(item.bankLabel || "제시어")}</span>
+            <span class="bank-text">${practiceValue(item.bank)}</span>
+          </div>
+        `;
+      }
+
+      function renderAnswerBox(item) {
+        if (!item.lines && !item.answerHeight) return "";
+        const lineCount = Math.max(2, item.lines || 2);
+        const notebookHeight = lineCount * 7;
+        const height = item.keepAnswerHeight ? (item.answerHeight || `${notebookHeight}mm`) : `${notebookHeight}mm`;
+        return `
+          <div class="write-box" style="--answer-height: ${height}">
+            ${item.writeLabel ? `<div class="write-label">${value(item.writeLabel)}</div>` : ""}
+            ${renderWriteLines(item.lines || 2)}
+          </div>
+        `;
+      }
+
+      function renderMeaning(step) {
+        const units = list(step.units).length ? step.units : list(step.items);
+        return `
+          <section class="work-area meaning-work-area">
+            <section class="meaning-board">
+              <div class="meaning-board-head">
+                <div>No.</div>
+                <div>원문 의미 단위</div>
+              </div>
+              <div class="meaning-list">
+                ${units.map((unit, index) => `
+                  <section class="meaning-row">
+                    <div class="meaning-cell unit-no">${String(value(unit.no || index + 1)).padStart(2, "0")}</div>
+                    <div class="meaning-cell text-cell">
+                      <p class="english inline-gloss">${renderInlineGloss(unit.en, unit.hint)}</p>
+                      ${unit.lines ? `<div class="lines">${renderWriteLines(unit.lines)}</div>` : ""}
+                    </div>
+                  </section>
+                `).join("")}
+              </div>
+            </section>
+          </section>
+        `;
+      }
+
+      function renderParallel(step) {
+        const fields = list(step.fields).length
+          ? step.fields
+          : [
+              { key: "en", className: "english" },
+              { key: "ko", className: "korean" }
+            ];
+        const isReading = step.layout === "reading";
+        return `
+          <section class="work-area item-work-area">
+            <div class="item-list">
+              ${list(step.items).map((item, index) => `
+                <section class="practice-item">
+                  <div class="item-no">${value(item.no || index + 1)}</div>
+                  <div class="item-main ${isReading ? "reading-grid" : ""}">
+                    ${fields.map((field) => renderField(field, item)).join("")}
+                    ${renderBank(item)}
+                    ${renderAnswerBox(item)}
+                  </div>
+                </section>
+              `).join("")}
+            </div>
+          </section>
+        `;
+      }
+
+      function renderWriting(step) {
+        const isComposition = /영작/.test([step.title, step.instruction].filter(Boolean).join(" "));
+        return `
+          <section class="work-area item-work-area">
+            <div class="item-list">
+              ${list(step.items).map((item, index) => `
+                <section class="practice-item">
+                  <div class="item-no">${value(item.no || index + 1)}</div>
+                  <div class="item-main">
+                    ${item.ko ? `<p class="korean">${practiceValue(item.ko)}</p>` : ""}
+                    ${!isComposition && item.en ? `<p class="english">${practiceValue(item.en)}</p>` : ""}
+                    ${item.prompt ? `<p class="prompt">${practiceValue(item.prompt)}</p>` : ""}
+                    ${renderBank(item)}
+                    ${renderAnswerBox({ ...item, lines: item.lines || 3 })}
+                  </div>
+                </section>
+              `).join("")}
+            </div>
+          </section>
+        `;
+      }
+
+      function renderCorrection(step) {
+        const rows = list(step.rows);
+        return `
+          <section class="work-area">
+            <div class="correction-passage">
+              <p class="english">${practiceValue(step.passage)}</p>
+            </div>
+            <div class="correction-rows">
+              ${rows.map((row, index) => `
+                <div class="correction-row">
+                  <span class="correction-no">(${value(row.no || index + 1)})</span>
+                  <span class="write-line"></span>
+                  <span class="arrow">&rarr;</span>
+                  <span class="write-line"></span>
+                </div>
+              `).join("")}
+            </div>
+          </section>
+        `;
+      }
+
+      function renderParagraphOrder(step) {
+        return `
+          <section class="work-area">
+            <div class="paragraph-list">
+              ${step.intro ? `<p class="english">${practiceValue(step.intro)}</p>` : ""}
+              ${list(step.blocks).map((block) => `
+                <div class="paragraph-block">
+                  <div class="paragraph-label">${value(block.label)}</div>
+                  <p class="paragraph">${practiceValue(block.text)}</p>
+                </div>
+              `).join("")}
+              ${step.outro ? `<p class="english">${practiceValue(step.outro)}</p>` : ""}
+              <div class="sequence-row">
+                ${Array.from({ length: step.sequenceSlots || 3 }, (_, index) => `
+                  ${index ? `<span class="sequence-arrow">&rarr;</span>` : ""}
+                  <span class="sequence-slot"></span>
+                `).join("")}
+              </div>
+            </div>
+          </section>
+        `;
+      }
+
+      function renderStepBody(step) {
+        if (step.mode === "meaning") return renderMeaning(step);
+        if (step.mode === "writing") return renderWriting(step);
+        if (step.mode === "correction") return renderCorrection(step);
+        if (step.mode === "paragraph-order") return renderParagraphOrder(step);
+        return renderParallel(step);
+      }
+
+      function renderFooter(sheet) {
+        pageCounter += 1;
+        return `
+          <footer class="footer">
+            <span></span>
+            <span>- ${pageCounter} -</span>
+            <span><img class="footer-logo-mark" src="assets/yonjogyo-logo-footer.png" alt="" /></span>
+          </footer>
+        `;
+      }
+
+      function renderStep(sheet, step) {
+        return `
+          <article class="page">
+            <div class="sheet">
+              ${renderMasthead(sheet, step)}
+              ${renderInstruction(step)}
+              ${renderStudySummary(sheet, step)}
+              ${renderStepBody(step)}
+              ${renderFooter(sheet)}
+            </div>
+          </article>
+        `;
+      }
+
+      function renderWorksheet(sheet) {
+        return list(sheet.steps).map((step) => renderStep(sheet, step)).join("");
+      }
+
+      function detectPageOverflowErrors() {
+        const tolerance = 2;
+        return Array.from(document.querySelectorAll(".page")).flatMap((page, index) => {
+          const sheet = page.querySelector(".sheet") || page;
+          const overflow = Math.max(
+            sheet.scrollHeight - sheet.clientHeight,
+            page.scrollHeight - page.clientHeight
+          );
+          const sheetRect = sheet.getBoundingClientRect();
+          const childBottom = Array.from(sheet.children).reduce((bottom, child) => {
+            const style = window.getComputedStyle(child);
+            if (style.display === "none") return bottom;
+            return Math.max(bottom, child.getBoundingClientRect().bottom);
+          }, sheetRect.top);
+          const visualOverflow = childBottom - sheetRect.bottom;
+          const overflowAmount = Math.ceil(Math.max(overflow, visualOverflow));
+          if (overflowAmount <= tolerance) return [];
+          const stepTitle = page.querySelector(".step-title")?.textContent.trim() || "단계 정보 없음";
+          return [`${index + 1}쪽 ${stepTitle}: 내용이 페이지 하단을 ${overflowAmount}px 넘습니다. 같은 단계의 part 문항 수를 줄이세요.`];
+        });
+      }
+
+      function validateRenderedPages() {
+        const overflowErrors = detectPageOverflowErrors();
+        if (overflowErrors.length) {
+          renderValidationErrors(overflowErrors, "페이지 넘침 검토 오류");
+          throw new Error(overflowErrors.join("\\n"));
+        }
+        document.documentElement.dataset.renderValidation = "ok";
+      }
+
+      const validationErrors = validateWorksheets();
+      if (validationErrors.length) {
+        renderValidationErrors(validationErrors);
+        throw new Error(validationErrors.join("\\n"));
+      }
+
+      pages.innerHTML = list(worksheets).map(renderWorksheet).join("");
+      validateRenderedPages();
+    </script>
+  </body>
+</html>
