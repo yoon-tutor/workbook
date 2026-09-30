@@ -1,0 +1,69 @@
+{
+  "$schema": "../schemas/update.schema.json",
+  "id": "U-20260826-010",
+  "title": "해설 답안 줄 전체 형상 복제",
+  "date": "2026-08-26",
+  "summary": "해설용 작성 답안의 줄별 위치·가로 길이·높이를 브라우저에서 측정하고, 동일한 형상을 유지한 채 답 글자만 제거하여 학생용을 생성합니다.",
+  "category": "layout-and-release",
+  "applyTo": "all",
+  "affectedStages": [
+    4,
+    8,
+    10
+  ],
+  "request": "서술형 문제본은 해설용 답안에서 글자만 지운 것처럼, 답안의 세로 높이뿐 아니라 각 줄의 가로 길이까지 동일하게 만듭니다.",
+  "directChanges": {
+    "files": [
+      "config/workbook-spec.json",
+      "config/versions.json",
+      "workbook_engine/compiler.py",
+      "workbook_engine/qa.py",
+      "workbook_engine/release.py",
+      "workbook_engine/templates/README.md",
+      "workbook_engine/templates/renderer.js",
+      "workbook_engine/templates/workbook.css",
+      "tests/test_engine.py",
+      "tests/test_render_contract.py",
+      "workbooks/2026-june-grade2-q20/content.json",
+      "workbooks/2026-june-grade2-q21/content.json",
+      "workbooks/chocolate/content.json",
+      "workbooks/soccer-jersey-swap/content.json",
+      "workbooks/when-failure-become-ideas/content.json"
+    ],
+    "jsonPaths": [
+      {
+        "manifest": "spec",
+        "path": "$"
+      },
+      {
+        "manifest": "template",
+        "path": "$"
+      },
+      {
+        "manifest": "build",
+        "path": "$"
+      },
+      {
+        "manifest": "canonical",
+        "path": "$"
+      }
+    ]
+  },
+  "verification": [
+    {
+      "name": "answer-first-geometry-projection",
+      "status": "pass",
+      "details": "학생용이 해설용의 측정된 줄별 위치·가로 길이·높이를 유지하고 정답 데이터만 제거하는 단위 검사를 통과했습니다."
+    },
+    {
+      "name": "student-answer-line-geometry-match",
+      "status": "pass",
+      "details": "브라우저가 학생용 빈 작성선과 해설 답안의 각 줄에 대해 위치·가로 길이·높이를 비교하며, 0.75px를 넘는 차이를 릴리스 차단 조건으로 검증합니다."
+    },
+    {
+      "name": "regression-suite",
+      "status": "pass",
+      "details": "정본 5개 검증과 전체 회귀 검사 33개가 통과했습니다."
+    }
+  ]
+}

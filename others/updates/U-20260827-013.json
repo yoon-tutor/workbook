@@ -1,0 +1,48 @@
+{
+  "$schema": "../schemas/update.schema.json",
+  "id": "U-20260827-013",
+  "title": "2026학년도 6월 고2 22·23번 10단계 워크북 신규 등록",
+  "date": "2026-08-27",
+  "summary": "제공된 2026학년도 6월 고2 전국연합학력평가 PDF의 22번과 23번 지문을 각각 단일 canonical 정본으로 전사하고 학생용·해설용 10단계 워크북을 생성합니다.",
+  "category": "new-content",
+  "applyTo": "selected",
+  "selectedWorkbooks": [
+    "2026-june-grade2-q22",
+    "2026-june-grade2-q23"
+  ],
+  "affectedStages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "request": "고2 6월 원본 PDF의 22, 23번으로 작업을 시작합니다.",
+  "directChanges": {
+    "files": [
+      "config/versions.json",
+      "updates/U-20260827-013.json",
+      "workbooks/2026-june-grade2-q22/content.json",
+      "workbooks/2026-june-grade2-q23/content.json"
+    ],
+    "jsonPaths": [
+      {"manifest": "canonical", "path": "$"}
+    ]
+  },
+  "verification": [
+    {
+      "name": "source-transcription",
+      "status": "pass",
+      "details": "원본 PDF 3쪽을 렌더링해 22번과 23번의 본문 단어, 대소문자, 숫자, 문장부호를 시각 확인했습니다."
+    },
+    {
+      "name": "source-question-cross-check",
+      "status": "pass",
+      "details": "22번 요지 문항의 정답 ②와 23번 주제 문항의 정답 ③을 지문 전체 의미 검토에 교차 사용했습니다."
+    },
+    {
+      "name": "semantic-review",
+      "status": "pass",
+      "details": "완성 번역, 직독직해 영한 1:1 대응, 서술어, 어휘, 동사 cue, 오답과 배열 복원을 문장별로 검토했습니다."
+    },
+    {
+      "name": "release-validation",
+      "status": "pass",
+      "details": "두 canonical의 스키마·구조 검증, 전체 단위 테스트, 브라우저 QA, PDF 쪽수 및 대표 페이지 시각 검수를 완료했습니다."
+    }
+  ]
+}

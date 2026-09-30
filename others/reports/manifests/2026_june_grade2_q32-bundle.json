@@ -1,0 +1,2596 @@
+{
+  "build": {
+    "appliedUpdates": [
+      "U-20260903-017"
+    ],
+    "buildVersion": "1.0.0",
+    "builtAt": "2026-09-03T15:24:16+09:00",
+    "canonicalDigest": "df40a2164a664eef754af867d93baf7b19f46ab5c30d71bec15494a64c8a67dd",
+    "compilerVersion": "1.0.7",
+    "contentVersion": "1.0.0",
+    "engineDigest": "755fa39f2f38e0c481da489f7b37fc92110b71ae3cf018dda83004df187ac114",
+    "engineInputs": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      }
+    ],
+    "files": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      },
+      {
+        "path": "문제.html",
+        "sha256": "b17c371c842837c726d10f1cc7fa851a58f1279b29423bf361645a591dd88b82",
+        "size": 137533
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "7f19537bd3f1389baabb60e26eed76a7e6faa92da1923886f142a959f71b0038",
+        "size": 558839
+      },
+      {
+        "path": "해설.html",
+        "sha256": "ea0f252b932d0a0c2455e23c2265aab98355b0930fe4ce11d035b9e39c733f2b",
+        "size": 145718
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "d4d683923e5435525e374dfee21b87f9d714f642144f0b8e1e89c621f3bfd19b",
+        "size": 691362
+      }
+    ],
+    "outputs": [
+      {
+        "path": "문제.html",
+        "sha256": "b17c371c842837c726d10f1cc7fa851a58f1279b29423bf361645a591dd88b82",
+        "size": 137533
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "7f19537bd3f1389baabb60e26eed76a7e6faa92da1923886f142a959f71b0038",
+        "size": 558839
+      },
+      {
+        "path": "해설.html",
+        "sha256": "ea0f252b932d0a0c2455e23c2265aab98355b0930fe4ce11d035b9e39c733f2b",
+        "size": 145718
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "d4d683923e5435525e374dfee21b87f9d714f642144f0b8e1e89c621f3bfd19b",
+        "size": 691362
+      }
+    ],
+    "pages": [
+      {
+        "digest": "94d7ee0b8ac213f4b01e3fb4545f3a5ee75b6e81934f26f95bb9e23616e40613",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q32-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q32-p01",
+        "part": "1-6",
+        "stageId": "1"
+      },
+      {
+        "digest": "05890bb21b82b6c319319e8a7d0ab836d78dfcf8de35253d293fe66ebf1ea2b4",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q32-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q32-p02",
+        "part": "1-6",
+        "stageId": "2"
+      },
+      {
+        "digest": "bfd8a99b1d4172bdf68c59798ee4f1b225f955b1876d7e21edadeb207ccdc094",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q32-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q32-p03",
+        "part": "1-6",
+        "stageId": "3"
+      },
+      {
+        "digest": "ed6c1da3c55931b97fda0215291bd31683e5d0e78284b964bb9844bc1ecd5390",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q32-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q32-p04",
+        "part": "1-6",
+        "stageId": "4"
+      },
+      {
+        "digest": "260325b89280f3052929062f0cf5aaf7d4672e74f81888d3b3682e227f70fd48",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q32-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q32-p05",
+        "part": "1-6",
+        "stageId": "5"
+      },
+      {
+        "digest": "9dff4f52e1886534529fa8c72cd3f002c2b3fcf803421705cd44cb1c18b1621f",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q32-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q32-p06",
+        "part": "1-6",
+        "stageId": "6"
+      },
+      {
+        "digest": "f6eabb7450b1aa40c43e59e63ce1511f35fb39e9f542722b70ae5e94a3e956b5",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q32-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q32-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "2d32bff51f3812a549f80811a184d75599ac524f486f5d5f50cb564eebf494f4",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q32-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q32-p08",
+        "part": "1-6",
+        "stageId": "8"
+      },
+      {
+        "digest": "391970429c2c90458615bbb20cda807da00dfb62d9c206a1bdc0308782d4f457",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q32-p09",
+        "itemIds": [],
+        "page": 9,
+        "pageId": "2026-june-grade2-q32-p09",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "56752acd8b1a6cbbe94d6373cd5881c6856a640cd390d40e22ef9c6c38d1fcf4",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q32-p10",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 10,
+        "pageId": "2026-june-grade2-q32-p10",
+        "part": "1-6",
+        "stageId": "10"
+      },
+      {
+        "digest": "94d7ee0b8ac213f4b01e3fb4545f3a5ee75b6e81934f26f95bb9e23616e40613",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q32-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q32-p01",
+        "part": "1-6",
+        "stageId": "1"
+      },
+      {
+        "digest": "a613b445100c55cc84c3ec8f9fae9a69cd2aedddae1483a2bd3b0158b10fd935",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q32-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q32-p02",
+        "part": "1-6",
+        "stageId": "2"
+      },
+      {
+        "digest": "eef3f8224f6b576798ba11b03698ebb52cb6d6d7b5d5ad9e612b86207af1c288",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q32-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q32-p03",
+        "part": "1-6",
+        "stageId": "3"
+      },
+      {
+        "digest": "1dc41fb3e8828f79a49c01c5d794e9d133cefe358cf1ecb54b6213b1e153e9cc",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q32-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q32-p04",
+        "part": "1-6",
+        "stageId": "4"
+      },
+      {
+        "digest": "28d4101d7c55de1f952f5730b6a4c49c71f9ef4051b2e4ba6ad1208a95a4d470",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q32-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q32-p05",
+        "part": "1-6",
+        "stageId": "5"
+      },
+      {
+        "digest": "40b61fc265d53539b23ee35a80ad8b9f230c358ff24acc725b8b46673d019a9f",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q32-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q32-p06",
+        "part": "1-6",
+        "stageId": "6"
+      },
+      {
+        "digest": "6b6b3eda9616cd6f29b38f8c6765314ffb2790aa79e12824cc81cfc1339419b2",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q32-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q32-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "e58d5dff58e2fee990b47631c52a6218908da5cd3d45f03b262fd0862bdca200",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q32-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q32-p08",
+        "part": "1-6",
+        "stageId": "8"
+      },
+      {
+        "digest": "c4f61790c93850a5154b6e75a7d1321ad0404b5a1dc8013f90ef252237e7ea20",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q32-p09",
+        "itemIds": [],
+        "page": 9,
+        "pageId": "2026-june-grade2-q32-p09",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "f48a32b70cfe9a8fbc1f8ccbd4bd8bbb92f19f5b5e7d1f673f6f53ad6d7f8805",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q32-p10",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 10,
+        "pageId": "2026-june-grade2-q32-p10",
+        "part": "1-6",
+        "stageId": "10"
+      }
+    ],
+    "qa": {
+      "contactSheets": [
+        "qa/samples/student-contact-sheet.png",
+        "qa/samples/answer-contact-sheet.png"
+      ],
+      "dom": {
+        "answer": {
+          "pages": 10,
+          "solutions": 69
+        },
+        "matchedResponseBoxCount": 18,
+        "matchedResponseLineCount": 25,
+        "matchedSolutionSlotCount": 58,
+        "sharedTargetSlotCount": 76,
+        "student": {
+          "pages": 10,
+          "solutions": 0
+        }
+      },
+      "pdf": {
+        "answerPages": 10,
+        "studentPages": 10
+      },
+      "status": "passed",
+      "visualSamples": [
+        "qa/samples/student-p01.png",
+        "qa/samples/student-p02.png",
+        "qa/samples/student-p03.png",
+        "qa/samples/student-p04.png",
+        "qa/samples/student-p05.png",
+        "qa/samples/student-p06.png",
+        "qa/samples/student-p07.png",
+        "qa/samples/student-p08.png",
+        "qa/samples/student-p09.png",
+        "qa/samples/student-p10.png",
+        "qa/samples/answer-p01.png",
+        "qa/samples/answer-p02.png",
+        "qa/samples/answer-p03.png",
+        "qa/samples/answer-p04.png",
+        "qa/samples/answer-p05.png",
+        "qa/samples/answer-p06.png",
+        "qa/samples/answer-p07.png",
+        "qa/samples/answer-p08.png",
+        "qa/samples/answer-p09.png",
+        "qa/samples/answer-p10.png"
+      ]
+    },
+    "reportFormatVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "semanticRubricVersion": "1.0.0",
+    "sourceDigest": "0c7e9086077f681fd141f23f0123f51b9b9c10c09a7bc5cd3ae26929e604061e",
+    "specVersion": "1.0.6",
+    "templateVersion": "1.0.4",
+    "validationStatus": "passed",
+    "visualReview": {
+      "notes": "학생용·해설용 10쪽 전체 contact sheet와 7단계 상세 페이지를 확인했습니다. 1단계, 2·3단계 빈칸, 4·8·10단계 작성 영역, 7단계 교정 색상, 9단계 문단 순서, 마지막 페이지와 푸터에 잘림·겹침·정답 누출이 없고 문제·해설 target 배치가 일치합니다.",
+      "reviewedAt": "2026-09-03T15:24:43+09:00",
+      "reviewer": "Codex",
+      "status": "passed"
+    },
+    "workbookId": "2026-june-grade2-q32"
+  },
+  "bundleVersion": 1,
+  "canonical": {
+    "canonical": {
+      "$schema": "../../schemas/canonical-workbook.schema.json",
+      "contentVersion": "1.0.0",
+      "metadata": {
+        "grade": "고등학교 2학년",
+        "kicker": "High School Reading",
+        "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 32번",
+        "sourceLanguage": "en",
+        "targetLanguage": "ko",
+        "title": "2026학년도 6월 고2 32번 10단계 워크북",
+        "topic": "접촉 자극이 식물의 유전자 발현과 성장을 억제하는 영향"
+      },
+      "passageActivities": {
+        "correction": [
+          {
+            "id": "correction-01",
+            "targets": [
+              {
+                "correct": "revolution made",
+                "id": "correction-01-01",
+                "incorrect": "revolution make",
+                "target": {
+                  "occurrence": 1,
+                  "text": "revolution make"
+                }
+              },
+              {
+                "correct": "researchers saw",
+                "id": "correction-01-02",
+                "incorrect": "researchers see",
+                "target": {
+                  "occurrence": 1,
+                  "text": "researchers see"
+                }
+              },
+              {
+                "correct": "could substantially inhibit their growth",
+                "id": "correction-01-03",
+                "incorrect": "could substantially promote their growth",
+                "target": {
+                  "occurrence": 1,
+                  "text": "could substantially promote their growth"
+                }
+              },
+              {
+                "correct": "then analyzed",
+                "id": "correction-01-04",
+                "incorrect": "then analyze",
+                "target": {
+                  "occurrence": 1,
+                  "text": "then analyze"
+                }
+              },
+              {
+                "correct": "genome was altered",
+                "id": "correction-01-05",
+                "incorrect": "genome were altered",
+                "target": {
+                  "occurrence": 1,
+                  "text": "genome were altered"
+                }
+              },
+              {
+                "correct": "and rerouting energy",
+                "id": "correction-01-06",
+                "incorrect": "and reroute energy",
+                "target": {
+                  "occurrence": 1,
+                  "text": "and reroute energy"
+                }
+              },
+              {
+                "correct": "by as much as",
+                "id": "correction-01-07",
+                "incorrect": "for as much as",
+                "target": {
+                  "occurrence": 1,
+                  "text": "for as much as"
+                }
+              }
+            ],
+            "textOverride": "The genomics revolution make it possible to see just how impactful touch is to plants on a deeper level. Peering at the genes of Arabidopsis thaliana, a weedy plant in the mustard family and the lab rat of the plant biology world, researchers see that touch quietly triggered such a dramatic response in their hormones and gene expression that it could substantially promote their growth. They stroked the arabidopsis with soft paintbrushes, and then analyze the plants’ genetic responses. Within thirty minutes of being touched, 10 percent of the plant’s genome were altered. Clearly, the plant was reorganizing its priorities to deal with the disturbance, and reroute energy away from the hard work of getting taller. Touched multiple times, arabidopsis cut its upward growth rate for as much as 30 percent."
+          }
+        ],
+        "paragraphOrder": [
+          {
+            "answerOrder": [
+              "A",
+              "B",
+              "C"
+            ],
+            "blocks": [
+              {
+                "id": "A",
+                "sentenceIds": [
+                  "s001",
+                  "s002"
+                ]
+              },
+              {
+                "id": "B",
+                "sentenceIds": [
+                  "s003",
+                  "s004"
+                ]
+              },
+              {
+                "id": "C",
+                "sentenceIds": [
+                  "s005",
+                  "s006"
+                ]
+              }
+            ],
+            "displayOrder": [
+              "B",
+              "C",
+              "A"
+            ],
+            "id": "paragraph-order-01"
+          }
+        ]
+      },
+      "schemaVersion": "1.0.0",
+      "sentences": [
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "made"
+                  }
+                ],
+                "id": "s001-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "가능하게 했다"
+                  }
+                ],
+                "segmentId": "s001-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s001-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "미치는지를"
+                  }
+                ],
+                "segmentId": "s001-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "genomics"
+                },
+                "id": "s001-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "유전체학"
+                },
+                "meaning": "생물의 전체 유전 정보를 연구하는 학문",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s001-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "impactful"
+                },
+                "id": "s001-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "큰 영향을"
+                },
+                "meaning": "영향력이 큰",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s001-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s001-a",
+                  "text": "The genomics revolution made it possible"
+                },
+                {
+                  "id": "s001-b",
+                  "text": "to see just how impactful touch is to plants"
+                },
+                {
+                  "id": "s001-c",
+                  "text": "on a deeper level."
+                }
+              ],
+              "displayOrder": [
+                "s001-b",
+                "s001-c",
+                "s001-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s001-choice-01",
+                  "options": [
+                    "on a deeper level",
+                    "only on the surface"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "on a deeper level"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s001-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "genomics revolution"
+                  }
+                },
+                {
+                  "id": "s001-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "how impactful touch is to plants"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s001-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "접촉이 식물에 얼마나 큰 영향을 미치는지"
+                  }
+                },
+                {
+                  "id": "s001-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "더 깊은 수준에서"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "make it possible",
+                  "id": "s001-verb-01",
+                  "lemma": "make",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "made it possible"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s001-verb-02",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "genomics revolution",
+                "make it possible",
+                "see",
+                "impactful touch",
+                "plants",
+                "deeper level"
+              ]
+            }
+          },
+          "id": "s001",
+          "meaningSegments": [
+            {
+              "en": "The genomics revolution made it possible",
+              "id": "s001-m01",
+              "ko": "유전체학 혁명은 가능하게 했다"
+            },
+            {
+              "en": "to see",
+              "id": "s001-m02",
+              "ko": "보는 것을"
+            },
+            {
+              "en": "just how impactful touch is to plants",
+              "id": "s001-m03",
+              "ko": "접촉이 식물에 얼마나 큰 영향을 미치는지를"
+            },
+            {
+              "en": "on a deeper level.",
+              "id": "s001-m04",
+              "ko": "더 깊은 수준에서."
+            }
+          ],
+          "no": 1,
+          "source": "The genomics revolution made it possible to see just how impactful touch is to plants on a deeper level.",
+          "translation": "유전체학 혁명은 접촉이 식물에 얼마나 큰 영향을 미치는지를 더 깊은 수준에서 볼 수 있게 했다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "saw"
+                  }
+                ],
+                "id": "s002-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "알게 되었다"
+                  }
+                ],
+                "segmentId": "s002-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "triggered"
+                  }
+                ],
+                "id": "s002-m05-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "유발했다는"
+                  }
+                ],
+                "segmentId": "s002-m05"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "could substantially inhibit"
+                  }
+                ],
+                "id": "s002-m08-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "상당히 억제할 수 있을"
+                  }
+                ],
+                "segmentId": "s002-m08"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Arabidopsis thaliana"
+                },
+                "id": "s002-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "애기장대"
+                },
+                "meaning": "식물 연구에 널리 쓰이는 작은 식물",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s002-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "gene expression"
+                },
+                "id": "s002-m07-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "유전자 발현"
+                },
+                "meaning": "유전 정보가 실제 기능으로 나타나는 과정",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s002-m07"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "inhibit"
+                },
+                "id": "s002-m08-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "억제할"
+                },
+                "meaning": "진행이나 성장을 막거나 늦추다",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s002-m08"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s002-a",
+                  "text": "Peering at the genes of Arabidopsis thaliana, a weedy plant in the mustard family"
+                },
+                {
+                  "id": "s002-b",
+                  "text": "and the lab rat of the plant biology world, researchers saw"
+                },
+                {
+                  "id": "s002-c",
+                  "text": "that touch quietly triggered such a dramatic response in their hormones and gene expression"
+                },
+                {
+                  "id": "s002-d",
+                  "text": "that it could substantially inhibit their growth."
+                }
+              ],
+              "displayOrder": [
+                "s002-c",
+                "s002-a",
+                "s002-d",
+                "s002-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s002-choice-01",
+                  "options": [
+                    "inhibit their growth",
+                    "increase their maximum height"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "inhibit their growth"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s002-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "hormones and gene expression"
+                  }
+                },
+                {
+                  "id": "s002-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "substantially inhibit their growth"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s002-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "호르몬과 유전자 발현"
+                  }
+                },
+                {
+                  "id": "s002-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "성장을 상당히 억제할 수 있다는"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "see",
+                  "id": "s002-verb-01",
+                  "lemma": "see",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "researchers saw"
+                  }
+                },
+                {
+                  "cue": "trigger",
+                  "id": "s002-verb-02",
+                  "lemma": "trigger",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "triggered"
+                  }
+                },
+                {
+                  "cue": "inhibit",
+                  "id": "s002-verb-03",
+                  "lemma": "inhibit",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "could substantially inhibit"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "peer at genes",
+                "Arabidopsis thaliana",
+                "researchers see",
+                "touch",
+                "trigger a dramatic response",
+                "inhibit growth"
+              ]
+            }
+          },
+          "id": "s002",
+          "meaningSegments": [
+            {
+              "en": "Peering at the genes of Arabidopsis thaliana,",
+              "id": "s002-m01",
+              "ko": "애기장대의 유전자를 들여다보면서,"
+            },
+            {
+              "en": "a weedy plant in the mustard family",
+              "id": "s002-m02",
+              "ko": "겨잣과의 잡초성 식물이자"
+            },
+            {
+              "en": "and the lab rat of the plant biology world,",
+              "id": "s002-m03",
+              "ko": "식물 생물학계의 실험용 쥐인,"
+            },
+            {
+              "en": "researchers saw",
+              "id": "s002-m04",
+              "ko": "연구자들은 알게 되었다"
+            },
+            {
+              "en": "that touch quietly triggered",
+              "id": "s002-m05",
+              "ko": "접촉이 조용히 유발했다는 것을"
+            },
+            {
+              "en": "such a dramatic response",
+              "id": "s002-m06",
+              "ko": "매우 극적인 반응을"
+            },
+            {
+              "en": "in their hormones and gene expression",
+              "id": "s002-m07",
+              "ko": "그들의 호르몬과 유전자 발현에"
+            },
+            {
+              "en": "that it could substantially inhibit their growth.",
+              "id": "s002-m08",
+              "ko": "그것이 그들의 성장을 상당히 억제할 수 있을 정도로."
+            }
+          ],
+          "no": 2,
+          "source": "Peering at the genes of Arabidopsis thaliana, a weedy plant in the mustard family and the lab rat of the plant biology world, researchers saw that touch quietly triggered such a dramatic response in their hormones and gene expression that it could substantially inhibit their growth.",
+          "translation": "겨잣과의 잡초성 식물이자 식물 생물학계의 실험용 쥐인 애기장대의 유전자를 들여다보면서, 연구자들은 접촉이 호르몬과 유전자 발현에 매우 극적인 반응을 조용히 유발하여 식물의 성장을 상당히 억제할 수 있다는 것을 알게 되었다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "stroked"
+                  }
+                ],
+                "id": "s003-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "쓰다듬었다"
+                  }
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "analyzed"
+                  }
+                ],
+                "id": "s003-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "분석했다"
+                  }
+                ],
+                "segmentId": "s003-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "stroked"
+                },
+                "id": "s003-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "쓰다듬었다"
+                },
+                "meaning": "손이나 도구로 부드럽게 쓸었다",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "genetic responses"
+                },
+                "id": "s003-m04-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "유전적 반응"
+                },
+                "meaning": "유전자 수준에서 나타나는 변화",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s003-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s003-a",
+                  "text": "They stroked the arabidopsis"
+                },
+                {
+                  "id": "s003-b",
+                  "text": "with soft paintbrushes,"
+                },
+                {
+                  "id": "s003-c",
+                  "text": "and then analyzed"
+                },
+                {
+                  "id": "s003-d",
+                  "text": "the plants’ genetic responses."
+                }
+              ],
+              "displayOrder": [
+                "s003-b",
+                "s003-d",
+                "s003-a",
+                "s003-c"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s003-choice-01",
+                  "options": [
+                    "with soft paintbrushes",
+                    "with sharp tools"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "with soft paintbrushes"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s003-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "with soft paintbrushes"
+                  }
+                },
+                {
+                  "id": "s003-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "analyzed the plants’ genetic responses"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s003-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "부드러운 붓으로"
+                  }
+                },
+                {
+                  "id": "s003-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "유전적 반응을 분석했다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "stroke",
+                  "id": "s003-verb-01",
+                  "lemma": "stroke",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "stroked"
+                  }
+                },
+                {
+                  "cue": "analyze",
+                  "id": "s003-verb-02",
+                  "lemma": "analyze",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "analyzed"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "stroke",
+                "arabidopsis",
+                "soft paintbrushes",
+                "then",
+                "analyze",
+                "genetic responses"
+              ]
+            }
+          },
+          "id": "s003",
+          "meaningSegments": [
+            {
+              "en": "They stroked the arabidopsis",
+              "id": "s003-m01",
+              "ko": "그들은 애기장대를 쓰다듬었다"
+            },
+            {
+              "en": "with soft paintbrushes,",
+              "id": "s003-m02",
+              "ko": "부드러운 붓으로,"
+            },
+            {
+              "en": "and then analyzed",
+              "id": "s003-m03",
+              "ko": "그런 다음 분석했다"
+            },
+            {
+              "en": "the plants’ genetic responses.",
+              "id": "s003-m04",
+              "ko": "식물의 유전적 반응을."
+            }
+          ],
+          "no": 3,
+          "source": "They stroked the arabidopsis with soft paintbrushes, and then analyzed the plants’ genetic responses.",
+          "translation": "연구자들은 부드러운 붓으로 애기장대를 쓰다듬은 다음 식물의 유전적 반응을 분석했다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was altered"
+                  }
+                ],
+                "id": "s004-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "변화했다"
+                  }
+                ],
+                "segmentId": "s004-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "genome"
+                },
+                "id": "s004-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "유전체"
+                },
+                "meaning": "생물이 가진 전체 유전 정보",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s004-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "altered"
+                },
+                "id": "s004-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "변화했다"
+                },
+                "meaning": "달라지게 되었다",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s004-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s004-a",
+                  "text": "Within thirty minutes of being touched,"
+                },
+                {
+                  "id": "s004-b",
+                  "text": "10 percent of the plant’s genome"
+                },
+                {
+                  "id": "s004-c",
+                  "text": "was altered."
+                }
+              ],
+              "displayOrder": [
+                "s004-c",
+                "s004-a",
+                "s004-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s004-choice-01",
+                  "options": [
+                    "was altered",
+                    "remained unchanged"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was altered"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s004-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Within thirty minutes"
+                  }
+                },
+                {
+                  "id": "s004-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "10 percent of the plant’s genome"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s004-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "30분 이내에"
+                  }
+                },
+                {
+                  "id": "s004-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "식물 유전체의 10퍼센트"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "alter",
+                  "id": "s004-verb-01",
+                  "lemma": "alter",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was altered"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "within thirty minutes",
+                "be touched",
+                "10 percent",
+                "plant’s genome",
+                "be altered"
+              ]
+            }
+          },
+          "id": "s004",
+          "meaningSegments": [
+            {
+              "en": "Within thirty minutes of being touched,",
+              "id": "s004-m01",
+              "ko": "접촉된 지 30분 이내에,"
+            },
+            {
+              "en": "10 percent of the plant’s genome",
+              "id": "s004-m02",
+              "ko": "식물 유전체의 10퍼센트가"
+            },
+            {
+              "en": "was altered.",
+              "id": "s004-m03",
+              "ko": "변화했다."
+            }
+          ],
+          "no": 4,
+          "source": "Within thirty minutes of being touched, 10 percent of the plant’s genome was altered.",
+          "translation": "접촉된 지 30분 이내에 식물 유전체의 10퍼센트가 변화했다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was reorganizing"
+                  }
+                ],
+                "id": "s005-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "재편하고 있었다"
+                  }
+                ],
+                "segmentId": "s005-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "rerouting"
+                  }
+                ],
+                "id": "s005-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "돌리고 있었다"
+                  }
+                ],
+                "segmentId": "s005-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "priorities"
+                },
+                "id": "s005-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "우선순위"
+                },
+                "meaning": "중요도에 따라 먼저 처리할 사항들",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s005-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "disturbance"
+                },
+                "id": "s005-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "방해"
+                },
+                "meaning": "정상 상태를 흐트러뜨리는 자극",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s005-m03"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "energy"
+                },
+                "id": "s005-m04-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "에너지"
+                },
+                "meaning": "생명 활동에 쓰이는 힘",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s005-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s005-a",
+                  "text": "Clearly, the plant was reorganizing its priorities"
+                },
+                {
+                  "id": "s005-b",
+                  "text": "to deal with the disturbance,"
+                },
+                {
+                  "id": "s005-c",
+                  "text": "and rerouting energy away"
+                },
+                {
+                  "id": "s005-d",
+                  "text": "from the hard work of getting taller."
+                }
+              ],
+              "displayOrder": [
+                "s005-d",
+                "s005-b",
+                "s005-a",
+                "s005-c"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s005-choice-01",
+                  "options": [
+                    "away from",
+                    "toward"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "away from"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s005-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "reorganizing its priorities"
+                  }
+                },
+                {
+                  "id": "s005-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "rerouting energy away"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s005-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "우선순위를 재편하고 있었고"
+                  }
+                },
+                {
+                  "id": "s005-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "에너지를 다른 곳으로 돌리고 있었다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "reorganize",
+                  "id": "s005-verb-01",
+                  "lemma": "reorganize",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was reorganizing"
+                  }
+                },
+                {
+                  "cue": "reroute",
+                  "id": "s005-verb-02",
+                  "lemma": "reroute",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "rerouting"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "clearly",
+                "reorganize priorities",
+                "deal with",
+                "disturbance",
+                "reroute energy",
+                "get taller"
+              ]
+            }
+          },
+          "id": "s005",
+          "meaningSegments": [
+            {
+              "en": "Clearly,",
+              "id": "s005-m01",
+              "ko": "분명히,"
+            },
+            {
+              "en": "the plant was reorganizing its priorities",
+              "id": "s005-m02",
+              "ko": "그 식물은 우선순위를 재편하고 있었다"
+            },
+            {
+              "en": "to deal with the disturbance,",
+              "id": "s005-m03",
+              "ko": "방해에 대처하기 위해,"
+            },
+            {
+              "en": "and rerouting energy away",
+              "id": "s005-m04",
+              "ko": "그리고 에너지를 다른 곳으로 돌리고 있었다"
+            },
+            {
+              "en": "from the hard work of getting taller.",
+              "id": "s005-m05",
+              "ko": "키가 커지는 힘든 작업에서."
+            }
+          ],
+          "no": 5,
+          "source": "Clearly, the plant was reorganizing its priorities to deal with the disturbance, and rerouting energy away from the hard work of getting taller.",
+          "translation": "분명히 그 식물은 방해에 대처하기 위해 우선순위를 재편하고 있었고, 키가 커지는 힘든 작업에서 에너지를 다른 곳으로 돌리고 있었다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "cut"
+                  }
+                ],
+                "id": "s006-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "줄였다"
+                  }
+                ],
+                "segmentId": "s006-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "upward growth rate"
+                },
+                "id": "s006-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "위쪽으로 자라는 성장률"
+                },
+                "meaning": "키가 위로 자라는 속도",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s006-m03"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "as much as"
+                },
+                "id": "s006-m04-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "무려"
+                },
+                "meaning": "많게는, 무려",
+                "reasons": [
+                  "structure-critical"
+                ],
+                "segmentId": "s006-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s006-a",
+                  "text": "Touched multiple times,"
+                },
+                {
+                  "id": "s006-b",
+                  "text": "arabidopsis cut"
+                },
+                {
+                  "id": "s006-c",
+                  "text": "its upward growth rate"
+                },
+                {
+                  "id": "s006-d",
+                  "text": "by as much as 30 percent."
+                }
+              ],
+              "displayOrder": [
+                "s006-c",
+                "s006-a",
+                "s006-d",
+                "s006-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s006-choice-01",
+                  "options": [
+                    "cut",
+                    "accelerated"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "cut"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s006-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Touched multiple times"
+                  }
+                },
+                {
+                  "id": "s006-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "cut its upward growth rate"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s006-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "여러 번 접촉되자"
+                  }
+                },
+                {
+                  "id": "s006-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "성장률을 무려 30퍼센트까지 줄였다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "cut",
+                  "id": "s006-verb-01",
+                  "lemma": "cut",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "cut"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "touch multiple times",
+                "arabidopsis",
+                "cut",
+                "upward growth rate",
+                "as much as",
+                "30 percent"
+              ]
+            }
+          },
+          "id": "s006",
+          "meaningSegments": [
+            {
+              "en": "Touched multiple times,",
+              "id": "s006-m01",
+              "ko": "여러 번 접촉되자,"
+            },
+            {
+              "en": "arabidopsis cut",
+              "id": "s006-m02",
+              "ko": "애기장대는 줄였다"
+            },
+            {
+              "en": "its upward growth rate",
+              "id": "s006-m03",
+              "ko": "위쪽으로 자라는 성장률을"
+            },
+            {
+              "en": "by as much as 30 percent.",
+              "id": "s006-m04",
+              "ko": "무려 30퍼센트까지."
+            }
+          ],
+          "no": 6,
+          "source": "Touched multiple times, arabidopsis cut its upward growth rate by as much as 30 percent.",
+          "translation": "여러 번 접촉되자 애기장대는 위쪽으로 자라는 성장률을 무려 30퍼센트까지 줄였다."
+        }
+      ],
+      "sourceStatus": {
+        "notes": "원본 PDF 5쪽의 32번 본문, 빈칸, 선택지를 고해상도로 렌더링해 전사했습니다. 빈칸은 문맥과 선택지를 대조해 정답 ② inhibit their growth를 canonical 본문에 복원했습니다.",
+        "references": [
+          "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+        ],
+        "sentenceCount": 6,
+        "sourceType": "pdf",
+        "status": "confirmed",
+        "verifiedAt": "2026-09-03T15:25:00+09:00"
+      },
+      "specVersion": "1.0.6",
+      "updateState": {
+        "appliedUpdates": [
+          {
+            "appliedAt": "2026-09-03T15:30:00+09:00",
+            "fromContentVersion": "0.0.0",
+            "id": "U-20260903-017",
+            "report": "reports/updates/U-20260903-017.md",
+            "scope": "selected",
+            "toContentVersion": "1.0.0"
+          }
+        ],
+        "defaultScope": "new-only"
+      },
+      "workbookId": "2026-june-grade2-q32"
+    },
+    "contentVersion": "1.0.0",
+    "files": [
+      {
+        "path": "workbooks/2026-june-grade2-q32/content.json",
+        "sha256": "18aa6bde8cfa021a3894581f970a162ab1fa3e0f636936ade1aba5eb11de33e7",
+        "size": 39211
+      }
+    ],
+    "workbookId": "2026-june-grade2-q32"
+  },
+  "spec": {
+    "files": [
+      {
+        "path": "config/versions.json",
+        "sha256": "a60ea6277db39094018108ee86a4d12e2e48d49ac443b0150ff83432848e85d5",
+        "size": 1709
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "sha256": "aadb3fe161b100e3a68ecb42fab51775e9738153a04278a53b27e7172f8d8f69",
+        "size": 17021
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+        "size": 8058
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "schemaFiles": [
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "semanticRubricFile": {
+      "path": "docs/semantic-rubric.md",
+      "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+      "size": 8058
+    },
+    "semanticRubricVersion": "1.0.0",
+    "spec": {
+      "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "answerEditionContract": {
+        "answerFillClassMayAutoColor": false,
+        "choicePromptVisibleInAnswer": true,
+        "redAllowedOnlyOnSolutionValues": true,
+        "sameStageAndExerciseDomAsStudent": true,
+        "solutionClass": "solution-value",
+        "solutionColor": "#D71920",
+        "solutionInsertion": "fill-the-same-solution-slot",
+        "studentDerivation": "render answer first, lock every solution slot and writing response geometry, then remove solution values only",
+        "studentPayloadMayContainSolutions": false
+      },
+      "canonicalSchema": "schemas/canonical-workbook.schema.json",
+      "canonicalText": {
+        "baseTextOverride": {
+          "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+          "defaultStorage": "omit-baseText-and-derive-from-canonical",
+          "redundantDefaultCopy": "forbidden",
+          "requiredCompanionField": "overrideReason"
+        },
+        "displayDefault": "source",
+        "exerciseBaseTextDefaults": {
+          "choice": "display-or-source",
+          "enBlank": "display-or-source",
+          "koBlank": "translation",
+          "verb": "display-or-source"
+        },
+        "markup": "forbidden",
+        "reconstruction": {
+          "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+          "meaningSegments": "join meaningSegments[].en with one ASCII space",
+          "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+        },
+        "sourceWhitespace": "single-space-between-tokens",
+        "targetAnchor": {
+          "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다.",
+          "shape": {
+            "occurrence": "one-based occurrence in the applicable base text",
+            "text": "exact substring"
+          }
+        }
+      },
+      "contentOwnership": {
+        "authorable": [
+          "metadata",
+          "sourceStatus",
+          "sentences[].source",
+          "sentences[].display",
+          "sentences[].translation",
+          "sentences[].meaningSegments",
+          "sentences[].annotations",
+          "sentences[].exercises",
+          "passageActivities.correction",
+          "passageActivities.paragraphOrder",
+          "updateState"
+        ],
+        "derived": [
+          "stage number, title, instruction and renderer mode",
+          "item and unit numbers",
+          "part ranges and page boundaries",
+          "student and answer projections",
+          "blank, predicate, vocabulary and solution markup",
+          "answer-line height and layout classes",
+          "page count, footer number and output filenames"
+        ],
+        "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+      },
+      "logicalStages": [
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].meaningSegments",
+            "sentences[].annotations.predicates",
+            "sentences[].annotations.vocabulary"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "passage-practice",
+          "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean-inline-hint"
+            ],
+            "vocabularyColoring": true
+          },
+          "number": 1,
+          "pagination": {
+            "hardMaximum": 13,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 12,
+            "unit": "sentence"
+          },
+          "rendererMode": "meaning",
+          "scope": "sentence",
+          "title": "지문 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].exercises.koBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "korean-cloze",
+          "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 2,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (우리말)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.enBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "english-cloze",
+          "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 3,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (영문)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].translation"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "translation-practice",
+          "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 4,
+          "pagination": {
+            "hardMaximum": 11,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 10,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "해석 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.verb"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "verb-form",
+          "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 5,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "동사형 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.choice"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "grammar-vocabulary-choice",
+          "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 6,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "어법·어휘 고르기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.correction"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "correction",
+          "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+          "layout": {
+            "fieldOrder": [
+              "passage",
+              "correction-rows"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 7,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "correction",
+          "scope": "passage-activity",
+          "title": "어색한 곳 찾기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.arrange"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "sentence-order",
+          "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+          "layout": {
+            "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+            "arrangementSlots": "forbidden",
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 8,
+          "pagination": {
+            "hardMaximum": 6,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 6,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "순서 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.paragraphOrder"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "paragraph-order",
+          "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "fixed-intro",
+              "shuffled-blocks",
+              "fixed-outro",
+              "sequence-slots"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 9,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "paragraph-order",
+          "scope": "passage-activity",
+          "title": "문단 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.writing",
+            "sentences[].display|source"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "composition",
+          "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "studentEnglishSkeleton": "forbidden",
+            "vocabularyColoring": false
+          },
+          "number": 10,
+          "pagination": {
+            "hardMaximum": 8,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 8,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "영작 연습하기"
+        }
+      ],
+      "paginationContract": {
+        "continuationPageMinimumItems": 2,
+        "forbidden": [
+          "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+          "legacy 흐름 or 뜻 작성 columns",
+          "content crossing the page footer",
+          "content from one page overlapping the next page",
+          "clipped text",
+          "a singleton continuation page that can be avoided within the stage hard maximum",
+          "renumbering a new part from one"
+        ],
+        "layoutPreference": "vertical",
+        "numbering": "continuous-original-sentence-number",
+        "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+        "partLabel": "inclusive-original-sentence-number-range",
+        "readingLayout": "allowed-only-after-explicit-user-request",
+        "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+        "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+        "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+        "visualFitOverridesTargetCount": true
+      },
+      "principles": {
+        "canonicalDataContainsHtml": false,
+        "logicalStageCount": 10,
+        "publishOnlyAfterAllChecksPass": true,
+        "singleContentSource": true,
+        "studentAndAnswerShareExerciseStructure": true,
+        "studentProjectionSource": "answer-edition-after-browser-measured-all-solution-layouts",
+        "uncertainSourcePolicy": "stop-and-request-clearer-source"
+      },
+      "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+      "releaseContract": {
+        "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+        "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+        "filenames": [
+          "문제.html",
+          "문제.pdf",
+          "해설.html",
+          "해설.pdf"
+        ],
+        "finalHtmlDependencies": "self-contained",
+        "outputRoot": "outputs",
+        "previewFixture": "one-shared-canonical-fixture",
+        "publish": "atomic-after-all-gates-pass",
+        "stagingRoot": ".build/releases",
+        "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture"
+      },
+      "semanticRubric": "docs/semantic-rubric.md",
+      "specVersion": "1.0.6",
+      "updates": {
+        "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+        "allowedScopes": [
+          "new-only",
+          "all",
+          "selected",
+          "manual-review"
+        ],
+        "changelogPath": "CHANGELOG.md",
+        "defaultScope": "new-only",
+        "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+        "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+        "reportRequired": true,
+        "requiredImpactDimensions": [
+          "canonical fields",
+          "stage numbers",
+          "sentence or activity ids",
+          "student and answer editions",
+          "page count and part ranges",
+          "component versions"
+        ],
+        "requiredReportSections": [
+          "요약",
+          "요청 내용",
+          "직접 변경",
+          "파생 변경",
+          "영향 없음",
+          "파일 변경",
+          "출력 변화",
+          "검증 결과",
+          "호환성",
+          "버전"
+        ],
+        "versionBump": {
+          "backward-compatible field or stage capability": "minor",
+          "breaking schema or canonical semantics": "major",
+          "bug fix, validation strengthening or copy correction": "patch"
+        }
+      },
+      "validationGates": {
+        "canonical": [
+          "JSON Schema passes",
+          "sourceStatus.status is confirmed",
+          "sentence ids and numbers are unique, consecutive and aligned",
+          "meaning segment English joined with one space equals display or source",
+          "every meaning segment has one-to-one English and Korean text",
+          "all target anchors resolve exactly at their declared occurrence",
+          "choice options contain the correct target exactly once",
+          "arrange chunks in canonical order reconstruct display or source exactly",
+          "arrange displayOrder contains every chunk id exactly once",
+          "paragraph displayOrder contains every block id exactly once",
+          "correction targets restore their base excerpt exactly",
+          "vocabulary and predicate annotations resolve inside their meaning segment"
+        ],
+        "compiled": [
+          "exactly ten logical stages appear in fixed order",
+          "sentence stages contain exactly one item for every source sentence",
+          "all part ranges are complete, consecutive and match item numbers",
+          "student and answer exercise structures are identical",
+          "every non-writing solution-slot position, width, and height is copied from the browser-measured answer edition before solution text is removed",
+          "student response-line positions, widths, and heights are copied from the browser-measured answer edition before solution text is removed",
+          "student writing areas do not draw replacement guide lines after the answer text is removed",
+          "student edition exposes no solution values",
+          "every bank, target and slot cardinality is internally consistent",
+          "stage 10 student edition contains no English skeleton"
+        ],
+        "release": [
+          "problem HTML exists",
+          "problem PDF exists",
+          "answer HTML exists",
+          "answer PDF exists",
+          "build manifest records all component versions and applied updates",
+          "update report exists when an update id is applied"
+        ],
+        "rendered": [
+          "document fonts and images are ready",
+          "browser console and page errors are empty",
+          "data-render-validation is exactly ok",
+          "no unresolved template placeholder remains",
+          "no preview fixture data remains in final HTML",
+          "no page or footer overflow exists under print media",
+          "answer red is present only on solution-value nodes",
+          "every student and answer non-writing solution-slot has matching page-relative left, top, width, and height within 0.75px",
+          "every student and answer writing response box and answer-line trace matches within 0.75px",
+          "representative and risk pages pass visual review"
+        ]
+      },
+      "vocabularyContract": {
+        "allowedStageNumbers": [
+          1
+        ],
+        "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+        "maximumPerSentence": 3,
+        "redSlotForbidden": true,
+        "rendererClasses": {
+          "english": "vocab vocab-{slot} gloss",
+          "korean": "vocab vocab-{slot}"
+        },
+        "sameEnglishAndKoreanSlot": true,
+        "slots": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "specVersion": "1.0.6"
+  },
+  "template": {
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+        "size": 29359
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "sha256": "25a21d18af7ee1100e7a4d0023af1175140e82dd2cce2a246d0fcd5ece2411ee",
+        "size": 42558
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+        "size": 1212
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "sha256": "ceab51f4246462f507a1de7c6aea850fb577113c37e74b4d98a645f23744a330",
+        "size": 15185
+      }
+    ],
+    "rendererContract": "shared-dom-explicit-targets-fail-closed",
+    "templateVersion": "1.0.4"
+  }
+}

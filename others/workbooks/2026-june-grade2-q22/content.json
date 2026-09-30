@@ -1,0 +1,338 @@
+{
+  "$schema": "../../schemas/canonical-workbook.schema.json",
+  "schemaVersion": "1.0.0",
+  "specVersion": "1.0.6",
+  "contentVersion": "1.0.0",
+  "workbookId": "2026-june-grade2-q22",
+  "metadata": {
+    "title": "2026학년도 6월 고2 22번 10단계 워크북",
+    "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 22번",
+    "kicker": "High School Reading",
+    "grade": "고등학교 2학년",
+    "topic": "낮은 확률의 사건이 일어날 가능성을 과대평가하는 의사 결정 경향",
+    "sourceLanguage": "en",
+    "targetLanguage": "ko"
+  },
+  "sourceStatus": {
+    "status": "confirmed",
+    "sourceType": "pdf",
+    "references": [
+      "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+    ],
+    "sentenceCount": 9,
+    "verifiedAt": "2026-08-27T14:45:00+09:00",
+    "notes": "원본 PDF 3쪽의 22번 본문을 렌더링하여 전사했으며, 문항의 형광 표시와 선택지는 지문 정본에서 제외했습니다."
+  },
+  "updateState": {
+    "defaultScope": "new-only",
+    "appliedUpdates": [
+      {
+        "id": "U-20260827-013",
+        "scope": "selected",
+        "fromContentVersion": "0.0.0",
+        "toContentVersion": "1.0.0",
+        "appliedAt": "2026-08-27T14:45:00+09:00",
+        "report": "reports/updates/U-20260827-013.md"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s001",
+      "no": 1,
+      "source": "For each objective probability—from one percent to 100 percent—we want to know the subjective probability weight.",
+      "translation": "1퍼센트에서 100퍼센트에 이르는 각각의 객관적 확률에 대해, 우리는 주관적으로 부여하는 확률 가중치를 알고자 한다.",
+      "meaningSegments": [
+        {"id": "s001-m01", "en": "For each objective probability—from one percent to 100 percent—we want to know", "ko": "1퍼센트에서 100퍼센트까지의 각각의 객관적 확률에 대해—우리는 알고자 한다"},
+        {"id": "s001-m04", "en": "the subjective probability weight.", "ko": "주관적인 확률 가중치를."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s001-m01-p01", "segmentId": "s001-m01", "en": [{"text": "want to know", "occurrence": 1}], "ko": [{"text": "알고자 한다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s001-m01-v01", "segmentId": "s001-m01", "colorSlot": 1, "en": {"text": "objective probability", "occurrence": 1}, "ko": {"text": "객관적 확률", "occurrence": 1}, "meaning": "객관적 확률", "reasons": ["academic", "topic-core"]},
+          {"id": "s001-m04-v02", "segmentId": "s001-m04", "colorSlot": 2, "en": {"text": "subjective probability weight", "occurrence": 1}, "ko": {"text": "주관적인 확률 가중치", "occurrence": 1}, "meaning": "주관적으로 부여하는 확률 가중치", "reasons": ["academic", "topic-core"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s001-ko-01", "target": {"text": "객관적 확률", "occurrence": 1}}, {"id": "s001-ko-02", "target": {"text": "주관적으로 부여하는 확률 가중치", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s001-en-01", "target": {"text": "objective probability", "occurrence": 1}}, {"id": "s001-en-02", "target": {"text": "subjective probability weight", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s001-verb-01", "target": {"text": "want to know", "occurrence": 1}, "cue": "want to know", "lemma": "want to know"}]},
+        "choice": {"targets": [{"id": "s001-choice-01", "target": {"text": "subjective", "occurrence": 1}, "options": ["subjective", "subjectively"]}]},
+        "arrange": {"chunks": [{"id": "s001-a", "text": "For each objective probability—from one percent to 100 percent—we want to know"}, {"id": "s001-b", "text": "the subjective probability weight."}], "displayOrder": ["s001-b", "s001-a"]},
+        "writing": {"bank": ["objective probability", "from one percent to 100 percent", "want to know", "subjective probability weight"]}
+      }
+    },
+    {
+      "id": "s002",
+      "no": 2,
+      "source": "When we make decisions, do we treat a one-percent chance just like one percent, or like something else?",
+      "translation": "우리가 의사 결정을 할 때, 1퍼센트의 가능성을 그저 1퍼센트 그대로 다루는가, 아니면 다른 무언가로 다루는가?",
+      "meaningSegments": [
+        {"id": "s002-m01", "en": "When we make decisions,", "ko": "우리가 의사 결정을 할 때,"},
+        {"id": "s002-m02", "en": "do we treat a one-percent chance", "ko": "우리는 다루는가 1퍼센트의 가능성을"},
+        {"id": "s002-m03", "en": "just like one percent,", "ko": "그저 1퍼센트 그대로,"},
+        {"id": "s002-m04", "en": "or like something else?", "ko": "아니면 다른 무언가로?"}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s002-m01-p01", "segmentId": "s002-m01", "en": [{"text": "make", "occurrence": 1}], "ko": [{"text": "할", "occurrence": 1}]},
+          {"id": "s002-m02-p01", "segmentId": "s002-m02", "en": [{"text": "do we treat", "occurrence": 1}], "ko": [{"text": "다루는가", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s002-m01-v01", "segmentId": "s002-m01", "colorSlot": 1, "en": {"text": "make decisions", "occurrence": 1}, "ko": {"text": "의사 결정", "occurrence": 1}, "meaning": "의사 결정을 하다", "reasons": ["structure-critical"]},
+          {"id": "s002-m02-v02", "segmentId": "s002-m02", "colorSlot": 2, "en": {"text": "treat", "occurrence": 1}, "ko": {"text": "다루", "occurrence": 1}, "meaning": "여기다, 다루다", "reasons": ["abstract", "topic-core"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s002-ko-01", "target": {"text": "의사 결정을 할 때", "occurrence": 1}}, {"id": "s002-ko-02", "target": {"text": "다른 무언가로 다루는가", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s002-en-01", "target": {"text": "make decisions", "occurrence": 1}}, {"id": "s002-en-02", "target": {"text": "treat a one-percent chance", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s002-verb-01", "target": {"text": "make", "occurrence": 1}, "cue": "make", "lemma": "make"}, {"id": "s002-verb-02", "target": {"text": "do we treat", "occurrence": 1}, "cue": "treat", "lemma": "treat"}]},
+        "choice": {"targets": [{"id": "s002-choice-01", "target": {"text": "like", "occurrence": 1}, "options": ["like", "as"]}]},
+        "arrange": {"chunks": [{"id": "s002-a", "text": "When we make decisions,"}, {"id": "s002-b", "text": "do we treat a one-percent chance"}, {"id": "s002-c", "text": "just like one percent,"}, {"id": "s002-d", "text": "or like something else?"}], "displayOrder": ["s002-c", "s002-a", "s002-d", "s002-b"]},
+        "writing": {"bank": ["make decisions", "treat", "one-percent chance", "something else"]}
+      }
+    },
+    {
+      "id": "s003",
+      "no": 3,
+      "source": "Events that could happen but aren’t likely—low-probability events—can be defined as probabilities up to about 25 percent.",
+      "translation": "일어날 수는 있지만 그럴 가능성이 크지 않은 사건, 즉 낮은 확률의 사건은 약 25퍼센트까지의 확률로 정의될 수 있다.",
+      "meaningSegments": [
+        {"id": "s003-m01", "en": "Events that could happen but aren’t likely—low-probability events—can be defined as probabilities", "ko": "일어날 수는 있지만 그럴 가능성이 크지 않은—낮은 확률의 사건은—확률로 정의될 수 있다"},
+        {"id": "s003-m05", "en": "up to about 25 percent.", "ko": "약 25퍼센트까지의."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s003-m01-p01", "segmentId": "s003-m01", "en": [{"text": "could happen", "occurrence": 1}], "ko": [{"text": "일어날 수", "occurrence": 1}]},
+          {"id": "s003-m01-p02", "segmentId": "s003-m01", "en": [{"text": "aren’t", "occurrence": 1}], "ko": [{"text": "크지 않은", "occurrence": 1}]},
+          {"id": "s003-m01-p03", "segmentId": "s003-m01", "en": [{"text": "can be defined", "occurrence": 1}], "ko": [{"text": "정의될 수 있다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s003-m01-v01", "segmentId": "s003-m01", "colorSlot": 1, "en": {"text": "low-probability events", "occurrence": 1}, "ko": {"text": "낮은 확률의 사건", "occurrence": 1}, "meaning": "발생 확률이 낮은 사건", "reasons": ["academic", "topic-core"]},
+          {"id": "s003-m01-v02", "segmentId": "s003-m01", "colorSlot": 2, "en": {"text": "defined", "occurrence": 1}, "ko": {"text": "정의", "occurrence": 1}, "meaning": "정의하다", "reasons": ["academic"]},
+          {"id": "s003-m05-v03", "segmentId": "s003-m05", "colorSlot": 3, "en": {"text": "up to", "occurrence": 1}, "ko": {"text": "까지", "occurrence": 1}, "meaning": "최대 ~까지", "reasons": ["structure-critical"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s003-ko-01", "target": {"text": "낮은 확률의 사건", "occurrence": 1}}, {"id": "s003-ko-02", "target": {"text": "정의될 수 있다", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s003-en-01", "target": {"text": "low-probability events", "occurrence": 1}}, {"id": "s003-en-02", "target": {"text": "can be defined", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s003-verb-01", "target": {"text": "could happen", "occurrence": 1}, "cue": "happen", "lemma": "happen"}, {"id": "s003-verb-02", "target": {"text": "aren’t", "occurrence": 1}, "cue": "be", "lemma": "be"}, {"id": "s003-verb-03", "target": {"text": "can be defined", "occurrence": 1}, "cue": "define", "lemma": "define"}]},
+        "choice": {"targets": [{"id": "s003-choice-01", "target": {"text": "can be defined", "occurrence": 1}, "options": ["can be defined", "can define"]}]},
+        "arrange": {"chunks": [{"id": "s003-a", "text": "Events that could happen but aren’t likely—low-probability events—can be defined as probabilities"}, {"id": "s003-b", "text": "up to about 25 percent."}], "displayOrder": ["s003-b", "s003-a"]},
+        "writing": {"bank": ["events", "low-probability", "be defined as", "up to"]}
+      }
+    },
+    {
+      "id": "s004",
+      "no": 4,
+      "source": "Low-probability events tend to factor more into decisions than they should.",
+      "translation": "낮은 확률의 사건은 그래야 하는 것보다 의사 결정에 더 크게 영향을 미치는 경향이 있다.",
+      "meaningSegments": [
+        {"id": "s004-m01", "en": "Low-probability events", "ko": "낮은 확률의 사건은"},
+        {"id": "s004-m02", "en": "tend to factor more into decisions", "ko": "의사 결정에 더 크게 영향을 미치는 경향이 있다"},
+        {"id": "s004-m03", "en": "than they should.", "ko": "그래야 하는 것보다."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s004-m02-p01", "segmentId": "s004-m02", "en": [{"text": "tend to factor", "occurrence": 1}], "ko": [{"text": "영향을 미치는 경향이 있다", "occurrence": 1}]},
+          {"id": "s004-m03-p01", "segmentId": "s004-m03", "en": [{"text": "should", "occurrence": 1}], "ko": [{"text": "그래야 하는", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s004-m02-v01", "segmentId": "s004-m02", "colorSlot": 1, "en": {"text": "tend to factor more into decisions", "occurrence": 1}, "ko": {"text": "의사 결정에 더 크게 영향을 미치는 경향이 있다", "occurrence": 1}, "meaning": "의사 결정에 더 크게 영향을 미치는 경향이 있다", "reasons": ["abstract", "topic-core"]},
+          {"id": "s004-m02-v02", "segmentId": "s004-m02", "colorSlot": 2, "en": {"text": "tend to", "occurrence": 1}, "ko": {"text": "경향이 있다", "occurrence": 1}, "meaning": "~하는 경향이 있다", "reasons": ["structure-critical"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s004-ko-01", "target": {"text": "의사 결정에 더 크게 영향을 미치는 경향", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s004-en-01", "target": {"text": "factor more into decisions", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s004-verb-01", "target": {"text": "tend to factor", "occurrence": 1}, "cue": "tend to factor", "lemma": "tend to factor"}, {"id": "s004-verb-02", "target": {"text": "should", "occurrence": 1}, "cue": "should", "lemma": "should"}]},
+        "choice": {"targets": [{"id": "s004-choice-01", "target": {"text": "more", "occurrence": 1}, "options": ["more", "most"]}]},
+        "arrange": {"chunks": [{"id": "s004-a", "text": "Low-probability events"}, {"id": "s004-b", "text": "tend to factor more into decisions"}, {"id": "s004-c", "text": "than they should."}], "displayOrder": ["s004-c", "s004-a", "s004-b"]},
+        "writing": {"bank": ["low-probability events", "tend to", "factor into", "decisions"]}
+      }
+    },
+    {
+      "id": "s005",
+      "no": 5,
+      "source": "That is, an event that has an objective one-percent chance of occurring could subjectively seem like it has a five-percent chance of occurring.",
+      "translation": "즉, 객관적으로 발생할 가능성이 1퍼센트인 사건이 주관적으로는 발생할 가능성이 5퍼센트인 것처럼 보일 수 있다.",
+      "meaningSegments": [
+        {"id": "s005-m01", "en": "That is,", "ko": "곳,"},
+        {"id": "s005-m02", "en": "an event that has", "ko": "가진 사건이"},
+        {"id": "s005-m03", "en": "an objective one-percent chance of occurring", "ko": "객관적으로 1퍼센트의 발생 가능성을"},
+        {"id": "s005-m04", "en": "could subjectively seem like", "ko": "주관적으로는 그처럼 보일 수 있다"},
+        {"id": "s005-m05", "en": "it has a five-percent chance of occurring.", "ko": "그것이 5퍼센트의 발생 가능성을 가진."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s005-m02-p01", "segmentId": "s005-m02", "en": [{"text": "has", "occurrence": 1}], "ko": [{"text": "가진", "occurrence": 1}]},
+          {"id": "s005-m04-p01", "segmentId": "s005-m04", "en": [{"text": "could subjectively seem", "occurrence": 1}], "ko": [{"text": "보일 수 있다", "occurrence": 1}]},
+          {"id": "s005-m05-p01", "segmentId": "s005-m05", "en": [{"text": "has", "occurrence": 1}], "ko": [{"text": "가진", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s005-m01-v01", "segmentId": "s005-m01", "colorSlot": 1, "en": {"text": "That is", "occurrence": 1}, "ko": {"text": "곳", "occurrence": 1}, "meaning": "바꾸어 말하면", "reasons": ["structure-critical"]},
+          {"id": "s005-m03-v02", "segmentId": "s005-m03", "colorSlot": 2, "en": {"text": "objective", "occurrence": 1}, "ko": {"text": "객관적", "occurrence": 1}, "meaning": "객관적인", "reasons": ["academic", "topic-core"]},
+          {"id": "s005-m04-v03", "segmentId": "s005-m04", "colorSlot": 3, "en": {"text": "subjectively", "occurrence": 1}, "ko": {"text": "주관적", "occurrence": 1}, "meaning": "주관적으로", "reasons": ["academic", "topic-core"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s005-ko-01", "target": {"text": "객관적으로 발생할 가능성이 1퍼센트", "occurrence": 1}}, {"id": "s005-ko-02", "target": {"text": "주관적으로는", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s005-en-01", "target": {"text": "objective one-percent chance", "occurrence": 1}}, {"id": "s005-en-02", "target": {"text": "could subjectively seem", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s005-verb-01", "target": {"text": "has", "occurrence": 1}, "cue": "have", "lemma": "have"}, {"id": "s005-verb-02", "target": {"text": "could subjectively seem", "occurrence": 1}, "cue": "seem", "lemma": "seem"}, {"id": "s005-verb-03", "target": {"text": "has", "occurrence": 2}, "cue": "have", "lemma": "have"}]},
+        "choice": {"targets": [{"id": "s005-choice-01", "target": {"text": "subjectively", "occurrence": 1}, "options": ["subjectively", "subjective"]}]},
+        "arrange": {"chunks": [{"id": "s005-a", "text": "That is, an event that has"}, {"id": "s005-b", "text": "an objective one-percent chance of occurring"}, {"id": "s005-c", "text": "could subjectively seem like"}, {"id": "s005-d", "text": "it has a five-percent chance of occurring."}], "displayOrder": ["s005-c", "s005-a", "s005-d", "s005-b"]},
+        "writing": {"bank": ["objective", "one-percent chance", "subjectively", "five-percent chance"]}
+      }
+    },
+    {
+      "id": "s006",
+      "no": 6,
+      "source": "We overestimate the likelihood of these low-probability events.",
+      "translation": "우리는 이러한 낮은 확률의 사건이 일어날 가능성을 과대평가한다.",
+      "meaningSegments": [
+        {"id": "s006-m01", "en": "We overestimate", "ko": "우리는 과대평가한다"},
+        {"id": "s006-m02", "en": "the likelihood", "ko": "일어날 가능성을"},
+        {"id": "s006-m03", "en": "of these low-probability events.", "ko": "이러한 낮은 확률의 사건의."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s006-m01-p01", "segmentId": "s006-m01", "en": [{"text": "overestimate", "occurrence": 1}], "ko": [{"text": "과대평가한다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s006-m01-v01", "segmentId": "s006-m01", "colorSlot": 1, "en": {"text": "overestimate", "occurrence": 1}, "ko": {"text": "과대평가", "occurrence": 1}, "meaning": "실제보다 크게 평가하다", "reasons": ["academic", "topic-core"]},
+          {"id": "s006-m02-v02", "segmentId": "s006-m02", "colorSlot": 2, "en": {"text": "likelihood", "occurrence": 1}, "ko": {"text": "가능성", "occurrence": 1}, "meaning": "일어날 가능성", "reasons": ["abstract", "topic-core"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s006-ko-01", "target": {"text": "일어날 가능성을 과대평가한다", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s006-en-01", "target": {"text": "overestimate the likelihood", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s006-verb-01", "target": {"text": "overestimate", "occurrence": 1}, "cue": "overestimate", "lemma": "overestimate"}]},
+        "choice": {"targets": [{"id": "s006-choice-01", "target": {"text": "likelihood", "occurrence": 1}, "options": ["likelihood", "likely"]}]},
+        "arrange": {"chunks": [{"id": "s006-a", "text": "We overestimate"}, {"id": "s006-b", "text": "the likelihood"}, {"id": "s006-c", "text": "of these low-probability events."}], "displayOrder": ["s006-c", "s006-a", "s006-b"]},
+        "writing": {"bank": ["overestimate", "likelihood", "low-probability events"]}
+      }
+    },
+    {
+      "id": "s007",
+      "no": 7,
+      "source": "In general, the smaller the probability, the more we overestimate its likelihood.",
+      "translation": "일반적으로 확률이 작을수록, 우리는 그 발생 가능성을 더욱 과대평가한다.",
+      "meaningSegments": [
+        {"id": "s007-m01", "en": "In general,", "ko": "일반적으로,"},
+        {"id": "s007-m02", "en": "the smaller the probability,", "ko": "확률이 작을수록,"},
+        {"id": "s007-m03", "en": "the more we overestimate", "ko": "우리는 더욱 과대평가한다"},
+        {"id": "s007-m04", "en": "its likelihood.", "ko": "그 발생 가능성을."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s007-m03-p01", "segmentId": "s007-m03", "en": [{"text": "overestimate", "occurrence": 1}], "ko": [{"text": "과대평가한다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s007-m01-v01", "segmentId": "s007-m01", "colorSlot": 1, "en": {"text": "In general", "occurrence": 1}, "ko": {"text": "일반적으로", "occurrence": 1}, "meaning": "일반적으로", "reasons": ["structure-critical"]},
+          {"id": "s007-m02-v02", "segmentId": "s007-m02", "colorSlot": 2, "en": {"text": "the smaller", "occurrence": 1}, "ko": {"text": "작을수록", "occurrence": 1}, "meaning": "더 작을수록", "reasons": ["structure-critical"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s007-ko-01", "target": {"text": "확률이 작을수록", "occurrence": 1}}, {"id": "s007-ko-02", "target": {"text": "더욱 과대평가한다", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s007-en-01", "target": {"text": "the smaller the probability", "occurrence": 1}}, {"id": "s007-en-02", "target": {"text": "the more we overestimate", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s007-verb-01", "target": {"text": "overestimate", "occurrence": 1}, "cue": "overestimate", "lemma": "overestimate"}]},
+        "choice": {"targets": [{"id": "s007-choice-01", "target": {"text": "smaller", "occurrence": 1}, "options": ["smaller", "smallest"]}]},
+        "arrange": {"chunks": [{"id": "s007-a", "text": "In general,"}, {"id": "s007-b", "text": "the smaller the probability,"}, {"id": "s007-c", "text": "the more we overestimate"}, {"id": "s007-d", "text": "its likelihood."}], "displayOrder": ["s007-c", "s007-a", "s007-d", "s007-b"]},
+        "writing": {"bank": ["in general", "the smaller", "the more", "overestimate", "likelihood"]}
+      }
+    },
+    {
+      "id": "s008",
+      "no": 8,
+      "source": "For example, people who play the lottery are often optimistic about winning.",
+      "translation": "예를 들어, 복권을 사는 사람들은 당첨에 대해 흔히 낙관적이다.",
+      "meaningSegments": [
+        {"id": "s008-m01", "en": "For example,", "ko": "예를 들어,"},
+        {"id": "s008-m02", "en": "people who play the lottery", "ko": "복권을 사는 사람들은"},
+        {"id": "s008-m03", "en": "are often optimistic", "ko": "흔히 낙관적이다"},
+        {"id": "s008-m04", "en": "about winning.", "ko": "당첨에 대해."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s008-m02-p01", "segmentId": "s008-m02", "en": [{"text": "play", "occurrence": 1}], "ko": [{"text": "사는", "occurrence": 1}]},
+          {"id": "s008-m03-p01", "segmentId": "s008-m03", "en": [{"text": "are", "occurrence": 1}], "ko": [{"text": "낙관적이다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s008-m02-v01", "segmentId": "s008-m02", "colorSlot": 1, "en": {"text": "play the lottery", "occurrence": 1}, "ko": {"text": "복권을 사는", "occurrence": 1}, "meaning": "복권을 사다", "reasons": ["student-difficulty"]},
+          {"id": "s008-m03-v02", "segmentId": "s008-m03", "colorSlot": 2, "en": {"text": "optimistic", "occurrence": 1}, "ko": {"text": "낙관적", "occurrence": 1}, "meaning": "낙관적인", "reasons": ["abstract", "topic-core"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s008-ko-01", "target": {"text": "복권을 사는 사람들", "occurrence": 1}}, {"id": "s008-ko-02", "target": {"text": "당첨에 대해 흔히 낙관적", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s008-en-01", "target": {"text": "play the lottery", "occurrence": 1}}, {"id": "s008-en-02", "target": {"text": "optimistic about winning", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s008-verb-01", "target": {"text": "play", "occurrence": 1}, "cue": "play", "lemma": "play"}, {"id": "s008-verb-02", "target": {"text": "are", "occurrence": 1}, "cue": "be", "lemma": "be"}]},
+        "choice": {"targets": [{"id": "s008-choice-01", "target": {"text": "optimistic", "occurrence": 1}, "options": ["optimistic", "optimistically"]}]},
+        "arrange": {"chunks": [{"id": "s008-a", "text": "For example,"}, {"id": "s008-b", "text": "people who play the lottery"}, {"id": "s008-c", "text": "are often optimistic"}, {"id": "s008-d", "text": "about winning."}], "displayOrder": ["s008-c", "s008-a", "s008-d", "s008-b"]},
+        "writing": {"bank": ["for example", "play the lottery", "often", "optimistic about"]}
+      }
+    },
+    {
+      "id": "s009",
+      "no": 9,
+      "source": "However, the odds of a single ticket winning the largest, most popular U.S. lotteries are on the order of one in 175 million.",
+      "translation": "그러나 단 한 장의 복권이 미국의 가장 규모가 크고 인기 있는 복권에 당첨될 확률은 대략 1억 7,500만 분의 1이다.",
+      "meaningSegments": [
+        {"id": "s009-m01", "en": "However,", "ko": "그러나,"},
+        {"id": "s009-m02", "en": "the odds of a single ticket winning", "ko": "단 한 장의 복권이 당첨될 확률은"},
+        {"id": "s009-m03", "en": "the largest, most popular U.S. lotteries", "ko": "미국의 가장 규모가 크고 인기 있는 복권에"},
+        {"id": "s009-m04", "en": "are on the order of", "ko": "대략 그 정도이다"},
+        {"id": "s009-m05", "en": "one in 175 million.", "ko": "1억 7,500만 분의 1의."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s009-m04-p01", "segmentId": "s009-m04", "en": [{"text": "are", "occurrence": 1}], "ko": [{"text": "정도이다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s009-m02-v01", "segmentId": "s009-m02", "colorSlot": 1, "en": {"text": "odds", "occurrence": 1}, "ko": {"text": "확률", "occurrence": 1}, "meaning": "성공 확률", "reasons": ["abstract", "topic-core"]},
+          {"id": "s009-m04-v02", "segmentId": "s009-m04", "colorSlot": 2, "en": {"text": "on the order of", "occurrence": 1}, "ko": {"text": "대략", "occurrence": 1}, "meaning": "대략 ~ 정도의", "reasons": ["student-difficulty", "structure-critical"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s009-ko-01", "target": {"text": "복권이", "occurrence": 1}}, {"id": "s009-ko-02", "target": {"text": "대략 1억 7,500만 분의 1", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s009-en-01", "target": {"text": "the odds", "occurrence": 1}}, {"id": "s009-en-02", "target": {"text": "on the order of", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s009-verb-01", "target": {"text": "are", "occurrence": 1}, "cue": "be", "lemma": "be"}]},
+        "choice": {"targets": [{"id": "s009-choice-01", "target": {"text": "are", "occurrence": 1}, "options": ["are", "is"]}]},
+        "arrange": {"chunks": [{"id": "s009-a", "text": "However, the odds of a single ticket winning"}, {"id": "s009-b", "text": "the largest, most popular U.S. lotteries"}, {"id": "s009-c", "text": "are on the order of"}, {"id": "s009-d", "text": "one in 175 million."}], "displayOrder": ["s009-c", "s009-a", "s009-d", "s009-b"]},
+        "writing": {"bank": ["odds", "single ticket", "U.S. lotteries", "on the order of", "one in 175 million"]}
+      }
+    }
+  ],
+  "passageActivities": {
+    "correction": [
+      {
+        "id": "correction-01",
+        "textOverride": "For each objective probability—from one percent to 100 percent—we wants to know the subjective probability weight. When we make decisions, do we treats a one-percent chance just like one percent, or like something else? Events that could happen but aren’t likely—low-probability events—can define as probabilities up to about 25 percent. Low-probability events tends to factor more into decisions than they should. That is, an event that has an objective one-percent chance of occurring could subjective seem like it has a five-percent chance of occurring. We underestimate the likelihood of these low-probability events. In general, the smaller the probability, the most we overestimate its likelihood. For example, people who play the lottery is often optimistic about winning. However, the odds of a single ticket winning the largest, most popular U.S. lotteries is on the order of one in 175 million.",
+        "targets": [
+          {"id": "correction-01-01", "target": {"text": "wants", "occurrence": 1}, "incorrect": "wants", "correct": "want"},
+          {"id": "correction-01-02", "target": {"text": "treats", "occurrence": 1}, "incorrect": "treats", "correct": "treat"},
+          {"id": "correction-01-03", "target": {"text": "can define", "occurrence": 1}, "incorrect": "can define", "correct": "can be defined"},
+          {"id": "correction-01-04", "target": {"text": "tends", "occurrence": 1}, "incorrect": "tends", "correct": "tend"},
+          {"id": "correction-01-05", "target": {"text": "subjective", "occurrence": 2}, "incorrect": "subjective", "correct": "subjectively"},
+          {"id": "correction-01-06", "target": {"text": "underestimate", "occurrence": 1}, "incorrect": "underestimate", "correct": "overestimate"},
+          {"id": "correction-01-07", "target": {"text": "most", "occurrence": 2}, "incorrect": "most", "correct": "more"},
+          {"id": "correction-01-08", "target": {"text": "is", "occurrence": 1}, "incorrect": "is", "correct": "are"},
+          {"id": "correction-01-09", "target": {"text": "is", "occurrence": 2}, "incorrect": "is", "correct": "are"}
+        ]
+      }
+    ],
+    "paragraphOrder": [
+      {
+        "id": "paragraph-order-01",
+        "blocks": [
+          {"id": "A", "sentenceIds": ["s001", "s002", "s003"]},
+          {"id": "B", "sentenceIds": ["s004", "s005", "s006"]},
+          {"id": "C", "sentenceIds": ["s007", "s008", "s009"]}
+        ],
+        "displayOrder": ["C", "A", "B"],
+        "answerOrder": ["A", "B", "C"]
+      }
+    ]
+  }
+}

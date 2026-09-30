@@ -1,0 +1,546 @@
+{
+  "appliedUpdates": [
+    "U-20260908-018"
+  ],
+  "buildVersion": "1.0.0",
+  "builtAt": "2026-09-08T15:27:55+09:00",
+  "canonicalDigest": "72f80291149dd218cbf897abbefe05a24e674274ae6170189be3b16f73dcb47b",
+  "compilerVersion": "1.0.7",
+  "contentVersion": "1.0.0",
+  "engineDigest": "755fa39f2f38e0c481da489f7b37fc92110b71ae3cf018dda83004df187ac114",
+  "engineInputs": [
+    {
+      "path": "workbook_engine/__init__.py",
+      "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+      "size": 139
+    },
+    {
+      "path": "workbook_engine/__main__.py",
+      "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+      "size": 5332
+    },
+    {
+      "path": "workbook_engine/change_report.py",
+      "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+      "size": 35564
+    },
+    {
+      "path": "workbook_engine/compiler.py",
+      "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+      "size": 19480
+    },
+    {
+      "path": "workbook_engine/manifest.py",
+      "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+      "size": 6606
+    },
+    {
+      "path": "workbook_engine/migrate_legacy.py",
+      "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+      "size": 12027
+    },
+    {
+      "path": "workbook_engine/paginator.py",
+      "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+      "size": 3394
+    },
+    {
+      "path": "workbook_engine/qa.py",
+      "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+      "size": 43563
+    },
+    {
+      "path": "workbook_engine/release.py",
+      "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+      "size": 31383
+    },
+    {
+      "path": "workbook_engine/render.py",
+      "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+      "size": 4492
+    },
+    {
+      "path": "workbook_engine/schema_gate.py",
+      "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+      "size": 7611
+    },
+    {
+      "path": "workbook_engine/textops.py",
+      "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+      "size": 9891
+    },
+    {
+      "path": "workbook_engine/validator.py",
+      "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+      "size": 26644
+    }
+  ],
+  "files": [
+    {
+      "path": "workbook_engine/__init__.py",
+      "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+      "size": 139
+    },
+    {
+      "path": "workbook_engine/__main__.py",
+      "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+      "size": 5332
+    },
+    {
+      "path": "workbook_engine/change_report.py",
+      "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+      "size": 35564
+    },
+    {
+      "path": "workbook_engine/compiler.py",
+      "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+      "size": 19480
+    },
+    {
+      "path": "workbook_engine/manifest.py",
+      "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+      "size": 6606
+    },
+    {
+      "path": "workbook_engine/migrate_legacy.py",
+      "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+      "size": 12027
+    },
+    {
+      "path": "workbook_engine/paginator.py",
+      "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+      "size": 3394
+    },
+    {
+      "path": "workbook_engine/qa.py",
+      "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+      "size": 43563
+    },
+    {
+      "path": "workbook_engine/release.py",
+      "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+      "size": 31383
+    },
+    {
+      "path": "workbook_engine/render.py",
+      "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+      "size": 4492
+    },
+    {
+      "path": "workbook_engine/schema_gate.py",
+      "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+      "size": 7611
+    },
+    {
+      "path": "workbook_engine/textops.py",
+      "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+      "size": 9891
+    },
+    {
+      "path": "workbook_engine/validator.py",
+      "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+      "size": 26644
+    },
+    {
+      "path": "문제.html",
+      "sha256": "fe918598ede6b89b1d6cb8b4a68718b105c764d0cb2fb1bd029f62f80e5d50a7",
+      "size": 136508
+    },
+    {
+      "path": "문제.pdf",
+      "sha256": "b30b45c080e0b06cd0088eafce7cad7dd4bee0a4e7fd5ff048ee14a52a296dd2",
+      "size": 523441
+    },
+    {
+      "path": "해설.html",
+      "sha256": "2ddbf793d8ab403a8b1789e638c6646d905922df467d922859eacd11381e583b",
+      "size": 144239
+    },
+    {
+      "path": "해설.pdf",
+      "sha256": "ccf3f0829bb4a33a18598a386996dbfd9f04d8a181e7a063126ccc820de53b92",
+      "size": 639468
+    }
+  ],
+  "outputs": [
+    {
+      "path": "문제.html",
+      "sha256": "fe918598ede6b89b1d6cb8b4a68718b105c764d0cb2fb1bd029f62f80e5d50a7",
+      "size": 136508
+    },
+    {
+      "path": "문제.pdf",
+      "sha256": "b30b45c080e0b06cd0088eafce7cad7dd4bee0a4e7fd5ff048ee14a52a296dd2",
+      "size": 523441
+    },
+    {
+      "path": "해설.html",
+      "sha256": "2ddbf793d8ab403a8b1789e638c6646d905922df467d922859eacd11381e583b",
+      "size": 144239
+    },
+    {
+      "path": "해설.pdf",
+      "sha256": "ccf3f0829bb4a33a18598a386996dbfd9f04d8a181e7a063126ccc820de53b92",
+      "size": 639468
+    }
+  ],
+  "pages": [
+    {
+      "digest": "3012430e3c9fa93030858e2817bf0648c02f9ca5d73662682b7ce42589824d0e",
+      "edition": "student",
+      "id": "student:2026-june-grade2-q35-p01",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 1,
+      "pageId": "2026-june-grade2-q35-p01",
+      "part": "1-5",
+      "stageId": "1"
+    },
+    {
+      "digest": "96532c7ce4a14c1504a0b7941aea4b343b6a1cbaaaab6c355b4b4b7ae4091d1a",
+      "edition": "student",
+      "id": "student:2026-june-grade2-q35-p02",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 2,
+      "pageId": "2026-june-grade2-q35-p02",
+      "part": "1-5",
+      "stageId": "2"
+    },
+    {
+      "digest": "c9c4f6385e2f39bed69f322763f669bb8123d9a1da6393317947dde5fa947b1e",
+      "edition": "student",
+      "id": "student:2026-june-grade2-q35-p03",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 3,
+      "pageId": "2026-june-grade2-q35-p03",
+      "part": "1-5",
+      "stageId": "3"
+    },
+    {
+      "digest": "45845e2d005576df27280359141e79de47b4abd7353f031eb0e4a1872b59083a",
+      "edition": "student",
+      "id": "student:2026-june-grade2-q35-p04",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 4,
+      "pageId": "2026-june-grade2-q35-p04",
+      "part": "1-5",
+      "stageId": "4"
+    },
+    {
+      "digest": "421e6dccd98fd41d47bbd79a5003318a3df51bbb20d3b6089df0d1052b6b46a2",
+      "edition": "student",
+      "id": "student:2026-june-grade2-q35-p05",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 5,
+      "pageId": "2026-june-grade2-q35-p05",
+      "part": "1-5",
+      "stageId": "5"
+    },
+    {
+      "digest": "88b61b2ef796472a27de6b3847c87c6153e8ae95d6b50ba4b4b5228a7f75ef28",
+      "edition": "student",
+      "id": "student:2026-june-grade2-q35-p06",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 6,
+      "pageId": "2026-june-grade2-q35-p06",
+      "part": "1-5",
+      "stageId": "6"
+    },
+    {
+      "digest": "eb96206bef7ec879a4747c2b4651eeaaa53e6d7abd4162438a956f1390ddf1ca",
+      "edition": "student",
+      "id": "student:2026-june-grade2-q35-p07",
+      "itemIds": [],
+      "page": 7,
+      "pageId": "2026-june-grade2-q35-p07",
+      "part": null,
+      "stageId": "7"
+    },
+    {
+      "digest": "abe1125c2fd1346e8a856a7e23492ad3eb75dea69db0c0867af8345d365dbc8f",
+      "edition": "student",
+      "id": "student:2026-june-grade2-q35-p08",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 8,
+      "pageId": "2026-june-grade2-q35-p08",
+      "part": "1-5",
+      "stageId": "8"
+    },
+    {
+      "digest": "604a5b13e808ffbceda4f7a867b283bfe5d82af3c3a9537f985057e4c4392e0a",
+      "edition": "student",
+      "id": "student:2026-june-grade2-q35-p09",
+      "itemIds": [],
+      "page": 9,
+      "pageId": "2026-june-grade2-q35-p09",
+      "part": null,
+      "stageId": "9"
+    },
+    {
+      "digest": "16b38f49c003e7d8575d21f41e2a97bbac54be1de4e26308a2886156311cc60c",
+      "edition": "student",
+      "id": "student:2026-june-grade2-q35-p10",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 10,
+      "pageId": "2026-june-grade2-q35-p10",
+      "part": "1-5",
+      "stageId": "10"
+    },
+    {
+      "digest": "3012430e3c9fa93030858e2817bf0648c02f9ca5d73662682b7ce42589824d0e",
+      "edition": "answer",
+      "id": "answer:2026-june-grade2-q35-p01",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 1,
+      "pageId": "2026-june-grade2-q35-p01",
+      "part": "1-5",
+      "stageId": "1"
+    },
+    {
+      "digest": "8d3ca7d755923b5a3f337af59cf450ad3a28b69a5a9379d64ae5f551aae70384",
+      "edition": "answer",
+      "id": "answer:2026-june-grade2-q35-p02",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 2,
+      "pageId": "2026-june-grade2-q35-p02",
+      "part": "1-5",
+      "stageId": "2"
+    },
+    {
+      "digest": "9b674e38beb92220929ac50557886c1c0fc23c7100cf72d74bebdacaf16978e5",
+      "edition": "answer",
+      "id": "answer:2026-june-grade2-q35-p03",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 3,
+      "pageId": "2026-june-grade2-q35-p03",
+      "part": "1-5",
+      "stageId": "3"
+    },
+    {
+      "digest": "d10d7832392a8b31beb1c359e4bae892b68b28169cacb578a873d9284e0c0785",
+      "edition": "answer",
+      "id": "answer:2026-june-grade2-q35-p04",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 4,
+      "pageId": "2026-june-grade2-q35-p04",
+      "part": "1-5",
+      "stageId": "4"
+    },
+    {
+      "digest": "7adc1e6a0180e26e7d52e590a235be6e61c43b2b1a67899221daf8864b92add1",
+      "edition": "answer",
+      "id": "answer:2026-june-grade2-q35-p05",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 5,
+      "pageId": "2026-june-grade2-q35-p05",
+      "part": "1-5",
+      "stageId": "5"
+    },
+    {
+      "digest": "84f0461f8a2d2fd26c358f97a6ec17c24685632026264a2d235540f1944befbe",
+      "edition": "answer",
+      "id": "answer:2026-june-grade2-q35-p06",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 6,
+      "pageId": "2026-june-grade2-q35-p06",
+      "part": "1-5",
+      "stageId": "6"
+    },
+    {
+      "digest": "794f713f145c7602091fdc67108066d2b2962bb1c6c6435f7bbd37a95c0d20cf",
+      "edition": "answer",
+      "id": "answer:2026-june-grade2-q35-p07",
+      "itemIds": [],
+      "page": 7,
+      "pageId": "2026-june-grade2-q35-p07",
+      "part": null,
+      "stageId": "7"
+    },
+    {
+      "digest": "f224cb4bfabce60e57f9adb2ee195846d38ee1787c1de7abc1b10779dd326a17",
+      "edition": "answer",
+      "id": "answer:2026-june-grade2-q35-p08",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 8,
+      "pageId": "2026-june-grade2-q35-p08",
+      "part": "1-5",
+      "stageId": "8"
+    },
+    {
+      "digest": "ac1319e60951a908f1a41b0adcea47615a035dc2044affa7ea5996e3b6470ed4",
+      "edition": "answer",
+      "id": "answer:2026-june-grade2-q35-p09",
+      "itemIds": [],
+      "page": 9,
+      "pageId": "2026-june-grade2-q35-p09",
+      "part": null,
+      "stageId": "9"
+    },
+    {
+      "digest": "e5252369b005055844fcca6cca030a369fae065339939ad7d9d953491efd1183",
+      "edition": "answer",
+      "id": "answer:2026-june-grade2-q35-p10",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 10,
+      "pageId": "2026-june-grade2-q35-p10",
+      "part": "1-5",
+      "stageId": "10"
+    }
+  ],
+  "qa": {
+    "contactSheets": [
+      "qa/samples/student-contact-sheet.png",
+      "qa/samples/answer-contact-sheet.png"
+    ],
+    "dom": {
+      "answer": {
+        "pages": 10,
+        "solutions": 66
+      },
+      "matchedResponseBoxCount": 15,
+      "matchedResponseLineCount": 27,
+      "matchedSolutionSlotCount": 57,
+      "sharedTargetSlotCount": 72,
+      "student": {
+        "pages": 10,
+        "solutions": 0
+      }
+    },
+    "pdf": {
+      "answerPages": 10,
+      "studentPages": 10
+    },
+    "status": "passed",
+    "visualSamples": [
+      "qa/samples/student-p01.png",
+      "qa/samples/student-p02.png",
+      "qa/samples/student-p03.png",
+      "qa/samples/student-p04.png",
+      "qa/samples/student-p05.png",
+      "qa/samples/student-p06.png",
+      "qa/samples/student-p07.png",
+      "qa/samples/student-p08.png",
+      "qa/samples/student-p09.png",
+      "qa/samples/student-p10.png",
+      "qa/samples/answer-p01.png",
+      "qa/samples/answer-p02.png",
+      "qa/samples/answer-p03.png",
+      "qa/samples/answer-p04.png",
+      "qa/samples/answer-p05.png",
+      "qa/samples/answer-p06.png",
+      "qa/samples/answer-p07.png",
+      "qa/samples/answer-p08.png",
+      "qa/samples/answer-p09.png",
+      "qa/samples/answer-p10.png"
+    ]
+  },
+  "reportFormatVersion": "1.0.0",
+  "schemaVersion": "1.0.0",
+  "semanticRubricVersion": "1.0.0",
+  "sourceDigest": "fe6a8d55a86d02b0e8f5786b4d8db63250e69d1545c062ecf52a3a8026df45ee",
+  "specVersion": "1.0.6",
+  "templateVersion": "1.0.4",
+  "validationStatus": "passed",
+  "visualReview": {
+    "notes": "학생용·해설용 10쪽 전체 contact sheet와 7단계 상세 페이지를 확인했습니다. 1단계, 2·3단계 빈칸, 4·8·10단계 작성 영역, 7단계 교정 색상, 9단계 문단 순서, 마지막 페이지와 푸터에 잘림·겹침·정답 누출이 없고 문제·해설 target 배치가 일치합니다.",
+    "reviewedAt": "2026-09-08T15:35:26+09:00",
+    "reviewer": "Codex",
+    "status": "passed"
+  },
+  "workbookId": "2026-june-grade2-q35"
+}

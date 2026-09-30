@@ -1,0 +1,3392 @@
+{
+  "build": {
+    "appliedUpdates": [
+      "U-20260901-015"
+    ],
+    "buildVersion": "1.0.0",
+    "builtAt": "2026-09-01T15:21:25+09:00",
+    "canonicalDigest": "beeaf7518064238c8581306bb01713344c976ea49372316d1fdfbe839cad9fbf",
+    "compilerVersion": "1.0.7",
+    "contentVersion": "1.0.0",
+    "engineDigest": "755fa39f2f38e0c481da489f7b37fc92110b71ae3cf018dda83004df187ac114",
+    "engineInputs": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      }
+    ],
+    "files": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      },
+      {
+        "path": "문제.html",
+        "sha256": "ec96318e7368f905fea0055167060541cd05e13f10eb7a1dcc8b9c05858c6e6f",
+        "size": 149278
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "2ef1e7352ff608743a8ba0d56926c7a5285b2215dac9438ee1c9e6c27d4182a2",
+        "size": 588057
+      },
+      {
+        "path": "해설.html",
+        "sha256": "8be1cd10aa1012818c950667812da5aef9fc523feebd7b49d75bbe22c2e36f62",
+        "size": 159132
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "54c5e4d1e26a95eea6b35373c7fe78f085823b89b943872e2e4cfa7573d792d9",
+        "size": 722457
+      }
+    ],
+    "outputs": [
+      {
+        "path": "문제.html",
+        "sha256": "ec96318e7368f905fea0055167060541cd05e13f10eb7a1dcc8b9c05858c6e6f",
+        "size": 149278
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "2ef1e7352ff608743a8ba0d56926c7a5285b2215dac9438ee1c9e6c27d4182a2",
+        "size": 588057
+      },
+      {
+        "path": "해설.html",
+        "sha256": "8be1cd10aa1012818c950667812da5aef9fc523feebd7b49d75bbe22c2e36f62",
+        "size": 159132
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "54c5e4d1e26a95eea6b35373c7fe78f085823b89b943872e2e4cfa7573d792d9",
+        "size": 722457
+      }
+    ],
+    "pages": [
+      {
+        "digest": "e1abeafc9414cb1c6337f509c4ea6196147be76f1b7c8a54137d848b1314618c",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q24-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q24-p01",
+        "part": "1-10",
+        "stageId": "1"
+      },
+      {
+        "digest": "5377a24c4eae314556c78f46e920921e3a73a8a05f7d7a75dec3e117591b3ffb",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q24-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q24-p02",
+        "part": "1-10",
+        "stageId": "2"
+      },
+      {
+        "digest": "8ac6d6b85d3ef09f2586fecf8d947e06402cc1b36f6d4c2bda27232ee2a57e41",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q24-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q24-p03",
+        "part": "1-10",
+        "stageId": "3"
+      },
+      {
+        "digest": "2bc221fbd3896014357a43fc49fde29a529912a3e87ef8d95447a216d22f5ab4",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q24-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q24-p04",
+        "part": "1-10",
+        "stageId": "4"
+      },
+      {
+        "digest": "4cc10021a9ef97457563cfdecebb341d89af34867934e1c6050ed100b8ead91d",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q24-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q24-p05",
+        "part": "1-10",
+        "stageId": "5"
+      },
+      {
+        "digest": "b95a9197f414cc60d501f1ff21a562e0360d255b235f03cbc3bf69530b0bd206",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q24-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q24-p06",
+        "part": "1-10",
+        "stageId": "6"
+      },
+      {
+        "digest": "26531b7316fc00c57338410db929c2d71ba1fa6da786117b510773bd465caca0",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q24-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q24-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "89b18477fb40dc46746538f167e855f7352eade663269292da63e296cf794d7b",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q24-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q24-p08",
+        "part": "1-5",
+        "stageId": "8"
+      },
+      {
+        "digest": "2f8c4963bd184b9e696b03f1872ddb4fe00fa9f5d5bfc45554f22eb752201a6c",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q24-p09",
+        "itemIds": [
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 9,
+        "pageId": "2026-june-grade2-q24-p09",
+        "part": "6-10",
+        "stageId": "8"
+      },
+      {
+        "digest": "019382f2808c02bb3597153867908550ac143bd9b6d09bd4f42fe5dfc6ec987b",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q24-p10",
+        "itemIds": [],
+        "page": 10,
+        "pageId": "2026-june-grade2-q24-p10",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "8e4c7b61fb064c37cfd3e3627392b0c44c8a1f97667bf3f18059e3780a8f46c7",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q24-p11",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 11,
+        "pageId": "2026-june-grade2-q24-p11",
+        "part": "1-5",
+        "stageId": "10"
+      },
+      {
+        "digest": "2b25bc02c6d6702f2389fa535fea084725db8b52d333de230cfaeeceb92213da",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q24-p12",
+        "itemIds": [
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 12,
+        "pageId": "2026-june-grade2-q24-p12",
+        "part": "6-10",
+        "stageId": "10"
+      },
+      {
+        "digest": "e1abeafc9414cb1c6337f509c4ea6196147be76f1b7c8a54137d848b1314618c",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q24-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q24-p01",
+        "part": "1-10",
+        "stageId": "1"
+      },
+      {
+        "digest": "4762d8e5b59523e084f19e9ff937f96e34daf39061a1a53872cafbe7e18a5d1c",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q24-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q24-p02",
+        "part": "1-10",
+        "stageId": "2"
+      },
+      {
+        "digest": "7dcdf1159c4f6d9cbcd04448813fee350db050f1f239006f9ab95b5da1422031",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q24-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q24-p03",
+        "part": "1-10",
+        "stageId": "3"
+      },
+      {
+        "digest": "ac4adf9bd00ecb568a0396a3659842395a397fe437dff565a4e4937979e5ce82",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q24-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q24-p04",
+        "part": "1-10",
+        "stageId": "4"
+      },
+      {
+        "digest": "f7b020ee65987cd3cda84295d11c46eca2f1de90ada91e143b96d22c55a7457d",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q24-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q24-p05",
+        "part": "1-10",
+        "stageId": "5"
+      },
+      {
+        "digest": "c7916550ee56b612c0faf712aae659ec9f1986509855feafd1cdfd91f29c936d",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q24-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q24-p06",
+        "part": "1-10",
+        "stageId": "6"
+      },
+      {
+        "digest": "5610a469aadc44860451310ccee637e3baef4f8f190ff0082d7abc15523ef616",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q24-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q24-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "27b1841ac6b534792272d377da28804d27c241f10c2fba780d4b7ad53fa57972",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q24-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q24-p08",
+        "part": "1-5",
+        "stageId": "8"
+      },
+      {
+        "digest": "a5d1662b7f3f12670d9e1a161f68008f3c62d3d913e2f5e0aaf46f3575165fac",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q24-p09",
+        "itemIds": [
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 9,
+        "pageId": "2026-june-grade2-q24-p09",
+        "part": "6-10",
+        "stageId": "8"
+      },
+      {
+        "digest": "77fe5f356887b7f230c065bf59babc9cafb648c23269b21f8547c4c74113f3e7",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q24-p10",
+        "itemIds": [],
+        "page": 10,
+        "pageId": "2026-june-grade2-q24-p10",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "efab76849b3da942fa17356463ee5d98e3a98ea1f84f1e3a089b68a2b4b73677",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q24-p11",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 11,
+        "pageId": "2026-june-grade2-q24-p11",
+        "part": "1-5",
+        "stageId": "10"
+      },
+      {
+        "digest": "b35990da13fff4538259f679cd45bed5fb8b2458ec46af3fe80f6fb4e1b33ac5",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q24-p12",
+        "itemIds": [
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 12,
+        "pageId": "2026-june-grade2-q24-p12",
+        "part": "6-10",
+        "stageId": "10"
+      }
+    ],
+    "qa": {
+      "contactSheets": [
+        "qa/samples/student-contact-sheet.png",
+        "qa/samples/answer-contact-sheet.png"
+      ],
+      "dom": {
+        "answer": {
+          "pages": 12,
+          "solutions": 109
+        },
+        "matchedResponseBoxCount": 30,
+        "matchedResponseLineCount": 35,
+        "matchedSolutionSlotCount": 89,
+        "sharedTargetSlotCount": 119,
+        "student": {
+          "pages": 12,
+          "solutions": 0
+        }
+      },
+      "pdf": {
+        "answerPages": 12,
+        "studentPages": 12
+      },
+      "status": "passed",
+      "visualSamples": [
+        "qa/samples/student-p01.png",
+        "qa/samples/student-p02.png",
+        "qa/samples/student-p03.png",
+        "qa/samples/student-p04.png",
+        "qa/samples/student-p05.png",
+        "qa/samples/student-p06.png",
+        "qa/samples/student-p07.png",
+        "qa/samples/student-p08.png",
+        "qa/samples/student-p10.png",
+        "qa/samples/student-p11.png",
+        "qa/samples/student-p12.png",
+        "qa/samples/answer-p01.png",
+        "qa/samples/answer-p02.png",
+        "qa/samples/answer-p03.png",
+        "qa/samples/answer-p04.png",
+        "qa/samples/answer-p05.png",
+        "qa/samples/answer-p06.png",
+        "qa/samples/answer-p07.png",
+        "qa/samples/answer-p08.png",
+        "qa/samples/answer-p10.png",
+        "qa/samples/answer-p11.png",
+        "qa/samples/answer-p12.png"
+      ]
+    },
+    "reportFormatVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "semanticRubricVersion": "1.0.0",
+    "sourceDigest": "56374f96dad7efdca63e5de18087dfef0f8795b7b444e709f14924ff6ac3d1d6",
+    "specVersion": "1.0.6",
+    "templateVersion": "1.0.4",
+    "validationStatus": "passed",
+    "visualReview": {
+      "notes": "학생용·해설용 12쪽 전체 접촉표와 1·2·3·4·5·6·7·8·9·10단계 대표 페이지를 확인했습니다. 2·3단계 빈칸, 4·8·10단계 작성 영역, 7단계 교정 색상, 9단계 순서, 마지막 페이지에서 잘림·겹침·정답 누출이 없고 학생용 해답 0개와 공유 target 일치를 확인했습니다.",
+      "reviewedAt": "2026-09-01T15:21:49+09:00",
+      "reviewer": "Codex",
+      "status": "passed"
+    },
+    "workbookId": "2026-june-grade2-q24"
+  },
+  "bundleVersion": 1,
+  "canonical": {
+    "canonical": {
+      "$schema": "../../schemas/canonical-workbook.schema.json",
+      "contentVersion": "1.0.0",
+      "metadata": {
+        "grade": "고등학교 2학년",
+        "kicker": "High School Reading",
+        "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 24번",
+        "sourceLanguage": "en",
+        "targetLanguage": "ko",
+        "title": "2026학년도 6월 고2 24번 10단계 워크북",
+        "topic": "먼 별의 빛을 통해 우주의 과거를 볼 수 있는 원리"
+      },
+      "passageActivities": {
+        "correction": [
+          {
+            "id": "correction-01",
+            "targets": [
+              {
+                "correct": "takes four years",
+                "id": "correction-01-01",
+                "incorrect": "take four years",
+                "target": {
+                  "occurrence": 1,
+                  "text": "take four years"
+                }
+              },
+              {
+                "correct": "we are looking",
+                "id": "correction-01-02",
+                "incorrect": "we is looking",
+                "target": {
+                  "occurrence": 1,
+                  "text": "we is looking"
+                }
+              },
+              {
+                "correct": "This is",
+                "id": "correction-01-03",
+                "incorrect": "This are",
+                "target": {
+                  "occurrence": 1,
+                  "text": "This are"
+                }
+              },
+              {
+                "correct": "they were",
+                "id": "correction-01-04",
+                "incorrect": "they was",
+                "target": {
+                  "occurrence": 1,
+                  "text": "they was"
+                }
+              },
+              {
+                "correct": "can look",
+                "id": "correction-01-05",
+                "incorrect": "could look",
+                "target": {
+                  "occurrence": 1,
+                  "text": "could look"
+                }
+              },
+              {
+                "correct": "which glows",
+                "id": "correction-01-06",
+                "incorrect": "which glow",
+                "target": {
+                  "occurrence": 1,
+                  "text": "which glow"
+                }
+              },
+              {
+                "correct": "glow started",
+                "id": "correction-01-07",
+                "incorrect": "glow start",
+                "target": {
+                  "occurrence": 1,
+                  "text": "glow start"
+                }
+              },
+              {
+                "correct": "belt are",
+                "id": "correction-01-08",
+                "incorrect": "belt is",
+                "target": {
+                  "occurrence": 1,
+                  "text": "belt is"
+                }
+              },
+              {
+                "correct": "light, familiar to generations of humans, has travelled",
+                "id": "correction-01-09",
+                "incorrect": "light, familiar to generations of humans, have travelled",
+                "target": {
+                  "occurrence": 1,
+                  "text": "light, familiar to generations of humans, have travelled"
+                }
+              },
+              {
+                "correct": "This means",
+                "id": "correction-01-10",
+                "incorrect": "This mean",
+                "target": {
+                  "occurrence": 1,
+                  "text": "This mean"
+                }
+              }
+            ],
+            "textOverride": "The light from even our nearest stellar neighbour take four years to reach us. When we look at the stars, we is looking back in time. This are an incredible gift. We can see parts of space, parts of our universe, as they was many years ago. The further we can collect light from, the further back in time we could look. If you look at the bright star Betelgeuse, which glow in the Orion constellation, you wind time back more than six hundred years. Its reddish glow start its journey to Earth in the Middle Ages. The stars in Orion’s belt is even further away. Their light, familiar to generations of humans, have travelled at least 1,000 years to reach us. This mean we have a chance of understanding the history of the universe because we can see the more distant parts of it as they were in the past, thousands or millions or billions of years ago."
+          }
+        ],
+        "paragraphOrder": [
+          {
+            "answerOrder": [
+              "A",
+              "B",
+              "C"
+            ],
+            "blocks": [
+              {
+                "id": "A",
+                "sentenceIds": [
+                  "s001",
+                  "s002",
+                  "s003"
+                ]
+              },
+              {
+                "id": "B",
+                "sentenceIds": [
+                  "s004",
+                  "s005",
+                  "s006"
+                ]
+              },
+              {
+                "id": "C",
+                "sentenceIds": [
+                  "s007",
+                  "s008",
+                  "s009",
+                  "s010"
+                ]
+              }
+            ],
+            "displayOrder": [
+              "C",
+              "A",
+              "B"
+            ],
+            "id": "paragraph-order-01"
+          }
+        ]
+      },
+      "schemaVersion": "1.0.0",
+      "sentences": [
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "takes"
+                  }
+                ],
+                "id": "s001-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "걸린다"
+                  }
+                ],
+                "segmentId": "s001-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "stellar neighbour"
+                },
+                "id": "s001-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "이웃 별"
+                },
+                "meaning": "인접한 별",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s001-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "reach"
+                },
+                "id": "s001-m04-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "도달"
+                },
+                "meaning": "도달하다",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s001-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s001-a",
+                  "text": "The light from even our nearest stellar neighbour"
+                },
+                {
+                  "id": "s001-b",
+                  "text": "takes four years"
+                },
+                {
+                  "id": "s001-c",
+                  "text": "to reach us."
+                }
+              ],
+              "displayOrder": [
+                "s001-c",
+                "s001-a",
+                "s001-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s001-choice-01",
+                  "options": [
+                    "takes",
+                    "take"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "takes"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s001-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "nearest stellar neighbour"
+                  }
+                },
+                {
+                  "id": "s001-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "takes four years"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s001-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "가장 가까운 이웃 별"
+                  }
+                },
+                {
+                  "id": "s001-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "4년이 걸린다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "take",
+                  "id": "s001-verb-01",
+                  "lemma": "take",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "takes"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "light",
+                "nearest stellar neighbour",
+                "take four years",
+                "reach us"
+              ]
+            }
+          },
+          "id": "s001",
+          "meaningSegments": [
+            {
+              "en": "The light",
+              "id": "s001-m01",
+              "ko": "빛은"
+            },
+            {
+              "en": "from even our nearest stellar neighbour",
+              "id": "s001-m02",
+              "ko": "우리의 가장 가까운 이웃 별에서조차 오는"
+            },
+            {
+              "en": "takes four years",
+              "id": "s001-m03",
+              "ko": "4년이 걸린다"
+            },
+            {
+              "en": "to reach us.",
+              "id": "s001-m04",
+              "ko": "우리에게 도달하는 데."
+            }
+          ],
+          "no": 1,
+          "source": "The light from even our nearest stellar neighbour takes four years to reach us.",
+          "translation": "우리에게 가장 가까운 이웃 별에서 오는 빛조차 우리에게 도달하는 데 4년이 걸린다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "look at"
+                  }
+                ],
+                "id": "s002-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "볼 때"
+                  }
+                ],
+                "segmentId": "s002-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are looking back"
+                  }
+                ],
+                "id": "s002-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "과거를 보고 있다"
+                  }
+                ],
+                "segmentId": "s002-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "looking back"
+                },
+                "id": "s002-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "과거를 보고"
+                },
+                "meaning": "과거를 뒤돌아보다",
+                "reasons": [
+                  "topic-core",
+                  "structure-critical"
+                ],
+                "segmentId": "s002-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s002-a",
+                  "text": "When we look at the stars,"
+                },
+                {
+                  "id": "s002-b",
+                  "text": "we are looking back"
+                },
+                {
+                  "id": "s002-c",
+                  "text": "in time."
+                }
+              ],
+              "displayOrder": [
+                "s002-b",
+                "s002-c",
+                "s002-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s002-choice-01",
+                  "options": [
+                    "are looking",
+                    "looked"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are looking"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s002-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "looking back in time"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s002-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "시간을 거슬러 과거를 보고"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "look at",
+                  "id": "s002-verb-01",
+                  "lemma": "look at",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "look at"
+                  }
+                },
+                {
+                  "cue": "look back",
+                  "id": "s002-verb-02",
+                  "lemma": "look back",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are looking back"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "when",
+                "look at the stars",
+                "look back",
+                "in time"
+              ]
+            }
+          },
+          "id": "s002",
+          "meaningSegments": [
+            {
+              "en": "When we look at the stars,",
+              "id": "s002-m01",
+              "ko": "우리가 별을 볼 때,"
+            },
+            {
+              "en": "we are looking back",
+              "id": "s002-m02",
+              "ko": "우리는 과거를 보고 있다"
+            },
+            {
+              "en": "in time.",
+              "id": "s002-m03",
+              "ko": "시간을 거슬러."
+            }
+          ],
+          "no": 2,
+          "source": "When we look at the stars, we are looking back in time.",
+          "translation": "우리가 별을 볼 때, 우리는 시간을 거슬러 과거를 보고 있는 것이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 2,
+                    "text": "is"
+                  }
+                ],
+                "id": "s003-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "선물이다"
+                  }
+                ],
+                "segmentId": "s003-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "incredible"
+                },
+                "id": "s003-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "놀라운"
+                },
+                "meaning": "믿기 힘들 만큼 놀라운",
+                "reasons": [
+                  "abstract"
+                ],
+                "segmentId": "s003-m01"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s003-a",
+                  "text": "This is"
+                },
+                {
+                  "id": "s003-b",
+                  "text": "an incredible gift."
+                }
+              ],
+              "displayOrder": [
+                "s003-b",
+                "s003-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s003-choice-01",
+                  "options": [
+                    "an",
+                    "a"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "an"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s003-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "incredible gift"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s003-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "놀라운 선물"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s003-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 2,
+                    "text": "is"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "this",
+                "incredible",
+                "gift"
+              ]
+            }
+          },
+          "id": "s003",
+          "meaningSegments": [
+            {
+              "en": "This is an incredible gift.",
+              "id": "s003-m01",
+              "ko": "이것은 놀라운 선물이다."
+            }
+          ],
+          "no": 3,
+          "source": "This is an incredible gift.",
+          "translation": "이것은 놀라운 선물이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can see"
+                  }
+                ],
+                "id": "s004-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "볼 수 있다"
+                  }
+                ],
+                "segmentId": "s004-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "were"
+                  }
+                ],
+                "id": "s004-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "있던"
+                  }
+                ],
+                "segmentId": "s004-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "universe"
+                },
+                "id": "s004-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "우리 우주"
+                },
+                "meaning": "물질과 공간 전체",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s004-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s004-a",
+                  "text": "We can see"
+                },
+                {
+                  "id": "s004-b",
+                  "text": "parts of space, parts of our universe,"
+                },
+                {
+                  "id": "s004-c",
+                  "text": "as they were many years ago."
+                }
+              ],
+              "displayOrder": [
+                "s004-c",
+                "s004-a",
+                "s004-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s004-choice-01",
+                  "options": [
+                    "were",
+                    "are"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "were"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s004-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "parts of our universe"
+                  }
+                },
+                {
+                  "id": "s004-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "as they were"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s004-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "우리 우주의 일부"
+                  }
+                },
+                {
+                  "id": "s004-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "수많은 해 전의 모습대로"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "see",
+                  "id": "s004-verb-01",
+                  "lemma": "see",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can see"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s004-verb-02",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "were"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "parts of space",
+                "our universe",
+                "as",
+                "many years ago"
+              ]
+            }
+          },
+          "id": "s004",
+          "meaningSegments": [
+            {
+              "en": "We can see",
+              "id": "s004-m01",
+              "ko": "우리는 볼 수 있다"
+            },
+            {
+              "en": "parts of space, parts of our universe,",
+              "id": "s004-m02",
+              "ko": "우주 공간의 일부, 우리 우주의 일부를,"
+            },
+            {
+              "en": "as they were",
+              "id": "s004-m03",
+              "ko": "그것들이 있던 모습대로"
+            },
+            {
+              "en": "many years ago.",
+              "id": "s004-m04",
+              "ko": "수많은 해 전에."
+            }
+          ],
+          "no": 4,
+          "source": "We can see parts of space, parts of our universe, as they were many years ago.",
+          "translation": "우리는 우주 공간의 일부, 곧 우리 우주의 일부를 수많은 해 전의 모습대로 볼 수 있다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can collect"
+                  }
+                ],
+                "id": "s005-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "모을수록"
+                  }
+                ],
+                "segmentId": "s005-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can look"
+                  }
+                ],
+                "id": "s005-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "볼 수 있다"
+                  }
+                ],
+                "segmentId": "s005-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "light"
+                },
+                "id": "s005-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "빛"
+                },
+                "meaning": "별에서 오는 관측 빛",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s005-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "back in time"
+                },
+                "id": "s005-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "시간을 더 멀리 거슬러"
+                },
+                "meaning": "과거 시점으로",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s005-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s005-a",
+                  "text": "The further we can collect light from,"
+                },
+                {
+                  "id": "s005-b",
+                  "text": "the further back in time"
+                },
+                {
+                  "id": "s005-c",
+                  "text": "we can look."
+                }
+              ],
+              "displayOrder": [
+                "s005-b",
+                "s005-c",
+                "s005-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s005-choice-01",
+                  "options": [
+                    "further",
+                    "furthest"
+                  ],
+                  "target": {
+                    "occurrence": 2,
+                    "text": "further"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s005-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "The further"
+                  }
+                },
+                {
+                  "id": "s005-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "the further"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s005-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "더 먼 곳에서 빛을 모을수록"
+                  }
+                },
+                {
+                  "id": "s005-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "시간을 더 멀리 거슬러"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "collect",
+                  "id": "s005-verb-01",
+                  "lemma": "collect",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can collect"
+                  }
+                },
+                {
+                  "cue": "look",
+                  "id": "s005-verb-02",
+                  "lemma": "look",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can look"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "the further",
+                "collect light",
+                "back in time",
+                "look"
+              ]
+            }
+          },
+          "id": "s005",
+          "meaningSegments": [
+            {
+              "en": "The further",
+              "id": "s005-m01",
+              "ko": "더 먼 곳에서"
+            },
+            {
+              "en": "we can collect light from,",
+              "id": "s005-m02",
+              "ko": "우리가 빛을 모을수록,"
+            },
+            {
+              "en": "the further back in time",
+              "id": "s005-m03",
+              "ko": "시간을 더 멀리 거슬러"
+            },
+            {
+              "en": "we can look.",
+              "id": "s005-m04",
+              "ko": "우리는 볼 수 있다."
+            }
+          ],
+          "no": 5,
+          "source": "The further we can collect light from, the further back in time we can look.",
+          "translation": "우리가 더 먼 곳에서 빛을 모을수록, 시간을 더 멀리 거슬러 볼 수 있다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "look at"
+                  }
+                ],
+                "id": "s006-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "보면"
+                  }
+                ],
+                "segmentId": "s006-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "glows"
+                  }
+                ],
+                "id": "s006-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "빛나는"
+                  }
+                ],
+                "segmentId": "s006-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "wind time back"
+                  }
+                ],
+                "id": "s006-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "시간을 되돌린다"
+                  }
+                ],
+                "segmentId": "s006-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Betelgeuse"
+                },
+                "id": "s006-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "베텔게우스"
+                },
+                "meaning": "오리온자리의 붉은 초거성",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s006-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Orion constellation"
+                },
+                "id": "s006-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "오리온자리"
+                },
+                "meaning": "오리온의 모습을 본떤 별자리",
+                "reasons": [
+                  "technical"
+                ],
+                "segmentId": "s006-m03"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "wind time back"
+                },
+                "id": "s006-m04-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "시간을 되돌린다"
+                },
+                "meaning": "시간을 과거로 되돌리다",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s006-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s006-a",
+                  "text": "If you look at the bright star Betelgeuse,"
+                },
+                {
+                  "id": "s006-b",
+                  "text": "which glows in the Orion constellation,"
+                },
+                {
+                  "id": "s006-c",
+                  "text": "you wind time back"
+                },
+                {
+                  "id": "s006-d",
+                  "text": "more than six hundred years."
+                }
+              ],
+              "displayOrder": [
+                "s006-c",
+                "s006-a",
+                "s006-d",
+                "s006-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s006-choice-01",
+                  "options": [
+                    "which",
+                    "where"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "which"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s006-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Orion constellation"
+                  }
+                },
+                {
+                  "id": "s006-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "wind time back"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s006-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "오리온자리에서 빛나는"
+                  }
+                },
+                {
+                  "id": "s006-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "시간을 600년 이상 되돌리는"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "look at",
+                  "id": "s006-verb-01",
+                  "lemma": "look at",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "look at"
+                  }
+                },
+                {
+                  "cue": "glow",
+                  "id": "s006-verb-02",
+                  "lemma": "glow",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "glows"
+                  }
+                },
+                {
+                  "cue": "wind time back",
+                  "id": "s006-verb-03",
+                  "lemma": "wind time back",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "wind time back"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "bright star Betelgeuse",
+                "glow",
+                "Orion constellation",
+                "wind time back",
+                "six hundred years"
+              ]
+            }
+          },
+          "id": "s006",
+          "meaningSegments": [
+            {
+              "en": "If you look at the bright star Betelgeuse,",
+              "id": "s006-m01",
+              "ko": "밝은 별 베텔게우스를 보면,"
+            },
+            {
+              "en": "which glows",
+              "id": "s006-m02",
+              "ko": "빛나는"
+            },
+            {
+              "en": "in the Orion constellation,",
+              "id": "s006-m03",
+              "ko": "오리온자리에서,"
+            },
+            {
+              "en": "you wind time back",
+              "id": "s006-m04",
+              "ko": "시간을 되돌린다"
+            },
+            {
+              "en": "more than six hundred years.",
+              "id": "s006-m05",
+              "ko": "600년 이상."
+            }
+          ],
+          "no": 6,
+          "source": "If you look at the bright star Betelgeuse, which glows in the Orion constellation, you wind time back more than six hundred years.",
+          "translation": "오리온자리에서 빛나는 밝은 별 베텔게우스를 보면, 시간을 600년 이상 되돌리는 셈이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "started"
+                  }
+                ],
+                "id": "s007-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "시작했다"
+                  }
+                ],
+                "segmentId": "s007-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "reddish glow"
+                },
+                "id": "s007-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "붉은 빛"
+                },
+                "meaning": "붉은빛을 띠는 빛",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s007-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Middle Ages"
+                },
+                "id": "s007-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "중세"
+                },
+                "meaning": "유럽사의 중세 시대",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s007-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s007-a",
+                  "text": "Its reddish glow started"
+                },
+                {
+                  "id": "s007-b",
+                  "text": "its journey to Earth"
+                },
+                {
+                  "id": "s007-c",
+                  "text": "in the Middle Ages."
+                }
+              ],
+              "displayOrder": [
+                "s007-b",
+                "s007-c",
+                "s007-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s007-choice-01",
+                  "options": [
+                    "Its",
+                    "It’s"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Its"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s007-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "reddish glow"
+                  }
+                },
+                {
+                  "id": "s007-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Middle Ages"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s007-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "중세에"
+                  }
+                },
+                {
+                  "id": "s007-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "지구를 향한 여정"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "start",
+                  "id": "s007-verb-01",
+                  "lemma": "start",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "started"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "reddish glow",
+                "start",
+                "journey to Earth",
+                "Middle Ages"
+              ]
+            }
+          },
+          "id": "s007",
+          "meaningSegments": [
+            {
+              "en": "Its reddish glow started",
+              "id": "s007-m01",
+              "ko": "그 붉은 빛은 시작했다"
+            },
+            {
+              "en": "its journey to Earth",
+              "id": "s007-m02",
+              "ko": "지구를 향한 여정을"
+            },
+            {
+              "en": "in the Middle Ages.",
+              "id": "s007-m03",
+              "ko": "중세에."
+            }
+          ],
+          "no": 7,
+          "source": "Its reddish glow started its journey to Earth in the Middle Ages.",
+          "translation": "그 붉은 빛은 중세에 지구를 향한 여정을 시작했다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                ],
+                "id": "s008-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "떨어져 있다"
+                  }
+                ],
+                "segmentId": "s008-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Orion’s belt"
+                },
+                "id": "s008-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "오리온자리의 허리띠"
+                },
+                "meaning": "오리온자리 중앙의 세 별",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s008-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s008-a",
+                  "text": "The stars"
+                },
+                {
+                  "id": "s008-b",
+                  "text": "in Orion’s belt"
+                },
+                {
+                  "id": "s008-c",
+                  "text": "are even further away."
+                }
+              ],
+              "displayOrder": [
+                "s008-c",
+                "s008-a",
+                "s008-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s008-choice-01",
+                  "options": [
+                    "are",
+                    "is"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s008-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Orion’s belt"
+                  }
+                },
+                {
+                  "id": "s008-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "further away"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s008-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "오리온자리의 허리띠"
+                  }
+                },
+                {
+                  "id": "s008-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "훨씬 더 멀리"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s008-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "stars",
+                "Orion’s belt",
+                "even",
+                "further away"
+              ]
+            }
+          },
+          "id": "s008",
+          "meaningSegments": [
+            {
+              "en": "The stars",
+              "id": "s008-m01",
+              "ko": "별들은"
+            },
+            {
+              "en": "in Orion’s belt",
+              "id": "s008-m02",
+              "ko": "오리온자리의 허리띠를 이루는"
+            },
+            {
+              "en": "are even further away.",
+              "id": "s008-m03",
+              "ko": "훨씬 더 멀리 떨어져 있다."
+            }
+          ],
+          "no": 8,
+          "source": "The stars in Orion’s belt are even further away.",
+          "translation": "오리온자리의 허리띠를 이루는 별들은 훨씬 더 멀리 떨어져 있다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "has travelled"
+                  }
+                ],
+                "id": "s009-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "여행해 왔다"
+                  }
+                ],
+                "segmentId": "s009-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "generations"
+                },
+                "id": "s009-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "수세대"
+                },
+                "meaning": "여러 세대",
+                "reasons": [
+                  "abstract"
+                ],
+                "segmentId": "s009-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "has travelled"
+                },
+                "id": "s009-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "여행해 왔다"
+                },
+                "meaning": "긴 시간 이동해 왔다",
+                "reasons": [
+                  "topic-core",
+                  "structure-critical"
+                ],
+                "segmentId": "s009-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s009-a",
+                  "text": "Their light, familiar to generations of humans,"
+                },
+                {
+                  "id": "s009-b",
+                  "text": "has travelled at least 1,000 years"
+                },
+                {
+                  "id": "s009-c",
+                  "text": "to reach us."
+                }
+              ],
+              "displayOrder": [
+                "s009-b",
+                "s009-c",
+                "s009-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s009-choice-01",
+                  "options": [
+                    "has travelled",
+                    "have travelled"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "has travelled"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s009-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "generations of humans"
+                  }
+                },
+                {
+                  "id": "s009-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "at least 1,000 years"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s009-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "수세대의 인류에게 익숙한"
+                  }
+                },
+                {
+                  "id": "s009-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "최소 1,000년"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "travel",
+                  "id": "s009-verb-01",
+                  "lemma": "travel",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "has travelled"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "their light",
+                "familiar to",
+                "generations of humans",
+                "travel",
+                "reach us"
+              ]
+            }
+          },
+          "id": "s009",
+          "meaningSegments": [
+            {
+              "en": "Their light,",
+              "id": "s009-m01",
+              "ko": "그 별들의 빛은,"
+            },
+            {
+              "en": "familiar to generations of humans,",
+              "id": "s009-m02",
+              "ko": "수세대의 인류에게 익숙한,"
+            },
+            {
+              "en": "has travelled at least 1,000 years",
+              "id": "s009-m03",
+              "ko": "최소 1,000년 동안 여행해 왔다"
+            },
+            {
+              "en": "to reach us.",
+              "id": "s009-m04",
+              "ko": "우리에게 도달하기 위해."
+            }
+          ],
+          "no": 9,
+          "source": "Their light, familiar to generations of humans, has travelled at least 1,000 years to reach us.",
+          "translation": "수세대의 인류에게 익숙한 그 별들의 빛은 우리에게 도달하기까지 최소 1,000년 동안 여행해 왔다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "means"
+                  }
+                ],
+                "id": "s010-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "의미한다"
+                  }
+                ],
+                "segmentId": "s010-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "have"
+                  }
+                ],
+                "id": "s010-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "있음을"
+                  }
+                ],
+                "segmentId": "s010-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can see"
+                  }
+                ],
+                "id": "s010-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "볼 수 있기 때문이다"
+                  }
+                ],
+                "segmentId": "s010-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "were"
+                  }
+                ],
+                "id": "s010-m06-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "있던"
+                  }
+                ],
+                "segmentId": "s010-m06"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "the history of the universe"
+                },
+                "id": "s010-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "우주의 역사"
+                },
+                "meaning": "우주가 변해 온 과정",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s010-m03"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "distant"
+                },
+                "id": "s010-m05-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "먼"
+                },
+                "meaning": "멀리 떨어진",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s010-m05"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "billions"
+                },
+                "id": "s010-m07-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "수십억"
+                },
+                "meaning": "수십억 단위",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s010-m07"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s010-a",
+                  "text": "This means we have a chance"
+                },
+                {
+                  "id": "s010-b",
+                  "text": "of understanding the history of the universe"
+                },
+                {
+                  "id": "s010-c",
+                  "text": "because we can see the more distant parts of it"
+                },
+                {
+                  "id": "s010-d",
+                  "text": "as they were in the past, thousands or millions or billions of years ago."
+                }
+              ],
+              "displayOrder": [
+                "s010-c",
+                "s010-a",
+                "s010-d",
+                "s010-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s010-choice-01",
+                  "options": [
+                    "of understanding",
+                    "to understand"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "of understanding"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s010-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "understanding the history of the universe"
+                  }
+                },
+                {
+                  "id": "s010-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "more distant parts"
+                  }
+                },
+                {
+                  "id": "s010-en-03",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "thousands or millions or billions of years ago"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s010-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "우주의 역사를 이해할 기회"
+                  }
+                },
+                {
+                  "id": "s010-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "더 먼 부분"
+                  }
+                },
+                {
+                  "id": "s010-ko-03",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "수천, 수백만, 또는 수십억 년 전"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "mean",
+                  "id": "s010-verb-01",
+                  "lemma": "mean",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "means"
+                  }
+                },
+                {
+                  "cue": "have",
+                  "id": "s010-verb-02",
+                  "lemma": "have",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "have"
+                  }
+                },
+                {
+                  "cue": "see",
+                  "id": "s010-verb-03",
+                  "lemma": "see",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can see"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s010-verb-04",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "were"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "have a chance",
+                "understand",
+                "history of the universe",
+                "distant parts",
+                "as they were",
+                "years ago"
+              ]
+            }
+          },
+          "id": "s010",
+          "meaningSegments": [
+            {
+              "en": "This means",
+              "id": "s010-m01",
+              "ko": "이것은 의미한다"
+            },
+            {
+              "en": "we have a chance",
+              "id": "s010-m02",
+              "ko": "우리가 기회가 있음을"
+            },
+            {
+              "en": "of understanding the history of the universe",
+              "id": "s010-m03",
+              "ko": "우주의 역사를 이해할"
+            },
+            {
+              "en": "because we can see",
+              "id": "s010-m04",
+              "ko": "왜냐하면 우리는 볼 수 있기 때문이다"
+            },
+            {
+              "en": "the more distant parts of it",
+              "id": "s010-m05",
+              "ko": "그것의 더 먼 부분을"
+            },
+            {
+              "en": "as they were in the past,",
+              "id": "s010-m06",
+              "ko": "그것들이 과거에 있던 모습대로,"
+            },
+            {
+              "en": "thousands or millions or billions of years ago.",
+              "id": "s010-m07",
+              "ko": "수천, 수백만, 또는 수십억 년 전에."
+            }
+          ],
+          "no": 10,
+          "source": "This means we have a chance of understanding the history of the universe because we can see the more distant parts of it as they were in the past, thousands or millions or billions of years ago.",
+          "translation": "이것은 우리가 우주의 역사를 이해할 기회가 있음을 의미한다. 왜냐하면 우리는 우주의 더 먼 부분을 수천, 수백만, 또는 수십억 년 전의 모습대로 볼 수 있기 때문이다."
+        }
+      ],
+      "sourceStatus": {
+        "notes": "원본 PDF 3쪽의 24번 본문을 고해상도로 렌더링해 전사했으며, 본문 아래 별표 어휘 주석과 문항 선택지는 지문 정본에서 제외했습니다.",
+        "references": [
+          "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+        ],
+        "sentenceCount": 10,
+        "sourceType": "pdf",
+        "status": "confirmed",
+        "verifiedAt": "2026-09-01T15:00:00+09:00"
+      },
+      "specVersion": "1.0.6",
+      "updateState": {
+        "appliedUpdates": [
+          {
+            "appliedAt": "2026-09-01T15:05:00+09:00",
+            "fromContentVersion": "0.0.0",
+            "id": "U-20260901-015",
+            "report": "reports/updates/U-20260901-015.md",
+            "scope": "selected",
+            "toContentVersion": "1.0.0"
+          }
+        ],
+        "defaultScope": "new-only"
+      },
+      "workbookId": "2026-june-grade2-q24"
+    },
+    "contentVersion": "1.0.0",
+    "files": [
+      {
+        "path": "workbooks/2026-june-grade2-q24/content.json",
+        "sha256": "42def4d91859b49dfd6504b771c408227c5ac7e4bafee15f373028f0251c4cb4",
+        "size": 54169
+      }
+    ],
+    "workbookId": "2026-june-grade2-q24"
+  },
+  "spec": {
+    "files": [
+      {
+        "path": "config/versions.json",
+        "sha256": "9ad95c50e447e5817eaeefbe713275ae7f7e9984459e24e03c45098e26f58034",
+        "size": 1665
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "sha256": "aadb3fe161b100e3a68ecb42fab51775e9738153a04278a53b27e7172f8d8f69",
+        "size": 17021
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+        "size": 8058
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "schemaFiles": [
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "semanticRubricFile": {
+      "path": "docs/semantic-rubric.md",
+      "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+      "size": 8058
+    },
+    "semanticRubricVersion": "1.0.0",
+    "spec": {
+      "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "answerEditionContract": {
+        "answerFillClassMayAutoColor": false,
+        "choicePromptVisibleInAnswer": true,
+        "redAllowedOnlyOnSolutionValues": true,
+        "sameStageAndExerciseDomAsStudent": true,
+        "solutionClass": "solution-value",
+        "solutionColor": "#D71920",
+        "solutionInsertion": "fill-the-same-solution-slot",
+        "studentDerivation": "render answer first, lock every solution slot and writing response geometry, then remove solution values only",
+        "studentPayloadMayContainSolutions": false
+      },
+      "canonicalSchema": "schemas/canonical-workbook.schema.json",
+      "canonicalText": {
+        "baseTextOverride": {
+          "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+          "defaultStorage": "omit-baseText-and-derive-from-canonical",
+          "redundantDefaultCopy": "forbidden",
+          "requiredCompanionField": "overrideReason"
+        },
+        "displayDefault": "source",
+        "exerciseBaseTextDefaults": {
+          "choice": "display-or-source",
+          "enBlank": "display-or-source",
+          "koBlank": "translation",
+          "verb": "display-or-source"
+        },
+        "markup": "forbidden",
+        "reconstruction": {
+          "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+          "meaningSegments": "join meaningSegments[].en with one ASCII space",
+          "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+        },
+        "sourceWhitespace": "single-space-between-tokens",
+        "targetAnchor": {
+          "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다.",
+          "shape": {
+            "occurrence": "one-based occurrence in the applicable base text",
+            "text": "exact substring"
+          }
+        }
+      },
+      "contentOwnership": {
+        "authorable": [
+          "metadata",
+          "sourceStatus",
+          "sentences[].source",
+          "sentences[].display",
+          "sentences[].translation",
+          "sentences[].meaningSegments",
+          "sentences[].annotations",
+          "sentences[].exercises",
+          "passageActivities.correction",
+          "passageActivities.paragraphOrder",
+          "updateState"
+        ],
+        "derived": [
+          "stage number, title, instruction and renderer mode",
+          "item and unit numbers",
+          "part ranges and page boundaries",
+          "student and answer projections",
+          "blank, predicate, vocabulary and solution markup",
+          "answer-line height and layout classes",
+          "page count, footer number and output filenames"
+        ],
+        "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+      },
+      "logicalStages": [
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].meaningSegments",
+            "sentences[].annotations.predicates",
+            "sentences[].annotations.vocabulary"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "passage-practice",
+          "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean-inline-hint"
+            ],
+            "vocabularyColoring": true
+          },
+          "number": 1,
+          "pagination": {
+            "hardMaximum": 13,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 12,
+            "unit": "sentence"
+          },
+          "rendererMode": "meaning",
+          "scope": "sentence",
+          "title": "지문 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].exercises.koBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "korean-cloze",
+          "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 2,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (우리말)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.enBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "english-cloze",
+          "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 3,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (영문)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].translation"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "translation-practice",
+          "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 4,
+          "pagination": {
+            "hardMaximum": 11,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 10,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "해석 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.verb"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "verb-form",
+          "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 5,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "동사형 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.choice"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "grammar-vocabulary-choice",
+          "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 6,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "어법·어휘 고르기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.correction"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "correction",
+          "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+          "layout": {
+            "fieldOrder": [
+              "passage",
+              "correction-rows"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 7,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "correction",
+          "scope": "passage-activity",
+          "title": "어색한 곳 찾기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.arrange"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "sentence-order",
+          "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+          "layout": {
+            "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+            "arrangementSlots": "forbidden",
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 8,
+          "pagination": {
+            "hardMaximum": 6,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 6,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "순서 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.paragraphOrder"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "paragraph-order",
+          "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "fixed-intro",
+              "shuffled-blocks",
+              "fixed-outro",
+              "sequence-slots"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 9,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "paragraph-order",
+          "scope": "passage-activity",
+          "title": "문단 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.writing",
+            "sentences[].display|source"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "composition",
+          "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "studentEnglishSkeleton": "forbidden",
+            "vocabularyColoring": false
+          },
+          "number": 10,
+          "pagination": {
+            "hardMaximum": 8,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 8,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "영작 연습하기"
+        }
+      ],
+      "paginationContract": {
+        "continuationPageMinimumItems": 2,
+        "forbidden": [
+          "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+          "legacy 흐름 or 뜻 작성 columns",
+          "content crossing the page footer",
+          "content from one page overlapping the next page",
+          "clipped text",
+          "a singleton continuation page that can be avoided within the stage hard maximum",
+          "renumbering a new part from one"
+        ],
+        "layoutPreference": "vertical",
+        "numbering": "continuous-original-sentence-number",
+        "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+        "partLabel": "inclusive-original-sentence-number-range",
+        "readingLayout": "allowed-only-after-explicit-user-request",
+        "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+        "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+        "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+        "visualFitOverridesTargetCount": true
+      },
+      "principles": {
+        "canonicalDataContainsHtml": false,
+        "logicalStageCount": 10,
+        "publishOnlyAfterAllChecksPass": true,
+        "singleContentSource": true,
+        "studentAndAnswerShareExerciseStructure": true,
+        "studentProjectionSource": "answer-edition-after-browser-measured-all-solution-layouts",
+        "uncertainSourcePolicy": "stop-and-request-clearer-source"
+      },
+      "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+      "releaseContract": {
+        "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+        "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+        "filenames": [
+          "문제.html",
+          "문제.pdf",
+          "해설.html",
+          "해설.pdf"
+        ],
+        "finalHtmlDependencies": "self-contained",
+        "outputRoot": "outputs",
+        "previewFixture": "one-shared-canonical-fixture",
+        "publish": "atomic-after-all-gates-pass",
+        "stagingRoot": ".build/releases",
+        "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture"
+      },
+      "semanticRubric": "docs/semantic-rubric.md",
+      "specVersion": "1.0.6",
+      "updates": {
+        "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+        "allowedScopes": [
+          "new-only",
+          "all",
+          "selected",
+          "manual-review"
+        ],
+        "changelogPath": "CHANGELOG.md",
+        "defaultScope": "new-only",
+        "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+        "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+        "reportRequired": true,
+        "requiredImpactDimensions": [
+          "canonical fields",
+          "stage numbers",
+          "sentence or activity ids",
+          "student and answer editions",
+          "page count and part ranges",
+          "component versions"
+        ],
+        "requiredReportSections": [
+          "요약",
+          "요청 내용",
+          "직접 변경",
+          "파생 변경",
+          "영향 없음",
+          "파일 변경",
+          "출력 변화",
+          "검증 결과",
+          "호환성",
+          "버전"
+        ],
+        "versionBump": {
+          "backward-compatible field or stage capability": "minor",
+          "breaking schema or canonical semantics": "major",
+          "bug fix, validation strengthening or copy correction": "patch"
+        }
+      },
+      "validationGates": {
+        "canonical": [
+          "JSON Schema passes",
+          "sourceStatus.status is confirmed",
+          "sentence ids and numbers are unique, consecutive and aligned",
+          "meaning segment English joined with one space equals display or source",
+          "every meaning segment has one-to-one English and Korean text",
+          "all target anchors resolve exactly at their declared occurrence",
+          "choice options contain the correct target exactly once",
+          "arrange chunks in canonical order reconstruct display or source exactly",
+          "arrange displayOrder contains every chunk id exactly once",
+          "paragraph displayOrder contains every block id exactly once",
+          "correction targets restore their base excerpt exactly",
+          "vocabulary and predicate annotations resolve inside their meaning segment"
+        ],
+        "compiled": [
+          "exactly ten logical stages appear in fixed order",
+          "sentence stages contain exactly one item for every source sentence",
+          "all part ranges are complete, consecutive and match item numbers",
+          "student and answer exercise structures are identical",
+          "every non-writing solution-slot position, width, and height is copied from the browser-measured answer edition before solution text is removed",
+          "student response-line positions, widths, and heights are copied from the browser-measured answer edition before solution text is removed",
+          "student writing areas do not draw replacement guide lines after the answer text is removed",
+          "student edition exposes no solution values",
+          "every bank, target and slot cardinality is internally consistent",
+          "stage 10 student edition contains no English skeleton"
+        ],
+        "release": [
+          "problem HTML exists",
+          "problem PDF exists",
+          "answer HTML exists",
+          "answer PDF exists",
+          "build manifest records all component versions and applied updates",
+          "update report exists when an update id is applied"
+        ],
+        "rendered": [
+          "document fonts and images are ready",
+          "browser console and page errors are empty",
+          "data-render-validation is exactly ok",
+          "no unresolved template placeholder remains",
+          "no preview fixture data remains in final HTML",
+          "no page or footer overflow exists under print media",
+          "answer red is present only on solution-value nodes",
+          "every student and answer non-writing solution-slot has matching page-relative left, top, width, and height within 0.75px",
+          "every student and answer writing response box and answer-line trace matches within 0.75px",
+          "representative and risk pages pass visual review"
+        ]
+      },
+      "vocabularyContract": {
+        "allowedStageNumbers": [
+          1
+        ],
+        "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+        "maximumPerSentence": 3,
+        "redSlotForbidden": true,
+        "rendererClasses": {
+          "english": "vocab vocab-{slot} gloss",
+          "korean": "vocab vocab-{slot}"
+        },
+        "sameEnglishAndKoreanSlot": true,
+        "slots": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "specVersion": "1.0.6"
+  },
+  "template": {
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+        "size": 29359
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "sha256": "25a21d18af7ee1100e7a4d0023af1175140e82dd2cce2a246d0fcd5ece2411ee",
+        "size": 42558
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+        "size": 1212
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "sha256": "ceab51f4246462f507a1de7c6aea850fb577113c37e74b4d98a645f23744a330",
+        "size": 15185
+      }
+    ],
+    "rendererContract": "shared-dom-explicit-targets-fail-closed",
+    "templateVersion": "1.0.4"
+  }
+}

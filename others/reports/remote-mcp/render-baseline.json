@@ -1,0 +1,240 @@
+{
+  "records": [
+    {
+      "canonical": "workbooks/2026-june-grade2-q20/content.json",
+      "edition": "student",
+      "pages": 10,
+      "irSha256": "c989e220cf740d042a9222cee021da047b2ec9d0713000b3808d6513629f93ed",
+      "htmlSha256": "9bcff2a14967b8e58ebecbeac08921992f9a87b7950b7e943c259826322bda07"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q20/content.json",
+      "edition": "answer",
+      "pages": 10,
+      "irSha256": "674053ec60faa02fed245bfbb058e9fce7834c9b2b7e47f33340c6077de48d47",
+      "htmlSha256": "76233eb0c9a3b764307a6a4909cba6606e553df3943d8d77e9ec99a5b56ecda3"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q21/content.json",
+      "edition": "student",
+      "pages": 11,
+      "irSha256": "2f067d9883149e897c3966bc2b16c92023191e70f2e07d4d662ea2e7293b8f9e",
+      "htmlSha256": "a75337fe726082b0969c78635b85e71a85e77557734a14ab0a98f308399720c4"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q21/content.json",
+      "edition": "answer",
+      "pages": 11,
+      "irSha256": "91a968caf22e4de79001c3aa1fa22dc1c12abf41817d9110fde5c0c6d3891828",
+      "htmlSha256": "f7f57f87e2d27e53e687138464dd694864fc84465dfaf64053f00bad69ffff4b"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q22/content.json",
+      "edition": "student",
+      "pages": 12,
+      "irSha256": "fc99275fb26809ec95133924995f957b282e52504896f3eee3a6b060dff1a096",
+      "htmlSha256": "b762d1c8a8d1d2b6dd02e094390324822fb3bea1610ab40881dd2ee0265e3b0e"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q22/content.json",
+      "edition": "answer",
+      "pages": 12,
+      "irSha256": "767c22208f01a2a4d0dfa279f7861ab370c1b4ed719d7d2df6e66633550d43d5",
+      "htmlSha256": "4d201ef22ca9dd37c2a1d1887aef7fc19f37af974ce3ea4fadd35df487c6b466"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q23/content.json",
+      "edition": "student",
+      "pages": 10,
+      "irSha256": "1350d9d6652a9f76d6ef04c992b676bb086184c5437034fb675dc326155973ff",
+      "htmlSha256": "0a8cbe87f388d8af0ca0af38eb5b7d5c220a1ebbee608a6aeda7d4c7058e925f"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q23/content.json",
+      "edition": "answer",
+      "pages": 10,
+      "irSha256": "d77d66bc109bc732c2d13330b1913099dcbcccfe490dffac0a57953f992aaf07",
+      "htmlSha256": "84d0a55ed40fe1c98a1b807937afc661d5987398eaa283556e608058b5733c5e"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q24/content.json",
+      "edition": "student",
+      "pages": 12,
+      "irSha256": "b48b609b82c86e4973cacbf90924c2e78c69b726b661ad1b52b0e7da7dec1035",
+      "htmlSha256": "95f5f6818fc9e6b4acce7a3ac9676cb5d527dc575f852cd3573d6dfe32f67de5"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q24/content.json",
+      "edition": "answer",
+      "pages": 12,
+      "irSha256": "e9dae463b04323f86a7ed96261e4969da4d510b0798a9fd28a6b06e25f7c19d6",
+      "htmlSha256": "1a2c1adfdce8a8a69e0ea286b3b1f4be77481abd16d8bd15685f56f2255e369b"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q29/content.json",
+      "edition": "student",
+      "pages": 11,
+      "irSha256": "9e2e0d5603af300b04895af705f025a9a897578c09ffc049ed480b9ebabe9eb8",
+      "htmlSha256": "d19b4bad28317996f45d65eeb361005a23aa4810fa4ee76cc517a942c7da86e5"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q29/content.json",
+      "edition": "answer",
+      "pages": 11,
+      "irSha256": "2cd5238c885c922aec1dbf8c88347c2649f9616e9cc42c427bfb7c1d9740d618",
+      "htmlSha256": "628a27139ee789a9e418a6eaa80ed50382a6af376b3c9fca25f8342ce3fbb19b"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q30/content.json",
+      "edition": "student",
+      "pages": 11,
+      "irSha256": "8de25fe0d759936c961e4791a784de796ab650ad494858b2936a8c0bd1db79a7",
+      "htmlSha256": "e38326bdc830bb65d746020b94727a9cdb377db45c9f029acace6f6939984ae2"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q30/content.json",
+      "edition": "answer",
+      "pages": 11,
+      "irSha256": "f76964540383c51baedb9dd39e891fc1cee9b332887acde9ceed06b4b4cbdefd",
+      "htmlSha256": "28e2bce8198d71a03d89bda38da3d6a81c3c085ab0487995321d94077108a732"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q31/content.json",
+      "edition": "student",
+      "pages": 11,
+      "irSha256": "fba8ece7172005a22168c5f0c06ee84f8dd2f046d026c852b47d9e203c3cf9bc",
+      "htmlSha256": "0a4f4ec13bc4324ee5003f50709bb33603828afcc4bb636a90c26872eee0d9da"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q31/content.json",
+      "edition": "answer",
+      "pages": 11,
+      "irSha256": "58e4d0ba351b3942fe396c7d4465c719812bcffa6aaa2f3896d1b758534a62b2",
+      "htmlSha256": "6af2d39673c4511a256e6054f9f8354ee7770f4a4bf761498e4e002b9f614afa"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q32/content.json",
+      "edition": "student",
+      "pages": 10,
+      "irSha256": "25b9f7a438f4c4342a96e596b94bc94aad689a3bb5e5292d30b2078fb537695c",
+      "htmlSha256": "ec1dea450cc0078fd6070a66ae6e82e4b66a0d3a9c0fd65572283faaa6c13cf7"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q32/content.json",
+      "edition": "answer",
+      "pages": 10,
+      "irSha256": "93d9578af8e8d2906ad5be5267d2813e6d72d8a50551da633008b05eddfa54e6",
+      "htmlSha256": "0104394e32417b5b9853175fdab3f6a40abc3711a5148a45cea2c4e4874634f7"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q33/content.json",
+      "edition": "student",
+      "pages": 10,
+      "irSha256": "5c0418c33b8278d98616604ba1e5d016db9b626198efa41d4b0e4496e27467c1",
+      "htmlSha256": "1ba3f6549906a26b8147be172a5f1aea24d41f6445f15ea32609117d6d5a82a7"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q33/content.json",
+      "edition": "answer",
+      "pages": 10,
+      "irSha256": "016092735df355f099e650f3d615f72d2f81b8d64deb8d5795ed0cfb04836338",
+      "htmlSha256": "0122a80944f716cffeaeee77e4a6657715098631879cfdb66c2e30ff2cd83dc6"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q34/content.json",
+      "edition": "student",
+      "pages": 12,
+      "irSha256": "3a6bec86225c7bf8cbc1ea2300cbe56491640256a7b58779a4f984bf20ee8723",
+      "htmlSha256": "8b7e87552c7740387e6de9cd58085787dcce5b5da2cfdc909716c343c99a7c5b"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q34/content.json",
+      "edition": "answer",
+      "pages": 12,
+      "irSha256": "465aeafa4c4ed4563699c2c027a8be2c8c6c5f3c23a7cdaef12542774a756a2e",
+      "htmlSha256": "4f84adb60c1bc85a61408d1d4fd5dc8150e46a932dc1c5fa1f31cc26be02a8ee"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q35/content.json",
+      "edition": "student",
+      "pages": 10,
+      "irSha256": "fba10d362a720b831615e33e5787184171c35770d8461ceaafeaaca8b0f995c0",
+      "htmlSha256": "15012f56d5ad84ff1e79b882a3069e40983baaaeab30715c9837bb92d4dd0b05"
+    },
+    {
+      "canonical": "workbooks/2026-june-grade2-q35/content.json",
+      "edition": "answer",
+      "pages": 10,
+      "irSha256": "5835d478c6e54fdf679d20e3661c86b62c2fe99a536845c448fe89d9f9854b1b",
+      "htmlSha256": "c12177d0fa33110d5dc0167a16c6b15c679179c43b8d4b17fa402a12229eb271"
+    },
+    {
+      "canonical": "workbooks/chocolate/content.json",
+      "edition": "student",
+      "pages": 22,
+      "irSha256": "4cef5459bc576920ee5a3bb1871f81d05521ac0e72a72d61cc68049f0fb64fc9",
+      "htmlSha256": "afbfbfcf1660768e73daf0e05cd29b22a855451393bd526507ee46489183557c"
+    },
+    {
+      "canonical": "workbooks/chocolate/content.json",
+      "edition": "answer",
+      "pages": 22,
+      "irSha256": "448c2a95f7128495ec11c3f62299d446222da457dc0aab725f107124d7d6d8bf",
+      "htmlSha256": "f20c3d34466dd3605c969eed94a5a3b5fb57b6a555585137e9144640b979bfae"
+    },
+    {
+      "canonical": "workbooks/soccer-jersey-swap/content.json",
+      "edition": "student",
+      "pages": 15,
+      "irSha256": "165ab1f5660b5cec143881a4855c259d98638fad825179853ca7641a69d8e07c",
+      "htmlSha256": "0ef44f3712aefdb41f496ddd1841fd8b85483d3072108f71e5038b5f25cd6231"
+    },
+    {
+      "canonical": "workbooks/soccer-jersey-swap/content.json",
+      "edition": "answer",
+      "pages": 15,
+      "irSha256": "6bf6c7f202944568f08feea4ba8d8388d5504eca3e95eece00e702bf0091c1c6",
+      "htmlSha256": "745b8072e7323730df6ec3bb6427ae61487a68ba5be6c804ab6f8853906261f5"
+    },
+    {
+      "canonical": "workbooks/when-failure-become-ideas/content.json",
+      "edition": "student",
+      "pages": 21,
+      "irSha256": "82d58bd83ff000cbdd3dbb616fdd76742fcc554f576374f7f83574eca454d962",
+      "htmlSha256": "219d6784bbeb3f2442b371f4e6a06f61c53882369045a055dfe36ca543808aaa"
+    },
+    {
+      "canonical": "workbooks/when-failure-become-ideas/content.json",
+      "edition": "answer",
+      "pages": 21,
+      "irSha256": "fa254d25e39456e8f09757f4faf282476e4b4d02167509b3b850a7aed37a34c3",
+      "htmlSha256": "3f1d0ce4961ea34c1d311e64a8c057df5bdabf4c3b71dbf96d009a692323cfc9"
+    }
+  ],
+  "inputDigests": {
+    "workbooks/chocolate/content.json": "2d56ade814385b69d1d9c65b3dc52bed3e03256cd0c605a22b76583cb6de57f2",
+    "updates/U-20260710-001.json": "3ac2db116347da205a08526cc44039e583d112af0c689b1a842ffa616e8913a0",
+    "config/workbook-spec.json": "aadb3fe161b100e3a68ecb42fab51775e9738153a04278a53b27e7172f8d8f69",
+    "config/versions.json": "5cc87ad2d4bbf7020c85dd1758306a2c645b0d9e21a21d129586b99512eff9e8",
+    "docs/semantic-rubric.md": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+    "schemas/canonical-workbook.schema.json": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+    "schemas/update.schema.json": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+    "workbook_engine/templates/shell.html": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+    "workbook_engine/templates/workbook.css": "ceab51f4246462f507a1de7c6aea850fb577113c37e74b4d98a645f23744a330",
+    "workbook_engine/templates/renderer.js": "25a21d18af7ee1100e7a4d0023af1175140e82dd2cce2a246d0fcd5ece2411ee",
+    "assets/yonjogyo-logo-footer.png": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+    "workbook_engine/__init__.py": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+    "workbook_engine/__main__.py": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+    "workbook_engine/change_report.py": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+    "workbook_engine/compiler.py": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+    "workbook_engine/manifest.py": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+    "workbook_engine/migrate_legacy.py": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+    "workbook_engine/paginator.py": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+    "workbook_engine/qa.py": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+    "workbook_engine/release.py": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+    "workbook_engine/render.py": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+    "workbook_engine/schema_gate.py": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+    "workbook_engine/textops.py": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+    "workbook_engine/validator.py": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1"
+  }
+}

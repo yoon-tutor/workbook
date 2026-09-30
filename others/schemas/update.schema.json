@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://workbook.local/schemas/update.schema.json",
+  "title": "Workbook update definition",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "date",
+    "summary",
+    "category",
+    "applyTo"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^U-[0-9]{8}-[0-9]{3,}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "applyTo": {
+      "enum": [
+        "new-only",
+        "all",
+        "selected",
+        "manual-review"
+      ]
+    },
+    "selectedWorkbooks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "affectedStages": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "integer",
+            "minimum": 1
+          },
+          {
+            "type": "string",
+            "minLength": 1
+          }
+        ]
+      },
+      "uniqueItems": true
+    },
+    "request": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      ]
+    },
+    "directChanges": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "jsonPaths": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "manifest",
+              "path"
+            ],
+            "properties": {
+              "manifest": {
+                "enum": [
+                  "canonical",
+                  "spec",
+                  "template",
+                  "build"
+                ]
+              },
+              "path": {
+                "type": "string",
+                "pattern": "^\\$"
+              }
+            }
+          }
+        }
+      }
+    },
+    "verification": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "status"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "pass",
+              "fail",
+              "warn",
+              "skipped"
+            ]
+          },
+          "details": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "applyTo": {
+            "const": "selected"
+          }
+        },
+        "required": [
+          "applyTo"
+        ]
+      },
+      "then": {
+        "required": [
+          "selectedWorkbooks"
+        ],
+        "properties": {
+          "selectedWorkbooks": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ]
+}

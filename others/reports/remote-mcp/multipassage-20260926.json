@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "oldService": {
+    "url": "https://workbook-runtime-972256519381.asia-northeast3.run.app/mcp",
+    "runtimeId": "3c517285402fd434a00b0a39c3559c85e00ec179762de3bdf24c303f2d2bb822",
+    "status": "available"
+  },
+  "newService": {
+    "url": "https://workbook-runtime-multipassage-972256519381.asia-northeast3.run.app/mcp",
+    "revision": "workbook-runtime-multipassage-00001-lnw",
+    "runtimeId": "0b87303199c0c913202987bcb37ff059ebff0ca39ef06b32f381e979b2e813bb",
+    "status": "available"
+  },
+  "userCommands": {
+    "guide": "passed",
+    "sync": "verified",
+    "authoringVerify": {
+      "status": "passed",
+      "workbookId": "g2-june-30-34",
+      "sentences": 36
+    }
+  },
+  "packet": "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\distribution\\workbook-maker-20260926\\.build\\authoring\\g2-june-30-34\\authoring.json",
+  "regression": {
+    "engineTests": 39,
+    "engineSkipped": 1,
+    "remoteTests": 14,
+    "originalIRAndHTMLByteParity": "passed",
+    "distributedExampleHTMLByteIdentical": true,
+    "distributedExampleStudentPages": 22,
+    "distributedExampleAnswerPages": 22
+  },
+  "archive": {
+    "path": "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\distribution\\workbook-maker-20260926.zip",
+    "sha256": "92af38fb4b5a73fcd6bbd28955a65f801e0abd5c39f1b42609958133ccbd808b",
+    "tokenIncluded": false
+  },
+  "preservationAudit": {
+    "status": "intentional_code_changes_only",
+    "paths": [
+      "others/tests/test_engine.py",
+      "others/workbook_engine/qa.py",
+      "others/workbook_engine/validator.py"
+    ],
+    "originalResultFilesChanged": false
+  }
+}

@@ -1,0 +1,1380 @@
+{
+  "$schema": "../../schemas/canonical-workbook.schema.json",
+  "schemaVersion": "1.0.0",
+  "specVersion": "1.0.6",
+  "contentVersion": "1.0.0",
+  "workbookId": "2026-june-grade2-q33",
+  "metadata": {
+    "title": "2026학년도 6월 고2 33번 10단계 워크북",
+    "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 33번",
+    "kicker": "High School Reading",
+    "grade": "고등학교 2학년",
+    "topic": "환경 변화의 방향을 지속적으로 따라가는 진화와 자연 선택",
+    "sourceLanguage": "en",
+    "targetLanguage": "ko"
+  },
+  "sourceStatus": {
+    "status": "confirmed",
+    "sourceType": "pdf",
+    "references": [
+      "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+    ],
+    "sentenceCount": 5,
+    "verifiedAt": "2026-09-03T15:25:00+09:00",
+    "notes": "원본 PDF 6쪽의 33번 본문, 빈칸, 선택지를 고해상도로 렌더링해 전사했습니다. 빈칸은 문맥과 선택지를 대조해 정답 ② constantly tracks the changing environment를 canonical 본문에 복원했습니다."
+  },
+  "updateState": {
+    "defaultScope": "new-only",
+    "appliedUpdates": [
+      {
+        "id": "U-20260903-017",
+        "scope": "selected",
+        "fromContentVersion": "0.0.0",
+        "toContentVersion": "1.0.0",
+        "appliedAt": "2026-09-03T15:30:00+09:00",
+        "report": "reports/updates/U-20260903-017.md"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "source": "Evolution will come to a standstill until something in the conditions changes: the onset of an ice age, a change in the average rainfall of the area, a shift in the prevailing wind.",
+      "translation": "진화는 조건의 무언가가 바뀔 때까지 멈춰 있을 것이다. 그 변화에는 빙하기의 시작, 그 지역 평균 강우량의 변화, 지배풍의 변화가 있다.",
+      "meaningSegments": [
+        {
+          "en": "Evolution will come to a standstill",
+          "ko": "진화는 멈춰 있을 것이다",
+          "id": "s001-m01"
+        },
+        {
+          "en": "until something in the conditions changes:",
+          "ko": "조건의 무언가가 바뀔 때까지:",
+          "id": "s001-m02"
+        },
+        {
+          "en": "the onset of an ice age,",
+          "ko": "빙하기의 시작,",
+          "id": "s001-m03"
+        },
+        {
+          "en": "a change in the average rainfall of the area,",
+          "ko": "그 지역 평균 강우량의 변화,",
+          "id": "s001-m04"
+        },
+        {
+          "en": "a shift in the prevailing wind.",
+          "ko": "지배풍의 변화.",
+          "id": "s001-m05"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "will come to a standstill",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "멈춰 있을 것이다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m01-p01",
+            "segmentId": "s001-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "changes",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "바뀔",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m02-p01",
+            "segmentId": "s001-m02"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "standstill",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "멈춰",
+              "occurrence": 1
+            },
+            "meaning": "움직임이나 발전이 멈춘 상태",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s001-m01-v01",
+            "segmentId": "s001-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "onset",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "시작",
+              "occurrence": 1
+            },
+            "meaning": "어떤 현상의 시작",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s001-m03-v02",
+            "segmentId": "s001-m03",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "prevailing wind",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "지배풍",
+              "occurrence": 1
+            },
+            "meaning": "한 지역에서 주로 부는 바람",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s001-m05-v03",
+            "segmentId": "s001-m05",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s001-ko-01",
+              "target": {
+                "text": "조건의 무언가가 바뀔 때까지",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-ko-02",
+              "target": {
+                "text": "지배풍의 변화",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s001-en-01",
+              "target": {
+                "text": "will come to a standstill",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-en-02",
+              "target": {
+                "text": "a shift in the prevailing wind",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "will come to a standstill",
+                "occurrence": 1
+              },
+              "cue": "come to a standstill",
+              "lemma": "come",
+              "id": "s001-verb-01"
+            },
+            {
+              "target": {
+                "text": "changes",
+                "occurrence": 1
+              },
+              "cue": "change",
+              "lemma": "change",
+              "id": "s001-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "until",
+                "occurrence": 1
+              },
+              "options": [
+                "until",
+                "although"
+              ],
+              "id": "s001-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s001-a",
+              "text": "Evolution will come to a standstill"
+            },
+            {
+              "id": "s001-b",
+              "text": "until something in the conditions changes:"
+            },
+            {
+              "id": "s001-c",
+              "text": "the onset of an ice age, a change in the average rainfall of the area,"
+            },
+            {
+              "id": "s001-d",
+              "text": "a shift in the prevailing wind."
+            }
+          ],
+          "displayOrder": [
+            "s001-c",
+            "s001-a",
+            "s001-d",
+            "s001-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "evolution",
+            "come to a standstill",
+            "conditions change",
+            "onset of an ice age",
+            "average rainfall",
+            "prevailing wind"
+          ]
+        }
+      },
+      "id": "s001",
+      "no": 1
+    },
+    {
+      "source": "Such changes do happen when we are dealing with a timescale as long as the evolutionary one.",
+      "translation": "그러한 변화는 우리가 진화의 시간 규모만큼 긴 시간 규모를 다룰 때 실제로 일어난다.",
+      "meaningSegments": [
+        {
+          "en": "Such changes do happen",
+          "ko": "그러한 변화는 실제로 일어난다",
+          "id": "s002-m01"
+        },
+        {
+          "en": "when we are dealing with a timescale",
+          "ko": "우리가 시간 규모를 다룰 때",
+          "id": "s002-m02"
+        },
+        {
+          "en": "as long as the evolutionary one.",
+          "ko": "진화의 시간 규모만큼 긴.",
+          "id": "s002-m03"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "do happen",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "실제로 일어난다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m01-p01",
+            "segmentId": "s002-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "are dealing with",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "다룰 때",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m02-p01",
+            "segmentId": "s002-m02"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "timescale",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "시간 규모",
+              "occurrence": 1
+            },
+            "meaning": "어떤 과정이 진행되는 시간의 범위",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s002-m02-v01",
+            "segmentId": "s002-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "evolutionary",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "진화의",
+              "occurrence": 1
+            },
+            "meaning": "진화 과정과 관련된",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s002-m03-v02",
+            "segmentId": "s002-m03",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s002-ko-01",
+              "target": {
+                "text": "실제로 일어난다",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s002-ko-02",
+              "target": {
+                "text": "진화의 시간 규모만큼 긴",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s002-en-01",
+              "target": {
+                "text": "do happen",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s002-en-02",
+              "target": {
+                "text": "as long as the evolutionary one",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "do happen",
+                "occurrence": 1
+              },
+              "cue": "happen",
+              "lemma": "happen",
+              "id": "s002-verb-01"
+            },
+            {
+              "target": {
+                "text": "are dealing with",
+                "occurrence": 1
+              },
+              "cue": "deal with",
+              "lemma": "deal",
+              "id": "s002-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "do happen",
+                "occurrence": 1
+              },
+              "options": [
+                "do happen",
+                "never happen"
+              ],
+              "id": "s002-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s002-a",
+              "text": "Such changes do happen"
+            },
+            {
+              "id": "s002-b",
+              "text": "when we are dealing with a timescale"
+            },
+            {
+              "id": "s002-c",
+              "text": "as long as the evolutionary one."
+            }
+          ],
+          "displayOrder": [
+            "s002-b",
+            "s002-c",
+            "s002-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "such changes",
+            "do happen",
+            "deal with",
+            "timescale",
+            "as long as",
+            "evolutionary one"
+          ]
+        }
+      },
+      "id": "s002",
+      "no": 2
+    },
+    {
+      "source": "As a consequence, evolution normally does not come to a halt, but constantly tracks the changing environment.",
+      "translation": "그 결과 진화는 일반적으로 멈추는 것이 아니라 변화하는 환경을 끊임없이 따라간다.",
+      "meaningSegments": [
+        {
+          "en": "As a consequence,",
+          "ko": "그 결과,",
+          "id": "s003-m01"
+        },
+        {
+          "en": "evolution normally does not come to a halt,",
+          "ko": "진화는 일반적으로 멈추지 않는다",
+          "id": "s003-m02"
+        },
+        {
+          "en": "but constantly tracks",
+          "ko": "오히려 끊임없이 따라간다",
+          "id": "s003-m03"
+        },
+        {
+          "en": "the changing environment.",
+          "ko": "변화하는 환경을.",
+          "id": "s003-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "does not come to a halt",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "멈추지 않는다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m02-p01",
+            "segmentId": "s003-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "constantly tracks",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "끊임없이 따라간다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m03-p01",
+            "segmentId": "s003-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "consequence",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "결과",
+              "occurrence": 1
+            },
+            "meaning": "앞선 일로 인해 생긴 결과",
+            "reasons": [
+              "academic",
+              "structure-critical"
+            ],
+            "id": "s003-m01-v01",
+            "segmentId": "s003-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "come to a halt",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "멈추지",
+              "occurrence": 1
+            },
+            "meaning": "정지하다",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s003-m02-v02",
+            "segmentId": "s003-m02",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "constantly tracks",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "끊임없이 따라간다",
+              "occurrence": 1
+            },
+            "meaning": "계속해서 변화 방향을 좇는다",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s003-m03-v03",
+            "segmentId": "s003-m03",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s003-ko-01",
+              "target": {
+                "text": "일반적으로 멈추는 것이 아니라",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s003-ko-02",
+              "target": {
+                "text": "변화하는 환경을 끊임없이 따라간다",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s003-en-01",
+              "target": {
+                "text": "does not come to a halt",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s003-en-02",
+              "target": {
+                "text": "constantly tracks the changing environment",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "does not come to a halt",
+                "occurrence": 1
+              },
+              "cue": "come to a halt",
+              "lemma": "come",
+              "id": "s003-verb-01"
+            },
+            {
+              "target": {
+                "text": "constantly tracks",
+                "occurrence": 1
+              },
+              "cue": "track",
+              "lemma": "track",
+              "id": "s003-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "constantly tracks the changing environment",
+                "occurrence": 1
+              },
+              "options": [
+                "constantly tracks the changing environment",
+                "occurs regardless of local temperature trends"
+              ],
+              "id": "s003-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s003-a",
+              "text": "As a consequence, evolution normally does not come to a halt,"
+            },
+            {
+              "id": "s003-b",
+              "text": "but constantly tracks"
+            },
+            {
+              "id": "s003-c",
+              "text": "the changing environment."
+            }
+          ],
+          "displayOrder": [
+            "s003-c",
+            "s003-a",
+            "s003-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "as a consequence",
+            "evolution",
+            "not come to a halt",
+            "but",
+            "constantly track",
+            "changing environment"
+          ]
+        }
+      },
+      "id": "s003",
+      "no": 3
+    },
+    {
+      "source": "If there is a steady downward drift in the average temperature in the area, a drift that persists over centuries, successive generations of animals will be propelled by a steady selection ‘pressure’ in the direction, say, of growing longer coats of hair.",
+      "translation": "그 지역의 평균 기온이 꾸준히 내려가는 추세이고 그 추세가 수 세기 동안 지속된다면, 이어지는 동물 세대들은 이를테면 털이 더 길게 자라는 방향으로 꾸준한 자연 선택의 ‘압력’에 의해 나아가게 될 것이다.",
+      "meaningSegments": [
+        {
+          "en": "If there is a steady downward drift",
+          "ko": "꾸준한 하락 추세가 있다면",
+          "id": "s004-m01"
+        },
+        {
+          "en": "in the average temperature in the area,",
+          "ko": "그 지역의 평균 기온에,",
+          "id": "s004-m02"
+        },
+        {
+          "en": "a drift that persists over centuries,",
+          "ko": "수 세기 동안 지속되는 추세인,",
+          "id": "s004-m03"
+        },
+        {
+          "en": "successive generations of animals will be propelled",
+          "ko": "이어지는 동물 세대들은 나아가게 될 것이다",
+          "id": "s004-m04"
+        },
+        {
+          "en": "by a steady selection ‘pressure’",
+          "ko": "꾸준한 자연 선택의 ‘압력’에 의해",
+          "id": "s004-m05"
+        },
+        {
+          "en": "in the direction, say,",
+          "ko": "이를테면 그 방향으로,",
+          "id": "s004-m06"
+        },
+        {
+          "en": "of growing longer coats of hair.",
+          "ko": "털이 더 길게 자라는.",
+          "id": "s004-m07"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "is",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "있다면",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m01-p01",
+            "segmentId": "s004-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "persists",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "지속되는",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m03-p01",
+            "segmentId": "s004-m03"
+          },
+          {
+            "en": [
+              {
+                "text": "will be propelled",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "나아가게 될 것이다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m04-p01",
+            "segmentId": "s004-m04"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "downward drift",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "하락 추세",
+              "occurrence": 1
+            },
+            "meaning": "일정하게 아래로 움직이는 경향",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s004-m01-v01",
+            "segmentId": "s004-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "successive generations",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "이어지는 동물 세대",
+              "occurrence": 1
+            },
+            "meaning": "차례로 이어지는 여러 세대",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s004-m04-v02",
+            "segmentId": "s004-m04",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "selection ‘pressure’",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "자연 선택의 ‘압력’",
+              "occurrence": 1
+            },
+            "meaning": "특정 형질이 선택되게 하는 환경의 힘",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s004-m05-v03",
+            "segmentId": "s004-m05",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s004-ko-01",
+              "target": {
+                "text": "수 세기 동안 지속된다면",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-ko-02",
+              "target": {
+                "text": "자연 선택의 ‘압력’에 의해",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s004-en-01",
+              "target": {
+                "text": "persists over centuries",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-en-02",
+              "target": {
+                "text": "will be propelled by a steady selection ‘pressure’",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "there is",
+                "occurrence": 1
+              },
+              "cue": "be",
+              "lemma": "be",
+              "id": "s004-verb-01"
+            },
+            {
+              "target": {
+                "text": "persists",
+                "occurrence": 1
+              },
+              "cue": "persist",
+              "lemma": "persist",
+              "id": "s004-verb-02"
+            },
+            {
+              "target": {
+                "text": "will be propelled",
+                "occurrence": 1
+              },
+              "cue": "propel",
+              "lemma": "propel",
+              "id": "s004-verb-03"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "will be propelled",
+                "occurrence": 1
+              },
+              "options": [
+                "will be propelled",
+                "will remain unaffected"
+              ],
+              "id": "s004-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s004-a",
+              "text": "If there is a steady downward drift in the average temperature in the area,"
+            },
+            {
+              "id": "s004-b",
+              "text": "a drift that persists over centuries,"
+            },
+            {
+              "id": "s004-c",
+              "text": "successive generations of animals will be propelled by a steady selection ‘pressure’"
+            },
+            {
+              "id": "s004-d",
+              "text": "in the direction, say, of growing longer coats of hair."
+            }
+          ],
+          "displayOrder": [
+            "s004-b",
+            "s004-d",
+            "s004-a",
+            "s004-c"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "steady downward drift",
+            "average temperature",
+            "persist over centuries",
+            "successive generations",
+            "be propelled",
+            "selection pressure"
+          ]
+        }
+      },
+      "id": "s004",
+      "no": 4
+    },
+    {
+      "source": "If after a few thousand years of reduced temperature the trend reverses and average temperatures creep up again, the animals will come under the influence of a new selection pressure, and will be pushed towards growing shorter coats again.",
+      "translation": "기온이 낮아진 수천 년 후 그 추세가 뒤집혀 평균 기온이 다시 서서히 오른다면, 동물들은 새로운 자연 선택 압력의 영향을 받게 되고 다시 더 짧은 털이 자라는 쪽으로 밀려날 것이다.",
+      "meaningSegments": [
+        {
+          "en": "If after a few thousand years of reduced temperature",
+          "ko": "기온이 낮아진 수천 년 후",
+          "id": "s005-m01"
+        },
+        {
+          "en": "the trend reverses",
+          "ko": "그 추세가 뒤집히고",
+          "id": "s005-m02"
+        },
+        {
+          "en": "and average temperatures creep up again,",
+          "ko": "평균 기온이 다시 서서히 오른다면,",
+          "id": "s005-m03"
+        },
+        {
+          "en": "the animals will come under the influence",
+          "ko": "동물들은 영향을 받게 될 것이다",
+          "id": "s005-m04"
+        },
+        {
+          "en": "of a new selection pressure,",
+          "ko": "새로운 자연 선택 압력의,",
+          "id": "s005-m05"
+        },
+        {
+          "en": "and will be pushed towards",
+          "ko": "그리고 그쪽으로 밀려날 것이다",
+          "id": "s005-m06"
+        },
+        {
+          "en": "growing shorter coats again.",
+          "ko": "다시 더 짧은 털이 자라는.",
+          "id": "s005-m07"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "reverses",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "뒤집히고",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m02-p01",
+            "segmentId": "s005-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "creep up",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "서서히 오른다면",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m03-p01",
+            "segmentId": "s005-m03"
+          },
+          {
+            "en": [
+              {
+                "text": "will come under",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "받게 될 것이다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m04-p01",
+            "segmentId": "s005-m04"
+          },
+          {
+            "en": [
+              {
+                "text": "will be pushed",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "밀려날 것이다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m06-p01",
+            "segmentId": "s005-m06"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "trend",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "추세",
+              "occurrence": 1
+            },
+            "meaning": "변화가 향하는 전반적인 방향",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s005-m02-v01",
+            "segmentId": "s005-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "reduced temperature",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "기온이 낮아진",
+              "occurrence": 1
+            },
+            "meaning": "이전보다 낮아진 기온",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s005-m01-v02",
+            "segmentId": "s005-m01",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "influence",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "영향",
+              "occurrence": 1
+            },
+            "meaning": "다른 대상에 미치는 힘이나 작용",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s005-m04-v03",
+            "segmentId": "s005-m04",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s005-ko-01",
+              "target": {
+                "text": "평균 기온이 다시 서서히 오른다면",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-ko-02",
+              "target": {
+                "text": "새로운 자연 선택 압력의 영향을 받게 되고",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s005-en-01",
+              "target": {
+                "text": "average temperatures creep up again",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-en-02",
+              "target": {
+                "text": "will come under the influence of a new selection pressure",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "reverses",
+                "occurrence": 1
+              },
+              "cue": "reverse",
+              "lemma": "reverse",
+              "id": "s005-verb-01"
+            },
+            {
+              "target": {
+                "text": "creep up",
+                "occurrence": 1
+              },
+              "cue": "creep up",
+              "lemma": "creep",
+              "id": "s005-verb-02"
+            },
+            {
+              "target": {
+                "text": "will come under",
+                "occurrence": 1
+              },
+              "cue": "come under",
+              "lemma": "come",
+              "id": "s005-verb-03"
+            },
+            {
+              "target": {
+                "text": "will be pushed",
+                "occurrence": 1
+              },
+              "cue": "push",
+              "lemma": "push",
+              "id": "s005-verb-04"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "shorter coats",
+                "occurrence": 1
+              },
+              "options": [
+                "shorter coats",
+                "longer coats"
+              ],
+              "id": "s005-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s005-a",
+              "text": "If after a few thousand years of reduced temperature"
+            },
+            {
+              "id": "s005-b",
+              "text": "the trend reverses and average temperatures creep up again,"
+            },
+            {
+              "id": "s005-c",
+              "text": "the animals will come under the influence of a new selection pressure,"
+            },
+            {
+              "id": "s005-d",
+              "text": "and will be pushed towards growing shorter coats again."
+            }
+          ],
+          "displayOrder": [
+            "s005-c",
+            "s005-a",
+            "s005-d",
+            "s005-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "reduced temperature",
+            "trend reverse",
+            "average temperatures creep up",
+            "come under the influence",
+            "new selection pressure",
+            "shorter coats"
+          ]
+        }
+      },
+      "id": "s005",
+      "no": 5
+    }
+  ],
+  "passageActivities": {
+    "correction": [
+      {
+        "textOverride": "Evolution will comes to a standstill until something in the conditions changes: the onset of an ice age, a change in the average rainfall of the area, a shift in the prevailing wind. Such changes does happen when we are dealing with a timescale as long as the evolutionary one. As a consequence, evolution normally does not come to a halt, but constantly track the changing environment. If there is a steady downward drift in the average temperature in the area, a drift that persist over centuries, successive generations of animals will be propelled by a steady selection ‘pressure’ in the direction, say, of growing shorter coats of hair. If after a few thousand years of reduced temperature the trend reverse and average temperatures creep up again, the animals will come under the influence of a new selection pressure, and will be pushed towards growing longer coats again.",
+        "targets": [
+          {
+            "target": {
+              "text": "will comes to a standstill",
+              "occurrence": 1
+            },
+            "incorrect": "will comes to a standstill",
+            "correct": "will come to a standstill",
+            "id": "correction-01-01"
+          },
+          {
+            "target": {
+              "text": "changes does happen",
+              "occurrence": 1
+            },
+            "incorrect": "changes does happen",
+            "correct": "changes do happen",
+            "id": "correction-01-02"
+          },
+          {
+            "target": {
+              "text": "constantly track",
+              "occurrence": 1
+            },
+            "incorrect": "constantly track",
+            "correct": "constantly tracks",
+            "id": "correction-01-03"
+          },
+          {
+            "target": {
+              "text": "drift that persist",
+              "occurrence": 1
+            },
+            "incorrect": "drift that persist",
+            "correct": "drift that persists",
+            "id": "correction-01-04"
+          },
+          {
+            "target": {
+              "text": "growing shorter coats of hair",
+              "occurrence": 1
+            },
+            "incorrect": "growing shorter coats of hair",
+            "correct": "growing longer coats of hair",
+            "id": "correction-01-05"
+          },
+          {
+            "target": {
+              "text": "trend reverse",
+              "occurrence": 1
+            },
+            "incorrect": "trend reverse",
+            "correct": "trend reverses",
+            "id": "correction-01-06"
+          },
+          {
+            "target": {
+              "text": "growing longer coats again",
+              "occurrence": 1
+            },
+            "incorrect": "growing longer coats again",
+            "correct": "growing shorter coats again",
+            "id": "correction-01-07"
+          }
+        ],
+        "id": "correction-01"
+      }
+    ],
+    "paragraphOrder": [
+      {
+        "blocks": [
+          {
+            "id": "A",
+            "sentenceIds": [
+              "s001",
+              "s002"
+            ]
+          },
+          {
+            "id": "B",
+            "sentenceIds": [
+              "s003"
+            ]
+          },
+          {
+            "id": "C",
+            "sentenceIds": [
+              "s004",
+              "s005"
+            ]
+          }
+        ],
+        "displayOrder": [
+          "C",
+          "A",
+          "B"
+        ],
+        "answerOrder": [
+          "A",
+          "B",
+          "C"
+        ],
+        "id": "paragraph-order-01"
+      }
+    ]
+  }
+}

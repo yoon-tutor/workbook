@@ -1,0 +1,610 @@
+{
+  "schemaVersion": "1.0.0",
+  "specVersion": "1.0.6",
+  "contentVersion": "1.0.6",
+  "workbookId": "when-failure-become-ideas",
+  "metadata": {
+    "title": "When Failure Become Ideas 10단계 워크북",
+    "lessonLabel": "Lesson 3. More Reading",
+    "kicker": "Middle School Reading",
+    "grade": "중학교",
+    "topic": "실수와 실패에서 탄생한 포스트잇과 전자레인지",
+    "sourceLanguage": "en",
+    "targetLanguage": "ko",
+    "notes": "제목의 Become 표기는 제공된 원본을 그대로 보존함"
+  },
+  "sourceStatus": {
+    "status": "confirmed",
+    "sourceType": "image",
+    "references": [
+      "/var/folders/ny/j2dnp1_d35j1f991c9y531bc0000gn/T/codex-clipboard-e295916d-6c80-4cf8-a00e-be1c3396c24f.jpg"
+    ],
+    "sentenceCount": 21,
+    "verifiedAt": "2026-07-23T00:00:00+09:00",
+    "notes": "사진의 본문 전체를 전사함. Not always!는 앞 질문과 한 학습 단위로 묶었으며, 본문 밖 독해 문항과 어휘표는 전사 확인 자료로 사용함."
+  },
+  "updateState": {
+    "defaultScope": "new-only",
+    "appliedUpdates": [
+      {
+        "id": "U-20260723-003",
+        "scope": "new-only",
+        "fromContentVersion": "0.0.0",
+        "toContentVersion": "1.0.0",
+        "appliedAt": "2026-07-23T00:00:00+09:00",
+        "report": "reports/updates/U-20260723-003.md"
+      },
+      {
+        "id": "U-20260723-004",
+        "scope": "all",
+        "fromContentVersion": "1.0.0",
+        "toContentVersion": "1.0.1",
+        "appliedAt": "2026-07-23T23:15:00+09:00",
+        "report": "reports/updates/U-20260723-004.md"
+      },
+      {
+        "id": "U-20260723-005",
+        "scope": "all",
+        "fromContentVersion": "1.0.1",
+        "toContentVersion": "1.0.2",
+        "appliedAt": "2026-07-23T23:25:00+09:00",
+        "report": "reports/updates/U-20260723-005.md"
+      },
+      {
+        "id": "U-20260826-009",
+        "scope": "all",
+        "fromContentVersion": "1.0.2",
+        "toContentVersion": "1.0.3",
+        "appliedAt": "2026-08-26T22:30:14+09:00",
+        "report": "reports/updates/U-20260826-009.md"
+      },
+      {
+        "id": "U-20260826-010",
+        "scope": "all",
+        "fromContentVersion": "1.0.3",
+        "toContentVersion": "1.0.4",
+        "appliedAt": "2026-08-26T22:42:19+09:00",
+        "report": "reports/updates/U-20260826-010.md"
+      },
+      {
+        "id": "U-20260826-011",
+        "scope": "all",
+        "fromContentVersion": "1.0.4",
+        "toContentVersion": "1.0.5",
+        "appliedAt": "2026-08-26T23:06:04+09:00",
+        "report": "reports/updates/U-20260826-011.md"
+      },
+      {
+        "id": "U-20260826-012",
+        "scope": "all",
+        "fromContentVersion": "1.0.5",
+        "toContentVersion": "1.0.6",
+        "appliedAt": "2026-08-26T23:20:00+09:00",
+        "report": "reports/updates/U-20260826-012.md"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s001",
+      "no": 1,
+      "source": "Do you think all inventions come from great success? Not always!",
+      "translation": "모든 발명이 큰 성공에서 나온다고 생각하는가? 항상 그런 것은 아니다!",
+      "meaningSegments": [
+        {"id": "s001-m01", "en": "Do you think", "ko": "너는 생각하는가"},
+        {"id": "s001-m02", "en": "all inventions come from great success?", "ko": "모든 발명이 큰 성공에서 나온다고?"},
+        {"id": "s001-m03", "en": "Not always!", "ko": "항상 그런 것은 아니다!"}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s001-m01-p01", "segmentId": "s001-m01", "en": [{"text": "Do", "occurrence": 1}, {"text": "think", "occurrence": 1}], "ko": [{"text": "생각하는가", "occurrence": 1}]},
+          {"id": "s001-m02-p01", "segmentId": "s001-m02", "en": [{"text": "come from", "occurrence": 1}], "ko": [{"text": "나온다고", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s001-m02-v01", "segmentId": "s001-m02", "colorSlot": 1, "en": {"text": "inventions", "occurrence": 1}, "ko": {"text": "발명", "occurrence": 1}, "meaning": "발명품"}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s001-ko-01", "target": {"text": "큰 성공", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s001-en-01", "target": {"text": "inventions", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s001-verb-01", "target": {"text": "think", "occurrence": 1}, "cue": "think", "lemma": "think"}, {"id": "s001-verb-02", "target": {"text": "come from", "occurrence": 1}, "cue": "come from", "lemma": "come from"}]},
+        "choice": {"targets": [{"id": "s001-choice-01", "target": {"text": "all", "occurrence": 1}, "options": ["all", "every"]}]},
+        "arrange": {"chunks": [{"id": "s001-a", "text": "Do you think"}, {"id": "s001-b", "text": "all inventions come from great success?"}, {"id": "s001-c", "text": "Not always!"}], "displayOrder": ["s001-c", "s001-a", "s001-b"]},
+        "writing": {"bank": ["think", "all inventions", "great success", "not always"]}
+      }
+    },
+    {
+      "id": "s002",
+      "no": 2,
+      "source": "Sometimes, mistakes can lead to amazing inventions.",
+      "translation": "때때로 실수는 놀라운 발명으로 이어질 수 있다.",
+      "meaningSegments": [
+        {"id": "s002-m01", "en": "Sometimes, mistakes", "ko": "때때로 실수는"},
+        {"id": "s002-m02", "en": "can lead to amazing inventions.", "ko": "이어질 수 있다 놀라운 발명으로."}
+      ],
+      "annotations": {
+        "predicates": [{"id": "s002-m02-p01", "segmentId": "s002-m02", "en": [{"text": "can lead to", "occurrence": 1}], "ko": [{"text": "이어질 수 있다", "occurrence": 1}]}],
+        "vocabulary": [{"id": "s002-m02-v01", "segmentId": "s002-m02", "colorSlot": 1, "en": {"text": "lead to", "occurrence": 1}, "ko": {"text": "이어질", "occurrence": 1}, "meaning": "~로 이어지다"}]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s002-ko-01", "target": {"text": "놀라운 발명", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s002-en-01", "target": {"text": "lead to", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s002-verb-01", "target": {"text": "can lead to", "occurrence": 1}, "cue": "lead to", "lemma": "lead to"}]},
+        "choice": {"targets": [{"id": "s002-choice-01", "target": {"text": "lead", "occurrence": 1}, "options": ["lead", "leads"]}]},
+        "arrange": {"chunks": [{"id": "s002-a", "text": "Sometimes, mistakes"}, {"id": "s002-b", "text": "can lead to amazing inventions."}], "displayOrder": ["s002-b", "s002-a"]},
+        "writing": {"bank": ["sometimes", "mistakes", "lead to", "amazing inventions"]}
+      }
+    },
+    {
+      "id": "s003",
+      "no": 3,
+      "source": "Let's look at two famous examples.",
+      "translation": "두 가지 유명한 사례를 살펴보자.",
+      "meaningSegments": [
+        {"id": "s003-m01", "en": "Let's look at", "ko": "살펴보자"},
+        {"id": "s003-m02", "en": "two famous examples.", "ko": "두 가지 유명한 사례를."}
+      ],
+      "annotations": {
+        "predicates": [{"id": "s003-m01-p01", "segmentId": "s003-m01", "en": [{"text": "Let's look at", "occurrence": 1}], "ko": [{"text": "살펴보자", "occurrence": 1}]}],
+        "vocabulary": []
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s003-ko-01", "target": {"text": "살펴보자", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s003-en-01", "target": {"text": "look at", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s003-verb-01", "target": {"text": "look", "occurrence": 1}, "cue": "look", "lemma": "look"}]},
+        "choice": {"targets": [{"id": "s003-choice-01", "target": {"text": "examples", "occurrence": 1}, "options": ["examples", "example"]}]},
+        "arrange": {"chunks": [{"id": "s003-a", "text": "Let's look at"}, {"id": "s003-b", "text": "two famous examples."}], "displayOrder": ["s003-b", "s003-a"]},
+        "writing": {"bank": ["let's", "look at", "two", "famous examples"]}
+      }
+    },
+    {
+      "id": "s004",
+      "no": 4,
+      "source": "In 1968, Dr. Spencer Silver, a scientist in the USA, tried to make a very strong glue.",
+      "translation": "1968년에 미국의 과학자 스펜서 실버 박사는 매우 강한 접착제를 만들려고 했다.",
+      "meaningSegments": [
+        {"id": "s004-m01", "en": "In 1968, Dr. Spencer Silver,", "ko": "1968년에 스펜서 실버 박사는"},
+        {"id": "s004-m02", "en": "a scientist in the USA,", "ko": "미국의 과학자인,"},
+        {"id": "s004-m03", "en": "tried to make a very strong glue.", "ko": "만들려고 했다 매우 강한 접착제를."}
+      ],
+      "annotations": {
+        "predicates": [{"id": "s004-m03-p01", "segmentId": "s004-m03", "en": [{"text": "tried", "occurrence": 1}], "ko": [{"text": "만들려고 했다", "occurrence": 1}]}],
+        "vocabulary": []
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s004-ko-01", "target": {"text": "매우 강한 접착제", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s004-en-01", "target": {"text": "scientist", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s004-verb-01", "target": {"text": "tried", "occurrence": 1}, "cue": "try", "lemma": "try"}]},
+        "choice": {"targets": [{"id": "s004-choice-01", "target": {"text": "make", "occurrence": 1}, "options": ["make", "making"]}]},
+        "arrange": {"chunks": [{"id": "s004-a", "text": "In 1968, Dr. Spencer Silver,"}, {"id": "s004-b", "text": "a scientist in the USA,"}, {"id": "s004-c", "text": "tried to make a very strong glue."}], "displayOrder": ["s004-c", "s004-a", "s004-b"]},
+        "writing": {"bank": ["in 1968", "scientist", "tried", "strong glue"]}
+      }
+    },
+    {
+      "id": "s005",
+      "no": 5,
+      "source": "However, he failed and made a very weak glue instead.",
+      "translation": "그러나 그는 실패하여 대신 매우 약한 접착제를 만들었다.",
+      "meaningSegments": [
+        {"id": "s005-m01", "en": "However, he failed", "ko": "그러나 그는 실패했다"},
+        {"id": "s005-m02", "en": "and made a very weak glue instead.", "ko": "그리고 만들었다 대신 매우 약한 접착제를."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s005-m01-p01", "segmentId": "s005-m01", "en": [{"text": "failed", "occurrence": 1}], "ko": [{"text": "실패했다", "occurrence": 1}]},
+          {"id": "s005-m02-p01", "segmentId": "s005-m02", "en": [{"text": "made", "occurrence": 1}], "ko": [{"text": "만들었다", "occurrence": 1}]}
+        ],
+        "vocabulary": []
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s005-ko-01", "target": {"text": "매우 약한 접착제", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s005-en-01", "target": {"text": "failed", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s005-verb-01", "target": {"text": "failed", "occurrence": 1}, "cue": "fail", "lemma": "fail"}, {"id": "s005-verb-02", "target": {"text": "made", "occurrence": 1}, "cue": "make", "lemma": "make"}]},
+        "choice": {"targets": [{"id": "s005-choice-01", "target": {"text": "weak", "occurrence": 1}, "options": ["weak", "weakly"]}]},
+        "arrange": {"chunks": [{"id": "s005-a", "text": "However, he failed"}, {"id": "s005-b", "text": "and made a very weak glue instead."}], "displayOrder": ["s005-b", "s005-a"]},
+        "writing": {"bank": ["however", "failed", "made", "weak glue"]}
+      }
+    },
+    {
+      "id": "s006",
+      "no": 6,
+      "source": "It didn't stick well, and it was easy to pull off.",
+      "translation": "그것은 잘 붙지 않았고 쉽게 떼어 낼 수 있었다.",
+      "meaningSegments": [
+        {"id": "s006-m01", "en": "It didn't stick well,", "ko": "그것은 잘 붙지 않았다,"},
+        {"id": "s006-m02", "en": "and it was easy to pull off.", "ko": "그리고 그것은 떼어 내기 쉬웠다."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s006-m01-p01", "segmentId": "s006-m01", "en": [{"text": "didn't stick", "occurrence": 1}], "ko": [{"text": "붙지 않았다", "occurrence": 1}]},
+          {"id": "s006-m02-p01", "segmentId": "s006-m02", "en": [{"text": "was", "occurrence": 1}], "ko": [{"text": "쉬웠다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s006-m01-v01", "segmentId": "s006-m01", "colorSlot": 1, "en": {"text": "stick", "occurrence": 1}, "ko": {"text": "붙지", "occurrence": 1}, "meaning": "달라붙다"},
+          {"id": "s006-m02-v02", "segmentId": "s006-m02", "colorSlot": 2, "en": {"text": "pull off", "occurrence": 1}, "ko": {"text": "떼어 내기", "occurrence": 1}, "meaning": "떼어 내다"}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s006-ko-01", "target": {"text": "잘 붙지 않았고", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s006-en-01", "target": {"text": "pull off", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s006-verb-01", "target": {"text": "didn't stick", "occurrence": 1}, "cue": "stick", "lemma": "stick"}, {"id": "s006-verb-02", "target": {"text": "was", "occurrence": 1}, "cue": "be", "lemma": "be"}]},
+        "choice": {"targets": [{"id": "s006-choice-01", "target": {"text": "easy", "occurrence": 1}, "options": ["easy", "easily"]}]},
+        "arrange": {"chunks": [{"id": "s006-a", "text": "It didn't stick well,"}, {"id": "s006-b", "text": "and it was easy to pull off."}], "displayOrder": ["s006-b", "s006-a"]},
+        "writing": {"bank": ["didn't", "stick well", "easy", "pull off"]}
+      }
+    },
+    {
+      "id": "s007",
+      "no": 7,
+      "source": "For a few years, nobody knew how to use it.",
+      "translation": "몇 년 동안 아무도 그것을 어떻게 사용해야 할지 몰랐다.",
+      "meaningSegments": [
+        {"id": "s007-m01", "en": "For a few years,", "ko": "몇 년 동안,"},
+        {"id": "s007-m02", "en": "nobody knew how to use it.", "ko": "아무도 알지 못했다 그것을 어떻게 사용해야 할지."}
+      ],
+      "annotations": {
+        "predicates": [{"id": "s007-m02-p01", "segmentId": "s007-m02", "en": [{"text": "knew", "occurrence": 1}], "ko": [{"text": "알지 못했다", "occurrence": 1}]}],
+        "vocabulary": []
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s007-ko-01", "target": {"text": "아무도", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s007-en-01", "target": {"text": "nobody", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s007-verb-01", "target": {"text": "knew", "occurrence": 1}, "cue": "know", "lemma": "know"}]},
+        "choice": {"targets": [{"id": "s007-choice-01", "target": {"text": "how", "occurrence": 1}, "options": ["how", "what"]}]},
+        "arrange": {"chunks": [{"id": "s007-a", "text": "For a few years,"}, {"id": "s007-b", "text": "nobody knew how to use it."}], "displayOrder": ["s007-b", "s007-a"]},
+        "writing": {"bank": ["a few years", "nobody", "knew", "how to use"]}
+      }
+    },
+    {
+      "id": "s008",
+      "no": 8,
+      "source": "Then, his friend Arthur Fry had an idea.",
+      "translation": "그러다가 그의 친구 아서 프라이가 한 가지 생각을 떠올렸다.",
+      "meaningSegments": [
+        {"id": "s008-m01", "en": "Then, his friend Arthur Fry", "ko": "그러다가 그의 친구 아서 프라이는"},
+        {"id": "s008-m02", "en": "had an idea.", "ko": "한 가지 생각을 떠올렸다."}
+      ],
+      "annotations": {
+        "predicates": [{"id": "s008-m02-p01", "segmentId": "s008-m02", "en": [{"text": "had", "occurrence": 1}], "ko": [{"text": "떠올렸다", "occurrence": 1}]}],
+        "vocabulary": []
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s008-ko-01", "target": {"text": "한 가지 생각", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s008-en-01", "target": {"text": "had an idea", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s008-verb-01", "target": {"text": "had", "occurrence": 1}, "cue": "have", "lemma": "have"}]},
+        "choice": {"targets": [{"id": "s008-choice-01", "target": {"text": "had", "occurrence": 1}, "options": ["had", "has"]}]},
+        "arrange": {"chunks": [{"id": "s008-a", "text": "Then, his friend Arthur Fry"}, {"id": "s008-b", "text": "had an idea."}], "displayOrder": ["s008-b", "s008-a"]},
+        "writing": {"bank": ["then", "his friend", "Arthur Fry", "an idea"]}
+      }
+    },
+    {
+      "id": "s009",
+      "no": 9,
+      "source": "He sang in a church choir, and his bookmarks kept falling out of his book.",
+      "translation": "그는 교회 합창단에서 노래했는데, 책갈피가 자꾸 그의 책에서 빠져나왔다.",
+      "meaningSegments": [
+        {"id": "s009-m01", "en": "He sang in a church choir,", "ko": "그는 교회 합창단에서 노래했다,"},
+        {"id": "s009-m02", "en": "and his bookmarks kept falling out of his book.", "ko": "그리고 그의 책갈피는 계속 그의 책에서 빠져나왔다."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s009-m01-p01", "segmentId": "s009-m01", "en": [{"text": "sang", "occurrence": 1}], "ko": [{"text": "노래했다", "occurrence": 1}]},
+          {"id": "s009-m02-p01", "segmentId": "s009-m02", "en": [{"text": "kept falling", "occurrence": 1}], "ko": [{"text": "계속", "occurrence": 1}, {"text": "빠져나왔다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s009-m01-v01", "segmentId": "s009-m01", "colorSlot": 1, "en": {"text": "choir", "occurrence": 1}, "ko": {"text": "합창단", "occurrence": 1}, "meaning": "합창단"},
+          {"id": "s009-m02-v02", "segmentId": "s009-m02", "colorSlot": 2, "en": {"text": "kept falling", "occurrence": 1}, "ko": {"text": "계속", "occurrence": 1}, "meaning": "계속 떨어지다"}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s009-ko-01", "target": {"text": "교회 합창단", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s009-en-01", "target": {"text": "kept falling", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s009-verb-01", "target": {"text": "sang", "occurrence": 1}, "cue": "sing", "lemma": "sing"}, {"id": "s009-verb-02", "target": {"text": "kept falling", "occurrence": 1}, "cue": "keep falling", "lemma": "keep"}]},
+        "choice": {"targets": [{"id": "s009-choice-01", "target": {"text": "falling", "occurrence": 1}, "options": ["falling", "fall"]}]},
+        "arrange": {"chunks": [{"id": "s009-a", "text": "He sang in a church choir,"}, {"id": "s009-b", "text": "and his bookmarks kept falling out of his book."}], "displayOrder": ["s009-b", "s009-a"]},
+        "writing": {"bank": ["church choir", "bookmarks", "kept falling", "his book"]}
+      }
+    },
+    {
+      "id": "s010",
+      "no": 10,
+      "source": "He used Silver's weak glue to make bookmarks to stay in place.",
+      "translation": "그는 책갈피가 제자리에 있도록 실버의 약한 접착제를 사용했다.",
+      "meaningSegments": [
+        {"id": "s010-m01", "en": "He used Silver's weak glue", "ko": "그는 실버의 약한 접착제를 사용했다"},
+        {"id": "s010-m02", "en": "to make bookmarks to stay in place.", "ko": "책갈피가 제자리에 있도록 만들기 위해."}
+      ],
+      "annotations": {
+        "predicates": [{"id": "s010-m01-p01", "segmentId": "s010-m01", "en": [{"text": "used", "occurrence": 1}], "ko": [{"text": "사용했다", "occurrence": 1}]}],
+        "vocabulary": [{"id": "s010-m02-v01", "segmentId": "s010-m02", "colorSlot": 1, "en": {"text": "stay in place", "occurrence": 1}, "ko": {"text": "제자리에 있도록", "occurrence": 1}, "meaning": "제자리에 있다"}]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s010-ko-01", "target": {"text": "제자리에 있도록", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s010-en-01", "target": {"text": "stay in place", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s010-verb-01", "target": {"text": "used", "occurrence": 1}, "cue": "use", "lemma": "use"}]},
+        "choice": {"targets": [{"id": "s010-choice-01", "target": {"text": "to make", "occurrence": 1}, "options": ["to make", "making"]}]},
+        "arrange": {"chunks": [{"id": "s010-a", "text": "He used Silver's weak glue"}, {"id": "s010-b", "text": "to make bookmarks to stay in place."}], "displayOrder": ["s010-b", "s010-a"]},
+        "writing": {"bank": ["Silver's", "weak glue", "bookmarks", "stay in place"]}
+      }
+    },
+    {
+      "id": "s011",
+      "no": 11,
+      "source": "That was the beginning of the famous Post-it notes!",
+      "translation": "그것이 바로 유명한 포스트잇의 시작이었다!",
+      "meaningSegments": [
+        {"id": "s011-m01", "en": "That was the beginning", "ko": "그것이 시작이었다"},
+        {"id": "s011-m02", "en": "of the famous Post-it notes!", "ko": "유명한 포스트잇의!"}
+      ],
+      "annotations": {
+        "predicates": [{"id": "s011-m01-p01", "segmentId": "s011-m01", "en": [{"text": "was", "occurrence": 1}], "ko": [{"text": "시작이었다", "occurrence": 1}]}],
+        "vocabulary": []
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s011-ko-01", "target": {"text": "포스트잇의 시작", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s011-en-01", "target": {"text": "beginning", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s011-verb-01", "target": {"text": "was", "occurrence": 1}, "cue": "be", "lemma": "be"}]},
+        "choice": {"targets": [{"id": "s011-choice-01", "target": {"text": "was", "occurrence": 1}, "options": ["was", "were"]}]},
+        "arrange": {"chunks": [{"id": "s011-a", "text": "That was the beginning"}, {"id": "s011-b", "text": "of the famous Post-it notes!"}], "displayOrder": ["s011-b", "s011-a"]},
+        "writing": {"bank": ["that", "beginning", "famous", "Post-it notes"]}
+      }
+    },
+    {
+      "id": "s012",
+      "no": 12,
+      "source": "In 1945, Percy Spencer was a scientist in the USA.",
+      "translation": "1945년에 퍼시 스펜서는 미국의 과학자였다.",
+      "meaningSegments": [
+        {"id": "s012-m01", "en": "In 1945, Percy Spencer", "ko": "1945년에 퍼시 스펜서는"},
+        {"id": "s012-m02", "en": "was a scientist in the USA.", "ko": "미국의 과학자였다."}
+      ],
+      "annotations": {
+        "predicates": [{"id": "s012-m02-p01", "segmentId": "s012-m02", "en": [{"text": "was", "occurrence": 1}], "ko": [{"text": "과학자였다", "occurrence": 1}]}],
+        "vocabulary": []
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s012-ko-01", "target": {"text": "미국의 과학자", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s012-en-01", "target": {"text": "scientist", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s012-verb-01", "target": {"text": "was", "occurrence": 1}, "cue": "be", "lemma": "be"}]},
+        "choice": {"targets": [{"id": "s012-choice-01", "target": {"text": "was", "occurrence": 1}, "options": ["was", "were"]}]},
+        "arrange": {"chunks": [{"id": "s012-a", "text": "In 1945, Percy Spencer"}, {"id": "s012-b", "text": "was a scientist in the USA."}], "displayOrder": ["s012-b", "s012-a"]},
+        "writing": {"bank": ["in 1945", "Percy Spencer", "scientist", "USA"]}
+      }
+    },
+    {
+      "id": "s013",
+      "no": 13,
+      "source": "He was working with a new machine called a magnetron.",
+      "translation": "그는 마그네트론이라고 불리는 새로운 기계를 다루고 있었다.",
+      "meaningSegments": [
+        {"id": "s013-m01", "en": "He was working with a new machine", "ko": "그는 새로운 기계를 다루고 있었다"},
+        {"id": "s013-m02", "en": "called a magnetron.", "ko": "마그네트론이라고 불리는."}
+      ],
+      "annotations": {
+        "predicates": [{"id": "s013-m01-p01", "segmentId": "s013-m01", "en": [{"text": "was working", "occurrence": 1}], "ko": [{"text": "다루고 있었다", "occurrence": 1}]}],
+        "vocabulary": [{"id": "s013-m02-v01", "segmentId": "s013-m02", "colorSlot": 1, "en": {"text": "magnetron", "occurrence": 1}, "ko": {"text": "마그네트론", "occurrence": 1}, "meaning": "전자기파를 만드는 장치", "reasons": ["technical", "topic-core"]}]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s013-ko-01", "target": {"text": "새로운 기계", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s013-en-01", "target": {"text": "magnetron", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s013-verb-01", "target": {"text": "was working", "occurrence": 1}, "cue": "work", "lemma": "work"}]},
+        "choice": {"targets": [{"id": "s013-choice-01", "target": {"text": "called", "occurrence": 1}, "options": ["called", "calling"]}]},
+        "arrange": {"chunks": [{"id": "s013-a", "text": "He was working with a new machine"}, {"id": "s013-b", "text": "called a magnetron."}], "displayOrder": ["s013-b", "s013-a"]},
+        "writing": {"bank": ["working with", "new machine", "called", "magnetron"]}
+      }
+    },
+    {
+      "id": "s014",
+      "no": 14,
+      "source": "One day, while he was standing near the machine, something strange happened.",
+      "translation": "어느 날 그가 기계 근처에 서 있을 때 이상한 일이 일어났다.",
+      "meaningSegments": [
+        {"id": "s014-m01", "en": "One day, while he was standing near the machine,", "ko": "어느 날 그가 기계 근처에 서 있을 때,"},
+        {"id": "s014-m02", "en": "something strange happened.", "ko": "이상한 일이 일어났다."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s014-m01-p01", "segmentId": "s014-m01", "en": [{"text": "was standing", "occurrence": 1}], "ko": [{"text": "서 있을 때", "occurrence": 1}]},
+          {"id": "s014-m02-p01", "segmentId": "s014-m02", "en": [{"text": "happened", "occurrence": 1}], "ko": [{"text": "일어났다", "occurrence": 1}]}
+        ],
+        "vocabulary": [{"id": "s014-m02-v01", "segmentId": "s014-m02", "colorSlot": 1, "en": {"text": "happened", "occurrence": 1}, "ko": {"text": "일어났다", "occurrence": 1}, "meaning": "발생하다"}]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s014-ko-01", "target": {"text": "이상한 일", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s014-en-01", "target": {"text": "happened", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s014-verb-01", "target": {"text": "was standing", "occurrence": 1}, "cue": "stand", "lemma": "stand"}, {"id": "s014-verb-02", "target": {"text": "happened", "occurrence": 1}, "cue": "happen", "lemma": "happen"}]},
+        "choice": {"targets": [{"id": "s014-choice-01", "target": {"text": "was standing", "occurrence": 1}, "options": ["was standing", "is standing"]}]},
+        "arrange": {"chunks": [{"id": "s014-a", "text": "One day, while he was standing near the machine,"}, {"id": "s014-b", "text": "something strange happened."}], "displayOrder": ["s014-b", "s014-a"]},
+        "writing": {"bank": ["one day", "standing near", "machine", "strange happened"]}
+      }
+    },
+    {
+      "id": "s015",
+      "no": 15,
+      "source": "The chocolate bar in his pocket melted!",
+      "translation": "그의 주머니 속 초콜릿 바가 녹았다!",
+      "meaningSegments": [
+        {"id": "s015-m01", "en": "The chocolate bar in his pocket", "ko": "그의 주머니 속 초콜릿 바가"},
+        {"id": "s015-m02", "en": "melted!", "ko": "녹았다!"}
+      ],
+      "annotations": {
+        "predicates": [{"id": "s015-m02-p01", "segmentId": "s015-m02", "en": [{"text": "melted", "occurrence": 1}], "ko": [{"text": "녹았다", "occurrence": 1}]}],
+        "vocabulary": [{"id": "s015-m02-v01", "segmentId": "s015-m02", "colorSlot": 1, "en": {"text": "melted", "occurrence": 1}, "ko": {"text": "녹았다", "occurrence": 1}, "meaning": "녹다"}]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s015-ko-01", "target": {"text": "주머니 속", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s015-en-01", "target": {"text": "melted", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s015-verb-01", "target": {"text": "melted", "occurrence": 1}, "cue": "melt", "lemma": "melt"}]},
+        "choice": {"targets": [{"id": "s015-choice-01", "target": {"text": "melted", "occurrence": 1}, "options": ["melted", "melt"]}]},
+        "arrange": {"chunks": [{"id": "s015-a", "text": "The chocolate bar in his pocket"}, {"id": "s015-b", "text": "melted!"}], "displayOrder": ["s015-b", "s015-a"]},
+        "writing": {"bank": ["chocolate bar", "his pocket", "melted"]}
+      }
+    },
+    {
+      "id": "s016",
+      "no": 16,
+      "source": "He was surprised because he didn't feel any heat.",
+      "translation": "그는 아무런 열도 느끼지 못했기 때문에 놀랐다.",
+      "meaningSegments": [
+        {"id": "s016-m01", "en": "He was surprised", "ko": "그는 놀랐다"},
+        {"id": "s016-m02", "en": "because he didn't feel any heat.", "ko": "그가 아무런 열도 느끼지 못했기 때문에."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s016-m01-p01", "segmentId": "s016-m01", "en": [{"text": "was surprised", "occurrence": 1}], "ko": [{"text": "놀랐다", "occurrence": 1}]},
+          {"id": "s016-m02-p01", "segmentId": "s016-m02", "en": [{"text": "didn't feel", "occurrence": 1}], "ko": [{"text": "느끼지 못했기 때문에", "occurrence": 1}]}
+        ],
+        "vocabulary": []
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s016-ko-01", "target": {"text": "아무런 열도", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s016-en-01", "target": {"text": "surprised", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s016-verb-01", "target": {"text": "was surprised", "occurrence": 1}, "cue": "be surprised", "lemma": "surprise"}, {"id": "s016-verb-02", "target": {"text": "didn't feel", "occurrence": 1}, "cue": "feel", "lemma": "feel"}]},
+        "choice": {"targets": [{"id": "s016-choice-01", "target": {"text": "any", "occurrence": 1}, "options": ["any", "some"]}]},
+        "arrange": {"chunks": [{"id": "s016-a", "text": "He was surprised"}, {"id": "s016-b", "text": "because he didn't feel any heat."}], "displayOrder": ["s016-b", "s016-a"]},
+        "writing": {"bank": ["surprised", "because", "didn't feel", "any heat"]}
+      }
+    },
+    {
+      "id": "s017",
+      "no": 17,
+      "source": "He realized that the machine's waves could cook food very fast.",
+      "translation": "그는 그 기계의 파동이 음식을 매우 빠르게 익힐 수 있다는 것을 깨달았다.",
+      "meaningSegments": [
+        {"id": "s017-m01", "en": "He realized that", "ko": "그는 깨달았다"},
+        {"id": "s017-m02", "en": "the machine's waves could cook food very fast.", "ko": "그 기계의 파동이 음식을 매우 빠르게 익힐 수 있다는 것을."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s017-m01-p01", "segmentId": "s017-m01", "en": [{"text": "realized", "occurrence": 1}], "ko": [{"text": "깨달았다", "occurrence": 1}]},
+          {"id": "s017-m02-p01", "segmentId": "s017-m02", "en": [{"text": "could cook", "occurrence": 1}], "ko": [{"text": "익힐 수 있다는 것을", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s017-m01-v01", "segmentId": "s017-m01", "colorSlot": 1, "en": {"text": "realized", "occurrence": 1}, "ko": {"text": "깨달았다", "occurrence": 1}, "meaning": "깨닫다"},
+          {"id": "s017-m02-v02", "segmentId": "s017-m02", "colorSlot": 2, "en": {"text": "waves", "occurrence": 1}, "ko": {"text": "파동", "occurrence": 1}, "meaning": "파동, 물결"}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s017-ko-01", "target": {"text": "매우 빠르게", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s017-en-01", "target": {"text": "realized", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s017-verb-01", "target": {"text": "realized", "occurrence": 1}, "cue": "realize", "lemma": "realize"}, {"id": "s017-verb-02", "target": {"text": "could cook", "occurrence": 1}, "cue": "cook", "lemma": "cook"}]},
+        "choice": {"targets": [{"id": "s017-choice-01", "target": {"text": "could", "occurrence": 1}, "options": ["could", "can"]}]},
+        "arrange": {"chunks": [{"id": "s017-a", "text": "He realized that"}, {"id": "s017-b", "text": "the machine's waves could cook food very fast."}], "displayOrder": ["s017-b", "s017-a"]},
+        "writing": {"bank": ["realized", "machine's waves", "cook food", "very fast"]}
+      }
+    },
+    {
+      "id": "s018",
+      "no": 18,
+      "source": "He tried popping popcorn and cooking an egg next.",
+      "translation": "그는 다음으로 팝콘을 튀기고 달걀을 익혀 보았다.",
+      "meaningSegments": [
+        {"id": "s018-m01", "en": "He tried", "ko": "그는 시도했다"},
+        {"id": "s018-m02", "en": "popping popcorn and cooking an egg next.", "ko": "다음으로 팝콘을 튀기고 달걀을 익히는 것을."}
+      ],
+      "annotations": {
+        "predicates": [{"id": "s018-m01-p01", "segmentId": "s018-m01", "en": [{"text": "tried", "occurrence": 1}], "ko": [{"text": "시도했다", "occurrence": 1}]}],
+        "vocabulary": [{"id": "s018-m02-v01", "segmentId": "s018-m02", "colorSlot": 1, "en": {"text": "popping", "occurrence": 1}, "ko": {"text": "튀기고", "occurrence": 1}, "meaning": "펑 하고 터뜨리다"}]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s018-ko-01", "target": {"text": "팝콘을 튀기고", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s018-en-01", "target": {"text": "popping", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s018-verb-01", "target": {"text": "tried", "occurrence": 1}, "cue": "try", "lemma": "try"}]},
+        "choice": {"targets": [{"id": "s018-choice-01", "target": {"text": "popping", "occurrence": 1}, "options": ["popping", "to pop"]}]},
+        "arrange": {"chunks": [{"id": "s018-a", "text": "He tried"}, {"id": "s018-b", "text": "popping popcorn and cooking an egg next."}], "displayOrder": ["s018-b", "s018-a"]},
+        "writing": {"bank": ["tried", "popping popcorn", "cooking an egg", "next"]}
+      }
+    },
+    {
+      "id": "s019",
+      "no": 19,
+      "source": "It worked!",
+      "translation": "그것은 성공했다!",
+      "meaningSegments": [
+        {"id": "s019-m01", "en": "It worked!", "ko": "그것은 성공했다!"}
+      ],
+      "annotations": {
+        "predicates": [{"id": "s019-m01-p01", "segmentId": "s019-m01", "en": [{"text": "worked", "occurrence": 1}], "ko": [{"text": "성공했다", "occurrence": 1}]}],
+        "vocabulary": []
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s019-ko-01", "target": {"text": "성공했다", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s019-en-01", "target": {"text": "worked", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s019-verb-01", "target": {"text": "worked", "occurrence": 1}, "cue": "work", "lemma": "work"}]},
+        "choice": {"targets": [{"id": "s019-choice-01", "target": {"text": "worked", "occurrence": 1}, "options": ["worked", "working"]}]},
+        "arrange": {"chunks": [{"id": "s019-a", "text": "It"}, {"id": "s019-b", "text": "worked!"}], "displayOrder": ["s019-b", "s019-a"]},
+        "writing": {"bank": ["it", "worked"]}
+      }
+    },
+    {
+      "id": "s020",
+      "no": 20,
+      "source": "This 'melted mistake' gave us the microwave oven.",
+      "translation": "이 '녹아버린 실수'가 우리에게 전자레인지를 안겨 주었다.",
+      "meaningSegments": [
+        {"id": "s020-m01", "en": "This 'melted mistake' gave us", "ko": "이 '녹아버린 실수'가 우리에게 안겨 주었다"},
+        {"id": "s020-m02", "en": "the microwave oven.", "ko": "전자레인지를."}
+      ],
+      "annotations": {
+        "predicates": [{"id": "s020-m01-p01", "segmentId": "s020-m01", "en": [{"text": "gave", "occurrence": 1}], "ko": [{"text": "안겨 주었다", "occurrence": 1}]}],
+        "vocabulary": []
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s020-ko-01", "target": {"text": "전자레인지", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s020-en-01", "target": {"text": "microwave oven", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s020-verb-01", "target": {"text": "gave", "occurrence": 1}, "cue": "give", "lemma": "give"}]},
+        "choice": {"targets": [{"id": "s020-choice-01", "target": {"text": "gave", "occurrence": 1}, "options": ["gave", "given"]}]},
+        "arrange": {"chunks": [{"id": "s020-a", "text": "This 'melted mistake' gave us"}, {"id": "s020-b", "text": "the microwave oven."}], "displayOrder": ["s020-b", "s020-a"]},
+        "writing": {"bank": ["melted mistake", "gave us", "microwave oven"]}
+      }
+    },
+    {
+      "id": "s021",
+      "no": 21,
+      "source": "We use it every day.",
+      "translation": "우리는 그것을 매일 사용한다.",
+      "meaningSegments": [
+        {"id": "s021-m01", "en": "We use it", "ko": "우리는 그것을 사용한다"},
+        {"id": "s021-m02", "en": "every day.", "ko": "매일."}
+      ],
+      "annotations": {
+        "predicates": [{"id": "s021-m01-p01", "segmentId": "s021-m01", "en": [{"text": "use", "occurrence": 1}], "ko": [{"text": "사용한다", "occurrence": 1}]}],
+        "vocabulary": []
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s021-ko-01", "target": {"text": "매일", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s021-en-01", "target": {"text": "every day", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s021-verb-01", "target": {"text": "use", "occurrence": 1}, "cue": "use", "lemma": "use"}]},
+        "choice": {"targets": [{"id": "s021-choice-01", "target": {"text": "use", "occurrence": 1}, "options": ["use", "uses"]}]},
+        "arrange": {"chunks": [{"id": "s021-a", "text": "We use it"}, {"id": "s021-b", "text": "every day."}], "displayOrder": ["s021-b", "s021-a"]},
+        "writing": {"bank": ["we", "use it", "every day"]}
+      }
+    }
+  ],
+  "passageActivities": {
+    "correction": [
+      {
+        "id": "correction-01",
+        "textOverride": "Sometimes, mistakes can leads to amazing inventions. However, he fail and made a very weak glue instead. He sang in a church choir, and his bookmarks keeps falling out of his book. He realized that the machine's waves could cooks food very fast.",
+        "targets": [
+          {"id": "correction-01-01", "target": {"text": "leads", "occurrence": 1}, "incorrect": "leads", "correct": "lead"},
+          {"id": "correction-01-02", "target": {"text": "fail", "occurrence": 1}, "incorrect": "fail", "correct": "failed"},
+          {"id": "correction-01-03", "target": {"text": "keeps", "occurrence": 1}, "incorrect": "keeps", "correct": "kept"},
+          {"id": "correction-01-04", "target": {"text": "cooks", "occurrence": 1}, "incorrect": "cooks", "correct": "cook"}
+        ]
+      }
+    ],
+    "paragraphOrder": [
+      {
+        "id": "paragraph-order-01",
+        "blocks": [
+          {"id": "A", "sentenceIds": ["s001", "s002", "s003"]},
+          {"id": "B", "sentenceIds": ["s004", "s005", "s006", "s007", "s008", "s009", "s010", "s011"]},
+          {"id": "C", "sentenceIds": ["s012", "s013", "s014", "s015", "s016", "s017", "s018", "s019", "s020", "s021"]}
+        ],
+        "displayOrder": ["C", "A", "B"],
+        "answerOrder": ["A", "B", "C"]
+      }
+    ]
+  }
+}

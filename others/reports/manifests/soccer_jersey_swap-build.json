@@ -1,0 +1,797 @@
+{
+  "appliedUpdates": [
+    "U-20260711-002",
+    "U-20260723-004",
+    "U-20260723-005"
+  ],
+  "buildVersion": "1.0.2",
+  "builtAt": "2026-07-23T23:27:22+09:00",
+  "canonicalDigest": "d28cd342129fee458dee97c9337ae536100916e864f2122763f5405340e11e34",
+  "compilerVersion": "1.0.2",
+  "contentVersion": "1.0.2",
+  "engineDigest": "b51bb9b758b4a296e3e5fa03c8af783a3626209e4cb1ee0cd519a6394e903d40",
+  "engineInputs": [
+    {
+      "path": "workbook_engine/__init__.py",
+      "sha256": "51971fe944f53b6d6be26501c8730fc99ec76bd250e966ef1c9129a5b257363c",
+      "size": 139
+    },
+    {
+      "path": "workbook_engine/__main__.py",
+      "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+      "size": 5332
+    },
+    {
+      "path": "workbook_engine/change_report.py",
+      "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+      "size": 35564
+    },
+    {
+      "path": "workbook_engine/compiler.py",
+      "sha256": "01a494e0ac7cf8d607340e9d06fe9a910fa1cd1b1422c73dc7b1d76b44e8d840",
+      "size": 14275
+    },
+    {
+      "path": "workbook_engine/manifest.py",
+      "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+      "size": 6606
+    },
+    {
+      "path": "workbook_engine/migrate_legacy.py",
+      "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+      "size": 12027
+    },
+    {
+      "path": "workbook_engine/paginator.py",
+      "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+      "size": 3394
+    },
+    {
+      "path": "workbook_engine/qa.py",
+      "sha256": "42d8b5216b70fa0eaba08421b78fdbf50f1021f41e2dc1a31805adbef9c0e4b2",
+      "size": 31543
+    },
+    {
+      "path": "workbook_engine/release.py",
+      "sha256": "53f264feb5b216ac0a4daec4eb23213bb407ce29a70a014ea0c4d6916832eed6",
+      "size": 29907
+    },
+    {
+      "path": "workbook_engine/render.py",
+      "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+      "size": 4492
+    },
+    {
+      "path": "workbook_engine/schema_gate.py",
+      "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+      "size": 7611
+    },
+    {
+      "path": "workbook_engine/textops.py",
+      "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+      "size": 9891
+    },
+    {
+      "path": "workbook_engine/validator.py",
+      "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+      "size": 26644
+    }
+  ],
+  "files": [
+    {
+      "path": "workbook_engine/__init__.py",
+      "sha256": "51971fe944f53b6d6be26501c8730fc99ec76bd250e966ef1c9129a5b257363c",
+      "size": 139
+    },
+    {
+      "path": "workbook_engine/__main__.py",
+      "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+      "size": 5332
+    },
+    {
+      "path": "workbook_engine/change_report.py",
+      "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+      "size": 35564
+    },
+    {
+      "path": "workbook_engine/compiler.py",
+      "sha256": "01a494e0ac7cf8d607340e9d06fe9a910fa1cd1b1422c73dc7b1d76b44e8d840",
+      "size": 14275
+    },
+    {
+      "path": "workbook_engine/manifest.py",
+      "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+      "size": 6606
+    },
+    {
+      "path": "workbook_engine/migrate_legacy.py",
+      "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+      "size": 12027
+    },
+    {
+      "path": "workbook_engine/paginator.py",
+      "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+      "size": 3394
+    },
+    {
+      "path": "workbook_engine/qa.py",
+      "sha256": "42d8b5216b70fa0eaba08421b78fdbf50f1021f41e2dc1a31805adbef9c0e4b2",
+      "size": 31543
+    },
+    {
+      "path": "workbook_engine/release.py",
+      "sha256": "53f264feb5b216ac0a4daec4eb23213bb407ce29a70a014ea0c4d6916832eed6",
+      "size": 29907
+    },
+    {
+      "path": "workbook_engine/render.py",
+      "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+      "size": 4492
+    },
+    {
+      "path": "workbook_engine/schema_gate.py",
+      "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+      "size": 7611
+    },
+    {
+      "path": "workbook_engine/textops.py",
+      "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+      "size": 9891
+    },
+    {
+      "path": "workbook_engine/validator.py",
+      "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+      "size": 26644
+    },
+    {
+      "path": "문제.html",
+      "sha256": "7bb372e6454418366a3f698ee5ff1bb4cfaf25a8ae27af7acdb7bb03a3ca0fe5",
+      "size": 151720
+    },
+    {
+      "path": "문제.pdf",
+      "sha256": "207d85611c983e3a5de164a921a7ab74f101819037f25404e39b33037f5ecb09",
+      "size": 696357
+    },
+    {
+      "path": "해설.html",
+      "sha256": "b1bbd7a4fc6c1dfda6c1597a62ddf9c056b9ca59c2385d5ff18dd62039068523",
+      "size": 164925
+    },
+    {
+      "path": "해설.pdf",
+      "sha256": "94d323830196ec113b8ef03818237d24b81170d444ee1f825443dc259d018d7d",
+      "size": 843318
+    }
+  ],
+  "outputs": [
+    {
+      "path": "문제.html",
+      "sha256": "7bb372e6454418366a3f698ee5ff1bb4cfaf25a8ae27af7acdb7bb03a3ca0fe5",
+      "size": 151720
+    },
+    {
+      "path": "문제.pdf",
+      "sha256": "207d85611c983e3a5de164a921a7ab74f101819037f25404e39b33037f5ecb09",
+      "size": 696357
+    },
+    {
+      "path": "해설.html",
+      "sha256": "b1bbd7a4fc6c1dfda6c1597a62ddf9c056b9ca59c2385d5ff18dd62039068523",
+      "size": 164925
+    },
+    {
+      "path": "해설.pdf",
+      "sha256": "94d323830196ec113b8ef03818237d24b81170d444ee1f825443dc259d018d7d",
+      "size": 843318
+    }
+  ],
+  "pages": [
+    {
+      "digest": "d518176b947f5a1251793c5e9e8e7f62eb0fba611277f7049a9b632ec12d6e17",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p01",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007"
+      ],
+      "page": 1,
+      "pageId": "soccer-jersey-swap-p01",
+      "part": "1-7",
+      "stageId": "1"
+    },
+    {
+      "digest": "ba9eef483916ed9f054855bb1198802e9d5f6bb6f3011d46c294c0857fac3f0c",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p02",
+      "itemIds": [
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 2,
+      "pageId": "soccer-jersey-swap-p02",
+      "part": "8-14",
+      "stageId": "1"
+    },
+    {
+      "digest": "d112be01b488ce11305108fe6f7987a42fdbac94c5be5034f00b40e63dc90fca",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p03",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 3,
+      "pageId": "soccer-jersey-swap-p03",
+      "part": "1-14",
+      "stageId": "2"
+    },
+    {
+      "digest": "9a44df8993037df64b7ebef8bd3d3ef0ffceef6818453fac0b1937a324b26bc9",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p04",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 4,
+      "pageId": "soccer-jersey-swap-p04",
+      "part": "1-14",
+      "stageId": "3"
+    },
+    {
+      "digest": "2b10143d98e91d024413fac2f9e0180a72ff073abb7ca5be208c4ae4cdf57949",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p05",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007"
+      ],
+      "page": 5,
+      "pageId": "soccer-jersey-swap-p05",
+      "part": "1-7",
+      "stageId": "4"
+    },
+    {
+      "digest": "8acba758354c6fa1a136645f065289cc57fecaf0e389cd04fef7a23c0bf4f4b0",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p06",
+      "itemIds": [
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 6,
+      "pageId": "soccer-jersey-swap-p06",
+      "part": "8-14",
+      "stageId": "4"
+    },
+    {
+      "digest": "e38411cdd1a61d04e69aa0b9bf0cbe193c22fbf658f9e9f57ce2ebcf9c64704b",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p07",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 7,
+      "pageId": "soccer-jersey-swap-p07",
+      "part": "1-14",
+      "stageId": "5"
+    },
+    {
+      "digest": "d189ed3412a831c15d724000e7cd94f4d3764396fc3269b7d01284f43cad6054",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p08",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 8,
+      "pageId": "soccer-jersey-swap-p08",
+      "part": "1-14",
+      "stageId": "6"
+    },
+    {
+      "digest": "84a7b63c4c7b39c97d463efe0f98efb9ec88f2ffbb1881c20f6a0096aff20534",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p09",
+      "itemIds": [],
+      "page": 9,
+      "pageId": "soccer-jersey-swap-p09",
+      "part": null,
+      "stageId": "7"
+    },
+    {
+      "digest": "f167e1c31d9b9b2ced10e14a91795fee37008c2881e836dceffa00fad384ba89",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p10",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 10,
+      "pageId": "soccer-jersey-swap-p10",
+      "part": "1-5",
+      "stageId": "8"
+    },
+    {
+      "digest": "562d52a6c87d8315e024b3e2806d33a9acc7678f0814280e323daff96235d24e",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p11",
+      "itemIds": [
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010"
+      ],
+      "page": 11,
+      "pageId": "soccer-jersey-swap-p11",
+      "part": "6-10",
+      "stageId": "8"
+    },
+    {
+      "digest": "f8de3c8f38939ff2d126191f3a5fbedb818449d8823878ffc5e71d27cbc79d93",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p12",
+      "itemIds": [
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 12,
+      "pageId": "soccer-jersey-swap-p12",
+      "part": "11-14",
+      "stageId": "8"
+    },
+    {
+      "digest": "935b2285f4ea9463bdadadca80e4e57011cc148c52ca03f8cd17b127eef73438",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p13",
+      "itemIds": [],
+      "page": 13,
+      "pageId": "soccer-jersey-swap-p13",
+      "part": null,
+      "stageId": "9"
+    },
+    {
+      "digest": "c3ec53d187128f9238869d97dd3c2796d2b63e153d45eb901b22f4c20c74e070",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p14",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007"
+      ],
+      "page": 14,
+      "pageId": "soccer-jersey-swap-p14",
+      "part": "1-7",
+      "stageId": "10"
+    },
+    {
+      "digest": "16d7594694603604f82e39f635f34da252877ab98f81cb5d2b6335b2a5616d55",
+      "edition": "student",
+      "id": "student:soccer-jersey-swap-p15",
+      "itemIds": [
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 15,
+      "pageId": "soccer-jersey-swap-p15",
+      "part": "8-14",
+      "stageId": "10"
+    },
+    {
+      "digest": "d518176b947f5a1251793c5e9e8e7f62eb0fba611277f7049a9b632ec12d6e17",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p01",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007"
+      ],
+      "page": 1,
+      "pageId": "soccer-jersey-swap-p01",
+      "part": "1-7",
+      "stageId": "1"
+    },
+    {
+      "digest": "ba9eef483916ed9f054855bb1198802e9d5f6bb6f3011d46c294c0857fac3f0c",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p02",
+      "itemIds": [
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 2,
+      "pageId": "soccer-jersey-swap-p02",
+      "part": "8-14",
+      "stageId": "1"
+    },
+    {
+      "digest": "dd54eddf7aa13c3a7b65e11bd63bca46fe2240b77f2cd6614d98f17750788304",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p03",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 3,
+      "pageId": "soccer-jersey-swap-p03",
+      "part": "1-14",
+      "stageId": "2"
+    },
+    {
+      "digest": "b4b3f271c380905e8f88f89a6ef3fd7e417b452d15d5425ee94777623d30cc22",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p04",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 4,
+      "pageId": "soccer-jersey-swap-p04",
+      "part": "1-14",
+      "stageId": "3"
+    },
+    {
+      "digest": "2b841568efd14230958758e1c190af35f35fee7424c12a82f0892ec574e99256",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p05",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007"
+      ],
+      "page": 5,
+      "pageId": "soccer-jersey-swap-p05",
+      "part": "1-7",
+      "stageId": "4"
+    },
+    {
+      "digest": "0f2b26fa35001bc4ea9a6ab0d4f42f21ed8aefaa78e1921c1202e37f0c007de7",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p06",
+      "itemIds": [
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 6,
+      "pageId": "soccer-jersey-swap-p06",
+      "part": "8-14",
+      "stageId": "4"
+    },
+    {
+      "digest": "10fe0cc38e61c5ee7c250de97d9e4c055d52f84d0349b4d51e8e4fe9be2cb3a6",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p07",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 7,
+      "pageId": "soccer-jersey-swap-p07",
+      "part": "1-14",
+      "stageId": "5"
+    },
+    {
+      "digest": "95ae5b4177bfafec5a21ce0beeae2c358de1b35435b3ec19e4df80091a4de7de",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p08",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 8,
+      "pageId": "soccer-jersey-swap-p08",
+      "part": "1-14",
+      "stageId": "6"
+    },
+    {
+      "digest": "2698fbefd4ef5a904113eed8ae486bce6c9d49864afcd67ba56f496b8eef2c10",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p09",
+      "itemIds": [],
+      "page": 9,
+      "pageId": "soccer-jersey-swap-p09",
+      "part": null,
+      "stageId": "7"
+    },
+    {
+      "digest": "2f084095eebd016a3594644efe38d0e915fa3f5a231da642d7d676ad5267b340",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p10",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "page": 10,
+      "pageId": "soccer-jersey-swap-p10",
+      "part": "1-5",
+      "stageId": "8"
+    },
+    {
+      "digest": "bbd17d0243f00051fdfc83a918ca5715fd4370c75f00754731ef807bf1259376",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p11",
+      "itemIds": [
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010"
+      ],
+      "page": 11,
+      "pageId": "soccer-jersey-swap-p11",
+      "part": "6-10",
+      "stageId": "8"
+    },
+    {
+      "digest": "4ea965c81ab9b404733327b40316574ecb4c0ac4966b33571323d2280a33fc06",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p12",
+      "itemIds": [
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 12,
+      "pageId": "soccer-jersey-swap-p12",
+      "part": "11-14",
+      "stageId": "8"
+    },
+    {
+      "digest": "b98adb60cdbc0e3bce3915278dcb651e4e7aaa0989fedb38ac09ce81b4c893fb",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p13",
+      "itemIds": [],
+      "page": 13,
+      "pageId": "soccer-jersey-swap-p13",
+      "part": null,
+      "stageId": "9"
+    },
+    {
+      "digest": "f6c4a4ccb5d03c7a90f44b78e1f66a09c9b6927f4cfca34d3d78de17d543350a",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p14",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007"
+      ],
+      "page": 14,
+      "pageId": "soccer-jersey-swap-p14",
+      "part": "1-7",
+      "stageId": "10"
+    },
+    {
+      "digest": "95aedd570e1e1fc176cab604b80d50d4fe66188b7e810ac99e7e28bf798a8484",
+      "edition": "answer",
+      "id": "answer:soccer-jersey-swap-p15",
+      "itemIds": [
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014"
+      ],
+      "page": 15,
+      "pageId": "soccer-jersey-swap-p15",
+      "part": "8-14",
+      "stageId": "10"
+    }
+  ],
+  "qa": {
+    "contactSheets": [
+      "qa/samples/student-contact-sheet.png",
+      "qa/samples/answer-contact-sheet.png"
+    ],
+    "dom": {
+      "answer": {
+        "pages": 15,
+        "solutions": 112
+      },
+      "sharedTargetSlotCount": 116,
+      "student": {
+        "pages": 15,
+        "solutions": 0
+      }
+    },
+    "pdf": {
+      "answerPages": 15,
+      "studentPages": 15
+    },
+    "status": "passed",
+    "visualSamples": [
+      "qa/samples/student-p01.png",
+      "qa/samples/student-p02.png",
+      "qa/samples/student-p05.png",
+      "qa/samples/student-p08.png",
+      "qa/samples/student-p09.png",
+      "qa/samples/student-p10.png",
+      "qa/samples/student-p13.png",
+      "qa/samples/student-p14.png",
+      "qa/samples/student-p15.png",
+      "qa/samples/answer-p01.png",
+      "qa/samples/answer-p02.png",
+      "qa/samples/answer-p05.png",
+      "qa/samples/answer-p08.png",
+      "qa/samples/answer-p09.png",
+      "qa/samples/answer-p10.png",
+      "qa/samples/answer-p13.png",
+      "qa/samples/answer-p14.png",
+      "qa/samples/answer-p15.png"
+    ]
+  },
+  "reportFormatVersion": "1.0.0",
+  "schemaVersion": "1.0.0",
+  "semanticRubricVersion": "1.0.0",
+  "sourceDigest": "d819f7db0187d96502a29f51b1ec26bb4d86d38fe231e95217a491f93b896f05",
+  "specVersion": "1.0.2",
+  "templateVersion": "1.0.1",
+  "validationStatus": "passed",
+  "visualReview": {
+    "notes": "학생용·해설용 15쪽 contact sheet에서 같은 단계 문항이 7/7 등 균등 배치된 것을 확인함. 단독 꼬리 페이지, 잘림·겹침·번호 오류·학생용 정답 누출·교정 색상 오류 없음.",
+    "reviewedAt": "2026-07-23T23:28:11+09:00",
+    "reviewer": "Codex",
+    "status": "passed"
+  },
+  "workbookId": "soccer-jersey-swap"
+}

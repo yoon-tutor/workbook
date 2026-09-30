@@ -1,0 +1,158 @@
+{
+  "runtimeId": "3c517285402fd434a00b0a39c3559c85e00ec179762de3bdf24c303f2d2bb822",
+  "manifest": {
+    "format": "workbook-runtime-v1",
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "size": 29359,
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1"
+      },
+      {
+        "path": "config/versions.json",
+        "size": 1731,
+        "sha256": "5cc87ad2d4bbf7020c85dd1758306a2c645b0d9e21a21d129586b99512eff9e8"
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "size": 17021,
+        "sha256": "aadb3fe161b100e3a68ecb42fab51775e9738153a04278a53b27e7172f8d8f69"
+      },
+      {
+        "path": "docs/authoring-pipeline.md",
+        "size": 3324,
+        "sha256": "3f0057edfbc5b4abd31dcb359985d536b2fbd6a4c357b5cac3ae95a55dc72a14"
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "size": 8058,
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2"
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "size": 17478,
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997"
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "size": 3456,
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f"
+      },
+      {
+        "path": "scripts/authoring_packet.py",
+        "size": 2079,
+        "sha256": "27fe802036a0f9455c3ff0f0facacbd4a6ab25ed61a58fc4242f9067a43ed9db"
+      },
+      {
+        "path": "workbook_authoring/__init__.py",
+        "size": 235,
+        "sha256": "00358d80fdea167dd8e94a87aa9a29e1a37d87f4f8f9fa3d84ab97f3e9f7bf4c"
+      },
+      {
+        "path": "workbook_authoring/packet.py",
+        "size": 19232,
+        "sha256": "d9bd16dfbfad4226eff28bbc69696b9a3770ca0a36e6f2ff753c4b114fb5dc55"
+      },
+      {
+        "path": "workbook_engine/__init__.py",
+        "size": 139,
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd"
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "size": 5332,
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8"
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "size": 35564,
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89"
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "size": 19480,
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8"
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "size": 6606,
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6"
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "size": 12027,
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714"
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "size": 3394,
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00"
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "size": 43563,
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604"
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "size": 31383,
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e"
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "size": 4492,
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053"
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "size": 7611,
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b"
+      },
+      {
+        "path": "workbook_engine/templates/preview-data.js",
+        "size": 8263,
+        "sha256": "5ef02f2a09b603bdd45102c5f133ef8be634693cd84a5335e6ea3faaf1a26db0"
+      },
+      {
+        "path": "workbook_engine/templates/preview.html",
+        "size": 822,
+        "sha256": "3320c953ba94f84a77c0a6b42c301c3fbcdc0046b53372bda28eb740171f0f05"
+      },
+      {
+        "path": "workbook_engine/templates/README.md",
+        "size": 6012,
+        "sha256": "ff225163c52519e4189bc49a4fdca7fafb75a95904b0bdbeeeb8a91707b7c6d6"
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "size": 42558,
+        "sha256": "25a21d18af7ee1100e7a4d0023af1175140e82dd2cce2a246d0fcd5ece2411ee"
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "size": 1212,
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c"
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "size": 15185,
+        "sha256": "ceab51f4246462f507a1de7c6aea850fb577113c37e74b4d98a645f23744a330"
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "size": 9891,
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3"
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "size": 26644,
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1"
+      },
+      {
+        "path": "workbook_mcp/runtime_entry.py",
+        "size": 4519,
+        "sha256": "f11e8dd83d25702428156d03645144d61d568332fa88371e6ff2b195b2b66cc8"
+      }
+    ]
+  }
+}

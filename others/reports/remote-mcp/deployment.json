@@ -1,0 +1,13 @@
+{
+  "status": {
+    "latestReadyRevisionName": "workbook-runtime-00002-b2z",
+    "traffic": [
+      {
+        "latestRevision": true,
+        "percent": 100,
+        "revisionName": "workbook-runtime-00002-b2z"
+      }
+    ],
+    "url": "https://workbook-runtime-yzxn4wai2a-du.a.run.app"
+  }
+}

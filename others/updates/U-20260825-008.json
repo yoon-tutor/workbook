@@ -1,0 +1,43 @@
+{
+  "$schema": "../schemas/update.schema.json",
+  "id": "U-20260825-008",
+  "title": "워크북 작업공간 3폴더 구조 정리",
+  "date": "2026-08-25",
+  "summary": "상위 작업공간을 input, outputs, others로 단순화하고 정본·공개 결과·유지보수 자료의 역할을 분리합니다.",
+  "category": "workspace-maintenance",
+  "applyTo": "manual-review",
+  "affectedStages": [
+    "workspace"
+  ],
+  "request": "워크북 agent 폴더에 input, outputs, others 세 폴더만 보이도록 정리합니다.",
+  "directChanges": {
+    "files": [
+      "AGENTS.md",
+      "config/versions.json",
+      "updates/U-20260825-008.json"
+    ],
+    "jsonPaths": [
+      {
+        "manifest": "build",
+        "path": "$"
+      }
+    ]
+  },
+  "verification": [
+    {
+      "name": "root-layout",
+      "status": "pass",
+      "details": "상위 작업공간에 input, outputs, others 세 폴더만 남겼습니다."
+    },
+    {
+      "name": "preservation",
+      "status": "pass",
+      "details": "정본과 공개 결과는 삭제하지 않았고, 중복·레거시 자료는 others/archive에 보관했습니다."
+    },
+    {
+      "name": "regression-suite",
+      "status": "pass",
+      "details": "5개 정본 구조 검증과 전체 회귀 검사 32개가 통과했습니다."
+    }
+  ]
+}

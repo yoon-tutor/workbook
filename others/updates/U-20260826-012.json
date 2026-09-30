@@ -1,0 +1,61 @@
+{
+  "$schema": "../schemas/update.schema.json",
+  "id": "U-20260826-012",
+  "title": "해설 전체 형상에서 답만 제거한 문제본",
+  "date": "2026-08-26",
+  "summary": "모든 정답 자리를 해설 브라우저 렌더링에서 먼저 측정하고, 문제본은 그 위치·가로·세로를 유지한 채 정답 값만 제거하도록 생성·검수·정리 절차를 전면 통일합니다.",
+  "category": "layout-and-release",
+  "applyTo": "all",
+  "affectedStages": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "request": "AGENTS, Python 생성기, JavaScript 렌더러, CSS, 검수 기준과 테스트를 모두 해설 우선·정답만 제거 원칙으로 수정하고, 품질과 콘텐츠에 필요 없는 중간 파일을 제거합니다.",
+  "directChanges": {
+    "files": [
+      "AGENTS.md",
+      "config/workbook-spec.json",
+      "config/versions.json",
+      "tests/test_engine.py",
+      "tests/test_render_contract.py",
+      "workbook_engine/__init__.py",
+      "workbook_engine/compiler.py",
+      "workbook_engine/qa.py",
+      "workbook_engine/release.py",
+      "workbook_engine/templates/README.md",
+      "workbook_engine/templates/renderer.js",
+      "workbook_engine/templates/workbook.css",
+      "updates/U-20260826-012.json",
+      "workbooks/2026-june-grade2-q20/content.json",
+      "workbooks/2026-june-grade2-q21/content.json",
+      "workbooks/chocolate/content.json",
+      "workbooks/soccer-jersey-swap/content.json",
+      "workbooks/when-failure-become-ideas/content.json"
+    ],
+    "jsonPaths": [
+      {"manifest": "spec", "path": "$"},
+      {"manifest": "template", "path": "$"},
+      {"manifest": "build", "path": "$"},
+      {"manifest": "canonical", "path": "$"}
+    ]
+  },
+  "verification": [
+    {
+      "name": "all-solution-slot-geometry",
+      "status": "pass",
+      "details": "브라우저 QA가 모든 비작성형 정답 자리의 페이지 기준 left/top/width/height를 문제본·해설본 사이에서 0.75px 허용치로 비교합니다."
+    },
+    {
+      "name": "writing-response-geometry",
+      "status": "pass",
+      "details": "작성형 답안 박스와 답 줄별 위치·가로·세로 비교를 유지합니다."
+    },
+    {
+      "name": "student-answer-removal",
+      "status": "pass",
+      "details": "문제본 payload와 DOM의 정답 값은 0개이며, 해설에서 측정한 형상 정보만 유지합니다."
+    },
+    {
+      "name": "intermediate-cleanup",
+      "status": "pass",
+      "details": "측정용 HTML과 브라우저 프로필은 prepare 중 제거하고 캐시·중복 미리보기 파일은 공개 산출물과 무관한 범위에서 정리합니다."
+    }
+  ]
+}

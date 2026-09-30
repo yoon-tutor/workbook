@@ -1,0 +1,293 @@
+{
+  "$schema": "../../schemas/canonical-workbook.schema.json",
+  "schemaVersion": "1.0.0",
+  "specVersion": "1.0.6",
+  "contentVersion": "1.0.4",
+  "workbookId": "2026-june-grade2-q20",
+  "metadata": {
+    "title": "2026학년도 6월 고2 20번 10단계 워크북",
+    "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 20번",
+    "kicker": "High School Reading",
+    "grade": "고등학교 2학년",
+    "topic": "구성의 오류를 피하고 팀의 부분과 전체를 함께 살펴야 하는 이유",
+    "sourceLanguage": "en",
+    "targetLanguage": "ko"
+  },
+  "sourceStatus": {
+    "status": "confirmed",
+    "sourceType": "pdf",
+    "references": [
+      "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+    ],
+    "sentenceCount": 6,
+    "verifiedAt": "2026-08-25T15:42:00+09:00",
+    "notes": "원본 PDF 2쪽의 20번 본문을 전사했으며, 본문 아래 별표 어휘 주석과 문항 선택지는 지문 정본에서 제외했습니다."
+  },
+  "updateState": {
+    "defaultScope": "new-only",
+    "appliedUpdates": [
+      {
+        "id": "U-20260825-006",
+        "scope": "selected",
+        "fromContentVersion": "0.0.0",
+        "toContentVersion": "1.0.0",
+        "appliedAt": "2026-08-25T15:42:00+09:00",
+        "report": "reports/updates/U-20260825-006.md"
+      },
+      {
+        "id": "U-20260826-009",
+        "scope": "all",
+        "fromContentVersion": "1.0.0",
+        "toContentVersion": "1.0.1",
+        "appliedAt": "2026-08-26T22:30:14+09:00",
+        "report": "reports/updates/U-20260826-009.md"
+      },
+      {
+        "id": "U-20260826-010",
+        "scope": "all",
+        "fromContentVersion": "1.0.1",
+        "toContentVersion": "1.0.2",
+        "appliedAt": "2026-08-26T22:42:19+09:00",
+        "report": "reports/updates/U-20260826-010.md"
+      },
+      {
+        "id": "U-20260826-011",
+        "scope": "all",
+        "fromContentVersion": "1.0.2",
+        "toContentVersion": "1.0.3",
+        "appliedAt": "2026-08-26T23:06:04+09:00",
+        "report": "reports/updates/U-20260826-011.md"
+      },
+      {
+        "id": "U-20260826-012",
+        "scope": "all",
+        "fromContentVersion": "1.0.3",
+        "toContentVersion": "1.0.4",
+        "appliedAt": "2026-08-26T23:20:00+09:00",
+        "report": "reports/updates/U-20260826-012.md"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s001",
+      "no": 1,
+      "source": "We can sometimes assume that the whole will be as good as each of its parts.",
+      "translation": "우리는 때때로 전체가 그 각각의 부분만큼 훌륭할 것이라고 가정할 수 있다.",
+      "meaningSegments": [
+        {"id": "s001-m01", "en": "We can sometimes assume", "ko": "우리는 때때로 가정할 수 있다"},
+        {"id": "s001-m02", "en": "that the whole will be as good", "ko": "전체가 그만큼 훌륭할 것이라고"},
+        {"id": "s001-m03", "en": "as each of its parts.", "ko": "그것의 각각의 부분만큼."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s001-m01-p01", "segmentId": "s001-m01", "en": [{"text": "can sometimes assume", "occurrence": 1}], "ko": [{"text": "가정할 수 있다", "occurrence": 1}]},
+          {"id": "s001-m02-p01", "segmentId": "s001-m02", "en": [{"text": "will be", "occurrence": 1}], "ko": [{"text": "훌륭할 것이라고", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s001-m01-v01", "segmentId": "s001-m01", "colorSlot": 1, "en": {"text": "assume", "occurrence": 1}, "ko": {"text": "가정", "occurrence": 1}, "meaning": "가정하다", "cefr": "B2", "reasons": ["abstract", "structure-critical"]},
+          {"id": "s001-m02-v02", "segmentId": "s001-m02", "colorSlot": 2, "en": {"text": "the whole", "occurrence": 1}, "ko": {"text": "전체", "occurrence": 1}, "meaning": "전체", "reasons": ["topic-core"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s001-ko-01", "target": {"text": "전체가 그 각각의 부분만큼 훌륭할 것", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s001-en-01", "target": {"text": "the whole", "occurrence": 1}}, {"id": "s001-en-02", "target": {"text": "as good as", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s001-verb-01", "target": {"text": "can sometimes assume", "occurrence": 1}, "cue": "assume", "lemma": "assume"}, {"id": "s001-verb-02", "target": {"text": "will be", "occurrence": 1}, "cue": "be", "lemma": "be"}]},
+        "choice": {"targets": [{"id": "s001-choice-01", "target": {"text": "each", "occurrence": 1}, "options": ["each", "every"]}]},
+        "arrange": {"chunks": [{"id": "s001-a", "text": "We can sometimes assume"}, {"id": "s001-b", "text": "that the whole will be as good"}, {"id": "s001-c", "text": "as each of its parts."}], "displayOrder": ["s001-c", "s001-a", "s001-b"]},
+        "writing": {"bank": ["assume", "the whole", "as good as", "each of its parts"]}
+      }
+    },
+    {
+      "id": "s002",
+      "no": 2,
+      "source": "Suppose, for example, you’re in charge of a startup, and you know that everyone you’ve brought on board is productive and efficient.",
+      "translation": "가령 당신이 스타트업을 맡고 있고, 합류시킨 모든 사람이 생산적이고 효율적이라는 것을 알고 있다고 해 보자.",
+      "meaningSegments": [
+        {"id": "s002-m01", "en": "Suppose, for example,", "ko": "가령 예를 들어 생각해 보라,"},
+        {"id": "s002-m02", "en": "you’re in charge of a startup,", "ko": "당신이 맡고 있고 스타트업을,"},
+        {"id": "s002-m03", "en": "and you know", "ko": "그리고 당신이 안다"},
+        {"id": "s002-m04", "en": "that everyone you’ve brought on board", "ko": "당신이 합류시킨 모든 사람이"},
+        {"id": "s002-m05", "en": "is productive and efficient.", "ko": "생산적이고 효율적이라는 것을."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s002-m01-p01", "segmentId": "s002-m01", "en": [{"text": "Suppose", "occurrence": 1}], "ko": [{"text": "생각해 보라", "occurrence": 1}]},
+          {"id": "s002-m02-p01", "segmentId": "s002-m02", "en": [{"text": "you’re in charge of", "occurrence": 1}], "ko": [{"text": "맡고 있고", "occurrence": 1}]},
+          {"id": "s002-m03-p01", "segmentId": "s002-m03", "en": [{"text": "know", "occurrence": 1}], "ko": [{"text": "안다", "occurrence": 1}]},
+          {"id": "s002-m04-p01", "segmentId": "s002-m04", "en": [{"text": "you’ve brought on board", "occurrence": 1}], "ko": [{"text": "합류시킨", "occurrence": 1}]},
+          {"id": "s002-m05-p01", "segmentId": "s002-m05", "en": [{"text": "is", "occurrence": 1}], "ko": [{"text": "생산적이고 효율적이라는", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s002-m02-v01", "segmentId": "s002-m02", "colorSlot": 1, "en": {"text": "in charge of", "occurrence": 1}, "ko": {"text": "맡고", "occurrence": 1}, "meaning": "~을 맡아", "reasons": ["structure-critical"]},
+          {"id": "s002-m04-v02", "segmentId": "s002-m04", "colorSlot": 2, "en": {"text": "brought on board", "occurrence": 1}, "ko": {"text": "합류시킨", "occurrence": 1}, "meaning": "합류시키다", "reasons": ["student-difficulty"]},
+          {"id": "s002-m05-v03", "segmentId": "s002-m05", "colorSlot": 3, "en": {"text": "efficient", "occurrence": 1}, "ko": {"text": "효율적", "occurrence": 1}, "meaning": "효율적인", "cefr": "B2", "reasons": ["academic"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s002-ko-01", "target": {"text": "스타트업을 맡고 있고", "occurrence": 1}}, {"id": "s002-ko-02", "target": {"text": "합류시킨", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s002-en-01", "target": {"text": "in charge of", "occurrence": 1}}, {"id": "s002-en-02", "target": {"text": "brought on board", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s002-verb-01", "target": {"text": "Suppose", "occurrence": 1}, "cue": "suppose", "lemma": "suppose"}, {"id": "s002-verb-02", "target": {"text": "you’re", "occurrence": 1}, "cue": "be", "lemma": "be"}, {"id": "s002-verb-03", "target": {"text": "know", "occurrence": 1}, "cue": "know", "lemma": "know"}, {"id": "s002-verb-04", "target": {"text": "you’ve brought", "occurrence": 1}, "cue": "bring", "lemma": "bring"}, {"id": "s002-verb-05", "target": {"text": "is", "occurrence": 1}, "cue": "be", "lemma": "be"}]},
+        "choice": {"targets": [{"id": "s002-choice-01", "target": {"text": "is", "occurrence": 1}, "options": ["is", "are"]}]},
+        "arrange": {"chunks": [{"id": "s002-a", "text": "Suppose, for example,"}, {"id": "s002-b", "text": "you’re in charge of a startup,"}, {"id": "s002-c", "text": "and you know that everyone you’ve brought on board"}, {"id": "s002-d", "text": "is productive and efficient."}], "displayOrder": ["s002-c", "s002-d", "s002-a", "s002-b"]},
+        "writing": {"bank": ["suppose", "in charge of", "bring on board", "productive and efficient"]}
+      }
+    },
+    {
+      "id": "s003",
+      "no": 3,
+      "source": "It might seem logical to assume that, as a result, the startup will be productive and efficient, too—but this isn’t necessarily true.",
+      "translation": "그 결과 그 스타트업도 생산적이고 효율적일 것이라고 가정하는 것이 논리적으로 보일지도 모르지만, 이것이 반드시 사실인 것은 아니다.",
+      "meaningSegments": [
+        {"id": "s003-m01", "en": "It might seem logical", "ko": "그것은 논리적으로 보일지도 모른다"},
+        {"id": "s003-m02", "en": "to assume that, as a result,", "ko": "결과적으로 가정하는 것이"},
+        {"id": "s003-m03", "en": "the startup will be productive and efficient, too—but this isn’t necessarily true.", "ko": "그 스타트업도 생산적이고 효율적일 것이라고—하지만 이것이 반드시 사실인 것은 아니다."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s003-m01-p01", "segmentId": "s003-m01", "en": [{"text": "might seem", "occurrence": 1}], "ko": [{"text": "보일지도 모른다", "occurrence": 1}]},
+          {"id": "s003-m03-p01", "segmentId": "s003-m03", "en": [{"text": "will be", "occurrence": 1}], "ko": [{"text": "생산적이고 효율적일 것이라고", "occurrence": 1}]},
+          {"id": "s003-m03-p02", "segmentId": "s003-m03", "en": [{"text": "isn’t", "occurrence": 1}], "ko": [{"text": "사실인 것은 아니다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s003-m01-v01", "segmentId": "s003-m01", "colorSlot": 1, "en": {"text": "logical", "occurrence": 1}, "ko": {"text": "논리적", "occurrence": 1}, "meaning": "논리적인", "cefr": "B2", "reasons": ["abstract"]},
+          {"id": "s003-m02-v02", "segmentId": "s003-m02", "colorSlot": 2, "en": {"text": "as a result", "occurrence": 1}, "ko": {"text": "결과적으로", "occurrence": 1}, "meaning": "그 결과", "reasons": ["structure-critical"]},
+          {"id": "s003-m03-v03", "segmentId": "s003-m03", "colorSlot": 3, "en": {"text": "necessarily", "occurrence": 1}, "ko": {"text": "반드시", "occurrence": 1}, "meaning": "반드시", "cefr": "B2", "reasons": ["abstract"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s003-ko-01", "target": {"text": "논리적으로 보일지도", "occurrence": 1}}, {"id": "s003-ko-02", "target": {"text": "반드시 사실인 것은 아니다", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s003-en-01", "target": {"text": "as a result", "occurrence": 1}}, {"id": "s003-en-02", "target": {"text": "necessarily", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s003-verb-01", "target": {"text": "might seem", "occurrence": 1}, "cue": "seem", "lemma": "seem"}, {"id": "s003-verb-02", "target": {"text": "will be", "occurrence": 1}, "cue": "be", "lemma": "be"}, {"id": "s003-verb-03", "target": {"text": "isn’t", "occurrence": 1}, "cue": "be", "lemma": "be"}]},
+        "choice": {"targets": [{"id": "s003-choice-01", "target": {"text": "necessarily", "occurrence": 1}, "options": ["necessarily", "necessary"]}]},
+        "arrange": {"chunks": [{"id": "s003-a", "text": "It might seem logical"}, {"id": "s003-b", "text": "to assume that, as a result,"}, {"id": "s003-c", "text": "the startup will be productive and efficient, too—but this isn’t necessarily true."}], "displayOrder": ["s003-c", "s003-a", "s003-b"]},
+        "writing": {"bank": ["seem logical", "as a result", "productive and efficient", "not necessarily true"]}
+      }
+    },
+    {
+      "id": "s004",
+      "no": 4,
+      "source": "The fallacy of composition fails to allow for how the different “parts” interact with each other—if, for example, your efficient administrator and your highly skilled head of IT each assumes the other is in charge of collating prototype test results, then you have a problem.",
+      "translation": "구성의 오류는 서로 다른 ‘부분들’이 상호작용하는 방식을 고려하지 못한다. 예를 들어, 유능한 관리자와 매우 숙련된 정보 기술 책임자가 각각 상대방이 시제품 시험 결과의 대조 확인을 맡고 있다고 여긴다면 문제가 생긴다.",
+      "meaningSegments": [
+        {"id": "s004-m01", "en": "The fallacy of composition fails to allow for", "ko": "구성의 오류는 고려하지 못한다"},
+        {"id": "s004-m02", "en": "how the different “parts” interact with each other—if, for example,", "ko": "서로 다른 ‘부분들’이 서로 상호작용하는 방식을—예를 들어 만약,"},
+        {"id": "s004-m03", "en": "your efficient administrator and your highly skilled head of IT", "ko": "당신의 유능한 관리자와 매우 숙련된 정보 기술 책임자가"},
+        {"id": "s004-m04", "en": "each assumes the other is in charge", "ko": "각각 상대방이 맡고 있다고 여긴다면"},
+        {"id": "s004-m05", "en": "of collating prototype test results,", "ko": "서로 맞춰 확인하는 일을 시제품 시험 결과를,"},
+        {"id": "s004-m06", "en": "then you have a problem.", "ko": "그러면 당신에게 문제가 생긴다."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s004-m01-p01", "segmentId": "s004-m01", "en": [{"text": "fails to allow for", "occurrence": 1}], "ko": [{"text": "고려하지 못한다", "occurrence": 1}]},
+          {"id": "s004-m02-p01", "segmentId": "s004-m02", "en": [{"text": "interact", "occurrence": 1}], "ko": [{"text": "상호작용하는", "occurrence": 1}]},
+          {"id": "s004-m04-p01", "segmentId": "s004-m04", "en": [{"text": "assumes", "occurrence": 1}], "ko": [{"text": "여긴다면", "occurrence": 1}]},
+          {"id": "s004-m04-p02", "segmentId": "s004-m04", "en": [{"text": "is in charge", "occurrence": 1}], "ko": [{"text": "맡고 있다고", "occurrence": 1}]},
+          {"id": "s004-m06-p01", "segmentId": "s004-m06", "en": [{"text": "have", "occurrence": 1}], "ko": [{"text": "문제가 생긴다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s004-m01-v01", "segmentId": "s004-m01", "colorSlot": 1, "en": {"text": "fallacy of composition", "occurrence": 1}, "ko": {"text": "구성의 오류", "occurrence": 1}, "meaning": "부분의 속성을 전체의 속성으로 잘못 판단하는 오류", "cefr": "C1", "reasons": ["academic", "topic-core"]},
+          {"id": "s004-m02-v02", "segmentId": "s004-m02", "colorSlot": 2, "en": {"text": "interact", "occurrence": 1}, "ko": {"text": "상호작용", "occurrence": 1}, "meaning": "상호작용하다", "cefr": "B2", "reasons": ["academic", "topic-core"]},
+          {"id": "s004-m05-v03", "segmentId": "s004-m05", "colorSlot": 3, "en": {"text": "collating", "occurrence": 1}, "ko": {"text": "맞춰 확인", "occurrence": 1}, "meaning": "대조하여 확인하는 것", "cefr": "C1", "reasons": ["student-difficulty"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s004-ko-01", "target": {"text": "구성의 오류", "occurrence": 1}}, {"id": "s004-ko-02", "target": {"text": "시제품 시험 결과의 대조 확인", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s004-en-01", "target": {"text": "fallacy of composition", "occurrence": 1}}, {"id": "s004-en-02", "target": {"text": "collating prototype test results", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s004-verb-01", "target": {"text": "fails to allow for", "occurrence": 1}, "cue": "fail to allow for", "lemma": "fail to allow for"}, {"id": "s004-verb-02", "target": {"text": "interact", "occurrence": 1}, "cue": "interact", "lemma": "interact"}, {"id": "s004-verb-03", "target": {"text": "assumes", "occurrence": 1}, "cue": "assume", "lemma": "assume"}, {"id": "s004-verb-04", "target": {"text": "is", "occurrence": 1}, "cue": "be", "lemma": "be"}, {"id": "s004-verb-05", "target": {"text": "have", "occurrence": 1}, "cue": "have", "lemma": "have"}]},
+        "choice": {"targets": [{"id": "s004-choice-01", "target": {"text": "assumes", "occurrence": 1}, "options": ["assumes", "assume"]}]},
+        "arrange": {"chunks": [{"id": "s004-a", "text": "The fallacy of composition fails to allow for"}, {"id": "s004-b", "text": "how the different “parts” interact with each other—if, for example,"}, {"id": "s004-c", "text": "your efficient administrator and your highly skilled head of IT"}, {"id": "s004-d", "text": "each assumes the other is in charge"}, {"id": "s004-e", "text": "of collating prototype test results,"}, {"id": "s004-f", "text": "then you have a problem."}], "displayOrder": ["s004-d", "s004-b", "s004-f", "s004-a", "s004-e", "s004-c"]},
+        "writing": {"bank": ["fallacy of composition", "interact", "in charge of", "prototype test results"]}
+      }
+    },
+    {
+      "id": "s005",
+      "no": 5,
+      "source": "Equally, a unit composed of good people can still be working on a doomed project, and a project composed of good ideas may lack a stable center.",
+      "translation": "마찬가지로, 훌륭한 사람들로 구성된 단위가 여전히 가망 없는 프로젝트를 수행하고 있을 수도 있고, 훌륭한 아이디어들로 구성된 프로젝트가 안정적인 중심이 부족할 수도 있다.",
+      "meaningSegments": [
+        {"id": "s005-m01", "en": "Equally,", "ko": "마찬가지로,"},
+        {"id": "s005-m02", "en": "a unit composed of good people", "ko": "훌륭한 사람들로 구성된 단위가"},
+        {"id": "s005-m03", "en": "can still be working on a doomed project,", "ko": "여전히 수행하고 있을 수도 있다 가망 없는 프로젝트를,"},
+        {"id": "s005-m04", "en": "and a project composed of good ideas", "ko": "그리고 훌륭한 아이디어들로 구성된 프로젝트가"},
+        {"id": "s005-m05", "en": "may lack a stable center.", "ko": "부족할 수도 있다 안정적인 중심이."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s005-m03-p01", "segmentId": "s005-m03", "en": [{"text": "can still be working on", "occurrence": 1}], "ko": [{"text": "수행하고 있을 수도 있다", "occurrence": 1}]},
+          {"id": "s005-m05-p01", "segmentId": "s005-m05", "en": [{"text": "may lack", "occurrence": 1}], "ko": [{"text": "부족할 수도 있다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s005-m02-v01", "segmentId": "s005-m02", "colorSlot": 1, "en": {"text": "composed of", "occurrence": 1}, "ko": {"text": "구성된", "occurrence": 1}, "meaning": "~로 구성된", "cefr": "B2", "reasons": ["structure-critical"]},
+          {"id": "s005-m03-v02", "segmentId": "s005-m03", "colorSlot": 2, "en": {"text": "doomed", "occurrence": 1}, "ko": {"text": "가망 없는", "occurrence": 1}, "meaning": "실패할 운명인", "cefr": "C1", "reasons": ["student-difficulty"]},
+          {"id": "s005-m05-v03", "segmentId": "s005-m05", "colorSlot": 3, "en": {"text": "stable center", "occurrence": 1}, "ko": {"text": "안정적인 중심", "occurrence": 1}, "meaning": "안정적인 중심", "reasons": ["topic-core"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s005-ko-01", "target": {"text": "가망 없는 프로젝트", "occurrence": 1}}, {"id": "s005-ko-02", "target": {"text": "안정적인 중심", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s005-en-01", "target": {"text": "doomed project", "occurrence": 1}}, {"id": "s005-en-02", "target": {"text": "stable center", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s005-verb-01", "target": {"text": "can still be working on", "occurrence": 1}, "cue": "work on", "lemma": "work on"}, {"id": "s005-verb-02", "target": {"text": "may lack", "occurrence": 1}, "cue": "lack", "lemma": "lack"}]},
+        "choice": {"targets": [{"id": "s005-choice-01", "target": {"text": "composed", "occurrence": 1}, "options": ["composed", "composing"]}]},
+        "arrange": {"chunks": [{"id": "s005-a", "text": "Equally,"}, {"id": "s005-b", "text": "a unit composed of good people"}, {"id": "s005-c", "text": "can still be working on a doomed project,"}, {"id": "s005-d", "text": "and a project composed of good ideas"}, {"id": "s005-e", "text": "may lack a stable center."}], "displayOrder": ["s005-d", "s005-b", "s005-e", "s005-a", "s005-c"]},
+        "writing": {"bank": ["composed of", "doomed project", "good ideas", "stable center"]}
+      }
+    },
+    {
+      "id": "s006",
+      "no": 6,
+      "source": "When assembling a team with a common goal, always check the overall view as well as the individuals involved.",
+      "translation": "공동의 목표를 가진 팀을 구성할 때는 관련된 개인들뿐만 아니라 항상 전체적인 관점도 점검하라.",
+      "meaningSegments": [
+        {"id": "s006-m01", "en": "When assembling a team", "ko": "구성할 때 팀을"},
+        {"id": "s006-m02", "en": "with a common goal,", "ko": "공동의 목표를 가진,"},
+        {"id": "s006-m03", "en": "always check the overall view", "ko": "항상 점검하라 전체적인 관점을"},
+        {"id": "s006-m04", "en": "as well as the individuals involved.", "ko": "관련된 개인들뿐만 아니라."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s006-m03-p01", "segmentId": "s006-m03", "en": [{"text": "check", "occurrence": 1}], "ko": [{"text": "점검하라", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s006-m01-v01", "segmentId": "s006-m01", "colorSlot": 1, "en": {"text": "assembling", "occurrence": 1}, "ko": {"text": "구성", "occurrence": 1}, "meaning": "구성하는 것", "cefr": "B2", "reasons": ["topic-core"]},
+          {"id": "s006-m03-v02", "segmentId": "s006-m03", "colorSlot": 2, "en": {"text": "overall view", "occurrence": 1}, "ko": {"text": "전체적인 관점", "occurrence": 1}, "meaning": "전체적인 관점", "reasons": ["topic-core"]},
+          {"id": "s006-m04-v03", "segmentId": "s006-m04", "colorSlot": 3, "en": {"text": "involved", "occurrence": 1}, "ko": {"text": "관련된", "occurrence": 1}, "meaning": "관련된", "cefr": "B2", "reasons": ["student-difficulty"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s006-ko-01", "target": {"text": "전체적인 관점", "occurrence": 1}}, {"id": "s006-ko-02", "target": {"text": "관련된 개인들", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s006-en-01", "target": {"text": "overall view", "occurrence": 1}}, {"id": "s006-en-02", "target": {"text": "individuals involved", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s006-verb-01", "target": {"text": "check", "occurrence": 1}, "cue": "check", "lemma": "check"}]},
+        "choice": {"targets": [{"id": "s006-choice-01", "target": {"text": "involved", "occurrence": 1}, "options": ["involved", "involving"]}]},
+        "arrange": {"chunks": [{"id": "s006-a", "text": "When assembling a team"}, {"id": "s006-b", "text": "with a common goal,"}, {"id": "s006-c", "text": "always check the overall view"}, {"id": "s006-d", "text": "as well as the individuals involved."}], "displayOrder": ["s006-c", "s006-a", "s006-d", "s006-b"]},
+        "writing": {"bank": ["assemble a team", "common goal", "overall view", "individuals involved"]}
+      }
+    }
+  ],
+  "passageActivities": {
+    "correction": [
+      {
+        "id": "correction-01",
+        "textOverride": "We can sometimes assume that the whole will be as good as each of its part. Suppose, for example, you’re in charge of a startup, and you know that everyone you’ve brought on board are productive and efficient. It might seem logic to assume that, as a result, the startup will be productive and efficient, too—but this isn’t necessarily true. The fallacy of composition fails to allow for how the different “parts” interacts with each other—if, for example, your efficient administrator and your highly skilled head of IT each assumes the other is in charge of collating prototype test results, then you have a problem. Equally, a unit composed of good people can still be working on a doomed project, and a project composed of good ideas may lack a stable center. When assembling a team with a common goal, always check the overall view as well as the individual involved.",
+        "targets": [
+          {"id": "correction-01-01", "target": {"text": "part", "occurrence": 1}, "incorrect": "part", "correct": "parts"},
+          {"id": "correction-01-02", "target": {"text": "are", "occurrence": 1}, "incorrect": "are", "correct": "is"},
+          {"id": "correction-01-03", "target": {"text": "logic", "occurrence": 1}, "incorrect": "logic", "correct": "logical"},
+          {"id": "correction-01-04", "target": {"text": "interacts", "occurrence": 1}, "incorrect": "interacts", "correct": "interact"},
+          {"id": "correction-01-05", "target": {"text": "individual", "occurrence": 1}, "incorrect": "individual", "correct": "individuals"}
+        ]
+      }
+    ],
+    "paragraphOrder": [
+      {
+        "id": "paragraph-order-01",
+        "blocks": [
+          {"id": "A", "sentenceIds": ["s001", "s002"]},
+          {"id": "B", "sentenceIds": ["s003", "s004"]},
+          {"id": "C", "sentenceIds": ["s005", "s006"]}
+        ],
+        "displayOrder": ["C", "A", "B"],
+        "answerOrder": ["A", "B", "C"]
+      }
+    ]
+  }
+}

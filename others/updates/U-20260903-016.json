@@ -1,0 +1,48 @@
+{
+  "$schema": "../schemas/update.schema.json",
+  "id": "U-20260903-016",
+  "title": "2026학년도 6월 고2 30·31번 10단계 워크북 신규 등록",
+  "date": "2026-09-03",
+  "summary": "제공된 2026학년도 6월 고2 전국연합학력평가 PDF의 30번과 31번 지문을 각각 단일 canonical 정본으로 전사하고 학생용·해설용 10단계 워크북을 생성합니다.",
+  "category": "new-content",
+  "applyTo": "selected",
+  "selectedWorkbooks": [
+    "2026-june-grade2-q30",
+    "2026-june-grade2-q31"
+  ],
+  "affectedStages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "request": "고2 6월 원본 PDF의 30, 31번으로 작업을 시작합니다.",
+  "directChanges": {
+    "files": [
+      "config/versions.json",
+      "updates/U-20260903-016.json",
+      "workbooks/2026-june-grade2-q30/content.json",
+      "workbooks/2026-june-grade2-q31/content.json"
+    ],
+    "jsonPaths": [
+      {"manifest": "canonical", "path": "$"}
+    ]
+  },
+  "verification": [
+    {
+      "name": "source-transcription",
+      "status": "pass",
+      "details": "원본 PDF 5쪽의 30번과 31번을 고해상도로 렌더링해 본문 단어, 대소문자, 숫자, 문장부호, 밑줄, 빈칸 및 선택지를 시각 확인했습니다."
+    },
+    {
+      "name": "source-question-cross-check",
+      "status": "pass",
+      "details": "30번의 문맥상 부적절한 ③ more sensitive는 정답형 less sensitive로 정규화했고, 31번 빈칸은 정답 ① evolving uses를 canonical 본문에 복원했습니다."
+    },
+    {
+      "name": "semantic-review",
+      "status": "pass",
+      "details": "완성 번역, 직독직해 영한 1:1 대응, 서술어, 어휘, 동사 cue, 오답과 배열 복원을 문장별로 검토했습니다."
+    },
+    {
+      "name": "release-validation",
+      "status": "pass",
+      "details": "두 canonical의 스키마·구조 검증, 전체 단위 테스트, 브라우저 QA, 학생용 정답 0개, 답지 공유 target 일치, PDF 쪽수 및 대표 페이지 시각 검수를 완료했습니다."
+    }
+  ]
+}

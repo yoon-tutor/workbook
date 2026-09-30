@@ -1,0 +1,346 @@
+{
+  "$schema": "../../schemas/canonical-workbook.schema.json",
+  "schemaVersion": "1.0.0",
+  "specVersion": "1.0.6",
+  "contentVersion": "1.0.4",
+  "workbookId": "2026-june-grade2-q21",
+  "metadata": {
+    "title": "2026학년도 6월 고2 21번 10단계 워크북",
+    "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 21번",
+    "kicker": "High School Reading",
+    "grade": "고등학교 2학년",
+    "topic": "상상이 현실보다 덜 생생하도록 제한된 진화적 이유",
+    "sourceLanguage": "en",
+    "targetLanguage": "ko"
+  },
+  "sourceStatus": {
+    "status": "confirmed",
+    "sourceType": "pdf",
+    "references": [
+      "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+    ],
+    "sentenceCount": 8,
+    "verifiedAt": "2026-08-25T15:42:00+09:00",
+    "notes": "원본 PDF 3쪽의 21번 본문을 전사했으며, 본문 아래 별표 어휘 주석과 문항 선택지는 지문 정본에서 제외했습니다."
+  },
+  "updateState": {
+    "defaultScope": "new-only",
+    "appliedUpdates": [
+      {
+        "id": "U-20260825-006",
+        "scope": "selected",
+        "fromContentVersion": "0.0.0",
+        "toContentVersion": "1.0.0",
+        "appliedAt": "2026-08-25T15:42:00+09:00",
+        "report": "reports/updates/U-20260825-006.md"
+      },
+      {
+        "id": "U-20260826-009",
+        "scope": "all",
+        "fromContentVersion": "1.0.0",
+        "toContentVersion": "1.0.1",
+        "appliedAt": "2026-08-26T22:30:14+09:00",
+        "report": "reports/updates/U-20260826-009.md"
+      },
+      {
+        "id": "U-20260826-010",
+        "scope": "all",
+        "fromContentVersion": "1.0.1",
+        "toContentVersion": "1.0.2",
+        "appliedAt": "2026-08-26T22:42:19+09:00",
+        "report": "reports/updates/U-20260826-010.md"
+      },
+      {
+        "id": "U-20260826-011",
+        "scope": "all",
+        "fromContentVersion": "1.0.2",
+        "toContentVersion": "1.0.3",
+        "appliedAt": "2026-08-26T23:06:04+09:00",
+        "report": "reports/updates/U-20260826-011.md"
+      },
+      {
+        "id": "U-20260826-012",
+        "scope": "all",
+        "fromContentVersion": "1.0.3",
+        "toContentVersion": "1.0.4",
+        "appliedAt": "2026-08-26T23:20:00+09:00",
+        "report": "reports/updates/U-20260826-012.md"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s001",
+      "no": 1,
+      "source": "Humans excel at visual imagery.",
+      "translation": "인간은 시각적 심상에 뛰어나다.",
+      "meaningSegments": [
+        {"id": "s001-m01", "en": "Humans", "ko": "인간은"},
+        {"id": "s001-m02", "en": "excel at visual imagery.", "ko": "뛰어나다 시각적 심상에."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s001-m02-p01", "segmentId": "s001-m02", "en": [{"text": "excel at", "occurrence": 1}], "ko": [{"text": "뛰어나다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s001-m02-v01", "segmentId": "s001-m02", "colorSlot": 1, "en": {"text": "visual imagery", "occurrence": 1}, "ko": {"text": "시각적 심상", "occurrence": 1}, "meaning": "마음속에 떠올리는 시각적 모습", "cefr": "B2", "reasons": ["academic", "topic-core"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s001-ko-01", "target": {"text": "시각적 심상", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s001-en-01", "target": {"text": "visual imagery", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s001-verb-01", "target": {"text": "excel", "occurrence": 1}, "cue": "excel", "lemma": "excel"}]},
+        "choice": {"targets": [{"id": "s001-choice-01", "target": {"text": "visual", "occurrence": 1}, "options": ["visual", "visually"]}]},
+        "arrange": {"chunks": [{"id": "s001-a", "text": "Humans"}, {"id": "s001-b", "text": "excel at visual imagery."}], "displayOrder": ["s001-b", "s001-a"]},
+        "writing": {"bank": ["humans", "excel at", "visual imagery"]}
+      }
+    },
+    {
+      "id": "s002",
+      "no": 2,
+      "source": "Our brains evolved this ability to create an internal mental picture or model of the world in which we can rehearse forthcoming actions, without the risks or the penalties of doing them in the real world.",
+      "translation": "우리의 뇌는 위험이나 불이익 없이 현실 세계에서 앞으로 할 행동을 머릿속으로 연습할 수 있는, 세계에 대한 내부의 정신적 그림이나 모형을 만들어 내는 능력을 발달시켰다.",
+      "meaningSegments": [
+        {"id": "s002-m01", "en": "Our brains evolved this ability", "ko": "우리의 뇌는 발달시켰다 이 능력을"},
+        {"id": "s002-m02", "en": "to create an internal mental picture or model of the world", "ko": "만들어 내기 위한 내부의 정신적 그림이나 세계의 모형을"},
+        {"id": "s002-m03", "en": "in which we can rehearse forthcoming actions,", "ko": "그 안에서 우리는 머릿속으로 연습할 수 있다 앞으로 할 행동을,"},
+        {"id": "s002-m04", "en": "without the risks or the penalties", "ko": "위험이나 불이익 없이"},
+        {"id": "s002-m05", "en": "of doing them in the real world.", "ko": "그것들을 현실 세계에서 하는 데 따르는."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s002-m01-p01", "segmentId": "s002-m01", "en": [{"text": "evolved", "occurrence": 1}], "ko": [{"text": "발달시켰다", "occurrence": 1}]},
+          {"id": "s002-m03-p01", "segmentId": "s002-m03", "en": [{"text": "can rehearse", "occurrence": 1}], "ko": [{"text": "연습할 수 있다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s002-m03-v01", "segmentId": "s002-m03", "colorSlot": 1, "en": {"text": "rehearse", "occurrence": 1}, "ko": {"text": "연습", "occurrence": 1}, "meaning": "머릿속으로 미리 해 보다", "cefr": "B2", "reasons": ["topic-core", "student-difficulty"]},
+          {"id": "s002-m03-v02", "segmentId": "s002-m03", "colorSlot": 2, "en": {"text": "forthcoming", "occurrence": 1}, "ko": {"text": "앞으로 할", "occurrence": 1}, "meaning": "다가오는", "cefr": "C1", "reasons": ["student-difficulty"]},
+          {"id": "s002-m04-v03", "segmentId": "s002-m04", "colorSlot": 3, "en": {"text": "penalties", "occurrence": 1}, "ko": {"text": "불이익", "occurrence": 1}, "meaning": "불이익", "cefr": "B2", "reasons": ["abstract"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s002-ko-01", "target": {"text": "앞으로 할 행동", "occurrence": 1}}, {"id": "s002-ko-02", "target": {"text": "위험이나 불이익 없이", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s002-en-01", "target": {"text": "rehearse forthcoming actions", "occurrence": 1}}, {"id": "s002-en-02", "target": {"text": "penalties", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s002-verb-01", "target": {"text": "evolved", "occurrence": 1}, "cue": "evolve", "lemma": "evolve"}, {"id": "s002-verb-02", "target": {"text": "can rehearse", "occurrence": 1}, "cue": "rehearse", "lemma": "rehearse"}]},
+        "choice": {"targets": [{"id": "s002-choice-01", "target": {"text": "forthcoming", "occurrence": 1}, "options": ["forthcoming", "previous"]}]},
+        "arrange": {"chunks": [{"id": "s002-a", "text": "Our brains evolved this ability"}, {"id": "s002-b", "text": "to create an internal mental picture or model of the world"}, {"id": "s002-c", "text": "in which we can rehearse forthcoming actions,"}, {"id": "s002-d", "text": "without the risks or the penalties"}, {"id": "s002-e", "text": "of doing them in the real world."}], "displayOrder": ["s002-d", "s002-b", "s002-e", "s002-a", "s002-c"]},
+        "writing": {"bank": ["evolve", "internal mental picture", "rehearse", "forthcoming actions"]}
+      }
+    },
+    {
+      "id": "s003",
+      "no": 3,
+      "source": "There are even hints from brain-imaging studies by Harvard University psychologist Steve Kosslyn showing that your brain uses the same regions to imagine a scene as when you actually view one.",
+      "translation": "하버드대학교 심리학자 스티브 코슬린의 뇌 영상 연구에는 장면을 상상할 때와 실제로 볼 때 뇌가 동일한 영역을 사용한다는 것을 보여 주는 암시까지 있다.",
+      "meaningSegments": [
+        {"id": "s003-m01", "en": "There are even hints", "ko": "심지어 암시가 있다"},
+        {"id": "s003-m02", "en": "from brain-imaging studies", "ko": "뇌 영상 연구들에서 나온"},
+        {"id": "s003-m03", "en": "by Harvard University psychologist Steve Kosslyn", "ko": "하버드대학교 심리학자 스티브 코슬린의"},
+        {"id": "s003-m04", "en": "showing that your brain uses the same regions", "ko": "보여 주는 당신의 뇌가 동일한 영역들을 사용한다는 것을"},
+        {"id": "s003-m05", "en": "to imagine a scene", "ko": "장면을 상상하기 위해"},
+        {"id": "s003-m06", "en": "as when you actually view one.", "ko": "당신이 실제로 그것을 볼 때와 마찬가지로."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s003-m01-p01", "segmentId": "s003-m01", "en": [{"text": "There are", "occurrence": 1}], "ko": [{"text": "있다", "occurrence": 1}]},
+          {"id": "s003-m04-p01", "segmentId": "s003-m04", "en": [{"text": "uses", "occurrence": 1}], "ko": [{"text": "사용한다는", "occurrence": 1}]},
+          {"id": "s003-m06-p01", "segmentId": "s003-m06", "en": [{"text": "view", "occurrence": 1}], "ko": [{"text": "볼", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s003-m01-v01", "segmentId": "s003-m01", "colorSlot": 1, "en": {"text": "hints", "occurrence": 1}, "ko": {"text": "암시", "occurrence": 1}, "meaning": "암시", "cefr": "B2", "reasons": ["abstract"]},
+          {"id": "s003-m02-v02", "segmentId": "s003-m02", "colorSlot": 2, "en": {"text": "brain-imaging", "occurrence": 1}, "ko": {"text": "뇌 영상", "occurrence": 1}, "meaning": "뇌 영상 촬영의", "reasons": ["technical"]},
+          {"id": "s003-m04-v03", "segmentId": "s003-m04", "colorSlot": 3, "en": {"text": "regions", "occurrence": 1}, "ko": {"text": "영역", "occurrence": 1}, "meaning": "영역", "cefr": "B2", "reasons": ["academic"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s003-ko-01", "target": {"text": "동일한 영역", "occurrence": 1}}, {"id": "s003-ko-02", "target": {"text": "실제로 볼 때", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s003-en-01", "target": {"text": "same regions", "occurrence": 1}}, {"id": "s003-en-02", "target": {"text": "actually view one", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s003-verb-01", "target": {"text": "are", "occurrence": 1}, "cue": "be", "lemma": "be"}, {"id": "s003-verb-02", "target": {"text": "uses", "occurrence": 1}, "cue": "use", "lemma": "use"}, {"id": "s003-verb-03", "target": {"text": "view", "occurrence": 1}, "cue": "view", "lemma": "view"}]},
+        "choice": {"targets": [{"id": "s003-choice-01", "target": {"text": "uses", "occurrence": 1}, "options": ["uses", "use"]}]},
+        "arrange": {"chunks": [{"id": "s003-a", "text": "There are even hints"}, {"id": "s003-b", "text": "from brain-imaging studies"}, {"id": "s003-c", "text": "by Harvard University psychologist Steve Kosslyn"}, {"id": "s003-d", "text": "showing that your brain uses the same regions"}, {"id": "s003-e", "text": "to imagine a scene"}, {"id": "s003-f", "text": "as when you actually view one."}], "displayOrder": ["s003-d", "s003-b", "s003-f", "s003-a", "s003-e", "s003-c"]},
+        "writing": {"bank": ["brain-imaging studies", "same regions", "imagine a scene", "actually view"]}
+      }
+    },
+    {
+      "id": "s004",
+      "no": 4,
+      "source": "But evolution has seen to it that such internally generated representations are never as authentic as the real thing.",
+      "translation": "그러나 진화는 그처럼 내부에서 생성된 표상이 결코 실제의 것만큼 진짜 같지는 않도록 해 왔다.",
+      "meaningSegments": [
+        {"id": "s004-m01", "en": "But evolution has seen to it", "ko": "그러나 진화는 반드시 그렇게 되도록 해 왔다"},
+        {"id": "s004-m02", "en": "that such internally generated representations", "ko": "그처럼 내부에서 생성된 표상들이"},
+        {"id": "s004-m03", "en": "are never as authentic", "ko": "결코 진짜 같지 않도록"},
+        {"id": "s004-m04", "en": "as the real thing.", "ko": "실제의 것만큼."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s004-m01-p01", "segmentId": "s004-m01", "en": [{"text": "has seen to it", "occurrence": 1}], "ko": [{"text": "반드시 그렇게 되도록 해 왔다", "occurrence": 1}]},
+          {"id": "s004-m03-p01", "segmentId": "s004-m03", "en": [{"text": "are", "occurrence": 1}], "ko": [{"text": "진짜 같지 않도록", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s004-m01-v01", "segmentId": "s004-m01", "colorSlot": 1, "en": {"text": "seen to it", "occurrence": 1}, "ko": {"text": "반드시 그렇게 되도록", "occurrence": 1}, "meaning": "반드시 그렇게 되게 하다", "cefr": "C1", "reasons": ["structure-critical"]},
+          {"id": "s004-m02-v02", "segmentId": "s004-m02", "colorSlot": 2, "en": {"text": "representations", "occurrence": 1}, "ko": {"text": "표상", "occurrence": 1}, "meaning": "머릿속에 나타낸 모습", "cefr": "C1", "reasons": ["academic", "topic-core"]},
+          {"id": "s004-m03-v03", "segmentId": "s004-m03", "colorSlot": 3, "en": {"text": "authentic", "occurrence": 1}, "ko": {"text": "진짜", "occurrence": 1}, "meaning": "진짜와 같은", "cefr": "B2", "reasons": ["topic-core"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s004-ko-01", "target": {"text": "내부에서 생성된 표상", "occurrence": 1}}, {"id": "s004-ko-02", "target": {"text": "실제의 것만큼 진짜 같지는 않도록", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s004-en-01", "target": {"text": "internally generated representations", "occurrence": 1}}, {"id": "s004-en-02", "target": {"text": "authentic", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s004-verb-01", "target": {"text": "has seen to it", "occurrence": 1}, "cue": "see to it", "lemma": "see to it"}, {"id": "s004-verb-02", "target": {"text": "are", "occurrence": 1}, "cue": "be", "lemma": "be"}]},
+        "choice": {"targets": [{"id": "s004-choice-01", "target": {"text": "authentic", "occurrence": 1}, "options": ["authentic", "authentically"]}]},
+        "arrange": {"chunks": [{"id": "s004-a", "text": "But evolution has seen to it"}, {"id": "s004-b", "text": "that such internally generated representations"}, {"id": "s004-c", "text": "are never as authentic"}, {"id": "s004-d", "text": "as the real thing."}], "displayOrder": ["s004-c", "s004-a", "s004-d", "s004-b"]},
+        "writing": {"bank": ["evolution", "see to it", "representations", "the real thing"]}
+      }
+    },
+    {
+      "id": "s005",
+      "no": 5,
+      "source": "This is a wise bit of self-restraint on your genes’ part.",
+      "translation": "이것은 유전자가 현명하게 약간의 자제력을 발휘한 것이다.",
+      "meaningSegments": [
+        {"id": "s005-m01", "en": "This is a wise bit of self-restraint", "ko": "이것은 현명하게 약간의 자제력을 발휘한 것이다"},
+        {"id": "s005-m02", "en": "on your genes’ part.", "ko": "당신의 유전자 쪽에서."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s005-m01-p01", "segmentId": "s005-m01", "en": [{"text": "is", "occurrence": 1}], "ko": [{"text": "것이다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s005-m01-v01", "segmentId": "s005-m01", "colorSlot": 1, "en": {"text": "self-restraint", "occurrence": 1}, "ko": {"text": "자제력", "occurrence": 1}, "meaning": "자제력", "cefr": "C1", "reasons": ["abstract", "topic-core"]},
+          {"id": "s005-m02-v02", "segmentId": "s005-m02", "colorSlot": 2, "en": {"text": "genes’ part", "occurrence": 1}, "ko": {"text": "유전자 쪽", "occurrence": 1}, "meaning": "유전자 측에서", "reasons": ["structure-critical"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s005-ko-01", "target": {"text": "현명하게 약간의 자제력을 발휘한 것", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s005-en-01", "target": {"text": "wise bit of self-restraint", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s005-verb-01", "target": {"text": "is", "occurrence": 1}, "cue": "be", "lemma": "be"}]},
+        "choice": {"targets": [{"id": "s005-choice-01", "target": {"text": "wise", "occurrence": 1}, "options": ["wise", "wisely"]}]},
+        "arrange": {"chunks": [{"id": "s005-a", "text": "This is a wise bit of self-restraint"}, {"id": "s005-b", "text": "on your genes’ part."}], "displayOrder": ["s005-b", "s005-a"]},
+        "writing": {"bank": ["wise", "self-restraint", "genes", "on one's part"]}
+      }
+    },
+    {
+      "id": "s006",
+      "no": 6,
+      "source": "If your internal model of the world were a perfect substitute, then anytime you felt hungry you could simply imagine yourself at a banquet, consuming a feast.",
+      "translation": "세계에 대한 내적 모형이 완벽한 대체물이라면, 배고픔을 느낄 때마다 그저 연회에서 진수성찬을 먹고 있는 자신을 상상할 수 있을 것이다.",
+      "meaningSegments": [
+        {"id": "s006-m01", "en": "If your internal model of the world", "ko": "만약 세계에 대한 당신의 내적 모형이"},
+        {"id": "s006-m02", "en": "were a perfect substitute,", "ko": "완벽한 대체물이라면,"},
+        {"id": "s006-m03", "en": "then anytime you felt hungry", "ko": "그러면 당신이 배고픔을 느낄 때마다"},
+        {"id": "s006-m04", "en": "you could simply imagine yourself", "ko": "당신은 그저 상상할 수 있을 것이다 자신을"},
+        {"id": "s006-m05", "en": "at a banquet,", "ko": "연회에 있는,"},
+        {"id": "s006-m06", "en": "consuming a feast.", "ko": "진수성찬을 먹고 있는."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s006-m02-p01", "segmentId": "s006-m02", "en": [{"text": "were", "occurrence": 1}], "ko": [{"text": "대체물이라면", "occurrence": 1}]},
+          {"id": "s006-m03-p01", "segmentId": "s006-m03", "en": [{"text": "felt", "occurrence": 1}], "ko": [{"text": "느낄", "occurrence": 1}]},
+          {"id": "s006-m04-p01", "segmentId": "s006-m04", "en": [{"text": "could simply imagine", "occurrence": 1}], "ko": [{"text": "상상할 수 있을 것이다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s006-m02-v01", "segmentId": "s006-m02", "colorSlot": 1, "en": {"text": "substitute", "occurrence": 1}, "ko": {"text": "대체물", "occurrence": 1}, "meaning": "대체물", "cefr": "B2", "reasons": ["abstract", "topic-core"]},
+          {"id": "s006-m05-v02", "segmentId": "s006-m05", "colorSlot": 2, "en": {"text": "banquet", "occurrence": 1}, "ko": {"text": "연회", "occurrence": 1}, "meaning": "연회", "cefr": "C1", "reasons": ["student-difficulty"]},
+          {"id": "s006-m06-v03", "segmentId": "s006-m06", "colorSlot": 3, "en": {"text": "feast", "occurrence": 1}, "ko": {"text": "진수성찬", "occurrence": 1}, "meaning": "진수성찬", "cefr": "B2", "reasons": ["student-difficulty"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s006-ko-01", "target": {"text": "완벽한 대체물", "occurrence": 1}}, {"id": "s006-ko-02", "target": {"text": "연회에서 진수성찬", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s006-en-01", "target": {"text": "perfect substitute", "occurrence": 1}}, {"id": "s006-en-02", "target": {"text": "consuming a feast", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s006-verb-01", "target": {"text": "were", "occurrence": 1}, "cue": "be", "lemma": "be"}, {"id": "s006-verb-02", "target": {"text": "felt", "occurrence": 1}, "cue": "feel", "lemma": "feel"}, {"id": "s006-verb-03", "target": {"text": "could simply imagine", "occurrence": 1}, "cue": "imagine", "lemma": "imagine"}]},
+        "choice": {"targets": [{"id": "s006-choice-01", "target": {"text": "were", "occurrence": 1}, "options": ["were", "was"]}]},
+        "arrange": {"chunks": [{"id": "s006-a", "text": "If your internal model of the world"}, {"id": "s006-b", "text": "were a perfect substitute,"}, {"id": "s006-c", "text": "then anytime you felt hungry"}, {"id": "s006-d", "text": "you could simply imagine yourself"}, {"id": "s006-e", "text": "at a banquet,"}, {"id": "s006-f", "text": "consuming a feast."}], "displayOrder": ["s006-d", "s006-b", "s006-f", "s006-a", "s006-e", "s006-c"]},
+        "writing": {"bank": ["internal model", "perfect substitute", "feel hungry", "banquet"]}
+      }
+    },
+    {
+      "id": "s007",
+      "no": 7,
+      "source": "You would have no incentive to find real food and would soon starve to death.",
+      "translation": "당신은 실제 음식을 찾을 동기가 전혀 없을 것이고 곧 굶어 죽을 것이다.",
+      "meaningSegments": [
+        {"id": "s007-m01", "en": "You would have no incentive", "ko": "당신은 동기가 전혀 없을 것이다"},
+        {"id": "s007-m02", "en": "to find real food", "ko": "실제 음식을 찾을"},
+        {"id": "s007-m03", "en": "and would soon starve to death.", "ko": "그리고 곧 굶어 죽을 것이다."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s007-m01-p01", "segmentId": "s007-m01", "en": [{"text": "would have", "occurrence": 1}], "ko": [{"text": "없을 것이다", "occurrence": 1}]},
+          {"id": "s007-m03-p01", "segmentId": "s007-m03", "en": [{"text": "would soon starve to death", "occurrence": 1}], "ko": [{"text": "곧 굶어 죽을 것이다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s007-m01-v01", "segmentId": "s007-m01", "colorSlot": 1, "en": {"text": "incentive", "occurrence": 1}, "ko": {"text": "동기", "occurrence": 1}, "meaning": "행동하게 하는 동기", "cefr": "B2", "reasons": ["abstract", "topic-core"]},
+          {"id": "s007-m03-v02", "segmentId": "s007-m03", "colorSlot": 2, "en": {"text": "starve to death", "occurrence": 1}, "ko": {"text": "굶어 죽을", "occurrence": 1}, "meaning": "굶어 죽다", "reasons": ["topic-core"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s007-ko-01", "target": {"text": "동기가 전혀 없을 것", "occurrence": 1}}, {"id": "s007-ko-02", "target": {"text": "굶어 죽을 것", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s007-en-01", "target": {"text": "incentive", "occurrence": 1}}, {"id": "s007-en-02", "target": {"text": "starve to death", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s007-verb-01", "target": {"text": "would have", "occurrence": 1}, "cue": "have", "lemma": "have"}, {"id": "s007-verb-02", "target": {"text": "would soon starve", "occurrence": 1}, "cue": "starve", "lemma": "starve"}]},
+        "choice": {"targets": [{"id": "s007-choice-01", "target": {"text": "to find", "occurrence": 1}, "options": ["to find", "finding"]}]},
+        "arrange": {"chunks": [{"id": "s007-a", "text": "You would have no incentive"}, {"id": "s007-b", "text": "to find real food"}, {"id": "s007-c", "text": "and would soon starve to death."}], "displayOrder": ["s007-c", "s007-a", "s007-b"]},
+        "writing": {"bank": ["no incentive", "real food", "soon", "starve to death"]}
+      }
+    },
+    {
+      "id": "s008",
+      "no": 8,
+      "source": "As the Bard said, “You cannot cloy the hungry edge of appetite by bare imagination of a feast.”",
+      "translation": "셰익스피어가 말했듯이, ‘잔치를 단지 상상하는 것만으로는 날카로운 식욕을 채울 수 없다.’",
+      "meaningSegments": [
+        {"id": "s008-m01", "en": "As the Bard said,", "ko": "셰익스피어가 말했듯이,"},
+        {"id": "s008-m02", "en": "“You cannot cloy", "ko": "‘너는 채울 수 없다"},
+        {"id": "s008-m03", "en": "the hungry edge of appetite", "ko": "날카로운 식욕을"},
+        {"id": "s008-m04", "en": "by bare imagination of a feast.”", "ko": "잔치를 단지 상상하는 것으로.’"}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s008-m01-p01", "segmentId": "s008-m01", "en": [{"text": "said", "occurrence": 1}], "ko": [{"text": "말했듯이", "occurrence": 1}]},
+          {"id": "s008-m02-p01", "segmentId": "s008-m02", "en": [{"text": "cannot cloy", "occurrence": 1}], "ko": [{"text": "채울 수 없다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s008-m01-v01", "segmentId": "s008-m01", "colorSlot": 1, "en": {"text": "the Bard", "occurrence": 1}, "ko": {"text": "셰익스피어", "occurrence": 1}, "meaning": "셰익스피어", "reasons": ["student-difficulty"]},
+          {"id": "s008-m02-v02", "segmentId": "s008-m02", "colorSlot": 2, "en": {"text": "cloy", "occurrence": 1}, "ko": {"text": "채울", "occurrence": 1}, "meaning": "물리도록 채우다", "cefr": "C2", "reasons": ["student-difficulty"]},
+          {"id": "s008-m04-v03", "segmentId": "s008-m04", "colorSlot": 3, "en": {"text": "bare imagination", "occurrence": 1}, "ko": {"text": "단지 상상", "occurrence": 1}, "meaning": "단순한 상상", "cefr": "C1", "reasons": ["abstract"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s008-ko-01", "target": {"text": "날카로운 식욕을 채울 수 없다", "occurrence": 1}}, {"id": "s008-ko-02", "target": {"text": "단지 상상하는 것만으로", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s008-en-01", "target": {"text": "hungry edge of appetite", "occurrence": 1}}, {"id": "s008-en-02", "target": {"text": "bare imagination of a feast", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s008-verb-01", "target": {"text": "said", "occurrence": 1}, "cue": "say", "lemma": "say"}, {"id": "s008-verb-02", "target": {"text": "cannot cloy", "occurrence": 1}, "cue": "cloy", "lemma": "cloy"}]},
+        "choice": {"targets": [{"id": "s008-choice-01", "target": {"text": "hungry", "occurrence": 1}, "options": ["hungry", "hungrily"]}]},
+        "arrange": {"chunks": [{"id": "s008-a", "text": "As the Bard said,"}, {"id": "s008-b", "text": "“You cannot cloy"}, {"id": "s008-c", "text": "the hungry edge of appetite"}, {"id": "s008-d", "text": "by bare imagination of a feast.”"}], "displayOrder": ["s008-c", "s008-a", "s008-d", "s008-b"]},
+        "writing": {"bank": ["the Bard", "cannot cloy", "hungry edge", "bare imagination"]}
+      }
+    }
+  ],
+  "passageActivities": {
+    "correction": [
+      {
+        "id": "correction-01",
+        "textOverride": "Humans excels at visual imagery. Our brains evolve this ability to create an internal mental picture or model of the world in which we can rehearse forthcoming actions, without the risks or the penalties of doing them in the real world. There are even hints from brain-imaging studies by Harvard University psychologist Steve Kosslyn showing that your brain uses the same region to imagine a scene as when you actually view one. But evolution has seen to it that such internally generated representations is never as authentic as the real thing. This is a wise bit of self-restraint on your genes’ part. If your internal model of the world were a perfect substitute, then anytime you felt hungry you could simple imagine yourself at a banquet, consuming a feast. You would have no incentive to find real food and would soon starves to death. As the Bard said, “You cannot cloys the hungry edge of appetite by bare imagination of a feast.”",
+        "targets": [
+          {"id": "correction-01-01", "target": {"text": "excels", "occurrence": 1}, "incorrect": "excels", "correct": "excel"},
+          {"id": "correction-01-02", "target": {"text": "evolve", "occurrence": 1}, "incorrect": "evolve", "correct": "evolved"},
+          {"id": "correction-01-03", "target": {"text": "region", "occurrence": 1}, "incorrect": "region", "correct": "regions"},
+          {"id": "correction-01-04", "target": {"text": "is", "occurrence": 5}, "incorrect": "is", "correct": "are"},
+          {"id": "correction-01-05", "target": {"text": "simple", "occurrence": 1}, "incorrect": "simple", "correct": "simply"},
+          {"id": "correction-01-06", "target": {"text": "starves", "occurrence": 1}, "incorrect": "starves", "correct": "starve"},
+          {"id": "correction-01-07", "target": {"text": "cloys", "occurrence": 1}, "incorrect": "cloys", "correct": "cloy"}
+        ]
+      }
+    ],
+    "paragraphOrder": [
+      {
+        "id": "paragraph-order-01",
+        "blocks": [
+          {"id": "A", "sentenceIds": ["s001", "s002", "s003"]},
+          {"id": "B", "sentenceIds": ["s004", "s005"]},
+          {"id": "C", "sentenceIds": ["s006", "s007", "s008"]}
+        ],
+        "displayOrder": ["C", "A", "B"],
+        "answerOrder": ["A", "B", "C"]
+      }
+    ]
+  }
+}

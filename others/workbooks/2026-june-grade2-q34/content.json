@@ -1,0 +1,1761 @@
+{
+  "$schema": "../../schemas/canonical-workbook.schema.json",
+  "schemaVersion": "1.0.0",
+  "specVersion": "1.0.6",
+  "contentVersion": "1.0.0",
+  "workbookId": "2026-june-grade2-q34",
+  "metadata": {
+    "title": "2026학년도 6월 고2 34번 10단계 워크북",
+    "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 34번",
+    "kicker": "High School Reading",
+    "grade": "고등학교 2학년",
+    "topic": "높은 도심 토지 비용을 피하는 길거리 판매상의 공간 대체 전략",
+    "sourceLanguage": "en",
+    "targetLanguage": "ko"
+  },
+  "sourceStatus": {
+    "status": "confirmed",
+    "sourceType": "pdf",
+    "references": [
+      "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+    ],
+    "sentenceCount": 9,
+    "verifiedAt": "2026-09-08T10:00:00+09:00",
+    "notes": "원본 PDF 6쪽의 34번 본문, 빈칸, 선택지를 고해상도로 렌더링해 전사했습니다. 빈칸은 정답 ⑤ substitute public sidewalks for costly commercial space를 canonical 본문에 복원했습니다."
+  },
+  "updateState": {
+    "defaultScope": "new-only",
+    "appliedUpdates": [
+      {
+        "id": "U-20260908-018",
+        "scope": "selected",
+        "fromContentVersion": "0.0.0",
+        "toContentVersion": "1.0.0",
+        "appliedAt": "2026-09-08T10:05:00+09:00",
+        "report": "reports/updates/U-20260908-018.md"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "source": "The high price of land in metropolitan areas has implications for the efficient employment of resources.",
+      "translation": "대도시 지역의 높은 토지 가격은 자원의 효율적 활용에 영향을 미친다.",
+      "meaningSegments": [
+        {
+          "en": "The high price of land",
+          "ko": "높은 토지 가격은",
+          "id": "s001-m01"
+        },
+        {
+          "en": "in metropolitan areas",
+          "ko": "대도시 지역의",
+          "id": "s001-m02"
+        },
+        {
+          "en": "has implications",
+          "ko": "영향을 미친다",
+          "id": "s001-m03"
+        },
+        {
+          "en": "for the efficient employment of resources.",
+          "ko": "자원의 효율적 활용에.",
+          "id": "s001-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "has implications",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "영향을 미친다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m03-p01",
+            "segmentId": "s001-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "metropolitan areas",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "대도시 지역",
+              "occurrence": 1
+            },
+            "meaning": "큰 도시와 그 주변 지역",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s001-m02-v01",
+            "segmentId": "s001-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "employment of resources",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "자원의 효율적 활용",
+              "occurrence": 1
+            },
+            "meaning": "자원을 목적에 맞게 사용하는 것",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s001-m04-v02",
+            "segmentId": "s001-m04",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s001-ko-01",
+              "target": {
+                "text": "대도시 지역의 높은 토지 가격",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-ko-02",
+              "target": {
+                "text": "자원의 효율적 활용",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s001-en-01",
+              "target": {
+                "text": "high price of land",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-en-02",
+              "target": {
+                "text": "efficient employment of resources",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "has implications",
+                "occurrence": 1
+              },
+              "cue": "have implications",
+              "lemma": "have",
+              "id": "s001-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "efficient employment",
+                "occurrence": 1
+              },
+              "options": [
+                "efficient employment",
+                "wasteful use"
+              ],
+              "id": "s001-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s001-a",
+              "text": "The high price of land in metropolitan areas"
+            },
+            {
+              "id": "s001-b",
+              "text": "has implications"
+            },
+            {
+              "id": "s001-c",
+              "text": "for the efficient employment of resources."
+            }
+          ],
+          "displayOrder": [
+            "s001-b",
+            "s001-c",
+            "s001-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "high price of land",
+            "metropolitan areas",
+            "have implications",
+            "efficient employment",
+            "resources"
+          ]
+        }
+      },
+      "id": "s001",
+      "no": 1
+    },
+    {
+      "source": "For example, in New York City, as in many large cities, sidewalk vending carts sell everything from hot dogs to ice cream.",
+      "translation": "예를 들어 뉴욕시는 다른 많은 대도시처럼 길거리 판매 수레에서 핫도그부터 아이스크림까지 모든 것을 판다.",
+      "meaningSegments": [
+        {
+          "en": "For example, in New York City,",
+          "ko": "예를 들어 뉴욕시에서는,",
+          "id": "s002-m01"
+        },
+        {
+          "en": "as in many large cities,",
+          "ko": "다른 많은 대도시에서처럼,",
+          "id": "s002-m02"
+        },
+        {
+          "en": "sidewalk vending carts sell everything",
+          "ko": "길거리 판매 수레가 모든 것을 판다",
+          "id": "s002-m03"
+        },
+        {
+          "en": "from hot dogs to ice cream.",
+          "ko": "핫도그부터 아이스크림까지.",
+          "id": "s002-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "sell",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "판다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m03-p01",
+            "segmentId": "s002-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "sidewalk vending carts",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "길거리 판매 수레",
+              "occurrence": 1
+            },
+            "meaning": "보도에서 물건을 파는 이동식 수레",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s002-m03-v01",
+            "segmentId": "s002-m03",
+            "colorSlot": 1
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s002-ko-01",
+              "target": {
+                "text": "길거리 판매 수레",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s002-ko-02",
+              "target": {
+                "text": "핫도그부터 아이스크림까지",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s002-en-01",
+              "target": {
+                "text": "sidewalk vending carts",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s002-en-02",
+              "target": {
+                "text": "from hot dogs to ice cream",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "sell",
+                "occurrence": 1
+              },
+              "cue": "sell",
+              "lemma": "sell",
+              "id": "s002-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "everything",
+                "occurrence": 1
+              },
+              "options": [
+                "everything",
+                "nothing"
+              ],
+              "id": "s002-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s002-a",
+              "text": "For example, in New York City,"
+            },
+            {
+              "id": "s002-b",
+              "text": "as in many large cities,"
+            },
+            {
+              "id": "s002-c",
+              "text": "sidewalk vending carts sell everything"
+            },
+            {
+              "id": "s002-d",
+              "text": "from hot dogs to ice cream."
+            }
+          ],
+          "displayOrder": [
+            "s002-c",
+            "s002-a",
+            "s002-d",
+            "s002-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "for example",
+            "New York City",
+            "many large cities",
+            "sidewalk vending carts",
+            "sell everything",
+            "from A to B"
+          ]
+        }
+      },
+      "id": "s002",
+      "no": 2
+    },
+    {
+      "source": "Why are these carts so popular, with over 3,000 in New York City alone?",
+      "translation": "왜 이 수레들은 뉴욕시에만 3,000대가 넘을 정도로 인기가 있는가?",
+      "meaningSegments": [
+        {
+          "en": "Why are these carts so popular,",
+          "ko": "왜 이 수레들은 그렇게 인기가 있는가,",
+          "id": "s003-m01"
+        },
+        {
+          "en": "with over 3,000",
+          "ko": "3,000대가 넘는 가운데",
+          "id": "s003-m02"
+        },
+        {
+          "en": "in New York City alone?",
+          "ko": "뉴욕시에만?",
+          "id": "s003-m03"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "are",
+                "occurrence": 1
+              },
+              {
+                "text": "popular",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "인기가 있는가",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m01-p01",
+            "segmentId": "s003-m01"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "over 3,000",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "3,000대가 넘는",
+              "occurrence": 1
+            },
+            "meaning": "3,000대를 초과하는",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s003-m02-v01",
+            "segmentId": "s003-m02",
+            "colorSlot": 1
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s003-ko-01",
+              "target": {
+                "text": "뉴욕시에만",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s003-ko-02",
+              "target": {
+                "text": "3,000대가 넘을 정도로",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s003-en-01",
+              "target": {
+                "text": "so popular",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s003-en-02",
+              "target": {
+                "text": "in New York City alone",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "are these carts so popular",
+                "occurrence": 1
+              },
+              "cue": "be popular",
+              "lemma": "be",
+              "id": "s003-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "over 3,000",
+                "occurrence": 1
+              },
+              "options": [
+                "over 3,000",
+                "fewer than 30"
+              ],
+              "id": "s003-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s003-a",
+              "text": "Why are these carts so popular,"
+            },
+            {
+              "id": "s003-b",
+              "text": "with over 3,000"
+            },
+            {
+              "id": "s003-c",
+              "text": "in New York City alone?"
+            }
+          ],
+          "displayOrder": [
+            "s003-b",
+            "s003-c",
+            "s003-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "why",
+            "these carts",
+            "so popular",
+            "over 3,000",
+            "New York City alone"
+          ]
+        }
+      },
+      "id": "s003",
+      "no": 3
+    },
+    {
+      "source": "Consider the resources used to supply hot dogs: land, labor, capital, entrepreneurial ability, plus intermediate goods such as hot dogs, buns, and other ingredients.",
+      "translation": "핫도그를 공급하는 데 사용되는 자원을 생각해 보라. 토지, 노동, 자본, 기업가적 능력, 그리고 핫도그, 빵, 기타 재료 같은 중간재가 있다.",
+      "meaningSegments": [
+        {
+          "en": "Consider the resources",
+          "ko": "자원을 생각해 보라",
+          "id": "s004-m01"
+        },
+        {
+          "en": "used to supply hot dogs:",
+          "ko": "핫도그를 공급하는 데 사용되는:",
+          "id": "s004-m02"
+        },
+        {
+          "en": "land, labor, capital, entrepreneurial ability,",
+          "ko": "토지, 노동, 자본, 기업가적 능력,",
+          "id": "s004-m03"
+        },
+        {
+          "en": "plus intermediate goods",
+          "ko": "그리고 중간재를",
+          "id": "s004-m04"
+        },
+        {
+          "en": "such as hot dogs, buns, and other ingredients.",
+          "ko": "핫도그, 빵, 기타 재료 같은.",
+          "id": "s004-m05"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "Consider",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "생각해 보라",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m01-p01",
+            "segmentId": "s004-m01"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "entrepreneurial ability",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "기업가적 능력",
+              "occurrence": 1
+            },
+            "meaning": "사업 기회를 찾고 운영하는 능력",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s004-m03-v01",
+            "segmentId": "s004-m03",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "intermediate goods",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "중간재",
+              "occurrence": 1
+            },
+            "meaning": "다른 상품 생산에 투입되는 재화",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s004-m04-v02",
+            "segmentId": "s004-m04",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s004-ko-01",
+              "target": {
+                "text": "기업가적 능력",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-ko-02",
+              "target": {
+                "text": "중간재",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s004-en-01",
+              "target": {
+                "text": "entrepreneurial ability",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-en-02",
+              "target": {
+                "text": "intermediate goods",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "Consider",
+                "occurrence": 1
+              },
+              "cue": "consider",
+              "lemma": "consider",
+              "id": "s004-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "intermediate goods",
+                "occurrence": 1
+              },
+              "options": [
+                "intermediate goods",
+                "final consumers"
+              ],
+              "id": "s004-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s004-a",
+              "text": "Consider the resources used to supply hot dogs:"
+            },
+            {
+              "id": "s004-b",
+              "text": "land, labor, capital, entrepreneurial ability,"
+            },
+            {
+              "id": "s004-c",
+              "text": "plus intermediate goods"
+            },
+            {
+              "id": "s004-d",
+              "text": "such as hot dogs, buns, and other ingredients."
+            }
+          ],
+          "displayOrder": [
+            "s004-b",
+            "s004-d",
+            "s004-a",
+            "s004-c"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "consider",
+            "resources",
+            "supply hot dogs",
+            "land and labor",
+            "entrepreneurial ability",
+            "intermediate goods"
+          ]
+        }
+      },
+      "id": "s004",
+      "no": 4
+    },
+    {
+      "source": "Which of these do you suppose is most expensive in New York City?",
+      "translation": "이들 중 무엇이 뉴욕시에서 가장 비싸다고 생각하는가?",
+      "meaningSegments": [
+        {
+          "en": "Which of these do you suppose",
+          "ko": "이들 중 무엇이라고 생각하는가",
+          "id": "s005-m01"
+        },
+        {
+          "en": "is most expensive",
+          "ko": "가장 비싸다고",
+          "id": "s005-m02"
+        },
+        {
+          "en": "in New York City?",
+          "ko": "뉴욕시에서?",
+          "id": "s005-m03"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "do",
+                "occurrence": 1
+              },
+              {
+                "text": "suppose",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "생각하는가",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m01-p01",
+            "segmentId": "s005-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "is",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "비싸다고",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m02-p01",
+            "segmentId": "s005-m02"
+          }
+        ],
+        "vocabulary": []
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s005-ko-01",
+              "target": {
+                "text": "이들 중 무엇이",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-ko-02",
+              "target": {
+                "text": "가장 비싸다고",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s005-en-01",
+              "target": {
+                "text": "Which of these",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-en-02",
+              "target": {
+                "text": "most expensive",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "do you suppose",
+                "occurrence": 1
+              },
+              "cue": "suppose",
+              "lemma": "suppose",
+              "id": "s005-verb-01"
+            },
+            {
+              "target": {
+                "text": "is most expensive",
+                "occurrence": 1
+              },
+              "cue": "be expensive",
+              "lemma": "be",
+              "id": "s005-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "most expensive",
+                "occurrence": 1
+              },
+              "options": [
+                "most expensive",
+                "least expensive"
+              ],
+              "id": "s005-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s005-a",
+              "text": "Which of these do you suppose"
+            },
+            {
+              "id": "s005-b",
+              "text": "is most expensive"
+            },
+            {
+              "id": "s005-c",
+              "text": "in New York City?"
+            }
+          ],
+          "displayOrder": [
+            "s005-c",
+            "s005-a",
+            "s005-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "which of these",
+            "suppose",
+            "most expensive",
+            "New York City"
+          ]
+        }
+      },
+      "id": "s005",
+      "no": 5
+    },
+    {
+      "source": "Retail space along Madison Avenue rents for an average of $550 a year per square foot.",
+      "translation": "매디슨 애비뉴의 소매 공간은 제곱피트당 연평균 550달러에 임대된다.",
+      "meaningSegments": [
+        {
+          "en": "Retail space along Madison Avenue rents",
+          "ko": "매디슨 애비뉴의 소매 공간은 임대된다",
+          "id": "s006-m01"
+        },
+        {
+          "en": "for an average of $550 a year",
+          "ko": "연평균 550달러에",
+          "id": "s006-m02"
+        },
+        {
+          "en": "per square foot.",
+          "ko": "제곱피트당.",
+          "id": "s006-m03"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "rents",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "임대된다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s006-m01-p01",
+            "segmentId": "s006-m01"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "Retail space",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "소매 공간",
+              "occurrence": 1
+            },
+            "meaning": "상품을 소비자에게 파는 상업 공간",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s006-m01-v01",
+            "segmentId": "s006-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "per square foot",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "제곱피트당",
+              "occurrence": 1
+            },
+            "meaning": "면적 1제곱피트마다",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s006-m03-v02",
+            "segmentId": "s006-m03",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s006-ko-01",
+              "target": {
+                "text": "제곱피트당",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s006-ko-02",
+              "target": {
+                "text": "연평균 550달러",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s006-en-01",
+              "target": {
+                "text": "an average of $550 a year",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s006-en-02",
+              "target": {
+                "text": "per square foot",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "rents",
+                "occurrence": 1
+              },
+              "cue": "rent",
+              "lemma": "rent",
+              "id": "s006-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "$550",
+                "occurrence": 1
+              },
+              "options": [
+                "$550",
+                "$55"
+              ],
+              "id": "s006-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s006-a",
+              "text": "Retail space along Madison Avenue rents"
+            },
+            {
+              "id": "s006-b",
+              "text": "for an average of $550 a year"
+            },
+            {
+              "id": "s006-c",
+              "text": "per square foot."
+            }
+          ],
+          "displayOrder": [
+            "s006-b",
+            "s006-c",
+            "s006-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "retail space",
+            "Madison Avenue",
+            "rent",
+            "average",
+            "$550 a year",
+            "per square foot"
+          ]
+        }
+      },
+      "id": "s006",
+      "no": 6
+    },
+    {
+      "source": "Because operating a hot dog cart requires about 4 square yards, it could cost as much as $20,000 a year to rent that much commercial space.",
+      "translation": "핫도그 수레를 운영하는 데 약 4제곱야드가 필요하므로, 그만큼의 상업 공간을 임대하는 데 연간 2만 달러까지 들 수 있다.",
+      "meaningSegments": [
+        {
+          "en": "Because operating a hot dog cart requires",
+          "ko": "핫도그 수레를 운영하는 데 필요하므로",
+          "id": "s007-m01"
+        },
+        {
+          "en": "about 4 square yards,",
+          "ko": "약 4제곱야드가,",
+          "id": "s007-m02"
+        },
+        {
+          "en": "it could cost as much as $20,000 a year",
+          "ko": "연간 2만 달러까지 들 수 있다",
+          "id": "s007-m03"
+        },
+        {
+          "en": "to rent that much commercial space.",
+          "ko": "그만큼의 상업 공간을 임대하는 데.",
+          "id": "s007-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "requires",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "필요하므로",
+                "occurrence": 1
+              }
+            ],
+            "id": "s007-m01-p01",
+            "segmentId": "s007-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "could cost",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "들 수 있다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s007-m03-p01",
+            "segmentId": "s007-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "commercial space",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "상업 공간",
+              "occurrence": 1
+            },
+            "meaning": "사업 활동에 사용하는 공간",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s007-m04-v01",
+            "segmentId": "s007-m04",
+            "colorSlot": 1
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s007-ko-01",
+              "target": {
+                "text": "약 4제곱야드",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s007-ko-02",
+              "target": {
+                "text": "연간 2만 달러까지",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s007-en-01",
+              "target": {
+                "text": "requires about 4 square yards",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s007-en-02",
+              "target": {
+                "text": "as much as $20,000 a year",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "requires",
+                "occurrence": 1
+              },
+              "cue": "require",
+              "lemma": "require",
+              "id": "s007-verb-01"
+            },
+            {
+              "target": {
+                "text": "could cost",
+                "occurrence": 1
+              },
+              "cue": "cost",
+              "lemma": "cost",
+              "id": "s007-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "as much as $20,000",
+                "occurrence": 1
+              },
+              "options": [
+                "as much as $20,000",
+                "no more than $200"
+              ],
+              "id": "s007-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s007-a",
+              "text": "Because operating a hot dog cart requires about 4 square yards,"
+            },
+            {
+              "id": "s007-b",
+              "text": "it could cost as much as $20,000 a year"
+            },
+            {
+              "id": "s007-c",
+              "text": "to rent that much commercial space."
+            }
+          ],
+          "displayOrder": [
+            "s007-b",
+            "s007-c",
+            "s007-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "operate a hot dog cart",
+            "require",
+            "4 square yards",
+            "cost",
+            "$20,000 a year",
+            "rent commercial space"
+          ]
+        }
+      },
+      "id": "s007",
+      "no": 7
+    },
+    {
+      "source": "Aside from the necessary public permits, however, space on the public sidewalk is free to vendors.",
+      "translation": "그러나 필요한 공공 허가를 제외하면 공공 보도의 공간은 판매상에게 무료이다.",
+      "meaningSegments": [
+        {
+          "en": "Aside from the necessary public permits,",
+          "ko": "필요한 공공 허가를 제외하면,",
+          "id": "s008-m01"
+        },
+        {
+          "en": "however,",
+          "ko": "그러나,",
+          "id": "s008-m02"
+        },
+        {
+          "en": "space on the public sidewalk is free",
+          "ko": "공공 보도의 공간은 무료이다",
+          "id": "s008-m03"
+        },
+        {
+          "en": "to vendors.",
+          "ko": "판매상에게.",
+          "id": "s008-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "is free",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "무료이다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s008-m03-p01",
+            "segmentId": "s008-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "permits",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "허가",
+              "occurrence": 1
+            },
+            "meaning": "공공기관이 내주는 공식 승인",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s008-m01-v01",
+            "segmentId": "s008-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "vendors",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "판매상",
+              "occurrence": 1
+            },
+            "meaning": "물건을 파는 사람들",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s008-m04-v02",
+            "segmentId": "s008-m04",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s008-ko-01",
+              "target": {
+                "text": "필요한 공공 허가를 제외하면",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s008-ko-02",
+              "target": {
+                "text": "판매상에게 무료",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s008-en-01",
+              "target": {
+                "text": "Aside from the necessary public permits",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s008-en-02",
+              "target": {
+                "text": "is free to vendors",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "is free",
+                "occurrence": 1
+              },
+              "cue": "be free",
+              "lemma": "be",
+              "id": "s008-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "free",
+                "occurrence": 1
+              },
+              "options": [
+                "free",
+                "costly"
+              ],
+              "id": "s008-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s008-a",
+              "text": "Aside from the necessary public permits,"
+            },
+            {
+              "id": "s008-b",
+              "text": "however, space on the public sidewalk"
+            },
+            {
+              "id": "s008-c",
+              "text": "is free to vendors."
+            }
+          ],
+          "displayOrder": [
+            "s008-b",
+            "s008-c",
+            "s008-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "aside from",
+            "necessary public permits",
+            "however",
+            "public sidewalk",
+            "be free",
+            "vendors"
+          ]
+        }
+      },
+      "id": "s008",
+      "no": 8
+    },
+    {
+      "source": "Profit-maximizing street vendors substitute public sidewalks for costly commercial space.",
+      "translation": "이윤을 극대화하는 길거리 판매상들은 값비싼 상업 공간을 공공 보도로 대체한다.",
+      "meaningSegments": [
+        {
+          "en": "Profit-maximizing street vendors substitute",
+          "ko": "이윤을 극대화하는 길거리 판매상들은 대체한다",
+          "id": "s009-m01"
+        },
+        {
+          "en": "public sidewalks",
+          "ko": "공공 보도를",
+          "id": "s009-m02"
+        },
+        {
+          "en": "for costly commercial space.",
+          "ko": "값비싼 상업 공간 대신.",
+          "id": "s009-m03"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "substitute",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "대체한다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s009-m01-p01",
+            "segmentId": "s009-m01"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "Profit-maximizing",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "이윤을 극대화하는",
+              "occurrence": 1
+            },
+            "meaning": "가능한 한 많은 이익을 추구하는",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s009-m01-v01",
+            "segmentId": "s009-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "costly commercial space",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "값비싼 상업 공간",
+              "occurrence": 1
+            },
+            "meaning": "비용이 많이 드는 사업용 공간",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s009-m03-v02",
+            "segmentId": "s009-m03",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s009-ko-01",
+              "target": {
+                "text": "이윤을 극대화하는 길거리 판매상",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s009-ko-02",
+              "target": {
+                "text": "값비싼 상업 공간을 공공 보도로 대체한다",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s009-en-01",
+              "target": {
+                "text": "Profit-maximizing street vendors",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s009-en-02",
+              "target": {
+                "text": "substitute public sidewalks for costly commercial space",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "substitute",
+                "occurrence": 1
+              },
+              "cue": "substitute A for B",
+              "lemma": "substitute",
+              "id": "s009-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "substitute public sidewalks for costly commercial space",
+                "occurrence": 1
+              },
+              "options": [
+                "substitute public sidewalks for costly commercial space",
+                "depend less on public sidewalks as their business expands"
+              ],
+              "id": "s009-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s009-a",
+              "text": "Profit-maximizing street vendors"
+            },
+            {
+              "id": "s009-b",
+              "text": "substitute public sidewalks"
+            },
+            {
+              "id": "s009-c",
+              "text": "for costly commercial space."
+            }
+          ],
+          "displayOrder": [
+            "s009-c",
+            "s009-a",
+            "s009-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "profit-maximizing",
+            "street vendors",
+            "substitute A for B",
+            "public sidewalks",
+            "costly commercial space"
+          ]
+        }
+      },
+      "id": "s009",
+      "no": 9
+    }
+  ],
+  "passageActivities": {
+    "correction": [
+      {
+        "textOverride": "The high price of land in metropolitan areas have implications for the efficient employment of resources. For example, in New York City, as in many large cities, sidewalk vending carts sells everything from hot dogs to ice cream. Why is these carts so popular, with over 3,000 in New York City alone? Consider the resources used to supply hot dogs: land, labor, capital, entrepreneurial ability, plus intermediate goods such as hot dogs, buns, and other ingredients. Which of these do you suppose are most expensive in New York City? Retail space along Madison Avenue rent for an average of $550 a year per square foot. Because operating a hot dog cart require about 4 square yards, it could cost as much as $20,000 a year to rent that much commercial space. Aside from the necessary public permits, however, space on the public sidewalk are free to vendors. Profit-maximizing street vendors substitute costly commercial space for public sidewalks.",
+        "targets": [
+          {
+            "target": {
+              "text": "The high price of land in metropolitan areas have implications",
+              "occurrence": 1
+            },
+            "incorrect": "The high price of land in metropolitan areas have implications",
+            "correct": "The high price of land in metropolitan areas has implications",
+            "id": "correction-01-01"
+          },
+          {
+            "target": {
+              "text": "carts sells",
+              "occurrence": 1
+            },
+            "incorrect": "carts sells",
+            "correct": "carts sell",
+            "id": "correction-01-02"
+          },
+          {
+            "target": {
+              "text": "Why is these carts",
+              "occurrence": 1
+            },
+            "incorrect": "Why is these carts",
+            "correct": "Why are these carts",
+            "id": "correction-01-03"
+          },
+          {
+            "target": {
+              "text": "suppose are most expensive",
+              "occurrence": 1
+            },
+            "incorrect": "suppose are most expensive",
+            "correct": "suppose is most expensive",
+            "id": "correction-01-04"
+          },
+          {
+            "target": {
+              "text": "Retail space along Madison Avenue rent",
+              "occurrence": 1
+            },
+            "incorrect": "Retail space along Madison Avenue rent",
+            "correct": "Retail space along Madison Avenue rents",
+            "id": "correction-01-05"
+          },
+          {
+            "target": {
+              "text": "cart require",
+              "occurrence": 1
+            },
+            "incorrect": "cart require",
+            "correct": "cart requires",
+            "id": "correction-01-06"
+          },
+          {
+            "target": {
+              "text": "sidewalk are free",
+              "occurrence": 1
+            },
+            "incorrect": "sidewalk are free",
+            "correct": "sidewalk is free",
+            "id": "correction-01-07"
+          },
+          {
+            "target": {
+              "text": "substitute costly commercial space for public sidewalks",
+              "occurrence": 1
+            },
+            "incorrect": "substitute costly commercial space for public sidewalks",
+            "correct": "substitute public sidewalks for costly commercial space",
+            "id": "correction-01-08"
+          }
+        ],
+        "id": "correction-01"
+      }
+    ],
+    "paragraphOrder": [
+      {
+        "blocks": [
+          {
+            "id": "A",
+            "sentenceIds": [
+              "s001",
+              "s002",
+              "s003"
+            ]
+          },
+          {
+            "id": "B",
+            "sentenceIds": [
+              "s004",
+              "s005",
+              "s006"
+            ]
+          },
+          {
+            "id": "C",
+            "sentenceIds": [
+              "s007",
+              "s008",
+              "s009"
+            ]
+          }
+        ],
+        "displayOrder": [
+          "B",
+          "C",
+          "A"
+        ],
+        "answerOrder": [
+          "A",
+          "B",
+          "C"
+        ],
+        "id": "paragraph-order-01"
+      }
+    ]
+  }
+}

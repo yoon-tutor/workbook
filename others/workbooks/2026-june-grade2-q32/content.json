@@ -1,0 +1,1447 @@
+{
+  "$schema": "../../schemas/canonical-workbook.schema.json",
+  "schemaVersion": "1.0.0",
+  "specVersion": "1.0.6",
+  "contentVersion": "1.0.0",
+  "workbookId": "2026-june-grade2-q32",
+  "metadata": {
+    "title": "2026학년도 6월 고2 32번 10단계 워크북",
+    "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 32번",
+    "kicker": "High School Reading",
+    "grade": "고등학교 2학년",
+    "topic": "접촉 자극이 식물의 유전자 발현과 성장을 억제하는 영향",
+    "sourceLanguage": "en",
+    "targetLanguage": "ko"
+  },
+  "sourceStatus": {
+    "status": "confirmed",
+    "sourceType": "pdf",
+    "references": [
+      "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+    ],
+    "sentenceCount": 6,
+    "verifiedAt": "2026-09-03T15:25:00+09:00",
+    "notes": "원본 PDF 5쪽의 32번 본문, 빈칸, 선택지를 고해상도로 렌더링해 전사했습니다. 빈칸은 문맥과 선택지를 대조해 정답 ② inhibit their growth를 canonical 본문에 복원했습니다."
+  },
+  "updateState": {
+    "defaultScope": "new-only",
+    "appliedUpdates": [
+      {
+        "id": "U-20260903-017",
+        "scope": "selected",
+        "fromContentVersion": "0.0.0",
+        "toContentVersion": "1.0.0",
+        "appliedAt": "2026-09-03T15:30:00+09:00",
+        "report": "reports/updates/U-20260903-017.md"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "source": "The genomics revolution made it possible to see just how impactful touch is to plants on a deeper level.",
+      "translation": "유전체학 혁명은 접촉이 식물에 얼마나 큰 영향을 미치는지를 더 깊은 수준에서 볼 수 있게 했다.",
+      "meaningSegments": [
+        {
+          "en": "The genomics revolution made it possible",
+          "ko": "유전체학 혁명은 가능하게 했다",
+          "id": "s001-m01"
+        },
+        {
+          "en": "to see",
+          "ko": "보는 것을",
+          "id": "s001-m02"
+        },
+        {
+          "en": "just how impactful touch is to plants",
+          "ko": "접촉이 식물에 얼마나 큰 영향을 미치는지를",
+          "id": "s001-m03"
+        },
+        {
+          "en": "on a deeper level.",
+          "ko": "더 깊은 수준에서.",
+          "id": "s001-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "made",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "가능하게 했다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m01-p01",
+            "segmentId": "s001-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "is",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "미치는지를",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m03-p01",
+            "segmentId": "s001-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "genomics",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "유전체학",
+              "occurrence": 1
+            },
+            "meaning": "생물의 전체 유전 정보를 연구하는 학문",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s001-m01-v01",
+            "segmentId": "s001-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "impactful",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "큰 영향을",
+              "occurrence": 1
+            },
+            "meaning": "영향력이 큰",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s001-m03-v02",
+            "segmentId": "s001-m03",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s001-ko-01",
+              "target": {
+                "text": "접촉이 식물에 얼마나 큰 영향을 미치는지",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-ko-02",
+              "target": {
+                "text": "더 깊은 수준에서",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s001-en-01",
+              "target": {
+                "text": "genomics revolution",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-en-02",
+              "target": {
+                "text": "how impactful touch is to plants",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "made it possible",
+                "occurrence": 1
+              },
+              "cue": "make it possible",
+              "lemma": "make",
+              "id": "s001-verb-01"
+            },
+            {
+              "target": {
+                "text": "is",
+                "occurrence": 1
+              },
+              "cue": "be",
+              "lemma": "be",
+              "id": "s001-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "on a deeper level",
+                "occurrence": 1
+              },
+              "options": [
+                "on a deeper level",
+                "only on the surface"
+              ],
+              "id": "s001-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s001-a",
+              "text": "The genomics revolution made it possible"
+            },
+            {
+              "id": "s001-b",
+              "text": "to see just how impactful touch is to plants"
+            },
+            {
+              "id": "s001-c",
+              "text": "on a deeper level."
+            }
+          ],
+          "displayOrder": [
+            "s001-b",
+            "s001-c",
+            "s001-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "genomics revolution",
+            "make it possible",
+            "see",
+            "impactful touch",
+            "plants",
+            "deeper level"
+          ]
+        }
+      },
+      "id": "s001",
+      "no": 1
+    },
+    {
+      "source": "Peering at the genes of Arabidopsis thaliana, a weedy plant in the mustard family and the lab rat of the plant biology world, researchers saw that touch quietly triggered such a dramatic response in their hormones and gene expression that it could substantially inhibit their growth.",
+      "translation": "겨잣과의 잡초성 식물이자 식물 생물학계의 실험용 쥐인 애기장대의 유전자를 들여다보면서, 연구자들은 접촉이 호르몬과 유전자 발현에 매우 극적인 반응을 조용히 유발하여 식물의 성장을 상당히 억제할 수 있다는 것을 알게 되었다.",
+      "meaningSegments": [
+        {
+          "en": "Peering at the genes of Arabidopsis thaliana,",
+          "ko": "애기장대의 유전자를 들여다보면서,",
+          "id": "s002-m01"
+        },
+        {
+          "en": "a weedy plant in the mustard family",
+          "ko": "겨잣과의 잡초성 식물이자",
+          "id": "s002-m02"
+        },
+        {
+          "en": "and the lab rat of the plant biology world,",
+          "ko": "식물 생물학계의 실험용 쥐인,",
+          "id": "s002-m03"
+        },
+        {
+          "en": "researchers saw",
+          "ko": "연구자들은 알게 되었다",
+          "id": "s002-m04"
+        },
+        {
+          "en": "that touch quietly triggered",
+          "ko": "접촉이 조용히 유발했다는 것을",
+          "id": "s002-m05"
+        },
+        {
+          "en": "such a dramatic response",
+          "ko": "매우 극적인 반응을",
+          "id": "s002-m06"
+        },
+        {
+          "en": "in their hormones and gene expression",
+          "ko": "그들의 호르몬과 유전자 발현에",
+          "id": "s002-m07"
+        },
+        {
+          "en": "that it could substantially inhibit their growth.",
+          "ko": "그것이 그들의 성장을 상당히 억제할 수 있을 정도로.",
+          "id": "s002-m08"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "saw",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "알게 되었다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m04-p01",
+            "segmentId": "s002-m04"
+          },
+          {
+            "en": [
+              {
+                "text": "triggered",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "유발했다는",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m05-p01",
+            "segmentId": "s002-m05"
+          },
+          {
+            "en": [
+              {
+                "text": "could substantially inhibit",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "상당히 억제할 수 있을",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m08-p01",
+            "segmentId": "s002-m08"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "Arabidopsis thaliana",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "애기장대",
+              "occurrence": 1
+            },
+            "meaning": "식물 연구에 널리 쓰이는 작은 식물",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s002-m01-v01",
+            "segmentId": "s002-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "gene expression",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "유전자 발현",
+              "occurrence": 1
+            },
+            "meaning": "유전 정보가 실제 기능으로 나타나는 과정",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s002-m07-v02",
+            "segmentId": "s002-m07",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "inhibit",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "억제할",
+              "occurrence": 1
+            },
+            "meaning": "진행이나 성장을 막거나 늦추다",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s002-m08-v03",
+            "segmentId": "s002-m08",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s002-ko-01",
+              "target": {
+                "text": "호르몬과 유전자 발현",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s002-ko-02",
+              "target": {
+                "text": "성장을 상당히 억제할 수 있다는",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s002-en-01",
+              "target": {
+                "text": "hormones and gene expression",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s002-en-02",
+              "target": {
+                "text": "substantially inhibit their growth",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "researchers saw",
+                "occurrence": 1
+              },
+              "cue": "see",
+              "lemma": "see",
+              "id": "s002-verb-01"
+            },
+            {
+              "target": {
+                "text": "triggered",
+                "occurrence": 1
+              },
+              "cue": "trigger",
+              "lemma": "trigger",
+              "id": "s002-verb-02"
+            },
+            {
+              "target": {
+                "text": "could substantially inhibit",
+                "occurrence": 1
+              },
+              "cue": "inhibit",
+              "lemma": "inhibit",
+              "id": "s002-verb-03"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "inhibit their growth",
+                "occurrence": 1
+              },
+              "options": [
+                "inhibit their growth",
+                "increase their maximum height"
+              ],
+              "id": "s002-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s002-a",
+              "text": "Peering at the genes of Arabidopsis thaliana, a weedy plant in the mustard family"
+            },
+            {
+              "id": "s002-b",
+              "text": "and the lab rat of the plant biology world, researchers saw"
+            },
+            {
+              "id": "s002-c",
+              "text": "that touch quietly triggered such a dramatic response in their hormones and gene expression"
+            },
+            {
+              "id": "s002-d",
+              "text": "that it could substantially inhibit their growth."
+            }
+          ],
+          "displayOrder": [
+            "s002-c",
+            "s002-a",
+            "s002-d",
+            "s002-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "peer at genes",
+            "Arabidopsis thaliana",
+            "researchers see",
+            "touch",
+            "trigger a dramatic response",
+            "inhibit growth"
+          ]
+        }
+      },
+      "id": "s002",
+      "no": 2
+    },
+    {
+      "source": "They stroked the arabidopsis with soft paintbrushes, and then analyzed the plants’ genetic responses.",
+      "translation": "연구자들은 부드러운 붓으로 애기장대를 쓰다듬은 다음 식물의 유전적 반응을 분석했다.",
+      "meaningSegments": [
+        {
+          "en": "They stroked the arabidopsis",
+          "ko": "그들은 애기장대를 쓰다듬었다",
+          "id": "s003-m01"
+        },
+        {
+          "en": "with soft paintbrushes,",
+          "ko": "부드러운 붓으로,",
+          "id": "s003-m02"
+        },
+        {
+          "en": "and then analyzed",
+          "ko": "그런 다음 분석했다",
+          "id": "s003-m03"
+        },
+        {
+          "en": "the plants’ genetic responses.",
+          "ko": "식물의 유전적 반응을.",
+          "id": "s003-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "stroked",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "쓰다듬었다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m01-p01",
+            "segmentId": "s003-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "analyzed",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "분석했다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m03-p01",
+            "segmentId": "s003-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "stroked",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "쓰다듬었다",
+              "occurrence": 1
+            },
+            "meaning": "손이나 도구로 부드럽게 쓸었다",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s003-m01-v01",
+            "segmentId": "s003-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "genetic responses",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "유전적 반응",
+              "occurrence": 1
+            },
+            "meaning": "유전자 수준에서 나타나는 변화",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s003-m04-v02",
+            "segmentId": "s003-m04",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s003-ko-01",
+              "target": {
+                "text": "부드러운 붓으로",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s003-ko-02",
+              "target": {
+                "text": "유전적 반응을 분석했다",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s003-en-01",
+              "target": {
+                "text": "with soft paintbrushes",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s003-en-02",
+              "target": {
+                "text": "analyzed the plants’ genetic responses",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "stroked",
+                "occurrence": 1
+              },
+              "cue": "stroke",
+              "lemma": "stroke",
+              "id": "s003-verb-01"
+            },
+            {
+              "target": {
+                "text": "analyzed",
+                "occurrence": 1
+              },
+              "cue": "analyze",
+              "lemma": "analyze",
+              "id": "s003-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "with soft paintbrushes",
+                "occurrence": 1
+              },
+              "options": [
+                "with soft paintbrushes",
+                "with sharp tools"
+              ],
+              "id": "s003-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s003-a",
+              "text": "They stroked the arabidopsis"
+            },
+            {
+              "id": "s003-b",
+              "text": "with soft paintbrushes,"
+            },
+            {
+              "id": "s003-c",
+              "text": "and then analyzed"
+            },
+            {
+              "id": "s003-d",
+              "text": "the plants’ genetic responses."
+            }
+          ],
+          "displayOrder": [
+            "s003-b",
+            "s003-d",
+            "s003-a",
+            "s003-c"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "stroke",
+            "arabidopsis",
+            "soft paintbrushes",
+            "then",
+            "analyze",
+            "genetic responses"
+          ]
+        }
+      },
+      "id": "s003",
+      "no": 3
+    },
+    {
+      "source": "Within thirty minutes of being touched, 10 percent of the plant’s genome was altered.",
+      "translation": "접촉된 지 30분 이내에 식물 유전체의 10퍼센트가 변화했다.",
+      "meaningSegments": [
+        {
+          "en": "Within thirty minutes of being touched,",
+          "ko": "접촉된 지 30분 이내에,",
+          "id": "s004-m01"
+        },
+        {
+          "en": "10 percent of the plant’s genome",
+          "ko": "식물 유전체의 10퍼센트가",
+          "id": "s004-m02"
+        },
+        {
+          "en": "was altered.",
+          "ko": "변화했다.",
+          "id": "s004-m03"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "was altered",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "변화했다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m03-p01",
+            "segmentId": "s004-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "genome",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "유전체",
+              "occurrence": 1
+            },
+            "meaning": "생물이 가진 전체 유전 정보",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s004-m02-v01",
+            "segmentId": "s004-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "altered",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "변화했다",
+              "occurrence": 1
+            },
+            "meaning": "달라지게 되었다",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s004-m03-v02",
+            "segmentId": "s004-m03",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s004-ko-01",
+              "target": {
+                "text": "30분 이내에",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-ko-02",
+              "target": {
+                "text": "식물 유전체의 10퍼센트",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s004-en-01",
+              "target": {
+                "text": "Within thirty minutes",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-en-02",
+              "target": {
+                "text": "10 percent of the plant’s genome",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "was altered",
+                "occurrence": 1
+              },
+              "cue": "alter",
+              "lemma": "alter",
+              "id": "s004-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "was altered",
+                "occurrence": 1
+              },
+              "options": [
+                "was altered",
+                "remained unchanged"
+              ],
+              "id": "s004-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s004-a",
+              "text": "Within thirty minutes of being touched,"
+            },
+            {
+              "id": "s004-b",
+              "text": "10 percent of the plant’s genome"
+            },
+            {
+              "id": "s004-c",
+              "text": "was altered."
+            }
+          ],
+          "displayOrder": [
+            "s004-c",
+            "s004-a",
+            "s004-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "within thirty minutes",
+            "be touched",
+            "10 percent",
+            "plant’s genome",
+            "be altered"
+          ]
+        }
+      },
+      "id": "s004",
+      "no": 4
+    },
+    {
+      "source": "Clearly, the plant was reorganizing its priorities to deal with the disturbance, and rerouting energy away from the hard work of getting taller.",
+      "translation": "분명히 그 식물은 방해에 대처하기 위해 우선순위를 재편하고 있었고, 키가 커지는 힘든 작업에서 에너지를 다른 곳으로 돌리고 있었다.",
+      "meaningSegments": [
+        {
+          "en": "Clearly,",
+          "ko": "분명히,",
+          "id": "s005-m01"
+        },
+        {
+          "en": "the plant was reorganizing its priorities",
+          "ko": "그 식물은 우선순위를 재편하고 있었다",
+          "id": "s005-m02"
+        },
+        {
+          "en": "to deal with the disturbance,",
+          "ko": "방해에 대처하기 위해,",
+          "id": "s005-m03"
+        },
+        {
+          "en": "and rerouting energy away",
+          "ko": "그리고 에너지를 다른 곳으로 돌리고 있었다",
+          "id": "s005-m04"
+        },
+        {
+          "en": "from the hard work of getting taller.",
+          "ko": "키가 커지는 힘든 작업에서.",
+          "id": "s005-m05"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "was reorganizing",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "재편하고 있었다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m02-p01",
+            "segmentId": "s005-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "rerouting",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "돌리고 있었다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m04-p01",
+            "segmentId": "s005-m04"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "priorities",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "우선순위",
+              "occurrence": 1
+            },
+            "meaning": "중요도에 따라 먼저 처리할 사항들",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s005-m02-v01",
+            "segmentId": "s005-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "disturbance",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "방해",
+              "occurrence": 1
+            },
+            "meaning": "정상 상태를 흐트러뜨리는 자극",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s005-m03-v02",
+            "segmentId": "s005-m03",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "energy",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "에너지",
+              "occurrence": 1
+            },
+            "meaning": "생명 활동에 쓰이는 힘",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s005-m04-v03",
+            "segmentId": "s005-m04",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s005-ko-01",
+              "target": {
+                "text": "우선순위를 재편하고 있었고",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-ko-02",
+              "target": {
+                "text": "에너지를 다른 곳으로 돌리고 있었다",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s005-en-01",
+              "target": {
+                "text": "reorganizing its priorities",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-en-02",
+              "target": {
+                "text": "rerouting energy away",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "was reorganizing",
+                "occurrence": 1
+              },
+              "cue": "reorganize",
+              "lemma": "reorganize",
+              "id": "s005-verb-01"
+            },
+            {
+              "target": {
+                "text": "rerouting",
+                "occurrence": 1
+              },
+              "cue": "reroute",
+              "lemma": "reroute",
+              "id": "s005-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "away from",
+                "occurrence": 1
+              },
+              "options": [
+                "away from",
+                "toward"
+              ],
+              "id": "s005-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s005-a",
+              "text": "Clearly, the plant was reorganizing its priorities"
+            },
+            {
+              "id": "s005-b",
+              "text": "to deal with the disturbance,"
+            },
+            {
+              "id": "s005-c",
+              "text": "and rerouting energy away"
+            },
+            {
+              "id": "s005-d",
+              "text": "from the hard work of getting taller."
+            }
+          ],
+          "displayOrder": [
+            "s005-d",
+            "s005-b",
+            "s005-a",
+            "s005-c"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "clearly",
+            "reorganize priorities",
+            "deal with",
+            "disturbance",
+            "reroute energy",
+            "get taller"
+          ]
+        }
+      },
+      "id": "s005",
+      "no": 5
+    },
+    {
+      "source": "Touched multiple times, arabidopsis cut its upward growth rate by as much as 30 percent.",
+      "translation": "여러 번 접촉되자 애기장대는 위쪽으로 자라는 성장률을 무려 30퍼센트까지 줄였다.",
+      "meaningSegments": [
+        {
+          "en": "Touched multiple times,",
+          "ko": "여러 번 접촉되자,",
+          "id": "s006-m01"
+        },
+        {
+          "en": "arabidopsis cut",
+          "ko": "애기장대는 줄였다",
+          "id": "s006-m02"
+        },
+        {
+          "en": "its upward growth rate",
+          "ko": "위쪽으로 자라는 성장률을",
+          "id": "s006-m03"
+        },
+        {
+          "en": "by as much as 30 percent.",
+          "ko": "무려 30퍼센트까지.",
+          "id": "s006-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "cut",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "줄였다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s006-m02-p01",
+            "segmentId": "s006-m02"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "upward growth rate",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "위쪽으로 자라는 성장률",
+              "occurrence": 1
+            },
+            "meaning": "키가 위로 자라는 속도",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s006-m03-v01",
+            "segmentId": "s006-m03",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "as much as",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "무려",
+              "occurrence": 1
+            },
+            "meaning": "많게는, 무려",
+            "reasons": [
+              "structure-critical"
+            ],
+            "id": "s006-m04-v02",
+            "segmentId": "s006-m04",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s006-ko-01",
+              "target": {
+                "text": "여러 번 접촉되자",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s006-ko-02",
+              "target": {
+                "text": "성장률을 무려 30퍼센트까지 줄였다",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s006-en-01",
+              "target": {
+                "text": "Touched multiple times",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s006-en-02",
+              "target": {
+                "text": "cut its upward growth rate",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "cut",
+                "occurrence": 1
+              },
+              "cue": "cut",
+              "lemma": "cut",
+              "id": "s006-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "cut",
+                "occurrence": 1
+              },
+              "options": [
+                "cut",
+                "accelerated"
+              ],
+              "id": "s006-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s006-a",
+              "text": "Touched multiple times,"
+            },
+            {
+              "id": "s006-b",
+              "text": "arabidopsis cut"
+            },
+            {
+              "id": "s006-c",
+              "text": "its upward growth rate"
+            },
+            {
+              "id": "s006-d",
+              "text": "by as much as 30 percent."
+            }
+          ],
+          "displayOrder": [
+            "s006-c",
+            "s006-a",
+            "s006-d",
+            "s006-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "touch multiple times",
+            "arabidopsis",
+            "cut",
+            "upward growth rate",
+            "as much as",
+            "30 percent"
+          ]
+        }
+      },
+      "id": "s006",
+      "no": 6
+    }
+  ],
+  "passageActivities": {
+    "correction": [
+      {
+        "textOverride": "The genomics revolution make it possible to see just how impactful touch is to plants on a deeper level. Peering at the genes of Arabidopsis thaliana, a weedy plant in the mustard family and the lab rat of the plant biology world, researchers see that touch quietly triggered such a dramatic response in their hormones and gene expression that it could substantially promote their growth. They stroked the arabidopsis with soft paintbrushes, and then analyze the plants’ genetic responses. Within thirty minutes of being touched, 10 percent of the plant’s genome were altered. Clearly, the plant was reorganizing its priorities to deal with the disturbance, and reroute energy away from the hard work of getting taller. Touched multiple times, arabidopsis cut its upward growth rate for as much as 30 percent.",
+        "targets": [
+          {
+            "target": {
+              "text": "revolution make",
+              "occurrence": 1
+            },
+            "incorrect": "revolution make",
+            "correct": "revolution made",
+            "id": "correction-01-01"
+          },
+          {
+            "target": {
+              "text": "researchers see",
+              "occurrence": 1
+            },
+            "incorrect": "researchers see",
+            "correct": "researchers saw",
+            "id": "correction-01-02"
+          },
+          {
+            "target": {
+              "text": "could substantially promote their growth",
+              "occurrence": 1
+            },
+            "incorrect": "could substantially promote their growth",
+            "correct": "could substantially inhibit their growth",
+            "id": "correction-01-03"
+          },
+          {
+            "target": {
+              "text": "then analyze",
+              "occurrence": 1
+            },
+            "incorrect": "then analyze",
+            "correct": "then analyzed",
+            "id": "correction-01-04"
+          },
+          {
+            "target": {
+              "text": "genome were altered",
+              "occurrence": 1
+            },
+            "incorrect": "genome were altered",
+            "correct": "genome was altered",
+            "id": "correction-01-05"
+          },
+          {
+            "target": {
+              "text": "and reroute energy",
+              "occurrence": 1
+            },
+            "incorrect": "and reroute energy",
+            "correct": "and rerouting energy",
+            "id": "correction-01-06"
+          },
+          {
+            "target": {
+              "text": "for as much as",
+              "occurrence": 1
+            },
+            "incorrect": "for as much as",
+            "correct": "by as much as",
+            "id": "correction-01-07"
+          }
+        ],
+        "id": "correction-01"
+      }
+    ],
+    "paragraphOrder": [
+      {
+        "blocks": [
+          {
+            "id": "A",
+            "sentenceIds": [
+              "s001",
+              "s002"
+            ]
+          },
+          {
+            "id": "B",
+            "sentenceIds": [
+              "s003",
+              "s004"
+            ]
+          },
+          {
+            "id": "C",
+            "sentenceIds": [
+              "s005",
+              "s006"
+            ]
+          }
+        ],
+        "displayOrder": [
+          "B",
+          "C",
+          "A"
+        ],
+        "answerOrder": [
+          "A",
+          "B",
+          "C"
+        ],
+        "id": "paragraph-order-01"
+      }
+    ]
+  }
+}

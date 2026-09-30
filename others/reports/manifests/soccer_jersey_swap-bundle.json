@@ -1,0 +1,3690 @@
+{
+  "build": {
+    "appliedUpdates": [
+      "U-20260711-002",
+      "U-20260723-004",
+      "U-20260723-005"
+    ],
+    "buildVersion": "1.0.2",
+    "builtAt": "2026-07-23T23:27:22+09:00",
+    "canonicalDigest": "d28cd342129fee458dee97c9337ae536100916e864f2122763f5405340e11e34",
+    "compilerVersion": "1.0.2",
+    "contentVersion": "1.0.2",
+    "engineDigest": "b51bb9b758b4a296e3e5fa03c8af783a3626209e4cb1ee0cd519a6394e903d40",
+    "engineInputs": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "51971fe944f53b6d6be26501c8730fc99ec76bd250e966ef1c9129a5b257363c",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "01a494e0ac7cf8d607340e9d06fe9a910fa1cd1b1422c73dc7b1d76b44e8d840",
+        "size": 14275
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "42d8b5216b70fa0eaba08421b78fdbf50f1021f41e2dc1a31805adbef9c0e4b2",
+        "size": 31543
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "53f264feb5b216ac0a4daec4eb23213bb407ce29a70a014ea0c4d6916832eed6",
+        "size": 29907
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      }
+    ],
+    "files": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "51971fe944f53b6d6be26501c8730fc99ec76bd250e966ef1c9129a5b257363c",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "01a494e0ac7cf8d607340e9d06fe9a910fa1cd1b1422c73dc7b1d76b44e8d840",
+        "size": 14275
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "42d8b5216b70fa0eaba08421b78fdbf50f1021f41e2dc1a31805adbef9c0e4b2",
+        "size": 31543
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "53f264feb5b216ac0a4daec4eb23213bb407ce29a70a014ea0c4d6916832eed6",
+        "size": 29907
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      },
+      {
+        "path": "문제.html",
+        "sha256": "7bb372e6454418366a3f698ee5ff1bb4cfaf25a8ae27af7acdb7bb03a3ca0fe5",
+        "size": 151720
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "207d85611c983e3a5de164a921a7ab74f101819037f25404e39b33037f5ecb09",
+        "size": 696357
+      },
+      {
+        "path": "해설.html",
+        "sha256": "b1bbd7a4fc6c1dfda6c1597a62ddf9c056b9ca59c2385d5ff18dd62039068523",
+        "size": 164925
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "94d323830196ec113b8ef03818237d24b81170d444ee1f825443dc259d018d7d",
+        "size": 843318
+      }
+    ],
+    "outputs": [
+      {
+        "path": "문제.html",
+        "sha256": "7bb372e6454418366a3f698ee5ff1bb4cfaf25a8ae27af7acdb7bb03a3ca0fe5",
+        "size": 151720
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "207d85611c983e3a5de164a921a7ab74f101819037f25404e39b33037f5ecb09",
+        "size": 696357
+      },
+      {
+        "path": "해설.html",
+        "sha256": "b1bbd7a4fc6c1dfda6c1597a62ddf9c056b9ca59c2385d5ff18dd62039068523",
+        "size": 164925
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "94d323830196ec113b8ef03818237d24b81170d444ee1f825443dc259d018d7d",
+        "size": 843318
+      }
+    ],
+    "pages": [
+      {
+        "digest": "d518176b947f5a1251793c5e9e8e7f62eb0fba611277f7049a9b632ec12d6e17",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 1,
+        "pageId": "soccer-jersey-swap-p01",
+        "part": "1-7",
+        "stageId": "1"
+      },
+      {
+        "digest": "ba9eef483916ed9f054855bb1198802e9d5f6bb6f3011d46c294c0857fac3f0c",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p02",
+        "itemIds": [
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 2,
+        "pageId": "soccer-jersey-swap-p02",
+        "part": "8-14",
+        "stageId": "1"
+      },
+      {
+        "digest": "d112be01b488ce11305108fe6f7987a42fdbac94c5be5034f00b40e63dc90fca",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 3,
+        "pageId": "soccer-jersey-swap-p03",
+        "part": "1-14",
+        "stageId": "2"
+      },
+      {
+        "digest": "9a44df8993037df64b7ebef8bd3d3ef0ffceef6818453fac0b1937a324b26bc9",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 4,
+        "pageId": "soccer-jersey-swap-p04",
+        "part": "1-14",
+        "stageId": "3"
+      },
+      {
+        "digest": "2b10143d98e91d024413fac2f9e0180a72ff073abb7ca5be208c4ae4cdf57949",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 5,
+        "pageId": "soccer-jersey-swap-p05",
+        "part": "1-7",
+        "stageId": "4"
+      },
+      {
+        "digest": "8acba758354c6fa1a136645f065289cc57fecaf0e389cd04fef7a23c0bf4f4b0",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p06",
+        "itemIds": [
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 6,
+        "pageId": "soccer-jersey-swap-p06",
+        "part": "8-14",
+        "stageId": "4"
+      },
+      {
+        "digest": "e38411cdd1a61d04e69aa0b9bf0cbe193c22fbf658f9e9f57ce2ebcf9c64704b",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p07",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 7,
+        "pageId": "soccer-jersey-swap-p07",
+        "part": "1-14",
+        "stageId": "5"
+      },
+      {
+        "digest": "d189ed3412a831c15d724000e7cd94f4d3764396fc3269b7d01284f43cad6054",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 8,
+        "pageId": "soccer-jersey-swap-p08",
+        "part": "1-14",
+        "stageId": "6"
+      },
+      {
+        "digest": "84a7b63c4c7b39c97d463efe0f98efb9ec88f2ffbb1881c20f6a0096aff20534",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p09",
+        "itemIds": [],
+        "page": 9,
+        "pageId": "soccer-jersey-swap-p09",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "f167e1c31d9b9b2ced10e14a91795fee37008c2881e836dceffa00fad384ba89",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p10",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 10,
+        "pageId": "soccer-jersey-swap-p10",
+        "part": "1-5",
+        "stageId": "8"
+      },
+      {
+        "digest": "562d52a6c87d8315e024b3e2806d33a9acc7678f0814280e323daff96235d24e",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p11",
+        "itemIds": [
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 11,
+        "pageId": "soccer-jersey-swap-p11",
+        "part": "6-10",
+        "stageId": "8"
+      },
+      {
+        "digest": "f8de3c8f38939ff2d126191f3a5fbedb818449d8823878ffc5e71d27cbc79d93",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p12",
+        "itemIds": [
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 12,
+        "pageId": "soccer-jersey-swap-p12",
+        "part": "11-14",
+        "stageId": "8"
+      },
+      {
+        "digest": "935b2285f4ea9463bdadadca80e4e57011cc148c52ca03f8cd17b127eef73438",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p13",
+        "itemIds": [],
+        "page": 13,
+        "pageId": "soccer-jersey-swap-p13",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "c3ec53d187128f9238869d97dd3c2796d2b63e153d45eb901b22f4c20c74e070",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p14",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 14,
+        "pageId": "soccer-jersey-swap-p14",
+        "part": "1-7",
+        "stageId": "10"
+      },
+      {
+        "digest": "16d7594694603604f82e39f635f34da252877ab98f81cb5d2b6335b2a5616d55",
+        "edition": "student",
+        "id": "student:soccer-jersey-swap-p15",
+        "itemIds": [
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 15,
+        "pageId": "soccer-jersey-swap-p15",
+        "part": "8-14",
+        "stageId": "10"
+      },
+      {
+        "digest": "d518176b947f5a1251793c5e9e8e7f62eb0fba611277f7049a9b632ec12d6e17",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 1,
+        "pageId": "soccer-jersey-swap-p01",
+        "part": "1-7",
+        "stageId": "1"
+      },
+      {
+        "digest": "ba9eef483916ed9f054855bb1198802e9d5f6bb6f3011d46c294c0857fac3f0c",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p02",
+        "itemIds": [
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 2,
+        "pageId": "soccer-jersey-swap-p02",
+        "part": "8-14",
+        "stageId": "1"
+      },
+      {
+        "digest": "dd54eddf7aa13c3a7b65e11bd63bca46fe2240b77f2cd6614d98f17750788304",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 3,
+        "pageId": "soccer-jersey-swap-p03",
+        "part": "1-14",
+        "stageId": "2"
+      },
+      {
+        "digest": "b4b3f271c380905e8f88f89a6ef3fd7e417b452d15d5425ee94777623d30cc22",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 4,
+        "pageId": "soccer-jersey-swap-p04",
+        "part": "1-14",
+        "stageId": "3"
+      },
+      {
+        "digest": "2b841568efd14230958758e1c190af35f35fee7424c12a82f0892ec574e99256",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 5,
+        "pageId": "soccer-jersey-swap-p05",
+        "part": "1-7",
+        "stageId": "4"
+      },
+      {
+        "digest": "0f2b26fa35001bc4ea9a6ab0d4f42f21ed8aefaa78e1921c1202e37f0c007de7",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p06",
+        "itemIds": [
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 6,
+        "pageId": "soccer-jersey-swap-p06",
+        "part": "8-14",
+        "stageId": "4"
+      },
+      {
+        "digest": "10fe0cc38e61c5ee7c250de97d9e4c055d52f84d0349b4d51e8e4fe9be2cb3a6",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p07",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 7,
+        "pageId": "soccer-jersey-swap-p07",
+        "part": "1-14",
+        "stageId": "5"
+      },
+      {
+        "digest": "95ae5b4177bfafec5a21ce0beeae2c358de1b35435b3ec19e4df80091a4de7de",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 8,
+        "pageId": "soccer-jersey-swap-p08",
+        "part": "1-14",
+        "stageId": "6"
+      },
+      {
+        "digest": "2698fbefd4ef5a904113eed8ae486bce6c9d49864afcd67ba56f496b8eef2c10",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p09",
+        "itemIds": [],
+        "page": 9,
+        "pageId": "soccer-jersey-swap-p09",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "2f084095eebd016a3594644efe38d0e915fa3f5a231da642d7d676ad5267b340",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p10",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 10,
+        "pageId": "soccer-jersey-swap-p10",
+        "part": "1-5",
+        "stageId": "8"
+      },
+      {
+        "digest": "bbd17d0243f00051fdfc83a918ca5715fd4370c75f00754731ef807bf1259376",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p11",
+        "itemIds": [
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010"
+        ],
+        "page": 11,
+        "pageId": "soccer-jersey-swap-p11",
+        "part": "6-10",
+        "stageId": "8"
+      },
+      {
+        "digest": "4ea965c81ab9b404733327b40316574ecb4c0ac4966b33571323d2280a33fc06",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p12",
+        "itemIds": [
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 12,
+        "pageId": "soccer-jersey-swap-p12",
+        "part": "11-14",
+        "stageId": "8"
+      },
+      {
+        "digest": "b98adb60cdbc0e3bce3915278dcb651e4e7aaa0989fedb38ac09ce81b4c893fb",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p13",
+        "itemIds": [],
+        "page": 13,
+        "pageId": "soccer-jersey-swap-p13",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "f6c4a4ccb5d03c7a90f44b78e1f66a09c9b6927f4cfca34d3d78de17d543350a",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p14",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 14,
+        "pageId": "soccer-jersey-swap-p14",
+        "part": "1-7",
+        "stageId": "10"
+      },
+      {
+        "digest": "95aedd570e1e1fc176cab604b80d50d4fe66188b7e810ac99e7e28bf798a8484",
+        "edition": "answer",
+        "id": "answer:soccer-jersey-swap-p15",
+        "itemIds": [
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 15,
+        "pageId": "soccer-jersey-swap-p15",
+        "part": "8-14",
+        "stageId": "10"
+      }
+    ],
+    "qa": {
+      "contactSheets": [
+        "qa/samples/student-contact-sheet.png",
+        "qa/samples/answer-contact-sheet.png"
+      ],
+      "dom": {
+        "answer": {
+          "pages": 15,
+          "solutions": 112
+        },
+        "sharedTargetSlotCount": 116,
+        "student": {
+          "pages": 15,
+          "solutions": 0
+        }
+      },
+      "pdf": {
+        "answerPages": 15,
+        "studentPages": 15
+      },
+      "status": "passed",
+      "visualSamples": [
+        "qa/samples/student-p01.png",
+        "qa/samples/student-p02.png",
+        "qa/samples/student-p05.png",
+        "qa/samples/student-p08.png",
+        "qa/samples/student-p09.png",
+        "qa/samples/student-p10.png",
+        "qa/samples/student-p13.png",
+        "qa/samples/student-p14.png",
+        "qa/samples/student-p15.png",
+        "qa/samples/answer-p01.png",
+        "qa/samples/answer-p02.png",
+        "qa/samples/answer-p05.png",
+        "qa/samples/answer-p08.png",
+        "qa/samples/answer-p09.png",
+        "qa/samples/answer-p10.png",
+        "qa/samples/answer-p13.png",
+        "qa/samples/answer-p14.png",
+        "qa/samples/answer-p15.png"
+      ]
+    },
+    "reportFormatVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "semanticRubricVersion": "1.0.0",
+    "sourceDigest": "d819f7db0187d96502a29f51b1ec26bb4d86d38fe231e95217a491f93b896f05",
+    "specVersion": "1.0.2",
+    "templateVersion": "1.0.1",
+    "validationStatus": "passed",
+    "visualReview": {
+      "notes": "학생용·해설용 15쪽 contact sheet에서 같은 단계 문항이 7/7 등 균등 배치된 것을 확인함. 단독 꼬리 페이지, 잘림·겹침·번호 오류·학생용 정답 누출·교정 색상 오류 없음.",
+      "reviewedAt": "2026-07-23T23:28:11+09:00",
+      "reviewer": "Codex",
+      "status": "passed"
+    },
+    "workbookId": "soccer-jersey-swap"
+  },
+  "bundleVersion": 1,
+  "canonical": {
+    "canonical": {
+      "contentVersion": "1.0.2",
+      "metadata": {
+        "grade": "중학교 3학년",
+        "kicker": "Middle School Reading",
+        "lessonLabel": "Soccer Jersey Swap",
+        "sourceLanguage": "en",
+        "targetLanguage": "ko",
+        "title": "Soccer Jersey Swap 10단계 워크북",
+        "topic": "축구 유니폼 교환의 유래와 스포츠맨십의 의미"
+      },
+      "passageActivities": {
+        "correction": [
+          {
+            "id": "correction-01",
+            "targets": [
+              {
+                "correct": "surprised",
+                "id": "correction-01-01",
+                "incorrect": "surprise",
+                "target": {
+                  "occurrence": 1,
+                  "text": "surprise"
+                }
+              },
+              {
+                "correct": "take",
+                "id": "correction-01-02",
+                "incorrect": "takes",
+                "target": {
+                  "occurrence": 1,
+                  "text": "takes"
+                }
+              },
+              {
+                "correct": "is",
+                "id": "correction-01-03",
+                "incorrect": "are",
+                "target": {
+                  "occurrence": 1,
+                  "text": "are"
+                }
+              },
+              {
+                "correct": "receives",
+                "id": "correction-01-04",
+                "incorrect": "receive",
+                "target": {
+                  "occurrence": 1,
+                  "text": "receive"
+                }
+              }
+            ],
+            "textOverride": "Someone watching soccer for the first time might be surprise by what happens when the final whistle blows. After an intense contest, the players takes off their jerseys and swap them with members of the opposing team. The spirit of fair play are still important. Also, if an opponent gets injured, the ball is kicked out of play so that he or she receive medical treatment."
+          }
+        ],
+        "paragraphOrder": [
+          {
+            "answerOrder": [
+              "A",
+              "B",
+              "C"
+            ],
+            "blocks": [
+              {
+                "id": "A",
+                "sentenceIds": [
+                  "s001",
+                  "s002",
+                  "s003"
+                ]
+              },
+              {
+                "id": "B",
+                "sentenceIds": [
+                  "s004",
+                  "s005",
+                  "s006",
+                  "s007",
+                  "s008"
+                ]
+              },
+              {
+                "id": "C",
+                "sentenceIds": [
+                  "s009",
+                  "s010",
+                  "s011",
+                  "s012",
+                  "s013",
+                  "s014"
+                ]
+              }
+            ],
+            "displayOrder": [
+              "C",
+              "A",
+              "B"
+            ],
+            "id": "paragraph-order-01"
+          }
+        ]
+      },
+      "schemaVersion": "1.0.0",
+      "sentences": [
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "might be surprised"
+                  }
+                ],
+                "id": "s001-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "놀랄지도 모른다"
+                  }
+                ],
+                "segmentId": "s001-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "final whistle"
+                },
+                "id": "s001-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "마지막 호루라기"
+                },
+                "meaning": "경기 종료를 알리는 호루라기",
+                "segmentId": "s001-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s001-a",
+                  "text": "Someone watching soccer for the first time"
+                },
+                {
+                  "id": "s001-b",
+                  "text": "might be surprised by what happens when the final whistle blows."
+                }
+              ],
+              "displayOrder": [
+                "s001-b",
+                "s001-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s001-choice-01",
+                  "options": [
+                    "happens",
+                    "happen"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "happens"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s001-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "surprised"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s001-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "놀랄지도 모른다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "might be surprised",
+                  "id": "s001-verb-01",
+                  "lemma": "be surprised",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "might be surprised"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "first time",
+                "might",
+                "surprised",
+                "final whistle"
+              ]
+            }
+          },
+          "id": "s001",
+          "meaningSegments": [
+            {
+              "en": "Someone watching soccer for the first time",
+              "id": "s001-m01",
+              "ko": "처음으로 축구를 보는 사람은"
+            },
+            {
+              "en": "might be surprised",
+              "id": "s001-m02",
+              "ko": "놀랄지도 모른다"
+            },
+            {
+              "en": "by what happens when the final whistle blows.",
+              "id": "s001-m03",
+              "ko": "마지막 호루라기가 울릴 때 일어나는 일에."
+            }
+          ],
+          "no": 1,
+          "source": "Someone watching soccer for the first time might be surprised by what happens when the final whistle blows.",
+          "translation": "처음으로 축구를 보는 사람은 마지막 호루라기가 울릴 때 일어나는 일에 놀랄지도 모른다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "take off"
+                  }
+                ],
+                "id": "s002-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "벗는다"
+                  }
+                ],
+                "segmentId": "s002-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "swap"
+                  }
+                ],
+                "id": "s002-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "교환한다"
+                  }
+                ],
+                "segmentId": "s002-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "intense"
+                },
+                "id": "s002-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "치열한"
+                },
+                "meaning": "치열한",
+                "segmentId": "s002-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "opposing"
+                },
+                "id": "s002-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "상대"
+                },
+                "meaning": "상대의",
+                "segmentId": "s002-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s002-a",
+                  "text": "After an intense contest,"
+                },
+                {
+                  "id": "s002-b",
+                  "text": "the players take off their jerseys"
+                },
+                {
+                  "id": "s002-c",
+                  "text": "and swap them with members of the opposing team."
+                }
+              ],
+              "displayOrder": [
+                "s002-c",
+                "s002-a",
+                "s002-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s002-choice-01",
+                  "options": [
+                    "their",
+                    "them"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "their"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s002-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "swap"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s002-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "교환한다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "take off",
+                  "id": "s002-verb-01",
+                  "lemma": "take off",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "take off"
+                  }
+                },
+                {
+                  "cue": "swap",
+                  "id": "s002-verb-02",
+                  "lemma": "swap",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "swap"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "intense contest",
+                "take off",
+                "jerseys",
+                "opposing team"
+              ]
+            }
+          },
+          "id": "s002",
+          "meaningSegments": [
+            {
+              "en": "After an intense contest,",
+              "id": "s002-m01",
+              "ko": "치열한 경기가 끝난 후,"
+            },
+            {
+              "en": "the players take off their jerseys",
+              "id": "s002-m02",
+              "ko": "선수들은 자신들의 유니폼을 벗는다"
+            },
+            {
+              "en": "and swap them with members of the opposing team.",
+              "id": "s002-m03",
+              "ko": "그리고 그것을 상대 팀 선수들과 교환한다."
+            }
+          ],
+          "no": 2,
+          "source": "After an intense contest, the players take off their jerseys and swap them with members of the opposing team.",
+          "translation": "치열한 경기가 끝난 후, 선수들은 유니폼을 벗어 상대 팀 선수들과 교환한다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "may seem"
+                  }
+                ],
+                "id": "s003-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "보일 수 있지만"
+                  }
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "has been"
+                  }
+                ],
+                "id": "s003-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "이었다"
+                  }
+                ],
+                "segmentId": "s003-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "tradition"
+                },
+                "id": "s003-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "전통"
+                },
+                "meaning": "전통",
+                "segmentId": "s003-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s003-a",
+                  "text": "It may seem strange,"
+                },
+                {
+                  "id": "s003-b",
+                  "text": "but this has been a soccer tradition since 1931,"
+                },
+                {
+                  "id": "s003-c",
+                  "text": "when players from France and England swapped shirts at the end of the match."
+                }
+              ],
+              "displayOrder": [
+                "s003-c",
+                "s003-a",
+                "s003-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s003-choice-01",
+                  "options": [
+                    "has been",
+                    "have been"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "has been"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s003-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "tradition"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s003-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "축구 전통"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s003-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "has been"
+                  }
+                },
+                {
+                  "cue": "swap",
+                  "id": "s003-verb-02",
+                  "lemma": "swap",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "swapped"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "may seem",
+                "tradition",
+                "since 1931",
+                "swapped shirts"
+              ]
+            }
+          },
+          "id": "s003",
+          "meaningSegments": [
+            {
+              "en": "It may seem strange,",
+              "id": "s003-m01",
+              "ko": "그것은 이상해 보일 수 있지만,"
+            },
+            {
+              "en": "but this has been a soccer tradition since 1931,",
+              "id": "s003-m02",
+              "ko": "이것은 1931년부터 축구 전통이었다"
+            },
+            {
+              "en": "when players from France and England swapped shirts at the end of the match.",
+              "id": "s003-m03",
+              "ko": "그때 프랑스와 영국 선수들이 경기 끝에 셔츠를 교환했다."
+            }
+          ],
+          "no": 3,
+          "source": "It may seem strange, but this has been a soccer tradition since 1931, when players from France and England swapped shirts at the end of the match.",
+          "translation": "이것은 이상해 보일 수 있지만, 1931년부터 이어져 온 축구 전통이다. 당시 프랑스와 영국 선수들은 경기 끝에 셔츠를 교환했다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "do"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "swap"
+                  }
+                ],
+                "id": "s004-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "교환하는가"
+                  }
+                ],
+                "segmentId": "s004-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "opponents"
+                },
+                "id": "s004-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "상대 선수들"
+                },
+                "meaning": "상대 선수들",
+                "segmentId": "s004-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s004-a",
+                  "text": "Why do players swap shirts"
+                },
+                {
+                  "id": "s004-b",
+                  "text": "with their opponents?"
+                }
+              ],
+              "displayOrder": [
+                "s004-b",
+                "s004-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s004-choice-01",
+                  "options": [
+                    "do",
+                    "does"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "do"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s004-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "opponents"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s004-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "상대 선수들"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "do",
+                  "id": "s004-verb-01",
+                  "lemma": "do",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "do"
+                  }
+                },
+                {
+                  "cue": "swap",
+                  "id": "s004-verb-02",
+                  "lemma": "swap",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "swap"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "why",
+                "players",
+                "swap shirts",
+                "opponents"
+              ]
+            }
+          },
+          "id": "s004",
+          "meaningSegments": [
+            {
+              "en": "Why do players swap shirts",
+              "id": "s004-m01",
+              "ko": "왜 선수들은 셔츠를 교환하는가"
+            },
+            {
+              "en": "with their opponents?",
+              "id": "s004-m02",
+              "ko": "상대 선수들과?"
+            }
+          ],
+          "no": 4,
+          "source": "Why do players swap shirts with their opponents?",
+          "translation": "선수들은 왜 상대 선수들과 셔츠를 교환할까?"
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are getting"
+                  }
+                ],
+                "id": "s005-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "치열해지고 있음에도"
+                  }
+                ],
+                "segmentId": "s005-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s005-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "중요하다"
+                  }
+                ],
+                "segmentId": "s005-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "the spirit of fair play"
+                },
+                "id": "s005-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "페어플레이 정신"
+                },
+                "meaning": "공정하게 경기하려는 정신",
+                "segmentId": "s005-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s005-a",
+                  "text": "It is to show that"
+                },
+                {
+                  "id": "s005-b",
+                  "text": "even though games are getting more intense these days,"
+                },
+                {
+                  "id": "s005-c",
+                  "text": "the spirit of fair play is still important."
+                }
+              ],
+              "displayOrder": [
+                "s005-c",
+                "s005-a",
+                "s005-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s005-choice-01",
+                  "options": [
+                    "is",
+                    "are"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s005-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "fair play"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s005-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "페어플레이 정신"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "get",
+                  "id": "s005-verb-01",
+                  "lemma": "get",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are getting"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s005-verb-02",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "show that",
+                "even though",
+                "fair play",
+                "still important"
+              ]
+            }
+          },
+          "id": "s005",
+          "meaningSegments": [
+            {
+              "en": "It is to show that",
+              "id": "s005-m01",
+              "ko": "그것은 보여 주기 위해서이다"
+            },
+            {
+              "en": "even though games are getting more intense these days,",
+              "id": "s005-m02",
+              "ko": "요즘 경기가 더 치열해지고 있음에도,"
+            },
+            {
+              "en": "the spirit of fair play is still important.",
+              "id": "s005-m03",
+              "ko": "페어플레이 정신은 여전히 중요하다."
+            }
+          ],
+          "no": 5,
+          "source": "It is to show that even though games are getting more intense these days, the spirit of fair play is still important.",
+          "translation": "그것은 요즘 경기가 더 치열해지고 있음에도 페어플레이 정신이 여전히 중요하다는 것을 보여 주기 위해서이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "help"
+                  }
+                ],
+                "id": "s006-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "일으켜 준다"
+                  }
+                ],
+                "segmentId": "s006-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "foul"
+                },
+                "id": "s006-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "반칙"
+                },
+                "meaning": "반칙",
+                "segmentId": "s006-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s006-a",
+                  "text": "For example,"
+                },
+                {
+                  "id": "s006-b",
+                  "text": "players from opposing teams help each other up"
+                },
+                {
+                  "id": "s006-c",
+                  "text": "after a foul."
+                }
+              ],
+              "displayOrder": [
+                "s006-b",
+                "s006-c",
+                "s006-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s006-choice-01",
+                  "options": [
+                    "teams",
+                    "team"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "teams"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s006-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "each other"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s006-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "서로 일으켜 준다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "help",
+                  "id": "s006-verb-01",
+                  "lemma": "help",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "help"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "for example",
+                "opposing teams",
+                "each other",
+                "foul"
+              ]
+            }
+          },
+          "id": "s006",
+          "meaningSegments": [
+            {
+              "en": "For example,",
+              "id": "s006-m01",
+              "ko": "예를 들어,"
+            },
+            {
+              "en": "players from opposing teams help each other up",
+              "id": "s006-m02",
+              "ko": "상대 팀 선수들은 서로 일으켜 준다"
+            },
+            {
+              "en": "after a foul.",
+              "id": "s006-m03",
+              "ko": "반칙 후에."
+            }
+          ],
+          "no": 6,
+          "source": "For example, players from opposing teams help each other up after a foul.",
+          "translation": "예를 들어, 상대 팀 선수들은 반칙 후에 서로 일으켜 준다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "gets injured"
+                  }
+                ],
+                "id": "s007-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "부상을 입으면"
+                  }
+                ],
+                "segmentId": "s007-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is kicked"
+                  }
+                ],
+                "id": "s007-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "차여 나간다"
+                  }
+                ],
+                "segmentId": "s007-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "medical treatment"
+                },
+                "id": "s007-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "치료"
+                },
+                "meaning": "의료 치료",
+                "segmentId": "s007-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s007-a",
+                  "text": "Also, if an opponent gets injured,"
+                },
+                {
+                  "id": "s007-b",
+                  "text": "the ball is kicked out of play"
+                },
+                {
+                  "id": "s007-c",
+                  "text": "so that he or she receive medical treatment."
+                }
+              ],
+              "displayOrder": [
+                "s007-c",
+                "s007-a",
+                "s007-b"
+              ]
+            },
+            "choice": {
+              "baseText": "Also, if an opponent gets injured, the ball is kicked out of play so that he or she receives medical treatment.",
+              "overrideReason": "원문의 subject-verb agreement 오류를 정답 문장으로 바로잡아 학습 문항을 구성함",
+              "targets": [
+                {
+                  "id": "s007-choice-01",
+                  "options": [
+                    "receives",
+                    "receive"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "receives"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s007-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "injured"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s007-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "경기장 밖으로"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "get injured",
+                  "id": "s007-verb-01",
+                  "lemma": "get injured",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "gets injured"
+                  }
+                },
+                {
+                  "cue": "kick",
+                  "id": "s007-verb-02",
+                  "lemma": "kick",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is kicked"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "opponent",
+                "injured",
+                "kicked out of play",
+                "medical treatment"
+              ]
+            }
+          },
+          "id": "s007",
+          "meaningSegments": [
+            {
+              "en": "Also, if an opponent gets injured,",
+              "id": "s007-m01",
+              "ko": "또한 상대 선수가 부상을 입으면,"
+            },
+            {
+              "en": "the ball is kicked out of play",
+              "id": "s007-m02",
+              "ko": "공은 경기장 밖으로 차여 나간다"
+            },
+            {
+              "en": "so that he or she receive medical treatment.",
+              "id": "s007-m03",
+              "ko": "그 또는 그녀가 치료를 받을 수 있도록."
+            }
+          ],
+          "no": 7,
+          "source": "Also, if an opponent gets injured, the ball is kicked out of play so that he or she receive medical treatment.",
+          "translation": "또한 상대 선수가 부상을 입으면, 그 또는 그녀가 치료를 받을 수 있도록 공은 경기장 밖으로 차여 나간다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "shows"
+                  }
+                ],
+                "id": "s008-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "보여 준다"
+                  }
+                ],
+                "segmentId": "s008-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is being played"
+                  }
+                ],
+                "id": "s008-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "진행되고 있음을"
+                  }
+                ],
+                "segmentId": "s008-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "spirit"
+                },
+                "id": "s008-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "정신"
+                },
+                "meaning": "정신",
+                "segmentId": "s008-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s008-a",
+                  "text": "Likewise, swapping jerseys shows that"
+                },
+                {
+                  "id": "s008-b",
+                  "text": "the game is being played"
+                },
+                {
+                  "id": "s008-c",
+                  "text": "in a friendly and fair spirit."
+                }
+              ],
+              "displayOrder": [
+                "s008-b",
+                "s008-c",
+                "s008-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s008-choice-01",
+                  "options": [
+                    "is",
+                    "are"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s008-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "friendly and fair"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s008-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "우호적이고 공정한"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "show",
+                  "id": "s008-verb-01",
+                  "lemma": "show",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "shows"
+                  }
+                },
+                {
+                  "cue": "be played",
+                  "id": "s008-verb-02",
+                  "lemma": "play",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is being played"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "likewise",
+                "swapping jerseys",
+                "being played",
+                "friendly and fair"
+              ]
+            }
+          },
+          "id": "s008",
+          "meaningSegments": [
+            {
+              "en": "Likewise, swapping jerseys shows that",
+              "id": "s008-m01",
+              "ko": "마찬가지로 유니폼을 교환하는 것은 보여 준다"
+            },
+            {
+              "en": "the game is being played",
+              "id": "s008-m02",
+              "ko": "경기가 진행되고 있음을"
+            },
+            {
+              "en": "in a friendly and fair spirit.",
+              "id": "s008-m03",
+              "ko": "우호적이고 공정한 정신으로."
+            }
+          ],
+          "no": 8,
+          "source": "Likewise, swapping jerseys shows that the game is being played in a friendly and fair spirit.",
+          "translation": "마찬가지로, 유니폼을 교환하는 것은 경기가 우호적이고 공정한 정신으로 진행되고 있음을 보여 준다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "happened"
+                  }
+                ],
+                "id": "s009-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "일어났다"
+                  }
+                ],
+                "segmentId": "s009-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "quarter-final"
+                },
+                "id": "s009-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "8강전"
+                },
+                "meaning": "8강전",
+                "segmentId": "s009-m03"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "victory"
+                },
+                "id": "s009-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "승리"
+                },
+                "meaning": "승리",
+                "segmentId": "s009-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s009-a",
+                  "text": "The most famous jersey swap happened"
+                },
+                {
+                  "id": "s009-b",
+                  "text": "at the 1970 World Cup"
+                },
+                {
+                  "id": "s009-c",
+                  "text": "after Brazil's quarter-final victory over England."
+                }
+              ],
+              "displayOrder": [
+                "s009-c",
+                "s009-a",
+                "s009-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s009-choice-01",
+                  "options": [
+                    "most",
+                    "more"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "most"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s009-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "quarter-final"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s009-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "1970년 월드컵"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "happen",
+                  "id": "s009-verb-01",
+                  "lemma": "happen",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "happened"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "most famous",
+                "1970 World Cup",
+                "quarter-final",
+                "victory"
+              ]
+            }
+          },
+          "id": "s009",
+          "meaningSegments": [
+            {
+              "en": "The most famous jersey swap happened",
+              "id": "s009-m01",
+              "ko": "가장 유명한 유니폼 교환은 일어났다"
+            },
+            {
+              "en": "at the 1970 World Cup",
+              "id": "s009-m02",
+              "ko": "1970년 월드컵에서"
+            },
+            {
+              "en": "after Brazil's quarter-final victory over England.",
+              "id": "s009-m03",
+              "ko": "브라질이 영국을 상대로 8강전에서 승리한 뒤."
+            }
+          ],
+          "no": 9,
+          "source": "The most famous jersey swap happened at the 1970 World Cup after Brazil's quarter-final victory over England.",
+          "translation": "가장 유명한 유니폼 교환은 브라질이 영국을 상대로 8강전에서 승리한 뒤 열린 1970년 월드컵에서 일어났다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "exchanged"
+                  }
+                ],
+                "id": "s010-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "교환했다"
+                  }
+                ],
+                "segmentId": "s010-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "exchanged"
+                },
+                "id": "s010-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "교환했다"
+                },
+                "meaning": "교환했다",
+                "segmentId": "s010-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s010-a",
+                  "text": "Brazil's greatest player ever, Pele,"
+                },
+                {
+                  "id": "s010-b",
+                  "text": "exchanged jerseys"
+                },
+                {
+                  "id": "s010-c",
+                  "text": "with England's greatest player ever, Bobby Moore."
+                }
+              ],
+              "displayOrder": [
+                "s010-b",
+                "s010-c",
+                "s010-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s010-choice-01",
+                  "options": [
+                    "Brazil's",
+                    "Brazil"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Brazil's"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s010-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "exchanged"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s010-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "바비 무어"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "exchange",
+                  "id": "s010-verb-01",
+                  "lemma": "exchange",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "exchanged"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "Brazil's",
+                "greatest player",
+                "exchanged jerseys",
+                "Bobby Moore"
+              ]
+            }
+          },
+          "id": "s010",
+          "meaningSegments": [
+            {
+              "en": "Brazil's greatest player ever, Pele,",
+              "id": "s010-m01",
+              "ko": "브라질 역대 최고의 선수 펠레는"
+            },
+            {
+              "en": "exchanged jerseys",
+              "id": "s010-m02",
+              "ko": "유니폼을 교환했다"
+            },
+            {
+              "en": "with England's greatest player ever, Bobby Moore.",
+              "id": "s010-m03",
+              "ko": "잉글랜드 역대 최고의 선수 바비 무어와."
+            }
+          ],
+          "no": 10,
+          "source": "Brazil's greatest player ever, Pele, exchanged jerseys with England's greatest player ever, Bobby Moore.",
+          "translation": "브라질 역대 최고의 선수 펠레는 잉글랜드 역대 최고의 선수 바비 무어와 유니폼을 교환했다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s011-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "이다"
+                  }
+                ],
+                "segmentId": "s011-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "champions"
+                },
+                "id": "s011-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "챔피언"
+                },
+                "meaning": "챔피언들",
+                "segmentId": "s011-m01"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s011-a",
+                  "text": "The sight of these two great champions trading shirts"
+                },
+                {
+                  "id": "s011-b",
+                  "text": "is perhaps the most famous image"
+                },
+                {
+                  "id": "s011-c",
+                  "text": "in soccer history."
+                }
+              ],
+              "displayOrder": [
+                "s011-b",
+                "s011-a",
+                "s011-c"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s011-choice-01",
+                  "options": [
+                    "these",
+                    "this"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "these"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s011-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "soccer history"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s011-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "가장 유명한 장면"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s011-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "sight",
+                "champions",
+                "trading shirts",
+                "soccer history"
+              ]
+            }
+          },
+          "id": "s011",
+          "meaningSegments": [
+            {
+              "en": "The sight of these two great champions trading shirts",
+              "id": "s011-m01",
+              "ko": "이 두 위대한 챔피언이 셔츠를 교환하는 모습은"
+            },
+            {
+              "en": "is perhaps the most famous image",
+              "id": "s011-m02",
+              "ko": "아마도 가장 유명한 장면이다"
+            },
+            {
+              "en": "in soccer history.",
+              "id": "s011-m03",
+              "ko": "축구 역사상."
+            }
+          ],
+          "no": 11,
+          "source": "The sight of these two great champions trading shirts is perhaps the most famous image in soccer history.",
+          "translation": "이 두 위대한 챔피언이 셔츠를 교환하는 모습은 아마도 축구 역사상 가장 유명한 장면일 것이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "needed"
+                  }
+                ],
+                "id": "s012-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "필요했다"
+                  }
+                ],
+                "segmentId": "s012-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "wanted"
+                  }
+                ],
+                "id": "s012-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "싶어 했기 때문에"
+                  }
+                ],
+                "segmentId": "s012-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "From that moment on"
+                },
+                "id": "s012-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "그 순간부터"
+                },
+                "meaning": "그때부터",
+                "segmentId": "s012-m01"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s012-a",
+                  "text": "From that moment on,"
+                },
+                {
+                  "id": "s012-b",
+                  "text": "famous soccer stars like Pele needed more jerseys than other players"
+                },
+                {
+                  "id": "s012-c",
+                  "text": "since opposing players all wanted to swap jerseys with them."
+                }
+              ],
+              "displayOrder": [
+                "s012-c",
+                "s012-a",
+                "s012-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s012-choice-01",
+                  "options": [
+                    "more",
+                    "most"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "more"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s012-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "needed"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s012-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "더 많은 유니폼"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "need",
+                  "id": "s012-verb-01",
+                  "lemma": "need",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "needed"
+                  }
+                },
+                {
+                  "cue": "want",
+                  "id": "s012-verb-02",
+                  "lemma": "want",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "wanted"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "from that moment on",
+                "stars like Pele",
+                "more jerseys",
+                "wanted to swap"
+              ]
+            }
+          },
+          "id": "s012",
+          "meaningSegments": [
+            {
+              "en": "From that moment on,",
+              "id": "s012-m01",
+              "ko": "그 순간부터,"
+            },
+            {
+              "en": "famous soccer stars like Pele needed more jerseys than other players",
+              "id": "s012-m02",
+              "ko": "펠레 같은 유명 축구 스타들은 다른 선수들보다 더 많은 유니폼이 필요했다"
+            },
+            {
+              "en": "since opposing players all wanted to swap jerseys with them.",
+              "id": "s012-m03",
+              "ko": "상대 선수들이 모두 그들과 유니폼을 교환하고 싶어 했기 때문에."
+            }
+          ],
+          "no": 12,
+          "source": "From that moment on, famous soccer stars like Pele needed more jerseys than other players since opposing players all wanted to swap jerseys with them.",
+          "translation": "그 순간부터 펠레 같은 유명 축구 스타들은 다른 선수들보다 더 많은 유니폼이 필요했는데, 상대 선수들이 모두 그들과 유니폼을 교환하고 싶어 했기 때문이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "happens"
+                  }
+                ],
+                "id": "s013-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "이루어진다"
+                  }
+                ],
+                "segmentId": "s013-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "essential"
+                },
+                "id": "s013-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "필수적인"
+                },
+                "meaning": "필수적인",
+                "segmentId": "s013-m03"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "respect"
+                },
+                "id": "s013-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "존중"
+                },
+                "meaning": "존중",
+                "segmentId": "s013-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s013-a",
+                  "text": "Nowadays, jersey swapping happens"
+                },
+                {
+                  "id": "s013-b",
+                  "text": "at the end of every important match"
+                },
+                {
+                  "id": "s013-c",
+                  "text": "as an essential part of showing opponents friendship and respect."
+                }
+              ],
+              "displayOrder": [
+                "s013-b",
+                "s013-c",
+                "s013-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s013-choice-01",
+                  "options": [
+                    "every",
+                    "all"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "every"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s013-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "essential"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s013-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "필수적인 부분"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "happen",
+                  "id": "s013-verb-01",
+                  "lemma": "happen",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "happens"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "nowadays",
+                "every important match",
+                "essential part",
+                "friendship and respect"
+              ]
+            }
+          },
+          "id": "s013",
+          "meaningSegments": [
+            {
+              "en": "Nowadays, jersey swapping happens",
+              "id": "s013-m01",
+              "ko": "오늘날 유니폼 교환은 이루어진다"
+            },
+            {
+              "en": "at the end of every important match",
+              "id": "s013-m02",
+              "ko": "모든 중요한 경기의 끝에"
+            },
+            {
+              "en": "as an essential part of showing opponents friendship and respect.",
+              "id": "s013-m03",
+              "ko": "상대에게 우정과 존중을 보여 주는 필수적인 부분으로서."
+            }
+          ],
+          "no": 13,
+          "source": "Nowadays, jersey swapping happens at the end of every important match as an essential part of showing opponents friendship and respect.",
+          "translation": "오늘날 유니폼 교환은 상대에게 우정과 존중을 보여 주는 데 필수적인 부분으로서 모든 중요한 경기의 끝에 이루어진다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are being supplied"
+                  }
+                ],
+                "id": "s014-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "제공되고 있다"
+                  }
+                ],
+                "segmentId": "s014-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "extra"
+                },
+                "id": "s014-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "여분의"
+                },
+                "meaning": "여분의",
+                "segmentId": "s014-m03"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "supplied"
+                },
+                "id": "s014-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "제공되고 있다"
+                },
+                "meaning": "제공되다",
+                "segmentId": "s014-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s014-a",
+                  "text": "In fact, because of this,"
+                },
+                {
+                  "id": "s014-b",
+                  "text": "players are being supplied"
+                },
+                {
+                  "id": "s014-c",
+                  "text": "with extra jerseys!"
+                }
+              ],
+              "displayOrder": [
+                "s014-c",
+                "s014-a",
+                "s014-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s014-choice-01",
+                  "options": [
+                    "are",
+                    "is"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s014-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "supplied"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s014-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "여분의 유니폼"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be supplied",
+                  "id": "s014-verb-01",
+                  "lemma": "supply",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are being supplied"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "in fact",
+                "because of this",
+                "being supplied",
+                "extra jerseys"
+              ]
+            }
+          },
+          "id": "s014",
+          "meaningSegments": [
+            {
+              "en": "In fact, because of this,",
+              "id": "s014-m01",
+              "ko": "사실 이 때문에,"
+            },
+            {
+              "en": "players are being supplied",
+              "id": "s014-m02",
+              "ko": "선수들에게 제공되고 있다"
+            },
+            {
+              "en": "with extra jerseys!",
+              "id": "s014-m03",
+              "ko": "여분의 유니폼이!"
+            }
+          ],
+          "no": 14,
+          "source": "In fact, because of this, players are being supplied with extra jerseys!",
+          "translation": "사실, 이 때문에 선수들에게는 여분의 유니폼이 제공되고 있다!"
+        }
+      ],
+      "sourceStatus": {
+        "notes": "제공된 시험지 사진의 Soccer Jersey Swap 지문을 문장 단위로 전사함. 원문의 receive 표기도 보존함.",
+        "references": [
+          "/Users/apple/Downloads/KakaoTalk_Image_2026-07-11-13-50-35_001.jpeg"
+        ],
+        "sentenceCount": 14,
+        "sourceType": "image",
+        "status": "confirmed",
+        "verifiedAt": "2026-07-11T00:00:00+09:00"
+      },
+      "specVersion": "1.0.2",
+      "updateState": {
+        "appliedUpdates": [
+          {
+            "appliedAt": "2026-07-11T00:00:00+09:00",
+            "fromContentVersion": "0.0.0",
+            "id": "U-20260711-002",
+            "report": "reports/updates/U-20260711-002.md",
+            "scope": "new-only",
+            "toContentVersion": "1.0.0"
+          },
+          {
+            "appliedAt": "2026-07-23T23:15:00+09:00",
+            "fromContentVersion": "1.0.0",
+            "id": "U-20260723-004",
+            "report": "reports/updates/U-20260723-004.md",
+            "scope": "all",
+            "toContentVersion": "1.0.1"
+          },
+          {
+            "appliedAt": "2026-07-23T23:25:00+09:00",
+            "fromContentVersion": "1.0.1",
+            "id": "U-20260723-005",
+            "report": "reports/updates/U-20260723-005.md",
+            "scope": "all",
+            "toContentVersion": "1.0.2"
+          }
+        ],
+        "defaultScope": "new-only"
+      },
+      "workbookId": "soccer-jersey-swap"
+    },
+    "contentVersion": "1.0.2",
+    "files": [
+      {
+        "path": "workbooks/soccer-jersey-swap/content.json",
+        "sha256": "62b66c27623e5db03e5b235d8dc71f5eaf381c14fa36c8a5d696f2769a202cae",
+        "size": 29715
+      }
+    ],
+    "workbookId": "soccer-jersey-swap"
+  },
+  "spec": {
+    "files": [
+      {
+        "path": "config/versions.json",
+        "sha256": "68c5be414e2274e8f909970294dec45572a47094871fc8b31a066b08710304c0",
+        "size": 1326
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "sha256": "8bea1dedad1775ad890f36a07ca0f4e1cb2b031b94346edfe3593b6a04f83b7d",
+        "size": 16122
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+        "size": 8058
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "schemaFiles": [
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "semanticRubricFile": {
+      "path": "docs/semantic-rubric.md",
+      "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+      "size": 8058
+    },
+    "semanticRubricVersion": "1.0.0",
+    "spec": {
+      "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "answerEditionContract": {
+        "answerFillClassMayAutoColor": false,
+        "redAllowedOnlyOnSolutionValues": true,
+        "sameStageAndExerciseDomAsStudent": true,
+        "solutionClass": "solution-value",
+        "solutionColor": "#D71920",
+        "solutionInsertion": "fill-the-same-solution-slot",
+        "studentPayloadMayContainSolutions": false
+      },
+      "canonicalSchema": "schemas/canonical-workbook.schema.json",
+      "canonicalText": {
+        "baseTextOverride": {
+          "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+          "defaultStorage": "omit-baseText-and-derive-from-canonical",
+          "redundantDefaultCopy": "forbidden",
+          "requiredCompanionField": "overrideReason"
+        },
+        "displayDefault": "source",
+        "exerciseBaseTextDefaults": {
+          "choice": "display-or-source",
+          "enBlank": "display-or-source",
+          "koBlank": "translation",
+          "verb": "display-or-source"
+        },
+        "markup": "forbidden",
+        "reconstruction": {
+          "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+          "meaningSegments": "join meaningSegments[].en with one ASCII space",
+          "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+        },
+        "sourceWhitespace": "single-space-between-tokens",
+        "targetAnchor": {
+          "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다.",
+          "shape": {
+            "occurrence": "one-based occurrence in the applicable base text",
+            "text": "exact substring"
+          }
+        }
+      },
+      "contentOwnership": {
+        "authorable": [
+          "metadata",
+          "sourceStatus",
+          "sentences[].source",
+          "sentences[].display",
+          "sentences[].translation",
+          "sentences[].meaningSegments",
+          "sentences[].annotations",
+          "sentences[].exercises",
+          "passageActivities.correction",
+          "passageActivities.paragraphOrder",
+          "updateState"
+        ],
+        "derived": [
+          "stage number, title, instruction and renderer mode",
+          "item and unit numbers",
+          "part ranges and page boundaries",
+          "student and answer projections",
+          "blank, predicate, vocabulary and solution markup",
+          "answer-line height and layout classes",
+          "page count, footer number and output filenames"
+        ],
+        "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+      },
+      "logicalStages": [
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].meaningSegments",
+            "sentences[].annotations.predicates",
+            "sentences[].annotations.vocabulary"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "passage-practice",
+          "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean-inline-hint"
+            ],
+            "vocabularyColoring": true
+          },
+          "number": 1,
+          "pagination": {
+            "hardMaximum": 13,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 12,
+            "unit": "sentence"
+          },
+          "rendererMode": "meaning",
+          "scope": "sentence",
+          "title": "지문 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].exercises.koBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "korean-cloze",
+          "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 2,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (우리말)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.enBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "english-cloze",
+          "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 3,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (영문)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].translation"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "translation-practice",
+          "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 4,
+          "pagination": {
+            "hardMaximum": 11,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 10,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "해석 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.verb"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "verb-form",
+          "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 5,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "동사형 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.choice"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "grammar-vocabulary-choice",
+          "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 6,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "어법·어휘 고르기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.correction"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "correction",
+          "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+          "layout": {
+            "fieldOrder": [
+              "passage",
+              "correction-rows"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 7,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "correction",
+          "scope": "passage-activity",
+          "title": "어색한 곳 찾기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.arrange"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "sentence-order",
+          "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+          "layout": {
+            "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+            "arrangementSlots": "forbidden",
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 8,
+          "pagination": {
+            "hardMaximum": 6,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 6,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "순서 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.paragraphOrder"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "paragraph-order",
+          "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "fixed-intro",
+              "shuffled-blocks",
+              "fixed-outro",
+              "sequence-slots"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 9,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "paragraph-order",
+          "scope": "passage-activity",
+          "title": "문단 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.writing",
+            "sentences[].display|source"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "composition",
+          "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "studentEnglishSkeleton": "forbidden",
+            "vocabularyColoring": false
+          },
+          "number": 10,
+          "pagination": {
+            "hardMaximum": 8,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 8,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "영작 연습하기"
+        }
+      ],
+      "paginationContract": {
+        "continuationPageMinimumItems": 2,
+        "forbidden": [
+          "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+          "legacy 흐름 or 뜻 작성 columns",
+          "content crossing the page footer",
+          "content from one page overlapping the next page",
+          "clipped text",
+          "a singleton continuation page that can be avoided within the stage hard maximum",
+          "renumbering a new part from one"
+        ],
+        "layoutPreference": "vertical",
+        "numbering": "continuous-original-sentence-number",
+        "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+        "partLabel": "inclusive-original-sentence-number-range",
+        "readingLayout": "allowed-only-after-explicit-user-request",
+        "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+        "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+        "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+        "visualFitOverridesTargetCount": true
+      },
+      "principles": {
+        "canonicalDataContainsHtml": false,
+        "logicalStageCount": 10,
+        "publishOnlyAfterAllChecksPass": true,
+        "singleContentSource": true,
+        "studentAndAnswerShareExerciseStructure": true,
+        "uncertainSourcePolicy": "stop-and-request-clearer-source"
+      },
+      "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+      "releaseContract": {
+        "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+        "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+        "filenames": [
+          "문제.html",
+          "문제.pdf",
+          "해설.html",
+          "해설.pdf"
+        ],
+        "finalHtmlDependencies": "self-contained",
+        "outputRoot": "outputs",
+        "previewFixture": "one-shared-canonical-fixture",
+        "publish": "atomic-after-all-gates-pass",
+        "stagingRoot": ".build/releases",
+        "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture"
+      },
+      "semanticRubric": "docs/semantic-rubric.md",
+      "specVersion": "1.0.2",
+      "updates": {
+        "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+        "allowedScopes": [
+          "new-only",
+          "all",
+          "selected",
+          "manual-review"
+        ],
+        "changelogPath": "CHANGELOG.md",
+        "defaultScope": "new-only",
+        "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+        "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+        "reportRequired": true,
+        "requiredImpactDimensions": [
+          "canonical fields",
+          "stage numbers",
+          "sentence or activity ids",
+          "student and answer editions",
+          "page count and part ranges",
+          "component versions"
+        ],
+        "requiredReportSections": [
+          "요약",
+          "요청 내용",
+          "직접 변경",
+          "파생 변경",
+          "영향 없음",
+          "파일 변경",
+          "출력 변화",
+          "검증 결과",
+          "호환성",
+          "버전"
+        ],
+        "versionBump": {
+          "backward-compatible field or stage capability": "minor",
+          "breaking schema or canonical semantics": "major",
+          "bug fix, validation strengthening or copy correction": "patch"
+        }
+      },
+      "validationGates": {
+        "canonical": [
+          "JSON Schema passes",
+          "sourceStatus.status is confirmed",
+          "sentence ids and numbers are unique, consecutive and aligned",
+          "meaning segment English joined with one space equals display or source",
+          "every meaning segment has one-to-one English and Korean text",
+          "all target anchors resolve exactly at their declared occurrence",
+          "choice options contain the correct target exactly once",
+          "arrange chunks in canonical order reconstruct display or source exactly",
+          "arrange displayOrder contains every chunk id exactly once",
+          "paragraph displayOrder contains every block id exactly once",
+          "correction targets restore their base excerpt exactly",
+          "vocabulary and predicate annotations resolve inside their meaning segment"
+        ],
+        "compiled": [
+          "exactly ten logical stages appear in fixed order",
+          "sentence stages contain exactly one item for every source sentence",
+          "all part ranges are complete, consecutive and match item numbers",
+          "student and answer exercise structures are identical",
+          "student edition exposes no solution values",
+          "every bank, target and slot cardinality is internally consistent",
+          "stage 10 student edition contains no English skeleton"
+        ],
+        "release": [
+          "problem HTML exists",
+          "problem PDF exists",
+          "answer HTML exists",
+          "answer PDF exists",
+          "build manifest records all component versions and applied updates",
+          "update report exists when an update id is applied"
+        ],
+        "rendered": [
+          "document fonts and images are ready",
+          "browser console and page errors are empty",
+          "data-render-validation is exactly ok",
+          "no unresolved template placeholder remains",
+          "no preview fixture data remains in final HTML",
+          "no page or footer overflow exists under print media",
+          "answer red is present only on solution-value nodes",
+          "representative and risk pages pass visual review"
+        ]
+      },
+      "vocabularyContract": {
+        "allowedStageNumbers": [
+          1
+        ],
+        "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+        "maximumPerSentence": 3,
+        "redSlotForbidden": true,
+        "rendererClasses": {
+          "english": "vocab vocab-{slot} gloss",
+          "korean": "vocab vocab-{slot}"
+        },
+        "sameEnglishAndKoreanSlot": true,
+        "slots": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "specVersion": "1.0.2"
+  },
+  "template": {
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+        "size": 29359
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "sha256": "b8d6cf61d980afcfa0160d91fe87b73d535cc2ab80bac66964f45a9e0ec2345e",
+        "size": 40565
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+        "size": 1212
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "sha256": "fbce767b88b805800c5f03a51bfbe5c61985a55131b8624e43ab87acd5de3761",
+        "size": 14590
+      }
+    ],
+    "rendererContract": "shared-dom-explicit-targets-fail-closed",
+    "templateVersion": "1.0.1"
+  }
+}

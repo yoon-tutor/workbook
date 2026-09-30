@@ -1,0 +1,2593 @@
+{
+  "build": {
+    "appliedUpdates": [
+      "U-20260827-013"
+    ],
+    "buildVersion": "1.0.0",
+    "builtAt": "2026-08-27T14:57:39+09:00",
+    "canonicalDigest": "714a332fceff99e031158459f2b0256e3d16889a2f01316d4fce3c83f048dc55",
+    "compilerVersion": "1.0.7",
+    "contentVersion": "1.0.0",
+    "engineDigest": "755fa39f2f38e0c481da489f7b37fc92110b71ae3cf018dda83004df187ac114",
+    "engineInputs": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      }
+    ],
+    "files": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      },
+      {
+        "path": "문제.html",
+        "sha256": "b762b5531d326827b651259cc858d61f2ba7f6642e6926386a482de05c983fdf",
+        "size": 138271
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "832c97ef580646756545c53cf3ff1bc7dae233165b392fae0c15bfed2c722d2d",
+        "size": 537225
+      },
+      {
+        "path": "해설.html",
+        "sha256": "1c56a0e680f5230716df892c3eca127ff987703919105995c413d4f5d0151a29",
+        "size": 146353
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "7eeb680f989a01092884a6bf90e42152c27ffbf5561caa2247c32207f3e92beb",
+        "size": 655836
+      }
+    ],
+    "outputs": [
+      {
+        "path": "문제.html",
+        "sha256": "b762b5531d326827b651259cc858d61f2ba7f6642e6926386a482de05c983fdf",
+        "size": 138271
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "832c97ef580646756545c53cf3ff1bc7dae233165b392fae0c15bfed2c722d2d",
+        "size": 537225
+      },
+      {
+        "path": "해설.html",
+        "sha256": "1c56a0e680f5230716df892c3eca127ff987703919105995c413d4f5d0151a29",
+        "size": 146353
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "7eeb680f989a01092884a6bf90e42152c27ffbf5561caa2247c32207f3e92beb",
+        "size": 655836
+      }
+    ],
+    "pages": [
+      {
+        "digest": "e804a9813f818378fc1251994c28f9ba58714b0a3659508ee2fff7d4880b85d2",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q23-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q23-p01",
+        "part": "1-6",
+        "stageId": "1"
+      },
+      {
+        "digest": "d957afb059d895f9cc90a211541e9833c216f8553e1a3a41adc6f5b647f2e1b0",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q23-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q23-p02",
+        "part": "1-6",
+        "stageId": "2"
+      },
+      {
+        "digest": "e1e5e2edb82d6680ac34cffdbcd9542263a15651c8412deb900d96e09d241037",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q23-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q23-p03",
+        "part": "1-6",
+        "stageId": "3"
+      },
+      {
+        "digest": "4e0b656b09b0d4afba9411324f1652c233b381bed628fc75ec59d90742bb58c3",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q23-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q23-p04",
+        "part": "1-6",
+        "stageId": "4"
+      },
+      {
+        "digest": "949e925f6410a296545e4461a33b8bb290d555390dcf94bef07d81e5ebddfe7d",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q23-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q23-p05",
+        "part": "1-6",
+        "stageId": "5"
+      },
+      {
+        "digest": "e179ede82e992f5728fc072c3052d6a060b5cf67e998c343e127de3d8caad19c",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q23-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q23-p06",
+        "part": "1-6",
+        "stageId": "6"
+      },
+      {
+        "digest": "12beda82e3fbbefcbf1246d9f4638948c748245ee6fd0cbc5efd1a71761da3e3",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q23-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q23-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "4f38461ed637e831002422cd137e18c56ed06c3f1dca021bbdbe520ce7454a94",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q23-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q23-p08",
+        "part": "1-6",
+        "stageId": "8"
+      },
+      {
+        "digest": "1781a5ae6212ddaf130b7e4f4498dfb23f4dfd5c2686adaf2ba89f8eb0ff88f5",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q23-p09",
+        "itemIds": [],
+        "page": 9,
+        "pageId": "2026-june-grade2-q23-p09",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "3ed56e5a61332e84acde700cdef2f5428949e6f8d6c0d33fafd684d159a2fede",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q23-p10",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 10,
+        "pageId": "2026-june-grade2-q23-p10",
+        "part": "1-6",
+        "stageId": "10"
+      },
+      {
+        "digest": "e804a9813f818378fc1251994c28f9ba58714b0a3659508ee2fff7d4880b85d2",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q23-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q23-p01",
+        "part": "1-6",
+        "stageId": "1"
+      },
+      {
+        "digest": "fee63b58a11f4e86a14ec86a895bde95face3f6c670116176488c143dafc0a9d",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q23-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q23-p02",
+        "part": "1-6",
+        "stageId": "2"
+      },
+      {
+        "digest": "1be2164603f43e54547a8e5526dc04774e5a8cda774e10b84c32185b3d6fb036",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q23-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q23-p03",
+        "part": "1-6",
+        "stageId": "3"
+      },
+      {
+        "digest": "f153b196e5cf52141932786694dca69c23a57411a4ab0ffdfb084c379bf25691",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q23-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q23-p04",
+        "part": "1-6",
+        "stageId": "4"
+      },
+      {
+        "digest": "3b1f7026ecdb4ab165844ced41dc768d4a3fece74d8bcef1dbedd5ba54ef530c",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q23-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q23-p05",
+        "part": "1-6",
+        "stageId": "5"
+      },
+      {
+        "digest": "0a463aff20b3ec844b330b6523b22faae965b379df8a5d6de4a0959d11fd2294",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q23-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q23-p06",
+        "part": "1-6",
+        "stageId": "6"
+      },
+      {
+        "digest": "7d9021ce8a3a5276af938f898e76a5030d836fda35b1cf6b41575d46f2ad607f",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q23-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q23-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "cfb269b74c21879b054d43236b794569a6fdc4b17d8f82fc56ecdd14d037d592",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q23-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q23-p08",
+        "part": "1-6",
+        "stageId": "8"
+      },
+      {
+        "digest": "af26e74a303e938ef049448b60f846a972e36f78e376c38da0561e69d6ca5be2",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q23-p09",
+        "itemIds": [],
+        "page": 9,
+        "pageId": "2026-june-grade2-q23-p09",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "d49f7b941236935e491964878ae764f76740087b305810a03d847b2382dedcaf",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q23-p10",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 10,
+        "pageId": "2026-june-grade2-q23-p10",
+        "part": "1-6",
+        "stageId": "10"
+      }
+    ],
+    "qa": {
+      "contactSheets": [
+        "qa/samples/student-contact-sheet.png",
+        "qa/samples/answer-contact-sheet.png"
+      ],
+      "dom": {
+        "answer": {
+          "pages": 10,
+          "solutions": 67
+        },
+        "matchedResponseBoxCount": 18,
+        "matchedResponseLineCount": 29,
+        "matchedSolutionSlotCount": 56,
+        "sharedTargetSlotCount": 74,
+        "student": {
+          "pages": 10,
+          "solutions": 0
+        }
+      },
+      "pdf": {
+        "answerPages": 10,
+        "studentPages": 10
+      },
+      "status": "passed",
+      "visualSamples": [
+        "qa/samples/student-p01.png",
+        "qa/samples/student-p02.png",
+        "qa/samples/student-p03.png",
+        "qa/samples/student-p04.png",
+        "qa/samples/student-p05.png",
+        "qa/samples/student-p06.png",
+        "qa/samples/student-p07.png",
+        "qa/samples/student-p08.png",
+        "qa/samples/student-p09.png",
+        "qa/samples/student-p10.png",
+        "qa/samples/answer-p01.png",
+        "qa/samples/answer-p02.png",
+        "qa/samples/answer-p03.png",
+        "qa/samples/answer-p04.png",
+        "qa/samples/answer-p05.png",
+        "qa/samples/answer-p06.png",
+        "qa/samples/answer-p07.png",
+        "qa/samples/answer-p08.png",
+        "qa/samples/answer-p09.png",
+        "qa/samples/answer-p10.png"
+      ]
+    },
+    "reportFormatVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "semanticRubricVersion": "1.0.0",
+    "sourceDigest": "6e038b874ad310f4cebe183290ecedd37a81b474e2ac945c74fadceb673f8703",
+    "specVersion": "1.0.6",
+    "templateVersion": "1.0.4",
+    "validationStatus": "passed",
+    "visualReview": {
+      "notes": "학생용·해설용 contact sheet에서 첫 페이지, 2·3단계 빈칸, 4·8·10단계 작성형, 7단계 교정 색상, 9단계 문단 순서, 마지막 페이지와 footer를 확인했습니다. 잘림·겹침·정답 누출이 없고 10쪽이 일치합니다.",
+      "reviewedAt": "2026-08-27T15:02:27+09:00",
+      "reviewer": "Codex",
+      "status": "passed"
+    },
+    "workbookId": "2026-june-grade2-q23"
+  },
+  "bundleVersion": 1,
+  "canonical": {
+    "canonical": {
+      "$schema": "../../schemas/canonical-workbook.schema.json",
+      "contentVersion": "1.0.0",
+      "metadata": {
+        "grade": "고등학교 2학년",
+        "kicker": "High School Reading",
+        "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 23번",
+        "sourceLanguage": "en",
+        "targetLanguage": "ko",
+        "title": "2026학년도 6월 고2 23번 10단계 워크북",
+        "topic": "공통 통화가 거래 비용을 줄이고 경제의 생산성과 성장을 높이는 효과"
+      },
+      "passageActivities": {
+        "correction": [
+          {
+            "id": "correction-01",
+            "targets": [
+              {
+                "correct": "exist",
+                "id": "correction-01-01",
+                "incorrect": "exists",
+                "target": {
+                  "occurrence": 1,
+                  "text": "exists"
+                }
+              },
+              {
+                "correct": "costs are",
+                "id": "correction-01-02",
+                "incorrect": "costs is",
+                "target": {
+                  "occurrence": 1,
+                  "text": "costs is"
+                }
+              },
+              {
+                "correct": "means",
+                "id": "correction-01-03",
+                "incorrect": "mean",
+                "target": {
+                  "occurrence": 1,
+                  "text": "mean"
+                }
+              },
+              {
+                "correct": "can be reinvested",
+                "id": "correction-01-04",
+                "incorrect": "can reinvested",
+                "target": {
+                  "occurrence": 1,
+                  "text": "can reinvested"
+                }
+              },
+              {
+                "correct": "costs turn",
+                "id": "correction-01-05",
+                "incorrect": "costs turns",
+                "target": {
+                  "occurrence": 1,
+                  "text": "costs turns"
+                }
+              },
+              {
+                "correct": "economies benefit",
+                "id": "correction-01-06",
+                "incorrect": "economies benefits",
+                "target": {
+                  "occurrence": 1,
+                  "text": "economies benefits"
+                }
+              },
+              {
+                "correct": "currency provides",
+                "id": "correction-01-07",
+                "incorrect": "currency provide",
+                "target": {
+                  "occurrence": 1,
+                  "text": "currency provide"
+                }
+              }
+            ],
+            "textOverride": "Many of the barriers to trade exists not because of a lack of markets or customers, but because there are major barriers to getting products to market at competitive prices. Transaction costs is significant for companies—not only the straight exchange costs, but also the cost of converting, paying, and hedging funds just to pay for the goods and services. Having a common currency mean that many of those transaction costs disappear and the savings can reinvested back into firms’ productivity and innovation. Basically, useless costs turns into productive costs—with longer-term benefits to the whole economy. By unifying some of the currencies, whole economies benefits and grow more than they would as independents. So a common currency provide for a strong economic foundation that all can benefit from."
+          }
+        ],
+        "paragraphOrder": [
+          {
+            "answerOrder": [
+              "A",
+              "B",
+              "C"
+            ],
+            "blocks": [
+              {
+                "id": "A",
+                "sentenceIds": [
+                  "s001",
+                  "s002"
+                ]
+              },
+              {
+                "id": "B",
+                "sentenceIds": [
+                  "s003",
+                  "s004"
+                ]
+              },
+              {
+                "id": "C",
+                "sentenceIds": [
+                  "s005",
+                  "s006"
+                ]
+              }
+            ],
+            "displayOrder": [
+              "C",
+              "A",
+              "B"
+            ],
+            "id": "paragraph-order-01"
+          }
+        ]
+      },
+      "schemaVersion": "1.0.0",
+      "sentences": [
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "exist"
+                  }
+                ],
+                "id": "s001-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "존재한다"
+                  }
+                ],
+                "segmentId": "s001-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "there are"
+                  }
+                ],
+                "id": "s001-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "있기 때문에"
+                  }
+                ],
+                "segmentId": "s001-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "barriers to trade"
+                },
+                "id": "s001-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "무역을 가로막는"
+                },
+                "meaning": "무역 장벽",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s001-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "getting products to market"
+                },
+                "id": "s001-m05-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "제품을 시장에 내놓는"
+                },
+                "meaning": "제품을 시장에 출시하는 것",
+                "reasons": [
+                  "structure-critical"
+                ],
+                "segmentId": "s001-m05"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "competitive prices"
+                },
+                "id": "s001-m06-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "경쟁력 있는 가격"
+                },
+                "meaning": "경쟁력 있는 가격",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s001-m06"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s001-a",
+                  "text": "Many of the barriers to trade exist"
+                },
+                {
+                  "id": "s001-b",
+                  "text": "not because of a lack of markets or customers,"
+                },
+                {
+                  "id": "s001-c",
+                  "text": "but because there are major barriers"
+                },
+                {
+                  "id": "s001-d",
+                  "text": "to getting products to market at competitive prices."
+                }
+              ],
+              "displayOrder": [
+                "s001-c",
+                "s001-a",
+                "s001-d",
+                "s001-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s001-choice-01",
+                  "options": [
+                    "because of",
+                    "because"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "because of"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s001-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "barriers to trade"
+                  }
+                },
+                {
+                  "id": "s001-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "competitive prices"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s001-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "제품을 경쟁력 있는 가격으로 시장에 내놓는"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "exist",
+                  "id": "s001-verb-01",
+                  "lemma": "exist",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "exist"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s001-verb-02",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "there are"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "barriers to trade",
+                "not because of",
+                "markets or customers",
+                "get products to market",
+                "competitive prices"
+              ]
+            }
+          },
+          "id": "s001",
+          "meaningSegments": [
+            {
+              "en": "Many of the barriers to trade exist",
+              "id": "s001-m01",
+              "ko": "무역을 가로막는 많은 장벽은 존재한다"
+            },
+            {
+              "en": "not because of a lack",
+              "id": "s001-m02",
+              "ko": "부족 때문이 아니라"
+            },
+            {
+              "en": "of markets or customers,",
+              "id": "s001-m03",
+              "ko": "시장이나 고객의,"
+            },
+            {
+              "en": "but because there are major barriers",
+              "id": "s001-m04",
+              "ko": "중요한 장벽이 있기 때문에"
+            },
+            {
+              "en": "to getting products to market",
+              "id": "s001-m05",
+              "ko": "제품을 시장에 내놓는 것에"
+            },
+            {
+              "en": "at competitive prices.",
+              "id": "s001-m06",
+              "ko": "경쟁력 있는 가격으로."
+            }
+          ],
+          "no": 1,
+          "source": "Many of the barriers to trade exist not because of a lack of markets or customers, but because there are major barriers to getting products to market at competitive prices.",
+          "translation": "무역을 가로막는 많은 장벽은 시장이나 고객이 부족해서가 아니라, 제품을 경쟁력 있는 가격으로 시장에 내놓는 데 큰 장벽이 있기 때문에 존재한다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                ],
+                "id": "s002-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "상당하다"
+                  }
+                ],
+                "segmentId": "s002-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Transaction costs"
+                },
+                "id": "s002-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "거래 비용"
+                },
+                "meaning": "거래 과정에서 드는 비용",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s002-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "significant"
+                },
+                "id": "s002-m01-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "상당"
+                },
+                "meaning": "상당한",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s002-m01"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "hedging"
+                },
+                "id": "s002-m03-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "헤지"
+                },
+                "meaning": "위험을 줄이는 반대 거래를 하는 것",
+                "reasons": [
+                  "student-difficulty",
+                  "topic-core"
+                ],
+                "segmentId": "s002-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s002-a",
+                  "text": "Transaction costs are significant for companies—not only the straight exchange costs,"
+                },
+                {
+                  "id": "s002-b",
+                  "text": "but also the cost of converting, paying, and hedging funds"
+                },
+                {
+                  "id": "s002-c",
+                  "text": "just to pay for the goods and services."
+                }
+              ],
+              "displayOrder": [
+                "s002-c",
+                "s002-a",
+                "s002-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s002-choice-01",
+                  "options": [
+                    "not only",
+                    "only not"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "not only"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s002-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Transaction costs"
+                  }
+                },
+                {
+                  "id": "s002-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "converting, paying, and hedging funds"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s002-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "거래 비용은 기업에 상당하다"
+                  }
+                },
+                {
+                  "id": "s002-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "자금을 환전하고, 송금하고, 헤지하는 비용"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s002-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "transaction costs",
+                "significant",
+                "not only",
+                "but also",
+                "hedge funds",
+                "goods and services"
+              ]
+            }
+          },
+          "id": "s002",
+          "meaningSegments": [
+            {
+              "en": "Transaction costs are significant for companies—not only the straight exchange costs,",
+              "id": "s002-m01",
+              "ko": "거래 비용은 기업에 상당하다—순수한 환전 비용뿐만 아니라,"
+            },
+            {
+              "en": "but also the cost",
+              "id": "s002-m02",
+              "ko": "그 비용도"
+            },
+            {
+              "en": "of converting, paying, and hedging funds",
+              "id": "s002-m03",
+              "ko": "자금을 환전하고, 송금하고, 헤지하는"
+            },
+            {
+              "en": "just to pay for the goods and services.",
+              "id": "s002-m04",
+              "ko": "단지 상품과 서비스의 대금을 지불하기 위한."
+            }
+          ],
+          "no": 2,
+          "source": "Transaction costs are significant for companies—not only the straight exchange costs, but also the cost of converting, paying, and hedging funds just to pay for the goods and services.",
+          "translation": "거래 비용은 기업에 상당하다. 순수한 환전 비용뿐만 아니라, 상품과 서비스의 대금을 지불하기 위해 자금을 환전하고, 송금하고, 헤지하는 비용도 포함된다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "means"
+                  }
+                ],
+                "id": "s003-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "의미한다"
+                  }
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "disappear"
+                  }
+                ],
+                "id": "s003-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "사라지고"
+                  }
+                ],
+                "segmentId": "s003-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can be reinvested"
+                  }
+                ],
+                "id": "s003-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "투자될 수 있음을"
+                  }
+                ],
+                "segmentId": "s003-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "common currency"
+                },
+                "id": "s003-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "공통 통화"
+                },
+                "meaning": "여러 국가가 함께 쓰는 통화",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "reinvested"
+                },
+                "id": "s003-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "투자"
+                },
+                "meaning": "다시 투자하다",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s003-m03"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "productivity and innovation"
+                },
+                "id": "s003-m04-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "생산성과 혁신"
+                },
+                "meaning": "생산성과 혁신",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s003-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s003-a",
+                  "text": "Having a common currency means"
+                },
+                {
+                  "id": "s003-b",
+                  "text": "that many of those transaction costs disappear"
+                },
+                {
+                  "id": "s003-c",
+                  "text": "and the savings can be reinvested back"
+                },
+                {
+                  "id": "s003-d",
+                  "text": "into firms’ productivity and innovation."
+                }
+              ],
+              "displayOrder": [
+                "s003-c",
+                "s003-a",
+                "s003-d",
+                "s003-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s003-choice-01",
+                  "options": [
+                    "can be reinvested",
+                    "can reinvest"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can be reinvested"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s003-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "common currency"
+                  }
+                },
+                {
+                  "id": "s003-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can be reinvested"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s003-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "공통 통화"
+                  }
+                },
+                {
+                  "id": "s003-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "생산성과 혁신에 다시 투자"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "mean",
+                  "id": "s003-verb-01",
+                  "lemma": "mean",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "means"
+                  }
+                },
+                {
+                  "cue": "disappear",
+                  "id": "s003-verb-02",
+                  "lemma": "disappear",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "disappear"
+                  }
+                },
+                {
+                  "cue": "reinvest",
+                  "id": "s003-verb-03",
+                  "lemma": "reinvest",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can be reinvested"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "common currency",
+                "transaction costs",
+                "disappear",
+                "savings",
+                "reinvest",
+                "productivity and innovation"
+              ]
+            }
+          },
+          "id": "s003",
+          "meaningSegments": [
+            {
+              "en": "Having a common currency means",
+              "id": "s003-m01",
+              "ko": "공통 통화를 사용한다는 것은 의미한다"
+            },
+            {
+              "en": "that many of those transaction costs disappear",
+              "id": "s003-m02",
+              "ko": "그러한 거래 비용의 많은 부분이 사라지고"
+            },
+            {
+              "en": "and the savings can be reinvested back",
+              "id": "s003-m03",
+              "ko": "그 절감액이 다시 투자될 수 있음을"
+            },
+            {
+              "en": "into firms’ productivity and innovation.",
+              "id": "s003-m04",
+              "ko": "기업의 생산성과 혁신에."
+            }
+          ],
+          "no": 3,
+          "source": "Having a common currency means that many of those transaction costs disappear and the savings can be reinvested back into firms’ productivity and innovation.",
+          "translation": "공통 통화를 사용한다는 것은 그러한 거래 비용의 많은 부분이 사라지고, 그 절감액을 기업의 생산성과 혁신에 다시 투자할 수 있음을 의미한다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "turn into"
+                  }
+                ],
+                "id": "s004-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "바뀌어"
+                  }
+                ],
+                "segmentId": "s004-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "productive costs"
+                },
+                "id": "s004-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "생산적인 비용"
+                },
+                "meaning": "생산성을 높이는 비용",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s004-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "longer-term benefits"
+                },
+                "id": "s004-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "더 장기적인 혜택"
+                },
+                "meaning": "더 장기적인 혜택",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s004-m02"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "the whole economy"
+                },
+                "id": "s004-m03-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "경제 전체"
+                },
+                "meaning": "경제 전체",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s004-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s004-a",
+                  "text": "Basically,"
+                },
+                {
+                  "id": "s004-b",
+                  "text": "useless costs turn into productive costs—with longer-term benefits"
+                },
+                {
+                  "id": "s004-c",
+                  "text": "to the whole economy."
+                }
+              ],
+              "displayOrder": [
+                "s004-c",
+                "s004-a",
+                "s004-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s004-choice-01",
+                  "options": [
+                    "productive",
+                    "productively"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "productive"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s004-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "turn into productive costs"
+                  }
+                },
+                {
+                  "id": "s004-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "longer-term benefits"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s004-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "쓸모없는 비용이 생산적인 비용으로 바뀌어"
+                  }
+                },
+                {
+                  "id": "s004-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "경제 전체"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "turn into",
+                  "id": "s004-verb-01",
+                  "lemma": "turn into",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "turn into"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "useless costs",
+                "turn into",
+                "productive costs",
+                "longer-term benefits",
+                "whole economy"
+              ]
+            }
+          },
+          "id": "s004",
+          "meaningSegments": [
+            {
+              "en": "Basically,",
+              "id": "s004-m01",
+              "ko": "기본적으로,"
+            },
+            {
+              "en": "useless costs turn into productive costs—with longer-term benefits",
+              "id": "s004-m02",
+              "ko": "쓸모없는 비용이 생산적인 비용으로 바뀌어—더 장기적인 혜택을 주는"
+            },
+            {
+              "en": "to the whole economy.",
+              "id": "s004-m03",
+              "ko": "경제 전체에."
+            }
+          ],
+          "no": 4,
+          "source": "Basically, useless costs turn into productive costs—with longer-term benefits to the whole economy.",
+          "translation": "기본적으로, 쓸모없는 비용이 생산적인 비용으로 바뀌어 경제 전체에 더 장기적인 혜택을 가져온다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "benefit and grow"
+                  }
+                ],
+                "id": "s005-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "혜택을 얻고 더 성장한다"
+                  }
+                ],
+                "segmentId": "s005-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "unifying"
+                },
+                "id": "s005-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "통합"
+                },
+                "meaning": "하나로 통합하는 것",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s005-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "whole economies"
+                },
+                "id": "s005-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "경제 전체"
+                },
+                "meaning": "경제 전체",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s005-m02"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "independents"
+                },
+                "id": "s005-m03-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "독립된 단위"
+                },
+                "meaning": "각자 독립된 채로",
+                "reasons": [
+                  "abstract",
+                  "student-difficulty"
+                ],
+                "segmentId": "s005-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s005-a",
+                  "text": "By unifying some of the currencies,"
+                },
+                {
+                  "id": "s005-b",
+                  "text": "whole economies benefit and grow more"
+                },
+                {
+                  "id": "s005-c",
+                  "text": "than they would as independents."
+                }
+              ],
+              "displayOrder": [
+                "s005-c",
+                "s005-a",
+                "s005-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s005-choice-01",
+                  "options": [
+                    "unifying",
+                    "unify"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "unifying"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s005-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "unifying some of the currencies"
+                  }
+                },
+                {
+                  "id": "s005-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "benefit and grow more"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s005-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "통화의 일부를 통합함으로써"
+                  }
+                },
+                {
+                  "id": "s005-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "더 큰 혜택을 얻고 더 성장한다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "benefit and grow",
+                  "id": "s005-verb-01",
+                  "lemma": "benefit and grow",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "benefit and grow"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "unify currencies",
+                "whole economies",
+                "benefit",
+                "grow",
+                "independents"
+              ]
+            }
+          },
+          "id": "s005",
+          "meaningSegments": [
+            {
+              "en": "By unifying some of the currencies,",
+              "id": "s005-m01",
+              "ko": "통화의 일부를 통합함으로써,"
+            },
+            {
+              "en": "whole economies benefit and grow more",
+              "id": "s005-m02",
+              "ko": "경제 전체는 더 큰 혜택을 얻고 더 성장한다"
+            },
+            {
+              "en": "than they would as independents.",
+              "id": "s005-m03",
+              "ko": "그들이 각자 독립된 단위일 때보다."
+            }
+          ],
+          "no": 5,
+          "source": "By unifying some of the currencies, whole economies benefit and grow more than they would as independents.",
+          "translation": "통화의 일부를 통합함으로써, 경제 전체는 각자 독립된 단위로 존재할 때보다 더 큰 혜택을 얻고 더 성장한다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "provides for"
+                  }
+                ],
+                "id": "s006-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "마련한다"
+                  }
+                ],
+                "segmentId": "s006-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can benefit from"
+                  }
+                ],
+                "id": "s006-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "혜택을 얻을 수 있는"
+                  }
+                ],
+                "segmentId": "s006-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "provides for"
+                },
+                "id": "s006-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "마련한다"
+                },
+                "meaning": "마련하다",
+                "reasons": [
+                  "structure-critical"
+                ],
+                "segmentId": "s006-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "economic foundation"
+                },
+                "id": "s006-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "경제적 기반"
+                },
+                "meaning": "경제적 기반",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s006-m02"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "benefit from"
+                },
+                "id": "s006-m03-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "혜택을 얻"
+                },
+                "meaning": "~에서 혜택을 얻다",
+                "reasons": [
+                  "structure-critical"
+                ],
+                "segmentId": "s006-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s006-a",
+                  "text": "So a common currency provides for"
+                },
+                {
+                  "id": "s006-b",
+                  "text": "a strong economic foundation"
+                },
+                {
+                  "id": "s006-c",
+                  "text": "that all can benefit from."
+                }
+              ],
+              "displayOrder": [
+                "s006-c",
+                "s006-a",
+                "s006-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s006-choice-01",
+                  "options": [
+                    "provides",
+                    "provide"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "provides"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s006-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "strong economic foundation"
+                  }
+                },
+                {
+                  "id": "s006-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "all can benefit from"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s006-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "견고한 경제적 기반"
+                  }
+                },
+                {
+                  "id": "s006-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "모두가 혜택을 얻을 수 있는"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "provide for",
+                  "id": "s006-verb-01",
+                  "lemma": "provide for",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "provides for"
+                  }
+                },
+                {
+                  "cue": "benefit from",
+                  "id": "s006-verb-02",
+                  "lemma": "benefit from",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can benefit from"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "common currency",
+                "provide for",
+                "strong economic foundation",
+                "benefit from"
+              ]
+            }
+          },
+          "id": "s006",
+          "meaningSegments": [
+            {
+              "en": "So a common currency provides for",
+              "id": "s006-m01",
+              "ko": "그러므로 공통 통화는 마련한다"
+            },
+            {
+              "en": "a strong economic foundation",
+              "id": "s006-m02",
+              "ko": "견고한 경제적 기반을"
+            },
+            {
+              "en": "that all can benefit from.",
+              "id": "s006-m03",
+              "ko": "모두가 혜택을 얻을 수 있는."
+            }
+          ],
+          "no": 6,
+          "source": "So a common currency provides for a strong economic foundation that all can benefit from.",
+          "translation": "그러므로 공통 통화는 모두가 혜택을 얻을 수 있는 견고한 경제적 기반을 마련한다."
+        }
+      ],
+      "sourceStatus": {
+        "notes": "원본 PDF 3쪽의 23번 본문을 렌더링하여 전사했으며, 본문 아래 별표 어휘 주석과 문항 선택지는 지문 정본에서 제외했습니다.",
+        "references": [
+          "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+        ],
+        "sentenceCount": 6,
+        "sourceType": "pdf",
+        "status": "confirmed",
+        "verifiedAt": "2026-08-27T14:45:00+09:00"
+      },
+      "specVersion": "1.0.6",
+      "updateState": {
+        "appliedUpdates": [
+          {
+            "appliedAt": "2026-08-27T14:45:00+09:00",
+            "fromContentVersion": "0.0.0",
+            "id": "U-20260827-013",
+            "report": "reports/updates/U-20260827-013.md",
+            "scope": "selected",
+            "toContentVersion": "1.0.0"
+          }
+        ],
+        "defaultScope": "new-only"
+      },
+      "workbookId": "2026-june-grade2-q23"
+    },
+    "contentVersion": "1.0.0",
+    "files": [
+      {
+        "path": "workbooks/2026-june-grade2-q23/content.json",
+        "sha256": "2133178b74a309b4416cb2a156169870951a4216bfb7eb950b9616f94fbfcd55",
+        "size": 23647
+      }
+    ],
+    "workbookId": "2026-june-grade2-q23"
+  },
+  "spec": {
+    "files": [
+      {
+        "path": "config/versions.json",
+        "sha256": "94d0f092792cb82d95fa85c54447edacd8ffcca092fb16d796da58d6191937ab",
+        "size": 1621
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "sha256": "aadb3fe161b100e3a68ecb42fab51775e9738153a04278a53b27e7172f8d8f69",
+        "size": 17021
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+        "size": 8058
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "schemaFiles": [
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "semanticRubricFile": {
+      "path": "docs/semantic-rubric.md",
+      "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+      "size": 8058
+    },
+    "semanticRubricVersion": "1.0.0",
+    "spec": {
+      "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "answerEditionContract": {
+        "answerFillClassMayAutoColor": false,
+        "choicePromptVisibleInAnswer": true,
+        "redAllowedOnlyOnSolutionValues": true,
+        "sameStageAndExerciseDomAsStudent": true,
+        "solutionClass": "solution-value",
+        "solutionColor": "#D71920",
+        "solutionInsertion": "fill-the-same-solution-slot",
+        "studentDerivation": "render answer first, lock every solution slot and writing response geometry, then remove solution values only",
+        "studentPayloadMayContainSolutions": false
+      },
+      "canonicalSchema": "schemas/canonical-workbook.schema.json",
+      "canonicalText": {
+        "baseTextOverride": {
+          "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+          "defaultStorage": "omit-baseText-and-derive-from-canonical",
+          "redundantDefaultCopy": "forbidden",
+          "requiredCompanionField": "overrideReason"
+        },
+        "displayDefault": "source",
+        "exerciseBaseTextDefaults": {
+          "choice": "display-or-source",
+          "enBlank": "display-or-source",
+          "koBlank": "translation",
+          "verb": "display-or-source"
+        },
+        "markup": "forbidden",
+        "reconstruction": {
+          "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+          "meaningSegments": "join meaningSegments[].en with one ASCII space",
+          "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+        },
+        "sourceWhitespace": "single-space-between-tokens",
+        "targetAnchor": {
+          "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다.",
+          "shape": {
+            "occurrence": "one-based occurrence in the applicable base text",
+            "text": "exact substring"
+          }
+        }
+      },
+      "contentOwnership": {
+        "authorable": [
+          "metadata",
+          "sourceStatus",
+          "sentences[].source",
+          "sentences[].display",
+          "sentences[].translation",
+          "sentences[].meaningSegments",
+          "sentences[].annotations",
+          "sentences[].exercises",
+          "passageActivities.correction",
+          "passageActivities.paragraphOrder",
+          "updateState"
+        ],
+        "derived": [
+          "stage number, title, instruction and renderer mode",
+          "item and unit numbers",
+          "part ranges and page boundaries",
+          "student and answer projections",
+          "blank, predicate, vocabulary and solution markup",
+          "answer-line height and layout classes",
+          "page count, footer number and output filenames"
+        ],
+        "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+      },
+      "logicalStages": [
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].meaningSegments",
+            "sentences[].annotations.predicates",
+            "sentences[].annotations.vocabulary"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "passage-practice",
+          "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean-inline-hint"
+            ],
+            "vocabularyColoring": true
+          },
+          "number": 1,
+          "pagination": {
+            "hardMaximum": 13,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 12,
+            "unit": "sentence"
+          },
+          "rendererMode": "meaning",
+          "scope": "sentence",
+          "title": "지문 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].exercises.koBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "korean-cloze",
+          "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 2,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (우리말)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.enBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "english-cloze",
+          "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 3,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (영문)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].translation"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "translation-practice",
+          "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 4,
+          "pagination": {
+            "hardMaximum": 11,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 10,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "해석 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.verb"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "verb-form",
+          "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 5,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "동사형 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.choice"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "grammar-vocabulary-choice",
+          "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 6,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "어법·어휘 고르기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.correction"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "correction",
+          "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+          "layout": {
+            "fieldOrder": [
+              "passage",
+              "correction-rows"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 7,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "correction",
+          "scope": "passage-activity",
+          "title": "어색한 곳 찾기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.arrange"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "sentence-order",
+          "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+          "layout": {
+            "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+            "arrangementSlots": "forbidden",
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 8,
+          "pagination": {
+            "hardMaximum": 6,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 6,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "순서 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.paragraphOrder"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "paragraph-order",
+          "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "fixed-intro",
+              "shuffled-blocks",
+              "fixed-outro",
+              "sequence-slots"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 9,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "paragraph-order",
+          "scope": "passage-activity",
+          "title": "문단 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.writing",
+            "sentences[].display|source"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "composition",
+          "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "studentEnglishSkeleton": "forbidden",
+            "vocabularyColoring": false
+          },
+          "number": 10,
+          "pagination": {
+            "hardMaximum": 8,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 8,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "영작 연습하기"
+        }
+      ],
+      "paginationContract": {
+        "continuationPageMinimumItems": 2,
+        "forbidden": [
+          "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+          "legacy 흐름 or 뜻 작성 columns",
+          "content crossing the page footer",
+          "content from one page overlapping the next page",
+          "clipped text",
+          "a singleton continuation page that can be avoided within the stage hard maximum",
+          "renumbering a new part from one"
+        ],
+        "layoutPreference": "vertical",
+        "numbering": "continuous-original-sentence-number",
+        "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+        "partLabel": "inclusive-original-sentence-number-range",
+        "readingLayout": "allowed-only-after-explicit-user-request",
+        "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+        "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+        "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+        "visualFitOverridesTargetCount": true
+      },
+      "principles": {
+        "canonicalDataContainsHtml": false,
+        "logicalStageCount": 10,
+        "publishOnlyAfterAllChecksPass": true,
+        "singleContentSource": true,
+        "studentAndAnswerShareExerciseStructure": true,
+        "studentProjectionSource": "answer-edition-after-browser-measured-all-solution-layouts",
+        "uncertainSourcePolicy": "stop-and-request-clearer-source"
+      },
+      "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+      "releaseContract": {
+        "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+        "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+        "filenames": [
+          "문제.html",
+          "문제.pdf",
+          "해설.html",
+          "해설.pdf"
+        ],
+        "finalHtmlDependencies": "self-contained",
+        "outputRoot": "outputs",
+        "previewFixture": "one-shared-canonical-fixture",
+        "publish": "atomic-after-all-gates-pass",
+        "stagingRoot": ".build/releases",
+        "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture"
+      },
+      "semanticRubric": "docs/semantic-rubric.md",
+      "specVersion": "1.0.6",
+      "updates": {
+        "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+        "allowedScopes": [
+          "new-only",
+          "all",
+          "selected",
+          "manual-review"
+        ],
+        "changelogPath": "CHANGELOG.md",
+        "defaultScope": "new-only",
+        "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+        "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+        "reportRequired": true,
+        "requiredImpactDimensions": [
+          "canonical fields",
+          "stage numbers",
+          "sentence or activity ids",
+          "student and answer editions",
+          "page count and part ranges",
+          "component versions"
+        ],
+        "requiredReportSections": [
+          "요약",
+          "요청 내용",
+          "직접 변경",
+          "파생 변경",
+          "영향 없음",
+          "파일 변경",
+          "출력 변화",
+          "검증 결과",
+          "호환성",
+          "버전"
+        ],
+        "versionBump": {
+          "backward-compatible field or stage capability": "minor",
+          "breaking schema or canonical semantics": "major",
+          "bug fix, validation strengthening or copy correction": "patch"
+        }
+      },
+      "validationGates": {
+        "canonical": [
+          "JSON Schema passes",
+          "sourceStatus.status is confirmed",
+          "sentence ids and numbers are unique, consecutive and aligned",
+          "meaning segment English joined with one space equals display or source",
+          "every meaning segment has one-to-one English and Korean text",
+          "all target anchors resolve exactly at their declared occurrence",
+          "choice options contain the correct target exactly once",
+          "arrange chunks in canonical order reconstruct display or source exactly",
+          "arrange displayOrder contains every chunk id exactly once",
+          "paragraph displayOrder contains every block id exactly once",
+          "correction targets restore their base excerpt exactly",
+          "vocabulary and predicate annotations resolve inside their meaning segment"
+        ],
+        "compiled": [
+          "exactly ten logical stages appear in fixed order",
+          "sentence stages contain exactly one item for every source sentence",
+          "all part ranges are complete, consecutive and match item numbers",
+          "student and answer exercise structures are identical",
+          "every non-writing solution-slot position, width, and height is copied from the browser-measured answer edition before solution text is removed",
+          "student response-line positions, widths, and heights are copied from the browser-measured answer edition before solution text is removed",
+          "student writing areas do not draw replacement guide lines after the answer text is removed",
+          "student edition exposes no solution values",
+          "every bank, target and slot cardinality is internally consistent",
+          "stage 10 student edition contains no English skeleton"
+        ],
+        "release": [
+          "problem HTML exists",
+          "problem PDF exists",
+          "answer HTML exists",
+          "answer PDF exists",
+          "build manifest records all component versions and applied updates",
+          "update report exists when an update id is applied"
+        ],
+        "rendered": [
+          "document fonts and images are ready",
+          "browser console and page errors are empty",
+          "data-render-validation is exactly ok",
+          "no unresolved template placeholder remains",
+          "no preview fixture data remains in final HTML",
+          "no page or footer overflow exists under print media",
+          "answer red is present only on solution-value nodes",
+          "every student and answer non-writing solution-slot has matching page-relative left, top, width, and height within 0.75px",
+          "every student and answer writing response box and answer-line trace matches within 0.75px",
+          "representative and risk pages pass visual review"
+        ]
+      },
+      "vocabularyContract": {
+        "allowedStageNumbers": [
+          1
+        ],
+        "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+        "maximumPerSentence": 3,
+        "redSlotForbidden": true,
+        "rendererClasses": {
+          "english": "vocab vocab-{slot} gloss",
+          "korean": "vocab vocab-{slot}"
+        },
+        "sameEnglishAndKoreanSlot": true,
+        "slots": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "specVersion": "1.0.6"
+  },
+  "template": {
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+        "size": 29359
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "sha256": "25a21d18af7ee1100e7a4d0023af1175140e82dd2cce2a246d0fcd5ece2411ee",
+        "size": 42558
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+        "size": 1212
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "sha256": "ceab51f4246462f507a1de7c6aea850fb577113c37e74b4d98a645f23744a330",
+        "size": 15185
+      }
+    ],
+    "rendererContract": "shared-dom-explicit-targets-fail-closed",
+    "templateVersion": "1.0.4"
+  }
+}

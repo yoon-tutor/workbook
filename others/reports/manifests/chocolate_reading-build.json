@@ -1,0 +1,1111 @@
+{
+  "appliedUpdates": [
+    "U-20260710-001",
+    "U-20260723-004",
+    "U-20260723-005"
+  ],
+  "buildVersion": "1.0.2",
+  "builtAt": "2026-07-23T23:27:00+09:00",
+  "canonicalDigest": "556a6335e436d1031b8085efa363cc466771a2080642517e03ed4c4c018c84b9",
+  "compilerVersion": "1.0.2",
+  "contentVersion": "1.0.2",
+  "engineDigest": "b51bb9b758b4a296e3e5fa03c8af783a3626209e4cb1ee0cd519a6394e903d40",
+  "engineInputs": [
+    {
+      "path": "workbook_engine/__init__.py",
+      "sha256": "51971fe944f53b6d6be26501c8730fc99ec76bd250e966ef1c9129a5b257363c",
+      "size": 139
+    },
+    {
+      "path": "workbook_engine/__main__.py",
+      "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+      "size": 5332
+    },
+    {
+      "path": "workbook_engine/change_report.py",
+      "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+      "size": 35564
+    },
+    {
+      "path": "workbook_engine/compiler.py",
+      "sha256": "01a494e0ac7cf8d607340e9d06fe9a910fa1cd1b1422c73dc7b1d76b44e8d840",
+      "size": 14275
+    },
+    {
+      "path": "workbook_engine/manifest.py",
+      "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+      "size": 6606
+    },
+    {
+      "path": "workbook_engine/migrate_legacy.py",
+      "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+      "size": 12027
+    },
+    {
+      "path": "workbook_engine/paginator.py",
+      "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+      "size": 3394
+    },
+    {
+      "path": "workbook_engine/qa.py",
+      "sha256": "42d8b5216b70fa0eaba08421b78fdbf50f1021f41e2dc1a31805adbef9c0e4b2",
+      "size": 31543
+    },
+    {
+      "path": "workbook_engine/release.py",
+      "sha256": "53f264feb5b216ac0a4daec4eb23213bb407ce29a70a014ea0c4d6916832eed6",
+      "size": 29907
+    },
+    {
+      "path": "workbook_engine/render.py",
+      "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+      "size": 4492
+    },
+    {
+      "path": "workbook_engine/schema_gate.py",
+      "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+      "size": 7611
+    },
+    {
+      "path": "workbook_engine/textops.py",
+      "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+      "size": 9891
+    },
+    {
+      "path": "workbook_engine/validator.py",
+      "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+      "size": 26644
+    }
+  ],
+  "files": [
+    {
+      "path": "workbook_engine/__init__.py",
+      "sha256": "51971fe944f53b6d6be26501c8730fc99ec76bd250e966ef1c9129a5b257363c",
+      "size": 139
+    },
+    {
+      "path": "workbook_engine/__main__.py",
+      "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+      "size": 5332
+    },
+    {
+      "path": "workbook_engine/change_report.py",
+      "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+      "size": 35564
+    },
+    {
+      "path": "workbook_engine/compiler.py",
+      "sha256": "01a494e0ac7cf8d607340e9d06fe9a910fa1cd1b1422c73dc7b1d76b44e8d840",
+      "size": 14275
+    },
+    {
+      "path": "workbook_engine/manifest.py",
+      "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+      "size": 6606
+    },
+    {
+      "path": "workbook_engine/migrate_legacy.py",
+      "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+      "size": 12027
+    },
+    {
+      "path": "workbook_engine/paginator.py",
+      "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+      "size": 3394
+    },
+    {
+      "path": "workbook_engine/qa.py",
+      "sha256": "42d8b5216b70fa0eaba08421b78fdbf50f1021f41e2dc1a31805adbef9c0e4b2",
+      "size": 31543
+    },
+    {
+      "path": "workbook_engine/release.py",
+      "sha256": "53f264feb5b216ac0a4daec4eb23213bb407ce29a70a014ea0c4d6916832eed6",
+      "size": 29907
+    },
+    {
+      "path": "workbook_engine/render.py",
+      "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+      "size": 4492
+    },
+    {
+      "path": "workbook_engine/schema_gate.py",
+      "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+      "size": 7611
+    },
+    {
+      "path": "workbook_engine/textops.py",
+      "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+      "size": 9891
+    },
+    {
+      "path": "workbook_engine/validator.py",
+      "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+      "size": 26644
+    },
+    {
+      "path": "문제.html",
+      "sha256": "3ada1095d793e008258ade59bdf9ecc060cd1a52bc56206e8113d06b5c32fdfa",
+      "size": 190692
+    },
+    {
+      "path": "문제.pdf",
+      "sha256": "72f2c6bdfe57c6f349c17db8a24d9fbbc72cd52c33b02c90b451d3735122ed9e",
+      "size": 919521
+    },
+    {
+      "path": "해설.html",
+      "sha256": "3e95160ce4554b2d1036a9c4d4ae466b15fd077afeabce92190c0391417780f2",
+      "size": 212182
+    },
+    {
+      "path": "해설.pdf",
+      "sha256": "9cf73ff750a1044d9bc90f5cdb6f692eaa2ce1251359612f83cecc362243ac10",
+      "size": 1113005
+    }
+  ],
+  "outputs": [
+    {
+      "path": "문제.html",
+      "sha256": "3ada1095d793e008258ade59bdf9ecc060cd1a52bc56206e8113d06b5c32fdfa",
+      "size": 190692
+    },
+    {
+      "path": "문제.pdf",
+      "sha256": "72f2c6bdfe57c6f349c17db8a24d9fbbc72cd52c33b02c90b451d3735122ed9e",
+      "size": 919521
+    },
+    {
+      "path": "해설.html",
+      "sha256": "3e95160ce4554b2d1036a9c4d4ae466b15fd077afeabce92190c0391417780f2",
+      "size": 212182
+    },
+    {
+      "path": "해설.pdf",
+      "sha256": "9cf73ff750a1044d9bc90f5cdb6f692eaa2ce1251359612f83cecc362243ac10",
+      "size": 1113005
+    }
+  ],
+  "pages": [
+    {
+      "digest": "04b9504fead80c9956745793ac8b470162606ab1cea040c36dd092932b9d8d49",
+      "edition": "student",
+      "id": "student:chocolate-reading-p01",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "page": 1,
+      "pageId": "chocolate-reading-p01",
+      "part": "1-12",
+      "stageId": "1"
+    },
+    {
+      "digest": "4835c94bec0bba5a75a0e6a1d9755aa1b4533f1d28082ebf1442aab29dfc97b0",
+      "edition": "student",
+      "id": "student:chocolate-reading-p02",
+      "itemIds": [
+        "s013",
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 2,
+      "pageId": "chocolate-reading-p02",
+      "part": "13-24",
+      "stageId": "1"
+    },
+    {
+      "digest": "92a6b5d0297cd991d1a5370e172a32b2fe3530ac3c67a38c4eacc4c5bca29be5",
+      "edition": "student",
+      "id": "student:chocolate-reading-p03",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "page": 3,
+      "pageId": "chocolate-reading-p03",
+      "part": "1-12",
+      "stageId": "2"
+    },
+    {
+      "digest": "b3d798982572fa1319253dadf87641440aa8a671832296ad8cd37344ccd28c48",
+      "edition": "student",
+      "id": "student:chocolate-reading-p04",
+      "itemIds": [
+        "s013",
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 4,
+      "pageId": "chocolate-reading-p04",
+      "part": "13-24",
+      "stageId": "2"
+    },
+    {
+      "digest": "e7b4ad6872c9f6b64f1d0ea6f72e5f64da09638538f4546ba5c26c65d8302af0",
+      "edition": "student",
+      "id": "student:chocolate-reading-p05",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "page": 5,
+      "pageId": "chocolate-reading-p05",
+      "part": "1-12",
+      "stageId": "3"
+    },
+    {
+      "digest": "806889155e1a249ea966e45d667cf6b0779840129f081e48a43ebd0eeeed9a8c",
+      "edition": "student",
+      "id": "student:chocolate-reading-p06",
+      "itemIds": [
+        "s013",
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 6,
+      "pageId": "chocolate-reading-p06",
+      "part": "13-24",
+      "stageId": "3"
+    },
+    {
+      "digest": "496e7719334180669cab5b81d0abb79001cb34c9b2a2d76c5759a885192102eb",
+      "edition": "student",
+      "id": "student:chocolate-reading-p07",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008"
+      ],
+      "page": 7,
+      "pageId": "chocolate-reading-p07",
+      "part": "1-8",
+      "stageId": "4"
+    },
+    {
+      "digest": "57a167cd0542342a00824c5926eb3f3d8f97db71cc2718f687da78c668fb98c3",
+      "edition": "student",
+      "id": "student:chocolate-reading-p08",
+      "itemIds": [
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014",
+        "s015",
+        "s016"
+      ],
+      "page": 8,
+      "pageId": "chocolate-reading-p08",
+      "part": "9-16",
+      "stageId": "4"
+    },
+    {
+      "digest": "d11894ad31f675e97549e722bffaba4d7206b0ac852a64a026b455072bf00e1f",
+      "edition": "student",
+      "id": "student:chocolate-reading-p09",
+      "itemIds": [
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 9,
+      "pageId": "chocolate-reading-p09",
+      "part": "17-24",
+      "stageId": "4"
+    },
+    {
+      "digest": "ae2e91b729fb2b5fdc60e83ba7694246036e0f97e29170d4809196b1923986f2",
+      "edition": "student",
+      "id": "student:chocolate-reading-p10",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "page": 10,
+      "pageId": "chocolate-reading-p10",
+      "part": "1-12",
+      "stageId": "5"
+    },
+    {
+      "digest": "4df26658fca748c6dff4833b7bbd9992e3cdf8a7764af78342b3bd0c78d981c4",
+      "edition": "student",
+      "id": "student:chocolate-reading-p11",
+      "itemIds": [
+        "s013",
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 11,
+      "pageId": "chocolate-reading-p11",
+      "part": "13-24",
+      "stageId": "5"
+    },
+    {
+      "digest": "4dceedfc1fcbbf02ece0f8c31873858e973e5d5eed2a685506781d585499c262",
+      "edition": "student",
+      "id": "student:chocolate-reading-p12",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "page": 12,
+      "pageId": "chocolate-reading-p12",
+      "part": "1-12",
+      "stageId": "6"
+    },
+    {
+      "digest": "9153fe1f2991ab74ef85fddaffd2833169a10448283fdd07699318c607c68839",
+      "edition": "student",
+      "id": "student:chocolate-reading-p13",
+      "itemIds": [
+        "s013",
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 13,
+      "pageId": "chocolate-reading-p13",
+      "part": "13-24",
+      "stageId": "6"
+    },
+    {
+      "digest": "5a8b76585f4cece90173b7b3b579376477b3c8ad3809b43d789f176ddb554d32",
+      "edition": "student",
+      "id": "student:chocolate-reading-p14",
+      "itemIds": [],
+      "page": 14,
+      "pageId": "chocolate-reading-p14",
+      "part": null,
+      "stageId": "7"
+    },
+    {
+      "digest": "9490dca3c12d2fd26664245063c0d6d09b0143a1eb41722768c8b2b8b8a20e0c",
+      "edition": "student",
+      "id": "student:chocolate-reading-p15",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "page": 15,
+      "pageId": "chocolate-reading-p15",
+      "part": "1-6",
+      "stageId": "8"
+    },
+    {
+      "digest": "fe2e29d5b841be2f4090dfcf33a27d1e96bf2698294b080b7525b7fe4df7d557",
+      "edition": "student",
+      "id": "student:chocolate-reading-p16",
+      "itemIds": [
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "page": 16,
+      "pageId": "chocolate-reading-p16",
+      "part": "7-12",
+      "stageId": "8"
+    },
+    {
+      "digest": "978e1bcd586422597944a9bd7e27ad7f771f216105246bf32305c1a045edcc82",
+      "edition": "student",
+      "id": "student:chocolate-reading-p17",
+      "itemIds": [
+        "s013",
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018"
+      ],
+      "page": 17,
+      "pageId": "chocolate-reading-p17",
+      "part": "13-18",
+      "stageId": "8"
+    },
+    {
+      "digest": "85095e6c080a2dfda37e54a1e357d2472488bcc7875831687105e90e194bd499",
+      "edition": "student",
+      "id": "student:chocolate-reading-p18",
+      "itemIds": [
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 18,
+      "pageId": "chocolate-reading-p18",
+      "part": "19-24",
+      "stageId": "8"
+    },
+    {
+      "digest": "6cb54692b21f65f95c9d60712545189553f1e3cca2da42bb773d45454e434960",
+      "edition": "student",
+      "id": "student:chocolate-reading-p19",
+      "itemIds": [],
+      "page": 19,
+      "pageId": "chocolate-reading-p19",
+      "part": null,
+      "stageId": "9"
+    },
+    {
+      "digest": "193a6869ba5db696e2e4bfe099639adac26a9506a47cd12b777508c0c4a11726",
+      "edition": "student",
+      "id": "student:chocolate-reading-p20",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008"
+      ],
+      "page": 20,
+      "pageId": "chocolate-reading-p20",
+      "part": "1-8",
+      "stageId": "10"
+    },
+    {
+      "digest": "8c506f5386ec9044dad73837ec9504b3ff757ed83c034527e355c3adb9b1e01f",
+      "edition": "student",
+      "id": "student:chocolate-reading-p21",
+      "itemIds": [
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014",
+        "s015",
+        "s016"
+      ],
+      "page": 21,
+      "pageId": "chocolate-reading-p21",
+      "part": "9-16",
+      "stageId": "10"
+    },
+    {
+      "digest": "a2b25a7250de23d680bbd036b2f49eb9e4d5ff4cc4def0e0003aee3fd937c5cb",
+      "edition": "student",
+      "id": "student:chocolate-reading-p22",
+      "itemIds": [
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 22,
+      "pageId": "chocolate-reading-p22",
+      "part": "17-24",
+      "stageId": "10"
+    },
+    {
+      "digest": "04b9504fead80c9956745793ac8b470162606ab1cea040c36dd092932b9d8d49",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p01",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "page": 1,
+      "pageId": "chocolate-reading-p01",
+      "part": "1-12",
+      "stageId": "1"
+    },
+    {
+      "digest": "4835c94bec0bba5a75a0e6a1d9755aa1b4533f1d28082ebf1442aab29dfc97b0",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p02",
+      "itemIds": [
+        "s013",
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 2,
+      "pageId": "chocolate-reading-p02",
+      "part": "13-24",
+      "stageId": "1"
+    },
+    {
+      "digest": "c9f0a6be8e4192b9cb2bd7670c0eec785676e02d1e85d2f3db7e5462457fb3eb",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p03",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "page": 3,
+      "pageId": "chocolate-reading-p03",
+      "part": "1-12",
+      "stageId": "2"
+    },
+    {
+      "digest": "3df67b78d5e55876d82cfbd35bc29592d7065c36e9b98ff13dd51b2d2afff49b",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p04",
+      "itemIds": [
+        "s013",
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 4,
+      "pageId": "chocolate-reading-p04",
+      "part": "13-24",
+      "stageId": "2"
+    },
+    {
+      "digest": "bc8a268ff7c759ea28403d7cd9ea476897f010b7f9130c75c37f263e496eb672",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p05",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "page": 5,
+      "pageId": "chocolate-reading-p05",
+      "part": "1-12",
+      "stageId": "3"
+    },
+    {
+      "digest": "11de5682f910c2e5b8f3ee6489559d5924e97d969c5db398f5c219a168701ea0",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p06",
+      "itemIds": [
+        "s013",
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 6,
+      "pageId": "chocolate-reading-p06",
+      "part": "13-24",
+      "stageId": "3"
+    },
+    {
+      "digest": "db6be0131592fe1fec179e31987bb8668e15d948441fffdafc0768168811857f",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p07",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008"
+      ],
+      "page": 7,
+      "pageId": "chocolate-reading-p07",
+      "part": "1-8",
+      "stageId": "4"
+    },
+    {
+      "digest": "7cc44cb1e4be3ca4f2c0f1b50aada7935a4af02471ecb95c42c78c8135c65e05",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p08",
+      "itemIds": [
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014",
+        "s015",
+        "s016"
+      ],
+      "page": 8,
+      "pageId": "chocolate-reading-p08",
+      "part": "9-16",
+      "stageId": "4"
+    },
+    {
+      "digest": "dd69434cb57a53e16fa5f453492ed8a085e8240d74a40ae2946268d3ee62b7cc",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p09",
+      "itemIds": [
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 9,
+      "pageId": "chocolate-reading-p09",
+      "part": "17-24",
+      "stageId": "4"
+    },
+    {
+      "digest": "fbba05fb693413e381a1589222aac01977dc222dc839aae53e6b8347742b0f4c",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p10",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "page": 10,
+      "pageId": "chocolate-reading-p10",
+      "part": "1-12",
+      "stageId": "5"
+    },
+    {
+      "digest": "65c1b63d309d41b3e5538e90a0434e6fe02e85627d074eefc793c9093c97965b",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p11",
+      "itemIds": [
+        "s013",
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 11,
+      "pageId": "chocolate-reading-p11",
+      "part": "13-24",
+      "stageId": "5"
+    },
+    {
+      "digest": "54cc252687edd72894d82f7a0db4b9dc7cf9379111bc9c07fafced89b5d493d6",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p12",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "page": 12,
+      "pageId": "chocolate-reading-p12",
+      "part": "1-12",
+      "stageId": "6"
+    },
+    {
+      "digest": "6e45b62a46f1b322917e65302715b8ffabb9025ab515889d5c04c1fdc79d0bcc",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p13",
+      "itemIds": [
+        "s013",
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 13,
+      "pageId": "chocolate-reading-p13",
+      "part": "13-24",
+      "stageId": "6"
+    },
+    {
+      "digest": "73195a5d3e389a0ad4a0b98d1c4535826836230a9ef85de61410be4635f5b9a5",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p14",
+      "itemIds": [],
+      "page": 14,
+      "pageId": "chocolate-reading-p14",
+      "part": null,
+      "stageId": "7"
+    },
+    {
+      "digest": "a489d50da76fa6056f7090b019846b837cd4a5feca0d147a63350ac7a69c6855",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p15",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "page": 15,
+      "pageId": "chocolate-reading-p15",
+      "part": "1-6",
+      "stageId": "8"
+    },
+    {
+      "digest": "d77fade76ddbfb30f8c946a50a8f89f24e99e47ff5719e03b84886bf83899745",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p16",
+      "itemIds": [
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "page": 16,
+      "pageId": "chocolate-reading-p16",
+      "part": "7-12",
+      "stageId": "8"
+    },
+    {
+      "digest": "5ce2b7cd1d5bfa99a43c973fe940df4b7dde11163ffe60f1763845f3870c36d0",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p17",
+      "itemIds": [
+        "s013",
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018"
+      ],
+      "page": 17,
+      "pageId": "chocolate-reading-p17",
+      "part": "13-18",
+      "stageId": "8"
+    },
+    {
+      "digest": "17f696ef4728e18b87a3135eac9d1179684a566a75bc10b962d702935a478c8b",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p18",
+      "itemIds": [
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 18,
+      "pageId": "chocolate-reading-p18",
+      "part": "19-24",
+      "stageId": "8"
+    },
+    {
+      "digest": "eee4afc2bda2a4de781469e87557b97437fd7a57a3ce5f6aea7e344e23015a2d",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p19",
+      "itemIds": [],
+      "page": 19,
+      "pageId": "chocolate-reading-p19",
+      "part": null,
+      "stageId": "9"
+    },
+    {
+      "digest": "20df61082c21804df27f2b2301a704f23840a120e7224c0889f80922e7bbf469",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p20",
+      "itemIds": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008"
+      ],
+      "page": 20,
+      "pageId": "chocolate-reading-p20",
+      "part": "1-8",
+      "stageId": "10"
+    },
+    {
+      "digest": "98be534b986bd80ff1952c1435081090b620883ffc388aaff9b5e4fd91381531",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p21",
+      "itemIds": [
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014",
+        "s015",
+        "s016"
+      ],
+      "page": 21,
+      "pageId": "chocolate-reading-p21",
+      "part": "9-16",
+      "stageId": "10"
+    },
+    {
+      "digest": "5c0403a92b3510eeaee502a5ff60838aa1baf5940bdd1d15875198cbafaaa9db",
+      "edition": "answer",
+      "id": "answer:chocolate-reading-p22",
+      "itemIds": [
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024"
+      ],
+      "page": 22,
+      "pageId": "chocolate-reading-p22",
+      "part": "17-24",
+      "stageId": "10"
+    }
+  ],
+  "qa": {
+    "contactSheets": [
+      "qa/samples/student-contact-sheet.png",
+      "qa/samples/answer-contact-sheet.png"
+    ],
+    "dom": {
+      "answer": {
+        "pages": 22,
+        "solutions": 255
+      },
+      "sharedTargetSlotCount": 260,
+      "student": {
+        "pages": 22,
+        "solutions": 0
+      }
+    },
+    "pdf": {
+      "answerPages": 22,
+      "studentPages": 22
+    },
+    "status": "passed",
+    "visualSamples": [
+      "qa/samples/student-p01.png",
+      "qa/samples/student-p02.png",
+      "qa/samples/student-p07.png",
+      "qa/samples/student-p12.png",
+      "qa/samples/student-p14.png",
+      "qa/samples/student-p15.png",
+      "qa/samples/student-p19.png",
+      "qa/samples/student-p20.png",
+      "qa/samples/student-p22.png",
+      "qa/samples/answer-p01.png",
+      "qa/samples/answer-p02.png",
+      "qa/samples/answer-p07.png",
+      "qa/samples/answer-p12.png",
+      "qa/samples/answer-p14.png",
+      "qa/samples/answer-p15.png",
+      "qa/samples/answer-p19.png",
+      "qa/samples/answer-p20.png",
+      "qa/samples/answer-p22.png"
+    ]
+  },
+  "reportFormatVersion": "1.0.0",
+  "schemaVersion": "1.0.0",
+  "semanticRubricVersion": "1.0.0",
+  "sourceDigest": "2e957e3b573145c8c25e1e992a330cb9ce7d7180b5c734c2ba575d261743172d",
+  "specVersion": "1.0.2",
+  "templateVersion": "1.0.1",
+  "validationStatus": "passed",
+  "visualReview": {
+    "notes": "학생용·해설용 22쪽 contact sheet에서 4단계가 긴 문장 높이를 지키며 8/8/8로 균등 배치된 것을 확인함. 단독 꼬리 페이지, 잘림·겹침·번호 오류·학생용 정답 누출·교정 색상 오류 없음.",
+    "reviewedAt": "2026-07-23T23:28:04+09:00",
+    "reviewer": "Codex",
+    "status": "passed"
+  },
+  "workbookId": "chocolate-reading"
+}

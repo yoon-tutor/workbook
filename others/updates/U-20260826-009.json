@@ -1,0 +1,62 @@
+{
+  "$schema": "../schemas/update.schema.json",
+  "id": "U-20260826-009",
+  "title": "해설 기준 서술형 답안 칸 동기화",
+  "date": "2026-08-26",
+  "summary": "해설용을 먼저 렌더링해 작성형 정답이 실제로 차지한 높이를 측정하고, 같은 높이를 유지한 채 정답만 제거하여 학생용을 생성합니다.",
+  "category": "layout-and-release",
+  "applyTo": "all",
+  "affectedStages": [
+    4,
+    8,
+    10
+  ],
+  "request": "서술형 문제의 답안 칸을 해설용 답안이 차지하는 실제 높이만큼 확보하고, 해설용에서 답만 지운 구조로 학생용을 생성합니다.",
+  "directChanges": {
+    "files": [
+      "config/workbook-spec.json",
+      "config/versions.json",
+      "workbook_engine/compiler.py",
+      "workbook_engine/qa.py",
+      "workbook_engine/release.py",
+      "workbook_engine/templates/README.md",
+      "tests/test_engine.py",
+      "workbooks/2026-june-grade2-q20/content.json",
+      "workbooks/2026-june-grade2-q21/content.json",
+      "workbooks/chocolate/content.json",
+      "workbooks/soccer-jersey-swap/content.json",
+      "workbooks/when-failure-become-ideas/content.json"
+    ],
+    "jsonPaths": [
+      {
+        "manifest": "spec",
+        "path": "$"
+      },
+      {
+        "manifest": "build",
+        "path": "$"
+      },
+      {
+        "manifest": "canonical",
+        "path": "$"
+      }
+    ]
+  },
+  "verification": [
+    {
+      "name": "answer-first-projection",
+      "status": "pass",
+      "details": "학생용이 해설용 IR의 답안 높이를 유지한 채 정답 데이터만 제거하는 단위 검사를 통과했습니다."
+    },
+    {
+      "name": "student-answer-height-match",
+      "status": "pass",
+      "details": "브라우저가 학생용과 해설용의 모든 작성형 target 높이를 비교하며, 0.75px를 넘는 차이를 릴리스 차단 조건으로 검증합니다."
+    },
+    {
+      "name": "regression-suite",
+      "status": "pass",
+      "details": "정본 5개 검증과 전체 회귀 검사 33개가 통과했습니다."
+    }
+  ]
+}

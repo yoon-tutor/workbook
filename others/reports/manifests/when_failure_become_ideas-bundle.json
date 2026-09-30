@@ -1,0 +1,4580 @@
+{
+  "build": {
+    "appliedUpdates": [
+      "U-20260723-003",
+      "U-20260723-004",
+      "U-20260723-005"
+    ],
+    "buildVersion": "1.0.2",
+    "builtAt": "2026-07-23T23:25:47+09:00",
+    "canonicalDigest": "8591398902a244ca2f6519420aceefdb9247d0e9b290ea469c6164d99ed2a5bc",
+    "compilerVersion": "1.0.2",
+    "contentVersion": "1.0.2",
+    "engineDigest": "b51bb9b758b4a296e3e5fa03c8af783a3626209e4cb1ee0cd519a6394e903d40",
+    "engineInputs": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "51971fe944f53b6d6be26501c8730fc99ec76bd250e966ef1c9129a5b257363c",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "01a494e0ac7cf8d607340e9d06fe9a910fa1cd1b1422c73dc7b1d76b44e8d840",
+        "size": 14275
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "42d8b5216b70fa0eaba08421b78fdbf50f1021f41e2dc1a31805adbef9c0e4b2",
+        "size": 31543
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "53f264feb5b216ac0a4daec4eb23213bb407ce29a70a014ea0c4d6916832eed6",
+        "size": 29907
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      }
+    ],
+    "files": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "51971fe944f53b6d6be26501c8730fc99ec76bd250e966ef1c9129a5b257363c",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "01a494e0ac7cf8d607340e9d06fe9a910fa1cd1b1422c73dc7b1d76b44e8d840",
+        "size": 14275
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "42d8b5216b70fa0eaba08421b78fdbf50f1021f41e2dc1a31805adbef9c0e4b2",
+        "size": 31543
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "53f264feb5b216ac0a4daec4eb23213bb407ce29a70a014ea0c4d6916832eed6",
+        "size": 29907
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      },
+      {
+        "path": "문제.html",
+        "sha256": "e3c5747aacbdbf15d6ee4deb28ad3274e6cb27dce9a658f3024fb095b88ab273",
+        "size": 158027
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "69deb9513358e26541ddc62e2f6e7352b6fbe933a3423a1b40f0ecb8a5ca598e",
+        "size": 755102
+      },
+      {
+        "path": "해설.html",
+        "sha256": "10ded181cd65064d7d60f155b9a9c7e024439fa05512ec3dd8245e9cc99b6ef3",
+        "size": 170414
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "b76d86fc0ec1567b320ca59d18a2ee9819df156ea3489b323272c44a91860b91",
+        "size": 903993
+      }
+    ],
+    "outputs": [
+      {
+        "path": "문제.html",
+        "sha256": "e3c5747aacbdbf15d6ee4deb28ad3274e6cb27dce9a658f3024fb095b88ab273",
+        "size": 158027
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "69deb9513358e26541ddc62e2f6e7352b6fbe933a3423a1b40f0ecb8a5ca598e",
+        "size": 755102
+      },
+      {
+        "path": "해설.html",
+        "sha256": "10ded181cd65064d7d60f155b9a9c7e024439fa05512ec3dd8245e9cc99b6ef3",
+        "size": 170414
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "b76d86fc0ec1567b320ca59d18a2ee9819df156ea3489b323272c44a91860b91",
+        "size": 903993
+      }
+    ],
+    "pages": [
+      {
+        "digest": "f6654f7b244227b11a19e8c71ddfd6535d5a8e4ae96dd5cebf36e701165c048c",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011"
+        ],
+        "page": 1,
+        "pageId": "when-failure-become-ideas-p01",
+        "part": "1-11",
+        "stageId": "1"
+      },
+      {
+        "digest": "55ab92f28f5e43530d0af0f3475f73774aeed6cc5745b36a67af004418c4e614",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p02",
+        "itemIds": [
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 2,
+        "pageId": "when-failure-become-ideas-p02",
+        "part": "12-21",
+        "stageId": "1"
+      },
+      {
+        "digest": "9997a03da67776bb301c00b4ebe4abddaab7d80daca956fc2e2611bea5acaec5",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011"
+        ],
+        "page": 3,
+        "pageId": "when-failure-become-ideas-p03",
+        "part": "1-11",
+        "stageId": "2"
+      },
+      {
+        "digest": "651d6b9ac43b0e0210607bb8e913c21201148ffc355727aa0fbd432914997e56",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p04",
+        "itemIds": [
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 4,
+        "pageId": "when-failure-become-ideas-p04",
+        "part": "12-21",
+        "stageId": "2"
+      },
+      {
+        "digest": "72ea8a5f801f65c8e779b2c9da4c4d395fa107a7d19483466c769f24e1d9dfd4",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011"
+        ],
+        "page": 5,
+        "pageId": "when-failure-become-ideas-p05",
+        "part": "1-11",
+        "stageId": "3"
+      },
+      {
+        "digest": "e9f53aa58394eea98ee8ae2de1c802472670d4c2c08183a752e4173b45e18ed6",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p06",
+        "itemIds": [
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 6,
+        "pageId": "when-failure-become-ideas-p06",
+        "part": "12-21",
+        "stageId": "3"
+      },
+      {
+        "digest": "c3e8aaf0bb063191acbf5f78f79ae251387c21b869460cb3d9c74912b739a529",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p07",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011"
+        ],
+        "page": 7,
+        "pageId": "when-failure-become-ideas-p07",
+        "part": "1-11",
+        "stageId": "4"
+      },
+      {
+        "digest": "cdcbb91b92f524773b1a6b9ddb22993653a030605d800dbdbe6cd40c6a5dd6e7",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p08",
+        "itemIds": [
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 8,
+        "pageId": "when-failure-become-ideas-p08",
+        "part": "12-21",
+        "stageId": "4"
+      },
+      {
+        "digest": "07608bfb3e591a579082d5808e4d5e3484deaaabed89559644f982345afae5f8",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p09",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011"
+        ],
+        "page": 9,
+        "pageId": "when-failure-become-ideas-p09",
+        "part": "1-11",
+        "stageId": "5"
+      },
+      {
+        "digest": "25f01cfd6070648c7d639183dded02cc3145e0351753aa71a771064c3d792dea",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p10",
+        "itemIds": [
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 10,
+        "pageId": "when-failure-become-ideas-p10",
+        "part": "12-21",
+        "stageId": "5"
+      },
+      {
+        "digest": "67de0d4c6c560fe05eefdf19047d4d549e83e4b729333529642b940535dcfa80",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p11",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011"
+        ],
+        "page": 11,
+        "pageId": "when-failure-become-ideas-p11",
+        "part": "1-11",
+        "stageId": "6"
+      },
+      {
+        "digest": "3b1fb8da2dcfa93181b5a1c1aa55a0a720de8a230aa666ea8eef03e384932b99",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p12",
+        "itemIds": [
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 12,
+        "pageId": "when-failure-become-ideas-p12",
+        "part": "12-21",
+        "stageId": "6"
+      },
+      {
+        "digest": "4ffa8f28c98e5f5119a45f58aa327520ea33bd2b938dc6f803c1cbe52bb53b5f",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p13",
+        "itemIds": [],
+        "page": 13,
+        "pageId": "when-failure-become-ideas-p13",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "30005ab32fbe258149f8e615551f3cfcede77ba742ce8ccbc54f3bdcbeebe1e1",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p14",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 14,
+        "pageId": "when-failure-become-ideas-p14",
+        "part": "1-6",
+        "stageId": "8"
+      },
+      {
+        "digest": "29316aba812c9b1b8c762e4a1f4e2bc864394889d1479491daf2fd9e54d81481",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p15",
+        "itemIds": [
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011"
+        ],
+        "page": 15,
+        "pageId": "when-failure-become-ideas-p15",
+        "part": "7-11",
+        "stageId": "8"
+      },
+      {
+        "digest": "6f6a95969de154e09ef78f11fb3f5fe27c4dadbd89f1b8c6100b629c07e38da0",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p16",
+        "itemIds": [
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016"
+        ],
+        "page": 16,
+        "pageId": "when-failure-become-ideas-p16",
+        "part": "12-16",
+        "stageId": "8"
+      },
+      {
+        "digest": "520e42bfaff2855a4a85ddf44aa69813a85ac4394320d59ef5ebd9edc6b02a5e",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p17",
+        "itemIds": [
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 17,
+        "pageId": "when-failure-become-ideas-p17",
+        "part": "17-21",
+        "stageId": "8"
+      },
+      {
+        "digest": "885887004859a1f71e0e7c4f4d660f62b3c37295e23cefcbda97d1da04c385bb",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p18",
+        "itemIds": [],
+        "page": 18,
+        "pageId": "when-failure-become-ideas-p18",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "a6e9bc81dc26a14c42d32a19c04bf45e3c5f6f85f08aab003855e87308462c61",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p19",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 19,
+        "pageId": "when-failure-become-ideas-p19",
+        "part": "1-7",
+        "stageId": "10"
+      },
+      {
+        "digest": "ba7252bac19845cb8e2595a2757479645ab29351609f1b5549c211755b7d6a1d",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p20",
+        "itemIds": [
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 20,
+        "pageId": "when-failure-become-ideas-p20",
+        "part": "8-14",
+        "stageId": "10"
+      },
+      {
+        "digest": "f532316931343209ecf50e315503b136275ee520e59c46ee9f91359a20ffd2b5",
+        "edition": "student",
+        "id": "student:when-failure-become-ideas-p21",
+        "itemIds": [
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 21,
+        "pageId": "when-failure-become-ideas-p21",
+        "part": "15-21",
+        "stageId": "10"
+      },
+      {
+        "digest": "f6654f7b244227b11a19e8c71ddfd6535d5a8e4ae96dd5cebf36e701165c048c",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011"
+        ],
+        "page": 1,
+        "pageId": "when-failure-become-ideas-p01",
+        "part": "1-11",
+        "stageId": "1"
+      },
+      {
+        "digest": "55ab92f28f5e43530d0af0f3475f73774aeed6cc5745b36a67af004418c4e614",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p02",
+        "itemIds": [
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 2,
+        "pageId": "when-failure-become-ideas-p02",
+        "part": "12-21",
+        "stageId": "1"
+      },
+      {
+        "digest": "78002335c8bdc1a333a67f30933d0989955be2852b369523e8e1cf83e59dff76",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011"
+        ],
+        "page": 3,
+        "pageId": "when-failure-become-ideas-p03",
+        "part": "1-11",
+        "stageId": "2"
+      },
+      {
+        "digest": "bbac91e1b58203ab26f33ac87744537aec9aa4c0b527daccaa209d4e9e8f6648",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p04",
+        "itemIds": [
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 4,
+        "pageId": "when-failure-become-ideas-p04",
+        "part": "12-21",
+        "stageId": "2"
+      },
+      {
+        "digest": "317a5b73dda721a8efc66c96148360402722e1546902fc319fa31fd0e76b54bc",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011"
+        ],
+        "page": 5,
+        "pageId": "when-failure-become-ideas-p05",
+        "part": "1-11",
+        "stageId": "3"
+      },
+      {
+        "digest": "32e7cbe4eec42c1c04a930dfcc4285daa72c8462128d28d8a1e6b10360e9d801",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p06",
+        "itemIds": [
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 6,
+        "pageId": "when-failure-become-ideas-p06",
+        "part": "12-21",
+        "stageId": "3"
+      },
+      {
+        "digest": "d44f92a03f2000e38045103caec06c827036982f11b7c694db85a795b3478068",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p07",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011"
+        ],
+        "page": 7,
+        "pageId": "when-failure-become-ideas-p07",
+        "part": "1-11",
+        "stageId": "4"
+      },
+      {
+        "digest": "5278c878283e41342f46d754946f47749c7b88ec8bc77bc0d38eee96bd57db61",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p08",
+        "itemIds": [
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 8,
+        "pageId": "when-failure-become-ideas-p08",
+        "part": "12-21",
+        "stageId": "4"
+      },
+      {
+        "digest": "4f103d3a9d1d727339793ff9cc3d41f904a936345cfc839491bc180beca3d560",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p09",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011"
+        ],
+        "page": 9,
+        "pageId": "when-failure-become-ideas-p09",
+        "part": "1-11",
+        "stageId": "5"
+      },
+      {
+        "digest": "3b53947142865147c866fc0e6c6a4a0dfbe4e828649ac01cfa78163ed1a584de",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p10",
+        "itemIds": [
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 10,
+        "pageId": "when-failure-become-ideas-p10",
+        "part": "12-21",
+        "stageId": "5"
+      },
+      {
+        "digest": "44b3605202869c7c53bee627f0daa0b025221da735304bc5feec97acb68a0518",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p11",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011"
+        ],
+        "page": 11,
+        "pageId": "when-failure-become-ideas-p11",
+        "part": "1-11",
+        "stageId": "6"
+      },
+      {
+        "digest": "f847dd406c7e443e477d7f55145e5d50988db0946b171686531754083520991d",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p12",
+        "itemIds": [
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 12,
+        "pageId": "when-failure-become-ideas-p12",
+        "part": "12-21",
+        "stageId": "6"
+      },
+      {
+        "digest": "9d539a475e4b11f31dca0d94ebaf0ed8ace09d43117bfc9181b3a20ea22ef5b4",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p13",
+        "itemIds": [],
+        "page": 13,
+        "pageId": "when-failure-become-ideas-p13",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "1a364197d04edf760aff18f1e8c4e72334fdc473fab16616deb1bac79c58be7a",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p14",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 14,
+        "pageId": "when-failure-become-ideas-p14",
+        "part": "1-6",
+        "stageId": "8"
+      },
+      {
+        "digest": "3385bc22aebe8196b373b9f120113750f7edfeee2226a08c6ae14390bea329ac",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p15",
+        "itemIds": [
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011"
+        ],
+        "page": 15,
+        "pageId": "when-failure-become-ideas-p15",
+        "part": "7-11",
+        "stageId": "8"
+      },
+      {
+        "digest": "42bf4f03ed886012f667976a3439bc5dae80b2128e1bacf061cfca09016eb7ee",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p16",
+        "itemIds": [
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016"
+        ],
+        "page": 16,
+        "pageId": "when-failure-become-ideas-p16",
+        "part": "12-16",
+        "stageId": "8"
+      },
+      {
+        "digest": "7f60ecdfd2c62b15b7e6e7e41fe907d79c466923552324d1a328ac7103302bd7",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p17",
+        "itemIds": [
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 17,
+        "pageId": "when-failure-become-ideas-p17",
+        "part": "17-21",
+        "stageId": "8"
+      },
+      {
+        "digest": "af59690eb0fe7cb7f224e4e1dfbea237d88ddbe36fdc87b29de5cce55b9edff9",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p18",
+        "itemIds": [],
+        "page": 18,
+        "pageId": "when-failure-become-ideas-p18",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "b32b2449bb75896a0272ac6154f806dc3613249ebbad8ddcfc361100c05d140c",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p19",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 19,
+        "pageId": "when-failure-become-ideas-p19",
+        "part": "1-7",
+        "stageId": "10"
+      },
+      {
+        "digest": "37f54bf55dae03719e60761489b4b14ef34e680b635bbe9c8c19101a9041bd32",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p20",
+        "itemIds": [
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014"
+        ],
+        "page": 20,
+        "pageId": "when-failure-become-ideas-p20",
+        "part": "8-14",
+        "stageId": "10"
+      },
+      {
+        "digest": "f46983ac8b277ee35b02fbd5102185e0c567e4c2e8df13d91306d3cbba43c7da",
+        "edition": "answer",
+        "id": "answer:when-failure-become-ideas-p21",
+        "itemIds": [
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021"
+        ],
+        "page": 21,
+        "pageId": "when-failure-become-ideas-p21",
+        "part": "15-21",
+        "stageId": "10"
+      }
+    ],
+    "qa": {
+      "contactSheets": [
+        "qa/samples/student-contact-sheet.png",
+        "qa/samples/answer-contact-sheet.png"
+      ],
+      "dom": {
+        "answer": {
+          "pages": 21,
+          "solutions": 161
+        },
+        "sharedTargetSlotCount": 165,
+        "student": {
+          "pages": 21,
+          "solutions": 0
+        }
+      },
+      "pdf": {
+        "answerPages": 21,
+        "studentPages": 21
+      },
+      "status": "passed",
+      "visualSamples": [
+        "qa/samples/student-p01.png",
+        "qa/samples/student-p02.png",
+        "qa/samples/student-p07.png",
+        "qa/samples/student-p11.png",
+        "qa/samples/student-p13.png",
+        "qa/samples/student-p14.png",
+        "qa/samples/student-p18.png",
+        "qa/samples/student-p19.png",
+        "qa/samples/student-p21.png",
+        "qa/samples/answer-p01.png",
+        "qa/samples/answer-p02.png",
+        "qa/samples/answer-p07.png",
+        "qa/samples/answer-p11.png",
+        "qa/samples/answer-p13.png",
+        "qa/samples/answer-p14.png",
+        "qa/samples/answer-p18.png",
+        "qa/samples/answer-p19.png",
+        "qa/samples/answer-p21.png"
+      ]
+    },
+    "reportFormatVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "semanticRubricVersion": "1.0.0",
+    "sourceDigest": "ec10e698c906325ccfc93ab06211d5a6b5d5794f161c831cf0c4aedc7c75f965",
+    "specVersion": "1.0.2",
+    "templateVersion": "1.0.1",
+    "validationStatus": "passed",
+    "visualReview": {
+      "notes": "학생용·해설용 contact sheet와 4단계 7·8페이지 원본을 확인함. 21문항이 1-11/12-21로 균등 배치되어 21번 단독 꼬리 페이지가 제거되고 총 21쪽으로 감소함. 8단계 조각 밑줄 제거 상태, 교정 색상, 문단 배열, 마지막 푸터, 잘림·겹침·정답 누출 모두 정상.",
+      "reviewedAt": "2026-07-23T23:27:57+09:00",
+      "reviewer": "Codex",
+      "status": "passed"
+    },
+    "workbookId": "when-failure-become-ideas"
+  },
+  "bundleVersion": 1,
+  "canonical": {
+    "canonical": {
+      "contentVersion": "1.0.2",
+      "metadata": {
+        "grade": "중학교",
+        "kicker": "Middle School Reading",
+        "lessonLabel": "Lesson 3. More Reading",
+        "notes": "제목의 Become 표기는 제공된 원본을 그대로 보존함",
+        "sourceLanguage": "en",
+        "targetLanguage": "ko",
+        "title": "When Failure Become Ideas 10단계 워크북",
+        "topic": "실수와 실패에서 탄생한 포스트잇과 전자레인지"
+      },
+      "passageActivities": {
+        "correction": [
+          {
+            "id": "correction-01",
+            "targets": [
+              {
+                "correct": "lead",
+                "id": "correction-01-01",
+                "incorrect": "leads",
+                "target": {
+                  "occurrence": 1,
+                  "text": "leads"
+                }
+              },
+              {
+                "correct": "failed",
+                "id": "correction-01-02",
+                "incorrect": "fail",
+                "target": {
+                  "occurrence": 1,
+                  "text": "fail"
+                }
+              },
+              {
+                "correct": "kept",
+                "id": "correction-01-03",
+                "incorrect": "keeps",
+                "target": {
+                  "occurrence": 1,
+                  "text": "keeps"
+                }
+              },
+              {
+                "correct": "cook",
+                "id": "correction-01-04",
+                "incorrect": "cooks",
+                "target": {
+                  "occurrence": 1,
+                  "text": "cooks"
+                }
+              }
+            ],
+            "textOverride": "Sometimes, mistakes can leads to amazing inventions. However, he fail and made a very weak glue instead. He sang in a church choir, and his bookmarks keeps falling out of his book. He realized that the machine's waves could cooks food very fast."
+          }
+        ],
+        "paragraphOrder": [
+          {
+            "answerOrder": [
+              "A",
+              "B",
+              "C"
+            ],
+            "blocks": [
+              {
+                "id": "A",
+                "sentenceIds": [
+                  "s001",
+                  "s002",
+                  "s003"
+                ]
+              },
+              {
+                "id": "B",
+                "sentenceIds": [
+                  "s004",
+                  "s005",
+                  "s006",
+                  "s007",
+                  "s008",
+                  "s009",
+                  "s010",
+                  "s011"
+                ]
+              },
+              {
+                "id": "C",
+                "sentenceIds": [
+                  "s012",
+                  "s013",
+                  "s014",
+                  "s015",
+                  "s016",
+                  "s017",
+                  "s018",
+                  "s019",
+                  "s020",
+                  "s021"
+                ]
+              }
+            ],
+            "displayOrder": [
+              "C",
+              "A",
+              "B"
+            ],
+            "id": "paragraph-order-01"
+          }
+        ]
+      },
+      "schemaVersion": "1.0.0",
+      "sentences": [
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "Do"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "think"
+                  }
+                ],
+                "id": "s001-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "생각하는가"
+                  }
+                ],
+                "segmentId": "s001-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "come from"
+                  }
+                ],
+                "id": "s001-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "나온다고"
+                  }
+                ],
+                "segmentId": "s001-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "inventions"
+                },
+                "id": "s001-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "발명"
+                },
+                "meaning": "발명품",
+                "segmentId": "s001-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s001-a",
+                  "text": "Do you think"
+                },
+                {
+                  "id": "s001-b",
+                  "text": "all inventions come from great success?"
+                },
+                {
+                  "id": "s001-c",
+                  "text": "Not always!"
+                }
+              ],
+              "displayOrder": [
+                "s001-c",
+                "s001-a",
+                "s001-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s001-choice-01",
+                  "options": [
+                    "all",
+                    "every"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "all"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s001-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "inventions"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s001-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "큰 성공"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "think",
+                  "id": "s001-verb-01",
+                  "lemma": "think",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "think"
+                  }
+                },
+                {
+                  "cue": "come from",
+                  "id": "s001-verb-02",
+                  "lemma": "come from",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "come from"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "think",
+                "all inventions",
+                "great success",
+                "not always"
+              ]
+            }
+          },
+          "id": "s001",
+          "meaningSegments": [
+            {
+              "en": "Do you think",
+              "id": "s001-m01",
+              "ko": "너는 생각하는가"
+            },
+            {
+              "en": "all inventions come from great success?",
+              "id": "s001-m02",
+              "ko": "모든 발명이 큰 성공에서 나온다고?"
+            },
+            {
+              "en": "Not always!",
+              "id": "s001-m03",
+              "ko": "항상 그런 것은 아니다!"
+            }
+          ],
+          "no": 1,
+          "source": "Do you think all inventions come from great success? Not always!",
+          "translation": "모든 발명이 큰 성공에서 나온다고 생각하는가? 항상 그런 것은 아니다!"
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can lead to"
+                  }
+                ],
+                "id": "s002-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "이어질 수 있다"
+                  }
+                ],
+                "segmentId": "s002-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "lead to"
+                },
+                "id": "s002-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "이어질"
+                },
+                "meaning": "~로 이어지다",
+                "segmentId": "s002-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s002-a",
+                  "text": "Sometimes, mistakes"
+                },
+                {
+                  "id": "s002-b",
+                  "text": "can lead to amazing inventions."
+                }
+              ],
+              "displayOrder": [
+                "s002-b",
+                "s002-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s002-choice-01",
+                  "options": [
+                    "lead",
+                    "leads"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "lead"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s002-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "lead to"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s002-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "놀라운 발명"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "lead to",
+                  "id": "s002-verb-01",
+                  "lemma": "lead to",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can lead to"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "sometimes",
+                "mistakes",
+                "lead to",
+                "amazing inventions"
+              ]
+            }
+          },
+          "id": "s002",
+          "meaningSegments": [
+            {
+              "en": "Sometimes, mistakes",
+              "id": "s002-m01",
+              "ko": "때때로 실수는"
+            },
+            {
+              "en": "can lead to amazing inventions.",
+              "id": "s002-m02",
+              "ko": "이어질 수 있다 놀라운 발명으로."
+            }
+          ],
+          "no": 2,
+          "source": "Sometimes, mistakes can lead to amazing inventions.",
+          "translation": "때때로 실수는 놀라운 발명으로 이어질 수 있다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "Let's look at"
+                  }
+                ],
+                "id": "s003-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "살펴보자"
+                  }
+                ],
+                "segmentId": "s003-m01"
+              }
+            ],
+            "vocabulary": []
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s003-a",
+                  "text": "Let's look at"
+                },
+                {
+                  "id": "s003-b",
+                  "text": "two famous examples."
+                }
+              ],
+              "displayOrder": [
+                "s003-b",
+                "s003-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s003-choice-01",
+                  "options": [
+                    "examples",
+                    "example"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "examples"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s003-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "look at"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s003-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "살펴보자"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "look",
+                  "id": "s003-verb-01",
+                  "lemma": "look",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "look"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "let's",
+                "look at",
+                "two",
+                "famous examples"
+              ]
+            }
+          },
+          "id": "s003",
+          "meaningSegments": [
+            {
+              "en": "Let's look at",
+              "id": "s003-m01",
+              "ko": "살펴보자"
+            },
+            {
+              "en": "two famous examples.",
+              "id": "s003-m02",
+              "ko": "두 가지 유명한 사례를."
+            }
+          ],
+          "no": 3,
+          "source": "Let's look at two famous examples.",
+          "translation": "두 가지 유명한 사례를 살펴보자."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "tried"
+                  }
+                ],
+                "id": "s004-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "만들려고 했다"
+                  }
+                ],
+                "segmentId": "s004-m03"
+              }
+            ],
+            "vocabulary": []
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s004-a",
+                  "text": "In 1968, Dr. Spencer Silver,"
+                },
+                {
+                  "id": "s004-b",
+                  "text": "a scientist in the USA,"
+                },
+                {
+                  "id": "s004-c",
+                  "text": "tried to make a very strong glue."
+                }
+              ],
+              "displayOrder": [
+                "s004-c",
+                "s004-a",
+                "s004-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s004-choice-01",
+                  "options": [
+                    "make",
+                    "making"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "make"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s004-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "scientist"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s004-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "매우 강한 접착제"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "try",
+                  "id": "s004-verb-01",
+                  "lemma": "try",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "tried"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "in 1968",
+                "scientist",
+                "tried",
+                "strong glue"
+              ]
+            }
+          },
+          "id": "s004",
+          "meaningSegments": [
+            {
+              "en": "In 1968, Dr. Spencer Silver,",
+              "id": "s004-m01",
+              "ko": "1968년에 스펜서 실버 박사는"
+            },
+            {
+              "en": "a scientist in the USA,",
+              "id": "s004-m02",
+              "ko": "미국의 과학자인,"
+            },
+            {
+              "en": "tried to make a very strong glue.",
+              "id": "s004-m03",
+              "ko": "만들려고 했다 매우 강한 접착제를."
+            }
+          ],
+          "no": 4,
+          "source": "In 1968, Dr. Spencer Silver, a scientist in the USA, tried to make a very strong glue.",
+          "translation": "1968년에 미국의 과학자 스펜서 실버 박사는 매우 강한 접착제를 만들려고 했다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "failed"
+                  }
+                ],
+                "id": "s005-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "실패했다"
+                  }
+                ],
+                "segmentId": "s005-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "made"
+                  }
+                ],
+                "id": "s005-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "만들었다"
+                  }
+                ],
+                "segmentId": "s005-m02"
+              }
+            ],
+            "vocabulary": []
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s005-a",
+                  "text": "However, he failed"
+                },
+                {
+                  "id": "s005-b",
+                  "text": "and made a very weak glue instead."
+                }
+              ],
+              "displayOrder": [
+                "s005-b",
+                "s005-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s005-choice-01",
+                  "options": [
+                    "weak",
+                    "weakly"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "weak"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s005-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "failed"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s005-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "매우 약한 접착제"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "fail",
+                  "id": "s005-verb-01",
+                  "lemma": "fail",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "failed"
+                  }
+                },
+                {
+                  "cue": "make",
+                  "id": "s005-verb-02",
+                  "lemma": "make",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "made"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "however",
+                "failed",
+                "made",
+                "weak glue"
+              ]
+            }
+          },
+          "id": "s005",
+          "meaningSegments": [
+            {
+              "en": "However, he failed",
+              "id": "s005-m01",
+              "ko": "그러나 그는 실패했다"
+            },
+            {
+              "en": "and made a very weak glue instead.",
+              "id": "s005-m02",
+              "ko": "그리고 만들었다 대신 매우 약한 접착제를."
+            }
+          ],
+          "no": 5,
+          "source": "However, he failed and made a very weak glue instead.",
+          "translation": "그러나 그는 실패하여 대신 매우 약한 접착제를 만들었다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "didn't stick"
+                  }
+                ],
+                "id": "s006-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "붙지 않았다"
+                  }
+                ],
+                "segmentId": "s006-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                ],
+                "id": "s006-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "쉬웠다"
+                  }
+                ],
+                "segmentId": "s006-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "stick"
+                },
+                "id": "s006-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "붙지"
+                },
+                "meaning": "달라붙다",
+                "segmentId": "s006-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "pull off"
+                },
+                "id": "s006-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "떼어 내기"
+                },
+                "meaning": "떼어 내다",
+                "segmentId": "s006-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s006-a",
+                  "text": "It didn't stick well,"
+                },
+                {
+                  "id": "s006-b",
+                  "text": "and it was easy to pull off."
+                }
+              ],
+              "displayOrder": [
+                "s006-b",
+                "s006-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s006-choice-01",
+                  "options": [
+                    "easy",
+                    "easily"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "easy"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s006-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "pull off"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s006-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "잘 붙지 않았고"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "stick",
+                  "id": "s006-verb-01",
+                  "lemma": "stick",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "didn't stick"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s006-verb-02",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "didn't",
+                "stick well",
+                "easy",
+                "pull off"
+              ]
+            }
+          },
+          "id": "s006",
+          "meaningSegments": [
+            {
+              "en": "It didn't stick well,",
+              "id": "s006-m01",
+              "ko": "그것은 잘 붙지 않았다,"
+            },
+            {
+              "en": "and it was easy to pull off.",
+              "id": "s006-m02",
+              "ko": "그리고 그것은 떼어 내기 쉬웠다."
+            }
+          ],
+          "no": 6,
+          "source": "It didn't stick well, and it was easy to pull off.",
+          "translation": "그것은 잘 붙지 않았고 쉽게 떼어 낼 수 있었다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "knew"
+                  }
+                ],
+                "id": "s007-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "알지 못했다"
+                  }
+                ],
+                "segmentId": "s007-m02"
+              }
+            ],
+            "vocabulary": []
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s007-a",
+                  "text": "For a few years,"
+                },
+                {
+                  "id": "s007-b",
+                  "text": "nobody knew how to use it."
+                }
+              ],
+              "displayOrder": [
+                "s007-b",
+                "s007-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s007-choice-01",
+                  "options": [
+                    "how",
+                    "what"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "how"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s007-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "nobody"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s007-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "아무도"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "know",
+                  "id": "s007-verb-01",
+                  "lemma": "know",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "knew"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "a few years",
+                "nobody",
+                "knew",
+                "how to use"
+              ]
+            }
+          },
+          "id": "s007",
+          "meaningSegments": [
+            {
+              "en": "For a few years,",
+              "id": "s007-m01",
+              "ko": "몇 년 동안,"
+            },
+            {
+              "en": "nobody knew how to use it.",
+              "id": "s007-m02",
+              "ko": "아무도 알지 못했다 그것을 어떻게 사용해야 할지."
+            }
+          ],
+          "no": 7,
+          "source": "For a few years, nobody knew how to use it.",
+          "translation": "몇 년 동안 아무도 그것을 어떻게 사용해야 할지 몰랐다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "had"
+                  }
+                ],
+                "id": "s008-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "떠올렸다"
+                  }
+                ],
+                "segmentId": "s008-m02"
+              }
+            ],
+            "vocabulary": []
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s008-a",
+                  "text": "Then, his friend Arthur Fry"
+                },
+                {
+                  "id": "s008-b",
+                  "text": "had an idea."
+                }
+              ],
+              "displayOrder": [
+                "s008-b",
+                "s008-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s008-choice-01",
+                  "options": [
+                    "had",
+                    "has"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "had"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s008-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "had an idea"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s008-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "한 가지 생각"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "have",
+                  "id": "s008-verb-01",
+                  "lemma": "have",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "had"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "then",
+                "his friend",
+                "Arthur Fry",
+                "an idea"
+              ]
+            }
+          },
+          "id": "s008",
+          "meaningSegments": [
+            {
+              "en": "Then, his friend Arthur Fry",
+              "id": "s008-m01",
+              "ko": "그러다가 그의 친구 아서 프라이는"
+            },
+            {
+              "en": "had an idea.",
+              "id": "s008-m02",
+              "ko": "한 가지 생각을 떠올렸다."
+            }
+          ],
+          "no": 8,
+          "source": "Then, his friend Arthur Fry had an idea.",
+          "translation": "그러다가 그의 친구 아서 프라이가 한 가지 생각을 떠올렸다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "sang"
+                  }
+                ],
+                "id": "s009-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "노래했다"
+                  }
+                ],
+                "segmentId": "s009-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "kept falling"
+                  }
+                ],
+                "id": "s009-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "계속"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "빠져나왔다"
+                  }
+                ],
+                "segmentId": "s009-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "choir"
+                },
+                "id": "s009-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "합창단"
+                },
+                "meaning": "합창단",
+                "segmentId": "s009-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "kept falling"
+                },
+                "id": "s009-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "계속"
+                },
+                "meaning": "계속 떨어지다",
+                "segmentId": "s009-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s009-a",
+                  "text": "He sang in a church choir,"
+                },
+                {
+                  "id": "s009-b",
+                  "text": "and his bookmarks kept falling out of his book."
+                }
+              ],
+              "displayOrder": [
+                "s009-b",
+                "s009-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s009-choice-01",
+                  "options": [
+                    "falling",
+                    "fall"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "falling"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s009-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "kept falling"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s009-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "교회 합창단"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "sing",
+                  "id": "s009-verb-01",
+                  "lemma": "sing",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "sang"
+                  }
+                },
+                {
+                  "cue": "keep falling",
+                  "id": "s009-verb-02",
+                  "lemma": "keep",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "kept falling"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "church choir",
+                "bookmarks",
+                "kept falling",
+                "his book"
+              ]
+            }
+          },
+          "id": "s009",
+          "meaningSegments": [
+            {
+              "en": "He sang in a church choir,",
+              "id": "s009-m01",
+              "ko": "그는 교회 합창단에서 노래했다,"
+            },
+            {
+              "en": "and his bookmarks kept falling out of his book.",
+              "id": "s009-m02",
+              "ko": "그리고 그의 책갈피는 계속 그의 책에서 빠져나왔다."
+            }
+          ],
+          "no": 9,
+          "source": "He sang in a church choir, and his bookmarks kept falling out of his book.",
+          "translation": "그는 교회 합창단에서 노래했는데, 책갈피가 자꾸 그의 책에서 빠져나왔다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "used"
+                  }
+                ],
+                "id": "s010-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "사용했다"
+                  }
+                ],
+                "segmentId": "s010-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "stay in place"
+                },
+                "id": "s010-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "제자리에 있도록"
+                },
+                "meaning": "제자리에 있다",
+                "segmentId": "s010-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s010-a",
+                  "text": "He used Silver's weak glue"
+                },
+                {
+                  "id": "s010-b",
+                  "text": "to make bookmarks to stay in place."
+                }
+              ],
+              "displayOrder": [
+                "s010-b",
+                "s010-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s010-choice-01",
+                  "options": [
+                    "to make",
+                    "making"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "to make"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s010-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "stay in place"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s010-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "제자리에 있도록"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "use",
+                  "id": "s010-verb-01",
+                  "lemma": "use",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "used"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "Silver's",
+                "weak glue",
+                "bookmarks",
+                "stay in place"
+              ]
+            }
+          },
+          "id": "s010",
+          "meaningSegments": [
+            {
+              "en": "He used Silver's weak glue",
+              "id": "s010-m01",
+              "ko": "그는 실버의 약한 접착제를 사용했다"
+            },
+            {
+              "en": "to make bookmarks to stay in place.",
+              "id": "s010-m02",
+              "ko": "책갈피가 제자리에 있도록 만들기 위해."
+            }
+          ],
+          "no": 10,
+          "source": "He used Silver's weak glue to make bookmarks to stay in place.",
+          "translation": "그는 책갈피가 제자리에 있도록 실버의 약한 접착제를 사용했다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                ],
+                "id": "s011-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "시작이었다"
+                  }
+                ],
+                "segmentId": "s011-m01"
+              }
+            ],
+            "vocabulary": []
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s011-a",
+                  "text": "That was the beginning"
+                },
+                {
+                  "id": "s011-b",
+                  "text": "of the famous Post-it notes!"
+                }
+              ],
+              "displayOrder": [
+                "s011-b",
+                "s011-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s011-choice-01",
+                  "options": [
+                    "was",
+                    "were"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s011-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "beginning"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s011-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "포스트잇의 시작"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s011-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "that",
+                "beginning",
+                "famous",
+                "Post-it notes"
+              ]
+            }
+          },
+          "id": "s011",
+          "meaningSegments": [
+            {
+              "en": "That was the beginning",
+              "id": "s011-m01",
+              "ko": "그것이 시작이었다"
+            },
+            {
+              "en": "of the famous Post-it notes!",
+              "id": "s011-m02",
+              "ko": "유명한 포스트잇의!"
+            }
+          ],
+          "no": 11,
+          "source": "That was the beginning of the famous Post-it notes!",
+          "translation": "그것이 바로 유명한 포스트잇의 시작이었다!"
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                ],
+                "id": "s012-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "과학자였다"
+                  }
+                ],
+                "segmentId": "s012-m02"
+              }
+            ],
+            "vocabulary": []
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s012-a",
+                  "text": "In 1945, Percy Spencer"
+                },
+                {
+                  "id": "s012-b",
+                  "text": "was a scientist in the USA."
+                }
+              ],
+              "displayOrder": [
+                "s012-b",
+                "s012-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s012-choice-01",
+                  "options": [
+                    "was",
+                    "were"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s012-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "scientist"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s012-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "미국의 과학자"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s012-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "in 1945",
+                "Percy Spencer",
+                "scientist",
+                "USA"
+              ]
+            }
+          },
+          "id": "s012",
+          "meaningSegments": [
+            {
+              "en": "In 1945, Percy Spencer",
+              "id": "s012-m01",
+              "ko": "1945년에 퍼시 스펜서는"
+            },
+            {
+              "en": "was a scientist in the USA.",
+              "id": "s012-m02",
+              "ko": "미국의 과학자였다."
+            }
+          ],
+          "no": 12,
+          "source": "In 1945, Percy Spencer was a scientist in the USA.",
+          "translation": "1945년에 퍼시 스펜서는 미국의 과학자였다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was working"
+                  }
+                ],
+                "id": "s013-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "다루고 있었다"
+                  }
+                ],
+                "segmentId": "s013-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "magnetron"
+                },
+                "id": "s013-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "마그네트론"
+                },
+                "meaning": "전자기파를 만드는 장치",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s013-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s013-a",
+                  "text": "He was working with a new machine"
+                },
+                {
+                  "id": "s013-b",
+                  "text": "called a magnetron."
+                }
+              ],
+              "displayOrder": [
+                "s013-b",
+                "s013-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s013-choice-01",
+                  "options": [
+                    "called",
+                    "calling"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "called"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s013-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "magnetron"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s013-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "새로운 기계"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "work",
+                  "id": "s013-verb-01",
+                  "lemma": "work",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was working"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "working with",
+                "new machine",
+                "called",
+                "magnetron"
+              ]
+            }
+          },
+          "id": "s013",
+          "meaningSegments": [
+            {
+              "en": "He was working with a new machine",
+              "id": "s013-m01",
+              "ko": "그는 새로운 기계를 다루고 있었다"
+            },
+            {
+              "en": "called a magnetron.",
+              "id": "s013-m02",
+              "ko": "마그네트론이라고 불리는."
+            }
+          ],
+          "no": 13,
+          "source": "He was working with a new machine called a magnetron.",
+          "translation": "그는 마그네트론이라고 불리는 새로운 기계를 다루고 있었다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was standing"
+                  }
+                ],
+                "id": "s014-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "서 있을 때"
+                  }
+                ],
+                "segmentId": "s014-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "happened"
+                  }
+                ],
+                "id": "s014-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "일어났다"
+                  }
+                ],
+                "segmentId": "s014-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "happened"
+                },
+                "id": "s014-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "일어났다"
+                },
+                "meaning": "발생하다",
+                "segmentId": "s014-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s014-a",
+                  "text": "One day, while he was standing near the machine,"
+                },
+                {
+                  "id": "s014-b",
+                  "text": "something strange happened."
+                }
+              ],
+              "displayOrder": [
+                "s014-b",
+                "s014-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s014-choice-01",
+                  "options": [
+                    "was standing",
+                    "is standing"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was standing"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s014-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "happened"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s014-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "이상한 일"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "stand",
+                  "id": "s014-verb-01",
+                  "lemma": "stand",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was standing"
+                  }
+                },
+                {
+                  "cue": "happen",
+                  "id": "s014-verb-02",
+                  "lemma": "happen",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "happened"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "one day",
+                "standing near",
+                "machine",
+                "strange happened"
+              ]
+            }
+          },
+          "id": "s014",
+          "meaningSegments": [
+            {
+              "en": "One day, while he was standing near the machine,",
+              "id": "s014-m01",
+              "ko": "어느 날 그가 기계 근처에 서 있을 때,"
+            },
+            {
+              "en": "something strange happened.",
+              "id": "s014-m02",
+              "ko": "이상한 일이 일어났다."
+            }
+          ],
+          "no": 14,
+          "source": "One day, while he was standing near the machine, something strange happened.",
+          "translation": "어느 날 그가 기계 근처에 서 있을 때 이상한 일이 일어났다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "melted"
+                  }
+                ],
+                "id": "s015-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "녹았다"
+                  }
+                ],
+                "segmentId": "s015-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "melted"
+                },
+                "id": "s015-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "녹았다"
+                },
+                "meaning": "녹다",
+                "segmentId": "s015-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s015-a",
+                  "text": "The chocolate bar in his pocket"
+                },
+                {
+                  "id": "s015-b",
+                  "text": "melted!"
+                }
+              ],
+              "displayOrder": [
+                "s015-b",
+                "s015-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s015-choice-01",
+                  "options": [
+                    "melted",
+                    "melt"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "melted"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s015-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "melted"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s015-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "주머니 속"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "melt",
+                  "id": "s015-verb-01",
+                  "lemma": "melt",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "melted"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "chocolate bar",
+                "his pocket",
+                "melted"
+              ]
+            }
+          },
+          "id": "s015",
+          "meaningSegments": [
+            {
+              "en": "The chocolate bar in his pocket",
+              "id": "s015-m01",
+              "ko": "그의 주머니 속 초콜릿 바가"
+            },
+            {
+              "en": "melted!",
+              "id": "s015-m02",
+              "ko": "녹았다!"
+            }
+          ],
+          "no": 15,
+          "source": "The chocolate bar in his pocket melted!",
+          "translation": "그의 주머니 속 초콜릿 바가 녹았다!"
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was surprised"
+                  }
+                ],
+                "id": "s016-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "놀랐다"
+                  }
+                ],
+                "segmentId": "s016-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "didn't feel"
+                  }
+                ],
+                "id": "s016-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "느끼지 못했기 때문에"
+                  }
+                ],
+                "segmentId": "s016-m02"
+              }
+            ],
+            "vocabulary": []
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s016-a",
+                  "text": "He was surprised"
+                },
+                {
+                  "id": "s016-b",
+                  "text": "because he didn't feel any heat."
+                }
+              ],
+              "displayOrder": [
+                "s016-b",
+                "s016-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s016-choice-01",
+                  "options": [
+                    "any",
+                    "some"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "any"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s016-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "surprised"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s016-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "아무런 열도"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be surprised",
+                  "id": "s016-verb-01",
+                  "lemma": "surprise",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was surprised"
+                  }
+                },
+                {
+                  "cue": "feel",
+                  "id": "s016-verb-02",
+                  "lemma": "feel",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "didn't feel"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "surprised",
+                "because",
+                "didn't feel",
+                "any heat"
+              ]
+            }
+          },
+          "id": "s016",
+          "meaningSegments": [
+            {
+              "en": "He was surprised",
+              "id": "s016-m01",
+              "ko": "그는 놀랐다"
+            },
+            {
+              "en": "because he didn't feel any heat.",
+              "id": "s016-m02",
+              "ko": "그가 아무런 열도 느끼지 못했기 때문에."
+            }
+          ],
+          "no": 16,
+          "source": "He was surprised because he didn't feel any heat.",
+          "translation": "그는 아무런 열도 느끼지 못했기 때문에 놀랐다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "realized"
+                  }
+                ],
+                "id": "s017-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "깨달았다"
+                  }
+                ],
+                "segmentId": "s017-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "could cook"
+                  }
+                ],
+                "id": "s017-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "익힐 수 있다는 것을"
+                  }
+                ],
+                "segmentId": "s017-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "realized"
+                },
+                "id": "s017-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "깨달았다"
+                },
+                "meaning": "깨닫다",
+                "segmentId": "s017-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "waves"
+                },
+                "id": "s017-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "파동"
+                },
+                "meaning": "파동, 물결",
+                "segmentId": "s017-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s017-a",
+                  "text": "He realized that"
+                },
+                {
+                  "id": "s017-b",
+                  "text": "the machine's waves could cook food very fast."
+                }
+              ],
+              "displayOrder": [
+                "s017-b",
+                "s017-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s017-choice-01",
+                  "options": [
+                    "could",
+                    "can"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "could"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s017-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "realized"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s017-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "매우 빠르게"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "realize",
+                  "id": "s017-verb-01",
+                  "lemma": "realize",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "realized"
+                  }
+                },
+                {
+                  "cue": "cook",
+                  "id": "s017-verb-02",
+                  "lemma": "cook",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "could cook"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "realized",
+                "machine's waves",
+                "cook food",
+                "very fast"
+              ]
+            }
+          },
+          "id": "s017",
+          "meaningSegments": [
+            {
+              "en": "He realized that",
+              "id": "s017-m01",
+              "ko": "그는 깨달았다"
+            },
+            {
+              "en": "the machine's waves could cook food very fast.",
+              "id": "s017-m02",
+              "ko": "그 기계의 파동이 음식을 매우 빠르게 익힐 수 있다는 것을."
+            }
+          ],
+          "no": 17,
+          "source": "He realized that the machine's waves could cook food very fast.",
+          "translation": "그는 그 기계의 파동이 음식을 매우 빠르게 익힐 수 있다는 것을 깨달았다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "tried"
+                  }
+                ],
+                "id": "s018-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "시도했다"
+                  }
+                ],
+                "segmentId": "s018-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "popping"
+                },
+                "id": "s018-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "튀기고"
+                },
+                "meaning": "펑 하고 터뜨리다",
+                "segmentId": "s018-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s018-a",
+                  "text": "He tried"
+                },
+                {
+                  "id": "s018-b",
+                  "text": "popping popcorn and cooking an egg next."
+                }
+              ],
+              "displayOrder": [
+                "s018-b",
+                "s018-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s018-choice-01",
+                  "options": [
+                    "popping",
+                    "to pop"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "popping"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s018-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "popping"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s018-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "팝콘을 튀기고"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "try",
+                  "id": "s018-verb-01",
+                  "lemma": "try",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "tried"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "tried",
+                "popping popcorn",
+                "cooking an egg",
+                "next"
+              ]
+            }
+          },
+          "id": "s018",
+          "meaningSegments": [
+            {
+              "en": "He tried",
+              "id": "s018-m01",
+              "ko": "그는 시도했다"
+            },
+            {
+              "en": "popping popcorn and cooking an egg next.",
+              "id": "s018-m02",
+              "ko": "다음으로 팝콘을 튀기고 달걀을 익히는 것을."
+            }
+          ],
+          "no": 18,
+          "source": "He tried popping popcorn and cooking an egg next.",
+          "translation": "그는 다음으로 팝콘을 튀기고 달걀을 익혀 보았다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "worked"
+                  }
+                ],
+                "id": "s019-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "성공했다"
+                  }
+                ],
+                "segmentId": "s019-m01"
+              }
+            ],
+            "vocabulary": []
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s019-a",
+                  "text": "It"
+                },
+                {
+                  "id": "s019-b",
+                  "text": "worked!"
+                }
+              ],
+              "displayOrder": [
+                "s019-b",
+                "s019-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s019-choice-01",
+                  "options": [
+                    "worked",
+                    "working"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "worked"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s019-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "worked"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s019-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "성공했다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "work",
+                  "id": "s019-verb-01",
+                  "lemma": "work",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "worked"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "it",
+                "worked"
+              ]
+            }
+          },
+          "id": "s019",
+          "meaningSegments": [
+            {
+              "en": "It worked!",
+              "id": "s019-m01",
+              "ko": "그것은 성공했다!"
+            }
+          ],
+          "no": 19,
+          "source": "It worked!",
+          "translation": "그것은 성공했다!"
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "gave"
+                  }
+                ],
+                "id": "s020-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "안겨 주었다"
+                  }
+                ],
+                "segmentId": "s020-m01"
+              }
+            ],
+            "vocabulary": []
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s020-a",
+                  "text": "This 'melted mistake' gave us"
+                },
+                {
+                  "id": "s020-b",
+                  "text": "the microwave oven."
+                }
+              ],
+              "displayOrder": [
+                "s020-b",
+                "s020-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s020-choice-01",
+                  "options": [
+                    "gave",
+                    "given"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "gave"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s020-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "microwave oven"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s020-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "전자레인지"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "give",
+                  "id": "s020-verb-01",
+                  "lemma": "give",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "gave"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "melted mistake",
+                "gave us",
+                "microwave oven"
+              ]
+            }
+          },
+          "id": "s020",
+          "meaningSegments": [
+            {
+              "en": "This 'melted mistake' gave us",
+              "id": "s020-m01",
+              "ko": "이 '녹아버린 실수'가 우리에게 안겨 주었다"
+            },
+            {
+              "en": "the microwave oven.",
+              "id": "s020-m02",
+              "ko": "전자레인지를."
+            }
+          ],
+          "no": 20,
+          "source": "This 'melted mistake' gave us the microwave oven.",
+          "translation": "이 '녹아버린 실수'가 우리에게 전자레인지를 안겨 주었다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "use"
+                  }
+                ],
+                "id": "s021-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "사용한다"
+                  }
+                ],
+                "segmentId": "s021-m01"
+              }
+            ],
+            "vocabulary": []
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s021-a",
+                  "text": "We use it"
+                },
+                {
+                  "id": "s021-b",
+                  "text": "every day."
+                }
+              ],
+              "displayOrder": [
+                "s021-b",
+                "s021-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s021-choice-01",
+                  "options": [
+                    "use",
+                    "uses"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "use"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s021-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "every day"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s021-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "매일"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "use",
+                  "id": "s021-verb-01",
+                  "lemma": "use",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "use"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "we",
+                "use it",
+                "every day"
+              ]
+            }
+          },
+          "id": "s021",
+          "meaningSegments": [
+            {
+              "en": "We use it",
+              "id": "s021-m01",
+              "ko": "우리는 그것을 사용한다"
+            },
+            {
+              "en": "every day.",
+              "id": "s021-m02",
+              "ko": "매일."
+            }
+          ],
+          "no": 21,
+          "source": "We use it every day.",
+          "translation": "우리는 그것을 매일 사용한다."
+        }
+      ],
+      "sourceStatus": {
+        "notes": "사진의 본문 전체를 전사함. Not always!는 앞 질문과 한 학습 단위로 묶었으며, 본문 밖 독해 문항과 어휘표는 전사 확인 자료로 사용함.",
+        "references": [
+          "/var/folders/ny/j2dnp1_d35j1f991c9y531bc0000gn/T/codex-clipboard-e295916d-6c80-4cf8-a00e-be1c3396c24f.jpg"
+        ],
+        "sentenceCount": 21,
+        "sourceType": "image",
+        "status": "confirmed",
+        "verifiedAt": "2026-07-23T00:00:00+09:00"
+      },
+      "specVersion": "1.0.2",
+      "updateState": {
+        "appliedUpdates": [
+          {
+            "appliedAt": "2026-07-23T00:00:00+09:00",
+            "fromContentVersion": "0.0.0",
+            "id": "U-20260723-003",
+            "report": "reports/updates/U-20260723-003.md",
+            "scope": "new-only",
+            "toContentVersion": "1.0.0"
+          },
+          {
+            "appliedAt": "2026-07-23T23:15:00+09:00",
+            "fromContentVersion": "1.0.0",
+            "id": "U-20260723-004",
+            "report": "reports/updates/U-20260723-004.md",
+            "scope": "all",
+            "toContentVersion": "1.0.1"
+          },
+          {
+            "appliedAt": "2026-07-23T23:25:00+09:00",
+            "fromContentVersion": "1.0.1",
+            "id": "U-20260723-005",
+            "report": "reports/updates/U-20260723-005.md",
+            "scope": "all",
+            "toContentVersion": "1.0.2"
+          }
+        ],
+        "defaultScope": "new-only"
+      },
+      "workbookId": "when-failure-become-ideas"
+    },
+    "contentVersion": "1.0.2",
+    "files": [
+      {
+        "path": "workbooks/when-failure-become-ideas/content.json",
+        "sha256": "de738e60b819aa103b69b97bf6d2119368f369d807b48535f568fcd5c31281a9",
+        "size": 39063
+      }
+    ],
+    "workbookId": "when-failure-become-ideas"
+  },
+  "spec": {
+    "files": [
+      {
+        "path": "config/versions.json",
+        "sha256": "68c5be414e2274e8f909970294dec45572a47094871fc8b31a066b08710304c0",
+        "size": 1326
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "sha256": "8bea1dedad1775ad890f36a07ca0f4e1cb2b031b94346edfe3593b6a04f83b7d",
+        "size": 16122
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+        "size": 8058
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "schemaFiles": [
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "semanticRubricFile": {
+      "path": "docs/semantic-rubric.md",
+      "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+      "size": 8058
+    },
+    "semanticRubricVersion": "1.0.0",
+    "spec": {
+      "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "answerEditionContract": {
+        "answerFillClassMayAutoColor": false,
+        "redAllowedOnlyOnSolutionValues": true,
+        "sameStageAndExerciseDomAsStudent": true,
+        "solutionClass": "solution-value",
+        "solutionColor": "#D71920",
+        "solutionInsertion": "fill-the-same-solution-slot",
+        "studentPayloadMayContainSolutions": false
+      },
+      "canonicalSchema": "schemas/canonical-workbook.schema.json",
+      "canonicalText": {
+        "baseTextOverride": {
+          "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+          "defaultStorage": "omit-baseText-and-derive-from-canonical",
+          "redundantDefaultCopy": "forbidden",
+          "requiredCompanionField": "overrideReason"
+        },
+        "displayDefault": "source",
+        "exerciseBaseTextDefaults": {
+          "choice": "display-or-source",
+          "enBlank": "display-or-source",
+          "koBlank": "translation",
+          "verb": "display-or-source"
+        },
+        "markup": "forbidden",
+        "reconstruction": {
+          "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+          "meaningSegments": "join meaningSegments[].en with one ASCII space",
+          "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+        },
+        "sourceWhitespace": "single-space-between-tokens",
+        "targetAnchor": {
+          "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다.",
+          "shape": {
+            "occurrence": "one-based occurrence in the applicable base text",
+            "text": "exact substring"
+          }
+        }
+      },
+      "contentOwnership": {
+        "authorable": [
+          "metadata",
+          "sourceStatus",
+          "sentences[].source",
+          "sentences[].display",
+          "sentences[].translation",
+          "sentences[].meaningSegments",
+          "sentences[].annotations",
+          "sentences[].exercises",
+          "passageActivities.correction",
+          "passageActivities.paragraphOrder",
+          "updateState"
+        ],
+        "derived": [
+          "stage number, title, instruction and renderer mode",
+          "item and unit numbers",
+          "part ranges and page boundaries",
+          "student and answer projections",
+          "blank, predicate, vocabulary and solution markup",
+          "answer-line height and layout classes",
+          "page count, footer number and output filenames"
+        ],
+        "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+      },
+      "logicalStages": [
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].meaningSegments",
+            "sentences[].annotations.predicates",
+            "sentences[].annotations.vocabulary"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "passage-practice",
+          "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean-inline-hint"
+            ],
+            "vocabularyColoring": true
+          },
+          "number": 1,
+          "pagination": {
+            "hardMaximum": 13,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 12,
+            "unit": "sentence"
+          },
+          "rendererMode": "meaning",
+          "scope": "sentence",
+          "title": "지문 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].exercises.koBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "korean-cloze",
+          "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 2,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (우리말)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.enBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "english-cloze",
+          "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 3,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (영문)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].translation"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "translation-practice",
+          "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 4,
+          "pagination": {
+            "hardMaximum": 11,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 10,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "해석 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.verb"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "verb-form",
+          "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 5,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "동사형 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.choice"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "grammar-vocabulary-choice",
+          "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 6,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "어법·어휘 고르기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.correction"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "correction",
+          "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+          "layout": {
+            "fieldOrder": [
+              "passage",
+              "correction-rows"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 7,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "correction",
+          "scope": "passage-activity",
+          "title": "어색한 곳 찾기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.arrange"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "sentence-order",
+          "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+          "layout": {
+            "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+            "arrangementSlots": "forbidden",
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 8,
+          "pagination": {
+            "hardMaximum": 6,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 6,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "순서 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.paragraphOrder"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "paragraph-order",
+          "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "fixed-intro",
+              "shuffled-blocks",
+              "fixed-outro",
+              "sequence-slots"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 9,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "paragraph-order",
+          "scope": "passage-activity",
+          "title": "문단 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.writing",
+            "sentences[].display|source"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "composition",
+          "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "studentEnglishSkeleton": "forbidden",
+            "vocabularyColoring": false
+          },
+          "number": 10,
+          "pagination": {
+            "hardMaximum": 8,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 8,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "영작 연습하기"
+        }
+      ],
+      "paginationContract": {
+        "continuationPageMinimumItems": 2,
+        "forbidden": [
+          "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+          "legacy 흐름 or 뜻 작성 columns",
+          "content crossing the page footer",
+          "content from one page overlapping the next page",
+          "clipped text",
+          "a singleton continuation page that can be avoided within the stage hard maximum",
+          "renumbering a new part from one"
+        ],
+        "layoutPreference": "vertical",
+        "numbering": "continuous-original-sentence-number",
+        "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+        "partLabel": "inclusive-original-sentence-number-range",
+        "readingLayout": "allowed-only-after-explicit-user-request",
+        "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+        "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+        "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+        "visualFitOverridesTargetCount": true
+      },
+      "principles": {
+        "canonicalDataContainsHtml": false,
+        "logicalStageCount": 10,
+        "publishOnlyAfterAllChecksPass": true,
+        "singleContentSource": true,
+        "studentAndAnswerShareExerciseStructure": true,
+        "uncertainSourcePolicy": "stop-and-request-clearer-source"
+      },
+      "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+      "releaseContract": {
+        "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+        "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+        "filenames": [
+          "문제.html",
+          "문제.pdf",
+          "해설.html",
+          "해설.pdf"
+        ],
+        "finalHtmlDependencies": "self-contained",
+        "outputRoot": "outputs",
+        "previewFixture": "one-shared-canonical-fixture",
+        "publish": "atomic-after-all-gates-pass",
+        "stagingRoot": ".build/releases",
+        "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture"
+      },
+      "semanticRubric": "docs/semantic-rubric.md",
+      "specVersion": "1.0.2",
+      "updates": {
+        "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+        "allowedScopes": [
+          "new-only",
+          "all",
+          "selected",
+          "manual-review"
+        ],
+        "changelogPath": "CHANGELOG.md",
+        "defaultScope": "new-only",
+        "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+        "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+        "reportRequired": true,
+        "requiredImpactDimensions": [
+          "canonical fields",
+          "stage numbers",
+          "sentence or activity ids",
+          "student and answer editions",
+          "page count and part ranges",
+          "component versions"
+        ],
+        "requiredReportSections": [
+          "요약",
+          "요청 내용",
+          "직접 변경",
+          "파생 변경",
+          "영향 없음",
+          "파일 변경",
+          "출력 변화",
+          "검증 결과",
+          "호환성",
+          "버전"
+        ],
+        "versionBump": {
+          "backward-compatible field or stage capability": "minor",
+          "breaking schema or canonical semantics": "major",
+          "bug fix, validation strengthening or copy correction": "patch"
+        }
+      },
+      "validationGates": {
+        "canonical": [
+          "JSON Schema passes",
+          "sourceStatus.status is confirmed",
+          "sentence ids and numbers are unique, consecutive and aligned",
+          "meaning segment English joined with one space equals display or source",
+          "every meaning segment has one-to-one English and Korean text",
+          "all target anchors resolve exactly at their declared occurrence",
+          "choice options contain the correct target exactly once",
+          "arrange chunks in canonical order reconstruct display or source exactly",
+          "arrange displayOrder contains every chunk id exactly once",
+          "paragraph displayOrder contains every block id exactly once",
+          "correction targets restore their base excerpt exactly",
+          "vocabulary and predicate annotations resolve inside their meaning segment"
+        ],
+        "compiled": [
+          "exactly ten logical stages appear in fixed order",
+          "sentence stages contain exactly one item for every source sentence",
+          "all part ranges are complete, consecutive and match item numbers",
+          "student and answer exercise structures are identical",
+          "student edition exposes no solution values",
+          "every bank, target and slot cardinality is internally consistent",
+          "stage 10 student edition contains no English skeleton"
+        ],
+        "release": [
+          "problem HTML exists",
+          "problem PDF exists",
+          "answer HTML exists",
+          "answer PDF exists",
+          "build manifest records all component versions and applied updates",
+          "update report exists when an update id is applied"
+        ],
+        "rendered": [
+          "document fonts and images are ready",
+          "browser console and page errors are empty",
+          "data-render-validation is exactly ok",
+          "no unresolved template placeholder remains",
+          "no preview fixture data remains in final HTML",
+          "no page or footer overflow exists under print media",
+          "answer red is present only on solution-value nodes",
+          "representative and risk pages pass visual review"
+        ]
+      },
+      "vocabularyContract": {
+        "allowedStageNumbers": [
+          1
+        ],
+        "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+        "maximumPerSentence": 3,
+        "redSlotForbidden": true,
+        "rendererClasses": {
+          "english": "vocab vocab-{slot} gloss",
+          "korean": "vocab vocab-{slot}"
+        },
+        "sameEnglishAndKoreanSlot": true,
+        "slots": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "specVersion": "1.0.2"
+  },
+  "template": {
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+        "size": 29359
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "sha256": "b8d6cf61d980afcfa0160d91fe87b73d535cc2ab80bac66964f45a9e0ec2345e",
+        "size": 40565
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+        "size": 1212
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "sha256": "fbce767b88b805800c5f03a51bfbe5c61985a55131b8624e43ab87acd5de3761",
+        "size": 14590
+      }
+    ],
+    "rendererContract": "shared-dom-explicit-targets-fail-closed",
+    "templateVersion": "1.0.1"
+  }
+}

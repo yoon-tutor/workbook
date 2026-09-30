@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checked": 4584,
+  "intentionalRoutingChanges": [
+    "others/AGENTS.md",
+    "others/docs/remote-mcp-migration.md"
+  ],
+  "unexpectedChanges": []
+}

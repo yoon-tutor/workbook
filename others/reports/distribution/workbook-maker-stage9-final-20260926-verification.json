@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "zip": "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\distribution\\workbook-maker-stage9-final-20260926.zip",
+  "zipSha256": "90d3f5c8e55d8fba42e987da14acfb82807c283ce5c10df47c6be7c88a72a40d",
+  "runtimeId": "0ea07fa4c92ae2c9cc07be3030e97e2d60999fd9f9129c604efb4900baebd1df",
+  "hiddenFilesIncluded": true,
+  "tokenInArchive": false,
+  "packageSetup": "passed",
+  "commands": [
+    "guide",
+    "sync",
+    "validate",
+    "prepare",
+    "status"
+  ],
+  "studentPages": 22,
+  "answerPages": 22,
+  "studentSolutions": 0,
+  "htmlByteIdenticalToPreviousRun": {
+    "문제.html": true,
+    "해설.html": true
+  },
+  "publicOutputCreatedDuringPrepare": false
+}

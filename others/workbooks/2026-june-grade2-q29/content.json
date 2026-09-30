@@ -1,0 +1,1899 @@
+{
+  "$schema": "../../schemas/canonical-workbook.schema.json",
+  "schemaVersion": "1.0.0",
+  "specVersion": "1.0.6",
+  "contentVersion": "1.0.0",
+  "workbookId": "2026-june-grade2-q29",
+  "metadata": {
+    "title": "2026학년도 6월 고2 29번 10단계 워크북",
+    "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 29번",
+    "kicker": "High School Reading",
+    "grade": "고등학교 2학년",
+    "topic": "할인 쿠폰이 소비자의 돈과 사고 부담을 동시에 줄여 주는 효과",
+    "sourceLanguage": "en",
+    "targetLanguage": "ko"
+  },
+  "sourceStatus": {
+    "status": "confirmed",
+    "sourceType": "pdf",
+    "references": [
+      "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+    ],
+    "sentenceCount": 7,
+    "verifiedAt": "2026-09-01T15:00:00+09:00",
+    "notes": "원본 PDF 5쪽의 29번 본문과 밑줄 선택지를 고해상도로 렌더링해 전사했습니다. 어법 문항의 출제 오류형 ② producing은 본 주석과 업데이트 보고서에 보존하고, 학습용 canonical 본문은 정답형 produced로 정규화했습니다."
+  },
+  "updateState": {
+    "defaultScope": "new-only",
+    "appliedUpdates": [
+      {
+        "id": "U-20260901-015",
+        "scope": "selected",
+        "fromContentVersion": "0.0.0",
+        "toContentVersion": "1.0.0",
+        "appliedAt": "2026-09-01T15:05:00+09:00",
+        "report": "reports/updates/U-20260901-015.md"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "source": "The renowned British philosopher Alfred North Whitehead asserted that “civilization advances by extending the number of operations we can perform without thinking about them.”",
+      "translation": "유명한 영국 철학자 앨프레드 노스 화이트헤드는 “문명은 우리가 생각하지 않고도 수행할 수 있는 작업의 수를 늘림으로써 발전한다”고 주장했다.",
+      "meaningSegments": [
+        {
+          "en": "The renowned British philosopher Alfred North Whitehead asserted",
+          "ko": "유명한 영국 철학자 앨프레드 노스 화이트헤드는 주장했다",
+          "id": "s001-m01"
+        },
+        {
+          "en": "that “civilization advances",
+          "ko": "“문명은 발전한다고",
+          "id": "s001-m02"
+        },
+        {
+          "en": "by extending the number of operations",
+          "ko": "작업의 수를 늘림으로써",
+          "id": "s001-m03"
+        },
+        {
+          "en": "we can perform",
+          "ko": "우리가 수행할 수 있는",
+          "id": "s001-m04"
+        },
+        {
+          "en": "without thinking about them.”",
+          "ko": "그것들에 대해 생각하지 않고.”",
+          "id": "s001-m05"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "asserted",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "주장했다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m01-p01",
+            "segmentId": "s001-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "advances",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "발전한다고",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m02-p01",
+            "segmentId": "s001-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "can perform",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "수행할 수 있는",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m04-p01",
+            "segmentId": "s001-m04"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "renowned",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "유명한",
+              "occurrence": 1
+            },
+            "meaning": "널리 알려진",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s001-m01-v01",
+            "segmentId": "s001-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "civilization",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "문명",
+              "occurrence": 1
+            },
+            "meaning": "문명",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s001-m02-v02",
+            "segmentId": "s001-m02",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "operations",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "작업",
+              "occurrence": 1
+            },
+            "meaning": "수행하는 일들",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s001-m03-v03",
+            "segmentId": "s001-m03",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s001-ko-01",
+              "target": {
+                "text": "생각하지 않고도 수행할 수 있는",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-ko-02",
+              "target": {
+                "text": "작업의 수를 늘림으로써",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s001-en-01",
+              "target": {
+                "text": "civilization advances",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-en-02",
+              "target": {
+                "text": "extending the number of operations",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "asserted",
+                "occurrence": 1
+              },
+              "cue": "assert",
+              "lemma": "assert",
+              "id": "s001-verb-01"
+            },
+            {
+              "target": {
+                "text": "advances",
+                "occurrence": 1
+              },
+              "cue": "advance",
+              "lemma": "advance",
+              "id": "s001-verb-02"
+            },
+            {
+              "target": {
+                "text": "can perform",
+                "occurrence": 1
+              },
+              "cue": "perform",
+              "lemma": "perform",
+              "id": "s001-verb-03"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "by extending",
+                "occurrence": 1
+              },
+              "options": [
+                "by extending",
+                "by extend"
+              ],
+              "id": "s001-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s001-a",
+              "text": "The renowned British philosopher Alfred North Whitehead asserted"
+            },
+            {
+              "id": "s001-b",
+              "text": "that “civilization advances"
+            },
+            {
+              "id": "s001-c",
+              "text": "by extending the number of operations"
+            },
+            {
+              "id": "s001-d",
+              "text": "we can perform without thinking about them.”"
+            }
+          ],
+          "displayOrder": [
+            "s001-c",
+            "s001-a",
+            "s001-d",
+            "s001-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "renowned British philosopher",
+            "assert",
+            "civilization",
+            "extend",
+            "operations",
+            "without thinking"
+          ]
+        }
+      },
+      "id": "s001",
+      "no": 1
+    },
+    {
+      "source": "Take, for example, the “advance” offered to civilization by the discount coupon, which allows consumers to assume that they will receive a reduced purchase price by presenting the coupon.",
+      "translation": "예를 들어, 소비자가 할인 쿠폰을 제시함으로써 할인된 구매 가격을 받을 것이라고 당연하게 여기도록 하는 할인 쿠폰이 문명에 제공한 “발전”을 생각해 보라.",
+      "meaningSegments": [
+        {
+          "en": "Take, for example,",
+          "ko": "예를 들어 생각해 보라,",
+          "id": "s002-m01"
+        },
+        {
+          "en": "the “advance” offered to civilization",
+          "ko": "문명에 제공된 “발전”을",
+          "id": "s002-m02"
+        },
+        {
+          "en": "by the discount coupon,",
+          "ko": "할인 쿠폰에 의해,",
+          "id": "s002-m03"
+        },
+        {
+          "en": "which allows consumers",
+          "ko": "그것은 소비자가 하도록 한다",
+          "id": "s002-m04"
+        },
+        {
+          "en": "to assume",
+          "ko": "당연하게 여기도록",
+          "id": "s002-m05"
+        },
+        {
+          "en": "that they will receive a reduced purchase price",
+          "ko": "그들이 할인된 구매 가격을 받을 것이라고",
+          "id": "s002-m06"
+        },
+        {
+          "en": "by presenting the coupon.",
+          "ko": "쿠폰을 제시함으로써.",
+          "id": "s002-m07"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "Take",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "생각해 보라",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m01-p01",
+            "segmentId": "s002-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "allows",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "하도록 한다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m04-p01",
+            "segmentId": "s002-m04"
+          },
+          {
+            "en": [
+              {
+                "text": "will receive",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "받을 것이라고",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m06-p01",
+            "segmentId": "s002-m06"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "consumers",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "소비자",
+              "occurrence": 1
+            },
+            "meaning": "상품을 사용하거나 구매하는 사람",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s002-m04-v01",
+            "segmentId": "s002-m04",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "assume",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "당연하게 여기",
+              "occurrence": 1
+            },
+            "meaning": "그렇다고 당연히 여기다",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s002-m05-v02",
+            "segmentId": "s002-m05",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "reduced purchase price",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "할인된 구매 가격",
+              "occurrence": 1
+            },
+            "meaning": "긎은 구매 가격",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s002-m06-v03",
+            "segmentId": "s002-m06",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s002-ko-01",
+              "target": {
+                "text": "할인된 구매 가격",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s002-ko-02",
+              "target": {
+                "text": "할인 쿠폰을 제시함으로써",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s002-en-01",
+              "target": {
+                "text": "allows consumers to assume",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s002-en-02",
+              "target": {
+                "text": "reduced purchase price",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "Take",
+                "occurrence": 1
+              },
+              "cue": "take",
+              "lemma": "take",
+              "id": "s002-verb-01"
+            },
+            {
+              "target": {
+                "text": "allows",
+                "occurrence": 1
+              },
+              "cue": "allow",
+              "lemma": "allow",
+              "id": "s002-verb-02"
+            },
+            {
+              "target": {
+                "text": "will receive",
+                "occurrence": 1
+              },
+              "cue": "receive",
+              "lemma": "receive",
+              "id": "s002-verb-03"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "presenting",
+                "occurrence": 1
+              },
+              "options": [
+                "presenting",
+                "present"
+              ],
+              "id": "s002-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s002-a",
+              "text": "Take, for example, the “advance” offered to civilization"
+            },
+            {
+              "id": "s002-b",
+              "text": "by the discount coupon, which allows consumers to assume"
+            },
+            {
+              "id": "s002-c",
+              "text": "that they will receive a reduced purchase price"
+            },
+            {
+              "id": "s002-d",
+              "text": "by presenting the coupon."
+            }
+          ],
+          "displayOrder": [
+            "s002-c",
+            "s002-a",
+            "s002-d",
+            "s002-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "advance",
+            "discount coupon",
+            "allow",
+            "assume",
+            "reduced purchase price",
+            "present"
+          ]
+        }
+      },
+      "id": "s002",
+      "no": 2
+    },
+    {
+      "source": "The extent to which we have learned to operate mechanically on that assumption is illustrated in the experience of one automobile-tire company.",
+      "translation": "우리가 그런 생각을 바탕으로 얼마나 기계적으로 행동하도록 학습해 왔는지는 한 자동차 타이어 회사의 경험에서 잘 보여진다.",
+      "meaningSegments": [
+        {
+          "en": "The extent",
+          "ko": "그 정도는",
+          "id": "s003-m01"
+        },
+        {
+          "en": "to which we have learned",
+          "ko": "우리가 학습해 온",
+          "id": "s003-m02"
+        },
+        {
+          "en": "to operate mechanically",
+          "ko": "기계적으로 행동하도록",
+          "id": "s003-m03"
+        },
+        {
+          "en": "on that assumption",
+          "ko": "그런 생각을 바탕으로",
+          "id": "s003-m04"
+        },
+        {
+          "en": "is illustrated",
+          "ko": "보여진다",
+          "id": "s003-m05"
+        },
+        {
+          "en": "in the experience",
+          "ko": "경험에서",
+          "id": "s003-m06"
+        },
+        {
+          "en": "of one automobile-tire company.",
+          "ko": "한 자동차 타이어 회사의.",
+          "id": "s003-m07"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "have learned",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "학습해 온",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m02-p01",
+            "segmentId": "s003-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "is illustrated",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "보여진다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m05-p01",
+            "segmentId": "s003-m05"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "extent",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "정도",
+              "occurrence": 1
+            },
+            "meaning": "얼마나 많은지의 정도",
+            "reasons": [
+              "abstract",
+              "structure-critical"
+            ],
+            "id": "s003-m01-v01",
+            "segmentId": "s003-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "mechanically",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "기계적으로",
+              "occurrence": 1
+            },
+            "meaning": "생각 없이 습관적으로",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s003-m03-v02",
+            "segmentId": "s003-m03",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "assumption",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "생각",
+              "occurrence": 1
+            },
+            "meaning": "증거 없이 당연하게 여기는 것",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s003-m04-v03",
+            "segmentId": "s003-m04",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s003-ko-01",
+              "target": {
+                "text": "기계적으로 행동",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s003-ko-02",
+              "target": {
+                "text": "자동차 타이어 회사의 경험",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s003-en-01",
+              "target": {
+                "text": "operate mechanically",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s003-en-02",
+              "target": {
+                "text": "is illustrated",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "have learned",
+                "occurrence": 1
+              },
+              "cue": "learn",
+              "lemma": "learn",
+              "id": "s003-verb-01"
+            },
+            {
+              "target": {
+                "text": "is illustrated",
+                "occurrence": 1
+              },
+              "cue": "illustrate",
+              "lemma": "illustrate",
+              "id": "s003-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "to which",
+                "occurrence": 1
+              },
+              "options": [
+                "to which",
+                "to that"
+              ],
+              "id": "s003-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s003-a",
+              "text": "The extent to which we have learned"
+            },
+            {
+              "id": "s003-b",
+              "text": "to operate mechanically on that assumption"
+            },
+            {
+              "id": "s003-c",
+              "text": "is illustrated in the experience"
+            },
+            {
+              "id": "s003-d",
+              "text": "of one automobile-tire company."
+            }
+          ],
+          "displayOrder": [
+            "s003-c",
+            "s003-a",
+            "s003-d",
+            "s003-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "extent",
+            "learn",
+            "operate mechanically",
+            "assumption",
+            "be illustrated",
+            "experience"
+          ]
+        }
+      },
+      "id": "s003",
+      "no": 3
+    },
+    {
+      "source": "Mailed-out coupons that—because of a printing error—offered no savings to recipients produced just as much customer response as did error-free coupons that offered substantial savings.",
+      "translation": "인쇄 오류로 인해 받는 사람에게 아무런 절약 혜택을 제공하지 않은 우편 발송 쿠폰은 실질적인 절약 혜택을 제공한 오류 없는 쿠폰과 마찬가지로 많은 고객 반응을 이끌어 냈다.",
+      "meaningSegments": [
+        {
+          "en": "Mailed-out coupons",
+          "ko": "우편 발송 쿠폰은",
+          "id": "s004-m01"
+        },
+        {
+          "en": "that—because of a printing error—offered no savings",
+          "ko": "인쇄 오류로 인해 아무런 절약 혜택을 제공하지 않은",
+          "id": "s004-m02"
+        },
+        {
+          "en": "to recipients",
+          "ko": "받는 사람에게",
+          "id": "s004-m03"
+        },
+        {
+          "en": "produced just as much customer response",
+          "ko": "마찬가지로 많은 고객 반응을 이끌어 냈다",
+          "id": "s004-m04"
+        },
+        {
+          "en": "as did error-free coupons",
+          "ko": "오류 없는 쿠폰이 그랬던 것처럼",
+          "id": "s004-m05"
+        },
+        {
+          "en": "that offered substantial savings.",
+          "ko": "실질적인 절약 혜택을 제공한.",
+          "id": "s004-m06"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "offered",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "제공하지 않은",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m02-p01",
+            "segmentId": "s004-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "produced",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "이끌어 냈다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m04-p01",
+            "segmentId": "s004-m04"
+          },
+          {
+            "en": [
+              {
+                "text": "did",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "그랬던",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m05-p01",
+            "segmentId": "s004-m05"
+          },
+          {
+            "en": [
+              {
+                "text": "offered",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "제공한",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m06-p01",
+            "segmentId": "s004-m06"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "Mailed-out",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "우편 발송",
+              "occurrence": 1
+            },
+            "meaning": "우편으로 보낸",
+            "reasons": [
+              "student-difficulty"
+            ],
+            "id": "s004-m01-v01",
+            "segmentId": "s004-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "recipients",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "받는 사람",
+              "occurrence": 1
+            },
+            "meaning": "수신자",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s004-m03-v02",
+            "segmentId": "s004-m03",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "substantial savings",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "실질적인 절약 혜택",
+              "occurrence": 1
+            },
+            "meaning": "상당한 금액의 절약",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s004-m06-v03",
+            "segmentId": "s004-m06",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s004-ko-01",
+              "target": {
+                "text": "아무런 절약 혜택을 제공하지 않은",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-ko-02",
+              "target": {
+                "text": "마찬가지로 많은 고객 반응",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s004-en-01",
+              "target": {
+                "text": "produced just as much customer response",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-en-02",
+              "target": {
+                "text": "substantial savings",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "offered",
+                "occurrence": 1
+              },
+              "cue": "offer",
+              "lemma": "offer",
+              "id": "s004-verb-01"
+            },
+            {
+              "target": {
+                "text": "produced",
+                "occurrence": 1
+              },
+              "cue": "produce",
+              "lemma": "produce",
+              "id": "s004-verb-02"
+            },
+            {
+              "target": {
+                "text": "did",
+                "occurrence": 1
+              },
+              "cue": "do",
+              "lemma": "do",
+              "id": "s004-verb-03"
+            },
+            {
+              "target": {
+                "text": "offered",
+                "occurrence": 2
+              },
+              "cue": "offer",
+              "lemma": "offer",
+              "id": "s004-verb-04"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "produced",
+                "occurrence": 1
+              },
+              "options": [
+                "produced",
+                "producing"
+              ],
+              "id": "s004-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s004-a",
+              "text": "Mailed-out coupons that—because of a printing error—offered no savings to recipients"
+            },
+            {
+              "id": "s004-b",
+              "text": "produced just as much customer response"
+            },
+            {
+              "id": "s004-c",
+              "text": "as did error-free coupons"
+            },
+            {
+              "id": "s004-d",
+              "text": "that offered substantial savings."
+            }
+          ],
+          "displayOrder": [
+            "s004-c",
+            "s004-a",
+            "s004-d",
+            "s004-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "mailed-out coupons",
+            "printing error",
+            "offer no savings",
+            "produce",
+            "customer response",
+            "error-free coupons"
+          ]
+        }
+      },
+      "id": "s004",
+      "no": 4
+    },
+    {
+      "source": "The obvious but instructive point here is that we expect discount coupons to do double duty.",
+      "translation": "여기서 분명하지만 교훈적인 점은 우리가 할인 쿠폰이 두 가지 역할을 하기를 기대한다는 것이다.",
+      "meaningSegments": [
+        {
+          "en": "The obvious but instructive point here is",
+          "ko": "여기서 분명하지만 교훈적인 점은 그것이다",
+          "id": "s005-m01"
+        },
+        {
+          "en": "that we expect discount coupons",
+          "ko": "우리가 할인 쿠폰이 하기를 기대한다는",
+          "id": "s005-m02"
+        },
+        {
+          "en": "to do double duty.",
+          "ko": "두 가지 역할을.",
+          "id": "s005-m03"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "is",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "그것이다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m01-p01",
+            "segmentId": "s005-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "expect",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "기대한다는",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m02-p01",
+            "segmentId": "s005-m02"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "instructive",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "교훈적인",
+              "occurrence": 1
+            },
+            "meaning": "유익한 교훈을 주는",
+            "reasons": [
+              "academic",
+              "abstract"
+            ],
+            "id": "s005-m01-v01",
+            "segmentId": "s005-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "double duty",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "두 가지 역할",
+              "occurrence": 1
+            },
+            "meaning": "두 가지 역할",
+            "reasons": [
+              "topic-core",
+              "student-difficulty"
+            ],
+            "id": "s005-m03-v02",
+            "segmentId": "s005-m03",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s005-ko-01",
+              "target": {
+                "text": "분명하지만 교훈적인 점",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-ko-02",
+              "target": {
+                "text": "두 가지 역할",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s005-en-01",
+              "target": {
+                "text": "instructive point",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-en-02",
+              "target": {
+                "text": "double duty",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "is",
+                "occurrence": 1
+              },
+              "cue": "be",
+              "lemma": "be",
+              "id": "s005-verb-01"
+            },
+            {
+              "target": {
+                "text": "expect",
+                "occurrence": 1
+              },
+              "cue": "expect",
+              "lemma": "expect",
+              "id": "s005-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "to do",
+                "occurrence": 1
+              },
+              "options": [
+                "to do",
+                "doing"
+              ],
+              "id": "s005-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s005-a",
+              "text": "The obvious but instructive point here is"
+            },
+            {
+              "id": "s005-b",
+              "text": "that we expect discount coupons"
+            },
+            {
+              "id": "s005-c",
+              "text": "to do double duty."
+            }
+          ],
+          "displayOrder": [
+            "s005-b",
+            "s005-c",
+            "s005-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "obvious",
+            "instructive point",
+            "expect",
+            "discount coupons",
+            "double duty"
+          ]
+        }
+      },
+      "id": "s005",
+      "no": 5
+    },
+    {
+      "source": "Not only do we expect them to save us money, we also expect them to save us the time and mental energy required to think about how to do it.",
+      "translation": "우리는 쿠폰이 돈을 아껴 주기만을 기대하는 것이 아니라, 그렇게 하는 방법을 생각하는 데 필요한 시간과 정신적 에너지도 아껴 주기를 기대한다.",
+      "meaningSegments": [
+        {
+          "en": "Not only do we expect them",
+          "ko": "우리는 그것들이 하기만을 기대하는 것이 아니라",
+          "id": "s006-m01"
+        },
+        {
+          "en": "to save us money,",
+          "ko": "우리의 돈을 아껴 주기를,",
+          "id": "s006-m02"
+        },
+        {
+          "en": "we also expect them",
+          "ko": "우리는 또한 그것들이 하기를 기대한다",
+          "id": "s006-m03"
+        },
+        {
+          "en": "to save us the time and mental energy",
+          "ko": "우리의 시간과 정신적 에너지를 아껴 주기를",
+          "id": "s006-m04"
+        },
+        {
+          "en": "required to think",
+          "ko": "생각하는 데 필요한",
+          "id": "s006-m05"
+        },
+        {
+          "en": "about how to do it.",
+          "ko": "그것을 하는 방법에 대해.",
+          "id": "s006-m06"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "do",
+                "occurrence": 1
+              },
+              {
+                "text": "expect",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "기대하는 것이 아니라",
+                "occurrence": 1
+              }
+            ],
+            "id": "s006-m01-p01",
+            "segmentId": "s006-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "expect",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "기대한다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s006-m03-p01",
+            "segmentId": "s006-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "mental energy",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "정신적 에너지",
+              "occurrence": 1
+            },
+            "meaning": "생각과 판단에 드는 정신적 힘",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s006-m04-v01",
+            "segmentId": "s006-m04",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "required",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "필요한",
+              "occurrence": 1
+            },
+            "meaning": "필요한",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s006-m05-v02",
+            "segmentId": "s006-m05",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s006-ko-01",
+              "target": {
+                "text": "돈을 아껴 주기만을 기대",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s006-ko-02",
+              "target": {
+                "text": "시간과 정신적 에너지",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s006-en-01",
+              "target": {
+                "text": "Not only do we expect",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s006-en-02",
+              "target": {
+                "text": "time and mental energy",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "do",
+                "occurrence": 1
+              },
+              "cue": "do",
+              "lemma": "do",
+              "id": "s006-verb-01"
+            },
+            {
+              "target": {
+                "text": "expect",
+                "occurrence": 1
+              },
+              "cue": "expect",
+              "lemma": "expect",
+              "id": "s006-verb-02"
+            },
+            {
+              "target": {
+                "text": "expect",
+                "occurrence": 2
+              },
+              "cue": "expect",
+              "lemma": "expect",
+              "id": "s006-verb-03"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "do we expect",
+                "occurrence": 1
+              },
+              "options": [
+                "do we expect",
+                "we do expect"
+              ],
+              "id": "s006-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s006-a",
+              "text": "Not only do we expect them to save us money,"
+            },
+            {
+              "id": "s006-b",
+              "text": "we also expect them to save us"
+            },
+            {
+              "id": "s006-c",
+              "text": "the time and mental energy"
+            },
+            {
+              "id": "s006-d",
+              "text": "required to think about how to do it."
+            }
+          ],
+          "displayOrder": [
+            "s006-c",
+            "s006-a",
+            "s006-d",
+            "s006-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "not only",
+            "expect",
+            "save money",
+            "also",
+            "time and mental energy",
+            "how to do it"
+          ]
+        }
+      },
+      "id": "s006",
+      "no": 6
+    },
+    {
+      "source": "In today’s world, we need the first advantage to handle pocketbook strain; but we need the second advantage to handle something potentially more important—brain strain.",
+      "translation": "오늘날의 세상에서 우리는 가계 부담을 다루기 위해 첫 번째 이점이 필요하지만, 잠재적으로 더 중요한 정신적 부담을 다루기 위해서는 두 번째 이점이 필요하다.",
+      "meaningSegments": [
+        {
+          "en": "In today’s world,",
+          "ko": "오늘날의 세상에서,",
+          "id": "s007-m01"
+        },
+        {
+          "en": "we need the first advantage",
+          "ko": "우리는 첫 번째 이점이 필요하다",
+          "id": "s007-m02"
+        },
+        {
+          "en": "to handle pocketbook strain;",
+          "ko": "가계 부담을 다루기 위해;",
+          "id": "s007-m03"
+        },
+        {
+          "en": "but we need the second advantage",
+          "ko": "하지만 우리는 두 번째 이점이 필요하다",
+          "id": "s007-m04"
+        },
+        {
+          "en": "to handle something",
+          "ko": "무언가를 다루기 위해",
+          "id": "s007-m05"
+        },
+        {
+          "en": "potentially more important—brain strain.",
+          "ko": "잠재적으로 더 중요한—정신적 부담을.",
+          "id": "s007-m06"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "need",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "필요하다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s007-m02-p01",
+            "segmentId": "s007-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "need",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "필요하다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s007-m04-p01",
+            "segmentId": "s007-m04"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "pocketbook strain",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "가계 부담",
+              "occurrence": 1
+            },
+            "meaning": "개인의 경제적 부담",
+            "reasons": [
+              "abstract",
+              "topic-core",
+              "student-difficulty"
+            ],
+            "id": "s007-m03-v01",
+            "segmentId": "s007-m03",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "potentially",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "잠재적으로",
+              "occurrence": 1
+            },
+            "meaning": "그럴 가능성이 있게",
+            "reasons": [
+              "academic",
+              "abstract"
+            ],
+            "id": "s007-m06-v02",
+            "segmentId": "s007-m06",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "brain strain",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "정신적 부담",
+              "occurrence": 1
+            },
+            "meaning": "생각과 판단에서 오는 피로",
+            "reasons": [
+              "abstract",
+              "topic-core",
+              "student-difficulty"
+            ],
+            "id": "s007-m06-v03",
+            "segmentId": "s007-m06",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s007-ko-01",
+              "target": {
+                "text": "가계 부담",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s007-ko-02",
+              "target": {
+                "text": "정신적 부담",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s007-en-01",
+              "target": {
+                "text": "pocketbook strain",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s007-en-02",
+              "target": {
+                "text": "potentially more important—brain strain",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "need",
+                "occurrence": 1
+              },
+              "cue": "need",
+              "lemma": "need",
+              "id": "s007-verb-01"
+            },
+            {
+              "target": {
+                "text": "need",
+                "occurrence": 2
+              },
+              "cue": "need",
+              "lemma": "need",
+              "id": "s007-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "potentially",
+                "occurrence": 1
+              },
+              "options": [
+                "potentially",
+                "potential"
+              ],
+              "id": "s007-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s007-a",
+              "text": "In today’s world, we need the first advantage"
+            },
+            {
+              "id": "s007-b",
+              "text": "to handle pocketbook strain;"
+            },
+            {
+              "id": "s007-c",
+              "text": "but we need the second advantage"
+            },
+            {
+              "id": "s007-d",
+              "text": "to handle something potentially more important—brain strain."
+            }
+          ],
+          "displayOrder": [
+            "s007-c",
+            "s007-a",
+            "s007-d",
+            "s007-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "today’s world",
+            "first advantage",
+            "handle",
+            "pocketbook strain",
+            "second advantage",
+            "brain strain"
+          ]
+        }
+      },
+      "id": "s007",
+      "no": 7
+    }
+  ],
+  "passageActivities": {
+    "correction": [
+      {
+        "textOverride": "The renowned British philosopher Alfred North Whitehead assert that “civilization advances by extending the number of operations we can perform without thinking about them.” Take, for example, the “advance” offered to civilization by the discount coupon, which allow consumers to assume that they will receive a reduced purchase price by presenting the coupon. The extent to which we have learned to operate mechanically on that assumption are illustrated in the experience of one automobile-tire company. Mailed-out coupons that—because of a printing error—offered no savings to recipients producing just as much customer response as did error-free coupons that offered substantial savings. The obvious but instructive point here are that we expect discount coupons to do double duty. Not only we expect them to save us money, we also expect them to save us the time and mental energy required to think about how to do it. In today’s world, we needs the first advantage to handle pocketbook strain; but we need the second advantage to handle something potentially more important—brain strain.",
+        "targets": [
+          {
+            "target": {
+              "text": "Whitehead assert",
+              "occurrence": 1
+            },
+            "incorrect": "Whitehead assert",
+            "correct": "Whitehead asserted",
+            "id": "correction-01-01"
+          },
+          {
+            "target": {
+              "text": "which allow",
+              "occurrence": 1
+            },
+            "incorrect": "which allow",
+            "correct": "which allows",
+            "id": "correction-01-02"
+          },
+          {
+            "target": {
+              "text": "assumption are illustrated",
+              "occurrence": 1
+            },
+            "incorrect": "assumption are illustrated",
+            "correct": "assumption is illustrated",
+            "id": "correction-01-03"
+          },
+          {
+            "target": {
+              "text": "recipients producing",
+              "occurrence": 1
+            },
+            "incorrect": "recipients producing",
+            "correct": "recipients produced",
+            "id": "correction-01-04"
+          },
+          {
+            "target": {
+              "text": "point here are",
+              "occurrence": 1
+            },
+            "incorrect": "point here are",
+            "correct": "point here is",
+            "id": "correction-01-05"
+          },
+          {
+            "target": {
+              "text": "Not only we expect",
+              "occurrence": 1
+            },
+            "incorrect": "Not only we expect",
+            "correct": "Not only do we expect",
+            "id": "correction-01-06"
+          },
+          {
+            "target": {
+              "text": "we needs",
+              "occurrence": 1
+            },
+            "incorrect": "we needs",
+            "correct": "we need",
+            "id": "correction-01-07"
+          }
+        ],
+        "id": "correction-01"
+      }
+    ],
+    "paragraphOrder": [
+      {
+        "blocks": [
+          {
+            "id": "A",
+            "sentenceIds": [
+              "s001",
+              "s002"
+            ]
+          },
+          {
+            "id": "B",
+            "sentenceIds": [
+              "s003",
+              "s004"
+            ]
+          },
+          {
+            "id": "C",
+            "sentenceIds": [
+              "s005",
+              "s006",
+              "s007"
+            ]
+          }
+        ],
+        "displayOrder": [
+          "C",
+          "A",
+          "B"
+        ],
+        "answerOrder": [
+          "A",
+          "B",
+          "C"
+        ],
+        "id": "paragraph-order-01"
+      }
+    ]
+  }
+}

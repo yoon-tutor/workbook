@@ -1,0 +1,6670 @@
+{
+  "build": {
+    "appliedUpdates": [
+      "U-20260710-001",
+      "U-20260723-004",
+      "U-20260723-005"
+    ],
+    "buildVersion": "1.0.2",
+    "builtAt": "2026-07-23T23:27:00+09:00",
+    "canonicalDigest": "556a6335e436d1031b8085efa363cc466771a2080642517e03ed4c4c018c84b9",
+    "compilerVersion": "1.0.2",
+    "contentVersion": "1.0.2",
+    "engineDigest": "b51bb9b758b4a296e3e5fa03c8af783a3626209e4cb1ee0cd519a6394e903d40",
+    "engineInputs": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "51971fe944f53b6d6be26501c8730fc99ec76bd250e966ef1c9129a5b257363c",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "01a494e0ac7cf8d607340e9d06fe9a910fa1cd1b1422c73dc7b1d76b44e8d840",
+        "size": 14275
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "42d8b5216b70fa0eaba08421b78fdbf50f1021f41e2dc1a31805adbef9c0e4b2",
+        "size": 31543
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "53f264feb5b216ac0a4daec4eb23213bb407ce29a70a014ea0c4d6916832eed6",
+        "size": 29907
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      }
+    ],
+    "files": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "51971fe944f53b6d6be26501c8730fc99ec76bd250e966ef1c9129a5b257363c",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "01a494e0ac7cf8d607340e9d06fe9a910fa1cd1b1422c73dc7b1d76b44e8d840",
+        "size": 14275
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "42d8b5216b70fa0eaba08421b78fdbf50f1021f41e2dc1a31805adbef9c0e4b2",
+        "size": 31543
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "53f264feb5b216ac0a4daec4eb23213bb407ce29a70a014ea0c4d6916832eed6",
+        "size": 29907
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      },
+      {
+        "path": "문제.html",
+        "sha256": "3ada1095d793e008258ade59bdf9ecc060cd1a52bc56206e8113d06b5c32fdfa",
+        "size": 190692
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "72f2c6bdfe57c6f349c17db8a24d9fbbc72cd52c33b02c90b451d3735122ed9e",
+        "size": 919521
+      },
+      {
+        "path": "해설.html",
+        "sha256": "3e95160ce4554b2d1036a9c4d4ae466b15fd077afeabce92190c0391417780f2",
+        "size": 212182
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "9cf73ff750a1044d9bc90f5cdb6f692eaa2ce1251359612f83cecc362243ac10",
+        "size": 1113005
+      }
+    ],
+    "outputs": [
+      {
+        "path": "문제.html",
+        "sha256": "3ada1095d793e008258ade59bdf9ecc060cd1a52bc56206e8113d06b5c32fdfa",
+        "size": 190692
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "72f2c6bdfe57c6f349c17db8a24d9fbbc72cd52c33b02c90b451d3735122ed9e",
+        "size": 919521
+      },
+      {
+        "path": "해설.html",
+        "sha256": "3e95160ce4554b2d1036a9c4d4ae466b15fd077afeabce92190c0391417780f2",
+        "size": 212182
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "9cf73ff750a1044d9bc90f5cdb6f692eaa2ce1251359612f83cecc362243ac10",
+        "size": 1113005
+      }
+    ],
+    "pages": [
+      {
+        "digest": "04b9504fead80c9956745793ac8b470162606ab1cea040c36dd092932b9d8d49",
+        "edition": "student",
+        "id": "student:chocolate-reading-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012"
+        ],
+        "page": 1,
+        "pageId": "chocolate-reading-p01",
+        "part": "1-12",
+        "stageId": "1"
+      },
+      {
+        "digest": "4835c94bec0bba5a75a0e6a1d9755aa1b4533f1d28082ebf1442aab29dfc97b0",
+        "edition": "student",
+        "id": "student:chocolate-reading-p02",
+        "itemIds": [
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 2,
+        "pageId": "chocolate-reading-p02",
+        "part": "13-24",
+        "stageId": "1"
+      },
+      {
+        "digest": "92a6b5d0297cd991d1a5370e172a32b2fe3530ac3c67a38c4eacc4c5bca29be5",
+        "edition": "student",
+        "id": "student:chocolate-reading-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012"
+        ],
+        "page": 3,
+        "pageId": "chocolate-reading-p03",
+        "part": "1-12",
+        "stageId": "2"
+      },
+      {
+        "digest": "b3d798982572fa1319253dadf87641440aa8a671832296ad8cd37344ccd28c48",
+        "edition": "student",
+        "id": "student:chocolate-reading-p04",
+        "itemIds": [
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 4,
+        "pageId": "chocolate-reading-p04",
+        "part": "13-24",
+        "stageId": "2"
+      },
+      {
+        "digest": "e7b4ad6872c9f6b64f1d0ea6f72e5f64da09638538f4546ba5c26c65d8302af0",
+        "edition": "student",
+        "id": "student:chocolate-reading-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012"
+        ],
+        "page": 5,
+        "pageId": "chocolate-reading-p05",
+        "part": "1-12",
+        "stageId": "3"
+      },
+      {
+        "digest": "806889155e1a249ea966e45d667cf6b0779840129f081e48a43ebd0eeeed9a8c",
+        "edition": "student",
+        "id": "student:chocolate-reading-p06",
+        "itemIds": [
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 6,
+        "pageId": "chocolate-reading-p06",
+        "part": "13-24",
+        "stageId": "3"
+      },
+      {
+        "digest": "496e7719334180669cab5b81d0abb79001cb34c9b2a2d76c5759a885192102eb",
+        "edition": "student",
+        "id": "student:chocolate-reading-p07",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 7,
+        "pageId": "chocolate-reading-p07",
+        "part": "1-8",
+        "stageId": "4"
+      },
+      {
+        "digest": "57a167cd0542342a00824c5926eb3f3d8f97db71cc2718f687da78c668fb98c3",
+        "edition": "student",
+        "id": "student:chocolate-reading-p08",
+        "itemIds": [
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016"
+        ],
+        "page": 8,
+        "pageId": "chocolate-reading-p08",
+        "part": "9-16",
+        "stageId": "4"
+      },
+      {
+        "digest": "d11894ad31f675e97549e722bffaba4d7206b0ac852a64a026b455072bf00e1f",
+        "edition": "student",
+        "id": "student:chocolate-reading-p09",
+        "itemIds": [
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 9,
+        "pageId": "chocolate-reading-p09",
+        "part": "17-24",
+        "stageId": "4"
+      },
+      {
+        "digest": "ae2e91b729fb2b5fdc60e83ba7694246036e0f97e29170d4809196b1923986f2",
+        "edition": "student",
+        "id": "student:chocolate-reading-p10",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012"
+        ],
+        "page": 10,
+        "pageId": "chocolate-reading-p10",
+        "part": "1-12",
+        "stageId": "5"
+      },
+      {
+        "digest": "4df26658fca748c6dff4833b7bbd9992e3cdf8a7764af78342b3bd0c78d981c4",
+        "edition": "student",
+        "id": "student:chocolate-reading-p11",
+        "itemIds": [
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 11,
+        "pageId": "chocolate-reading-p11",
+        "part": "13-24",
+        "stageId": "5"
+      },
+      {
+        "digest": "4dceedfc1fcbbf02ece0f8c31873858e973e5d5eed2a685506781d585499c262",
+        "edition": "student",
+        "id": "student:chocolate-reading-p12",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012"
+        ],
+        "page": 12,
+        "pageId": "chocolate-reading-p12",
+        "part": "1-12",
+        "stageId": "6"
+      },
+      {
+        "digest": "9153fe1f2991ab74ef85fddaffd2833169a10448283fdd07699318c607c68839",
+        "edition": "student",
+        "id": "student:chocolate-reading-p13",
+        "itemIds": [
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 13,
+        "pageId": "chocolate-reading-p13",
+        "part": "13-24",
+        "stageId": "6"
+      },
+      {
+        "digest": "5a8b76585f4cece90173b7b3b579376477b3c8ad3809b43d789f176ddb554d32",
+        "edition": "student",
+        "id": "student:chocolate-reading-p14",
+        "itemIds": [],
+        "page": 14,
+        "pageId": "chocolate-reading-p14",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "9490dca3c12d2fd26664245063c0d6d09b0143a1eb41722768c8b2b8b8a20e0c",
+        "edition": "student",
+        "id": "student:chocolate-reading-p15",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 15,
+        "pageId": "chocolate-reading-p15",
+        "part": "1-6",
+        "stageId": "8"
+      },
+      {
+        "digest": "fe2e29d5b841be2f4090dfcf33a27d1e96bf2698294b080b7525b7fe4df7d557",
+        "edition": "student",
+        "id": "student:chocolate-reading-p16",
+        "itemIds": [
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012"
+        ],
+        "page": 16,
+        "pageId": "chocolate-reading-p16",
+        "part": "7-12",
+        "stageId": "8"
+      },
+      {
+        "digest": "978e1bcd586422597944a9bd7e27ad7f771f216105246bf32305c1a045edcc82",
+        "edition": "student",
+        "id": "student:chocolate-reading-p17",
+        "itemIds": [
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018"
+        ],
+        "page": 17,
+        "pageId": "chocolate-reading-p17",
+        "part": "13-18",
+        "stageId": "8"
+      },
+      {
+        "digest": "85095e6c080a2dfda37e54a1e357d2472488bcc7875831687105e90e194bd499",
+        "edition": "student",
+        "id": "student:chocolate-reading-p18",
+        "itemIds": [
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 18,
+        "pageId": "chocolate-reading-p18",
+        "part": "19-24",
+        "stageId": "8"
+      },
+      {
+        "digest": "6cb54692b21f65f95c9d60712545189553f1e3cca2da42bb773d45454e434960",
+        "edition": "student",
+        "id": "student:chocolate-reading-p19",
+        "itemIds": [],
+        "page": 19,
+        "pageId": "chocolate-reading-p19",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "193a6869ba5db696e2e4bfe099639adac26a9506a47cd12b777508c0c4a11726",
+        "edition": "student",
+        "id": "student:chocolate-reading-p20",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 20,
+        "pageId": "chocolate-reading-p20",
+        "part": "1-8",
+        "stageId": "10"
+      },
+      {
+        "digest": "8c506f5386ec9044dad73837ec9504b3ff757ed83c034527e355c3adb9b1e01f",
+        "edition": "student",
+        "id": "student:chocolate-reading-p21",
+        "itemIds": [
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016"
+        ],
+        "page": 21,
+        "pageId": "chocolate-reading-p21",
+        "part": "9-16",
+        "stageId": "10"
+      },
+      {
+        "digest": "a2b25a7250de23d680bbd036b2f49eb9e4d5ff4cc4def0e0003aee3fd937c5cb",
+        "edition": "student",
+        "id": "student:chocolate-reading-p22",
+        "itemIds": [
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 22,
+        "pageId": "chocolate-reading-p22",
+        "part": "17-24",
+        "stageId": "10"
+      },
+      {
+        "digest": "04b9504fead80c9956745793ac8b470162606ab1cea040c36dd092932b9d8d49",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012"
+        ],
+        "page": 1,
+        "pageId": "chocolate-reading-p01",
+        "part": "1-12",
+        "stageId": "1"
+      },
+      {
+        "digest": "4835c94bec0bba5a75a0e6a1d9755aa1b4533f1d28082ebf1442aab29dfc97b0",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p02",
+        "itemIds": [
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 2,
+        "pageId": "chocolate-reading-p02",
+        "part": "13-24",
+        "stageId": "1"
+      },
+      {
+        "digest": "c9f0a6be8e4192b9cb2bd7670c0eec785676e02d1e85d2f3db7e5462457fb3eb",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012"
+        ],
+        "page": 3,
+        "pageId": "chocolate-reading-p03",
+        "part": "1-12",
+        "stageId": "2"
+      },
+      {
+        "digest": "3df67b78d5e55876d82cfbd35bc29592d7065c36e9b98ff13dd51b2d2afff49b",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p04",
+        "itemIds": [
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 4,
+        "pageId": "chocolate-reading-p04",
+        "part": "13-24",
+        "stageId": "2"
+      },
+      {
+        "digest": "bc8a268ff7c759ea28403d7cd9ea476897f010b7f9130c75c37f263e496eb672",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012"
+        ],
+        "page": 5,
+        "pageId": "chocolate-reading-p05",
+        "part": "1-12",
+        "stageId": "3"
+      },
+      {
+        "digest": "11de5682f910c2e5b8f3ee6489559d5924e97d969c5db398f5c219a168701ea0",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p06",
+        "itemIds": [
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 6,
+        "pageId": "chocolate-reading-p06",
+        "part": "13-24",
+        "stageId": "3"
+      },
+      {
+        "digest": "db6be0131592fe1fec179e31987bb8668e15d948441fffdafc0768168811857f",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p07",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 7,
+        "pageId": "chocolate-reading-p07",
+        "part": "1-8",
+        "stageId": "4"
+      },
+      {
+        "digest": "7cc44cb1e4be3ca4f2c0f1b50aada7935a4af02471ecb95c42c78c8135c65e05",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p08",
+        "itemIds": [
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016"
+        ],
+        "page": 8,
+        "pageId": "chocolate-reading-p08",
+        "part": "9-16",
+        "stageId": "4"
+      },
+      {
+        "digest": "dd69434cb57a53e16fa5f453492ed8a085e8240d74a40ae2946268d3ee62b7cc",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p09",
+        "itemIds": [
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 9,
+        "pageId": "chocolate-reading-p09",
+        "part": "17-24",
+        "stageId": "4"
+      },
+      {
+        "digest": "fbba05fb693413e381a1589222aac01977dc222dc839aae53e6b8347742b0f4c",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p10",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012"
+        ],
+        "page": 10,
+        "pageId": "chocolate-reading-p10",
+        "part": "1-12",
+        "stageId": "5"
+      },
+      {
+        "digest": "65c1b63d309d41b3e5538e90a0434e6fe02e85627d074eefc793c9093c97965b",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p11",
+        "itemIds": [
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 11,
+        "pageId": "chocolate-reading-p11",
+        "part": "13-24",
+        "stageId": "5"
+      },
+      {
+        "digest": "54cc252687edd72894d82f7a0db4b9dc7cf9379111bc9c07fafced89b5d493d6",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p12",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012"
+        ],
+        "page": 12,
+        "pageId": "chocolate-reading-p12",
+        "part": "1-12",
+        "stageId": "6"
+      },
+      {
+        "digest": "6e45b62a46f1b322917e65302715b8ffabb9025ab515889d5c04c1fdc79d0bcc",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p13",
+        "itemIds": [
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 13,
+        "pageId": "chocolate-reading-p13",
+        "part": "13-24",
+        "stageId": "6"
+      },
+      {
+        "digest": "73195a5d3e389a0ad4a0b98d1c4535826836230a9ef85de61410be4635f5b9a5",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p14",
+        "itemIds": [],
+        "page": 14,
+        "pageId": "chocolate-reading-p14",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "a489d50da76fa6056f7090b019846b837cd4a5feca0d147a63350ac7a69c6855",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p15",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 15,
+        "pageId": "chocolate-reading-p15",
+        "part": "1-6",
+        "stageId": "8"
+      },
+      {
+        "digest": "d77fade76ddbfb30f8c946a50a8f89f24e99e47ff5719e03b84886bf83899745",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p16",
+        "itemIds": [
+          "s007",
+          "s008",
+          "s009",
+          "s010",
+          "s011",
+          "s012"
+        ],
+        "page": 16,
+        "pageId": "chocolate-reading-p16",
+        "part": "7-12",
+        "stageId": "8"
+      },
+      {
+        "digest": "5ce2b7cd1d5bfa99a43c973fe940df4b7dde11163ffe60f1763845f3870c36d0",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p17",
+        "itemIds": [
+          "s013",
+          "s014",
+          "s015",
+          "s016",
+          "s017",
+          "s018"
+        ],
+        "page": 17,
+        "pageId": "chocolate-reading-p17",
+        "part": "13-18",
+        "stageId": "8"
+      },
+      {
+        "digest": "17f696ef4728e18b87a3135eac9d1179684a566a75bc10b962d702935a478c8b",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p18",
+        "itemIds": [
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 18,
+        "pageId": "chocolate-reading-p18",
+        "part": "19-24",
+        "stageId": "8"
+      },
+      {
+        "digest": "eee4afc2bda2a4de781469e87557b97437fd7a57a3ce5f6aea7e344e23015a2d",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p19",
+        "itemIds": [],
+        "page": 19,
+        "pageId": "chocolate-reading-p19",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "20df61082c21804df27f2b2301a704f23840a120e7224c0889f80922e7bbf469",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p20",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 20,
+        "pageId": "chocolate-reading-p20",
+        "part": "1-8",
+        "stageId": "10"
+      },
+      {
+        "digest": "98be534b986bd80ff1952c1435081090b620883ffc388aaff9b5e4fd91381531",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p21",
+        "itemIds": [
+          "s009",
+          "s010",
+          "s011",
+          "s012",
+          "s013",
+          "s014",
+          "s015",
+          "s016"
+        ],
+        "page": 21,
+        "pageId": "chocolate-reading-p21",
+        "part": "9-16",
+        "stageId": "10"
+      },
+      {
+        "digest": "5c0403a92b3510eeaee502a5ff60838aa1baf5940bdd1d15875198cbafaaa9db",
+        "edition": "answer",
+        "id": "answer:chocolate-reading-p22",
+        "itemIds": [
+          "s017",
+          "s018",
+          "s019",
+          "s020",
+          "s021",
+          "s022",
+          "s023",
+          "s024"
+        ],
+        "page": 22,
+        "pageId": "chocolate-reading-p22",
+        "part": "17-24",
+        "stageId": "10"
+      }
+    ],
+    "qa": {
+      "contactSheets": [
+        "qa/samples/student-contact-sheet.png",
+        "qa/samples/answer-contact-sheet.png"
+      ],
+      "dom": {
+        "answer": {
+          "pages": 22,
+          "solutions": 255
+        },
+        "sharedTargetSlotCount": 260,
+        "student": {
+          "pages": 22,
+          "solutions": 0
+        }
+      },
+      "pdf": {
+        "answerPages": 22,
+        "studentPages": 22
+      },
+      "status": "passed",
+      "visualSamples": [
+        "qa/samples/student-p01.png",
+        "qa/samples/student-p02.png",
+        "qa/samples/student-p07.png",
+        "qa/samples/student-p12.png",
+        "qa/samples/student-p14.png",
+        "qa/samples/student-p15.png",
+        "qa/samples/student-p19.png",
+        "qa/samples/student-p20.png",
+        "qa/samples/student-p22.png",
+        "qa/samples/answer-p01.png",
+        "qa/samples/answer-p02.png",
+        "qa/samples/answer-p07.png",
+        "qa/samples/answer-p12.png",
+        "qa/samples/answer-p14.png",
+        "qa/samples/answer-p15.png",
+        "qa/samples/answer-p19.png",
+        "qa/samples/answer-p20.png",
+        "qa/samples/answer-p22.png"
+      ]
+    },
+    "reportFormatVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "semanticRubricVersion": "1.0.0",
+    "sourceDigest": "2e957e3b573145c8c25e1e992a330cb9ce7d7180b5c734c2ba575d261743172d",
+    "specVersion": "1.0.2",
+    "templateVersion": "1.0.1",
+    "validationStatus": "passed",
+    "visualReview": {
+      "notes": "학생용·해설용 22쪽 contact sheet에서 4단계가 긴 문장 높이를 지키며 8/8/8로 균등 배치된 것을 확인함. 단독 꼬리 페이지, 잘림·겹침·번호 오류·학생용 정답 누출·교정 색상 오류 없음.",
+      "reviewedAt": "2026-07-23T23:28:04+09:00",
+      "reviewer": "Codex",
+      "status": "passed"
+    },
+    "workbookId": "chocolate-reading"
+  },
+  "bundleVersion": 1,
+  "canonical": {
+    "canonical": {
+      "contentVersion": "1.0.2",
+      "metadata": {
+        "grade": "중등",
+        "kicker": "Middle Reading",
+        "lessonLabel": "Chocolate",
+        "sourceLanguage": "en",
+        "targetLanguage": "ko",
+        "title": "Chocolate Reading 10단계 워크북",
+        "topic": "초콜릿의 기원과 역사, 그리고 현대 초콜릿 산업의 발달"
+      },
+      "passageActivities": {
+        "correction": [
+          {
+            "id": "correction-01",
+            "targets": [
+              {
+                "correct": "that",
+                "id": "correction-01-target-01",
+                "incorrect": "what",
+                "target": {
+                  "occurrence": 1,
+                  "text": "what"
+                }
+              },
+              {
+                "correct": "made",
+                "id": "correction-01-target-02",
+                "incorrect": "make",
+                "target": {
+                  "occurrence": 2,
+                  "text": "make"
+                }
+              },
+              {
+                "correct": "not knowing",
+                "id": "correction-01-target-03",
+                "incorrect": "not known",
+                "target": {
+                  "occurrence": 1,
+                  "text": "not known"
+                }
+              },
+              {
+                "correct": "were added",
+                "id": "correction-01-target-04",
+                "incorrect": "added",
+                "target": {
+                  "occurrence": 1,
+                  "text": "added"
+                }
+              },
+              {
+                "correct": "could be drunk",
+                "id": "correction-01-target-05",
+                "incorrect": "could drink",
+                "target": {
+                  "occurrence": 1,
+                  "text": "could drink"
+                }
+              }
+            ],
+            "textOverride": "It is thought what they used the cacao beans to make drinks. The Olmecs passed their cacao knowledge to the Ancient Maya, who make chocolate into a spicy drink used in ceremonies. Columbus brought the beans back to Europe, not known the potential value of the unusual beans. Here, cinnamon and other spices added to the bitter brew. In France, chocolate could drink only by the royal family."
+          }
+        ],
+        "paragraphOrder": [
+          {
+            "answerOrder": [
+              "C",
+              "D",
+              "A",
+              "E",
+              "B"
+            ],
+            "blocks": [
+              {
+                "id": "C",
+                "sentenceIds": [
+                  "s001",
+                  "s002",
+                  "s003"
+                ]
+              },
+              {
+                "id": "D",
+                "sentenceIds": [
+                  "s004",
+                  "s005",
+                  "s006",
+                  "s007",
+                  "s008"
+                ]
+              },
+              {
+                "id": "A",
+                "sentenceIds": [
+                  "s009",
+                  "s010",
+                  "s011"
+                ]
+              },
+              {
+                "id": "E",
+                "sentenceIds": [
+                  "s012",
+                  "s013",
+                  "s014",
+                  "s015",
+                  "s016",
+                  "s017",
+                  "s018",
+                  "s019",
+                  "s020"
+                ]
+              },
+              {
+                "id": "B",
+                "sentenceIds": [
+                  "s021",
+                  "s022",
+                  "s023",
+                  "s024"
+                ]
+              }
+            ],
+            "displayOrder": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "id": "paragraph-order-01"
+          }
+        ]
+      },
+      "schemaVersion": "1.0.0",
+      "sentences": [
+        {
+          "annotations": {
+            "predicates": [],
+            "vocabulary": []
+          },
+          "display": "Chocolate bars.. Chocolate ice cream.. Chocolate milk.. Delicious!",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s001-arrange-01",
+                  "text": "Chocolate bars.."
+                },
+                {
+                  "id": "s001-arrange-02",
+                  "text": "Chocolate ice cream.."
+                },
+                {
+                  "id": "s001-arrange-03",
+                  "text": "Chocolate milk.."
+                },
+                {
+                  "id": "s001-arrange-04",
+                  "text": "Delicious!"
+                }
+              ],
+              "displayOrder": [
+                "s001-arrange-04",
+                "s001-arrange-03",
+                "s001-arrange-02",
+                "s001-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s001-choice-01",
+                  "options": [
+                    "Chocolate ice cream",
+                    "Chocolate icy cream"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Chocolate ice cream"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s001-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Delicious"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s001-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "맛있다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "baseText": "Chocolate bars, chocolate ice cream, and chocolate milk are delicious!",
+              "overrideReason": "원문이 동사 없는 헤드라인 조각이므로 승인된 완전문장으로 동사형 연습을 구성함",
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s001-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "chocolate bars",
+                "ice cream",
+                "milk",
+                "delicious"
+              ]
+            }
+          },
+          "id": "s001",
+          "meaningSegments": [
+            {
+              "en": "Chocolate bars..",
+              "id": "s001-m01",
+              "ko": "초콜릿 바.."
+            },
+            {
+              "en": "Chocolate ice cream..",
+              "id": "s001-m02",
+              "ko": "초콜릿 아이스크림.."
+            },
+            {
+              "en": "Chocolate milk..",
+              "id": "s001-m03",
+              "ko": "초콜릿 우유.."
+            },
+            {
+              "en": "Delicious!",
+              "id": "s001-m04",
+              "ko": "맛있다!"
+            }
+          ],
+          "no": 1,
+          "source": "Chocolate bars.. Chocolate ice cream.. Chocolate milk.. Delicious!",
+          "translation": "초콜릿 바.. 초콜릿 아이스크림.. 초콜릿 우유.. 맛있다!"
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "does"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "come from"
+                  }
+                ],
+                "id": "s002-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "유래하는가"
+                  }
+                ],
+                "segmentId": "s002-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 8,
+                "en": {
+                  "occurrence": 1,
+                  "text": "come from"
+                },
+                "id": "s002-m03-v8",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "유래하는가"
+                },
+                "meaning": "유래하다",
+                "segmentId": "s002-m03"
+              }
+            ]
+          },
+          "display": "But where does chocolate come from?",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s002-arrange-01",
+                  "text": "But"
+                },
+                {
+                  "id": "s002-arrange-02",
+                  "text": "where does chocolate come from?"
+                }
+              ],
+              "displayOrder": [
+                "s002-arrange-02",
+                "s002-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s002-choice-01",
+                  "options": [
+                    "does",
+                    "do"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "does"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s002-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "where"
+                  }
+                },
+                {
+                  "id": "s002-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "come"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s002-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "어디에서"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "do",
+                  "id": "s002-verb-01",
+                  "lemma": "do",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "does"
+                  }
+                },
+                {
+                  "cue": "come",
+                  "id": "s002-verb-02",
+                  "lemma": "come",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "come"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "where",
+                "come from"
+              ]
+            }
+          },
+          "id": "s002",
+          "meaningSegments": [
+            {
+              "en": "But",
+              "id": "s002-m01",
+              "ko": "하지만"
+            },
+            {
+              "en": "where",
+              "id": "s002-m02",
+              "ko": "어디에서"
+            },
+            {
+              "en": "does chocolate come from?",
+              "id": "s002-m03",
+              "ko": "초콜릿은 유래하는가?"
+            }
+          ],
+          "no": 2,
+          "source": "But where does chocolate come from?",
+          "translation": "하지만 초콜릿은 어디에서 올까?"
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is made"
+                  }
+                ],
+                "id": "s003-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "만들어진다"
+                  }
+                ],
+                "segmentId": "s003-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "cacao"
+                },
+                "id": "s003-m02-v1",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "카카오"
+                },
+                "meaning": "카카오",
+                "segmentId": "s003-m02"
+              }
+            ]
+          },
+          "display": "Chocolate is made from the fruit of cacao trees, starting about 100 million years ago.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s003-arrange-01",
+                  "text": "Chocolate is made"
+                },
+                {
+                  "id": "s003-arrange-02",
+                  "text": "from the fruit of cacao trees,"
+                },
+                {
+                  "id": "s003-arrange-03",
+                  "text": "starting about 100 million years ago."
+                }
+              ],
+              "displayOrder": [
+                "s003-arrange-03",
+                "s003-arrange-02",
+                "s003-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s003-choice-01",
+                  "options": [
+                    "is made",
+                    "made"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is made"
+                  }
+                },
+                {
+                  "id": "s003-choice-02",
+                  "options": [
+                    "million",
+                    "millions"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "million"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s003-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is made"
+                  }
+                },
+                {
+                  "id": "s003-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "fruit"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s003-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "열매"
+                  }
+                },
+                {
+                  "id": "s003-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "1억 년"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "make",
+                  "id": "s003-verb-01",
+                  "lemma": "make",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is made"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "be made",
+                "fruit",
+                "cacao trees",
+                "100 million years ago"
+              ]
+            }
+          },
+          "id": "s003",
+          "meaningSegments": [
+            {
+              "en": "Chocolate is made",
+              "id": "s003-m01",
+              "ko": "초콜릿은 만들어진다"
+            },
+            {
+              "en": "from the fruit of cacao trees,",
+              "id": "s003-m02",
+              "ko": "카카오 나무의 열매로"
+            },
+            {
+              "en": "starting",
+              "id": "s003-m03",
+              "ko": "시작하여"
+            },
+            {
+              "en": "about 100 million years ago.",
+              "id": "s003-m04",
+              "ko": "약 1억 년 전에."
+            }
+          ],
+          "no": 3,
+          "source": "Chocolate is made from the fruit of cacao trees, starting about 100 million years ago.",
+          "translation": "초콜릿은 카카오 나무의 열매로 만들어지며, 그 시작은 약 1억 년 전으로 거슬러 올라간다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "were"
+                  }
+                ],
+                "id": "s004-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "사람들이었다"
+                  }
+                ],
+                "segmentId": "s004-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 7,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Olmecs"
+                },
+                "id": "s004-m01-v7",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "올멕족"
+                },
+                "meaning": "올멕족",
+                "segmentId": "s004-m01"
+              },
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "cacao"
+                },
+                "id": "s004-m04-v1",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "카카오"
+                },
+                "meaning": "카카오",
+                "segmentId": "s004-m04"
+              }
+            ]
+          },
+          "display": "The Olmecs of Mexico were probably the first to grow the cacao plant.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s004-arrange-01",
+                  "text": "The Olmecs of Mexico"
+                },
+                {
+                  "id": "s004-arrange-02",
+                  "text": "were probably the first"
+                },
+                {
+                  "id": "s004-arrange-03",
+                  "text": "to grow the cacao plant."
+                }
+              ],
+              "displayOrder": [
+                "s004-arrange-03",
+                "s004-arrange-02",
+                "s004-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s004-choice-01",
+                  "options": [
+                    "were",
+                    "was"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "were"
+                  }
+                },
+                {
+                  "id": "s004-choice-02",
+                  "options": [
+                    "grow",
+                    "grows"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "grow"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s004-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "grow"
+                  }
+                },
+                {
+                  "id": "s004-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "plant"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s004-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "올멕족"
+                  }
+                },
+                {
+                  "id": "s004-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "재배한"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s004-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "were"
+                  }
+                },
+                {
+                  "cue": "grow",
+                  "id": "s004-verb-02",
+                  "lemma": "grow",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "grow"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "Olmecs",
+                "first",
+                "grow",
+                "cacao plant"
+              ]
+            }
+          },
+          "id": "s004",
+          "meaningSegments": [
+            {
+              "en": "The Olmecs of Mexico",
+              "id": "s004-m01",
+              "ko": "멕시코의 올멕족은"
+            },
+            {
+              "en": "were probably the first",
+              "id": "s004-m02",
+              "ko": "아마도 최초의 사람들이었다"
+            },
+            {
+              "en": "to grow",
+              "id": "s004-m03",
+              "ko": "재배한"
+            },
+            {
+              "en": "the cacao plant.",
+              "id": "s004-m04",
+              "ko": "카카오 식물을."
+            }
+          ],
+          "no": 4,
+          "source": "The Olmecs of Mexico were probably the first to grow the cacao plant.",
+          "translation": "멕시코의 올멕족은 아마도 카카오 식물을 재배한 최초의 사람들이었을 것이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is thought"
+                  }
+                ],
+                "id": "s005-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "여겨진다"
+                  }
+                ],
+                "segmentId": "s005-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "used"
+                  }
+                ],
+                "id": "s005-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "사용했다고"
+                  }
+                ],
+                "segmentId": "s005-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s005-m06-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "없다"
+                  }
+                ],
+                "segmentId": "s005-m06"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "cacao beans"
+                },
+                "id": "s005-m03-v1",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "카카오콩"
+                },
+                "meaning": "카카오콩",
+                "segmentId": "s005-m03"
+              },
+              {
+                "colorSlot": 5,
+                "en": {
+                  "occurrence": 1,
+                  "text": "written history"
+                },
+                "id": "s005-m06-v5",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "기록된 역사"
+                },
+                "meaning": "기록된 역사",
+                "segmentId": "s005-m06"
+              }
+            ]
+          },
+          "display": "It is thought that they used the cacao beans to make drinks, but there is no written history for the Olmecs.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s005-arrange-01",
+                  "text": "It is thought"
+                },
+                {
+                  "id": "s005-arrange-02",
+                  "text": "that they used the cacao beans"
+                },
+                {
+                  "id": "s005-arrange-03",
+                  "text": "to make drinks,"
+                },
+                {
+                  "id": "s005-arrange-04",
+                  "text": "but there is no written history"
+                },
+                {
+                  "id": "s005-arrange-05",
+                  "text": "for the Olmecs."
+                }
+              ],
+              "displayOrder": [
+                "s005-arrange-05",
+                "s005-arrange-04",
+                "s005-arrange-03",
+                "s005-arrange-02",
+                "s005-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s005-choice-01",
+                  "options": [
+                    "that",
+                    "what"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "that"
+                  }
+                },
+                {
+                  "id": "s005-choice-02",
+                  "options": [
+                    "is",
+                    "are"
+                  ],
+                  "target": {
+                    "occurrence": 2,
+                    "text": "is"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s005-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "that"
+                  }
+                },
+                {
+                  "id": "s005-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "written"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s005-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "음료"
+                  }
+                },
+                {
+                  "id": "s005-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "역사"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "think",
+                  "id": "s005-verb-01",
+                  "lemma": "think",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is thought"
+                  }
+                },
+                {
+                  "cue": "use",
+                  "id": "s005-verb-02",
+                  "lemma": "use",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "used"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s005-verb-03",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 2,
+                    "text": "is"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "be thought",
+                "cacao beans",
+                "drinks",
+                "written history"
+              ]
+            }
+          },
+          "id": "s005",
+          "meaningSegments": [
+            {
+              "en": "It is thought",
+              "id": "s005-m01",
+              "ko": "여겨진다"
+            },
+            {
+              "en": "that they used",
+              "id": "s005-m02",
+              "ko": "그들이 사용했다고"
+            },
+            {
+              "en": "the cacao beans",
+              "id": "s005-m03",
+              "ko": "카카오콩을"
+            },
+            {
+              "en": "to make",
+              "id": "s005-m04",
+              "ko": "만들기 위해"
+            },
+            {
+              "en": "drinks,",
+              "id": "s005-m05",
+              "ko": "음료를,"
+            },
+            {
+              "en": "but there is no written history",
+              "id": "s005-m06",
+              "ko": "하지만 기록된 역사는 없다"
+            },
+            {
+              "en": "for the Olmecs.",
+              "id": "s005-m07",
+              "ko": "올멕족에 대한."
+            }
+          ],
+          "no": 5,
+          "source": "It is thought that they used the cacao beans to make drinks, but there is no written history for the Olmecs.",
+          "translation": "그들이 카카오콩으로 음료를 만들었다고 여겨지지만, 올멕족에 대한 기록된 역사는 없다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "passed"
+                  }
+                ],
+                "id": "s006-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "전했다"
+                  }
+                ],
+                "segmentId": "s006-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "made"
+                  }
+                ],
+                "id": "s006-m05-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "만들었다"
+                  }
+                ],
+                "segmentId": "s006-m05"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 7,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Olmecs"
+                },
+                "id": "s006-m01-v7",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "올멕족"
+                },
+                "meaning": "올멕족",
+                "segmentId": "s006-m01"
+              },
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "cacao knowledge"
+                },
+                "id": "s006-m02-v1",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "카카오 지식"
+                },
+                "meaning": "카카오 지식",
+                "segmentId": "s006-m02"
+              },
+              {
+                "colorSlot": 5,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Ancient Maya"
+                },
+                "id": "s006-m03-v5",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "고대 마야인들"
+                },
+                "meaning": "고대 마야인",
+                "segmentId": "s006-m03"
+              }
+            ]
+          },
+          "display": "The Olmecs passed their cacao knowledge to the Ancient Maya of Mexico and Central America, who made chocolate into a spicy drink used in ceremonies.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s006-arrange-01",
+                  "text": "The Olmecs passed their cacao knowledge"
+                },
+                {
+                  "id": "s006-arrange-02",
+                  "text": "to the Ancient Maya of Mexico and Central America,"
+                },
+                {
+                  "id": "s006-arrange-03",
+                  "text": "who made chocolate"
+                },
+                {
+                  "id": "s006-arrange-04",
+                  "text": "into a spicy drink used in ceremonies."
+                }
+              ],
+              "displayOrder": [
+                "s006-arrange-04",
+                "s006-arrange-03",
+                "s006-arrange-02",
+                "s006-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s006-choice-01",
+                  "options": [
+                    "made",
+                    "making"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "made"
+                  }
+                },
+                {
+                  "id": "s006-choice-02",
+                  "options": [
+                    "used",
+                    "using"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "used"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s006-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "knowledge"
+                  }
+                },
+                {
+                  "id": "s006-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "spicy"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s006-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "지식"
+                  }
+                },
+                {
+                  "id": "s006-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "매운"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "pass",
+                  "id": "s006-verb-01",
+                  "lemma": "pass",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "passed"
+                  }
+                },
+                {
+                  "cue": "make",
+                  "id": "s006-verb-02",
+                  "lemma": "make",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "made"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "pass",
+                "knowledge",
+                "Ancient Maya",
+                "spicy drink",
+                "ceremonies"
+              ]
+            }
+          },
+          "id": "s006",
+          "meaningSegments": [
+            {
+              "en": "The Olmecs",
+              "id": "s006-m01",
+              "ko": "올멕족은"
+            },
+            {
+              "en": "passed their cacao knowledge",
+              "id": "s006-m02",
+              "ko": "전했다 자신들의 카카오 지식을"
+            },
+            {
+              "en": "to the Ancient Maya of Mexico and Central America,",
+              "id": "s006-m03",
+              "ko": "멕시코와 중앙아메리카의 고대 마야인들에게"
+            },
+            {
+              "en": "who",
+              "id": "s006-m04",
+              "ko": "그들은"
+            },
+            {
+              "en": "made chocolate",
+              "id": "s006-m05",
+              "ko": "만들었다 초콜릿을"
+            },
+            {
+              "en": "into a spicy drink",
+              "id": "s006-m06",
+              "ko": "매운 음료로"
+            },
+            {
+              "en": "used in ceremonies.",
+              "id": "s006-m07",
+              "ko": "의식에 사용되는."
+            }
+          ],
+          "no": 6,
+          "source": "The Olmecs passed their cacao knowledge to the Ancient Maya of Mexico and Central America, who made chocolate into a spicy drink used in ceremonies.",
+          "translation": "올멕족은 자신들의 카카오 지식을 멕시코와 중앙아메리카의 고대 마야인들에게 전했고, 그들은 초콜릿을 의식에 사용되는 매운 음료로 만들었다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "started"
+                  }
+                ],
+                "id": "s007-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "시작했다"
+                  }
+                ],
+                "segmentId": "s007-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "become"
+                  }
+                ],
+                "id": "s007-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "귀중해지기"
+                  }
+                ],
+                "segmentId": "s007-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 5,
+                "en": {
+                  "occurrence": 1,
+                  "text": "precious"
+                },
+                "id": "s007-m03-v5",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "귀중하게"
+                },
+                "meaning": "귀중한",
+                "segmentId": "s007-m03"
+              }
+            ]
+          },
+          "display": "Cacao started to become very precious.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s007-arrange-01",
+                  "text": "Cacao started"
+                },
+                {
+                  "id": "s007-arrange-02",
+                  "text": "to become very precious."
+                }
+              ],
+              "displayOrder": [
+                "s007-arrange-02",
+                "s007-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s007-choice-01",
+                  "options": [
+                    "started",
+                    "starting"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "started"
+                  }
+                },
+                {
+                  "id": "s007-choice-02",
+                  "options": [
+                    "precious",
+                    "previous"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "precious"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s007-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "precious"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s007-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "귀중해지기"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "start",
+                  "id": "s007-verb-01",
+                  "lemma": "start",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "started"
+                  }
+                },
+                {
+                  "cue": "become",
+                  "id": "s007-verb-02",
+                  "lemma": "become",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "become"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "start",
+                "become",
+                "precious"
+              ]
+            }
+          },
+          "id": "s007",
+          "meaningSegments": [
+            {
+              "en": "Cacao started",
+              "id": "s007-m01",
+              "ko": "카카오는 시작했다"
+            },
+            {
+              "en": "to become",
+              "id": "s007-m02",
+              "ko": "귀중해지기"
+            },
+            {
+              "en": "very precious.",
+              "id": "s007-m03",
+              "ko": "매우 귀중하게."
+            }
+          ],
+          "no": 7,
+          "source": "Cacao started to become very precious.",
+          "translation": "카카오는 매우 귀중해지기 시작했다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "used"
+                  }
+                ],
+                "id": "s008-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "사용했다"
+                  }
+                ],
+                "segmentId": "s008-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 7,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Aztecs"
+                },
+                "id": "s008-m02-v7",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "아즈텍인들"
+                },
+                "meaning": "아즈텍인",
+                "segmentId": "s008-m02"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "trade"
+                },
+                "id": "s008-m03-v3",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "무역"
+                },
+                "meaning": "무역",
+                "segmentId": "s008-m03"
+              },
+              {
+                "colorSlot": 8,
+                "en": {
+                  "occurrence": 1,
+                  "text": "a form of money"
+                },
+                "id": "s008-m05-v8",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "화폐의 한 형태"
+                },
+                "meaning": "화폐의 한 형태",
+                "segmentId": "s008-m05"
+              }
+            ]
+          },
+          "display": "Later the Aztecs used cacao for trade and the cacao seeds as a form of money.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s008-arrange-01",
+                  "text": "Later"
+                },
+                {
+                  "id": "s008-arrange-02",
+                  "text": "the Aztecs used cacao for trade"
+                },
+                {
+                  "id": "s008-arrange-03",
+                  "text": "and the cacao seeds as a form of money."
+                }
+              ],
+              "displayOrder": [
+                "s008-arrange-03",
+                "s008-arrange-02",
+                "s008-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s008-choice-01",
+                  "options": [
+                    "used",
+                    "using"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "used"
+                  }
+                },
+                {
+                  "id": "s008-choice-02",
+                  "options": [
+                    "money",
+                    "monetary"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "money"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s008-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "trade"
+                  }
+                },
+                {
+                  "id": "s008-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "money"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s008-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "무역"
+                  }
+                },
+                {
+                  "id": "s008-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "화폐"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "use",
+                  "id": "s008-verb-01",
+                  "lemma": "use",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "used"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "Aztecs",
+                "trade",
+                "seeds",
+                "money"
+              ]
+            }
+          },
+          "id": "s008",
+          "meaningSegments": [
+            {
+              "en": "Later",
+              "id": "s008-m01",
+              "ko": "나중에"
+            },
+            {
+              "en": "the Aztecs",
+              "id": "s008-m02",
+              "ko": "아즈텍인들은"
+            },
+            {
+              "en": "used cacao for trade",
+              "id": "s008-m03",
+              "ko": "사용했다 카카오를 무역에"
+            },
+            {
+              "en": "and the cacao seeds",
+              "id": "s008-m04",
+              "ko": "그리고 카카오 씨앗을"
+            },
+            {
+              "en": "as a form of money.",
+              "id": "s008-m05",
+              "ko": "화폐의 한 형태로."
+            }
+          ],
+          "no": 8,
+          "source": "Later the Aztecs used cacao for trade and the cacao seeds as a form of money.",
+          "translation": "나중에 아즈텍인들은 카카오를 무역에 사용했고 카카오 씨앗을 화폐의 한 형태로 사용했다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                ],
+                "id": "s009-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "였다"
+                  }
+                ],
+                "segmentId": "s009-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "captured"
+                  }
+                ],
+                "id": "s009-m05-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "나포했을"
+                  }
+                ],
+                "segmentId": "s009-m05"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "explorer"
+                },
+                "id": "s009-m02-v1",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "탐험가"
+                },
+                "meaning": "탐험가",
+                "segmentId": "s009-m02"
+              },
+              {
+                "colorSlot": 8,
+                "en": {
+                  "occurrence": 1,
+                  "text": "come into contact"
+                },
+                "id": "s009-m03-v8",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "접촉하게 된"
+                },
+                "meaning": "접촉하게 되다",
+                "segmentId": "s009-m03"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "captured"
+                },
+                "id": "s009-m05-v3",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "나포했을"
+                },
+                "meaning": "나포했다",
+                "segmentId": "s009-m05"
+              }
+            ]
+          },
+          "display": "In 1502, Christopher Columbus was the first European explorer to come into contact with cacao beans when he and his crew captured a trade ship.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s009-arrange-01",
+                  "text": "In 1502,"
+                },
+                {
+                  "id": "s009-arrange-02",
+                  "text": "Christopher Columbus was the first European explorer"
+                },
+                {
+                  "id": "s009-arrange-03",
+                  "text": "to come into contact with cacao beans"
+                },
+                {
+                  "id": "s009-arrange-04",
+                  "text": "when he and his crew captured a trade ship."
+                }
+              ],
+              "displayOrder": [
+                "s009-arrange-04",
+                "s009-arrange-03",
+                "s009-arrange-02",
+                "s009-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s009-choice-01",
+                  "options": [
+                    "was",
+                    "were"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                },
+                {
+                  "id": "s009-choice-02",
+                  "options": [
+                    "captured",
+                    "capturing"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "captured"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s009-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "explorer"
+                  }
+                },
+                {
+                  "id": "s009-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "captured"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s009-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "유럽 탐험가"
+                  }
+                },
+                {
+                  "id": "s009-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "무역선"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s009-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                },
+                {
+                  "cue": "capture",
+                  "id": "s009-verb-02",
+                  "lemma": "capture",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "captured"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "Christopher Columbus",
+                "European explorer",
+                "contact",
+                "captured"
+              ]
+            }
+          },
+          "id": "s009",
+          "meaningSegments": [
+            {
+              "en": "In 1502,",
+              "id": "s009-m01",
+              "ko": "1502년에"
+            },
+            {
+              "en": "Christopher Columbus was the first European explorer",
+              "id": "s009-m02",
+              "ko": "크리스토퍼 콜럼버스는 최초의 유럽 탐험가였다"
+            },
+            {
+              "en": "to come into contact",
+              "id": "s009-m03",
+              "ko": "접촉하게 된"
+            },
+            {
+              "en": "with cacao beans",
+              "id": "s009-m04",
+              "ko": "카카오콩과"
+            },
+            {
+              "en": "when he and his crew captured",
+              "id": "s009-m05",
+              "ko": "그와 그의 선원들이 나포했을 때"
+            },
+            {
+              "en": "a trade ship.",
+              "id": "s009-m06",
+              "ko": "무역선을."
+            }
+          ],
+          "no": 9,
+          "source": "In 1502, Christopher Columbus was the first European explorer to come into contact with cacao beans when he and his crew captured a trade ship.",
+          "translation": "1502년에 크리스토퍼 콜럼버스는 그와 그의 선원들이 무역선을 나포했을 때 카카오콩과 접촉하게 된 최초의 유럽 탐험가였다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "presumed"
+                  }
+                ],
+                "id": "s010-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "추정했다"
+                  }
+                ],
+                "segmentId": "s010-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "were"
+                  }
+                ],
+                "id": "s010-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "였다고"
+                  }
+                ],
+                "segmentId": "s010-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "brought"
+                  }
+                ],
+                "id": "s010-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "가져갔다"
+                  }
+                ],
+                "segmentId": "s010-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "presumed"
+                },
+                "id": "s010-m01-v3",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "추정했다"
+                },
+                "meaning": "추정했다",
+                "segmentId": "s010-m01"
+              },
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "unusual"
+                },
+                "id": "s010-m06-v1",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "특이한"
+                },
+                "meaning": "특이한",
+                "segmentId": "s010-m06"
+              },
+              {
+                "colorSlot": 5,
+                "en": {
+                  "occurrence": 1,
+                  "text": "potential value"
+                },
+                "id": "s010-m06-v5",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "잠재적 가치"
+                },
+                "meaning": "잠재적 가치",
+                "segmentId": "s010-m06"
+              }
+            ]
+          },
+          "display": "He presumed the beans were a type of almond and brought them back to Europe, not knowing the potential value of the unusual beans.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s010-arrange-01",
+                  "text": "He presumed"
+                },
+                {
+                  "id": "s010-arrange-02",
+                  "text": "the beans were a type of almond"
+                },
+                {
+                  "id": "s010-arrange-03",
+                  "text": "and brought them back to Europe,"
+                },
+                {
+                  "id": "s010-arrange-04",
+                  "text": "not knowing the potential value of the unusual beans."
+                }
+              ],
+              "displayOrder": [
+                "s010-arrange-04",
+                "s010-arrange-03",
+                "s010-arrange-02",
+                "s010-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s010-choice-01",
+                  "options": [
+                    "brought",
+                    "bring"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "brought"
+                  }
+                },
+                {
+                  "id": "s010-choice-02",
+                  "options": [
+                    "not knowing",
+                    "not known"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "not knowing"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s010-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "almond"
+                  }
+                },
+                {
+                  "id": "s010-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "potential"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s010-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "추정했고"
+                  }
+                },
+                {
+                  "id": "s010-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "유럽"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "presume",
+                  "id": "s010-verb-01",
+                  "lemma": "presume",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "presumed"
+                  }
+                },
+                {
+                  "cue": "bring",
+                  "id": "s010-verb-02",
+                  "lemma": "bring",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "brought"
+                  }
+                },
+                {
+                  "cue": "know",
+                  "id": "s010-verb-03",
+                  "lemma": "know",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "knowing"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "presume",
+                "almond",
+                "brought back",
+                "not knowing",
+                "potential value"
+              ]
+            }
+          },
+          "id": "s010",
+          "meaningSegments": [
+            {
+              "en": "He presumed",
+              "id": "s010-m01",
+              "ko": "그는 추정했다"
+            },
+            {
+              "en": "the beans were a type of almond",
+              "id": "s010-m02",
+              "ko": "그 콩들이 아몬드의 한 종류였다고"
+            },
+            {
+              "en": "and brought",
+              "id": "s010-m03",
+              "ko": "그리고 가져갔다"
+            },
+            {
+              "en": "them back to Europe,",
+              "id": "s010-m04",
+              "ko": "그것들을 유럽으로,"
+            },
+            {
+              "en": "not knowing",
+              "id": "s010-m05",
+              "ko": "알지 못한 채"
+            },
+            {
+              "en": "the potential value of the unusual beans.",
+              "id": "s010-m06",
+              "ko": "그 특이한 콩들의 잠재적 가치를."
+            }
+          ],
+          "no": 10,
+          "source": "He presumed the beans were a type of almond and brought them back to Europe, not knowing the potential value of the unusual beans.",
+          "translation": "그는 그 콩들이 아몬드의 한 종류라고 추정했고, 그 특이한 콩들의 잠재적 가치를 알지 못한 채 그것들을 유럽으로 가져갔다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "arrived"
+                  }
+                ],
+                "id": "s011-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "도착했다"
+                  }
+                ],
+                "segmentId": "s011-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 7,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Conquistador"
+                },
+                "id": "s011-m01-v7",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "정복자"
+                },
+                "meaning": "정복자",
+                "segmentId": "s011-m01"
+              },
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Central America"
+                },
+                "id": "s011-m03-v1",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "중앙아메리카"
+                },
+                "meaning": "중앙아메리카",
+                "segmentId": "s011-m03"
+              }
+            ]
+          },
+          "display": "The Spanish Conquistador, Hernán Cortés, arrived in Central America in 1519.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s011-arrange-01",
+                  "text": "The Spanish Conquistador, Hernán Cortés,"
+                },
+                {
+                  "id": "s011-arrange-02",
+                  "text": "arrived in Central America"
+                },
+                {
+                  "id": "s011-arrange-03",
+                  "text": "in 1519."
+                }
+              ],
+              "displayOrder": [
+                "s011-arrange-03",
+                "s011-arrange-02",
+                "s011-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s011-choice-01",
+                  "options": [
+                    "arrived",
+                    "arriving"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "arrived"
+                  }
+                },
+                {
+                  "id": "s011-choice-02",
+                  "options": [
+                    "in",
+                    "on"
+                  ],
+                  "target": {
+                    "occurrence": 2,
+                    "text": "in"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s011-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Conquistador"
+                  }
+                },
+                {
+                  "id": "s011-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "1519"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s011-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "정복자"
+                  }
+                },
+                {
+                  "id": "s011-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "중앙아메리카"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "arrive",
+                  "id": "s011-verb-01",
+                  "lemma": "arrive",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "arrived"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "Spanish Conquistador",
+                "Hernán Cortés",
+                "Central America",
+                "1519"
+              ]
+            }
+          },
+          "id": "s011",
+          "meaningSegments": [
+            {
+              "en": "The Spanish Conquistador, Hernán Cortés,",
+              "id": "s011-m01",
+              "ko": "스페인 정복자 에르난 코르테스는"
+            },
+            {
+              "en": "arrived",
+              "id": "s011-m02",
+              "ko": "도착했다"
+            },
+            {
+              "en": "in Central America",
+              "id": "s011-m03",
+              "ko": "중앙아메리카에"
+            },
+            {
+              "en": "in 1519.",
+              "id": "s011-m04",
+              "ko": "1519년에."
+            }
+          ],
+          "no": 11,
+          "source": "The Spanish Conquistador, Hernán Cortés, arrived in Central America in 1519.",
+          "translation": "스페인 정복자 에르난 코르테스는 1519년에 중앙아메리카에 도착했다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "saw"
+                  }
+                ],
+                "id": "s012-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "보았다"
+                  }
+                ],
+                "segmentId": "s012-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "realised"
+                  }
+                ],
+                "id": "s012-m07-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "깨달았다"
+                  }
+                ],
+                "segmentId": "s012-m07"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "had"
+                  }
+                ],
+                "id": "s012-m09-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "가진"
+                  }
+                ],
+                "segmentId": "s012-m09"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 7,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Aztec Emperor"
+                },
+                "id": "s012-m03-v7",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "아즈텍 황제"
+                },
+                "meaning": "아즈텍 황제",
+                "segmentId": "s012-m03"
+              },
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Xocalatl"
+                },
+                "id": "s012-m05-v1",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "소칼라틀"
+                },
+                "meaning": "초콜릿 음료 이름",
+                "segmentId": "s012-m05"
+              },
+              {
+                "colorSlot": 5,
+                "en": {
+                  "occurrence": 1,
+                  "text": "earliest known"
+                },
+                "id": "s012-m06-v5",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "알려진 최초의"
+                },
+                "meaning": "알려진 최초의",
+                "segmentId": "s012-m06"
+              }
+            ]
+          },
+          "display": "There he saw the Aztec Emperor drinking 'Xocalatl,' the earliest known hot chocolate, and Cortés realised the great value that it had.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s012-arrange-01",
+                  "text": "There"
+                },
+                {
+                  "id": "s012-arrange-02",
+                  "text": "he saw the Aztec Emperor drinking 'Xocalatl,'"
+                },
+                {
+                  "id": "s012-arrange-03",
+                  "text": "the earliest known hot chocolate,"
+                },
+                {
+                  "id": "s012-arrange-04",
+                  "text": "and Cortés realised the great value"
+                },
+                {
+                  "id": "s012-arrange-05",
+                  "text": "that it had."
+                }
+              ],
+              "displayOrder": [
+                "s012-arrange-05",
+                "s012-arrange-04",
+                "s012-arrange-03",
+                "s012-arrange-02",
+                "s012-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s012-choice-01",
+                  "options": [
+                    "drinking",
+                    "to drink"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "drinking"
+                  }
+                },
+                {
+                  "id": "s012-choice-02",
+                  "options": [
+                    "realised",
+                    "realising"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "realised"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s012-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "realised"
+                  }
+                },
+                {
+                  "id": "s012-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "had"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s012-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "마시는"
+                  }
+                },
+                {
+                  "id": "s012-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "가치"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "see",
+                  "id": "s012-verb-01",
+                  "lemma": "see",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "saw"
+                  }
+                },
+                {
+                  "cue": "drink",
+                  "id": "s012-verb-02",
+                  "lemma": "drink",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "drinking"
+                  }
+                },
+                {
+                  "cue": "realise",
+                  "id": "s012-verb-03",
+                  "lemma": "realise",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "realised"
+                  }
+                },
+                {
+                  "cue": "have",
+                  "id": "s012-verb-04",
+                  "lemma": "have",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "had"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "Aztec Emperor",
+                "drinking",
+                "Xocalatl",
+                "realised",
+                "value"
+              ]
+            }
+          },
+          "id": "s012",
+          "meaningSegments": [
+            {
+              "en": "There",
+              "id": "s012-m01",
+              "ko": "그곳에서"
+            },
+            {
+              "en": "he saw",
+              "id": "s012-m02",
+              "ko": "그는 보았다"
+            },
+            {
+              "en": "the Aztec Emperor",
+              "id": "s012-m03",
+              "ko": "아즈텍 황제가"
+            },
+            {
+              "en": "drinking",
+              "id": "s012-m04",
+              "ko": "마시는 것을"
+            },
+            {
+              "en": "'Xocalatl,'",
+              "id": "s012-m05",
+              "ko": "'소칼라틀'을,"
+            },
+            {
+              "en": "the earliest known hot chocolate,",
+              "id": "s012-m06",
+              "ko": "알려진 최초의 핫초콜릿인"
+            },
+            {
+              "en": "and Cortés realised",
+              "id": "s012-m07",
+              "ko": "그리고 코르테스는 깨달았다"
+            },
+            {
+              "en": "the great value",
+              "id": "s012-m08",
+              "ko": "큰 가치를"
+            },
+            {
+              "en": "that it had.",
+              "id": "s012-m09",
+              "ko": "그것이 가진."
+            }
+          ],
+          "no": 12,
+          "source": "There he saw the Aztec Emperor drinking 'Xocalatl,' the earliest known hot chocolate, and Cortés realised the great value that it had.",
+          "translation": "그곳에서 그는 아즈텍 황제가 최초의 핫초콜릿으로 알려진 '소칼라틀'을 마시는 것을 보았고, 코르테스는 그것이 지닌 큰 가치를 깨달았다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "established"
+                  }
+                ],
+                "id": "s013-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "세웠다"
+                  }
+                ],
+                "segmentId": "s013-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "established"
+                },
+                "id": "s013-m02-v3",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "세웠다"
+                },
+                "meaning": "세웠다",
+                "segmentId": "s013-m02"
+              },
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "plantation"
+                },
+                "id": "s013-m03-v1",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "농장"
+                },
+                "meaning": "농장",
+                "segmentId": "s013-m03"
+              },
+              {
+                "colorSlot": 8,
+                "en": {
+                  "occurrence": 1,
+                  "text": "trading"
+                },
+                "id": "s013-m04-v8",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "무역"
+                },
+                "meaning": "무역",
+                "segmentId": "s013-m04"
+              }
+            ]
+          },
+          "display": "Almost ten years later Cortés established a cacao plantation for trading.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s013-arrange-01",
+                  "text": "Almost ten years later"
+                },
+                {
+                  "id": "s013-arrange-02",
+                  "text": "Cortés established a cacao plantation"
+                },
+                {
+                  "id": "s013-arrange-03",
+                  "text": "for trading."
+                }
+              ],
+              "displayOrder": [
+                "s013-arrange-03",
+                "s013-arrange-02",
+                "s013-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s013-choice-01",
+                  "options": [
+                    "ten",
+                    "tenth"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "ten"
+                  }
+                },
+                {
+                  "id": "s013-choice-02",
+                  "options": [
+                    "established",
+                    "was established"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "established"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s013-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "plantation"
+                  }
+                },
+                {
+                  "id": "s013-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "trading"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s013-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "10년"
+                  }
+                },
+                {
+                  "id": "s013-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "농장"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "establish",
+                  "id": "s013-verb-01",
+                  "lemma": "establish",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "established"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "ten years later",
+                "established",
+                "plantation",
+                "trading"
+              ]
+            }
+          },
+          "id": "s013",
+          "meaningSegments": [
+            {
+              "en": "Almost ten years later",
+              "id": "s013-m01",
+              "ko": "거의 10년 후"
+            },
+            {
+              "en": "Cortés established",
+              "id": "s013-m02",
+              "ko": "코르테스는 세웠다"
+            },
+            {
+              "en": "a cacao plantation",
+              "id": "s013-m03",
+              "ko": "카카오 농장을"
+            },
+            {
+              "en": "for trading.",
+              "id": "s013-m04",
+              "ko": "무역을 위해."
+            }
+          ],
+          "no": 13,
+          "source": "Almost ten years later Cortés established a cacao plantation for trading.",
+          "translation": "거의 10년 후 코르테스는 무역을 위해 카카오 농장을 세웠다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "took"
+                  }
+                ],
+                "id": "s014-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "가져갔다"
+                  }
+                ],
+                "segmentId": "s014-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "recipe"
+                },
+                "id": "s014-m03-v1",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "제조법"
+                },
+                "meaning": "제조법",
+                "segmentId": "s014-m03"
+              }
+            ]
+          },
+          "display": "He took the beans back to Spain along with the chocolate drink recipe.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s014-arrange-01",
+                  "text": "He took the beans back to Spain"
+                },
+                {
+                  "id": "s014-arrange-02",
+                  "text": "along with the chocolate drink recipe."
+                }
+              ],
+              "displayOrder": [
+                "s014-arrange-02",
+                "s014-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s014-choice-01",
+                  "options": [
+                    "took",
+                    "take"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "took"
+                  }
+                },
+                {
+                  "id": "s014-choice-02",
+                  "options": [
+                    "along with",
+                    "according to"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "along with"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s014-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "recipe"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s014-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "제조법"
+                  }
+                },
+                {
+                  "id": "s014-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "스페인"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "take",
+                  "id": "s014-verb-01",
+                  "lemma": "take",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "took"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "took",
+                "back to Spain",
+                "recipe"
+              ]
+            }
+          },
+          "id": "s014",
+          "meaningSegments": [
+            {
+              "en": "He took",
+              "id": "s014-m01",
+              "ko": "그는 가져갔다"
+            },
+            {
+              "en": "the beans back to Spain",
+              "id": "s014-m02",
+              "ko": "그 콩들을 스페인으로"
+            },
+            {
+              "en": "along with the chocolate drink recipe.",
+              "id": "s014-m03",
+              "ko": "초콜릿 음료 제조법과 함께."
+            }
+          ],
+          "no": 14,
+          "source": "He took the beans back to Spain along with the chocolate drink recipe.",
+          "translation": "그는 초콜릿 음료 제조법과 함께 그 콩들을 스페인으로 가져갔다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "were added"
+                  }
+                ],
+                "id": "s015-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "더해졌다"
+                  }
+                ],
+                "segmentId": "s015-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was sweetened"
+                  }
+                ],
+                "id": "s015-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "달게 되었다"
+                  }
+                ],
+                "segmentId": "s015-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "spices"
+                },
+                "id": "s015-m02-v1",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "향신료들"
+                },
+                "meaning": "향신료",
+                "segmentId": "s015-m02"
+              },
+              {
+                "colorSlot": 5,
+                "en": {
+                  "occurrence": 1,
+                  "text": "bitter brew"
+                },
+                "id": "s015-m03-v5",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "쓴 음료"
+                },
+                "meaning": "쓴 음료",
+                "segmentId": "s015-m03"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "was sweetened"
+                },
+                "id": "s015-m04-v3",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "달게 되었다"
+                },
+                "meaning": "달게 되었다",
+                "segmentId": "s015-m04"
+              }
+            ]
+          },
+          "display": "Here, cinnamon and other spices were added to the bitter brew and it was sweetened with sugar.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s015-arrange-01",
+                  "text": "Here,"
+                },
+                {
+                  "id": "s015-arrange-02",
+                  "text": "cinnamon and other spices were added"
+                },
+                {
+                  "id": "s015-arrange-03",
+                  "text": "to the bitter brew"
+                },
+                {
+                  "id": "s015-arrange-04",
+                  "text": "and it was sweetened with sugar."
+                }
+              ],
+              "displayOrder": [
+                "s015-arrange-04",
+                "s015-arrange-03",
+                "s015-arrange-02",
+                "s015-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s015-choice-01",
+                  "options": [
+                    "were added",
+                    "added"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "were added"
+                  }
+                },
+                {
+                  "id": "s015-choice-02",
+                  "options": [
+                    "was sweetened",
+                    "sweetened"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was sweetened"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s015-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "bitter"
+                  }
+                },
+                {
+                  "id": "s015-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "sweetened"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s015-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "향신료"
+                  }
+                },
+                {
+                  "id": "s015-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "단맛"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "add",
+                  "id": "s015-verb-01",
+                  "lemma": "add",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "were added"
+                  }
+                },
+                {
+                  "cue": "sweeten",
+                  "id": "s015-verb-02",
+                  "lemma": "sweeten",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was sweetened"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "cinnamon",
+                "spices",
+                "were added",
+                "bitter brew",
+                "sweetened"
+              ]
+            }
+          },
+          "id": "s015",
+          "meaningSegments": [
+            {
+              "en": "Here,",
+              "id": "s015-m01",
+              "ko": "여기서"
+            },
+            {
+              "en": "cinnamon and other spices were added",
+              "id": "s015-m02",
+              "ko": "계피와 다른 향신료들이 더해졌다"
+            },
+            {
+              "en": "to the bitter brew",
+              "id": "s015-m03",
+              "ko": "그 쓴 음료에"
+            },
+            {
+              "en": "and it was sweetened",
+              "id": "s015-m04",
+              "ko": "그리고 그 음료는 달게 되었다"
+            },
+            {
+              "en": "with sugar.",
+              "id": "s015-m05",
+              "ko": "설탕으로."
+            }
+          ],
+          "no": 15,
+          "source": "Here, cinnamon and other spices were added to the bitter brew and it was sweetened with sugar.",
+          "translation": "여기서는 계피와 다른 향신료가 그 쓴 음료에 첨가되었고, 설탕으로 단맛을 냈다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was opened"
+                  }
+                ],
+                "id": "s016-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "열렸다"
+                  }
+                ],
+                "segmentId": "s016-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "chocolate house"
+                },
+                "id": "s016-m02-v1",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "초콜릿 하우스"
+                },
+                "meaning": "초콜릿 하우스",
+                "segmentId": "s016-m02"
+              }
+            ]
+          },
+          "display": "In 1657, the first chocolate house was opened in London.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s016-arrange-01",
+                  "text": "In 1657,"
+                },
+                {
+                  "id": "s016-arrange-02",
+                  "text": "the first chocolate house"
+                },
+                {
+                  "id": "s016-arrange-03",
+                  "text": "was opened in London."
+                }
+              ],
+              "displayOrder": [
+                "s016-arrange-03",
+                "s016-arrange-02",
+                "s016-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s016-choice-01",
+                  "options": [
+                    "was opened",
+                    "were opened"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was opened"
+                  }
+                },
+                {
+                  "id": "s016-choice-02",
+                  "options": [
+                    "in",
+                    "on"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "in"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s016-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "house"
+                  }
+                },
+                {
+                  "id": "s016-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "London"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s016-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "초콜릿 하우스"
+                  }
+                },
+                {
+                  "id": "s016-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "런던"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "open",
+                  "id": "s016-verb-01",
+                  "lemma": "open",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was opened"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "1657",
+                "chocolate house",
+                "opened",
+                "London"
+              ]
+            }
+          },
+          "id": "s016",
+          "meaningSegments": [
+            {
+              "en": "In 1657,",
+              "id": "s016-m01",
+              "ko": "1657년에"
+            },
+            {
+              "en": "the first chocolate house",
+              "id": "s016-m02",
+              "ko": "최초의 초콜릿 하우스가"
+            },
+            {
+              "en": "was opened",
+              "id": "s016-m03",
+              "ko": "열렸다"
+            },
+            {
+              "en": "in London.",
+              "id": "s016-m04",
+              "ko": "런던에."
+            }
+          ],
+          "no": 16,
+          "source": "In 1657, the first chocolate house was opened in London.",
+          "translation": "1657년에 최초의 초콜릿 하우스가 런던에 열렸다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                ],
+                "id": "s017-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "이었다"
+                  }
+                ],
+                "segmentId": "s017-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "could afford"
+                  }
+                ],
+                "id": "s017-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "여유가 있었다"
+                  }
+                ],
+                "segmentId": "s017-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 5,
+                "en": {
+                  "occurrence": 1,
+                  "text": "expensive import"
+                },
+                "id": "s017-m01-v5",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "비싼 수입품"
+                },
+                "meaning": "비싼 수입품",
+                "segmentId": "s017-m01"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "could afford"
+                },
+                "id": "s017-m02-v3",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "여유가 있었다"
+                },
+                "meaning": "여유가 있었다",
+                "segmentId": "s017-m02"
+              }
+            ]
+          },
+          "display": "Cacao was an expensive import and only the rich could afford to drink chocolate.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s017-arrange-01",
+                  "text": "Cacao was an expensive import"
+                },
+                {
+                  "id": "s017-arrange-02",
+                  "text": "and only the rich could afford"
+                },
+                {
+                  "id": "s017-arrange-03",
+                  "text": "to drink chocolate."
+                }
+              ],
+              "displayOrder": [
+                "s017-arrange-03",
+                "s017-arrange-02",
+                "s017-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s017-choice-01",
+                  "options": [
+                    "expensive",
+                    "expansive"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "expensive"
+                  }
+                },
+                {
+                  "id": "s017-choice-02",
+                  "options": [
+                    "rich",
+                    "richness"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "rich"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s017-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "import"
+                  }
+                },
+                {
+                  "id": "s017-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "afford"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s017-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "수입품"
+                  }
+                },
+                {
+                  "id": "s017-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "부유한"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s017-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                },
+                {
+                  "cue": "can",
+                  "id": "s017-verb-02",
+                  "lemma": "can",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "could"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "expensive import",
+                "rich",
+                "afford",
+                "drink"
+              ]
+            }
+          },
+          "id": "s017",
+          "meaningSegments": [
+            {
+              "en": "Cacao was an expensive import",
+              "id": "s017-m01",
+              "ko": "카카오는 비싼 수입품이었다"
+            },
+            {
+              "en": "and only the rich could afford",
+              "id": "s017-m02",
+              "ko": "그리고 오직 부유한 사람들만 여유가 있었다"
+            },
+            {
+              "en": "to drink",
+              "id": "s017-m03",
+              "ko": "마실"
+            },
+            {
+              "en": "chocolate.",
+              "id": "s017-m04",
+              "ko": "초콜릿을."
+            }
+          ],
+          "no": 17,
+          "source": "Cacao was an expensive import and only the rich could afford to drink chocolate.",
+          "translation": "카카오는 비싼 수입품이었고 오직 부유한 사람들만 초콜릿을 마실 여유가 있었다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "could be drunk"
+                  }
+                ],
+                "id": "s018-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "마셔질 수 있었다"
+                  }
+                ],
+                "segmentId": "s018-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 7,
+                "en": {
+                  "occurrence": 1,
+                  "text": "royal family"
+                },
+                "id": "s018-m04-v7",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "왕실"
+                },
+                "meaning": "왕실",
+                "segmentId": "s018-m04"
+              }
+            ]
+          },
+          "display": "In fact, in France, chocolate could be drunk only by the royal family.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s018-arrange-01",
+                  "text": "In fact,"
+                },
+                {
+                  "id": "s018-arrange-02",
+                  "text": "in France,"
+                },
+                {
+                  "id": "s018-arrange-03",
+                  "text": "chocolate could be drunk"
+                },
+                {
+                  "id": "s018-arrange-04",
+                  "text": "only by the royal family."
+                }
+              ],
+              "displayOrder": [
+                "s018-arrange-04",
+                "s018-arrange-03",
+                "s018-arrange-02",
+                "s018-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s018-choice-01",
+                  "options": [
+                    "be drunk",
+                    "drink"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "be drunk"
+                  }
+                },
+                {
+                  "id": "s018-choice-02",
+                  "options": [
+                    "by",
+                    "with"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "by"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s018-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "drunk"
+                  }
+                },
+                {
+                  "id": "s018-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "royal"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s018-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "왕실"
+                  }
+                },
+                {
+                  "id": "s018-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "마실 수 있었다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "can drink",
+                  "id": "s018-verb-01",
+                  "lemma": "can drink",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "could be drunk"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "France",
+                "could be drunk",
+                "royal family"
+              ]
+            }
+          },
+          "id": "s018",
+          "meaningSegments": [
+            {
+              "en": "In fact,",
+              "id": "s018-m01",
+              "ko": "사실"
+            },
+            {
+              "en": "in France,",
+              "id": "s018-m02",
+              "ko": "프랑스에서는"
+            },
+            {
+              "en": "chocolate could be drunk",
+              "id": "s018-m03",
+              "ko": "초콜릿이 마셔질 수 있었다"
+            },
+            {
+              "en": "only by the royal family.",
+              "id": "s018-m04",
+              "ko": "오직 왕실에 의해서만."
+            }
+          ],
+          "no": 18,
+          "source": "In fact, in France, chocolate could be drunk only by the royal family.",
+          "translation": "사실 프랑스에서는 왕실 사람들만 초콜릿을 마실 수 있었다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                ],
+                "id": "s019-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "였다"
+                  }
+                ],
+                "segmentId": "s019-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was produced"
+                  }
+                ],
+                "id": "s019-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "생산되었다"
+                  }
+                ],
+                "segmentId": "s019-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "was produced"
+                },
+                "id": "s019-m04-v3",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "생산되었다"
+                },
+                "meaning": "생산되었다",
+                "segmentId": "s019-m04"
+              },
+              {
+                "colorSlot": 5,
+                "en": {
+                  "occurrence": 1,
+                  "text": "moulded"
+                },
+                "id": "s019-m04-v5",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "성형"
+                },
+                "meaning": "성형한",
+                "segmentId": "s019-m04"
+              }
+            ]
+          },
+          "display": "Up until the 1700s, chocolate was mainly a drink, but in 1830 the first real, moulded chocolate bar was produced.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s019-arrange-01",
+                  "text": "Up until the 1700s,"
+                },
+                {
+                  "id": "s019-arrange-02",
+                  "text": "chocolate was mainly a drink,"
+                },
+                {
+                  "id": "s019-arrange-03",
+                  "text": "but in 1830"
+                },
+                {
+                  "id": "s019-arrange-04",
+                  "text": "the first real, moulded chocolate bar was produced."
+                }
+              ],
+              "displayOrder": [
+                "s019-arrange-04",
+                "s019-arrange-03",
+                "s019-arrange-02",
+                "s019-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s019-choice-01",
+                  "options": [
+                    "drink",
+                    "drinking"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "drink"
+                  }
+                },
+                {
+                  "id": "s019-choice-02",
+                  "options": [
+                    "moulded",
+                    "moulding"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "moulded"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s019-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "moulded"
+                  }
+                },
+                {
+                  "id": "s019-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "produced"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s019-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "음료"
+                  }
+                },
+                {
+                  "id": "s019-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "성형"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s019-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was"
+                  }
+                },
+                {
+                  "cue": "produce",
+                  "id": "s019-verb-02",
+                  "lemma": "produce",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was produced"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "1700s",
+                "mainly",
+                "drink",
+                "1830",
+                "moulded",
+                "produced"
+              ]
+            }
+          },
+          "id": "s019",
+          "meaningSegments": [
+            {
+              "en": "Up until the 1700s,",
+              "id": "s019-m01",
+              "ko": "1700년대까지"
+            },
+            {
+              "en": "chocolate was mainly a drink,",
+              "id": "s019-m02",
+              "ko": "초콜릿은 주로 음료였다"
+            },
+            {
+              "en": "but in 1830",
+              "id": "s019-m03",
+              "ko": "하지만 1830년에"
+            },
+            {
+              "en": "the first real, moulded chocolate bar was produced.",
+              "id": "s019-m04",
+              "ko": "최초의 진짜 성형 초콜릿 바가 생산되었다."
+            }
+          ],
+          "no": 19,
+          "source": "Up until the 1700s, chocolate was mainly a drink, but in 1830 the first real, moulded chocolate bar was produced.",
+          "translation": "1700년대까지 초콜릿은 주로 음료였지만, 1830년에 최초의 진짜 성형 초콜릿 바가 생산되었다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "were mass-producing"
+                  }
+                ],
+                "id": "s020-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "대량 생산하고 있었다"
+                  }
+                ],
+                "segmentId": "s020-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 7,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Cadbury"
+                },
+                "id": "s020-m02-v7",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "캐드버리"
+                },
+                "meaning": "캐드버리",
+                "segmentId": "s020-m02"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "were mass-producing"
+                },
+                "id": "s020-m03-v3",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "대량 생산하고 있었다"
+                },
+                "meaning": "대량 생산하고 있었다",
+                "segmentId": "s020-m03"
+              }
+            ]
+          },
+          "display": "By the late 19th century, chocolate companies such as Cadbury were mass-producing boxes of chocolates.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s020-arrange-01",
+                  "text": "By the late 19th century,"
+                },
+                {
+                  "id": "s020-arrange-02",
+                  "text": "chocolate companies such as Cadbury"
+                },
+                {
+                  "id": "s020-arrange-03",
+                  "text": "were mass-producing boxes of chocolates."
+                }
+              ],
+              "displayOrder": [
+                "s020-arrange-03",
+                "s020-arrange-02",
+                "s020-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s020-choice-01",
+                  "options": [
+                    "were",
+                    "was"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "were"
+                  }
+                },
+                {
+                  "id": "s020-choice-02",
+                  "options": [
+                    "boxes",
+                    "box"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "boxes"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s020-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Cadbury"
+                  }
+                },
+                {
+                  "id": "s020-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "chocolates"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s020-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "대량 생산"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "mass-produce",
+                  "id": "s020-verb-01",
+                  "lemma": "mass-produce",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "were mass-producing"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "late 19th century",
+                "Cadbury",
+                "mass-producing",
+                "chocolates"
+              ]
+            }
+          },
+          "id": "s020",
+          "meaningSegments": [
+            {
+              "en": "By the late 19th century,",
+              "id": "s020-m01",
+              "ko": "19세기 후반 무렵에는"
+            },
+            {
+              "en": "chocolate companies such as Cadbury",
+              "id": "s020-m02",
+              "ko": "캐드버리와 같은 초콜릿 회사들이"
+            },
+            {
+              "en": "were mass-producing",
+              "id": "s020-m03",
+              "ko": "대량 생산하고 있었다"
+            },
+            {
+              "en": "boxes of chocolates.",
+              "id": "s020-m04",
+              "ko": "상자에 담긴 초콜릿들을."
+            }
+          ],
+          "no": 20,
+          "source": "By the late 19th century, chocolate companies such as Cadbury were mass-producing boxes of chocolates.",
+          "translation": "19세기 후반 무렵에는 캐드버리와 같은 초콜릿 회사들이 상자에 담긴 초콜릿을 대량 생산하고 있었다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s021-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "이다"
+                  }
+                ],
+                "segmentId": "s021-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "love"
+                  }
+                ],
+                "id": "s021-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "좋아한다"
+                  }
+                ],
+                "segmentId": "s021-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "multi-billion dollar industry"
+                },
+                "id": "s021-m02-v1",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "수십억 달러 규모의 산업"
+                },
+                "meaning": "수십억 달러 규모의 산업",
+                "segmentId": "s021-m02"
+              },
+              {
+                "colorSlot": 8,
+                "en": {
+                  "occurrence": 1,
+                  "text": "all over the world"
+                },
+                "id": "s021-m03-v8",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "전 세계"
+                },
+                "meaning": "전 세계의",
+                "segmentId": "s021-m03"
+              }
+            ]
+          },
+          "display": "Today, chocolate is a multi-billion dollar industry and people all over the world love the taste of chocolate.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s021-arrange-01",
+                  "text": "Today,"
+                },
+                {
+                  "id": "s021-arrange-02",
+                  "text": "chocolate is a multi-billion dollar industry"
+                },
+                {
+                  "id": "s021-arrange-03",
+                  "text": "and people all over the world love the taste of chocolate."
+                }
+              ],
+              "displayOrder": [
+                "s021-arrange-03",
+                "s021-arrange-02",
+                "s021-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s021-choice-01",
+                  "options": [
+                    "industry",
+                    "industrial"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "industry"
+                  }
+                },
+                {
+                  "id": "s021-choice-02",
+                  "options": [
+                    "all over",
+                    "all above"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "all over"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s021-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "industry"
+                  }
+                },
+                {
+                  "id": "s021-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "taste"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s021-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "산업"
+                  }
+                },
+                {
+                  "id": "s021-ko-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "맛"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s021-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                },
+                {
+                  "cue": "love",
+                  "id": "s021-verb-02",
+                  "lemma": "love",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "love"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "today",
+                "multi-billion dollar industry",
+                "all over the world",
+                "taste"
+              ]
+            }
+          },
+          "id": "s021",
+          "meaningSegments": [
+            {
+              "en": "Today,",
+              "id": "s021-m01",
+              "ko": "오늘날"
+            },
+            {
+              "en": "chocolate is a multi-billion dollar industry",
+              "id": "s021-m02",
+              "ko": "초콜릿은 수십억 달러 규모의 산업이다"
+            },
+            {
+              "en": "and people all over the world love",
+              "id": "s021-m03",
+              "ko": "그리고 전 세계 사람들은 좋아한다"
+            },
+            {
+              "en": "the taste of chocolate.",
+              "id": "s021-m04",
+              "ko": "초콜릿의 맛을."
+            }
+          ],
+          "no": 21,
+          "source": "Today, chocolate is a multi-billion dollar industry and people all over the world love the taste of chocolate.",
+          "translation": "오늘날 초콜릿은 수십억 달러 규모의 산업이며 전 세계 사람들은 초콜릿 맛을 좋아한다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 2,
+                    "text": "is"
+                  }
+                ],
+                "id": "s022-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "이다"
+                  }
+                ],
+                "segmentId": "s022-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "will not go away"
+                  }
+                ],
+                "id": "s022-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "사라지지 않을"
+                  }
+                ],
+                "segmentId": "s022-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 8,
+                "en": {
+                  "occurrence": 1,
+                  "text": "go away"
+                },
+                "id": "s022-m02-v8",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "사라지지"
+                },
+                "meaning": "사라지다",
+                "segmentId": "s022-m02"
+              }
+            ]
+          },
+          "display": "This is an industry that will not go away any time soon.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s022-arrange-01",
+                  "text": "This is an industry"
+                },
+                {
+                  "id": "s022-arrange-02",
+                  "text": "that will not go away any time soon."
+                }
+              ],
+              "displayOrder": [
+                "s022-arrange-02",
+                "s022-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s022-choice-01",
+                  "options": [
+                    "that",
+                    "what"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "that"
+                  }
+                },
+                {
+                  "id": "s022-choice-02",
+                  "options": [
+                    "any time",
+                    "no time"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "any time"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s022-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "go away"
+                  }
+                },
+                {
+                  "id": "s022-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "soon"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s022-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "사라지지"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s022-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 2,
+                    "text": "is"
+                  }
+                },
+                {
+                  "cue": "not / go (future)",
+                  "id": "s022-verb-02",
+                  "lemma": "go",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "will not go"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "industry",
+                "will not go away",
+                "any time soon"
+              ]
+            }
+          },
+          "id": "s022",
+          "meaningSegments": [
+            {
+              "en": "This is an industry",
+              "id": "s022-m01",
+              "ko": "이것은 산업이다"
+            },
+            {
+              "en": "that will not go away",
+              "id": "s022-m02",
+              "ko": "사라지지 않을"
+            },
+            {
+              "en": "any time soon.",
+              "id": "s022-m03",
+              "ko": "조만간."
+            }
+          ],
+          "no": 22,
+          "source": "This is an industry that will not go away any time soon.",
+          "translation": "이것은 곧 사라지지 않을 산업이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "make"
+                  }
+                ],
+                "id": "s023-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "만들 수 있다"
+                  }
+                ],
+                "segmentId": "s023-m01"
+              }
+            ],
+            "vocabulary": []
+          },
+          "display": "You can even make your own!",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s023-arrange-01",
+                  "text": "You can even make"
+                },
+                {
+                  "id": "s023-arrange-02",
+                  "text": "your own!"
+                }
+              ],
+              "displayOrder": [
+                "s023-arrange-02",
+                "s023-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s023-choice-01",
+                  "options": [
+                    "make",
+                    "made"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "make"
+                  }
+                },
+                {
+                  "id": "s023-choice-02",
+                  "options": [
+                    "own",
+                    "owe"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "own"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s023-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "own"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s023-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "직접"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "make",
+                  "id": "s023-verb-01",
+                  "lemma": "make",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "make"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "even",
+                "make",
+                "own"
+              ]
+            }
+          },
+          "id": "s023",
+          "meaningSegments": [
+            {
+              "en": "You can even make",
+              "id": "s023-m01",
+              "ko": "여러분은 심지어 만들 수 있다"
+            },
+            {
+              "en": "your own!",
+              "id": "s023-m02",
+              "ko": "직접!"
+            }
+          ],
+          "no": 23,
+          "source": "You can even make your own!",
+          "translation": "여러분은 심지어 직접 만들 수도 있다!"
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "Did"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "know"
+                  }
+                ],
+                "id": "s024-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "알고 있었나요"
+                  }
+                ],
+                "segmentId": "s024-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "need"
+                  }
+                ],
+                "id": "s024-m05-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "필요하다"
+                  }
+                ],
+                "segmentId": "s024-m05"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "ingredients"
+                },
+                "id": "s024-m05-v1",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "재료"
+                },
+                "meaning": "재료",
+                "segmentId": "s024-m05"
+              },
+              {
+                "colorSlot": 5,
+                "en": {
+                  "occurrence": 1,
+                  "text": "cocoa butter"
+                },
+                "id": "s024-m06-v5",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "코코아 버터"
+                },
+                "meaning": "코코아 버터",
+                "segmentId": "s024-m06"
+              },
+              {
+                "colorSlot": 7,
+                "en": {
+                  "occurrence": 1,
+                  "text": "milk powder"
+                },
+                "id": "s024-m06-v7",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "분유"
+                },
+                "meaning": "분유",
+                "segmentId": "s024-m06"
+              }
+            ]
+          },
+          "display": "[Did you know...?] To make a good chocolate you only need four ingredients: cocoa beans, cocoa butter, sugar and milk powder.",
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s024-arrange-01",
+                  "text": "[Did you know...?]"
+                },
+                {
+                  "id": "s024-arrange-02",
+                  "text": "To make a good chocolate"
+                },
+                {
+                  "id": "s024-arrange-03",
+                  "text": "you only need four ingredients:"
+                },
+                {
+                  "id": "s024-arrange-04",
+                  "text": "cocoa beans, cocoa butter, sugar and milk powder."
+                }
+              ],
+              "displayOrder": [
+                "s024-arrange-04",
+                "s024-arrange-03",
+                "s024-arrange-02",
+                "s024-arrange-01"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s024-choice-01",
+                  "options": [
+                    "good",
+                    "well"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "good"
+                  }
+                },
+                {
+                  "id": "s024-choice-02",
+                  "options": [
+                    "need",
+                    "needs"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "need"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s024-en-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "ingredients"
+                  }
+                },
+                {
+                  "id": "s024-en-blank-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "powder"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s024-ko-blank-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "재료"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "make",
+                  "id": "s024-verb-01",
+                  "lemma": "make",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "make"
+                  }
+                },
+                {
+                  "cue": "need",
+                  "id": "s024-verb-02",
+                  "lemma": "need",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "need"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "[Did you know...?]",
+                "make",
+                "good chocolate",
+                "four ingredients",
+                "cocoa beans",
+                "cocoa butter",
+                "sugar",
+                "milk powder"
+              ]
+            }
+          },
+          "id": "s024",
+          "meaningSegments": [
+            {
+              "en": "[Did you know...?]",
+              "id": "s024-m01",
+              "ko": "여러분은 알고 있었나요...?"
+            },
+            {
+              "en": "To make",
+              "id": "s024-m02",
+              "ko": "만들기 위해"
+            },
+            {
+              "en": "a good chocolate",
+              "id": "s024-m03",
+              "ko": "좋은 초콜릿을"
+            },
+            {
+              "en": "you",
+              "id": "s024-m04",
+              "ko": "여러분에게는"
+            },
+            {
+              "en": "only need four ingredients:",
+              "id": "s024-m05",
+              "ko": "필요하다 네 가지 재료만:"
+            },
+            {
+              "en": "cocoa beans, cocoa butter, sugar and milk powder.",
+              "id": "s024-m06",
+              "ko": "카카오콩, 코코아 버터, 설탕, 분유."
+            }
+          ],
+          "no": 24,
+          "source": "[Did you know...?] To make a good chocolate you only need four ingredients: cocoa beans, cocoa butter, sugar and milk powder.",
+          "translation": "알고 있었나요...? 좋은 초콜릿을 만들려면 카카오콩, 코코아 버터, 설탕, 분유라는 네 가지 재료만 필요하다."
+        }
+      ],
+      "sourceStatus": {
+        "notes": "legacy migration SHA-256: ac2bf38091630565d424b3c4e33c3feb770c480049f4a27e05792e9cc9d76853",
+        "references": [
+          "tmp/build_chocolate_reading_json.py"
+        ],
+        "sentenceCount": 24,
+        "sourceType": "text",
+        "status": "confirmed",
+        "verifiedAt": "2026-07-10T00:00:00+09:00"
+      },
+      "specVersion": "1.0.2",
+      "updateState": {
+        "appliedUpdates": [
+          {
+            "appliedAt": "2026-07-10T00:00:00+09:00",
+            "fromContentVersion": "0.0.0",
+            "id": "U-20260710-001",
+            "report": "reports/updates/U-20260710-001.md",
+            "scope": "all",
+            "toContentVersion": "1.0.0"
+          },
+          {
+            "appliedAt": "2026-07-23T23:15:00+09:00",
+            "fromContentVersion": "1.0.0",
+            "id": "U-20260723-004",
+            "report": "reports/updates/U-20260723-004.md",
+            "scope": "all",
+            "toContentVersion": "1.0.1"
+          },
+          {
+            "appliedAt": "2026-07-23T23:25:00+09:00",
+            "fromContentVersion": "1.0.1",
+            "id": "U-20260723-005",
+            "report": "reports/updates/U-20260723-005.md",
+            "scope": "all",
+            "toContentVersion": "1.0.2"
+          }
+        ],
+        "defaultScope": "all"
+      },
+      "workbookId": "chocolate-reading"
+    },
+    "contentVersion": "1.0.2",
+    "files": [
+      {
+        "path": "workbooks/chocolate/content.json",
+        "sha256": "a147ec241f586856efe14396e36d31ccf97079e04500a041d64169382a7ad1a6",
+        "size": 125486
+      }
+    ],
+    "workbookId": "chocolate-reading"
+  },
+  "spec": {
+    "files": [
+      {
+        "path": "config/versions.json",
+        "sha256": "68c5be414e2274e8f909970294dec45572a47094871fc8b31a066b08710304c0",
+        "size": 1326
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "sha256": "8bea1dedad1775ad890f36a07ca0f4e1cb2b031b94346edfe3593b6a04f83b7d",
+        "size": 16122
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+        "size": 8058
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "schemaFiles": [
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "semanticRubricFile": {
+      "path": "docs/semantic-rubric.md",
+      "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+      "size": 8058
+    },
+    "semanticRubricVersion": "1.0.0",
+    "spec": {
+      "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "answerEditionContract": {
+        "answerFillClassMayAutoColor": false,
+        "redAllowedOnlyOnSolutionValues": true,
+        "sameStageAndExerciseDomAsStudent": true,
+        "solutionClass": "solution-value",
+        "solutionColor": "#D71920",
+        "solutionInsertion": "fill-the-same-solution-slot",
+        "studentPayloadMayContainSolutions": false
+      },
+      "canonicalSchema": "schemas/canonical-workbook.schema.json",
+      "canonicalText": {
+        "baseTextOverride": {
+          "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+          "defaultStorage": "omit-baseText-and-derive-from-canonical",
+          "redundantDefaultCopy": "forbidden",
+          "requiredCompanionField": "overrideReason"
+        },
+        "displayDefault": "source",
+        "exerciseBaseTextDefaults": {
+          "choice": "display-or-source",
+          "enBlank": "display-or-source",
+          "koBlank": "translation",
+          "verb": "display-or-source"
+        },
+        "markup": "forbidden",
+        "reconstruction": {
+          "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+          "meaningSegments": "join meaningSegments[].en with one ASCII space",
+          "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+        },
+        "sourceWhitespace": "single-space-between-tokens",
+        "targetAnchor": {
+          "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다.",
+          "shape": {
+            "occurrence": "one-based occurrence in the applicable base text",
+            "text": "exact substring"
+          }
+        }
+      },
+      "contentOwnership": {
+        "authorable": [
+          "metadata",
+          "sourceStatus",
+          "sentences[].source",
+          "sentences[].display",
+          "sentences[].translation",
+          "sentences[].meaningSegments",
+          "sentences[].annotations",
+          "sentences[].exercises",
+          "passageActivities.correction",
+          "passageActivities.paragraphOrder",
+          "updateState"
+        ],
+        "derived": [
+          "stage number, title, instruction and renderer mode",
+          "item and unit numbers",
+          "part ranges and page boundaries",
+          "student and answer projections",
+          "blank, predicate, vocabulary and solution markup",
+          "answer-line height and layout classes",
+          "page count, footer number and output filenames"
+        ],
+        "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+      },
+      "logicalStages": [
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].meaningSegments",
+            "sentences[].annotations.predicates",
+            "sentences[].annotations.vocabulary"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "passage-practice",
+          "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean-inline-hint"
+            ],
+            "vocabularyColoring": true
+          },
+          "number": 1,
+          "pagination": {
+            "hardMaximum": 13,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 12,
+            "unit": "sentence"
+          },
+          "rendererMode": "meaning",
+          "scope": "sentence",
+          "title": "지문 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].exercises.koBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "korean-cloze",
+          "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 2,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (우리말)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.enBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "english-cloze",
+          "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 3,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (영문)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].translation"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "translation-practice",
+          "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 4,
+          "pagination": {
+            "hardMaximum": 11,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 10,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "해석 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.verb"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "verb-form",
+          "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 5,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "동사형 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.choice"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "grammar-vocabulary-choice",
+          "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 6,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "어법·어휘 고르기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.correction"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "correction",
+          "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+          "layout": {
+            "fieldOrder": [
+              "passage",
+              "correction-rows"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 7,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "correction",
+          "scope": "passage-activity",
+          "title": "어색한 곳 찾기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.arrange"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "sentence-order",
+          "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+          "layout": {
+            "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+            "arrangementSlots": "forbidden",
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 8,
+          "pagination": {
+            "hardMaximum": 6,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 6,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "순서 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.paragraphOrder"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "paragraph-order",
+          "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "fixed-intro",
+              "shuffled-blocks",
+              "fixed-outro",
+              "sequence-slots"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 9,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "paragraph-order",
+          "scope": "passage-activity",
+          "title": "문단 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.writing",
+            "sentences[].display|source"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "composition",
+          "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "studentEnglishSkeleton": "forbidden",
+            "vocabularyColoring": false
+          },
+          "number": 10,
+          "pagination": {
+            "hardMaximum": 8,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 8,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "영작 연습하기"
+        }
+      ],
+      "paginationContract": {
+        "continuationPageMinimumItems": 2,
+        "forbidden": [
+          "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+          "legacy 흐름 or 뜻 작성 columns",
+          "content crossing the page footer",
+          "content from one page overlapping the next page",
+          "clipped text",
+          "a singleton continuation page that can be avoided within the stage hard maximum",
+          "renumbering a new part from one"
+        ],
+        "layoutPreference": "vertical",
+        "numbering": "continuous-original-sentence-number",
+        "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+        "partLabel": "inclusive-original-sentence-number-range",
+        "readingLayout": "allowed-only-after-explicit-user-request",
+        "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+        "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+        "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+        "visualFitOverridesTargetCount": true
+      },
+      "principles": {
+        "canonicalDataContainsHtml": false,
+        "logicalStageCount": 10,
+        "publishOnlyAfterAllChecksPass": true,
+        "singleContentSource": true,
+        "studentAndAnswerShareExerciseStructure": true,
+        "uncertainSourcePolicy": "stop-and-request-clearer-source"
+      },
+      "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+      "releaseContract": {
+        "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+        "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+        "filenames": [
+          "문제.html",
+          "문제.pdf",
+          "해설.html",
+          "해설.pdf"
+        ],
+        "finalHtmlDependencies": "self-contained",
+        "outputRoot": "outputs",
+        "previewFixture": "one-shared-canonical-fixture",
+        "publish": "atomic-after-all-gates-pass",
+        "stagingRoot": ".build/releases",
+        "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture"
+      },
+      "semanticRubric": "docs/semantic-rubric.md",
+      "specVersion": "1.0.2",
+      "updates": {
+        "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+        "allowedScopes": [
+          "new-only",
+          "all",
+          "selected",
+          "manual-review"
+        ],
+        "changelogPath": "CHANGELOG.md",
+        "defaultScope": "new-only",
+        "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+        "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+        "reportRequired": true,
+        "requiredImpactDimensions": [
+          "canonical fields",
+          "stage numbers",
+          "sentence or activity ids",
+          "student and answer editions",
+          "page count and part ranges",
+          "component versions"
+        ],
+        "requiredReportSections": [
+          "요약",
+          "요청 내용",
+          "직접 변경",
+          "파생 변경",
+          "영향 없음",
+          "파일 변경",
+          "출력 변화",
+          "검증 결과",
+          "호환성",
+          "버전"
+        ],
+        "versionBump": {
+          "backward-compatible field or stage capability": "minor",
+          "breaking schema or canonical semantics": "major",
+          "bug fix, validation strengthening or copy correction": "patch"
+        }
+      },
+      "validationGates": {
+        "canonical": [
+          "JSON Schema passes",
+          "sourceStatus.status is confirmed",
+          "sentence ids and numbers are unique, consecutive and aligned",
+          "meaning segment English joined with one space equals display or source",
+          "every meaning segment has one-to-one English and Korean text",
+          "all target anchors resolve exactly at their declared occurrence",
+          "choice options contain the correct target exactly once",
+          "arrange chunks in canonical order reconstruct display or source exactly",
+          "arrange displayOrder contains every chunk id exactly once",
+          "paragraph displayOrder contains every block id exactly once",
+          "correction targets restore their base excerpt exactly",
+          "vocabulary and predicate annotations resolve inside their meaning segment"
+        ],
+        "compiled": [
+          "exactly ten logical stages appear in fixed order",
+          "sentence stages contain exactly one item for every source sentence",
+          "all part ranges are complete, consecutive and match item numbers",
+          "student and answer exercise structures are identical",
+          "student edition exposes no solution values",
+          "every bank, target and slot cardinality is internally consistent",
+          "stage 10 student edition contains no English skeleton"
+        ],
+        "release": [
+          "problem HTML exists",
+          "problem PDF exists",
+          "answer HTML exists",
+          "answer PDF exists",
+          "build manifest records all component versions and applied updates",
+          "update report exists when an update id is applied"
+        ],
+        "rendered": [
+          "document fonts and images are ready",
+          "browser console and page errors are empty",
+          "data-render-validation is exactly ok",
+          "no unresolved template placeholder remains",
+          "no preview fixture data remains in final HTML",
+          "no page or footer overflow exists under print media",
+          "answer red is present only on solution-value nodes",
+          "representative and risk pages pass visual review"
+        ]
+      },
+      "vocabularyContract": {
+        "allowedStageNumbers": [
+          1
+        ],
+        "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+        "maximumPerSentence": 3,
+        "redSlotForbidden": true,
+        "rendererClasses": {
+          "english": "vocab vocab-{slot} gloss",
+          "korean": "vocab vocab-{slot}"
+        },
+        "sameEnglishAndKoreanSlot": true,
+        "slots": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "specVersion": "1.0.2"
+  },
+  "template": {
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+        "size": 29359
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "sha256": "b8d6cf61d980afcfa0160d91fe87b73d535cc2ab80bac66964f45a9e0ec2345e",
+        "size": 40565
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+        "size": 1212
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "sha256": "fbce767b88b805800c5f03a51bfbe5c61985a55131b8624e43ab87acd5de3761",
+        "size": 14590
+      }
+    ],
+    "rendererContract": "shared-dom-explicit-targets-fail-closed",
+    "templateVersion": "1.0.1"
+  }
+}

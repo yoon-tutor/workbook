@@ -1,0 +1,68 @@
+{
+  "$schema": "../schemas/update.schema.json",
+  "id": "U-20260723-005",
+  "title": "같은 단계 페이지 균등 압축 및 단독 꼬리 페이지 금지",
+  "date": "2026-07-23",
+  "summary": "같은 단계의 문항을 안전 상한 안에서 최소 페이지 수로 균등 분배하고, 마지막 페이지에 한 문항만 남는 불필요한 단독 페이지를 차단합니다.",
+  "category": "pagination",
+  "applyTo": "all",
+  "affectedStages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10
+  ],
+  "request": "같은 영역의 작업은 가능한 한 적은 페이지에 담고, 앞 페이지에 여백이 있는데 마지막 한 문항만 다음 페이지로 넘어가지 않게 수정합니다.",
+  "directChanges": {
+    "files": [
+      "AGENTS.md",
+      "config/versions.json",
+      "config/workbook-spec.json",
+      "tests/test_engine.py",
+      "tests/test_paginator.py",
+      "tests/test_render_contract.py",
+      "updates/U-20260723-005.json",
+      "workbook_engine/__init__.py",
+      "workbook_engine/paginator.py",
+      "workbook_engine/validator.py",
+      "workbooks/chocolate/content.json",
+      "workbooks/soccer-jersey-swap/content.json",
+      "workbooks/when-failure-become-ideas/content.json"
+    ],
+    "jsonPaths": [
+      {
+        "manifest": "canonical",
+        "path": "$"
+      },
+      {
+        "manifest": "spec",
+        "path": "$"
+      },
+      {
+        "manifest": "build",
+        "path": "$"
+      }
+    ]
+  },
+  "verification": [
+    {
+      "name": "balanced-pagination",
+      "status": "pass",
+      "details": "21개 문항과 안전 상한 11에서 11/10으로 나뉘며, 13개 문항도 7/6으로 분배되어 단독 꼬리 페이지가 생기지 않는 회귀 검사를 추가했습니다."
+    },
+    {
+      "name": "compiled-singleton-tail-gate",
+      "status": "pass",
+      "details": "문장 단계의 마지막 페이지가 한 문항이거나 같은 단계 페이지 간 문항 수 차이가 1을 넘으면 validation을 실패시킵니다."
+    },
+    {
+      "name": "release-validation",
+      "status": "skipped",
+      "details": "전체 테스트와 새 비공개 렌더에서 확인합니다."
+    }
+  ]
+}

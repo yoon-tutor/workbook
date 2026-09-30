@@ -1,0 +1,2949 @@
+{
+  "build": {
+    "appliedUpdates": [
+      "U-20260903-016"
+    ],
+    "buildVersion": "1.0.0",
+    "builtAt": "2026-09-03T15:13:50+09:00",
+    "canonicalDigest": "f40952eba5c4018c5f459de64868c5c631993c698516885c4d8d89ae59d80909",
+    "compilerVersion": "1.0.7",
+    "contentVersion": "1.0.0",
+    "engineDigest": "755fa39f2f38e0c481da489f7b37fc92110b71ae3cf018dda83004df187ac114",
+    "engineInputs": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      }
+    ],
+    "files": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      },
+      {
+        "path": "문제.html",
+        "sha256": "dbc9f9b66af2834a34ce3d9b66f8ec3ed4a318fbc52cba25d18ae720ca5d0390",
+        "size": 147369
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "275a3790fff676c887b7652aebc0f0f5c0582d57aa80f5bb15cdfbc836dc5852",
+        "size": 606135
+      },
+      {
+        "path": "해설.html",
+        "sha256": "06b5c12d54f4602a3683a21aeb1478e2bcc586de7eac6370e7e6342fe961bb5f",
+        "size": 158080
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "446b075e8d25f314d0a390679c4e2704a0f042a8d5fc4cb573e2e370c32d943d",
+        "size": 752108
+      }
+    ],
+    "outputs": [
+      {
+        "path": "문제.html",
+        "sha256": "dbc9f9b66af2834a34ce3d9b66f8ec3ed4a318fbc52cba25d18ae720ca5d0390",
+        "size": 147369
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "275a3790fff676c887b7652aebc0f0f5c0582d57aa80f5bb15cdfbc836dc5852",
+        "size": 606135
+      },
+      {
+        "path": "해설.html",
+        "sha256": "06b5c12d54f4602a3683a21aeb1478e2bcc586de7eac6370e7e6342fe961bb5f",
+        "size": 158080
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "446b075e8d25f314d0a390679c4e2704a0f042a8d5fc4cb573e2e370c32d943d",
+        "size": 752108
+      }
+    ],
+    "pages": [
+      {
+        "digest": "2a89b1c93f6af1df2b95cd9503af64ba3c002399fa8b31aceab45167b9d7d7b8",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q30-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q30-p01",
+        "part": "1-7",
+        "stageId": "1"
+      },
+      {
+        "digest": "599ca65c4d4ea5f4617fd1b305e224a6cce8e166c9149b55dd444300aef21626",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q30-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q30-p02",
+        "part": "1-7",
+        "stageId": "2"
+      },
+      {
+        "digest": "638d783cc7a1491eb0d5ecb9e8749c7a504079cdfa62715c30ab8460138e0d2a",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q30-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q30-p03",
+        "part": "1-7",
+        "stageId": "3"
+      },
+      {
+        "digest": "b0b2c8c020ad73b188b88d323e221121938cce70ed322213cb186676c05524fb",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q30-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q30-p04",
+        "part": "1-7",
+        "stageId": "4"
+      },
+      {
+        "digest": "e6f080f49bc270a58a30a0391fb0a3b2a8e1ff18502b10bfe78302e72161e8aa",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q30-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q30-p05",
+        "part": "1-7",
+        "stageId": "5"
+      },
+      {
+        "digest": "b1e5770e4002bc9b0d15f7bc1aba74ff253cbc41839c9f87759a148fe3afffad",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q30-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q30-p06",
+        "part": "1-7",
+        "stageId": "6"
+      },
+      {
+        "digest": "2ca3bf33d5c2d90934b64c2c50a0c65d556e7cc7996727c78e1b4400e8e81f0f",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q30-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q30-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "b7a4fbba6d01e5b14be1f0dd9a03f16c24e5e4c50ae141ae05c5a75d8f10284f",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q30-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q30-p08",
+        "part": "1-4",
+        "stageId": "8"
+      },
+      {
+        "digest": "59fbcae37400631373c380e9519c9777c156962e5777fad43893e613c99f059f",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q30-p09",
+        "itemIds": [
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 9,
+        "pageId": "2026-june-grade2-q30-p09",
+        "part": "5-7",
+        "stageId": "8"
+      },
+      {
+        "digest": "12b755c53048f8443391affdd34089cab418e6751b5a75f518d81a700ae5995c",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q30-p10",
+        "itemIds": [],
+        "page": 10,
+        "pageId": "2026-june-grade2-q30-p10",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "5dbfe0c7dc63a8fa35a975f74cea1599c70ad733ecbdfc4fadee292cc4eb0546",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q30-p11",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 11,
+        "pageId": "2026-june-grade2-q30-p11",
+        "part": "1-7",
+        "stageId": "10"
+      },
+      {
+        "digest": "2a89b1c93f6af1df2b95cd9503af64ba3c002399fa8b31aceab45167b9d7d7b8",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q30-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q30-p01",
+        "part": "1-7",
+        "stageId": "1"
+      },
+      {
+        "digest": "29c832da8d33be27ec452d33a4dc8c043f39673f30105af474b60163d6c6dcef",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q30-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q30-p02",
+        "part": "1-7",
+        "stageId": "2"
+      },
+      {
+        "digest": "47d99a3585bfbbbf7152cddc918210bf05aa1a520fbbcaf902dfce4eba3a1cdf",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q30-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q30-p03",
+        "part": "1-7",
+        "stageId": "3"
+      },
+      {
+        "digest": "2982ae7231abd7aeadf8fa927deecafde66c25db424762bfa046914ab112b7e3",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q30-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q30-p04",
+        "part": "1-7",
+        "stageId": "4"
+      },
+      {
+        "digest": "8432b6d513a64361961af2fadfab8105ada6ada2f78e3f0e067ba1d3d4058b87",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q30-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q30-p05",
+        "part": "1-7",
+        "stageId": "5"
+      },
+      {
+        "digest": "3de960c450f97766fa0ebb1f4946e044aeb6b42b9047b018db387937c750c50e",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q30-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q30-p06",
+        "part": "1-7",
+        "stageId": "6"
+      },
+      {
+        "digest": "0dbb948e568e2f7c918e91680b822be3dbf56a1c734cdaf9a66095bc29697061",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q30-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q30-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "7651b915e069910f2e184edc1f4a4c4d7717a56daf27b1666bab21237a041283",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q30-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q30-p08",
+        "part": "1-4",
+        "stageId": "8"
+      },
+      {
+        "digest": "da0c91abeb44df479b2bc08ef4501a4522ab0546aa7bb22f3a448c5e4d1d40ea",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q30-p09",
+        "itemIds": [
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 9,
+        "pageId": "2026-june-grade2-q30-p09",
+        "part": "5-7",
+        "stageId": "8"
+      },
+      {
+        "digest": "726905d8c31334bc484912dc0bf4f288a51997548b338af048dd4f95b5a4f857",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q30-p10",
+        "itemIds": [],
+        "page": 10,
+        "pageId": "2026-june-grade2-q30-p10",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "af6281efc4254d97cc37ce931261bfda97d6086294b37b12bf068b00e458d657",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q30-p11",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 11,
+        "pageId": "2026-june-grade2-q30-p11",
+        "part": "1-7",
+        "stageId": "10"
+      }
+    ],
+    "qa": {
+      "contactSheets": [
+        "qa/samples/student-contact-sheet.png",
+        "qa/samples/answer-contact-sheet.png"
+      ],
+      "dom": {
+        "answer": {
+          "pages": 11,
+          "solutions": 82
+        },
+        "matchedResponseBoxCount": 21,
+        "matchedResponseLineCount": 40,
+        "matchedSolutionSlotCount": 69,
+        "sharedTargetSlotCount": 90,
+        "student": {
+          "pages": 11,
+          "solutions": 0
+        }
+      },
+      "pdf": {
+        "answerPages": 11,
+        "studentPages": 11
+      },
+      "status": "passed",
+      "visualSamples": [
+        "qa/samples/student-p01.png",
+        "qa/samples/student-p02.png",
+        "qa/samples/student-p03.png",
+        "qa/samples/student-p04.png",
+        "qa/samples/student-p05.png",
+        "qa/samples/student-p06.png",
+        "qa/samples/student-p07.png",
+        "qa/samples/student-p08.png",
+        "qa/samples/student-p10.png",
+        "qa/samples/student-p11.png",
+        "qa/samples/answer-p01.png",
+        "qa/samples/answer-p02.png",
+        "qa/samples/answer-p03.png",
+        "qa/samples/answer-p04.png",
+        "qa/samples/answer-p05.png",
+        "qa/samples/answer-p06.png",
+        "qa/samples/answer-p07.png",
+        "qa/samples/answer-p08.png",
+        "qa/samples/answer-p10.png",
+        "qa/samples/answer-p11.png"
+      ]
+    },
+    "reportFormatVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "semanticRubricVersion": "1.0.0",
+    "sourceDigest": "5a61a286decb599adc7f50f7a4f206831de6236cbbf10868b3f6003217381481",
+    "specVersion": "1.0.6",
+    "templateVersion": "1.0.4",
+    "validationStatus": "passed",
+    "visualReview": {
+      "notes": "학생용·해설용 11쪽 전체 contact sheet와 7단계 상세 페이지를 확인했습니다. 1단계 다음 part, 2·3단계 빈칸, 4·8·10단계 작성 영역, 7단계 교정 색상, 9단계 문단 순서, 마지막 페이지에 잘림·겹침·정답 누출이 없고 문제·해설 target 배치가 일치합니다.",
+      "reviewedAt": "2026-09-03T15:14:24+09:00",
+      "reviewer": "Codex",
+      "status": "passed"
+    },
+    "workbookId": "2026-june-grade2-q30"
+  },
+  "bundleVersion": 1,
+  "canonical": {
+    "canonical": {
+      "$schema": "../../schemas/canonical-workbook.schema.json",
+      "contentVersion": "1.0.0",
+      "metadata": {
+        "grade": "고등학교 2학년",
+        "kicker": "High School Reading",
+        "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 30번",
+        "sourceLanguage": "en",
+        "targetLanguage": "ko",
+        "title": "2026학년도 6월 고2 30번 10단계 워크북",
+        "topic": "혁신적인 첨단 기술 제품의 낮은 가격 탄력성과 초기 고가 전략"
+      },
+      "passageActivities": {
+        "correction": [
+          {
+            "id": "correction-01",
+            "targets": [
+              {
+                "correct": "products have",
+                "id": "correction-01-01",
+                "incorrect": "products has",
+                "target": {
+                  "occurrence": 1,
+                  "text": "products has"
+                }
+              },
+              {
+                "correct": "decrease, does not",
+                "id": "correction-01-02",
+                "incorrect": "decrease, do not",
+                "target": {
+                  "occurrence": 1,
+                  "text": "decrease, do not"
+                }
+              },
+              {
+                "correct": "the costs to switch to another product are high",
+                "id": "correction-01-03",
+                "incorrect": "the costs to switch to another product is high",
+                "target": {
+                  "occurrence": 1,
+                  "text": "the costs to switch to another product is high"
+                }
+              },
+              {
+                "correct": "are less sensitive",
+                "id": "correction-01-04",
+                "incorrect": "are more sensitive",
+                "target": {
+                  "occurrence": 1,
+                  "text": "are more sensitive"
+                }
+              },
+              {
+                "correct": "manufacturer is aiming",
+                "id": "correction-01-05",
+                "incorrect": "manufacturer are aiming",
+                "target": {
+                  "occurrence": 1,
+                  "text": "manufacturer are aiming"
+                }
+              },
+              {
+                "correct": "manufacturer has set",
+                "id": "correction-01-06",
+                "incorrect": "manufacturer have set",
+                "target": {
+                  "occurrence": 1,
+                  "text": "manufacturer have set"
+                }
+              },
+              {
+                "correct": "interested in lowering",
+                "id": "correction-01-07",
+                "incorrect": "interested in lower",
+                "target": {
+                  "occurrence": 1,
+                  "text": "interested in lower"
+                }
+              },
+              {
+                "correct": "and reinforces",
+                "id": "correction-01-08",
+                "incorrect": "and reinforce",
+                "target": {
+                  "occurrence": 1,
+                  "text": "and reinforce"
+                }
+              }
+            ],
+            "textOverride": "Usually, innovative high-tech products has low price elasticity. This means that high variation in price, an increase as well as a decrease, do not significantly modify demand. These high-tech products have few substitutes, meaning that the costs to switch to another product is high. Additionally, at the first stage of the technology, buyers—either innovators or forerunners—are more sensitive to price than to additional performance; they often have deep pockets or are ready to spend a lot for a new innovative and outstanding product. For instance, with its new product range, a high-end mobile phone manufacturer are aiming at the 3% of millionaire households with assets of more than $2.5 million; those are customers who are ready to accept the price range the manufacturer have set. At that stage, the competitors are not interested in lower their price significantly whatsoever, because they are chasing the same categories of customers, not sensitive to price. Furthermore, the high price of these products is often perceived as a sign of quality and reinforce a customer’s confidence in the company."
+          }
+        ],
+        "paragraphOrder": [
+          {
+            "answerOrder": [
+              "A",
+              "B",
+              "C"
+            ],
+            "blocks": [
+              {
+                "id": "A",
+                "sentenceIds": [
+                  "s001",
+                  "s002"
+                ]
+              },
+              {
+                "id": "B",
+                "sentenceIds": [
+                  "s003",
+                  "s004"
+                ]
+              },
+              {
+                "id": "C",
+                "sentenceIds": [
+                  "s005",
+                  "s006",
+                  "s007"
+                ]
+              }
+            ],
+            "displayOrder": [
+              "C",
+              "A",
+              "B"
+            ],
+            "id": "paragraph-order-01"
+          }
+        ]
+      },
+      "schemaVersion": "1.0.0",
+      "sentences": [
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "have"
+                  }
+                ],
+                "id": "s001-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "가진다"
+                  }
+                ],
+                "segmentId": "s001-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "innovative"
+                },
+                "id": "s001-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "혁신적인"
+                },
+                "meaning": "새로운 발상이나 방법을 도입한",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s001-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "elasticity"
+                },
+                "id": "s001-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "탄력성"
+                },
+                "meaning": "가격 변화에 수요가 반응하는 정도",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s001-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s001-a",
+                  "text": "Usually, innovative high-tech products have"
+                },
+                {
+                  "id": "s001-b",
+                  "text": "low price elasticity."
+                }
+              ],
+              "displayOrder": [
+                "s001-b",
+                "s001-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s001-choice-01",
+                  "options": [
+                    "innovative",
+                    "conventional"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "innovative"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s001-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "innovative high-tech products"
+                  }
+                },
+                {
+                  "id": "s001-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "low price elasticity"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s001-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "혁신적인 첨단 기술 제품"
+                  }
+                },
+                {
+                  "id": "s001-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "낮은 가격 탄력성"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "have",
+                  "id": "s001-verb-01",
+                  "lemma": "have",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "have"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "usually",
+                "innovative high-tech products",
+                "have",
+                "low price elasticity"
+              ]
+            }
+          },
+          "id": "s001",
+          "meaningSegments": [
+            {
+              "en": "Usually,",
+              "id": "s001-m01",
+              "ko": "일반적으로,"
+            },
+            {
+              "en": "innovative high-tech products have",
+              "id": "s001-m02",
+              "ko": "혁신적인 첨단 기술 제품은 가진다"
+            },
+            {
+              "en": "low price elasticity.",
+              "id": "s001-m03",
+              "ko": "낮은 가격 탄력성을."
+            }
+          ],
+          "no": 1,
+          "source": "Usually, innovative high-tech products have low price elasticity.",
+          "translation": "일반적으로 혁신적인 첨단 기술 제품은 낮은 가격 탄력성을 가진다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "means"
+                  }
+                ],
+                "id": "s002-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "뜻한다"
+                  }
+                ],
+                "segmentId": "s002-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "does not significantly modify"
+                  }
+                ],
+                "id": "s002-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "변화시키지 않는다는"
+                  }
+                ],
+                "segmentId": "s002-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "variation"
+                },
+                "id": "s002-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "변동"
+                },
+                "meaning": "정도나 값의 변화",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s002-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "modify"
+                },
+                "id": "s002-m04-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "변화시키"
+                },
+                "meaning": "일부를 바꾸다",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s002-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s002-a",
+                  "text": "This means that high variation in price,"
+                },
+                {
+                  "id": "s002-b",
+                  "text": "an increase as well as a decrease,"
+                },
+                {
+                  "id": "s002-c",
+                  "text": "does not significantly modify demand."
+                }
+              ],
+              "displayOrder": [
+                "s002-b",
+                "s002-c",
+                "s002-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s002-choice-01",
+                  "options": [
+                    "does not significantly modify",
+                    "significantly modifies"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "does not significantly modify"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s002-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "an increase as well as a decrease"
+                  }
+                },
+                {
+                  "id": "s002-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "does not significantly modify demand"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s002-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "상승뿐만 아니라 하락도"
+                  }
+                },
+                {
+                  "id": "s002-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "수요를 크게 변화시키지 않는다는"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "mean",
+                  "id": "s002-verb-01",
+                  "lemma": "mean",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "means"
+                  }
+                },
+                {
+                  "cue": "modify",
+                  "id": "s002-verb-02",
+                  "lemma": "modify",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "does not significantly modify"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "mean",
+                "high variation in price",
+                "increase",
+                "decrease",
+                "not significantly modify",
+                "demand"
+              ]
+            }
+          },
+          "id": "s002",
+          "meaningSegments": [
+            {
+              "en": "This means",
+              "id": "s002-m01",
+              "ko": "이는 뜻한다"
+            },
+            {
+              "en": "that high variation in price,",
+              "id": "s002-m02",
+              "ko": "가격의 큰 변동이,"
+            },
+            {
+              "en": "an increase as well as a decrease,",
+              "id": "s002-m03",
+              "ko": "상승뿐만 아니라 하락도,"
+            },
+            {
+              "en": "does not significantly modify demand.",
+              "id": "s002-m04",
+              "ko": "수요를 크게 변화시키지 않는다는 것을."
+            }
+          ],
+          "no": 2,
+          "source": "This means that high variation in price, an increase as well as a decrease, does not significantly modify demand.",
+          "translation": "이는 가격의 큰 변동, 즉 상승뿐만 아니라 하락도 수요를 크게 변화시키지 않는다는 뜻이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "have"
+                  }
+                ],
+                "id": "s003-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "없으며"
+                  }
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                ],
+                "id": "s003-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "높다는"
+                  }
+                ],
+                "segmentId": "s003-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "substitutes"
+                },
+                "id": "s003-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "대체재"
+                },
+                "meaning": "대신 선택할 수 있는 상품",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "switch"
+                },
+                "id": "s003-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "전환하는"
+                },
+                "meaning": "다른 것으로 바꾸다",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s003-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s003-a",
+                  "text": "These high-tech products have few substitutes,"
+                },
+                {
+                  "id": "s003-b",
+                  "text": "meaning that the costs to switch to another product"
+                },
+                {
+                  "id": "s003-c",
+                  "text": "are high."
+                }
+              ],
+              "displayOrder": [
+                "s003-c",
+                "s003-a",
+                "s003-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s003-choice-01",
+                  "options": [
+                    "few substitutes",
+                    "many substitutes"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "few substitutes"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s003-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "few substitutes"
+                  }
+                },
+                {
+                  "id": "s003-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "the costs to switch to another product"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s003-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "대체재가 거의 없으며"
+                  }
+                },
+                {
+                  "id": "s003-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "다른 제품으로 전환하는 비용"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "have",
+                  "id": "s003-verb-01",
+                  "lemma": "have",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "have"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s003-verb-02",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "high-tech products",
+                "few substitutes",
+                "costs",
+                "switch",
+                "another product",
+                "high"
+              ]
+            }
+          },
+          "id": "s003",
+          "meaningSegments": [
+            {
+              "en": "These high-tech products have few substitutes,",
+              "id": "s003-m01",
+              "ko": "이러한 첨단 기술 제품은 대체재가 거의 없으며,"
+            },
+            {
+              "en": "meaning",
+              "id": "s003-m02",
+              "ko": "의미한다"
+            },
+            {
+              "en": "that the costs to switch to another product",
+              "id": "s003-m03",
+              "ko": "다른 제품으로 전환하는 비용이"
+            },
+            {
+              "en": "are high.",
+              "id": "s003-m04",
+              "ko": "높다는 것을."
+            }
+          ],
+          "no": 3,
+          "source": "These high-tech products have few substitutes, meaning that the costs to switch to another product are high.",
+          "translation": "이러한 첨단 기술 제품은 대체재가 거의 없으며, 이는 다른 제품으로 전환하는 비용이 높다는 것을 의미한다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                ],
+                "id": "s004-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "민감하다"
+                  }
+                ],
+                "segmentId": "s004-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "have"
+                  }
+                ],
+                "id": "s004-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "풍부하거나"
+                  }
+                ],
+                "segmentId": "s004-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are ready"
+                  }
+                ],
+                "id": "s004-m05-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "준비가 되어 있다"
+                  }
+                ],
+                "segmentId": "s004-m05"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "forerunners"
+                },
+                "id": "s004-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "선도자"
+                },
+                "meaning": "남보다 앞서 새로운 것을 받아들이는 사람",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s004-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "sensitive"
+                },
+                "id": "s004-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "민감하다"
+                },
+                "meaning": "변화에 크게 영향을 받는",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s004-m02"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "outstanding"
+                },
+                "id": "s004-m06-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "뛰어난"
+                },
+                "meaning": "매우 훌륭한",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s004-m06"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s004-a",
+                  "text": "Additionally, at the first stage of the technology,"
+                },
+                {
+                  "id": "s004-b",
+                  "text": "buyers—either innovators or forerunners—are less sensitive to price than to additional performance;"
+                },
+                {
+                  "id": "s004-c",
+                  "text": "they often have deep pockets or are ready to spend a lot"
+                },
+                {
+                  "id": "s004-d",
+                  "text": "for a new innovative and outstanding product."
+                }
+              ],
+              "displayOrder": [
+                "s004-c",
+                "s004-a",
+                "s004-d",
+                "s004-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s004-choice-01",
+                  "options": [
+                    "less sensitive",
+                    "more sensitive"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "less sensitive"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s004-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "less sensitive to price than to additional performance"
+                  }
+                },
+                {
+                  "id": "s004-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "have deep pockets"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s004-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "추가 성능보다 가격에 덜 민감하며"
+                  }
+                },
+                {
+                  "id": "s004-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "자금이 풍부하거나"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be sensitive",
+                  "id": "s004-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are less sensitive"
+                  }
+                },
+                {
+                  "cue": "have",
+                  "id": "s004-verb-02",
+                  "lemma": "have",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "have"
+                  }
+                },
+                {
+                  "cue": "be ready",
+                  "id": "s004-verb-03",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are ready"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "first stage",
+                "innovators or forerunners",
+                "less sensitive to price",
+                "additional performance",
+                "deep pockets",
+                "be ready to spend"
+              ]
+            }
+          },
+          "id": "s004",
+          "meaningSegments": [
+            {
+              "en": "Additionally, at the first stage of the technology,",
+              "id": "s004-m01",
+              "ko": "또한 그 기술의 초기 단계에서는,"
+            },
+            {
+              "en": "buyers—either innovators or forerunners—are less sensitive to price",
+              "id": "s004-m02",
+              "ko": "구매자들—혁신자나 선도자들은—가격에 덜 민감하다"
+            },
+            {
+              "en": "than to additional performance;",
+              "id": "s004-m03",
+              "ko": "추가 성능보다;"
+            },
+            {
+              "en": "they often have deep pockets",
+              "id": "s004-m04",
+              "ko": "그들은 흔히 자금이 풍부하거나"
+            },
+            {
+              "en": "or are ready to spend a lot",
+              "id": "s004-m05",
+              "ko": "또는 많은 돈을 쓸 준비가 되어 있다"
+            },
+            {
+              "en": "for a new innovative and outstanding product.",
+              "id": "s004-m06",
+              "ko": "새롭고 혁신적이며 뛰어난 제품에."
+            }
+          ],
+          "no": 4,
+          "source": "Additionally, at the first stage of the technology, buyers—either innovators or forerunners—are less sensitive to price than to additional performance; they often have deep pockets or are ready to spend a lot for a new innovative and outstanding product.",
+          "translation": "또한 그 기술의 초기 단계에서는 구매자들, 즉 혁신자나 선도자들은 추가 성능보다 가격에 덜 민감하며, 흔히 자금이 풍부하거나 새롭고 혁신적이며 뛰어난 제품에 많은 돈을 쓸 준비가 되어 있다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is aiming"
+                  }
+                ],
+                "id": "s005-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "겨냥하고 있다"
+                  }
+                ],
+                "segmentId": "s005-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                ],
+                "id": "s005-m05-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "고객들이다"
+                  }
+                ],
+                "segmentId": "s005-m05"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are ready"
+                  }
+                ],
+                "id": "s005-m06-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "준비가 된"
+                  }
+                ],
+                "segmentId": "s005-m06"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "has set"
+                  }
+                ],
+                "id": "s005-m07-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "정한"
+                  }
+                ],
+                "segmentId": "s005-m07"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "manufacturer"
+                },
+                "id": "s005-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "제조업체"
+                },
+                "meaning": "제품을 만드는 기업",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s005-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "millionaire households"
+                },
+                "id": "s005-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "백만장자 가구"
+                },
+                "meaning": "백만장자가 속한 가구",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s005-m03"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "assets"
+                },
+                "id": "s005-m04-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "자산"
+                },
+                "meaning": "경제적 가치가 있는 재산",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s005-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s005-a",
+                  "text": "For instance, with its new product range,"
+                },
+                {
+                  "id": "s005-b",
+                  "text": "a high-end mobile phone manufacturer is aiming at the 3% of millionaire households"
+                },
+                {
+                  "id": "s005-c",
+                  "text": "with assets of more than $2.5 million;"
+                },
+                {
+                  "id": "s005-d",
+                  "text": "those are customers who are ready to accept the price range the manufacturer has set."
+                }
+              ],
+              "displayOrder": [
+                "s005-b",
+                "s005-d",
+                "s005-a",
+                "s005-c"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s005-choice-01",
+                  "options": [
+                    "with assets",
+                    "without assets"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "with assets"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s005-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is aiming at the 3% of millionaire households"
+                  }
+                },
+                {
+                  "id": "s005-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "the manufacturer has set"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s005-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "250만 달러가 넘는 자산"
+                  }
+                },
+                {
+                  "id": "s005-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "제조업체가 정한 가격대"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "aim",
+                  "id": "s005-verb-01",
+                  "lemma": "aim",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is aiming"
+                  }
+                },
+                {
+                  "cue": "be ready",
+                  "id": "s005-verb-02",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are ready"
+                  }
+                },
+                {
+                  "cue": "set",
+                  "id": "s005-verb-03",
+                  "lemma": "set",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "has set"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "for instance",
+                "high-end mobile phone manufacturer",
+                "aim at",
+                "millionaire households",
+                "assets",
+                "accept the price range"
+              ]
+            }
+          },
+          "id": "s005",
+          "meaningSegments": [
+            {
+              "en": "For instance, with its new product range,",
+              "id": "s005-m01",
+              "ko": "예를 들어 새 제품군을 내놓으며,"
+            },
+            {
+              "en": "a high-end mobile phone manufacturer is aiming",
+              "id": "s005-m02",
+              "ko": "한 고급 휴대전화 제조업체는 겨냥하고 있다"
+            },
+            {
+              "en": "at the 3% of millionaire households",
+              "id": "s005-m03",
+              "ko": "백만장자 가구 중 3퍼센트를"
+            },
+            {
+              "en": "with assets of more than $2.5 million;",
+              "id": "s005-m04",
+              "ko": "250만 달러가 넘는 자산을 보유한;"
+            },
+            {
+              "en": "those are customers",
+              "id": "s005-m05",
+              "ko": "그들은 고객들이다"
+            },
+            {
+              "en": "who are ready to accept the price range",
+              "id": "s005-m06",
+              "ko": "그 가격대를 받아들일 준비가 된"
+            },
+            {
+              "en": "the manufacturer has set.",
+              "id": "s005-m07",
+              "ko": "제조업체가 정한."
+            }
+          ],
+          "no": 5,
+          "source": "For instance, with its new product range, a high-end mobile phone manufacturer is aiming at the 3% of millionaire households with assets of more than $2.5 million; those are customers who are ready to accept the price range the manufacturer has set.",
+          "translation": "예를 들어 한 고급 휴대전화 제조업체는 새 제품군을 내놓으며 250만 달러가 넘는 자산을 보유한 백만장자 가구 중 3퍼센트를 겨냥하고 있는데, 그들은 제조업체가 정한 가격대를 받아들일 준비가 된 고객들이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are not interested"
+                  }
+                ],
+                "id": "s006-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "관심이 없다"
+                  }
+                ],
+                "segmentId": "s006-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are chasing"
+                  }
+                ],
+                "id": "s006-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "쫓고 있기 때문이다"
+                  }
+                ],
+                "segmentId": "s006-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "competitors"
+                },
+                "id": "s006-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "경쟁자"
+                },
+                "meaning": "같은 시장에서 경쟁하는 기업들",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s006-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "whatsoever"
+                },
+                "id": "s006-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "전혀"
+                },
+                "meaning": "조금도",
+                "reasons": [
+                  "structure-critical"
+                ],
+                "segmentId": "s006-m03"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "categories"
+                },
+                "id": "s006-m05-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "범주"
+                },
+                "meaning": "공통 특성으로 나눈 부류",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s006-m05"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s006-a",
+                  "text": "At that stage, the competitors are not interested"
+                },
+                {
+                  "id": "s006-b",
+                  "text": "in lowering their price significantly whatsoever,"
+                },
+                {
+                  "id": "s006-c",
+                  "text": "because they are chasing the same categories of customers,"
+                },
+                {
+                  "id": "s006-d",
+                  "text": "not sensitive to price."
+                }
+              ],
+              "displayOrder": [
+                "s006-c",
+                "s006-a",
+                "s006-d",
+                "s006-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s006-choice-01",
+                  "options": [
+                    "not interested",
+                    "eager"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "not interested"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s006-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are not interested in lowering their price"
+                  }
+                },
+                {
+                  "id": "s006-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "the same categories of customers"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s006-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "가격을 크게 낮추는 데 전혀 관심이 없는데"
+                  }
+                },
+                {
+                  "id": "s006-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "동일한 범주의 고객들"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be interested",
+                  "id": "s006-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are not interested"
+                  }
+                },
+                {
+                  "cue": "chase",
+                  "id": "s006-verb-02",
+                  "lemma": "chase",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are chasing"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "at that stage",
+                "competitors",
+                "not interested in",
+                "lower price",
+                "chase",
+                "same categories of customers"
+              ]
+            }
+          },
+          "id": "s006",
+          "meaningSegments": [
+            {
+              "en": "At that stage,",
+              "id": "s006-m01",
+              "ko": "그 단계에서는,"
+            },
+            {
+              "en": "the competitors are not interested",
+              "id": "s006-m02",
+              "ko": "경쟁자들은 관심이 없다"
+            },
+            {
+              "en": "in lowering their price significantly whatsoever,",
+              "id": "s006-m03",
+              "ko": "가격을 크게 낮추는 데 전혀,"
+            },
+            {
+              "en": "because they are chasing",
+              "id": "s006-m04",
+              "ko": "왜냐하면 그들이 쫓고 있기 때문이다"
+            },
+            {
+              "en": "the same categories of customers,",
+              "id": "s006-m05",
+              "ko": "동일한 범주의 고객들을,"
+            },
+            {
+              "en": "not sensitive to price.",
+              "id": "s006-m06",
+              "ko": "가격에 민감하지 않은."
+            }
+          ],
+          "no": 6,
+          "source": "At that stage, the competitors are not interested in lowering their price significantly whatsoever, because they are chasing the same categories of customers, not sensitive to price.",
+          "translation": "그 단계에서는 경쟁자들이 가격을 크게 낮추는 데 전혀 관심이 없는데, 이는 그들이 가격에 민감하지 않은 동일한 범주의 고객들을 쫓고 있기 때문이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is often perceived"
+                  }
+                ],
+                "id": "s007-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "흔히 인식된다"
+                  }
+                ],
+                "segmentId": "s007-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "reinforces"
+                  }
+                ],
+                "id": "s007-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "강화한다"
+                  }
+                ],
+                "segmentId": "s007-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "perceived"
+                },
+                "id": "s007-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "인식된다"
+                },
+                "meaning": "어떤 의미로 받아들여지다",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s007-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "reinforces"
+                },
+                "id": "s007-m04-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "강화한다"
+                },
+                "meaning": "더 강하게 만든다",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s007-m04"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "confidence"
+                },
+                "id": "s007-m05-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "신뢰"
+                },
+                "meaning": "믿는 마음",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s007-m05"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s007-a",
+                  "text": "Furthermore, the high price of these products"
+                },
+                {
+                  "id": "s007-b",
+                  "text": "is often perceived as a sign of quality"
+                },
+                {
+                  "id": "s007-c",
+                  "text": "and reinforces a customer’s confidence in the company."
+                }
+              ],
+              "displayOrder": [
+                "s007-b",
+                "s007-c",
+                "s007-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s007-choice-01",
+                  "options": [
+                    "reinforces",
+                    "undermines"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "reinforces"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s007-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is often perceived as a sign of quality"
+                  }
+                },
+                {
+                  "id": "s007-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "reinforces a customer’s confidence"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s007-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "품질의 표시로 인식되며"
+                  }
+                },
+                {
+                  "id": "s007-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "고객의 신뢰를 강화한다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "perceive",
+                  "id": "s007-verb-01",
+                  "lemma": "perceive",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is often perceived"
+                  }
+                },
+                {
+                  "cue": "reinforce",
+                  "id": "s007-verb-02",
+                  "lemma": "reinforce",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "reinforces"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "furthermore",
+                "high price",
+                "be perceived as",
+                "sign of quality",
+                "reinforce",
+                "customer’s confidence"
+              ]
+            }
+          },
+          "id": "s007",
+          "meaningSegments": [
+            {
+              "en": "Furthermore,",
+              "id": "s007-m01",
+              "ko": "더욱이,"
+            },
+            {
+              "en": "the high price of these products is often perceived",
+              "id": "s007-m02",
+              "ko": "이러한 제품의 높은 가격은 흔히 인식된다"
+            },
+            {
+              "en": "as a sign of quality",
+              "id": "s007-m03",
+              "ko": "품질의 표시로"
+            },
+            {
+              "en": "and reinforces",
+              "id": "s007-m04",
+              "ko": "그리고 강화한다"
+            },
+            {
+              "en": "a customer’s confidence in the company.",
+              "id": "s007-m05",
+              "ko": "그 회사에 대한 고객의 신뢰를."
+            }
+          ],
+          "no": 7,
+          "source": "Furthermore, the high price of these products is often perceived as a sign of quality and reinforces a customer’s confidence in the company.",
+          "translation": "더욱이 이러한 제품의 높은 가격은 흔히 품질의 표시로 인식되며 그 회사에 대한 고객의 신뢰를 강화한다."
+        }
+      ],
+      "sourceStatus": {
+        "notes": "원본 PDF 5쪽의 30번 본문과 밑줄 선택지를 고해상도로 렌더링해 전사했습니다. 문맥상 부적절한 ③ more sensitive는 학습용 canonical 본문에서 정답형 less sensitive로 정규화했습니다.",
+        "references": [
+          "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+        ],
+        "sentenceCount": 7,
+        "sourceType": "pdf",
+        "status": "confirmed",
+        "verifiedAt": "2026-09-03T15:05:00+09:00"
+      },
+      "specVersion": "1.0.6",
+      "updateState": {
+        "appliedUpdates": [
+          {
+            "appliedAt": "2026-09-03T15:10:00+09:00",
+            "fromContentVersion": "0.0.0",
+            "id": "U-20260903-016",
+            "report": "reports/updates/U-20260903-016.md",
+            "scope": "selected",
+            "toContentVersion": "1.0.0"
+          }
+        ],
+        "defaultScope": "new-only"
+      },
+      "workbookId": "2026-june-grade2-q30"
+    },
+    "contentVersion": "1.0.0",
+    "files": [
+      {
+        "path": "workbooks/2026-june-grade2-q30/content.json",
+        "sha256": "4dffa6eabf880f2bf8514c1e2a77d6a0f1bd0a9649647af57e36658afc6b8d20",
+        "size": 48441
+      }
+    ],
+    "workbookId": "2026-june-grade2-q30"
+  },
+  "spec": {
+    "files": [
+      {
+        "path": "config/versions.json",
+        "sha256": "ca932853263987cc7d3cdbab03c49e6e931ff9ea8f0387ebb438c4a513a9f872",
+        "size": 1687
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "sha256": "aadb3fe161b100e3a68ecb42fab51775e9738153a04278a53b27e7172f8d8f69",
+        "size": 17021
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+        "size": 8058
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "schemaFiles": [
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "semanticRubricFile": {
+      "path": "docs/semantic-rubric.md",
+      "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+      "size": 8058
+    },
+    "semanticRubricVersion": "1.0.0",
+    "spec": {
+      "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "answerEditionContract": {
+        "answerFillClassMayAutoColor": false,
+        "choicePromptVisibleInAnswer": true,
+        "redAllowedOnlyOnSolutionValues": true,
+        "sameStageAndExerciseDomAsStudent": true,
+        "solutionClass": "solution-value",
+        "solutionColor": "#D71920",
+        "solutionInsertion": "fill-the-same-solution-slot",
+        "studentDerivation": "render answer first, lock every solution slot and writing response geometry, then remove solution values only",
+        "studentPayloadMayContainSolutions": false
+      },
+      "canonicalSchema": "schemas/canonical-workbook.schema.json",
+      "canonicalText": {
+        "baseTextOverride": {
+          "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+          "defaultStorage": "omit-baseText-and-derive-from-canonical",
+          "redundantDefaultCopy": "forbidden",
+          "requiredCompanionField": "overrideReason"
+        },
+        "displayDefault": "source",
+        "exerciseBaseTextDefaults": {
+          "choice": "display-or-source",
+          "enBlank": "display-or-source",
+          "koBlank": "translation",
+          "verb": "display-or-source"
+        },
+        "markup": "forbidden",
+        "reconstruction": {
+          "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+          "meaningSegments": "join meaningSegments[].en with one ASCII space",
+          "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+        },
+        "sourceWhitespace": "single-space-between-tokens",
+        "targetAnchor": {
+          "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다.",
+          "shape": {
+            "occurrence": "one-based occurrence in the applicable base text",
+            "text": "exact substring"
+          }
+        }
+      },
+      "contentOwnership": {
+        "authorable": [
+          "metadata",
+          "sourceStatus",
+          "sentences[].source",
+          "sentences[].display",
+          "sentences[].translation",
+          "sentences[].meaningSegments",
+          "sentences[].annotations",
+          "sentences[].exercises",
+          "passageActivities.correction",
+          "passageActivities.paragraphOrder",
+          "updateState"
+        ],
+        "derived": [
+          "stage number, title, instruction and renderer mode",
+          "item and unit numbers",
+          "part ranges and page boundaries",
+          "student and answer projections",
+          "blank, predicate, vocabulary and solution markup",
+          "answer-line height and layout classes",
+          "page count, footer number and output filenames"
+        ],
+        "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+      },
+      "logicalStages": [
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].meaningSegments",
+            "sentences[].annotations.predicates",
+            "sentences[].annotations.vocabulary"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "passage-practice",
+          "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean-inline-hint"
+            ],
+            "vocabularyColoring": true
+          },
+          "number": 1,
+          "pagination": {
+            "hardMaximum": 13,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 12,
+            "unit": "sentence"
+          },
+          "rendererMode": "meaning",
+          "scope": "sentence",
+          "title": "지문 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].exercises.koBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "korean-cloze",
+          "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 2,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (우리말)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.enBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "english-cloze",
+          "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 3,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (영문)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].translation"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "translation-practice",
+          "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 4,
+          "pagination": {
+            "hardMaximum": 11,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 10,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "해석 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.verb"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "verb-form",
+          "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 5,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "동사형 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.choice"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "grammar-vocabulary-choice",
+          "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 6,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "어법·어휘 고르기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.correction"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "correction",
+          "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+          "layout": {
+            "fieldOrder": [
+              "passage",
+              "correction-rows"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 7,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "correction",
+          "scope": "passage-activity",
+          "title": "어색한 곳 찾기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.arrange"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "sentence-order",
+          "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+          "layout": {
+            "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+            "arrangementSlots": "forbidden",
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 8,
+          "pagination": {
+            "hardMaximum": 6,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 6,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "순서 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.paragraphOrder"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "paragraph-order",
+          "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "fixed-intro",
+              "shuffled-blocks",
+              "fixed-outro",
+              "sequence-slots"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 9,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "paragraph-order",
+          "scope": "passage-activity",
+          "title": "문단 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.writing",
+            "sentences[].display|source"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "composition",
+          "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "studentEnglishSkeleton": "forbidden",
+            "vocabularyColoring": false
+          },
+          "number": 10,
+          "pagination": {
+            "hardMaximum": 8,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 8,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "영작 연습하기"
+        }
+      ],
+      "paginationContract": {
+        "continuationPageMinimumItems": 2,
+        "forbidden": [
+          "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+          "legacy 흐름 or 뜻 작성 columns",
+          "content crossing the page footer",
+          "content from one page overlapping the next page",
+          "clipped text",
+          "a singleton continuation page that can be avoided within the stage hard maximum",
+          "renumbering a new part from one"
+        ],
+        "layoutPreference": "vertical",
+        "numbering": "continuous-original-sentence-number",
+        "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+        "partLabel": "inclusive-original-sentence-number-range",
+        "readingLayout": "allowed-only-after-explicit-user-request",
+        "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+        "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+        "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+        "visualFitOverridesTargetCount": true
+      },
+      "principles": {
+        "canonicalDataContainsHtml": false,
+        "logicalStageCount": 10,
+        "publishOnlyAfterAllChecksPass": true,
+        "singleContentSource": true,
+        "studentAndAnswerShareExerciseStructure": true,
+        "studentProjectionSource": "answer-edition-after-browser-measured-all-solution-layouts",
+        "uncertainSourcePolicy": "stop-and-request-clearer-source"
+      },
+      "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+      "releaseContract": {
+        "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+        "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+        "filenames": [
+          "문제.html",
+          "문제.pdf",
+          "해설.html",
+          "해설.pdf"
+        ],
+        "finalHtmlDependencies": "self-contained",
+        "outputRoot": "outputs",
+        "previewFixture": "one-shared-canonical-fixture",
+        "publish": "atomic-after-all-gates-pass",
+        "stagingRoot": ".build/releases",
+        "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture"
+      },
+      "semanticRubric": "docs/semantic-rubric.md",
+      "specVersion": "1.0.6",
+      "updates": {
+        "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+        "allowedScopes": [
+          "new-only",
+          "all",
+          "selected",
+          "manual-review"
+        ],
+        "changelogPath": "CHANGELOG.md",
+        "defaultScope": "new-only",
+        "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+        "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+        "reportRequired": true,
+        "requiredImpactDimensions": [
+          "canonical fields",
+          "stage numbers",
+          "sentence or activity ids",
+          "student and answer editions",
+          "page count and part ranges",
+          "component versions"
+        ],
+        "requiredReportSections": [
+          "요약",
+          "요청 내용",
+          "직접 변경",
+          "파생 변경",
+          "영향 없음",
+          "파일 변경",
+          "출력 변화",
+          "검증 결과",
+          "호환성",
+          "버전"
+        ],
+        "versionBump": {
+          "backward-compatible field or stage capability": "minor",
+          "breaking schema or canonical semantics": "major",
+          "bug fix, validation strengthening or copy correction": "patch"
+        }
+      },
+      "validationGates": {
+        "canonical": [
+          "JSON Schema passes",
+          "sourceStatus.status is confirmed",
+          "sentence ids and numbers are unique, consecutive and aligned",
+          "meaning segment English joined with one space equals display or source",
+          "every meaning segment has one-to-one English and Korean text",
+          "all target anchors resolve exactly at their declared occurrence",
+          "choice options contain the correct target exactly once",
+          "arrange chunks in canonical order reconstruct display or source exactly",
+          "arrange displayOrder contains every chunk id exactly once",
+          "paragraph displayOrder contains every block id exactly once",
+          "correction targets restore their base excerpt exactly",
+          "vocabulary and predicate annotations resolve inside their meaning segment"
+        ],
+        "compiled": [
+          "exactly ten logical stages appear in fixed order",
+          "sentence stages contain exactly one item for every source sentence",
+          "all part ranges are complete, consecutive and match item numbers",
+          "student and answer exercise structures are identical",
+          "every non-writing solution-slot position, width, and height is copied from the browser-measured answer edition before solution text is removed",
+          "student response-line positions, widths, and heights are copied from the browser-measured answer edition before solution text is removed",
+          "student writing areas do not draw replacement guide lines after the answer text is removed",
+          "student edition exposes no solution values",
+          "every bank, target and slot cardinality is internally consistent",
+          "stage 10 student edition contains no English skeleton"
+        ],
+        "release": [
+          "problem HTML exists",
+          "problem PDF exists",
+          "answer HTML exists",
+          "answer PDF exists",
+          "build manifest records all component versions and applied updates",
+          "update report exists when an update id is applied"
+        ],
+        "rendered": [
+          "document fonts and images are ready",
+          "browser console and page errors are empty",
+          "data-render-validation is exactly ok",
+          "no unresolved template placeholder remains",
+          "no preview fixture data remains in final HTML",
+          "no page or footer overflow exists under print media",
+          "answer red is present only on solution-value nodes",
+          "every student and answer non-writing solution-slot has matching page-relative left, top, width, and height within 0.75px",
+          "every student and answer writing response box and answer-line trace matches within 0.75px",
+          "representative and risk pages pass visual review"
+        ]
+      },
+      "vocabularyContract": {
+        "allowedStageNumbers": [
+          1
+        ],
+        "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+        "maximumPerSentence": 3,
+        "redSlotForbidden": true,
+        "rendererClasses": {
+          "english": "vocab vocab-{slot} gloss",
+          "korean": "vocab vocab-{slot}"
+        },
+        "sameEnglishAndKoreanSlot": true,
+        "slots": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "specVersion": "1.0.6"
+  },
+  "template": {
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+        "size": 29359
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "sha256": "25a21d18af7ee1100e7a4d0023af1175140e82dd2cce2a246d0fcd5ece2411ee",
+        "size": 42558
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+        "size": 1212
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "sha256": "ceab51f4246462f507a1de7c6aea850fb577113c37e74b4d98a645f23744a330",
+        "size": 15185
+      }
+    ],
+    "rendererContract": "shared-dom-explicit-targets-fail-closed",
+    "templateVersion": "1.0.4"
+  }
+}

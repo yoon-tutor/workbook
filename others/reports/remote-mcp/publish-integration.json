@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "scope": "temporary isolated workspace only",
+  "files": [
+    "문제.html",
+    "문제.pdf",
+    "해설.html",
+    "해설.pdf"
+  ],
+  "copiedBytesIdentical": true,
+  "reportAndIndexCreated": true,
+  "userOutputsChanged": false
+}

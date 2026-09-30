@@ -1,0 +1,41 @@
+{
+  "$schema": "../schemas/update.schema.json",
+  "id": "U-20260828-014",
+  "title": "새 지문 통합 authoring packet 경로",
+  "date": "2026-08-28",
+  "summary": "기존 콘텐츠 판단·canonical schema·compiler·릴리스 QA를 그대로 유지하면서, 새 지문의 의미 콘텐츠를 한 번의 packet으로 작성하고 기계적 ID와 target wrapper만 결정론적으로 확장합니다.",
+  "category": "authoring-workflow",
+  "applyTo": "new-only",
+  "affectedStages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "request": "문서 폴더에 전체 백업을 만든 뒤, 현재 콘텐츠 품질은 바꾸지 않고 더랩포유와 유사한 새 지문 통합 생성 경로를 Codex 안에 추가합니다.",
+  "directChanges": {
+    "files": [
+      "AGENTS.md",
+      "config/canonical-content-baseline.json",
+      "config/versions.json",
+      "docs/authoring-pipeline.md",
+      "scripts/authoring_packet.py",
+      "tests/test_authoring_packet.py",
+      "updates/U-20260828-014.json",
+      "workbook_authoring/__init__.py",
+      "workbook_authoring/packet.py"
+    ]
+  },
+  "verification": [
+    {
+      "name": "canonical-content-lock",
+      "status": "pass",
+      "details": "기존 모든 canonical 파일의 SHA-256 기준값을 저장하고 테스트에서 무단 변경을 차단합니다."
+    },
+    {
+      "name": "semantic-round-trip",
+      "status": "pass",
+      "details": "현재 최신 canonical을 packet으로 축약한 뒤 확장했을 때 JSON 객체와 학생용·해설용 compile IR이 모두 동일합니다."
+    },
+    {
+      "name": "ambiguous-target-fail-closed",
+      "status": "pass",
+      "details": "반복 target의 occurrence가 생략되면 위치를 추측하지 않고 확장을 차단합니다."
+    }
+  ]
+}

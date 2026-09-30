@@ -1,0 +1,1762 @@
+{
+  "$schema": "../../schemas/canonical-workbook.schema.json",
+  "schemaVersion": "1.0.0",
+  "specVersion": "1.0.6",
+  "contentVersion": "1.0.0",
+  "workbookId": "2026-june-grade2-q30",
+  "metadata": {
+    "title": "2026학년도 6월 고2 30번 10단계 워크북",
+    "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 30번",
+    "kicker": "High School Reading",
+    "grade": "고등학교 2학년",
+    "topic": "혁신적인 첨단 기술 제품의 낮은 가격 탄력성과 초기 고가 전략",
+    "sourceLanguage": "en",
+    "targetLanguage": "ko"
+  },
+  "sourceStatus": {
+    "status": "confirmed",
+    "sourceType": "pdf",
+    "references": [
+      "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+    ],
+    "sentenceCount": 7,
+    "verifiedAt": "2026-09-03T15:05:00+09:00",
+    "notes": "원본 PDF 5쪽의 30번 본문과 밑줄 선택지를 고해상도로 렌더링해 전사했습니다. 문맥상 부적절한 ③ more sensitive는 학습용 canonical 본문에서 정답형 less sensitive로 정규화했습니다."
+  },
+  "updateState": {
+    "defaultScope": "new-only",
+    "appliedUpdates": [
+      {
+        "id": "U-20260903-016",
+        "scope": "selected",
+        "fromContentVersion": "0.0.0",
+        "toContentVersion": "1.0.0",
+        "appliedAt": "2026-09-03T15:10:00+09:00",
+        "report": "reports/updates/U-20260903-016.md"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "source": "Usually, innovative high-tech products have low price elasticity.",
+      "translation": "일반적으로 혁신적인 첨단 기술 제품은 낮은 가격 탄력성을 가진다.",
+      "meaningSegments": [
+        {
+          "en": "Usually,",
+          "ko": "일반적으로,",
+          "id": "s001-m01"
+        },
+        {
+          "en": "innovative high-tech products have",
+          "ko": "혁신적인 첨단 기술 제품은 가진다",
+          "id": "s001-m02"
+        },
+        {
+          "en": "low price elasticity.",
+          "ko": "낮은 가격 탄력성을.",
+          "id": "s001-m03"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "have",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "가진다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m02-p01",
+            "segmentId": "s001-m02"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "innovative",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "혁신적인",
+              "occurrence": 1
+            },
+            "meaning": "새로운 발상이나 방법을 도입한",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s001-m02-v01",
+            "segmentId": "s001-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "elasticity",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "탄력성",
+              "occurrence": 1
+            },
+            "meaning": "가격 변화에 수요가 반응하는 정도",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s001-m03-v02",
+            "segmentId": "s001-m03",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s001-ko-01",
+              "target": {
+                "text": "혁신적인 첨단 기술 제품",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-ko-02",
+              "target": {
+                "text": "낮은 가격 탄력성",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s001-en-01",
+              "target": {
+                "text": "innovative high-tech products",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-en-02",
+              "target": {
+                "text": "low price elasticity",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "have",
+                "occurrence": 1
+              },
+              "cue": "have",
+              "lemma": "have",
+              "id": "s001-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "innovative",
+                "occurrence": 1
+              },
+              "options": [
+                "innovative",
+                "conventional"
+              ],
+              "id": "s001-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s001-a",
+              "text": "Usually, innovative high-tech products have"
+            },
+            {
+              "id": "s001-b",
+              "text": "low price elasticity."
+            }
+          ],
+          "displayOrder": [
+            "s001-b",
+            "s001-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "usually",
+            "innovative high-tech products",
+            "have",
+            "low price elasticity"
+          ]
+        }
+      },
+      "id": "s001",
+      "no": 1
+    },
+    {
+      "source": "This means that high variation in price, an increase as well as a decrease, does not significantly modify demand.",
+      "translation": "이는 가격의 큰 변동, 즉 상승뿐만 아니라 하락도 수요를 크게 변화시키지 않는다는 뜻이다.",
+      "meaningSegments": [
+        {
+          "en": "This means",
+          "ko": "이는 뜻한다",
+          "id": "s002-m01"
+        },
+        {
+          "en": "that high variation in price,",
+          "ko": "가격의 큰 변동이,",
+          "id": "s002-m02"
+        },
+        {
+          "en": "an increase as well as a decrease,",
+          "ko": "상승뿐만 아니라 하락도,",
+          "id": "s002-m03"
+        },
+        {
+          "en": "does not significantly modify demand.",
+          "ko": "수요를 크게 변화시키지 않는다는 것을.",
+          "id": "s002-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "means",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "뜻한다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m01-p01",
+            "segmentId": "s002-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "does not significantly modify",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "변화시키지 않는다는",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m04-p01",
+            "segmentId": "s002-m04"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "variation",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "변동",
+              "occurrence": 1
+            },
+            "meaning": "정도나 값의 변화",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s002-m02-v01",
+            "segmentId": "s002-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "modify",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "변화시키",
+              "occurrence": 1
+            },
+            "meaning": "일부를 바꾸다",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s002-m04-v02",
+            "segmentId": "s002-m04",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s002-ko-01",
+              "target": {
+                "text": "상승뿐만 아니라 하락도",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s002-ko-02",
+              "target": {
+                "text": "수요를 크게 변화시키지 않는다는",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s002-en-01",
+              "target": {
+                "text": "an increase as well as a decrease",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s002-en-02",
+              "target": {
+                "text": "does not significantly modify demand",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "means",
+                "occurrence": 1
+              },
+              "cue": "mean",
+              "lemma": "mean",
+              "id": "s002-verb-01"
+            },
+            {
+              "target": {
+                "text": "does not significantly modify",
+                "occurrence": 1
+              },
+              "cue": "modify",
+              "lemma": "modify",
+              "id": "s002-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "does not significantly modify",
+                "occurrence": 1
+              },
+              "options": [
+                "does not significantly modify",
+                "significantly modifies"
+              ],
+              "id": "s002-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s002-a",
+              "text": "This means that high variation in price,"
+            },
+            {
+              "id": "s002-b",
+              "text": "an increase as well as a decrease,"
+            },
+            {
+              "id": "s002-c",
+              "text": "does not significantly modify demand."
+            }
+          ],
+          "displayOrder": [
+            "s002-b",
+            "s002-c",
+            "s002-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "mean",
+            "high variation in price",
+            "increase",
+            "decrease",
+            "not significantly modify",
+            "demand"
+          ]
+        }
+      },
+      "id": "s002",
+      "no": 2
+    },
+    {
+      "source": "These high-tech products have few substitutes, meaning that the costs to switch to another product are high.",
+      "translation": "이러한 첨단 기술 제품은 대체재가 거의 없으며, 이는 다른 제품으로 전환하는 비용이 높다는 것을 의미한다.",
+      "meaningSegments": [
+        {
+          "en": "These high-tech products have few substitutes,",
+          "ko": "이러한 첨단 기술 제품은 대체재가 거의 없으며,",
+          "id": "s003-m01"
+        },
+        {
+          "en": "meaning",
+          "ko": "의미한다",
+          "id": "s003-m02"
+        },
+        {
+          "en": "that the costs to switch to another product",
+          "ko": "다른 제품으로 전환하는 비용이",
+          "id": "s003-m03"
+        },
+        {
+          "en": "are high.",
+          "ko": "높다는 것을.",
+          "id": "s003-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "have",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "없으며",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m01-p01",
+            "segmentId": "s003-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "are",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "높다는",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m04-p01",
+            "segmentId": "s003-m04"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "substitutes",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "대체재",
+              "occurrence": 1
+            },
+            "meaning": "대신 선택할 수 있는 상품",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s003-m01-v01",
+            "segmentId": "s003-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "switch",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "전환하는",
+              "occurrence": 1
+            },
+            "meaning": "다른 것으로 바꾸다",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s003-m03-v02",
+            "segmentId": "s003-m03",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s003-ko-01",
+              "target": {
+                "text": "대체재가 거의 없으며",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s003-ko-02",
+              "target": {
+                "text": "다른 제품으로 전환하는 비용",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s003-en-01",
+              "target": {
+                "text": "few substitutes",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s003-en-02",
+              "target": {
+                "text": "the costs to switch to another product",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "have",
+                "occurrence": 1
+              },
+              "cue": "have",
+              "lemma": "have",
+              "id": "s003-verb-01"
+            },
+            {
+              "target": {
+                "text": "are",
+                "occurrence": 1
+              },
+              "cue": "be",
+              "lemma": "be",
+              "id": "s003-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "few substitutes",
+                "occurrence": 1
+              },
+              "options": [
+                "few substitutes",
+                "many substitutes"
+              ],
+              "id": "s003-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s003-a",
+              "text": "These high-tech products have few substitutes,"
+            },
+            {
+              "id": "s003-b",
+              "text": "meaning that the costs to switch to another product"
+            },
+            {
+              "id": "s003-c",
+              "text": "are high."
+            }
+          ],
+          "displayOrder": [
+            "s003-c",
+            "s003-a",
+            "s003-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "high-tech products",
+            "few substitutes",
+            "costs",
+            "switch",
+            "another product",
+            "high"
+          ]
+        }
+      },
+      "id": "s003",
+      "no": 3
+    },
+    {
+      "source": "Additionally, at the first stage of the technology, buyers—either innovators or forerunners—are less sensitive to price than to additional performance; they often have deep pockets or are ready to spend a lot for a new innovative and outstanding product.",
+      "translation": "또한 그 기술의 초기 단계에서는 구매자들, 즉 혁신자나 선도자들은 추가 성능보다 가격에 덜 민감하며, 흔히 자금이 풍부하거나 새롭고 혁신적이며 뛰어난 제품에 많은 돈을 쓸 준비가 되어 있다.",
+      "meaningSegments": [
+        {
+          "en": "Additionally, at the first stage of the technology,",
+          "ko": "또한 그 기술의 초기 단계에서는,",
+          "id": "s004-m01"
+        },
+        {
+          "en": "buyers—either innovators or forerunners—are less sensitive to price",
+          "ko": "구매자들—혁신자나 선도자들은—가격에 덜 민감하다",
+          "id": "s004-m02"
+        },
+        {
+          "en": "than to additional performance;",
+          "ko": "추가 성능보다;",
+          "id": "s004-m03"
+        },
+        {
+          "en": "they often have deep pockets",
+          "ko": "그들은 흔히 자금이 풍부하거나",
+          "id": "s004-m04"
+        },
+        {
+          "en": "or are ready to spend a lot",
+          "ko": "또는 많은 돈을 쓸 준비가 되어 있다",
+          "id": "s004-m05"
+        },
+        {
+          "en": "for a new innovative and outstanding product.",
+          "ko": "새롭고 혁신적이며 뛰어난 제품에.",
+          "id": "s004-m06"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "are",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "민감하다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m02-p01",
+            "segmentId": "s004-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "have",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "풍부하거나",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m04-p01",
+            "segmentId": "s004-m04"
+          },
+          {
+            "en": [
+              {
+                "text": "are ready",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "준비가 되어 있다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m05-p01",
+            "segmentId": "s004-m05"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "forerunners",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "선도자",
+              "occurrence": 1
+            },
+            "meaning": "남보다 앞서 새로운 것을 받아들이는 사람",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s004-m02-v01",
+            "segmentId": "s004-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "sensitive",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "민감하다",
+              "occurrence": 1
+            },
+            "meaning": "변화에 크게 영향을 받는",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s004-m02-v02",
+            "segmentId": "s004-m02",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "outstanding",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "뛰어난",
+              "occurrence": 1
+            },
+            "meaning": "매우 훌륭한",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s004-m06-v03",
+            "segmentId": "s004-m06",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s004-ko-01",
+              "target": {
+                "text": "추가 성능보다 가격에 덜 민감하며",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-ko-02",
+              "target": {
+                "text": "자금이 풍부하거나",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s004-en-01",
+              "target": {
+                "text": "less sensitive to price than to additional performance",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-en-02",
+              "target": {
+                "text": "have deep pockets",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "are less sensitive",
+                "occurrence": 1
+              },
+              "cue": "be sensitive",
+              "lemma": "be",
+              "id": "s004-verb-01"
+            },
+            {
+              "target": {
+                "text": "have",
+                "occurrence": 1
+              },
+              "cue": "have",
+              "lemma": "have",
+              "id": "s004-verb-02"
+            },
+            {
+              "target": {
+                "text": "are ready",
+                "occurrence": 1
+              },
+              "cue": "be ready",
+              "lemma": "be",
+              "id": "s004-verb-03"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "less sensitive",
+                "occurrence": 1
+              },
+              "options": [
+                "less sensitive",
+                "more sensitive"
+              ],
+              "id": "s004-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s004-a",
+              "text": "Additionally, at the first stage of the technology,"
+            },
+            {
+              "id": "s004-b",
+              "text": "buyers—either innovators or forerunners—are less sensitive to price than to additional performance;"
+            },
+            {
+              "id": "s004-c",
+              "text": "they often have deep pockets or are ready to spend a lot"
+            },
+            {
+              "id": "s004-d",
+              "text": "for a new innovative and outstanding product."
+            }
+          ],
+          "displayOrder": [
+            "s004-c",
+            "s004-a",
+            "s004-d",
+            "s004-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "first stage",
+            "innovators or forerunners",
+            "less sensitive to price",
+            "additional performance",
+            "deep pockets",
+            "be ready to spend"
+          ]
+        }
+      },
+      "id": "s004",
+      "no": 4
+    },
+    {
+      "source": "For instance, with its new product range, a high-end mobile phone manufacturer is aiming at the 3% of millionaire households with assets of more than $2.5 million; those are customers who are ready to accept the price range the manufacturer has set.",
+      "translation": "예를 들어 한 고급 휴대전화 제조업체는 새 제품군을 내놓으며 250만 달러가 넘는 자산을 보유한 백만장자 가구 중 3퍼센트를 겨냥하고 있는데, 그들은 제조업체가 정한 가격대를 받아들일 준비가 된 고객들이다.",
+      "meaningSegments": [
+        {
+          "en": "For instance, with its new product range,",
+          "ko": "예를 들어 새 제품군을 내놓으며,",
+          "id": "s005-m01"
+        },
+        {
+          "en": "a high-end mobile phone manufacturer is aiming",
+          "ko": "한 고급 휴대전화 제조업체는 겨냥하고 있다",
+          "id": "s005-m02"
+        },
+        {
+          "en": "at the 3% of millionaire households",
+          "ko": "백만장자 가구 중 3퍼센트를",
+          "id": "s005-m03"
+        },
+        {
+          "en": "with assets of more than $2.5 million;",
+          "ko": "250만 달러가 넘는 자산을 보유한;",
+          "id": "s005-m04"
+        },
+        {
+          "en": "those are customers",
+          "ko": "그들은 고객들이다",
+          "id": "s005-m05"
+        },
+        {
+          "en": "who are ready to accept the price range",
+          "ko": "그 가격대를 받아들일 준비가 된",
+          "id": "s005-m06"
+        },
+        {
+          "en": "the manufacturer has set.",
+          "ko": "제조업체가 정한.",
+          "id": "s005-m07"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "is aiming",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "겨냥하고 있다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m02-p01",
+            "segmentId": "s005-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "are",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "고객들이다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m05-p01",
+            "segmentId": "s005-m05"
+          },
+          {
+            "en": [
+              {
+                "text": "are ready",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "준비가 된",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m06-p01",
+            "segmentId": "s005-m06"
+          },
+          {
+            "en": [
+              {
+                "text": "has set",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "정한",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m07-p01",
+            "segmentId": "s005-m07"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "manufacturer",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "제조업체",
+              "occurrence": 1
+            },
+            "meaning": "제품을 만드는 기업",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s005-m02-v01",
+            "segmentId": "s005-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "millionaire households",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "백만장자 가구",
+              "occurrence": 1
+            },
+            "meaning": "백만장자가 속한 가구",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s005-m03-v02",
+            "segmentId": "s005-m03",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "assets",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "자산",
+              "occurrence": 1
+            },
+            "meaning": "경제적 가치가 있는 재산",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s005-m04-v03",
+            "segmentId": "s005-m04",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s005-ko-01",
+              "target": {
+                "text": "250만 달러가 넘는 자산",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-ko-02",
+              "target": {
+                "text": "제조업체가 정한 가격대",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s005-en-01",
+              "target": {
+                "text": "is aiming at the 3% of millionaire households",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-en-02",
+              "target": {
+                "text": "the manufacturer has set",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "is aiming",
+                "occurrence": 1
+              },
+              "cue": "aim",
+              "lemma": "aim",
+              "id": "s005-verb-01"
+            },
+            {
+              "target": {
+                "text": "are ready",
+                "occurrence": 1
+              },
+              "cue": "be ready",
+              "lemma": "be",
+              "id": "s005-verb-02"
+            },
+            {
+              "target": {
+                "text": "has set",
+                "occurrence": 1
+              },
+              "cue": "set",
+              "lemma": "set",
+              "id": "s005-verb-03"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "with assets",
+                "occurrence": 1
+              },
+              "options": [
+                "with assets",
+                "without assets"
+              ],
+              "id": "s005-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s005-a",
+              "text": "For instance, with its new product range,"
+            },
+            {
+              "id": "s005-b",
+              "text": "a high-end mobile phone manufacturer is aiming at the 3% of millionaire households"
+            },
+            {
+              "id": "s005-c",
+              "text": "with assets of more than $2.5 million;"
+            },
+            {
+              "id": "s005-d",
+              "text": "those are customers who are ready to accept the price range the manufacturer has set."
+            }
+          ],
+          "displayOrder": [
+            "s005-b",
+            "s005-d",
+            "s005-a",
+            "s005-c"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "for instance",
+            "high-end mobile phone manufacturer",
+            "aim at",
+            "millionaire households",
+            "assets",
+            "accept the price range"
+          ]
+        }
+      },
+      "id": "s005",
+      "no": 5
+    },
+    {
+      "source": "At that stage, the competitors are not interested in lowering their price significantly whatsoever, because they are chasing the same categories of customers, not sensitive to price.",
+      "translation": "그 단계에서는 경쟁자들이 가격을 크게 낮추는 데 전혀 관심이 없는데, 이는 그들이 가격에 민감하지 않은 동일한 범주의 고객들을 쫓고 있기 때문이다.",
+      "meaningSegments": [
+        {
+          "en": "At that stage,",
+          "ko": "그 단계에서는,",
+          "id": "s006-m01"
+        },
+        {
+          "en": "the competitors are not interested",
+          "ko": "경쟁자들은 관심이 없다",
+          "id": "s006-m02"
+        },
+        {
+          "en": "in lowering their price significantly whatsoever,",
+          "ko": "가격을 크게 낮추는 데 전혀,",
+          "id": "s006-m03"
+        },
+        {
+          "en": "because they are chasing",
+          "ko": "왜냐하면 그들이 쫓고 있기 때문이다",
+          "id": "s006-m04"
+        },
+        {
+          "en": "the same categories of customers,",
+          "ko": "동일한 범주의 고객들을,",
+          "id": "s006-m05"
+        },
+        {
+          "en": "not sensitive to price.",
+          "ko": "가격에 민감하지 않은.",
+          "id": "s006-m06"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "are not interested",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "관심이 없다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s006-m02-p01",
+            "segmentId": "s006-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "are chasing",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "쫓고 있기 때문이다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s006-m04-p01",
+            "segmentId": "s006-m04"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "competitors",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "경쟁자",
+              "occurrence": 1
+            },
+            "meaning": "같은 시장에서 경쟁하는 기업들",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s006-m02-v01",
+            "segmentId": "s006-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "whatsoever",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "전혀",
+              "occurrence": 1
+            },
+            "meaning": "조금도",
+            "reasons": [
+              "structure-critical"
+            ],
+            "id": "s006-m03-v02",
+            "segmentId": "s006-m03",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "categories",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "범주",
+              "occurrence": 1
+            },
+            "meaning": "공통 특성으로 나눈 부류",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s006-m05-v03",
+            "segmentId": "s006-m05",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s006-ko-01",
+              "target": {
+                "text": "가격을 크게 낮추는 데 전혀 관심이 없는데",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s006-ko-02",
+              "target": {
+                "text": "동일한 범주의 고객들",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s006-en-01",
+              "target": {
+                "text": "are not interested in lowering their price",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s006-en-02",
+              "target": {
+                "text": "the same categories of customers",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "are not interested",
+                "occurrence": 1
+              },
+              "cue": "be interested",
+              "lemma": "be",
+              "id": "s006-verb-01"
+            },
+            {
+              "target": {
+                "text": "are chasing",
+                "occurrence": 1
+              },
+              "cue": "chase",
+              "lemma": "chase",
+              "id": "s006-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "not interested",
+                "occurrence": 1
+              },
+              "options": [
+                "not interested",
+                "eager"
+              ],
+              "id": "s006-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s006-a",
+              "text": "At that stage, the competitors are not interested"
+            },
+            {
+              "id": "s006-b",
+              "text": "in lowering their price significantly whatsoever,"
+            },
+            {
+              "id": "s006-c",
+              "text": "because they are chasing the same categories of customers,"
+            },
+            {
+              "id": "s006-d",
+              "text": "not sensitive to price."
+            }
+          ],
+          "displayOrder": [
+            "s006-c",
+            "s006-a",
+            "s006-d",
+            "s006-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "at that stage",
+            "competitors",
+            "not interested in",
+            "lower price",
+            "chase",
+            "same categories of customers"
+          ]
+        }
+      },
+      "id": "s006",
+      "no": 6
+    },
+    {
+      "source": "Furthermore, the high price of these products is often perceived as a sign of quality and reinforces a customer’s confidence in the company.",
+      "translation": "더욱이 이러한 제품의 높은 가격은 흔히 품질의 표시로 인식되며 그 회사에 대한 고객의 신뢰를 강화한다.",
+      "meaningSegments": [
+        {
+          "en": "Furthermore,",
+          "ko": "더욱이,",
+          "id": "s007-m01"
+        },
+        {
+          "en": "the high price of these products is often perceived",
+          "ko": "이러한 제품의 높은 가격은 흔히 인식된다",
+          "id": "s007-m02"
+        },
+        {
+          "en": "as a sign of quality",
+          "ko": "품질의 표시로",
+          "id": "s007-m03"
+        },
+        {
+          "en": "and reinforces",
+          "ko": "그리고 강화한다",
+          "id": "s007-m04"
+        },
+        {
+          "en": "a customer’s confidence in the company.",
+          "ko": "그 회사에 대한 고객의 신뢰를.",
+          "id": "s007-m05"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "is often perceived",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "흔히 인식된다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s007-m02-p01",
+            "segmentId": "s007-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "reinforces",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "강화한다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s007-m04-p01",
+            "segmentId": "s007-m04"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "perceived",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "인식된다",
+              "occurrence": 1
+            },
+            "meaning": "어떤 의미로 받아들여지다",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s007-m02-v01",
+            "segmentId": "s007-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "reinforces",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "강화한다",
+              "occurrence": 1
+            },
+            "meaning": "더 강하게 만든다",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s007-m04-v02",
+            "segmentId": "s007-m04",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "confidence",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "신뢰",
+              "occurrence": 1
+            },
+            "meaning": "믿는 마음",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s007-m05-v03",
+            "segmentId": "s007-m05",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s007-ko-01",
+              "target": {
+                "text": "품질의 표시로 인식되며",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s007-ko-02",
+              "target": {
+                "text": "고객의 신뢰를 강화한다",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s007-en-01",
+              "target": {
+                "text": "is often perceived as a sign of quality",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s007-en-02",
+              "target": {
+                "text": "reinforces a customer’s confidence",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "is often perceived",
+                "occurrence": 1
+              },
+              "cue": "perceive",
+              "lemma": "perceive",
+              "id": "s007-verb-01"
+            },
+            {
+              "target": {
+                "text": "reinforces",
+                "occurrence": 1
+              },
+              "cue": "reinforce",
+              "lemma": "reinforce",
+              "id": "s007-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "reinforces",
+                "occurrence": 1
+              },
+              "options": [
+                "reinforces",
+                "undermines"
+              ],
+              "id": "s007-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s007-a",
+              "text": "Furthermore, the high price of these products"
+            },
+            {
+              "id": "s007-b",
+              "text": "is often perceived as a sign of quality"
+            },
+            {
+              "id": "s007-c",
+              "text": "and reinforces a customer’s confidence in the company."
+            }
+          ],
+          "displayOrder": [
+            "s007-b",
+            "s007-c",
+            "s007-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "furthermore",
+            "high price",
+            "be perceived as",
+            "sign of quality",
+            "reinforce",
+            "customer’s confidence"
+          ]
+        }
+      },
+      "id": "s007",
+      "no": 7
+    }
+  ],
+  "passageActivities": {
+    "correction": [
+      {
+        "textOverride": "Usually, innovative high-tech products has low price elasticity. This means that high variation in price, an increase as well as a decrease, do not significantly modify demand. These high-tech products have few substitutes, meaning that the costs to switch to another product is high. Additionally, at the first stage of the technology, buyers—either innovators or forerunners—are more sensitive to price than to additional performance; they often have deep pockets or are ready to spend a lot for a new innovative and outstanding product. For instance, with its new product range, a high-end mobile phone manufacturer are aiming at the 3% of millionaire households with assets of more than $2.5 million; those are customers who are ready to accept the price range the manufacturer have set. At that stage, the competitors are not interested in lower their price significantly whatsoever, because they are chasing the same categories of customers, not sensitive to price. Furthermore, the high price of these products is often perceived as a sign of quality and reinforce a customer’s confidence in the company.",
+        "targets": [
+          {
+            "target": {
+              "text": "products has",
+              "occurrence": 1
+            },
+            "incorrect": "products has",
+            "correct": "products have",
+            "id": "correction-01-01"
+          },
+          {
+            "target": {
+              "text": "decrease, do not",
+              "occurrence": 1
+            },
+            "incorrect": "decrease, do not",
+            "correct": "decrease, does not",
+            "id": "correction-01-02"
+          },
+          {
+            "target": {
+              "text": "the costs to switch to another product is high",
+              "occurrence": 1
+            },
+            "incorrect": "the costs to switch to another product is high",
+            "correct": "the costs to switch to another product are high",
+            "id": "correction-01-03"
+          },
+          {
+            "target": {
+              "text": "are more sensitive",
+              "occurrence": 1
+            },
+            "incorrect": "are more sensitive",
+            "correct": "are less sensitive",
+            "id": "correction-01-04"
+          },
+          {
+            "target": {
+              "text": "manufacturer are aiming",
+              "occurrence": 1
+            },
+            "incorrect": "manufacturer are aiming",
+            "correct": "manufacturer is aiming",
+            "id": "correction-01-05"
+          },
+          {
+            "target": {
+              "text": "manufacturer have set",
+              "occurrence": 1
+            },
+            "incorrect": "manufacturer have set",
+            "correct": "manufacturer has set",
+            "id": "correction-01-06"
+          },
+          {
+            "target": {
+              "text": "interested in lower",
+              "occurrence": 1
+            },
+            "incorrect": "interested in lower",
+            "correct": "interested in lowering",
+            "id": "correction-01-07"
+          },
+          {
+            "target": {
+              "text": "and reinforce",
+              "occurrence": 1
+            },
+            "incorrect": "and reinforce",
+            "correct": "and reinforces",
+            "id": "correction-01-08"
+          }
+        ],
+        "id": "correction-01"
+      }
+    ],
+    "paragraphOrder": [
+      {
+        "blocks": [
+          {
+            "id": "A",
+            "sentenceIds": [
+              "s001",
+              "s002"
+            ]
+          },
+          {
+            "id": "B",
+            "sentenceIds": [
+              "s003",
+              "s004"
+            ]
+          },
+          {
+            "id": "C",
+            "sentenceIds": [
+              "s005",
+              "s006",
+              "s007"
+            ]
+          }
+        ],
+        "displayOrder": [
+          "C",
+          "A",
+          "B"
+        ],
+        "answerOrder": [
+          "A",
+          "B",
+          "C"
+        ],
+        "id": "paragraph-order-01"
+      }
+    ]
+  }
+}

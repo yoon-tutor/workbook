@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "reviewer": "Codex",
+  "buildDir": "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb",
+  "notes": "실제 배포된 HTTPS MCP를 통한 실행 결과의 학생용·해설용 contact sheet를 직접 확인했다. 2·3단계 빈칸, 4·8·10단계 작성 영역, 5·6단계 문제 단서와 빨간 해설 정답을 확인했다. 대표 이미지에서 잘림·겹침·푸터 침범이 없으며, 자동 QA의 정답 슬롯 정렬 및 PDF 쪽수 검사도 통과했다.",
+  "samplePages": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    10,
+    12,
+    14,
+    15,
+    19,
+    20,
+    22
+  ],
+  "contactSheets": [
+    "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\student-contact-sheet.png",
+    "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\answer-contact-sheet.png"
+  ],
+  "qa": {
+    "contactSheets": [
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\student-contact-sheet.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\answer-contact-sheet.png"
+    ],
+    "dom": {
+      "answer": {
+        "pages": 22,
+        "solutions": 255
+      },
+      "matchedResponseBoxCount": 72,
+      "matchedResponseLineCount": 90,
+      "matchedSolutionSlotCount": 188,
+      "sharedTargetSlotCount": 260,
+      "student": {
+        "pages": 22,
+        "solutions": 0
+      }
+    },
+    "pdf": {
+      "answerPages": 22,
+      "studentPages": 22
+    },
+    "status": "passed",
+    "visualSamples": [
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\student-p01.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\student-p02.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\student-p03.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\student-p05.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\student-p07.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\student-p10.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\student-p12.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\student-p14.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\student-p15.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\student-p19.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\student-p20.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\student-p22.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\answer-p01.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\answer-p02.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\answer-p03.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\answer-p05.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\answer-p07.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\answer-p10.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\answer-p12.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\answer-p14.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\answer-p15.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\answer-p19.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\answer-p20.png",
+      "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb\\qa\\samples\\answer-p22.png"
+    ]
+  }
+}

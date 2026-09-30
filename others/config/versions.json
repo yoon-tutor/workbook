@@ -1,0 +1,83 @@
+{
+  "registryVersion": "1.0.0",
+  "updatedAt": "2026-09-26T17:00:00+09:00",
+  "status": "current",
+  "current": {
+    "schemaVersion": "1.0.0",
+    "specVersion": "1.0.6",
+    "semanticRubricVersion": "1.0.1",
+    "templateVersion": "1.0.4",
+    "compilerVersion": "1.0.7",
+    "reportFormatVersion": "1.0.0"
+  },
+  "compatibility": {
+    "compilerVersion": "1.0.7",
+    "acceptedSchemaVersions": [
+      "1.0.0"
+    ],
+    "acceptedSpecVersions": [
+      "1.0.0",
+      "1.0.1",
+      "1.0.2",
+      "1.0.3",
+      "1.0.4",
+      "1.0.5",
+      "1.0.6"
+    ],
+    "acceptedTemplateVersions": [
+      "1.0.0",
+      "1.0.1",
+      "1.0.2",
+      "1.0.3",
+      "1.0.4"
+    ]
+  },
+  "buildManifestRequiredFields": [
+    "workbookId",
+    "contentVersion",
+    "schemaVersion",
+    "specVersion",
+    "semanticRubricVersion",
+    "templateVersion",
+    "compilerVersion",
+    "reportFormatVersion",
+    "appliedUpdates",
+    "sourceDigest",
+    "canonicalDigest",
+    "builtAt",
+    "validationStatus"
+  ],
+  "updatePolicy": {
+    "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+    "nextSequenceForDate": 19,
+    "allowedScopes": [
+      "new-only",
+      "all",
+      "selected",
+      "manual-review"
+    ],
+    "defaultScope": "new-only",
+    "markdownReportRequired": true,
+    "changelogEntryRequired": true
+  },
+  "appliedUpdates": [
+    "U-20260710-001",
+    "U-20260711-002",
+    "U-20260723-003",
+    "U-20260723-004",
+    "U-20260723-005",
+    "U-20260825-006",
+    "U-20260825-007",
+    "U-20260825-008",
+    "U-20260826-009",
+    "U-20260826-010",
+    "U-20260826-011",
+    "U-20260826-012",
+    "U-20260827-013",
+    "U-20260828-014",
+    "U-20260901-015",
+    "U-20260903-016",
+    "U-20260903-017",
+    "U-20260908-018"
+  ]
+}

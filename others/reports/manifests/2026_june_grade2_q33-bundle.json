@@ -1,0 +1,2513 @@
+{
+  "build": {
+    "appliedUpdates": [
+      "U-20260903-017"
+    ],
+    "buildVersion": "1.0.0",
+    "builtAt": "2026-09-03T15:23:26+09:00",
+    "canonicalDigest": "28e2a7652a033c3a323741a6d04bc7d1b781b7cba2bf493ddc2385743baaf279",
+    "compilerVersion": "1.0.7",
+    "contentVersion": "1.0.0",
+    "engineDigest": "755fa39f2f38e0c481da489f7b37fc92110b71ae3cf018dda83004df187ac114",
+    "engineInputs": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      }
+    ],
+    "files": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      },
+      {
+        "path": "문제.html",
+        "sha256": "a4bfcd1d49c4bd91d83941ff8395d0ac756140b3bd2fe3a09e5df75295e509a5",
+        "size": 137382
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "cb222cb01a200f6a10a3475b71ffba91e0757595e2c2ba2cdb5611f5375b99be",
+        "size": 542754
+      },
+      {
+        "path": "해설.html",
+        "sha256": "aa59b49615b4b416f515ecf036a1a215f10f37521bd452d4455f07dffc4245d1",
+        "size": 145749
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "87f18862e617dabdf635dc12f138bb7d84366c9233cf3ad5a1bdd9f5b97b9ad2",
+        "size": 662866
+      }
+    ],
+    "outputs": [
+      {
+        "path": "문제.html",
+        "sha256": "a4bfcd1d49c4bd91d83941ff8395d0ac756140b3bd2fe3a09e5df75295e509a5",
+        "size": 137382
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "cb222cb01a200f6a10a3475b71ffba91e0757595e2c2ba2cdb5611f5375b99be",
+        "size": 542754
+      },
+      {
+        "path": "해설.html",
+        "sha256": "aa59b49615b4b416f515ecf036a1a215f10f37521bd452d4455f07dffc4245d1",
+        "size": 145749
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "87f18862e617dabdf635dc12f138bb7d84366c9233cf3ad5a1bdd9f5b97b9ad2",
+        "size": 662866
+      }
+    ],
+    "pages": [
+      {
+        "digest": "a2a7575b720bce4844b58422423e9a673e75413fd2b50e688d9a0155ff5900d9",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q33-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q33-p01",
+        "part": "1-5",
+        "stageId": "1"
+      },
+      {
+        "digest": "2d06f1a4169e7573ed21b54f2d90e8c55a76eb1f26ff9c09d1913f98ea9191cb",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q33-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q33-p02",
+        "part": "1-5",
+        "stageId": "2"
+      },
+      {
+        "digest": "f6c26ca002d2b5ed3ebeb3601ce288b967badafd190d5322e0d4d2badf53eed5",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q33-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q33-p03",
+        "part": "1-5",
+        "stageId": "3"
+      },
+      {
+        "digest": "a98dfcfeca9786b59249c2fa19b5716ccd886071cf121423d9052ffb2b7e2016",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q33-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q33-p04",
+        "part": "1-5",
+        "stageId": "4"
+      },
+      {
+        "digest": "e5dd2b375a85c4234ca442f845745f3b2e5ada8280f9f70f5722afcb090fa2ca",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q33-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q33-p05",
+        "part": "1-5",
+        "stageId": "5"
+      },
+      {
+        "digest": "ef2f91d7d0ac0731fb102caee0f533720aea9bcdd5969d2bcdfd7c8012dc0cd0",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q33-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q33-p06",
+        "part": "1-5",
+        "stageId": "6"
+      },
+      {
+        "digest": "5fd1c9f53269e86bc937ca900320fe3d5c0c69424d86a914fc1dc27b730fa981",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q33-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q33-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "d4d5139c9ecefe52f9cbadd06801df01ea2d34847c05206f7ce5789c51e48280",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q33-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q33-p08",
+        "part": "1-5",
+        "stageId": "8"
+      },
+      {
+        "digest": "7b54eba941d6d564ed45b6a7760fa1b8878528bba621f1ac86da7005ee68956c",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q33-p09",
+        "itemIds": [],
+        "page": 9,
+        "pageId": "2026-june-grade2-q33-p09",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "b59354bf5402071e5293cbda1435880d259f9eb43243b8e601d1702a25cc7bf2",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q33-p10",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 10,
+        "pageId": "2026-june-grade2-q33-p10",
+        "part": "1-5",
+        "stageId": "10"
+      },
+      {
+        "digest": "a2a7575b720bce4844b58422423e9a673e75413fd2b50e688d9a0155ff5900d9",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q33-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q33-p01",
+        "part": "1-5",
+        "stageId": "1"
+      },
+      {
+        "digest": "260968f6b098ce4ae1b08b1548cd2f7c5e9c0b6a5f5855a7c463c58b5701b75b",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q33-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q33-p02",
+        "part": "1-5",
+        "stageId": "2"
+      },
+      {
+        "digest": "8a25f6f4824c7faddcb9164de11fc137dd699d361a5e4b3b6ee4678c65683ee8",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q33-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q33-p03",
+        "part": "1-5",
+        "stageId": "3"
+      },
+      {
+        "digest": "68a9d78c547e54db3b83df28ee9acaf8065c0dd4f298f5946c21857c7e3bfd6a",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q33-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q33-p04",
+        "part": "1-5",
+        "stageId": "4"
+      },
+      {
+        "digest": "c09b0f233afe01ef010a55def37fc9ecd6bb3767d908a9ce22471b7b8b83ab3f",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q33-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q33-p05",
+        "part": "1-5",
+        "stageId": "5"
+      },
+      {
+        "digest": "5277149600ee6fb51888249cd401e9f32f09b51a8483aa804e6b1df97fee3518",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q33-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q33-p06",
+        "part": "1-5",
+        "stageId": "6"
+      },
+      {
+        "digest": "86859ab7f14a2d01f1690506324395d48301df14ad1c44507f3f61e4075f3dbe",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q33-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q33-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "a6ace5f99e94767fe3f754fe19e8d4c84cfb4eeb282ed4958a7d81aa565ea458",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q33-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q33-p08",
+        "part": "1-5",
+        "stageId": "8"
+      },
+      {
+        "digest": "05e7f9024737e382b1d466838e3c7da9878390833e1098ca7dfef5281cb0b98e",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q33-p09",
+        "itemIds": [],
+        "page": 9,
+        "pageId": "2026-june-grade2-q33-p09",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "33159afca6a0dc700f11e454212b1e6f688ecc5ad0464618e25c52642b13ce09",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q33-p10",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 10,
+        "pageId": "2026-june-grade2-q33-p10",
+        "part": "1-5",
+        "stageId": "10"
+      }
+    ],
+    "qa": {
+      "contactSheets": [
+        "qa/samples/student-contact-sheet.png",
+        "qa/samples/answer-contact-sheet.png"
+      ],
+      "dom": {
+        "answer": {
+          "pages": 10,
+          "solutions": 63
+        },
+        "matchedResponseBoxCount": 15,
+        "matchedResponseLineCount": 29,
+        "matchedSolutionSlotCount": 55,
+        "sharedTargetSlotCount": 70,
+        "student": {
+          "pages": 10,
+          "solutions": 0
+        }
+      },
+      "pdf": {
+        "answerPages": 10,
+        "studentPages": 10
+      },
+      "status": "passed",
+      "visualSamples": [
+        "qa/samples/student-p01.png",
+        "qa/samples/student-p02.png",
+        "qa/samples/student-p03.png",
+        "qa/samples/student-p04.png",
+        "qa/samples/student-p05.png",
+        "qa/samples/student-p06.png",
+        "qa/samples/student-p07.png",
+        "qa/samples/student-p08.png",
+        "qa/samples/student-p09.png",
+        "qa/samples/student-p10.png",
+        "qa/samples/answer-p01.png",
+        "qa/samples/answer-p02.png",
+        "qa/samples/answer-p03.png",
+        "qa/samples/answer-p04.png",
+        "qa/samples/answer-p05.png",
+        "qa/samples/answer-p06.png",
+        "qa/samples/answer-p07.png",
+        "qa/samples/answer-p08.png",
+        "qa/samples/answer-p09.png",
+        "qa/samples/answer-p10.png"
+      ]
+    },
+    "reportFormatVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "semanticRubricVersion": "1.0.0",
+    "sourceDigest": "ddf5292ae17eedc1e73f6be9f0d1108a3b57d5916aa07a477875843733db051a",
+    "specVersion": "1.0.6",
+    "templateVersion": "1.0.4",
+    "validationStatus": "passed",
+    "visualReview": {
+      "notes": "학생용·해설용 10쪽 전체 contact sheet와 7단계 상세 페이지를 확인했습니다. 1단계, 2·3단계 빈칸, 4·8·10단계 작성 영역, 7단계 교정 색상, 9단계 문단 순서, 마지막 페이지와 푸터에 잘림·겹침·정답 누출이 없고 문제·해설 target 배치가 일치합니다.",
+      "reviewedAt": "2026-09-03T15:24:43+09:00",
+      "reviewer": "Codex",
+      "status": "passed"
+    },
+    "workbookId": "2026-june-grade2-q33"
+  },
+  "bundleVersion": 1,
+  "canonical": {
+    "canonical": {
+      "$schema": "../../schemas/canonical-workbook.schema.json",
+      "contentVersion": "1.0.0",
+      "metadata": {
+        "grade": "고등학교 2학년",
+        "kicker": "High School Reading",
+        "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 33번",
+        "sourceLanguage": "en",
+        "targetLanguage": "ko",
+        "title": "2026학년도 6월 고2 33번 10단계 워크북",
+        "topic": "환경 변화의 방향을 지속적으로 따라가는 진화와 자연 선택"
+      },
+      "passageActivities": {
+        "correction": [
+          {
+            "id": "correction-01",
+            "targets": [
+              {
+                "correct": "will come to a standstill",
+                "id": "correction-01-01",
+                "incorrect": "will comes to a standstill",
+                "target": {
+                  "occurrence": 1,
+                  "text": "will comes to a standstill"
+                }
+              },
+              {
+                "correct": "changes do happen",
+                "id": "correction-01-02",
+                "incorrect": "changes does happen",
+                "target": {
+                  "occurrence": 1,
+                  "text": "changes does happen"
+                }
+              },
+              {
+                "correct": "constantly tracks",
+                "id": "correction-01-03",
+                "incorrect": "constantly track",
+                "target": {
+                  "occurrence": 1,
+                  "text": "constantly track"
+                }
+              },
+              {
+                "correct": "drift that persists",
+                "id": "correction-01-04",
+                "incorrect": "drift that persist",
+                "target": {
+                  "occurrence": 1,
+                  "text": "drift that persist"
+                }
+              },
+              {
+                "correct": "growing longer coats of hair",
+                "id": "correction-01-05",
+                "incorrect": "growing shorter coats of hair",
+                "target": {
+                  "occurrence": 1,
+                  "text": "growing shorter coats of hair"
+                }
+              },
+              {
+                "correct": "trend reverses",
+                "id": "correction-01-06",
+                "incorrect": "trend reverse",
+                "target": {
+                  "occurrence": 1,
+                  "text": "trend reverse"
+                }
+              },
+              {
+                "correct": "growing shorter coats again",
+                "id": "correction-01-07",
+                "incorrect": "growing longer coats again",
+                "target": {
+                  "occurrence": 1,
+                  "text": "growing longer coats again"
+                }
+              }
+            ],
+            "textOverride": "Evolution will comes to a standstill until something in the conditions changes: the onset of an ice age, a change in the average rainfall of the area, a shift in the prevailing wind. Such changes does happen when we are dealing with a timescale as long as the evolutionary one. As a consequence, evolution normally does not come to a halt, but constantly track the changing environment. If there is a steady downward drift in the average temperature in the area, a drift that persist over centuries, successive generations of animals will be propelled by a steady selection ‘pressure’ in the direction, say, of growing shorter coats of hair. If after a few thousand years of reduced temperature the trend reverse and average temperatures creep up again, the animals will come under the influence of a new selection pressure, and will be pushed towards growing longer coats again."
+          }
+        ],
+        "paragraphOrder": [
+          {
+            "answerOrder": [
+              "A",
+              "B",
+              "C"
+            ],
+            "blocks": [
+              {
+                "id": "A",
+                "sentenceIds": [
+                  "s001",
+                  "s002"
+                ]
+              },
+              {
+                "id": "B",
+                "sentenceIds": [
+                  "s003"
+                ]
+              },
+              {
+                "id": "C",
+                "sentenceIds": [
+                  "s004",
+                  "s005"
+                ]
+              }
+            ],
+            "displayOrder": [
+              "C",
+              "A",
+              "B"
+            ],
+            "id": "paragraph-order-01"
+          }
+        ]
+      },
+      "schemaVersion": "1.0.0",
+      "sentences": [
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "will come to a standstill"
+                  }
+                ],
+                "id": "s001-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "멈춰 있을 것이다"
+                  }
+                ],
+                "segmentId": "s001-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "changes"
+                  }
+                ],
+                "id": "s001-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "바뀔"
+                  }
+                ],
+                "segmentId": "s001-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "standstill"
+                },
+                "id": "s001-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "멈춰"
+                },
+                "meaning": "움직임이나 발전이 멈춘 상태",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s001-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "onset"
+                },
+                "id": "s001-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "시작"
+                },
+                "meaning": "어떤 현상의 시작",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s001-m03"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "prevailing wind"
+                },
+                "id": "s001-m05-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "지배풍"
+                },
+                "meaning": "한 지역에서 주로 부는 바람",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s001-m05"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s001-a",
+                  "text": "Evolution will come to a standstill"
+                },
+                {
+                  "id": "s001-b",
+                  "text": "until something in the conditions changes:"
+                },
+                {
+                  "id": "s001-c",
+                  "text": "the onset of an ice age, a change in the average rainfall of the area,"
+                },
+                {
+                  "id": "s001-d",
+                  "text": "a shift in the prevailing wind."
+                }
+              ],
+              "displayOrder": [
+                "s001-c",
+                "s001-a",
+                "s001-d",
+                "s001-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s001-choice-01",
+                  "options": [
+                    "until",
+                    "although"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "until"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s001-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "will come to a standstill"
+                  }
+                },
+                {
+                  "id": "s001-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "a shift in the prevailing wind"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s001-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "조건의 무언가가 바뀔 때까지"
+                  }
+                },
+                {
+                  "id": "s001-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "지배풍의 변화"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "come to a standstill",
+                  "id": "s001-verb-01",
+                  "lemma": "come",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "will come to a standstill"
+                  }
+                },
+                {
+                  "cue": "change",
+                  "id": "s001-verb-02",
+                  "lemma": "change",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "changes"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "evolution",
+                "come to a standstill",
+                "conditions change",
+                "onset of an ice age",
+                "average rainfall",
+                "prevailing wind"
+              ]
+            }
+          },
+          "id": "s001",
+          "meaningSegments": [
+            {
+              "en": "Evolution will come to a standstill",
+              "id": "s001-m01",
+              "ko": "진화는 멈춰 있을 것이다"
+            },
+            {
+              "en": "until something in the conditions changes:",
+              "id": "s001-m02",
+              "ko": "조건의 무언가가 바뀔 때까지:"
+            },
+            {
+              "en": "the onset of an ice age,",
+              "id": "s001-m03",
+              "ko": "빙하기의 시작,"
+            },
+            {
+              "en": "a change in the average rainfall of the area,",
+              "id": "s001-m04",
+              "ko": "그 지역 평균 강우량의 변화,"
+            },
+            {
+              "en": "a shift in the prevailing wind.",
+              "id": "s001-m05",
+              "ko": "지배풍의 변화."
+            }
+          ],
+          "no": 1,
+          "source": "Evolution will come to a standstill until something in the conditions changes: the onset of an ice age, a change in the average rainfall of the area, a shift in the prevailing wind.",
+          "translation": "진화는 조건의 무언가가 바뀔 때까지 멈춰 있을 것이다. 그 변화에는 빙하기의 시작, 그 지역 평균 강우량의 변화, 지배풍의 변화가 있다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "do happen"
+                  }
+                ],
+                "id": "s002-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "실제로 일어난다"
+                  }
+                ],
+                "segmentId": "s002-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are dealing with"
+                  }
+                ],
+                "id": "s002-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "다룰 때"
+                  }
+                ],
+                "segmentId": "s002-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "timescale"
+                },
+                "id": "s002-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "시간 규모"
+                },
+                "meaning": "어떤 과정이 진행되는 시간의 범위",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s002-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "evolutionary"
+                },
+                "id": "s002-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "진화의"
+                },
+                "meaning": "진화 과정과 관련된",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s002-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s002-a",
+                  "text": "Such changes do happen"
+                },
+                {
+                  "id": "s002-b",
+                  "text": "when we are dealing with a timescale"
+                },
+                {
+                  "id": "s002-c",
+                  "text": "as long as the evolutionary one."
+                }
+              ],
+              "displayOrder": [
+                "s002-b",
+                "s002-c",
+                "s002-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s002-choice-01",
+                  "options": [
+                    "do happen",
+                    "never happen"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "do happen"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s002-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "do happen"
+                  }
+                },
+                {
+                  "id": "s002-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "as long as the evolutionary one"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s002-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "실제로 일어난다"
+                  }
+                },
+                {
+                  "id": "s002-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "진화의 시간 규모만큼 긴"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "happen",
+                  "id": "s002-verb-01",
+                  "lemma": "happen",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "do happen"
+                  }
+                },
+                {
+                  "cue": "deal with",
+                  "id": "s002-verb-02",
+                  "lemma": "deal",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are dealing with"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "such changes",
+                "do happen",
+                "deal with",
+                "timescale",
+                "as long as",
+                "evolutionary one"
+              ]
+            }
+          },
+          "id": "s002",
+          "meaningSegments": [
+            {
+              "en": "Such changes do happen",
+              "id": "s002-m01",
+              "ko": "그러한 변화는 실제로 일어난다"
+            },
+            {
+              "en": "when we are dealing with a timescale",
+              "id": "s002-m02",
+              "ko": "우리가 시간 규모를 다룰 때"
+            },
+            {
+              "en": "as long as the evolutionary one.",
+              "id": "s002-m03",
+              "ko": "진화의 시간 규모만큼 긴."
+            }
+          ],
+          "no": 2,
+          "source": "Such changes do happen when we are dealing with a timescale as long as the evolutionary one.",
+          "translation": "그러한 변화는 우리가 진화의 시간 규모만큼 긴 시간 규모를 다룰 때 실제로 일어난다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "does not come to a halt"
+                  }
+                ],
+                "id": "s003-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "멈추지 않는다"
+                  }
+                ],
+                "segmentId": "s003-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "constantly tracks"
+                  }
+                ],
+                "id": "s003-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "끊임없이 따라간다"
+                  }
+                ],
+                "segmentId": "s003-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "consequence"
+                },
+                "id": "s003-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "결과"
+                },
+                "meaning": "앞선 일로 인해 생긴 결과",
+                "reasons": [
+                  "academic",
+                  "structure-critical"
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "come to a halt"
+                },
+                "id": "s003-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "멈추지"
+                },
+                "meaning": "정지하다",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s003-m02"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "constantly tracks"
+                },
+                "id": "s003-m03-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "끊임없이 따라간다"
+                },
+                "meaning": "계속해서 변화 방향을 좇는다",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s003-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s003-a",
+                  "text": "As a consequence, evolution normally does not come to a halt,"
+                },
+                {
+                  "id": "s003-b",
+                  "text": "but constantly tracks"
+                },
+                {
+                  "id": "s003-c",
+                  "text": "the changing environment."
+                }
+              ],
+              "displayOrder": [
+                "s003-c",
+                "s003-a",
+                "s003-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s003-choice-01",
+                  "options": [
+                    "constantly tracks the changing environment",
+                    "occurs regardless of local temperature trends"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "constantly tracks the changing environment"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s003-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "does not come to a halt"
+                  }
+                },
+                {
+                  "id": "s003-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "constantly tracks the changing environment"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s003-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "일반적으로 멈추는 것이 아니라"
+                  }
+                },
+                {
+                  "id": "s003-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "변화하는 환경을 끊임없이 따라간다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "come to a halt",
+                  "id": "s003-verb-01",
+                  "lemma": "come",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "does not come to a halt"
+                  }
+                },
+                {
+                  "cue": "track",
+                  "id": "s003-verb-02",
+                  "lemma": "track",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "constantly tracks"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "as a consequence",
+                "evolution",
+                "not come to a halt",
+                "but",
+                "constantly track",
+                "changing environment"
+              ]
+            }
+          },
+          "id": "s003",
+          "meaningSegments": [
+            {
+              "en": "As a consequence,",
+              "id": "s003-m01",
+              "ko": "그 결과,"
+            },
+            {
+              "en": "evolution normally does not come to a halt,",
+              "id": "s003-m02",
+              "ko": "진화는 일반적으로 멈추지 않는다"
+            },
+            {
+              "en": "but constantly tracks",
+              "id": "s003-m03",
+              "ko": "오히려 끊임없이 따라간다"
+            },
+            {
+              "en": "the changing environment.",
+              "id": "s003-m04",
+              "ko": "변화하는 환경을."
+            }
+          ],
+          "no": 3,
+          "source": "As a consequence, evolution normally does not come to a halt, but constantly tracks the changing environment.",
+          "translation": "그 결과 진화는 일반적으로 멈추는 것이 아니라 변화하는 환경을 끊임없이 따라간다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s004-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "있다면"
+                  }
+                ],
+                "segmentId": "s004-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "persists"
+                  }
+                ],
+                "id": "s004-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "지속되는"
+                  }
+                ],
+                "segmentId": "s004-m03"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "will be propelled"
+                  }
+                ],
+                "id": "s004-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "나아가게 될 것이다"
+                  }
+                ],
+                "segmentId": "s004-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "downward drift"
+                },
+                "id": "s004-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "하락 추세"
+                },
+                "meaning": "일정하게 아래로 움직이는 경향",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s004-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "successive generations"
+                },
+                "id": "s004-m04-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "이어지는 동물 세대"
+                },
+                "meaning": "차례로 이어지는 여러 세대",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s004-m04"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "selection ‘pressure’"
+                },
+                "id": "s004-m05-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "자연 선택의 ‘압력’"
+                },
+                "meaning": "특정 형질이 선택되게 하는 환경의 힘",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s004-m05"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s004-a",
+                  "text": "If there is a steady downward drift in the average temperature in the area,"
+                },
+                {
+                  "id": "s004-b",
+                  "text": "a drift that persists over centuries,"
+                },
+                {
+                  "id": "s004-c",
+                  "text": "successive generations of animals will be propelled by a steady selection ‘pressure’"
+                },
+                {
+                  "id": "s004-d",
+                  "text": "in the direction, say, of growing longer coats of hair."
+                }
+              ],
+              "displayOrder": [
+                "s004-b",
+                "s004-d",
+                "s004-a",
+                "s004-c"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s004-choice-01",
+                  "options": [
+                    "will be propelled",
+                    "will remain unaffected"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "will be propelled"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s004-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "persists over centuries"
+                  }
+                },
+                {
+                  "id": "s004-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "will be propelled by a steady selection ‘pressure’"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s004-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "수 세기 동안 지속된다면"
+                  }
+                },
+                {
+                  "id": "s004-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "자연 선택의 ‘압력’에 의해"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s004-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "there is"
+                  }
+                },
+                {
+                  "cue": "persist",
+                  "id": "s004-verb-02",
+                  "lemma": "persist",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "persists"
+                  }
+                },
+                {
+                  "cue": "propel",
+                  "id": "s004-verb-03",
+                  "lemma": "propel",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "will be propelled"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "steady downward drift",
+                "average temperature",
+                "persist over centuries",
+                "successive generations",
+                "be propelled",
+                "selection pressure"
+              ]
+            }
+          },
+          "id": "s004",
+          "meaningSegments": [
+            {
+              "en": "If there is a steady downward drift",
+              "id": "s004-m01",
+              "ko": "꾸준한 하락 추세가 있다면"
+            },
+            {
+              "en": "in the average temperature in the area,",
+              "id": "s004-m02",
+              "ko": "그 지역의 평균 기온에,"
+            },
+            {
+              "en": "a drift that persists over centuries,",
+              "id": "s004-m03",
+              "ko": "수 세기 동안 지속되는 추세인,"
+            },
+            {
+              "en": "successive generations of animals will be propelled",
+              "id": "s004-m04",
+              "ko": "이어지는 동물 세대들은 나아가게 될 것이다"
+            },
+            {
+              "en": "by a steady selection ‘pressure’",
+              "id": "s004-m05",
+              "ko": "꾸준한 자연 선택의 ‘압력’에 의해"
+            },
+            {
+              "en": "in the direction, say,",
+              "id": "s004-m06",
+              "ko": "이를테면 그 방향으로,"
+            },
+            {
+              "en": "of growing longer coats of hair.",
+              "id": "s004-m07",
+              "ko": "털이 더 길게 자라는."
+            }
+          ],
+          "no": 4,
+          "source": "If there is a steady downward drift in the average temperature in the area, a drift that persists over centuries, successive generations of animals will be propelled by a steady selection ‘pressure’ in the direction, say, of growing longer coats of hair.",
+          "translation": "그 지역의 평균 기온이 꾸준히 내려가는 추세이고 그 추세가 수 세기 동안 지속된다면, 이어지는 동물 세대들은 이를테면 털이 더 길게 자라는 방향으로 꾸준한 자연 선택의 ‘압력’에 의해 나아가게 될 것이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "reverses"
+                  }
+                ],
+                "id": "s005-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "뒤집히고"
+                  }
+                ],
+                "segmentId": "s005-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "creep up"
+                  }
+                ],
+                "id": "s005-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "서서히 오른다면"
+                  }
+                ],
+                "segmentId": "s005-m03"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "will come under"
+                  }
+                ],
+                "id": "s005-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "받게 될 것이다"
+                  }
+                ],
+                "segmentId": "s005-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "will be pushed"
+                  }
+                ],
+                "id": "s005-m06-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "밀려날 것이다"
+                  }
+                ],
+                "segmentId": "s005-m06"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "trend"
+                },
+                "id": "s005-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "추세"
+                },
+                "meaning": "변화가 향하는 전반적인 방향",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s005-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "reduced temperature"
+                },
+                "id": "s005-m01-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "기온이 낮아진"
+                },
+                "meaning": "이전보다 낮아진 기온",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s005-m01"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "influence"
+                },
+                "id": "s005-m04-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "영향"
+                },
+                "meaning": "다른 대상에 미치는 힘이나 작용",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s005-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s005-a",
+                  "text": "If after a few thousand years of reduced temperature"
+                },
+                {
+                  "id": "s005-b",
+                  "text": "the trend reverses and average temperatures creep up again,"
+                },
+                {
+                  "id": "s005-c",
+                  "text": "the animals will come under the influence of a new selection pressure,"
+                },
+                {
+                  "id": "s005-d",
+                  "text": "and will be pushed towards growing shorter coats again."
+                }
+              ],
+              "displayOrder": [
+                "s005-c",
+                "s005-a",
+                "s005-d",
+                "s005-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s005-choice-01",
+                  "options": [
+                    "shorter coats",
+                    "longer coats"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "shorter coats"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s005-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "average temperatures creep up again"
+                  }
+                },
+                {
+                  "id": "s005-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "will come under the influence of a new selection pressure"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s005-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "평균 기온이 다시 서서히 오른다면"
+                  }
+                },
+                {
+                  "id": "s005-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "새로운 자연 선택 압력의 영향을 받게 되고"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "reverse",
+                  "id": "s005-verb-01",
+                  "lemma": "reverse",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "reverses"
+                  }
+                },
+                {
+                  "cue": "creep up",
+                  "id": "s005-verb-02",
+                  "lemma": "creep",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "creep up"
+                  }
+                },
+                {
+                  "cue": "come under",
+                  "id": "s005-verb-03",
+                  "lemma": "come",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "will come under"
+                  }
+                },
+                {
+                  "cue": "push",
+                  "id": "s005-verb-04",
+                  "lemma": "push",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "will be pushed"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "reduced temperature",
+                "trend reverse",
+                "average temperatures creep up",
+                "come under the influence",
+                "new selection pressure",
+                "shorter coats"
+              ]
+            }
+          },
+          "id": "s005",
+          "meaningSegments": [
+            {
+              "en": "If after a few thousand years of reduced temperature",
+              "id": "s005-m01",
+              "ko": "기온이 낮아진 수천 년 후"
+            },
+            {
+              "en": "the trend reverses",
+              "id": "s005-m02",
+              "ko": "그 추세가 뒤집히고"
+            },
+            {
+              "en": "and average temperatures creep up again,",
+              "id": "s005-m03",
+              "ko": "평균 기온이 다시 서서히 오른다면,"
+            },
+            {
+              "en": "the animals will come under the influence",
+              "id": "s005-m04",
+              "ko": "동물들은 영향을 받게 될 것이다"
+            },
+            {
+              "en": "of a new selection pressure,",
+              "id": "s005-m05",
+              "ko": "새로운 자연 선택 압력의,"
+            },
+            {
+              "en": "and will be pushed towards",
+              "id": "s005-m06",
+              "ko": "그리고 그쪽으로 밀려날 것이다"
+            },
+            {
+              "en": "growing shorter coats again.",
+              "id": "s005-m07",
+              "ko": "다시 더 짧은 털이 자라는."
+            }
+          ],
+          "no": 5,
+          "source": "If after a few thousand years of reduced temperature the trend reverses and average temperatures creep up again, the animals will come under the influence of a new selection pressure, and will be pushed towards growing shorter coats again.",
+          "translation": "기온이 낮아진 수천 년 후 그 추세가 뒤집혀 평균 기온이 다시 서서히 오른다면, 동물들은 새로운 자연 선택 압력의 영향을 받게 되고 다시 더 짧은 털이 자라는 쪽으로 밀려날 것이다."
+        }
+      ],
+      "sourceStatus": {
+        "notes": "원본 PDF 6쪽의 33번 본문, 빈칸, 선택지를 고해상도로 렌더링해 전사했습니다. 빈칸은 문맥과 선택지를 대조해 정답 ② constantly tracks the changing environment를 canonical 본문에 복원했습니다.",
+        "references": [
+          "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+        ],
+        "sentenceCount": 5,
+        "sourceType": "pdf",
+        "status": "confirmed",
+        "verifiedAt": "2026-09-03T15:25:00+09:00"
+      },
+      "specVersion": "1.0.6",
+      "updateState": {
+        "appliedUpdates": [
+          {
+            "appliedAt": "2026-09-03T15:30:00+09:00",
+            "fromContentVersion": "0.0.0",
+            "id": "U-20260903-017",
+            "report": "reports/updates/U-20260903-017.md",
+            "scope": "selected",
+            "toContentVersion": "1.0.0"
+          }
+        ],
+        "defaultScope": "new-only"
+      },
+      "workbookId": "2026-june-grade2-q33"
+    },
+    "contentVersion": "1.0.0",
+    "files": [
+      {
+        "path": "workbooks/2026-june-grade2-q33/content.json",
+        "sha256": "77b09fe08facff2093f2cb3dc80b8e7430f875303e2bd1839065fcfabfd4bd54",
+        "size": 38571
+      }
+    ],
+    "workbookId": "2026-june-grade2-q33"
+  },
+  "spec": {
+    "files": [
+      {
+        "path": "config/versions.json",
+        "sha256": "a60ea6277db39094018108ee86a4d12e2e48d49ac443b0150ff83432848e85d5",
+        "size": 1709
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "sha256": "aadb3fe161b100e3a68ecb42fab51775e9738153a04278a53b27e7172f8d8f69",
+        "size": 17021
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+        "size": 8058
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "schemaFiles": [
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "semanticRubricFile": {
+      "path": "docs/semantic-rubric.md",
+      "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+      "size": 8058
+    },
+    "semanticRubricVersion": "1.0.0",
+    "spec": {
+      "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "answerEditionContract": {
+        "answerFillClassMayAutoColor": false,
+        "choicePromptVisibleInAnswer": true,
+        "redAllowedOnlyOnSolutionValues": true,
+        "sameStageAndExerciseDomAsStudent": true,
+        "solutionClass": "solution-value",
+        "solutionColor": "#D71920",
+        "solutionInsertion": "fill-the-same-solution-slot",
+        "studentDerivation": "render answer first, lock every solution slot and writing response geometry, then remove solution values only",
+        "studentPayloadMayContainSolutions": false
+      },
+      "canonicalSchema": "schemas/canonical-workbook.schema.json",
+      "canonicalText": {
+        "baseTextOverride": {
+          "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+          "defaultStorage": "omit-baseText-and-derive-from-canonical",
+          "redundantDefaultCopy": "forbidden",
+          "requiredCompanionField": "overrideReason"
+        },
+        "displayDefault": "source",
+        "exerciseBaseTextDefaults": {
+          "choice": "display-or-source",
+          "enBlank": "display-or-source",
+          "koBlank": "translation",
+          "verb": "display-or-source"
+        },
+        "markup": "forbidden",
+        "reconstruction": {
+          "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+          "meaningSegments": "join meaningSegments[].en with one ASCII space",
+          "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+        },
+        "sourceWhitespace": "single-space-between-tokens",
+        "targetAnchor": {
+          "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다.",
+          "shape": {
+            "occurrence": "one-based occurrence in the applicable base text",
+            "text": "exact substring"
+          }
+        }
+      },
+      "contentOwnership": {
+        "authorable": [
+          "metadata",
+          "sourceStatus",
+          "sentences[].source",
+          "sentences[].display",
+          "sentences[].translation",
+          "sentences[].meaningSegments",
+          "sentences[].annotations",
+          "sentences[].exercises",
+          "passageActivities.correction",
+          "passageActivities.paragraphOrder",
+          "updateState"
+        ],
+        "derived": [
+          "stage number, title, instruction and renderer mode",
+          "item and unit numbers",
+          "part ranges and page boundaries",
+          "student and answer projections",
+          "blank, predicate, vocabulary and solution markup",
+          "answer-line height and layout classes",
+          "page count, footer number and output filenames"
+        ],
+        "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+      },
+      "logicalStages": [
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].meaningSegments",
+            "sentences[].annotations.predicates",
+            "sentences[].annotations.vocabulary"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "passage-practice",
+          "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean-inline-hint"
+            ],
+            "vocabularyColoring": true
+          },
+          "number": 1,
+          "pagination": {
+            "hardMaximum": 13,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 12,
+            "unit": "sentence"
+          },
+          "rendererMode": "meaning",
+          "scope": "sentence",
+          "title": "지문 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].exercises.koBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "korean-cloze",
+          "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 2,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (우리말)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.enBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "english-cloze",
+          "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 3,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (영문)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].translation"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "translation-practice",
+          "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 4,
+          "pagination": {
+            "hardMaximum": 11,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 10,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "해석 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.verb"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "verb-form",
+          "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 5,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "동사형 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.choice"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "grammar-vocabulary-choice",
+          "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 6,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "어법·어휘 고르기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.correction"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "correction",
+          "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+          "layout": {
+            "fieldOrder": [
+              "passage",
+              "correction-rows"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 7,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "correction",
+          "scope": "passage-activity",
+          "title": "어색한 곳 찾기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.arrange"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "sentence-order",
+          "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+          "layout": {
+            "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+            "arrangementSlots": "forbidden",
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 8,
+          "pagination": {
+            "hardMaximum": 6,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 6,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "순서 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.paragraphOrder"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "paragraph-order",
+          "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "fixed-intro",
+              "shuffled-blocks",
+              "fixed-outro",
+              "sequence-slots"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 9,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "paragraph-order",
+          "scope": "passage-activity",
+          "title": "문단 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.writing",
+            "sentences[].display|source"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "composition",
+          "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "studentEnglishSkeleton": "forbidden",
+            "vocabularyColoring": false
+          },
+          "number": 10,
+          "pagination": {
+            "hardMaximum": 8,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 8,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "영작 연습하기"
+        }
+      ],
+      "paginationContract": {
+        "continuationPageMinimumItems": 2,
+        "forbidden": [
+          "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+          "legacy 흐름 or 뜻 작성 columns",
+          "content crossing the page footer",
+          "content from one page overlapping the next page",
+          "clipped text",
+          "a singleton continuation page that can be avoided within the stage hard maximum",
+          "renumbering a new part from one"
+        ],
+        "layoutPreference": "vertical",
+        "numbering": "continuous-original-sentence-number",
+        "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+        "partLabel": "inclusive-original-sentence-number-range",
+        "readingLayout": "allowed-only-after-explicit-user-request",
+        "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+        "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+        "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+        "visualFitOverridesTargetCount": true
+      },
+      "principles": {
+        "canonicalDataContainsHtml": false,
+        "logicalStageCount": 10,
+        "publishOnlyAfterAllChecksPass": true,
+        "singleContentSource": true,
+        "studentAndAnswerShareExerciseStructure": true,
+        "studentProjectionSource": "answer-edition-after-browser-measured-all-solution-layouts",
+        "uncertainSourcePolicy": "stop-and-request-clearer-source"
+      },
+      "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+      "releaseContract": {
+        "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+        "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+        "filenames": [
+          "문제.html",
+          "문제.pdf",
+          "해설.html",
+          "해설.pdf"
+        ],
+        "finalHtmlDependencies": "self-contained",
+        "outputRoot": "outputs",
+        "previewFixture": "one-shared-canonical-fixture",
+        "publish": "atomic-after-all-gates-pass",
+        "stagingRoot": ".build/releases",
+        "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture"
+      },
+      "semanticRubric": "docs/semantic-rubric.md",
+      "specVersion": "1.0.6",
+      "updates": {
+        "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+        "allowedScopes": [
+          "new-only",
+          "all",
+          "selected",
+          "manual-review"
+        ],
+        "changelogPath": "CHANGELOG.md",
+        "defaultScope": "new-only",
+        "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+        "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+        "reportRequired": true,
+        "requiredImpactDimensions": [
+          "canonical fields",
+          "stage numbers",
+          "sentence or activity ids",
+          "student and answer editions",
+          "page count and part ranges",
+          "component versions"
+        ],
+        "requiredReportSections": [
+          "요약",
+          "요청 내용",
+          "직접 변경",
+          "파생 변경",
+          "영향 없음",
+          "파일 변경",
+          "출력 변화",
+          "검증 결과",
+          "호환성",
+          "버전"
+        ],
+        "versionBump": {
+          "backward-compatible field or stage capability": "minor",
+          "breaking schema or canonical semantics": "major",
+          "bug fix, validation strengthening or copy correction": "patch"
+        }
+      },
+      "validationGates": {
+        "canonical": [
+          "JSON Schema passes",
+          "sourceStatus.status is confirmed",
+          "sentence ids and numbers are unique, consecutive and aligned",
+          "meaning segment English joined with one space equals display or source",
+          "every meaning segment has one-to-one English and Korean text",
+          "all target anchors resolve exactly at their declared occurrence",
+          "choice options contain the correct target exactly once",
+          "arrange chunks in canonical order reconstruct display or source exactly",
+          "arrange displayOrder contains every chunk id exactly once",
+          "paragraph displayOrder contains every block id exactly once",
+          "correction targets restore their base excerpt exactly",
+          "vocabulary and predicate annotations resolve inside their meaning segment"
+        ],
+        "compiled": [
+          "exactly ten logical stages appear in fixed order",
+          "sentence stages contain exactly one item for every source sentence",
+          "all part ranges are complete, consecutive and match item numbers",
+          "student and answer exercise structures are identical",
+          "every non-writing solution-slot position, width, and height is copied from the browser-measured answer edition before solution text is removed",
+          "student response-line positions, widths, and heights are copied from the browser-measured answer edition before solution text is removed",
+          "student writing areas do not draw replacement guide lines after the answer text is removed",
+          "student edition exposes no solution values",
+          "every bank, target and slot cardinality is internally consistent",
+          "stage 10 student edition contains no English skeleton"
+        ],
+        "release": [
+          "problem HTML exists",
+          "problem PDF exists",
+          "answer HTML exists",
+          "answer PDF exists",
+          "build manifest records all component versions and applied updates",
+          "update report exists when an update id is applied"
+        ],
+        "rendered": [
+          "document fonts and images are ready",
+          "browser console and page errors are empty",
+          "data-render-validation is exactly ok",
+          "no unresolved template placeholder remains",
+          "no preview fixture data remains in final HTML",
+          "no page or footer overflow exists under print media",
+          "answer red is present only on solution-value nodes",
+          "every student and answer non-writing solution-slot has matching page-relative left, top, width, and height within 0.75px",
+          "every student and answer writing response box and answer-line trace matches within 0.75px",
+          "representative and risk pages pass visual review"
+        ]
+      },
+      "vocabularyContract": {
+        "allowedStageNumbers": [
+          1
+        ],
+        "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+        "maximumPerSentence": 3,
+        "redSlotForbidden": true,
+        "rendererClasses": {
+          "english": "vocab vocab-{slot} gloss",
+          "korean": "vocab vocab-{slot}"
+        },
+        "sameEnglishAndKoreanSlot": true,
+        "slots": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "specVersion": "1.0.6"
+  },
+  "template": {
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+        "size": 29359
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "sha256": "25a21d18af7ee1100e7a4d0023af1175140e82dd2cce2a246d0fcd5ece2411ee",
+        "size": 42558
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+        "size": 1212
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "sha256": "ceab51f4246462f507a1de7c6aea850fb577113c37e74b4d98a645f23744a330",
+        "size": 15185
+      }
+    ],
+    "rendererContract": "shared-dom-explicit-targets-fail-closed",
+    "templateVersion": "1.0.4"
+  }
+}

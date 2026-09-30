@@ -1,0 +1,28 @@
+{
+  "$schema": "../schemas/update.schema.json",
+  "id": "U-20260711-002",
+  "title": "Soccer Jersey Swap 10단계 워크북 신규 등록",
+  "date": "2026-07-11",
+  "summary": "제공된 시험 지문 이미지를 단일 canonical 정본으로 전사하고 학생용·해설용 10단계 워크북을 생성합니다.",
+  "category": "new-content",
+  "applyTo": "new-only",
+  "selectedWorkbooks": ["soccer-jersey-swap"],
+  "affectedStages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "request": "Soccer Jersey Swap 지문으로 10단계 워크북 제작을 시작합니다.",
+  "directChanges": {
+    "files": [
+      "config/versions.json",
+      "workbook_engine/templates/workbook.css",
+      "workbook_engine/templates/renderer.js",
+      "updates/U-20260711-002.json",
+      "workbooks/soccer-jersey-swap/content.json"
+    ],
+    "jsonPaths": [
+      {"manifest": "canonical", "path": "$"}
+    ]
+  },
+  "verification": [
+    {"name": "source-transcription", "status": "pass", "details": "이미지의 14개 문장을 정본에 보존합니다."},
+    {"name": "release-validation", "status": "skipped", "details": "canonical 작성 후 실행합니다."}
+  ]
+}

@@ -1,0 +1,3004 @@
+{
+  "build": {
+    "appliedUpdates": [
+      "U-20260908-018"
+    ],
+    "buildVersion": "1.0.0",
+    "builtAt": "2026-09-08T15:33:36+09:00",
+    "canonicalDigest": "b4ec472f823fd3905fd596cfc1c66543ff874d78c2dcc549e965417dfbcb1814",
+    "compilerVersion": "1.0.7",
+    "contentVersion": "1.0.0",
+    "engineDigest": "755fa39f2f38e0c481da489f7b37fc92110b71ae3cf018dda83004df187ac114",
+    "engineInputs": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      }
+    ],
+    "files": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      },
+      {
+        "path": "문제.html",
+        "sha256": "b453302cfeee862970f98188afeccb963e82dd06bd715952d6662f648e61ffae",
+        "size": 146250
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "78ce3ec7e25e5e646724499ba01e069f19900e7a789cb7ae193b1c4179c973f6",
+        "size": 618822
+      },
+      {
+        "path": "해설.html",
+        "sha256": "0950639338ead1504fbd8cc1e3837aa05173af58ec4cd64da6b51b65cbbbfe51",
+        "size": 156316
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "b7d6903f5ad362a0eca5823ce8d9996e0407f4f25fd4d5bc13217459b4484a5c",
+        "size": 770156
+      }
+    ],
+    "outputs": [
+      {
+        "path": "문제.html",
+        "sha256": "b453302cfeee862970f98188afeccb963e82dd06bd715952d6662f648e61ffae",
+        "size": 146250
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "78ce3ec7e25e5e646724499ba01e069f19900e7a789cb7ae193b1c4179c973f6",
+        "size": 618822
+      },
+      {
+        "path": "해설.html",
+        "sha256": "0950639338ead1504fbd8cc1e3837aa05173af58ec4cd64da6b51b65cbbbfe51",
+        "size": 156316
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "b7d6903f5ad362a0eca5823ce8d9996e0407f4f25fd4d5bc13217459b4484a5c",
+        "size": 770156
+      }
+    ],
+    "pages": [
+      {
+        "digest": "577352523003c50762db08c22a0f085005dd164f4425de2923e7ff41df3d0ab1",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q34-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q34-p01",
+        "part": "1-9",
+        "stageId": "1"
+      },
+      {
+        "digest": "3fad7fab813a28c4087618ab89ff9b431048da1ff9ab94a7b5b39f41949b948e",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q34-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q34-p02",
+        "part": "1-9",
+        "stageId": "2"
+      },
+      {
+        "digest": "3ba48719a9521cf17d2bd8d8e17575f085f608ceb5608976ffa3a9d5488fb955",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q34-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q34-p03",
+        "part": "1-9",
+        "stageId": "3"
+      },
+      {
+        "digest": "200e50cc06564a898602abc2fc65d1ed4a1a5f5633fa85582064f34a000689c4",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q34-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q34-p04",
+        "part": "1-9",
+        "stageId": "4"
+      },
+      {
+        "digest": "e494e65507cfadb3cabfea81c44c37cfa8d4bb0decb1aec2b2c5e7bf0af189b0",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q34-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q34-p05",
+        "part": "1-9",
+        "stageId": "5"
+      },
+      {
+        "digest": "df519dfbad0d6683d027b375f8164210515dcaee319bc9636a18d799bb5510a9",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q34-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q34-p06",
+        "part": "1-9",
+        "stageId": "6"
+      },
+      {
+        "digest": "1a8a233de8ea4059dcc6130f7c19849a67daf4c1f322e32e1a04e8da3c779e98",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q34-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q34-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "e5146e9b9d748c867ea388d25f4db72a9e3039819e8cd3e4eb8b4cb1e38065ae",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q34-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q34-p08",
+        "part": "1-5",
+        "stageId": "8"
+      },
+      {
+        "digest": "20e67b6fb79798fc996ea6640460ca322c384c85d7361ecbfde6a802e251cf09",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q34-p09",
+        "itemIds": [
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 9,
+        "pageId": "2026-june-grade2-q34-p09",
+        "part": "6-9",
+        "stageId": "8"
+      },
+      {
+        "digest": "31efccfeff9b3e63241b974d6f5b56b6d89ffe204e29b73600248ae3ba14ddef",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q34-p10",
+        "itemIds": [],
+        "page": 10,
+        "pageId": "2026-june-grade2-q34-p10",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "5bf8ce86082dd6f45f4a3639346930b5dc0abcbf8edbc208b5e92ba52889a3db",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q34-p11",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 11,
+        "pageId": "2026-june-grade2-q34-p11",
+        "part": "1-5",
+        "stageId": "10"
+      },
+      {
+        "digest": "9639ab901cfe5f548380c784fcfa79e6142465b9116f3c6895fbf443ff286c17",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q34-p12",
+        "itemIds": [
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 12,
+        "pageId": "2026-june-grade2-q34-p12",
+        "part": "6-9",
+        "stageId": "10"
+      },
+      {
+        "digest": "577352523003c50762db08c22a0f085005dd164f4425de2923e7ff41df3d0ab1",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q34-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q34-p01",
+        "part": "1-9",
+        "stageId": "1"
+      },
+      {
+        "digest": "6d01a4d1499ab8825bb1e4f8b294ca40a4a91c6da48af54b993d94d44eb849b9",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q34-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q34-p02",
+        "part": "1-9",
+        "stageId": "2"
+      },
+      {
+        "digest": "b88b19421311e518187a07f970c98f7a23f636d05c1abf2cb0ccade1ede50bb0",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q34-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q34-p03",
+        "part": "1-9",
+        "stageId": "3"
+      },
+      {
+        "digest": "769ede899cc79496274fed01857d3fb626d046723979658df72f5a7a1f7b0287",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q34-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q34-p04",
+        "part": "1-9",
+        "stageId": "4"
+      },
+      {
+        "digest": "fd23cc36d2a2191af9758bf332d26399fe77189b1dfd096f2943cbd278cefde1",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q34-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q34-p05",
+        "part": "1-9",
+        "stageId": "5"
+      },
+      {
+        "digest": "6fabc42da56bb4a11e8248dc7e331fd5b42c3a481d010f9c18f29ef63e594130",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q34-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q34-p06",
+        "part": "1-9",
+        "stageId": "6"
+      },
+      {
+        "digest": "14c7d9089bcf17fa0f1ef89ae0fa432627810a5f75541bf1d0d02bfa7c7dd0ea",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q34-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q34-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "c78c8f1471583896955fcb0ea089a813c752df5d9e3e11ebcc698b2284b8f997",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q34-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q34-p08",
+        "part": "1-5",
+        "stageId": "8"
+      },
+      {
+        "digest": "0acf48a8b2e0fece210c3940031b82473aa204b9fc42c85caa5d984607d21abe",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q34-p09",
+        "itemIds": [
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 9,
+        "pageId": "2026-june-grade2-q34-p09",
+        "part": "6-9",
+        "stageId": "8"
+      },
+      {
+        "digest": "906ed845b3702e3b78db24f8f328e51545ab96385d463072f935c82895013105",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q34-p10",
+        "itemIds": [],
+        "page": 10,
+        "pageId": "2026-june-grade2-q34-p10",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "22d9574ac6d908e47d62a9f0e8805aa39dc3e60dc26f2e6f2b3a2e4eab2786d8",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q34-p11",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 11,
+        "pageId": "2026-june-grade2-q34-p11",
+        "part": "1-5",
+        "stageId": "10"
+      },
+      {
+        "digest": "a60933a122a2fb8cb249345261578da1c8d8f009338d015a37822e901cbac240",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q34-p12",
+        "itemIds": [
+          "s006",
+          "s007",
+          "s008",
+          "s009"
+        ],
+        "page": 12,
+        "pageId": "2026-june-grade2-q34-p12",
+        "part": "6-9",
+        "stageId": "10"
+      }
+    ],
+    "qa": {
+      "contactSheets": [
+        "qa/samples/student-contact-sheet.png",
+        "qa/samples/answer-contact-sheet.png"
+      ],
+      "dom": {
+        "answer": {
+          "pages": 12,
+          "solutions": 94
+        },
+        "matchedResponseBoxCount": 27,
+        "matchedResponseLineCount": 33,
+        "matchedSolutionSlotCount": 75,
+        "sharedTargetSlotCount": 102,
+        "student": {
+          "pages": 12,
+          "solutions": 0
+        }
+      },
+      "pdf": {
+        "answerPages": 12,
+        "studentPages": 12
+      },
+      "status": "passed",
+      "visualSamples": [
+        "qa/samples/student-p01.png",
+        "qa/samples/student-p02.png",
+        "qa/samples/student-p03.png",
+        "qa/samples/student-p04.png",
+        "qa/samples/student-p05.png",
+        "qa/samples/student-p06.png",
+        "qa/samples/student-p07.png",
+        "qa/samples/student-p08.png",
+        "qa/samples/student-p10.png",
+        "qa/samples/student-p11.png",
+        "qa/samples/student-p12.png",
+        "qa/samples/answer-p01.png",
+        "qa/samples/answer-p02.png",
+        "qa/samples/answer-p03.png",
+        "qa/samples/answer-p04.png",
+        "qa/samples/answer-p05.png",
+        "qa/samples/answer-p06.png",
+        "qa/samples/answer-p07.png",
+        "qa/samples/answer-p08.png",
+        "qa/samples/answer-p10.png",
+        "qa/samples/answer-p11.png",
+        "qa/samples/answer-p12.png"
+      ]
+    },
+    "reportFormatVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "semanticRubricVersion": "1.0.0",
+    "sourceDigest": "fa34b2ae7e4cfb5858ca3e376bcfa39e41abe17bee65e595cc4f150133554216",
+    "specVersion": "1.0.6",
+    "templateVersion": "1.0.4",
+    "validationStatus": "passed",
+    "visualReview": {
+      "notes": "학생용·해설용 12쪽 전체 contact sheet와 7단계 상세 페이지를 확인했습니다. 1단계와 다음 part, 2·3단계 빈칸, 4·8·10단계 작성 영역, 7단계 교정 색상, 9단계 문단 순서, 마지막 페이지와 푸터에 잘림·겹침·정답 누출이 없고 문제·해설 target 배치가 일치합니다.",
+      "reviewedAt": "2026-09-08T15:35:26+09:00",
+      "reviewer": "Codex",
+      "status": "passed"
+    },
+    "workbookId": "2026-june-grade2-q34"
+  },
+  "bundleVersion": 1,
+  "canonical": {
+    "canonical": {
+      "$schema": "../../schemas/canonical-workbook.schema.json",
+      "contentVersion": "1.0.0",
+      "metadata": {
+        "grade": "고등학교 2학년",
+        "kicker": "High School Reading",
+        "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 34번",
+        "sourceLanguage": "en",
+        "targetLanguage": "ko",
+        "title": "2026학년도 6월 고2 34번 10단계 워크북",
+        "topic": "높은 도심 토지 비용을 피하는 길거리 판매상의 공간 대체 전략"
+      },
+      "passageActivities": {
+        "correction": [
+          {
+            "id": "correction-01",
+            "targets": [
+              {
+                "correct": "The high price of land in metropolitan areas has implications",
+                "id": "correction-01-01",
+                "incorrect": "The high price of land in metropolitan areas have implications",
+                "target": {
+                  "occurrence": 1,
+                  "text": "The high price of land in metropolitan areas have implications"
+                }
+              },
+              {
+                "correct": "carts sell",
+                "id": "correction-01-02",
+                "incorrect": "carts sells",
+                "target": {
+                  "occurrence": 1,
+                  "text": "carts sells"
+                }
+              },
+              {
+                "correct": "Why are these carts",
+                "id": "correction-01-03",
+                "incorrect": "Why is these carts",
+                "target": {
+                  "occurrence": 1,
+                  "text": "Why is these carts"
+                }
+              },
+              {
+                "correct": "suppose is most expensive",
+                "id": "correction-01-04",
+                "incorrect": "suppose are most expensive",
+                "target": {
+                  "occurrence": 1,
+                  "text": "suppose are most expensive"
+                }
+              },
+              {
+                "correct": "Retail space along Madison Avenue rents",
+                "id": "correction-01-05",
+                "incorrect": "Retail space along Madison Avenue rent",
+                "target": {
+                  "occurrence": 1,
+                  "text": "Retail space along Madison Avenue rent"
+                }
+              },
+              {
+                "correct": "cart requires",
+                "id": "correction-01-06",
+                "incorrect": "cart require",
+                "target": {
+                  "occurrence": 1,
+                  "text": "cart require"
+                }
+              },
+              {
+                "correct": "sidewalk is free",
+                "id": "correction-01-07",
+                "incorrect": "sidewalk are free",
+                "target": {
+                  "occurrence": 1,
+                  "text": "sidewalk are free"
+                }
+              },
+              {
+                "correct": "substitute public sidewalks for costly commercial space",
+                "id": "correction-01-08",
+                "incorrect": "substitute costly commercial space for public sidewalks",
+                "target": {
+                  "occurrence": 1,
+                  "text": "substitute costly commercial space for public sidewalks"
+                }
+              }
+            ],
+            "textOverride": "The high price of land in metropolitan areas have implications for the efficient employment of resources. For example, in New York City, as in many large cities, sidewalk vending carts sells everything from hot dogs to ice cream. Why is these carts so popular, with over 3,000 in New York City alone? Consider the resources used to supply hot dogs: land, labor, capital, entrepreneurial ability, plus intermediate goods such as hot dogs, buns, and other ingredients. Which of these do you suppose are most expensive in New York City? Retail space along Madison Avenue rent for an average of $550 a year per square foot. Because operating a hot dog cart require about 4 square yards, it could cost as much as $20,000 a year to rent that much commercial space. Aside from the necessary public permits, however, space on the public sidewalk are free to vendors. Profit-maximizing street vendors substitute costly commercial space for public sidewalks."
+          }
+        ],
+        "paragraphOrder": [
+          {
+            "answerOrder": [
+              "A",
+              "B",
+              "C"
+            ],
+            "blocks": [
+              {
+                "id": "A",
+                "sentenceIds": [
+                  "s001",
+                  "s002",
+                  "s003"
+                ]
+              },
+              {
+                "id": "B",
+                "sentenceIds": [
+                  "s004",
+                  "s005",
+                  "s006"
+                ]
+              },
+              {
+                "id": "C",
+                "sentenceIds": [
+                  "s007",
+                  "s008",
+                  "s009"
+                ]
+              }
+            ],
+            "displayOrder": [
+              "B",
+              "C",
+              "A"
+            ],
+            "id": "paragraph-order-01"
+          }
+        ]
+      },
+      "schemaVersion": "1.0.0",
+      "sentences": [
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "has implications"
+                  }
+                ],
+                "id": "s001-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "영향을 미친다"
+                  }
+                ],
+                "segmentId": "s001-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "metropolitan areas"
+                },
+                "id": "s001-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "대도시 지역"
+                },
+                "meaning": "큰 도시와 그 주변 지역",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s001-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "employment of resources"
+                },
+                "id": "s001-m04-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "자원의 효율적 활용"
+                },
+                "meaning": "자원을 목적에 맞게 사용하는 것",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s001-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s001-a",
+                  "text": "The high price of land in metropolitan areas"
+                },
+                {
+                  "id": "s001-b",
+                  "text": "has implications"
+                },
+                {
+                  "id": "s001-c",
+                  "text": "for the efficient employment of resources."
+                }
+              ],
+              "displayOrder": [
+                "s001-b",
+                "s001-c",
+                "s001-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s001-choice-01",
+                  "options": [
+                    "efficient employment",
+                    "wasteful use"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "efficient employment"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s001-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "high price of land"
+                  }
+                },
+                {
+                  "id": "s001-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "efficient employment of resources"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s001-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "대도시 지역의 높은 토지 가격"
+                  }
+                },
+                {
+                  "id": "s001-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "자원의 효율적 활용"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "have implications",
+                  "id": "s001-verb-01",
+                  "lemma": "have",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "has implications"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "high price of land",
+                "metropolitan areas",
+                "have implications",
+                "efficient employment",
+                "resources"
+              ]
+            }
+          },
+          "id": "s001",
+          "meaningSegments": [
+            {
+              "en": "The high price of land",
+              "id": "s001-m01",
+              "ko": "높은 토지 가격은"
+            },
+            {
+              "en": "in metropolitan areas",
+              "id": "s001-m02",
+              "ko": "대도시 지역의"
+            },
+            {
+              "en": "has implications",
+              "id": "s001-m03",
+              "ko": "영향을 미친다"
+            },
+            {
+              "en": "for the efficient employment of resources.",
+              "id": "s001-m04",
+              "ko": "자원의 효율적 활용에."
+            }
+          ],
+          "no": 1,
+          "source": "The high price of land in metropolitan areas has implications for the efficient employment of resources.",
+          "translation": "대도시 지역의 높은 토지 가격은 자원의 효율적 활용에 영향을 미친다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "sell"
+                  }
+                ],
+                "id": "s002-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "판다"
+                  }
+                ],
+                "segmentId": "s002-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "sidewalk vending carts"
+                },
+                "id": "s002-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "길거리 판매 수레"
+                },
+                "meaning": "보도에서 물건을 파는 이동식 수레",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s002-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s002-a",
+                  "text": "For example, in New York City,"
+                },
+                {
+                  "id": "s002-b",
+                  "text": "as in many large cities,"
+                },
+                {
+                  "id": "s002-c",
+                  "text": "sidewalk vending carts sell everything"
+                },
+                {
+                  "id": "s002-d",
+                  "text": "from hot dogs to ice cream."
+                }
+              ],
+              "displayOrder": [
+                "s002-c",
+                "s002-a",
+                "s002-d",
+                "s002-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s002-choice-01",
+                  "options": [
+                    "everything",
+                    "nothing"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "everything"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s002-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "sidewalk vending carts"
+                  }
+                },
+                {
+                  "id": "s002-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "from hot dogs to ice cream"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s002-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "길거리 판매 수레"
+                  }
+                },
+                {
+                  "id": "s002-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "핫도그부터 아이스크림까지"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "sell",
+                  "id": "s002-verb-01",
+                  "lemma": "sell",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "sell"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "for example",
+                "New York City",
+                "many large cities",
+                "sidewalk vending carts",
+                "sell everything",
+                "from A to B"
+              ]
+            }
+          },
+          "id": "s002",
+          "meaningSegments": [
+            {
+              "en": "For example, in New York City,",
+              "id": "s002-m01",
+              "ko": "예를 들어 뉴욕시에서는,"
+            },
+            {
+              "en": "as in many large cities,",
+              "id": "s002-m02",
+              "ko": "다른 많은 대도시에서처럼,"
+            },
+            {
+              "en": "sidewalk vending carts sell everything",
+              "id": "s002-m03",
+              "ko": "길거리 판매 수레가 모든 것을 판다"
+            },
+            {
+              "en": "from hot dogs to ice cream.",
+              "id": "s002-m04",
+              "ko": "핫도그부터 아이스크림까지."
+            }
+          ],
+          "no": 2,
+          "source": "For example, in New York City, as in many large cities, sidewalk vending carts sell everything from hot dogs to ice cream.",
+          "translation": "예를 들어 뉴욕시는 다른 많은 대도시처럼 길거리 판매 수레에서 핫도그부터 아이스크림까지 모든 것을 판다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "popular"
+                  }
+                ],
+                "id": "s003-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "인기가 있는가"
+                  }
+                ],
+                "segmentId": "s003-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "over 3,000"
+                },
+                "id": "s003-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "3,000대가 넘는"
+                },
+                "meaning": "3,000대를 초과하는",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s003-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s003-a",
+                  "text": "Why are these carts so popular,"
+                },
+                {
+                  "id": "s003-b",
+                  "text": "with over 3,000"
+                },
+                {
+                  "id": "s003-c",
+                  "text": "in New York City alone?"
+                }
+              ],
+              "displayOrder": [
+                "s003-b",
+                "s003-c",
+                "s003-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s003-choice-01",
+                  "options": [
+                    "over 3,000",
+                    "fewer than 30"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "over 3,000"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s003-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "so popular"
+                  }
+                },
+                {
+                  "id": "s003-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "in New York City alone"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s003-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "뉴욕시에만"
+                  }
+                },
+                {
+                  "id": "s003-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "3,000대가 넘을 정도로"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be popular",
+                  "id": "s003-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are these carts so popular"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "why",
+                "these carts",
+                "so popular",
+                "over 3,000",
+                "New York City alone"
+              ]
+            }
+          },
+          "id": "s003",
+          "meaningSegments": [
+            {
+              "en": "Why are these carts so popular,",
+              "id": "s003-m01",
+              "ko": "왜 이 수레들은 그렇게 인기가 있는가,"
+            },
+            {
+              "en": "with over 3,000",
+              "id": "s003-m02",
+              "ko": "3,000대가 넘는 가운데"
+            },
+            {
+              "en": "in New York City alone?",
+              "id": "s003-m03",
+              "ko": "뉴욕시에만?"
+            }
+          ],
+          "no": 3,
+          "source": "Why are these carts so popular, with over 3,000 in New York City alone?",
+          "translation": "왜 이 수레들은 뉴욕시에만 3,000대가 넘을 정도로 인기가 있는가?"
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "Consider"
+                  }
+                ],
+                "id": "s004-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "생각해 보라"
+                  }
+                ],
+                "segmentId": "s004-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "entrepreneurial ability"
+                },
+                "id": "s004-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "기업가적 능력"
+                },
+                "meaning": "사업 기회를 찾고 운영하는 능력",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s004-m03"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "intermediate goods"
+                },
+                "id": "s004-m04-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "중간재"
+                },
+                "meaning": "다른 상품 생산에 투입되는 재화",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s004-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s004-a",
+                  "text": "Consider the resources used to supply hot dogs:"
+                },
+                {
+                  "id": "s004-b",
+                  "text": "land, labor, capital, entrepreneurial ability,"
+                },
+                {
+                  "id": "s004-c",
+                  "text": "plus intermediate goods"
+                },
+                {
+                  "id": "s004-d",
+                  "text": "such as hot dogs, buns, and other ingredients."
+                }
+              ],
+              "displayOrder": [
+                "s004-b",
+                "s004-d",
+                "s004-a",
+                "s004-c"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s004-choice-01",
+                  "options": [
+                    "intermediate goods",
+                    "final consumers"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "intermediate goods"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s004-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "entrepreneurial ability"
+                  }
+                },
+                {
+                  "id": "s004-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "intermediate goods"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s004-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "기업가적 능력"
+                  }
+                },
+                {
+                  "id": "s004-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "중간재"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "consider",
+                  "id": "s004-verb-01",
+                  "lemma": "consider",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Consider"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "consider",
+                "resources",
+                "supply hot dogs",
+                "land and labor",
+                "entrepreneurial ability",
+                "intermediate goods"
+              ]
+            }
+          },
+          "id": "s004",
+          "meaningSegments": [
+            {
+              "en": "Consider the resources",
+              "id": "s004-m01",
+              "ko": "자원을 생각해 보라"
+            },
+            {
+              "en": "used to supply hot dogs:",
+              "id": "s004-m02",
+              "ko": "핫도그를 공급하는 데 사용되는:"
+            },
+            {
+              "en": "land, labor, capital, entrepreneurial ability,",
+              "id": "s004-m03",
+              "ko": "토지, 노동, 자본, 기업가적 능력,"
+            },
+            {
+              "en": "plus intermediate goods",
+              "id": "s004-m04",
+              "ko": "그리고 중간재를"
+            },
+            {
+              "en": "such as hot dogs, buns, and other ingredients.",
+              "id": "s004-m05",
+              "ko": "핫도그, 빵, 기타 재료 같은."
+            }
+          ],
+          "no": 4,
+          "source": "Consider the resources used to supply hot dogs: land, labor, capital, entrepreneurial ability, plus intermediate goods such as hot dogs, buns, and other ingredients.",
+          "translation": "핫도그를 공급하는 데 사용되는 자원을 생각해 보라. 토지, 노동, 자본, 기업가적 능력, 그리고 핫도그, 빵, 기타 재료 같은 중간재가 있다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "do"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "suppose"
+                  }
+                ],
+                "id": "s005-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "생각하는가"
+                  }
+                ],
+                "segmentId": "s005-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s005-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "비싸다고"
+                  }
+                ],
+                "segmentId": "s005-m02"
+              }
+            ],
+            "vocabulary": []
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s005-a",
+                  "text": "Which of these do you suppose"
+                },
+                {
+                  "id": "s005-b",
+                  "text": "is most expensive"
+                },
+                {
+                  "id": "s005-c",
+                  "text": "in New York City?"
+                }
+              ],
+              "displayOrder": [
+                "s005-c",
+                "s005-a",
+                "s005-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s005-choice-01",
+                  "options": [
+                    "most expensive",
+                    "least expensive"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "most expensive"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s005-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Which of these"
+                  }
+                },
+                {
+                  "id": "s005-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "most expensive"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s005-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "이들 중 무엇이"
+                  }
+                },
+                {
+                  "id": "s005-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "가장 비싸다고"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "suppose",
+                  "id": "s005-verb-01",
+                  "lemma": "suppose",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "do you suppose"
+                  }
+                },
+                {
+                  "cue": "be expensive",
+                  "id": "s005-verb-02",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is most expensive"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "which of these",
+                "suppose",
+                "most expensive",
+                "New York City"
+              ]
+            }
+          },
+          "id": "s005",
+          "meaningSegments": [
+            {
+              "en": "Which of these do you suppose",
+              "id": "s005-m01",
+              "ko": "이들 중 무엇이라고 생각하는가"
+            },
+            {
+              "en": "is most expensive",
+              "id": "s005-m02",
+              "ko": "가장 비싸다고"
+            },
+            {
+              "en": "in New York City?",
+              "id": "s005-m03",
+              "ko": "뉴욕시에서?"
+            }
+          ],
+          "no": 5,
+          "source": "Which of these do you suppose is most expensive in New York City?",
+          "translation": "이들 중 무엇이 뉴욕시에서 가장 비싸다고 생각하는가?"
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "rents"
+                  }
+                ],
+                "id": "s006-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "임대된다"
+                  }
+                ],
+                "segmentId": "s006-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Retail space"
+                },
+                "id": "s006-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "소매 공간"
+                },
+                "meaning": "상품을 소비자에게 파는 상업 공간",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s006-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "per square foot"
+                },
+                "id": "s006-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "제곱피트당"
+                },
+                "meaning": "면적 1제곱피트마다",
+                "reasons": [
+                  "technical",
+                  "topic-core"
+                ],
+                "segmentId": "s006-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s006-a",
+                  "text": "Retail space along Madison Avenue rents"
+                },
+                {
+                  "id": "s006-b",
+                  "text": "for an average of $550 a year"
+                },
+                {
+                  "id": "s006-c",
+                  "text": "per square foot."
+                }
+              ],
+              "displayOrder": [
+                "s006-b",
+                "s006-c",
+                "s006-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s006-choice-01",
+                  "options": [
+                    "$550",
+                    "$55"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "$550"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s006-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "an average of $550 a year"
+                  }
+                },
+                {
+                  "id": "s006-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "per square foot"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s006-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "제곱피트당"
+                  }
+                },
+                {
+                  "id": "s006-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "연평균 550달러"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "rent",
+                  "id": "s006-verb-01",
+                  "lemma": "rent",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "rents"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "retail space",
+                "Madison Avenue",
+                "rent",
+                "average",
+                "$550 a year",
+                "per square foot"
+              ]
+            }
+          },
+          "id": "s006",
+          "meaningSegments": [
+            {
+              "en": "Retail space along Madison Avenue rents",
+              "id": "s006-m01",
+              "ko": "매디슨 애비뉴의 소매 공간은 임대된다"
+            },
+            {
+              "en": "for an average of $550 a year",
+              "id": "s006-m02",
+              "ko": "연평균 550달러에"
+            },
+            {
+              "en": "per square foot.",
+              "id": "s006-m03",
+              "ko": "제곱피트당."
+            }
+          ],
+          "no": 6,
+          "source": "Retail space along Madison Avenue rents for an average of $550 a year per square foot.",
+          "translation": "매디슨 애비뉴의 소매 공간은 제곱피트당 연평균 550달러에 임대된다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "requires"
+                  }
+                ],
+                "id": "s007-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "필요하므로"
+                  }
+                ],
+                "segmentId": "s007-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "could cost"
+                  }
+                ],
+                "id": "s007-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "들 수 있다"
+                  }
+                ],
+                "segmentId": "s007-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "commercial space"
+                },
+                "id": "s007-m04-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "상업 공간"
+                },
+                "meaning": "사업 활동에 사용하는 공간",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s007-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s007-a",
+                  "text": "Because operating a hot dog cart requires about 4 square yards,"
+                },
+                {
+                  "id": "s007-b",
+                  "text": "it could cost as much as $20,000 a year"
+                },
+                {
+                  "id": "s007-c",
+                  "text": "to rent that much commercial space."
+                }
+              ],
+              "displayOrder": [
+                "s007-b",
+                "s007-c",
+                "s007-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s007-choice-01",
+                  "options": [
+                    "as much as $20,000",
+                    "no more than $200"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "as much as $20,000"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s007-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "requires about 4 square yards"
+                  }
+                },
+                {
+                  "id": "s007-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "as much as $20,000 a year"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s007-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "약 4제곱야드"
+                  }
+                },
+                {
+                  "id": "s007-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "연간 2만 달러까지"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "require",
+                  "id": "s007-verb-01",
+                  "lemma": "require",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "requires"
+                  }
+                },
+                {
+                  "cue": "cost",
+                  "id": "s007-verb-02",
+                  "lemma": "cost",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "could cost"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "operate a hot dog cart",
+                "require",
+                "4 square yards",
+                "cost",
+                "$20,000 a year",
+                "rent commercial space"
+              ]
+            }
+          },
+          "id": "s007",
+          "meaningSegments": [
+            {
+              "en": "Because operating a hot dog cart requires",
+              "id": "s007-m01",
+              "ko": "핫도그 수레를 운영하는 데 필요하므로"
+            },
+            {
+              "en": "about 4 square yards,",
+              "id": "s007-m02",
+              "ko": "약 4제곱야드가,"
+            },
+            {
+              "en": "it could cost as much as $20,000 a year",
+              "id": "s007-m03",
+              "ko": "연간 2만 달러까지 들 수 있다"
+            },
+            {
+              "en": "to rent that much commercial space.",
+              "id": "s007-m04",
+              "ko": "그만큼의 상업 공간을 임대하는 데."
+            }
+          ],
+          "no": 7,
+          "source": "Because operating a hot dog cart requires about 4 square yards, it could cost as much as $20,000 a year to rent that much commercial space.",
+          "translation": "핫도그 수레를 운영하는 데 약 4제곱야드가 필요하므로, 그만큼의 상업 공간을 임대하는 데 연간 2만 달러까지 들 수 있다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is free"
+                  }
+                ],
+                "id": "s008-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "무료이다"
+                  }
+                ],
+                "segmentId": "s008-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "permits"
+                },
+                "id": "s008-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "허가"
+                },
+                "meaning": "공공기관이 내주는 공식 승인",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s008-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "vendors"
+                },
+                "id": "s008-m04-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "판매상"
+                },
+                "meaning": "물건을 파는 사람들",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s008-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s008-a",
+                  "text": "Aside from the necessary public permits,"
+                },
+                {
+                  "id": "s008-b",
+                  "text": "however, space on the public sidewalk"
+                },
+                {
+                  "id": "s008-c",
+                  "text": "is free to vendors."
+                }
+              ],
+              "displayOrder": [
+                "s008-b",
+                "s008-c",
+                "s008-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s008-choice-01",
+                  "options": [
+                    "free",
+                    "costly"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "free"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s008-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Aside from the necessary public permits"
+                  }
+                },
+                {
+                  "id": "s008-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is free to vendors"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s008-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "필요한 공공 허가를 제외하면"
+                  }
+                },
+                {
+                  "id": "s008-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "판매상에게 무료"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be free",
+                  "id": "s008-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is free"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "aside from",
+                "necessary public permits",
+                "however",
+                "public sidewalk",
+                "be free",
+                "vendors"
+              ]
+            }
+          },
+          "id": "s008",
+          "meaningSegments": [
+            {
+              "en": "Aside from the necessary public permits,",
+              "id": "s008-m01",
+              "ko": "필요한 공공 허가를 제외하면,"
+            },
+            {
+              "en": "however,",
+              "id": "s008-m02",
+              "ko": "그러나,"
+            },
+            {
+              "en": "space on the public sidewalk is free",
+              "id": "s008-m03",
+              "ko": "공공 보도의 공간은 무료이다"
+            },
+            {
+              "en": "to vendors.",
+              "id": "s008-m04",
+              "ko": "판매상에게."
+            }
+          ],
+          "no": 8,
+          "source": "Aside from the necessary public permits, however, space on the public sidewalk is free to vendors.",
+          "translation": "그러나 필요한 공공 허가를 제외하면 공공 보도의 공간은 판매상에게 무료이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "substitute"
+                  }
+                ],
+                "id": "s009-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "대체한다"
+                  }
+                ],
+                "segmentId": "s009-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Profit-maximizing"
+                },
+                "id": "s009-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "이윤을 극대화하는"
+                },
+                "meaning": "가능한 한 많은 이익을 추구하는",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s009-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "costly commercial space"
+                },
+                "id": "s009-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "값비싼 상업 공간"
+                },
+                "meaning": "비용이 많이 드는 사업용 공간",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s009-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s009-a",
+                  "text": "Profit-maximizing street vendors"
+                },
+                {
+                  "id": "s009-b",
+                  "text": "substitute public sidewalks"
+                },
+                {
+                  "id": "s009-c",
+                  "text": "for costly commercial space."
+                }
+              ],
+              "displayOrder": [
+                "s009-c",
+                "s009-a",
+                "s009-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s009-choice-01",
+                  "options": [
+                    "substitute public sidewalks for costly commercial space",
+                    "depend less on public sidewalks as their business expands"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "substitute public sidewalks for costly commercial space"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s009-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Profit-maximizing street vendors"
+                  }
+                },
+                {
+                  "id": "s009-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "substitute public sidewalks for costly commercial space"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s009-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "이윤을 극대화하는 길거리 판매상"
+                  }
+                },
+                {
+                  "id": "s009-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "값비싼 상업 공간을 공공 보도로 대체한다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "substitute A for B",
+                  "id": "s009-verb-01",
+                  "lemma": "substitute",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "substitute"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "profit-maximizing",
+                "street vendors",
+                "substitute A for B",
+                "public sidewalks",
+                "costly commercial space"
+              ]
+            }
+          },
+          "id": "s009",
+          "meaningSegments": [
+            {
+              "en": "Profit-maximizing street vendors substitute",
+              "id": "s009-m01",
+              "ko": "이윤을 극대화하는 길거리 판매상들은 대체한다"
+            },
+            {
+              "en": "public sidewalks",
+              "id": "s009-m02",
+              "ko": "공공 보도를"
+            },
+            {
+              "en": "for costly commercial space.",
+              "id": "s009-m03",
+              "ko": "값비싼 상업 공간 대신."
+            }
+          ],
+          "no": 9,
+          "source": "Profit-maximizing street vendors substitute public sidewalks for costly commercial space.",
+          "translation": "이윤을 극대화하는 길거리 판매상들은 값비싼 상업 공간을 공공 보도로 대체한다."
+        }
+      ],
+      "sourceStatus": {
+        "notes": "원본 PDF 6쪽의 34번 본문, 빈칸, 선택지를 고해상도로 렌더링해 전사했습니다. 빈칸은 정답 ⑤ substitute public sidewalks for costly commercial space를 canonical 본문에 복원했습니다.",
+        "references": [
+          "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+        ],
+        "sentenceCount": 9,
+        "sourceType": "pdf",
+        "status": "confirmed",
+        "verifiedAt": "2026-09-08T10:00:00+09:00"
+      },
+      "specVersion": "1.0.6",
+      "updateState": {
+        "appliedUpdates": [
+          {
+            "appliedAt": "2026-09-08T10:05:00+09:00",
+            "fromContentVersion": "0.0.0",
+            "id": "U-20260908-018",
+            "report": "reports/updates/U-20260908-018.md",
+            "scope": "selected",
+            "toContentVersion": "1.0.0"
+          }
+        ],
+        "defaultScope": "new-only"
+      },
+      "workbookId": "2026-june-grade2-q34"
+    },
+    "contentVersion": "1.0.0",
+    "files": [
+      {
+        "path": "workbooks/2026-june-grade2-q34/content.json",
+        "sha256": "3df0c26faee3858828dea656a8130ef25db44f6e12572b918b83f03983753aca",
+        "size": 46994
+      }
+    ],
+    "workbookId": "2026-june-grade2-q34"
+  },
+  "spec": {
+    "files": [
+      {
+        "path": "config/versions.json",
+        "sha256": "5cc87ad2d4bbf7020c85dd1758306a2c645b0d9e21a21d129586b99512eff9e8",
+        "size": 1731
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "sha256": "aadb3fe161b100e3a68ecb42fab51775e9738153a04278a53b27e7172f8d8f69",
+        "size": 17021
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+        "size": 8058
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "schemaFiles": [
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "semanticRubricFile": {
+      "path": "docs/semantic-rubric.md",
+      "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+      "size": 8058
+    },
+    "semanticRubricVersion": "1.0.0",
+    "spec": {
+      "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "answerEditionContract": {
+        "answerFillClassMayAutoColor": false,
+        "choicePromptVisibleInAnswer": true,
+        "redAllowedOnlyOnSolutionValues": true,
+        "sameStageAndExerciseDomAsStudent": true,
+        "solutionClass": "solution-value",
+        "solutionColor": "#D71920",
+        "solutionInsertion": "fill-the-same-solution-slot",
+        "studentDerivation": "render answer first, lock every solution slot and writing response geometry, then remove solution values only",
+        "studentPayloadMayContainSolutions": false
+      },
+      "canonicalSchema": "schemas/canonical-workbook.schema.json",
+      "canonicalText": {
+        "baseTextOverride": {
+          "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+          "defaultStorage": "omit-baseText-and-derive-from-canonical",
+          "redundantDefaultCopy": "forbidden",
+          "requiredCompanionField": "overrideReason"
+        },
+        "displayDefault": "source",
+        "exerciseBaseTextDefaults": {
+          "choice": "display-or-source",
+          "enBlank": "display-or-source",
+          "koBlank": "translation",
+          "verb": "display-or-source"
+        },
+        "markup": "forbidden",
+        "reconstruction": {
+          "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+          "meaningSegments": "join meaningSegments[].en with one ASCII space",
+          "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+        },
+        "sourceWhitespace": "single-space-between-tokens",
+        "targetAnchor": {
+          "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다.",
+          "shape": {
+            "occurrence": "one-based occurrence in the applicable base text",
+            "text": "exact substring"
+          }
+        }
+      },
+      "contentOwnership": {
+        "authorable": [
+          "metadata",
+          "sourceStatus",
+          "sentences[].source",
+          "sentences[].display",
+          "sentences[].translation",
+          "sentences[].meaningSegments",
+          "sentences[].annotations",
+          "sentences[].exercises",
+          "passageActivities.correction",
+          "passageActivities.paragraphOrder",
+          "updateState"
+        ],
+        "derived": [
+          "stage number, title, instruction and renderer mode",
+          "item and unit numbers",
+          "part ranges and page boundaries",
+          "student and answer projections",
+          "blank, predicate, vocabulary and solution markup",
+          "answer-line height and layout classes",
+          "page count, footer number and output filenames"
+        ],
+        "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+      },
+      "logicalStages": [
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].meaningSegments",
+            "sentences[].annotations.predicates",
+            "sentences[].annotations.vocabulary"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "passage-practice",
+          "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean-inline-hint"
+            ],
+            "vocabularyColoring": true
+          },
+          "number": 1,
+          "pagination": {
+            "hardMaximum": 13,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 12,
+            "unit": "sentence"
+          },
+          "rendererMode": "meaning",
+          "scope": "sentence",
+          "title": "지문 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].exercises.koBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "korean-cloze",
+          "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 2,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (우리말)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.enBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "english-cloze",
+          "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 3,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (영문)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].translation"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "translation-practice",
+          "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 4,
+          "pagination": {
+            "hardMaximum": 11,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 10,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "해석 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.verb"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "verb-form",
+          "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 5,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "동사형 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.choice"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "grammar-vocabulary-choice",
+          "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 6,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "어법·어휘 고르기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.correction"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "correction",
+          "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+          "layout": {
+            "fieldOrder": [
+              "passage",
+              "correction-rows"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 7,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "correction",
+          "scope": "passage-activity",
+          "title": "어색한 곳 찾기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.arrange"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "sentence-order",
+          "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+          "layout": {
+            "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+            "arrangementSlots": "forbidden",
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 8,
+          "pagination": {
+            "hardMaximum": 6,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 6,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "순서 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.paragraphOrder"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "paragraph-order",
+          "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "fixed-intro",
+              "shuffled-blocks",
+              "fixed-outro",
+              "sequence-slots"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 9,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "paragraph-order",
+          "scope": "passage-activity",
+          "title": "문단 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.writing",
+            "sentences[].display|source"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "composition",
+          "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "studentEnglishSkeleton": "forbidden",
+            "vocabularyColoring": false
+          },
+          "number": 10,
+          "pagination": {
+            "hardMaximum": 8,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 8,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "영작 연습하기"
+        }
+      ],
+      "paginationContract": {
+        "continuationPageMinimumItems": 2,
+        "forbidden": [
+          "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+          "legacy 흐름 or 뜻 작성 columns",
+          "content crossing the page footer",
+          "content from one page overlapping the next page",
+          "clipped text",
+          "a singleton continuation page that can be avoided within the stage hard maximum",
+          "renumbering a new part from one"
+        ],
+        "layoutPreference": "vertical",
+        "numbering": "continuous-original-sentence-number",
+        "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+        "partLabel": "inclusive-original-sentence-number-range",
+        "readingLayout": "allowed-only-after-explicit-user-request",
+        "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+        "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+        "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+        "visualFitOverridesTargetCount": true
+      },
+      "principles": {
+        "canonicalDataContainsHtml": false,
+        "logicalStageCount": 10,
+        "publishOnlyAfterAllChecksPass": true,
+        "singleContentSource": true,
+        "studentAndAnswerShareExerciseStructure": true,
+        "studentProjectionSource": "answer-edition-after-browser-measured-all-solution-layouts",
+        "uncertainSourcePolicy": "stop-and-request-clearer-source"
+      },
+      "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+      "releaseContract": {
+        "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+        "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+        "filenames": [
+          "문제.html",
+          "문제.pdf",
+          "해설.html",
+          "해설.pdf"
+        ],
+        "finalHtmlDependencies": "self-contained",
+        "outputRoot": "outputs",
+        "previewFixture": "one-shared-canonical-fixture",
+        "publish": "atomic-after-all-gates-pass",
+        "stagingRoot": ".build/releases",
+        "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture"
+      },
+      "semanticRubric": "docs/semantic-rubric.md",
+      "specVersion": "1.0.6",
+      "updates": {
+        "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+        "allowedScopes": [
+          "new-only",
+          "all",
+          "selected",
+          "manual-review"
+        ],
+        "changelogPath": "CHANGELOG.md",
+        "defaultScope": "new-only",
+        "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+        "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+        "reportRequired": true,
+        "requiredImpactDimensions": [
+          "canonical fields",
+          "stage numbers",
+          "sentence or activity ids",
+          "student and answer editions",
+          "page count and part ranges",
+          "component versions"
+        ],
+        "requiredReportSections": [
+          "요약",
+          "요청 내용",
+          "직접 변경",
+          "파생 변경",
+          "영향 없음",
+          "파일 변경",
+          "출력 변화",
+          "검증 결과",
+          "호환성",
+          "버전"
+        ],
+        "versionBump": {
+          "backward-compatible field or stage capability": "minor",
+          "breaking schema or canonical semantics": "major",
+          "bug fix, validation strengthening or copy correction": "patch"
+        }
+      },
+      "validationGates": {
+        "canonical": [
+          "JSON Schema passes",
+          "sourceStatus.status is confirmed",
+          "sentence ids and numbers are unique, consecutive and aligned",
+          "meaning segment English joined with one space equals display or source",
+          "every meaning segment has one-to-one English and Korean text",
+          "all target anchors resolve exactly at their declared occurrence",
+          "choice options contain the correct target exactly once",
+          "arrange chunks in canonical order reconstruct display or source exactly",
+          "arrange displayOrder contains every chunk id exactly once",
+          "paragraph displayOrder contains every block id exactly once",
+          "correction targets restore their base excerpt exactly",
+          "vocabulary and predicate annotations resolve inside their meaning segment"
+        ],
+        "compiled": [
+          "exactly ten logical stages appear in fixed order",
+          "sentence stages contain exactly one item for every source sentence",
+          "all part ranges are complete, consecutive and match item numbers",
+          "student and answer exercise structures are identical",
+          "every non-writing solution-slot position, width, and height is copied from the browser-measured answer edition before solution text is removed",
+          "student response-line positions, widths, and heights are copied from the browser-measured answer edition before solution text is removed",
+          "student writing areas do not draw replacement guide lines after the answer text is removed",
+          "student edition exposes no solution values",
+          "every bank, target and slot cardinality is internally consistent",
+          "stage 10 student edition contains no English skeleton"
+        ],
+        "release": [
+          "problem HTML exists",
+          "problem PDF exists",
+          "answer HTML exists",
+          "answer PDF exists",
+          "build manifest records all component versions and applied updates",
+          "update report exists when an update id is applied"
+        ],
+        "rendered": [
+          "document fonts and images are ready",
+          "browser console and page errors are empty",
+          "data-render-validation is exactly ok",
+          "no unresolved template placeholder remains",
+          "no preview fixture data remains in final HTML",
+          "no page or footer overflow exists under print media",
+          "answer red is present only on solution-value nodes",
+          "every student and answer non-writing solution-slot has matching page-relative left, top, width, and height within 0.75px",
+          "every student and answer writing response box and answer-line trace matches within 0.75px",
+          "representative and risk pages pass visual review"
+        ]
+      },
+      "vocabularyContract": {
+        "allowedStageNumbers": [
+          1
+        ],
+        "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+        "maximumPerSentence": 3,
+        "redSlotForbidden": true,
+        "rendererClasses": {
+          "english": "vocab vocab-{slot} gloss",
+          "korean": "vocab vocab-{slot}"
+        },
+        "sameEnglishAndKoreanSlot": true,
+        "slots": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "specVersion": "1.0.6"
+  },
+  "template": {
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+        "size": 29359
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "sha256": "25a21d18af7ee1100e7a4d0023af1175140e82dd2cce2a246d0fcd5ece2411ee",
+        "size": 42558
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+        "size": 1212
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "sha256": "ceab51f4246462f507a1de7c6aea850fb577113c37e74b4d98a645f23744a330",
+        "size": 15185
+      }
+    ],
+    "rendererContract": "shared-dom-explicit-targets-fail-closed",
+    "templateVersion": "1.0.4"
+  }
+}

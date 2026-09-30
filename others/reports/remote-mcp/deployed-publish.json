@@ -1,0 +1,21 @@
+{
+  "status": "published",
+  "transport": "deployed HTTPS MCP",
+  "workspace": "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\deployed-publication-20260922",
+  "sourceBuildDir": "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-005459-771afbeb",
+  "outputDir": "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\outputs\\mcp_chocolate_remote_20260922",
+  "copiedBytesIdentical": true,
+  "files": [
+    "문제.html",
+    "문제.pdf",
+    "해설.html",
+    "해설.pdf"
+  ],
+  "release": {
+    "status": "published",
+    "outputDir": "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\deployed-publication-20260922\\outputs\\mcp_chocolate_remote_20260922",
+    "report": "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\deployed-publication-20260922\\reports\\updates\\U-20260710-001\\chocolate_reading.md",
+    "updateIndex": "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\deployed-publication-20260922\\reports\\updates\\U-20260710-001.md",
+    "manifest": "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\deployed-publication-20260922\\reports\\manifests\\chocolate_reading-build.json"
+  }
+}

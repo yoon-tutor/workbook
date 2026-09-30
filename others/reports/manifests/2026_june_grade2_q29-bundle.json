@@ -1,0 +1,3086 @@
+{
+  "build": {
+    "appliedUpdates": [
+      "U-20260901-015"
+    ],
+    "buildVersion": "1.0.0",
+    "builtAt": "2026-09-01T15:21:25+09:00",
+    "canonicalDigest": "bb84aa2ffedd12d1d704f5261e415901943192e53b1288aafb300752fcfbe09e",
+    "compilerVersion": "1.0.7",
+    "contentVersion": "1.0.0",
+    "engineDigest": "755fa39f2f38e0c481da489f7b37fc92110b71ae3cf018dda83004df187ac114",
+    "engineInputs": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      }
+    ],
+    "files": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      },
+      {
+        "path": "문제.html",
+        "sha256": "8f162c8e42b9d21c0e2db9e7a12ed2413cd4d73027de2ba04e67921d23dc97b2",
+        "size": 148836
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "afdb1dec7b162e32bbe02548fe048b1f677db42e5d362905c427200edbb9276d",
+        "size": 614671
+      },
+      {
+        "path": "해설.html",
+        "sha256": "7d049dfba3362e30fd4b2601baf93c84d755d1ee13be8f5d4cb9e336b19d1aaa",
+        "size": 159358
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "cde419bf449acb48ddc8e818bed923d3b7c7bde278805947e6b3915111ad283a",
+        "size": 754588
+      }
+    ],
+    "outputs": [
+      {
+        "path": "문제.html",
+        "sha256": "8f162c8e42b9d21c0e2db9e7a12ed2413cd4d73027de2ba04e67921d23dc97b2",
+        "size": 148836
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "afdb1dec7b162e32bbe02548fe048b1f677db42e5d362905c427200edbb9276d",
+        "size": 614671
+      },
+      {
+        "path": "해설.html",
+        "sha256": "7d049dfba3362e30fd4b2601baf93c84d755d1ee13be8f5d4cb9e336b19d1aaa",
+        "size": 159358
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "cde419bf449acb48ddc8e818bed923d3b7c7bde278805947e6b3915111ad283a",
+        "size": 754588
+      }
+    ],
+    "pages": [
+      {
+        "digest": "0bf4e0ddb56019dd24c862a62ec61d57bacb2dad18ebf7381552db056f698dd0",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q29-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q29-p01",
+        "part": "1-7",
+        "stageId": "1"
+      },
+      {
+        "digest": "cd6f1cbb52315b6bf5fade335119f75c22558d7c605d86a0a526a6fde1b564ee",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q29-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q29-p02",
+        "part": "1-7",
+        "stageId": "2"
+      },
+      {
+        "digest": "b96a08463271da3d94ba85568eb6d8b2e995c3d6e08ea83135ee28b3cdf4aa71",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q29-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q29-p03",
+        "part": "1-7",
+        "stageId": "3"
+      },
+      {
+        "digest": "114d520c662761b873ac48bf340becbb858c66da03c1a7ec387ab8a5f5662919",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q29-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q29-p04",
+        "part": "1-7",
+        "stageId": "4"
+      },
+      {
+        "digest": "609f743bf9bdb9610110199fe6ddd90edacdabf212e8fc7b7841933764425072",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q29-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q29-p05",
+        "part": "1-7",
+        "stageId": "5"
+      },
+      {
+        "digest": "53d2311abdc83385468b6837d783d9dff1a5a11ef5df1f6f33e9c056c59fc6c4",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q29-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q29-p06",
+        "part": "1-7",
+        "stageId": "6"
+      },
+      {
+        "digest": "60b326d106663af8c3e19daca6d5c1be69c5cfee9fc9b77fd715a2b736c32dfe",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q29-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q29-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "e01cb23658329eb23d9e448cb16bc34ca8bfa3e01b7617e16dea7b7ae6fb3742",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q29-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q29-p08",
+        "part": "1-4",
+        "stageId": "8"
+      },
+      {
+        "digest": "4d59f4ab8dc9af27f9bdbed0bbcdb82386cb76162e7c5ac8dbe931a7d39bd508",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q29-p09",
+        "itemIds": [
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 9,
+        "pageId": "2026-june-grade2-q29-p09",
+        "part": "5-7",
+        "stageId": "8"
+      },
+      {
+        "digest": "78e176accc085d3d1345be4aeb7de51aa836c18e12f4d87e90c101c39ba65b5f",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q29-p10",
+        "itemIds": [],
+        "page": 10,
+        "pageId": "2026-june-grade2-q29-p10",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "7d5717bd005dce991236552fb1078b5a9784e66be75b2ec69d715098fcb69f61",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q29-p11",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 11,
+        "pageId": "2026-june-grade2-q29-p11",
+        "part": "1-7",
+        "stageId": "10"
+      },
+      {
+        "digest": "0bf4e0ddb56019dd24c862a62ec61d57bacb2dad18ebf7381552db056f698dd0",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q29-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q29-p01",
+        "part": "1-7",
+        "stageId": "1"
+      },
+      {
+        "digest": "ec5439b6303ac5eebc6f2a5f6613929ccf213be682a51718e7f7d9e6b71ef068",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q29-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q29-p02",
+        "part": "1-7",
+        "stageId": "2"
+      },
+      {
+        "digest": "7279124e578f21618f3beb0380fc31124ad3f1b9767ebf50230f820dc35d7102",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q29-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q29-p03",
+        "part": "1-7",
+        "stageId": "3"
+      },
+      {
+        "digest": "a51424d5e2797134cc65ba3af9bc3bd9376435fc827cce80807313c57fea9c97",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q29-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q29-p04",
+        "part": "1-7",
+        "stageId": "4"
+      },
+      {
+        "digest": "8520ce608257f5c3b7d8b967042dc95a081189a4d31a2d2aabd161ca2b5fb173",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q29-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q29-p05",
+        "part": "1-7",
+        "stageId": "5"
+      },
+      {
+        "digest": "9237557ff837edca1226380839e919bdfbeefd9c94c6e7c2a8da6f93f3230ec6",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q29-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q29-p06",
+        "part": "1-7",
+        "stageId": "6"
+      },
+      {
+        "digest": "c7ac7dc1619aa99e9969b8911c9d458e2fb6009d63139485da1efbdf30791f9d",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q29-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q29-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "16babb00272a7b31dfb84245198e0627ea1eeb8c6723e6fcadd283baa006a3b8",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q29-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q29-p08",
+        "part": "1-4",
+        "stageId": "8"
+      },
+      {
+        "digest": "452b1b554153393695ccb0da9855a3d383cc4d321dfde21f8c8ab078528a593c",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q29-p09",
+        "itemIds": [
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 9,
+        "pageId": "2026-june-grade2-q29-p09",
+        "part": "5-7",
+        "stageId": "8"
+      },
+      {
+        "digest": "02084371b6d4b64e255cb1cc7d26b3763f55849927622c60403c31e471ffb71e",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q29-p10",
+        "itemIds": [],
+        "page": 10,
+        "pageId": "2026-june-grade2-q29-p10",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "897587f71adc7c8c9fd10c16643007822de058c99827a31a0b40201e557abfd6",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q29-p11",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 11,
+        "pageId": "2026-june-grade2-q29-p11",
+        "part": "1-7",
+        "stageId": "10"
+      }
+    ],
+    "qa": {
+      "contactSheets": [
+        "qa/samples/student-contact-sheet.png",
+        "qa/samples/answer-contact-sheet.png"
+      ],
+      "dom": {
+        "answer": {
+          "pages": 11,
+          "solutions": 85
+        },
+        "matchedResponseBoxCount": 21,
+        "matchedResponseLineCount": 38,
+        "matchedSolutionSlotCount": 71,
+        "sharedTargetSlotCount": 92,
+        "student": {
+          "pages": 11,
+          "solutions": 0
+        }
+      },
+      "pdf": {
+        "answerPages": 11,
+        "studentPages": 11
+      },
+      "status": "passed",
+      "visualSamples": [
+        "qa/samples/student-p01.png",
+        "qa/samples/student-p02.png",
+        "qa/samples/student-p03.png",
+        "qa/samples/student-p04.png",
+        "qa/samples/student-p05.png",
+        "qa/samples/student-p06.png",
+        "qa/samples/student-p07.png",
+        "qa/samples/student-p08.png",
+        "qa/samples/student-p10.png",
+        "qa/samples/student-p11.png",
+        "qa/samples/answer-p01.png",
+        "qa/samples/answer-p02.png",
+        "qa/samples/answer-p03.png",
+        "qa/samples/answer-p04.png",
+        "qa/samples/answer-p05.png",
+        "qa/samples/answer-p06.png",
+        "qa/samples/answer-p07.png",
+        "qa/samples/answer-p08.png",
+        "qa/samples/answer-p10.png",
+        "qa/samples/answer-p11.png"
+      ]
+    },
+    "reportFormatVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "semanticRubricVersion": "1.0.0",
+    "sourceDigest": "25160143e283e0d6abfa880a77d322ffd89020952d52fae373f4780d803e7c28",
+    "specVersion": "1.0.6",
+    "templateVersion": "1.0.4",
+    "validationStatus": "passed",
+    "visualReview": {
+      "notes": "학생용·해설용 11쪽 전체 접촉표와 1·2·3·4·5·6·7·8·9·10단계 대표 페이지를 확인했습니다. 2·3단계 빈칸, 4·8·10단계 작성 영역, 7단계 교정 색상, 9단계 순서, 마지막 페이지에서 잘림·겹침·정답 누출이 없고 학생용 해답 0개와 공유 target 일치를 확인했습니다.",
+      "reviewedAt": "2026-09-01T15:21:49+09:00",
+      "reviewer": "Codex",
+      "status": "passed"
+    },
+    "workbookId": "2026-june-grade2-q29"
+  },
+  "bundleVersion": 1,
+  "canonical": {
+    "canonical": {
+      "$schema": "../../schemas/canonical-workbook.schema.json",
+      "contentVersion": "1.0.0",
+      "metadata": {
+        "grade": "고등학교 2학년",
+        "kicker": "High School Reading",
+        "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 29번",
+        "sourceLanguage": "en",
+        "targetLanguage": "ko",
+        "title": "2026학년도 6월 고2 29번 10단계 워크북",
+        "topic": "할인 쿠폰이 소비자의 돈과 사고 부담을 동시에 줄여 주는 효과"
+      },
+      "passageActivities": {
+        "correction": [
+          {
+            "id": "correction-01",
+            "targets": [
+              {
+                "correct": "Whitehead asserted",
+                "id": "correction-01-01",
+                "incorrect": "Whitehead assert",
+                "target": {
+                  "occurrence": 1,
+                  "text": "Whitehead assert"
+                }
+              },
+              {
+                "correct": "which allows",
+                "id": "correction-01-02",
+                "incorrect": "which allow",
+                "target": {
+                  "occurrence": 1,
+                  "text": "which allow"
+                }
+              },
+              {
+                "correct": "assumption is illustrated",
+                "id": "correction-01-03",
+                "incorrect": "assumption are illustrated",
+                "target": {
+                  "occurrence": 1,
+                  "text": "assumption are illustrated"
+                }
+              },
+              {
+                "correct": "recipients produced",
+                "id": "correction-01-04",
+                "incorrect": "recipients producing",
+                "target": {
+                  "occurrence": 1,
+                  "text": "recipients producing"
+                }
+              },
+              {
+                "correct": "point here is",
+                "id": "correction-01-05",
+                "incorrect": "point here are",
+                "target": {
+                  "occurrence": 1,
+                  "text": "point here are"
+                }
+              },
+              {
+                "correct": "Not only do we expect",
+                "id": "correction-01-06",
+                "incorrect": "Not only we expect",
+                "target": {
+                  "occurrence": 1,
+                  "text": "Not only we expect"
+                }
+              },
+              {
+                "correct": "we need",
+                "id": "correction-01-07",
+                "incorrect": "we needs",
+                "target": {
+                  "occurrence": 1,
+                  "text": "we needs"
+                }
+              }
+            ],
+            "textOverride": "The renowned British philosopher Alfred North Whitehead assert that “civilization advances by extending the number of operations we can perform without thinking about them.” Take, for example, the “advance” offered to civilization by the discount coupon, which allow consumers to assume that they will receive a reduced purchase price by presenting the coupon. The extent to which we have learned to operate mechanically on that assumption are illustrated in the experience of one automobile-tire company. Mailed-out coupons that—because of a printing error—offered no savings to recipients producing just as much customer response as did error-free coupons that offered substantial savings. The obvious but instructive point here are that we expect discount coupons to do double duty. Not only we expect them to save us money, we also expect them to save us the time and mental energy required to think about how to do it. In today’s world, we needs the first advantage to handle pocketbook strain; but we need the second advantage to handle something potentially more important—brain strain."
+          }
+        ],
+        "paragraphOrder": [
+          {
+            "answerOrder": [
+              "A",
+              "B",
+              "C"
+            ],
+            "blocks": [
+              {
+                "id": "A",
+                "sentenceIds": [
+                  "s001",
+                  "s002"
+                ]
+              },
+              {
+                "id": "B",
+                "sentenceIds": [
+                  "s003",
+                  "s004"
+                ]
+              },
+              {
+                "id": "C",
+                "sentenceIds": [
+                  "s005",
+                  "s006",
+                  "s007"
+                ]
+              }
+            ],
+            "displayOrder": [
+              "C",
+              "A",
+              "B"
+            ],
+            "id": "paragraph-order-01"
+          }
+        ]
+      },
+      "schemaVersion": "1.0.0",
+      "sentences": [
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "asserted"
+                  }
+                ],
+                "id": "s001-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "주장했다"
+                  }
+                ],
+                "segmentId": "s001-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "advances"
+                  }
+                ],
+                "id": "s001-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "발전한다고"
+                  }
+                ],
+                "segmentId": "s001-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can perform"
+                  }
+                ],
+                "id": "s001-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "수행할 수 있는"
+                  }
+                ],
+                "segmentId": "s001-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "renowned"
+                },
+                "id": "s001-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "유명한"
+                },
+                "meaning": "널리 알려진",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s001-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "civilization"
+                },
+                "id": "s001-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "문명"
+                },
+                "meaning": "문명",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s001-m02"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "operations"
+                },
+                "id": "s001-m03-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "작업"
+                },
+                "meaning": "수행하는 일들",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s001-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s001-a",
+                  "text": "The renowned British philosopher Alfred North Whitehead asserted"
+                },
+                {
+                  "id": "s001-b",
+                  "text": "that “civilization advances"
+                },
+                {
+                  "id": "s001-c",
+                  "text": "by extending the number of operations"
+                },
+                {
+                  "id": "s001-d",
+                  "text": "we can perform without thinking about them.”"
+                }
+              ],
+              "displayOrder": [
+                "s001-c",
+                "s001-a",
+                "s001-d",
+                "s001-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s001-choice-01",
+                  "options": [
+                    "by extending",
+                    "by extend"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "by extending"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s001-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "civilization advances"
+                  }
+                },
+                {
+                  "id": "s001-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "extending the number of operations"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s001-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "생각하지 않고도 수행할 수 있는"
+                  }
+                },
+                {
+                  "id": "s001-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "작업의 수를 늘림으로써"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "assert",
+                  "id": "s001-verb-01",
+                  "lemma": "assert",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "asserted"
+                  }
+                },
+                {
+                  "cue": "advance",
+                  "id": "s001-verb-02",
+                  "lemma": "advance",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "advances"
+                  }
+                },
+                {
+                  "cue": "perform",
+                  "id": "s001-verb-03",
+                  "lemma": "perform",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can perform"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "renowned British philosopher",
+                "assert",
+                "civilization",
+                "extend",
+                "operations",
+                "without thinking"
+              ]
+            }
+          },
+          "id": "s001",
+          "meaningSegments": [
+            {
+              "en": "The renowned British philosopher Alfred North Whitehead asserted",
+              "id": "s001-m01",
+              "ko": "유명한 영국 철학자 앨프레드 노스 화이트헤드는 주장했다"
+            },
+            {
+              "en": "that “civilization advances",
+              "id": "s001-m02",
+              "ko": "“문명은 발전한다고"
+            },
+            {
+              "en": "by extending the number of operations",
+              "id": "s001-m03",
+              "ko": "작업의 수를 늘림으로써"
+            },
+            {
+              "en": "we can perform",
+              "id": "s001-m04",
+              "ko": "우리가 수행할 수 있는"
+            },
+            {
+              "en": "without thinking about them.”",
+              "id": "s001-m05",
+              "ko": "그것들에 대해 생각하지 않고.”"
+            }
+          ],
+          "no": 1,
+          "source": "The renowned British philosopher Alfred North Whitehead asserted that “civilization advances by extending the number of operations we can perform without thinking about them.”",
+          "translation": "유명한 영국 철학자 앨프레드 노스 화이트헤드는 “문명은 우리가 생각하지 않고도 수행할 수 있는 작업의 수를 늘림으로써 발전한다”고 주장했다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "Take"
+                  }
+                ],
+                "id": "s002-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "생각해 보라"
+                  }
+                ],
+                "segmentId": "s002-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "allows"
+                  }
+                ],
+                "id": "s002-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "하도록 한다"
+                  }
+                ],
+                "segmentId": "s002-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "will receive"
+                  }
+                ],
+                "id": "s002-m06-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "받을 것이라고"
+                  }
+                ],
+                "segmentId": "s002-m06"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "consumers"
+                },
+                "id": "s002-m04-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "소비자"
+                },
+                "meaning": "상품을 사용하거나 구매하는 사람",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s002-m04"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "assume"
+                },
+                "id": "s002-m05-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "당연하게 여기"
+                },
+                "meaning": "그렇다고 당연히 여기다",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s002-m05"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "reduced purchase price"
+                },
+                "id": "s002-m06-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "할인된 구매 가격"
+                },
+                "meaning": "긎은 구매 가격",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s002-m06"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s002-a",
+                  "text": "Take, for example, the “advance” offered to civilization"
+                },
+                {
+                  "id": "s002-b",
+                  "text": "by the discount coupon, which allows consumers to assume"
+                },
+                {
+                  "id": "s002-c",
+                  "text": "that they will receive a reduced purchase price"
+                },
+                {
+                  "id": "s002-d",
+                  "text": "by presenting the coupon."
+                }
+              ],
+              "displayOrder": [
+                "s002-c",
+                "s002-a",
+                "s002-d",
+                "s002-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s002-choice-01",
+                  "options": [
+                    "presenting",
+                    "present"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "presenting"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s002-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "allows consumers to assume"
+                  }
+                },
+                {
+                  "id": "s002-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "reduced purchase price"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s002-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "할인된 구매 가격"
+                  }
+                },
+                {
+                  "id": "s002-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "할인 쿠폰을 제시함으로써"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "take",
+                  "id": "s002-verb-01",
+                  "lemma": "take",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Take"
+                  }
+                },
+                {
+                  "cue": "allow",
+                  "id": "s002-verb-02",
+                  "lemma": "allow",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "allows"
+                  }
+                },
+                {
+                  "cue": "receive",
+                  "id": "s002-verb-03",
+                  "lemma": "receive",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "will receive"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "advance",
+                "discount coupon",
+                "allow",
+                "assume",
+                "reduced purchase price",
+                "present"
+              ]
+            }
+          },
+          "id": "s002",
+          "meaningSegments": [
+            {
+              "en": "Take, for example,",
+              "id": "s002-m01",
+              "ko": "예를 들어 생각해 보라,"
+            },
+            {
+              "en": "the “advance” offered to civilization",
+              "id": "s002-m02",
+              "ko": "문명에 제공된 “발전”을"
+            },
+            {
+              "en": "by the discount coupon,",
+              "id": "s002-m03",
+              "ko": "할인 쿠폰에 의해,"
+            },
+            {
+              "en": "which allows consumers",
+              "id": "s002-m04",
+              "ko": "그것은 소비자가 하도록 한다"
+            },
+            {
+              "en": "to assume",
+              "id": "s002-m05",
+              "ko": "당연하게 여기도록"
+            },
+            {
+              "en": "that they will receive a reduced purchase price",
+              "id": "s002-m06",
+              "ko": "그들이 할인된 구매 가격을 받을 것이라고"
+            },
+            {
+              "en": "by presenting the coupon.",
+              "id": "s002-m07",
+              "ko": "쿠폰을 제시함으로써."
+            }
+          ],
+          "no": 2,
+          "source": "Take, for example, the “advance” offered to civilization by the discount coupon, which allows consumers to assume that they will receive a reduced purchase price by presenting the coupon.",
+          "translation": "예를 들어, 소비자가 할인 쿠폰을 제시함으로써 할인된 구매 가격을 받을 것이라고 당연하게 여기도록 하는 할인 쿠폰이 문명에 제공한 “발전”을 생각해 보라."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "have learned"
+                  }
+                ],
+                "id": "s003-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "학습해 온"
+                  }
+                ],
+                "segmentId": "s003-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is illustrated"
+                  }
+                ],
+                "id": "s003-m05-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "보여진다"
+                  }
+                ],
+                "segmentId": "s003-m05"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "extent"
+                },
+                "id": "s003-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "정도"
+                },
+                "meaning": "얼마나 많은지의 정도",
+                "reasons": [
+                  "abstract",
+                  "structure-critical"
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "mechanically"
+                },
+                "id": "s003-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "기계적으로"
+                },
+                "meaning": "생각 없이 습관적으로",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s003-m03"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "assumption"
+                },
+                "id": "s003-m04-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "생각"
+                },
+                "meaning": "증거 없이 당연하게 여기는 것",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s003-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s003-a",
+                  "text": "The extent to which we have learned"
+                },
+                {
+                  "id": "s003-b",
+                  "text": "to operate mechanically on that assumption"
+                },
+                {
+                  "id": "s003-c",
+                  "text": "is illustrated in the experience"
+                },
+                {
+                  "id": "s003-d",
+                  "text": "of one automobile-tire company."
+                }
+              ],
+              "displayOrder": [
+                "s003-c",
+                "s003-a",
+                "s003-d",
+                "s003-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s003-choice-01",
+                  "options": [
+                    "to which",
+                    "to that"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "to which"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s003-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "operate mechanically"
+                  }
+                },
+                {
+                  "id": "s003-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is illustrated"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s003-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "기계적으로 행동"
+                  }
+                },
+                {
+                  "id": "s003-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "자동차 타이어 회사의 경험"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "learn",
+                  "id": "s003-verb-01",
+                  "lemma": "learn",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "have learned"
+                  }
+                },
+                {
+                  "cue": "illustrate",
+                  "id": "s003-verb-02",
+                  "lemma": "illustrate",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is illustrated"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "extent",
+                "learn",
+                "operate mechanically",
+                "assumption",
+                "be illustrated",
+                "experience"
+              ]
+            }
+          },
+          "id": "s003",
+          "meaningSegments": [
+            {
+              "en": "The extent",
+              "id": "s003-m01",
+              "ko": "그 정도는"
+            },
+            {
+              "en": "to which we have learned",
+              "id": "s003-m02",
+              "ko": "우리가 학습해 온"
+            },
+            {
+              "en": "to operate mechanically",
+              "id": "s003-m03",
+              "ko": "기계적으로 행동하도록"
+            },
+            {
+              "en": "on that assumption",
+              "id": "s003-m04",
+              "ko": "그런 생각을 바탕으로"
+            },
+            {
+              "en": "is illustrated",
+              "id": "s003-m05",
+              "ko": "보여진다"
+            },
+            {
+              "en": "in the experience",
+              "id": "s003-m06",
+              "ko": "경험에서"
+            },
+            {
+              "en": "of one automobile-tire company.",
+              "id": "s003-m07",
+              "ko": "한 자동차 타이어 회사의."
+            }
+          ],
+          "no": 3,
+          "source": "The extent to which we have learned to operate mechanically on that assumption is illustrated in the experience of one automobile-tire company.",
+          "translation": "우리가 그런 생각을 바탕으로 얼마나 기계적으로 행동하도록 학습해 왔는지는 한 자동차 타이어 회사의 경험에서 잘 보여진다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "offered"
+                  }
+                ],
+                "id": "s004-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "제공하지 않은"
+                  }
+                ],
+                "segmentId": "s004-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "produced"
+                  }
+                ],
+                "id": "s004-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "이끌어 냈다"
+                  }
+                ],
+                "segmentId": "s004-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "did"
+                  }
+                ],
+                "id": "s004-m05-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "그랬던"
+                  }
+                ],
+                "segmentId": "s004-m05"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "offered"
+                  }
+                ],
+                "id": "s004-m06-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "제공한"
+                  }
+                ],
+                "segmentId": "s004-m06"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "Mailed-out"
+                },
+                "id": "s004-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "우편 발송"
+                },
+                "meaning": "우편으로 보낸",
+                "reasons": [
+                  "student-difficulty"
+                ],
+                "segmentId": "s004-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "recipients"
+                },
+                "id": "s004-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "받는 사람"
+                },
+                "meaning": "수신자",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s004-m03"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "substantial savings"
+                },
+                "id": "s004-m06-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "실질적인 절약 혜택"
+                },
+                "meaning": "상당한 금액의 절약",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s004-m06"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s004-a",
+                  "text": "Mailed-out coupons that—because of a printing error—offered no savings to recipients"
+                },
+                {
+                  "id": "s004-b",
+                  "text": "produced just as much customer response"
+                },
+                {
+                  "id": "s004-c",
+                  "text": "as did error-free coupons"
+                },
+                {
+                  "id": "s004-d",
+                  "text": "that offered substantial savings."
+                }
+              ],
+              "displayOrder": [
+                "s004-c",
+                "s004-a",
+                "s004-d",
+                "s004-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s004-choice-01",
+                  "options": [
+                    "produced",
+                    "producing"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "produced"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s004-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "produced just as much customer response"
+                  }
+                },
+                {
+                  "id": "s004-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "substantial savings"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s004-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "아무런 절약 혜택을 제공하지 않은"
+                  }
+                },
+                {
+                  "id": "s004-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "마찬가지로 많은 고객 반응"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "offer",
+                  "id": "s004-verb-01",
+                  "lemma": "offer",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "offered"
+                  }
+                },
+                {
+                  "cue": "produce",
+                  "id": "s004-verb-02",
+                  "lemma": "produce",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "produced"
+                  }
+                },
+                {
+                  "cue": "do",
+                  "id": "s004-verb-03",
+                  "lemma": "do",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "did"
+                  }
+                },
+                {
+                  "cue": "offer",
+                  "id": "s004-verb-04",
+                  "lemma": "offer",
+                  "target": {
+                    "occurrence": 2,
+                    "text": "offered"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "mailed-out coupons",
+                "printing error",
+                "offer no savings",
+                "produce",
+                "customer response",
+                "error-free coupons"
+              ]
+            }
+          },
+          "id": "s004",
+          "meaningSegments": [
+            {
+              "en": "Mailed-out coupons",
+              "id": "s004-m01",
+              "ko": "우편 발송 쿠폰은"
+            },
+            {
+              "en": "that—because of a printing error—offered no savings",
+              "id": "s004-m02",
+              "ko": "인쇄 오류로 인해 아무런 절약 혜택을 제공하지 않은"
+            },
+            {
+              "en": "to recipients",
+              "id": "s004-m03",
+              "ko": "받는 사람에게"
+            },
+            {
+              "en": "produced just as much customer response",
+              "id": "s004-m04",
+              "ko": "마찬가지로 많은 고객 반응을 이끌어 냈다"
+            },
+            {
+              "en": "as did error-free coupons",
+              "id": "s004-m05",
+              "ko": "오류 없는 쿠폰이 그랬던 것처럼"
+            },
+            {
+              "en": "that offered substantial savings.",
+              "id": "s004-m06",
+              "ko": "실질적인 절약 혜택을 제공한."
+            }
+          ],
+          "no": 4,
+          "source": "Mailed-out coupons that—because of a printing error—offered no savings to recipients produced just as much customer response as did error-free coupons that offered substantial savings.",
+          "translation": "인쇄 오류로 인해 받는 사람에게 아무런 절약 혜택을 제공하지 않은 우편 발송 쿠폰은 실질적인 절약 혜택을 제공한 오류 없는 쿠폰과 마찬가지로 많은 고객 반응을 이끌어 냈다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s005-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "그것이다"
+                  }
+                ],
+                "segmentId": "s005-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "expect"
+                  }
+                ],
+                "id": "s005-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "기대한다는"
+                  }
+                ],
+                "segmentId": "s005-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "instructive"
+                },
+                "id": "s005-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "교훈적인"
+                },
+                "meaning": "유익한 교훈을 주는",
+                "reasons": [
+                  "academic",
+                  "abstract"
+                ],
+                "segmentId": "s005-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "double duty"
+                },
+                "id": "s005-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "두 가지 역할"
+                },
+                "meaning": "두 가지 역할",
+                "reasons": [
+                  "topic-core",
+                  "student-difficulty"
+                ],
+                "segmentId": "s005-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s005-a",
+                  "text": "The obvious but instructive point here is"
+                },
+                {
+                  "id": "s005-b",
+                  "text": "that we expect discount coupons"
+                },
+                {
+                  "id": "s005-c",
+                  "text": "to do double duty."
+                }
+              ],
+              "displayOrder": [
+                "s005-b",
+                "s005-c",
+                "s005-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s005-choice-01",
+                  "options": [
+                    "to do",
+                    "doing"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "to do"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s005-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "instructive point"
+                  }
+                },
+                {
+                  "id": "s005-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "double duty"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s005-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "분명하지만 교훈적인 점"
+                  }
+                },
+                {
+                  "id": "s005-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "두 가지 역할"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s005-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                },
+                {
+                  "cue": "expect",
+                  "id": "s005-verb-02",
+                  "lemma": "expect",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "expect"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "obvious",
+                "instructive point",
+                "expect",
+                "discount coupons",
+                "double duty"
+              ]
+            }
+          },
+          "id": "s005",
+          "meaningSegments": [
+            {
+              "en": "The obvious but instructive point here is",
+              "id": "s005-m01",
+              "ko": "여기서 분명하지만 교훈적인 점은 그것이다"
+            },
+            {
+              "en": "that we expect discount coupons",
+              "id": "s005-m02",
+              "ko": "우리가 할인 쿠폰이 하기를 기대한다는"
+            },
+            {
+              "en": "to do double duty.",
+              "id": "s005-m03",
+              "ko": "두 가지 역할을."
+            }
+          ],
+          "no": 5,
+          "source": "The obvious but instructive point here is that we expect discount coupons to do double duty.",
+          "translation": "여기서 분명하지만 교훈적인 점은 우리가 할인 쿠폰이 두 가지 역할을 하기를 기대한다는 것이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "do"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "expect"
+                  }
+                ],
+                "id": "s006-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "기대하는 것이 아니라"
+                  }
+                ],
+                "segmentId": "s006-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "expect"
+                  }
+                ],
+                "id": "s006-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "기대한다"
+                  }
+                ],
+                "segmentId": "s006-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "mental energy"
+                },
+                "id": "s006-m04-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "정신적 에너지"
+                },
+                "meaning": "생각과 판단에 드는 정신적 힘",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s006-m04"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "required"
+                },
+                "id": "s006-m05-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "필요한"
+                },
+                "meaning": "필요한",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s006-m05"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s006-a",
+                  "text": "Not only do we expect them to save us money,"
+                },
+                {
+                  "id": "s006-b",
+                  "text": "we also expect them to save us"
+                },
+                {
+                  "id": "s006-c",
+                  "text": "the time and mental energy"
+                },
+                {
+                  "id": "s006-d",
+                  "text": "required to think about how to do it."
+                }
+              ],
+              "displayOrder": [
+                "s006-c",
+                "s006-a",
+                "s006-d",
+                "s006-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s006-choice-01",
+                  "options": [
+                    "do we expect",
+                    "we do expect"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "do we expect"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s006-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Not only do we expect"
+                  }
+                },
+                {
+                  "id": "s006-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "time and mental energy"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s006-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "돈을 아껴 주기만을 기대"
+                  }
+                },
+                {
+                  "id": "s006-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "시간과 정신적 에너지"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "do",
+                  "id": "s006-verb-01",
+                  "lemma": "do",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "do"
+                  }
+                },
+                {
+                  "cue": "expect",
+                  "id": "s006-verb-02",
+                  "lemma": "expect",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "expect"
+                  }
+                },
+                {
+                  "cue": "expect",
+                  "id": "s006-verb-03",
+                  "lemma": "expect",
+                  "target": {
+                    "occurrence": 2,
+                    "text": "expect"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "not only",
+                "expect",
+                "save money",
+                "also",
+                "time and mental energy",
+                "how to do it"
+              ]
+            }
+          },
+          "id": "s006",
+          "meaningSegments": [
+            {
+              "en": "Not only do we expect them",
+              "id": "s006-m01",
+              "ko": "우리는 그것들이 하기만을 기대하는 것이 아니라"
+            },
+            {
+              "en": "to save us money,",
+              "id": "s006-m02",
+              "ko": "우리의 돈을 아껴 주기를,"
+            },
+            {
+              "en": "we also expect them",
+              "id": "s006-m03",
+              "ko": "우리는 또한 그것들이 하기를 기대한다"
+            },
+            {
+              "en": "to save us the time and mental energy",
+              "id": "s006-m04",
+              "ko": "우리의 시간과 정신적 에너지를 아껴 주기를"
+            },
+            {
+              "en": "required to think",
+              "id": "s006-m05",
+              "ko": "생각하는 데 필요한"
+            },
+            {
+              "en": "about how to do it.",
+              "id": "s006-m06",
+              "ko": "그것을 하는 방법에 대해."
+            }
+          ],
+          "no": 6,
+          "source": "Not only do we expect them to save us money, we also expect them to save us the time and mental energy required to think about how to do it.",
+          "translation": "우리는 쿠폰이 돈을 아껴 주기만을 기대하는 것이 아니라, 그렇게 하는 방법을 생각하는 데 필요한 시간과 정신적 에너지도 아껴 주기를 기대한다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "need"
+                  }
+                ],
+                "id": "s007-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "필요하다"
+                  }
+                ],
+                "segmentId": "s007-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "need"
+                  }
+                ],
+                "id": "s007-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "필요하다"
+                  }
+                ],
+                "segmentId": "s007-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "pocketbook strain"
+                },
+                "id": "s007-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "가계 부담"
+                },
+                "meaning": "개인의 경제적 부담",
+                "reasons": [
+                  "abstract",
+                  "topic-core",
+                  "student-difficulty"
+                ],
+                "segmentId": "s007-m03"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "potentially"
+                },
+                "id": "s007-m06-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "잠재적으로"
+                },
+                "meaning": "그럴 가능성이 있게",
+                "reasons": [
+                  "academic",
+                  "abstract"
+                ],
+                "segmentId": "s007-m06"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "brain strain"
+                },
+                "id": "s007-m06-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "정신적 부담"
+                },
+                "meaning": "생각과 판단에서 오는 피로",
+                "reasons": [
+                  "abstract",
+                  "topic-core",
+                  "student-difficulty"
+                ],
+                "segmentId": "s007-m06"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s007-a",
+                  "text": "In today’s world, we need the first advantage"
+                },
+                {
+                  "id": "s007-b",
+                  "text": "to handle pocketbook strain;"
+                },
+                {
+                  "id": "s007-c",
+                  "text": "but we need the second advantage"
+                },
+                {
+                  "id": "s007-d",
+                  "text": "to handle something potentially more important—brain strain."
+                }
+              ],
+              "displayOrder": [
+                "s007-c",
+                "s007-a",
+                "s007-d",
+                "s007-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s007-choice-01",
+                  "options": [
+                    "potentially",
+                    "potential"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "potentially"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s007-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "pocketbook strain"
+                  }
+                },
+                {
+                  "id": "s007-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "potentially more important—brain strain"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s007-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "가계 부담"
+                  }
+                },
+                {
+                  "id": "s007-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "정신적 부담"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "need",
+                  "id": "s007-verb-01",
+                  "lemma": "need",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "need"
+                  }
+                },
+                {
+                  "cue": "need",
+                  "id": "s007-verb-02",
+                  "lemma": "need",
+                  "target": {
+                    "occurrence": 2,
+                    "text": "need"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "today’s world",
+                "first advantage",
+                "handle",
+                "pocketbook strain",
+                "second advantage",
+                "brain strain"
+              ]
+            }
+          },
+          "id": "s007",
+          "meaningSegments": [
+            {
+              "en": "In today’s world,",
+              "id": "s007-m01",
+              "ko": "오늘날의 세상에서,"
+            },
+            {
+              "en": "we need the first advantage",
+              "id": "s007-m02",
+              "ko": "우리는 첫 번째 이점이 필요하다"
+            },
+            {
+              "en": "to handle pocketbook strain;",
+              "id": "s007-m03",
+              "ko": "가계 부담을 다루기 위해;"
+            },
+            {
+              "en": "but we need the second advantage",
+              "id": "s007-m04",
+              "ko": "하지만 우리는 두 번째 이점이 필요하다"
+            },
+            {
+              "en": "to handle something",
+              "id": "s007-m05",
+              "ko": "무언가를 다루기 위해"
+            },
+            {
+              "en": "potentially more important—brain strain.",
+              "id": "s007-m06",
+              "ko": "잠재적으로 더 중요한—정신적 부담을."
+            }
+          ],
+          "no": 7,
+          "source": "In today’s world, we need the first advantage to handle pocketbook strain; but we need the second advantage to handle something potentially more important—brain strain.",
+          "translation": "오늘날의 세상에서 우리는 가계 부담을 다루기 위해 첫 번째 이점이 필요하지만, 잠재적으로 더 중요한 정신적 부담을 다루기 위해서는 두 번째 이점이 필요하다."
+        }
+      ],
+      "sourceStatus": {
+        "notes": "원본 PDF 5쪽의 29번 본문과 밑줄 선택지를 고해상도로 렌더링해 전사했습니다. 어법 문항의 출제 오류형 ② producing은 본 주석과 업데이트 보고서에 보존하고, 학습용 canonical 본문은 정답형 produced로 정규화했습니다.",
+        "references": [
+          "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+        ],
+        "sentenceCount": 7,
+        "sourceType": "pdf",
+        "status": "confirmed",
+        "verifiedAt": "2026-09-01T15:00:00+09:00"
+      },
+      "specVersion": "1.0.6",
+      "updateState": {
+        "appliedUpdates": [
+          {
+            "appliedAt": "2026-09-01T15:05:00+09:00",
+            "fromContentVersion": "0.0.0",
+            "id": "U-20260901-015",
+            "report": "reports/updates/U-20260901-015.md",
+            "scope": "selected",
+            "toContentVersion": "1.0.0"
+          }
+        ],
+        "defaultScope": "new-only"
+      },
+      "workbookId": "2026-june-grade2-q29"
+    },
+    "contentVersion": "1.0.0",
+    "files": [
+      {
+        "path": "workbooks/2026-june-grade2-q29/content.json",
+        "sha256": "88b3ba3d629a9a409afe2dd150f4817e7c82ea3915478e8c782755f502cabbbe",
+        "size": 51367
+      }
+    ],
+    "workbookId": "2026-june-grade2-q29"
+  },
+  "spec": {
+    "files": [
+      {
+        "path": "config/versions.json",
+        "sha256": "9ad95c50e447e5817eaeefbe713275ae7f7e9984459e24e03c45098e26f58034",
+        "size": 1665
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "sha256": "aadb3fe161b100e3a68ecb42fab51775e9738153a04278a53b27e7172f8d8f69",
+        "size": 17021
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+        "size": 8058
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "schemaFiles": [
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "semanticRubricFile": {
+      "path": "docs/semantic-rubric.md",
+      "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+      "size": 8058
+    },
+    "semanticRubricVersion": "1.0.0",
+    "spec": {
+      "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "answerEditionContract": {
+        "answerFillClassMayAutoColor": false,
+        "choicePromptVisibleInAnswer": true,
+        "redAllowedOnlyOnSolutionValues": true,
+        "sameStageAndExerciseDomAsStudent": true,
+        "solutionClass": "solution-value",
+        "solutionColor": "#D71920",
+        "solutionInsertion": "fill-the-same-solution-slot",
+        "studentDerivation": "render answer first, lock every solution slot and writing response geometry, then remove solution values only",
+        "studentPayloadMayContainSolutions": false
+      },
+      "canonicalSchema": "schemas/canonical-workbook.schema.json",
+      "canonicalText": {
+        "baseTextOverride": {
+          "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+          "defaultStorage": "omit-baseText-and-derive-from-canonical",
+          "redundantDefaultCopy": "forbidden",
+          "requiredCompanionField": "overrideReason"
+        },
+        "displayDefault": "source",
+        "exerciseBaseTextDefaults": {
+          "choice": "display-or-source",
+          "enBlank": "display-or-source",
+          "koBlank": "translation",
+          "verb": "display-or-source"
+        },
+        "markup": "forbidden",
+        "reconstruction": {
+          "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+          "meaningSegments": "join meaningSegments[].en with one ASCII space",
+          "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+        },
+        "sourceWhitespace": "single-space-between-tokens",
+        "targetAnchor": {
+          "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다.",
+          "shape": {
+            "occurrence": "one-based occurrence in the applicable base text",
+            "text": "exact substring"
+          }
+        }
+      },
+      "contentOwnership": {
+        "authorable": [
+          "metadata",
+          "sourceStatus",
+          "sentences[].source",
+          "sentences[].display",
+          "sentences[].translation",
+          "sentences[].meaningSegments",
+          "sentences[].annotations",
+          "sentences[].exercises",
+          "passageActivities.correction",
+          "passageActivities.paragraphOrder",
+          "updateState"
+        ],
+        "derived": [
+          "stage number, title, instruction and renderer mode",
+          "item and unit numbers",
+          "part ranges and page boundaries",
+          "student and answer projections",
+          "blank, predicate, vocabulary and solution markup",
+          "answer-line height and layout classes",
+          "page count, footer number and output filenames"
+        ],
+        "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+      },
+      "logicalStages": [
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].meaningSegments",
+            "sentences[].annotations.predicates",
+            "sentences[].annotations.vocabulary"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "passage-practice",
+          "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean-inline-hint"
+            ],
+            "vocabularyColoring": true
+          },
+          "number": 1,
+          "pagination": {
+            "hardMaximum": 13,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 12,
+            "unit": "sentence"
+          },
+          "rendererMode": "meaning",
+          "scope": "sentence",
+          "title": "지문 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].exercises.koBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "korean-cloze",
+          "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 2,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (우리말)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.enBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "english-cloze",
+          "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 3,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (영문)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].translation"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "translation-practice",
+          "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 4,
+          "pagination": {
+            "hardMaximum": 11,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 10,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "해석 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.verb"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "verb-form",
+          "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 5,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "동사형 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.choice"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "grammar-vocabulary-choice",
+          "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 6,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "어법·어휘 고르기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.correction"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "correction",
+          "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+          "layout": {
+            "fieldOrder": [
+              "passage",
+              "correction-rows"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 7,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "correction",
+          "scope": "passage-activity",
+          "title": "어색한 곳 찾기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.arrange"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "sentence-order",
+          "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+          "layout": {
+            "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+            "arrangementSlots": "forbidden",
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 8,
+          "pagination": {
+            "hardMaximum": 6,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 6,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "순서 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.paragraphOrder"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "paragraph-order",
+          "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "fixed-intro",
+              "shuffled-blocks",
+              "fixed-outro",
+              "sequence-slots"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 9,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "paragraph-order",
+          "scope": "passage-activity",
+          "title": "문단 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.writing",
+            "sentences[].display|source"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "composition",
+          "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "studentEnglishSkeleton": "forbidden",
+            "vocabularyColoring": false
+          },
+          "number": 10,
+          "pagination": {
+            "hardMaximum": 8,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 8,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "영작 연습하기"
+        }
+      ],
+      "paginationContract": {
+        "continuationPageMinimumItems": 2,
+        "forbidden": [
+          "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+          "legacy 흐름 or 뜻 작성 columns",
+          "content crossing the page footer",
+          "content from one page overlapping the next page",
+          "clipped text",
+          "a singleton continuation page that can be avoided within the stage hard maximum",
+          "renumbering a new part from one"
+        ],
+        "layoutPreference": "vertical",
+        "numbering": "continuous-original-sentence-number",
+        "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+        "partLabel": "inclusive-original-sentence-number-range",
+        "readingLayout": "allowed-only-after-explicit-user-request",
+        "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+        "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+        "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+        "visualFitOverridesTargetCount": true
+      },
+      "principles": {
+        "canonicalDataContainsHtml": false,
+        "logicalStageCount": 10,
+        "publishOnlyAfterAllChecksPass": true,
+        "singleContentSource": true,
+        "studentAndAnswerShareExerciseStructure": true,
+        "studentProjectionSource": "answer-edition-after-browser-measured-all-solution-layouts",
+        "uncertainSourcePolicy": "stop-and-request-clearer-source"
+      },
+      "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+      "releaseContract": {
+        "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+        "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+        "filenames": [
+          "문제.html",
+          "문제.pdf",
+          "해설.html",
+          "해설.pdf"
+        ],
+        "finalHtmlDependencies": "self-contained",
+        "outputRoot": "outputs",
+        "previewFixture": "one-shared-canonical-fixture",
+        "publish": "atomic-after-all-gates-pass",
+        "stagingRoot": ".build/releases",
+        "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture"
+      },
+      "semanticRubric": "docs/semantic-rubric.md",
+      "specVersion": "1.0.6",
+      "updates": {
+        "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+        "allowedScopes": [
+          "new-only",
+          "all",
+          "selected",
+          "manual-review"
+        ],
+        "changelogPath": "CHANGELOG.md",
+        "defaultScope": "new-only",
+        "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+        "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+        "reportRequired": true,
+        "requiredImpactDimensions": [
+          "canonical fields",
+          "stage numbers",
+          "sentence or activity ids",
+          "student and answer editions",
+          "page count and part ranges",
+          "component versions"
+        ],
+        "requiredReportSections": [
+          "요약",
+          "요청 내용",
+          "직접 변경",
+          "파생 변경",
+          "영향 없음",
+          "파일 변경",
+          "출력 변화",
+          "검증 결과",
+          "호환성",
+          "버전"
+        ],
+        "versionBump": {
+          "backward-compatible field or stage capability": "minor",
+          "breaking schema or canonical semantics": "major",
+          "bug fix, validation strengthening or copy correction": "patch"
+        }
+      },
+      "validationGates": {
+        "canonical": [
+          "JSON Schema passes",
+          "sourceStatus.status is confirmed",
+          "sentence ids and numbers are unique, consecutive and aligned",
+          "meaning segment English joined with one space equals display or source",
+          "every meaning segment has one-to-one English and Korean text",
+          "all target anchors resolve exactly at their declared occurrence",
+          "choice options contain the correct target exactly once",
+          "arrange chunks in canonical order reconstruct display or source exactly",
+          "arrange displayOrder contains every chunk id exactly once",
+          "paragraph displayOrder contains every block id exactly once",
+          "correction targets restore their base excerpt exactly",
+          "vocabulary and predicate annotations resolve inside their meaning segment"
+        ],
+        "compiled": [
+          "exactly ten logical stages appear in fixed order",
+          "sentence stages contain exactly one item for every source sentence",
+          "all part ranges are complete, consecutive and match item numbers",
+          "student and answer exercise structures are identical",
+          "every non-writing solution-slot position, width, and height is copied from the browser-measured answer edition before solution text is removed",
+          "student response-line positions, widths, and heights are copied from the browser-measured answer edition before solution text is removed",
+          "student writing areas do not draw replacement guide lines after the answer text is removed",
+          "student edition exposes no solution values",
+          "every bank, target and slot cardinality is internally consistent",
+          "stage 10 student edition contains no English skeleton"
+        ],
+        "release": [
+          "problem HTML exists",
+          "problem PDF exists",
+          "answer HTML exists",
+          "answer PDF exists",
+          "build manifest records all component versions and applied updates",
+          "update report exists when an update id is applied"
+        ],
+        "rendered": [
+          "document fonts and images are ready",
+          "browser console and page errors are empty",
+          "data-render-validation is exactly ok",
+          "no unresolved template placeholder remains",
+          "no preview fixture data remains in final HTML",
+          "no page or footer overflow exists under print media",
+          "answer red is present only on solution-value nodes",
+          "every student and answer non-writing solution-slot has matching page-relative left, top, width, and height within 0.75px",
+          "every student and answer writing response box and answer-line trace matches within 0.75px",
+          "representative and risk pages pass visual review"
+        ]
+      },
+      "vocabularyContract": {
+        "allowedStageNumbers": [
+          1
+        ],
+        "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+        "maximumPerSentence": 3,
+        "redSlotForbidden": true,
+        "rendererClasses": {
+          "english": "vocab vocab-{slot} gloss",
+          "korean": "vocab vocab-{slot}"
+        },
+        "sameEnglishAndKoreanSlot": true,
+        "slots": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "specVersion": "1.0.6"
+  },
+  "template": {
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+        "size": 29359
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "sha256": "25a21d18af7ee1100e7a4d0023af1175140e82dd2cce2a246d0fcd5ece2411ee",
+        "size": 42558
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+        "size": 1212
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "sha256": "ceab51f4246462f507a1de7c6aea850fb577113c37e74b4d98a645f23744a330",
+        "size": 15185
+      }
+    ],
+    "rendererContract": "shared-dom-explicit-targets-fail-closed",
+    "templateVersion": "1.0.4"
+  }
+}

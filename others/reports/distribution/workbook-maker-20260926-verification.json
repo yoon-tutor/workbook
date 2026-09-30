@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "zip": "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\distribution\\workbook-maker-20260926.zip",
+  "zipSha256": "92af38fb4b5a73fcd6bbd28955a65f801e0abd5c39f1b42609958133ccbd808b",
+  "runtimeId": "0b87303199c0c913202987bcb37ff059ebff0ca39ef06b32f381e979b2e813bb",
+  "hiddenFilesIncluded": true,
+  "tokenInArchive": false,
+  "packageSetup": "passed",
+  "commands": [
+    "guide",
+    "sync",
+    "validate",
+    "prepare",
+    "status"
+  ],
+  "studentPages": 22,
+  "answerPages": 22,
+  "studentSolutions": 0,
+  "htmlByteIdenticalToPreviousRun": {
+    "문제.html": true,
+    "해설.html": true
+  },
+  "publicOutputCreatedDuringPrepare": false
+}

@@ -1,0 +1,816 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.workbook/schema/canonical-workbook-1.0.0.json",
+  "title": "Canonical 10-stage English Workbook",
+  "description": "학생용과 해설용 출력이 함께 파생되는 마크업 없는 단일 정본 형식",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "specVersion",
+    "contentVersion",
+    "workbookId",
+    "metadata",
+    "sourceStatus",
+    "updateState",
+    "sentences",
+    "passageActivities"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri-reference"
+    },
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "specVersion": {
+      "$ref": "#/$defs/semver"
+    },
+    "contentVersion": {
+      "$ref": "#/$defs/semver"
+    },
+    "workbookId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "metadata": {
+      "$ref": "#/$defs/metadata"
+    },
+    "sourceStatus": {
+      "$ref": "#/$defs/sourceStatus"
+    },
+    "updateState": {
+      "$ref": "#/$defs/updateState"
+    },
+    "sentences": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/sentence"
+      }
+    },
+    "passageActivities": {
+      "$ref": "#/$defs/passageActivities"
+    }
+  },
+  "$defs": {
+    "semver": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(?:-[0-9A-Za-z.-]+)?$"
+    },
+    "plainText": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?![\\s\\S]*<[^>]+>)[\\s\\S]*\\S[\\s\\S]*$"
+    },
+    "stableId": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+    },
+    "sentenceId": {
+      "type": "string",
+      "pattern": "^s[0-9]{3,}$"
+    },
+    "blockId": {
+      "type": "string",
+      "pattern": "^[A-Z]$"
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "occurrence"
+      ],
+      "properties": {
+        "text": {
+          "$ref": "#/$defs/plainText"
+        },
+        "occurrence": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "kicker",
+        "grade",
+        "topic",
+        "sourceLanguage",
+        "targetLanguage"
+      ],
+      "properties": {
+        "title": {
+          "$ref": "#/$defs/plainText"
+        },
+        "subtitle": {
+          "$ref": "#/$defs/plainText"
+        },
+        "lessonLabel": {
+          "$ref": "#/$defs/plainText"
+        },
+        "kicker": {
+          "$ref": "#/$defs/plainText"
+        },
+        "grade": {
+          "$ref": "#/$defs/plainText"
+        },
+        "topic": {
+          "$ref": "#/$defs/plainText"
+        },
+        "sourceLanguage": {
+          "const": "en"
+        },
+        "targetLanguage": {
+          "const": "ko"
+        },
+        "notes": {
+          "$ref": "#/$defs/plainText"
+        }
+      }
+    },
+    "sourceStatus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "sourceType",
+        "references",
+        "sentenceCount"
+      ],
+      "properties": {
+        "status": {
+          "const": "confirmed"
+        },
+        "sourceType": {
+          "enum": [
+            "image",
+            "pdf",
+            "scan",
+            "text",
+            "manual",
+            "mixed"
+          ]
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/plainText"
+          },
+          "uniqueItems": true
+        },
+        "sentenceCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "verifiedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "notes": {
+          "$ref": "#/$defs/plainText"
+        }
+      }
+    },
+    "updateScope": {
+      "enum": [
+        "new-only",
+        "all",
+        "selected",
+        "manual-review"
+      ]
+    },
+    "updateState": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "defaultScope",
+        "appliedUpdates"
+      ],
+      "properties": {
+        "defaultScope": {
+          "$ref": "#/$defs/updateScope"
+        },
+        "appliedUpdates": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/appliedUpdate"
+          }
+        }
+      }
+    },
+    "appliedUpdate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "scope",
+        "fromContentVersion",
+        "toContentVersion",
+        "appliedAt"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^U-[0-9]{8}-[0-9]{3,}$"
+        },
+        "scope": {
+          "$ref": "#/$defs/updateScope"
+        },
+        "fromContentVersion": {
+          "$ref": "#/$defs/semver"
+        },
+        "toContentVersion": {
+          "$ref": "#/$defs/semver"
+        },
+        "appliedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "report": {
+          "type": "string",
+          "pattern": "^reports/updates/U-[0-9]{8}-[0-9]{3,}\\.md$"
+        }
+      }
+    },
+    "sentence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "no",
+        "source",
+        "translation",
+        "meaningSegments",
+        "annotations",
+        "exercises"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/sentenceId"
+        },
+        "no": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "source": {
+          "$ref": "#/$defs/plainText"
+        },
+        "display": {
+          "$ref": "#/$defs/plainText"
+        },
+        "translation": {
+          "$ref": "#/$defs/plainText"
+        },
+        "meaningSegments": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/meaningSegment"
+          }
+        },
+        "annotations": {
+          "$ref": "#/$defs/annotations"
+        },
+        "exercises": {
+          "$ref": "#/$defs/exercises"
+        }
+      }
+    },
+    "meaningSegment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "en",
+        "ko"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/stableId"
+        },
+        "en": {
+          "$ref": "#/$defs/plainText"
+        },
+        "ko": {
+          "$ref": "#/$defs/plainText"
+        }
+      }
+    },
+    "annotations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "predicates",
+        "vocabulary"
+      ],
+      "properties": {
+        "predicates": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/predicateAnnotation"
+          }
+        },
+        "vocabulary": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "$ref": "#/$defs/vocabularyAnnotation"
+          }
+        }
+      }
+    },
+    "predicateAnnotation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "segmentId"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/stableId"
+        },
+        "segmentId": {
+          "$ref": "#/$defs/stableId"
+        },
+        "en": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/target"
+          }
+        },
+        "ko": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/target"
+          }
+        }
+      },
+      "anyOf": [
+        {
+          "required": [
+            "en"
+          ]
+        },
+        {
+          "required": [
+            "ko"
+          ]
+        }
+      ]
+    },
+    "vocabularyAnnotation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "segmentId",
+        "colorSlot",
+        "en",
+        "ko",
+        "meaning"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/stableId"
+        },
+        "segmentId": {
+          "$ref": "#/$defs/stableId"
+        },
+        "colorSlot": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8
+        },
+        "en": {
+          "$ref": "#/$defs/target"
+        },
+        "ko": {
+          "$ref": "#/$defs/target"
+        },
+        "meaning": {
+          "$ref": "#/$defs/plainText"
+        },
+        "cefr": {
+          "enum": [
+            "B2",
+            "C1",
+            "C2"
+          ]
+        },
+        "reasons": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "academic",
+              "abstract",
+              "technical",
+              "topic-core",
+              "structure-critical",
+              "student-difficulty"
+            ]
+          }
+        }
+      }
+    },
+    "exercises": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "koBlank",
+        "enBlank",
+        "verb",
+        "choice",
+        "arrange",
+        "writing"
+      ],
+      "properties": {
+        "koBlank": {
+          "$ref": "#/$defs/clozeExercise"
+        },
+        "enBlank": {
+          "$ref": "#/$defs/clozeExercise"
+        },
+        "verb": {
+          "$ref": "#/$defs/verbExercise"
+        },
+        "choice": {
+          "$ref": "#/$defs/choiceExercise"
+        },
+        "arrange": {
+          "$ref": "#/$defs/arrangeExercise"
+        },
+        "writing": {
+          "$ref": "#/$defs/writingExercise"
+        }
+      }
+    },
+    "clozeExercise": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "targets"
+      ],
+      "properties": {
+        "baseText": {
+          "$ref": "#/$defs/plainText"
+        },
+        "overrideReason": {
+          "$ref": "#/$defs/plainText"
+        },
+        "targets": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/clozeTarget"
+          }
+        }
+      }
+    },
+    "clozeTarget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "target"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/stableId"
+        },
+        "target": {
+          "$ref": "#/$defs/target"
+        }
+      }
+    },
+    "verbExercise": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "targets"
+      ],
+      "properties": {
+        "baseText": {
+          "$ref": "#/$defs/plainText"
+        },
+        "overrideReason": {
+          "$ref": "#/$defs/plainText"
+        },
+        "targets": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/verbTarget"
+          }
+        }
+      }
+    },
+    "verbTarget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "target",
+        "cue"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/stableId"
+        },
+        "target": {
+          "$ref": "#/$defs/target"
+        },
+        "cue": {
+          "$ref": "#/$defs/plainText"
+        },
+        "lemma": {
+          "$ref": "#/$defs/plainText"
+        }
+      }
+    },
+    "choiceExercise": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "targets"
+      ],
+      "properties": {
+        "baseText": {
+          "$ref": "#/$defs/plainText"
+        },
+        "overrideReason": {
+          "$ref": "#/$defs/plainText"
+        },
+        "targets": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/choiceTarget"
+          }
+        }
+      }
+    },
+    "choiceTarget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "target",
+        "options"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/stableId"
+        },
+        "target": {
+          "$ref": "#/$defs/target"
+        },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/plainText"
+          }
+        }
+      }
+    },
+    "arrangeExercise": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "chunks",
+        "displayOrder"
+      ],
+      "properties": {
+        "chunks": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/arrangeChunk"
+          }
+        },
+        "displayOrder": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/stableId"
+          }
+        }
+      }
+    },
+    "arrangeChunk": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "text"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/stableId"
+        },
+        "text": {
+          "$ref": "#/$defs/plainText"
+        }
+      }
+    },
+    "writingExercise": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "bank"
+      ],
+      "properties": {
+        "bank": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/plainText"
+          }
+        }
+      }
+    },
+    "passageActivities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "correction",
+        "paragraphOrder"
+      ],
+      "properties": {
+        "correction": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/correctionActivity"
+          }
+        },
+        "paragraphOrder": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/paragraphOrderActivity"
+          }
+        }
+      }
+    },
+    "correctionActivity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "textOverride",
+        "targets"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/stableId"
+        },
+        "textOverride": {
+          "$ref": "#/$defs/plainText"
+        },
+        "targets": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/correctionTarget"
+          }
+        }
+      }
+    },
+    "correctionExcerpt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sentenceId",
+        "targets"
+      ],
+      "properties": {
+        "sentenceId": {
+          "$ref": "#/$defs/sentenceId"
+        },
+        "textOverride": {
+          "$ref": "#/$defs/plainText"
+        },
+        "targets": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/correctionTarget"
+          }
+        }
+      }
+    },
+    "correctionTarget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "target",
+        "incorrect",
+        "correct"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/stableId"
+        },
+        "target": {
+          "$ref": "#/$defs/target"
+        },
+        "incorrect": {
+          "$ref": "#/$defs/plainText"
+        },
+        "correct": {
+          "$ref": "#/$defs/plainText"
+        }
+      }
+    },
+    "paragraphOrderActivity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "blocks",
+        "displayOrder",
+        "answerOrder"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/stableId"
+        },
+        "fixedIntroSentenceIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sentenceId"
+          },
+          "uniqueItems": true
+        },
+        "blocks": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/paragraphBlock"
+          }
+        },
+        "fixedOutroSentenceIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sentenceId"
+          },
+          "uniqueItems": true
+        },
+        "displayOrder": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/blockId"
+          }
+        },
+        "answerOrder": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/blockId"
+          }
+        }
+      }
+    },
+    "paragraphBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "sentenceIds"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/blockId"
+        },
+        "sentenceIds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/sentenceId"
+          }
+        }
+      }
+    }
+  }
+}

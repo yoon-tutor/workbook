@@ -1,0 +1,1469 @@
+{
+  "$schema": "../../schemas/canonical-workbook.schema.json",
+  "schemaVersion": "1.0.0",
+  "specVersion": "1.0.6",
+  "contentVersion": "1.0.0",
+  "workbookId": "2026-june-grade2-q35",
+  "metadata": {
+    "title": "2026학년도 6월 고2 35번 10단계 워크북",
+    "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 35번",
+    "kicker": "High School Reading",
+    "grade": "고등학교 2학년",
+    "topic": "맥락 정보를 활용해 예술 작품의 내용과 의미를 해석하는 과정",
+    "sourceLanguage": "en",
+    "targetLanguage": "ko"
+  },
+  "sourceStatus": {
+    "status": "confirmed",
+    "sourceType": "pdf",
+    "references": [
+      "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+    ],
+    "sentenceCount": 5,
+    "verifiedAt": "2026-09-08T10:00:00+09:00",
+    "notes": "원본 PDF 6쪽의 35번 본문과 번호 표시를 고해상도로 렌더링해 전사했습니다. 전체 흐름과 관계없는 정답 문장 ③ We should strive to understand a work of art as we see it, without being influenced by the background of the work, its creator, or its historical context.는 출제 정보로 보존하고, 학습용 canonical에는 이를 제외한 일관된 지문을 수록했습니다."
+  },
+  "updateState": {
+    "defaultScope": "new-only",
+    "appliedUpdates": [
+      {
+        "id": "U-20260908-018",
+        "scope": "selected",
+        "fromContentVersion": "0.0.0",
+        "toContentVersion": "1.0.0",
+        "appliedAt": "2026-09-08T10:05:00+09:00",
+        "report": "reports/updates/U-20260908-018.md"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "source": "The process we go through when we look at a work of art to determine if we recognize and can make sense of its content is not just a visual one.",
+      "translation": "예술 작품을 볼 때 그 내용을 알아보고 이해할 수 있는지 판단하기 위해 거치는 과정은 단지 시각적인 것만은 아니다.",
+      "meaningSegments": [
+        {
+          "en": "The process we go through",
+          "ko": "우리가 거치는 과정은",
+          "id": "s001-m01"
+        },
+        {
+          "en": "when we look at a work of art",
+          "ko": "예술 작품을 볼 때",
+          "id": "s001-m02"
+        },
+        {
+          "en": "to determine",
+          "ko": "판단하기 위한",
+          "id": "s001-m03"
+        },
+        {
+          "en": "if we recognize",
+          "ko": "우리가 알아보는지를",
+          "id": "s001-m04"
+        },
+        {
+          "en": "and can make sense of its content",
+          "ko": "그리고 그 내용을 이해할 수 있는지를",
+          "id": "s001-m05"
+        },
+        {
+          "en": "is not just a visual one.",
+          "ko": "단지 시각적인 것만은 아니다.",
+          "id": "s001-m06"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "go through",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "거치는",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m01-p01",
+            "segmentId": "s001-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "look at",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "볼 때",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m02-p01",
+            "segmentId": "s001-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "recognize",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "알아보는지를",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m04-p01",
+            "segmentId": "s001-m04"
+          },
+          {
+            "en": [
+              {
+                "text": "can make sense of",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "이해할 수 있는지를",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m05-p01",
+            "segmentId": "s001-m05"
+          },
+          {
+            "en": [
+              {
+                "text": "is not",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "아니다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m06-p01",
+            "segmentId": "s001-m06"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "content",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "내용",
+              "occurrence": 1
+            },
+            "meaning": "작품이 담고 있는 대상과 생각",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s001-m05-v01",
+            "segmentId": "s001-m05",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "visual",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "시각적인",
+              "occurrence": 1
+            },
+            "meaning": "보는 감각과 관련된",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s001-m06-v02",
+            "segmentId": "s001-m06",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s001-ko-01",
+              "target": {
+                "text": "그 내용을 알아보고 이해할 수 있는지",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-ko-02",
+              "target": {
+                "text": "단지 시각적인 것만은 아니다",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s001-en-01",
+              "target": {
+                "text": "recognize and can make sense of its content",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-en-02",
+              "target": {
+                "text": "is not just a visual one",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "go through",
+                "occurrence": 1
+              },
+              "cue": "go through",
+              "lemma": "go",
+              "id": "s001-verb-01"
+            },
+            {
+              "target": {
+                "text": "look at",
+                "occurrence": 1
+              },
+              "cue": "look at",
+              "lemma": "look",
+              "id": "s001-verb-02"
+            },
+            {
+              "target": {
+                "text": "can make sense of",
+                "occurrence": 1
+              },
+              "cue": "make sense of",
+              "lemma": "make",
+              "id": "s001-verb-03"
+            },
+            {
+              "target": {
+                "text": "is not",
+                "occurrence": 1
+              },
+              "cue": "be",
+              "lemma": "be",
+              "id": "s001-verb-04"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "not just a visual one",
+                "occurrence": 1
+              },
+              "options": [
+                "not just a visual one",
+                "entirely visual"
+              ],
+              "id": "s001-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s001-a",
+              "text": "The process we go through when we look at a work of art"
+            },
+            {
+              "id": "s001-b",
+              "text": "to determine if we recognize"
+            },
+            {
+              "id": "s001-c",
+              "text": "and can make sense of its content"
+            },
+            {
+              "id": "s001-d",
+              "text": "is not just a visual one."
+            }
+          ],
+          "displayOrder": [
+            "s001-c",
+            "s001-a",
+            "s001-d",
+            "s001-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "process",
+            "go through",
+            "look at a work of art",
+            "determine",
+            "recognize",
+            "make sense of content"
+          ]
+        }
+      },
+      "id": "s001",
+      "no": 1
+    },
+    {
+      "source": "It is a mental process as well, largely based on the elements within and about the work we can identify and categorize.",
+      "translation": "그것은 또한 정신적인 과정이며, 대체로 우리가 식별하고 분류할 수 있는 작품 안팎의 요소들에 바탕을 둔다.",
+      "meaningSegments": [
+        {
+          "en": "It is a mental process as well,",
+          "ko": "그것은 또한 정신적인 과정이다",
+          "id": "s002-m01"
+        },
+        {
+          "en": "largely based on the elements",
+          "ko": "대체로 그 요소들에 바탕을 둔",
+          "id": "s002-m02"
+        },
+        {
+          "en": "within and about the work",
+          "ko": "작품 안과 작품에 관한",
+          "id": "s002-m03"
+        },
+        {
+          "en": "we can identify and categorize.",
+          "ko": "우리가 식별하고 분류할 수 있는.",
+          "id": "s002-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "is",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "과정이다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m01-p01",
+            "segmentId": "s002-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "can identify",
+                "occurrence": 1
+              },
+              {
+                "text": "categorize",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "식별하고",
+                "occurrence": 1
+              },
+              {
+                "text": "분류할 수 있는",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m04-p01",
+            "segmentId": "s002-m04"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "mental",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "정신적인",
+              "occurrence": 1
+            },
+            "meaning": "생각과 판단에 관련된",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s002-m01-v01",
+            "segmentId": "s002-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "elements",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "요소들",
+              "occurrence": 1
+            },
+            "meaning": "전체를 이루는 부분들",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s002-m02-v02",
+            "segmentId": "s002-m02",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s002-ko-01",
+              "target": {
+                "text": "또한 정신적인 과정",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s002-ko-02",
+              "target": {
+                "text": "식별하고 분류할 수 있는",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s002-en-01",
+              "target": {
+                "text": "a mental process as well",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s002-en-02",
+              "target": {
+                "text": "identify and categorize",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "It is",
+                "occurrence": 1
+              },
+              "cue": "be",
+              "lemma": "be",
+              "id": "s002-verb-01"
+            },
+            {
+              "target": {
+                "text": "can identify and categorize",
+                "occurrence": 1
+              },
+              "cue": "identify and categorize",
+              "lemma": "identify",
+              "id": "s002-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "mental process",
+                "occurrence": 1
+              },
+              "options": [
+                "mental process",
+                "purely physical reaction"
+              ],
+              "id": "s002-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s002-a",
+              "text": "It is a mental process as well,"
+            },
+            {
+              "id": "s002-b",
+              "text": "largely based on the elements"
+            },
+            {
+              "id": "s002-c",
+              "text": "within and about the work"
+            },
+            {
+              "id": "s002-d",
+              "text": "we can identify and categorize."
+            }
+          ],
+          "displayOrder": [
+            "s002-b",
+            "s002-d",
+            "s002-a",
+            "s002-c"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "mental process",
+            "as well",
+            "largely based on",
+            "elements",
+            "within and about the work",
+            "identify and categorize"
+          ]
+        }
+      },
+      "id": "s002",
+      "no": 2
+    },
+    {
+      "source": "As we look and think, we may be given clues about what the work means by where it is, when it was made, what culture it came from, who created it, or why it was made.",
+      "translation": "우리가 보고 생각할 때, 작품이 어디에 있는지, 언제 만들어졌는지, 어느 문화에서 나왔는지, 누가 만들었는지, 왜 만들어졌는지를 통해 작품의 의미에 관한 단서를 얻을 수 있다.",
+      "meaningSegments": [
+        {
+          "en": "As we look and think,",
+          "ko": "우리가 보고 생각할 때,",
+          "id": "s003-m01"
+        },
+        {
+          "en": "we may be given clues",
+          "ko": "우리는 단서를 얻을 수 있다",
+          "id": "s003-m02"
+        },
+        {
+          "en": "about what the work means",
+          "ko": "작품이 무엇을 의미하는지에 관한",
+          "id": "s003-m03"
+        },
+        {
+          "en": "by where it is,",
+          "ko": "그것이 어디에 있는지를 통해,",
+          "id": "s003-m04"
+        },
+        {
+          "en": "when it was made,",
+          "ko": "언제 만들어졌는지를 통해,",
+          "id": "s003-m05"
+        },
+        {
+          "en": "what culture it came from,",
+          "ko": "어느 문화에서 나왔는지를 통해,",
+          "id": "s003-m06"
+        },
+        {
+          "en": "who created it,",
+          "ko": "누가 그것을 만들었는지를 통해,",
+          "id": "s003-m07"
+        },
+        {
+          "en": "or why it was made.",
+          "ko": "또는 왜 만들어졌는지를 통해.",
+          "id": "s003-m08"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "look",
+                "occurrence": 1
+              },
+              {
+                "text": "think",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "보고",
+                "occurrence": 1
+              },
+              {
+                "text": "생각할 때",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m01-p01",
+            "segmentId": "s003-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "may be given",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "얻을 수 있다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m02-p01",
+            "segmentId": "s003-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "means",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "의미하는지",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m03-p01",
+            "segmentId": "s003-m03"
+          },
+          {
+            "en": [
+              {
+                "text": "was made",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "만들어졌는지",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m05-p01",
+            "segmentId": "s003-m05"
+          },
+          {
+            "en": [
+              {
+                "text": "came from",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "나왔는지를",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m06-p01",
+            "segmentId": "s003-m06"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "clues",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "단서",
+              "occurrence": 1
+            },
+            "meaning": "판단이나 해석에 도움이 되는 정보",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s003-m02-v01",
+            "segmentId": "s003-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "culture",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "문화",
+              "occurrence": 1
+            },
+            "meaning": "한 사회의 생활 방식과 가치 체계",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s003-m06-v02",
+            "segmentId": "s003-m06",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s003-ko-01",
+              "target": {
+                "text": "작품의 의미에 관한 단서",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s003-ko-02",
+              "target": {
+                "text": "어느 문화에서 나왔는지",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s003-en-01",
+              "target": {
+                "text": "may be given clues",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s003-en-02",
+              "target": {
+                "text": "what culture it came from",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "may be given",
+                "occurrence": 1
+              },
+              "cue": "give",
+              "lemma": "give",
+              "id": "s003-verb-01"
+            },
+            {
+              "target": {
+                "text": "means",
+                "occurrence": 1
+              },
+              "cue": "mean",
+              "lemma": "mean",
+              "id": "s003-verb-02"
+            },
+            {
+              "target": {
+                "text": "was made",
+                "occurrence": 1
+              },
+              "cue": "make",
+              "lemma": "make",
+              "id": "s003-verb-03"
+            },
+            {
+              "target": {
+                "text": "came from",
+                "occurrence": 1
+              },
+              "cue": "come from",
+              "lemma": "come",
+              "id": "s003-verb-04"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "may be given clues",
+                "occurrence": 1
+              },
+              "options": [
+                "may be given clues",
+                "must ignore all clues"
+              ],
+              "id": "s003-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s003-a",
+              "text": "As we look and think, we may be given clues"
+            },
+            {
+              "id": "s003-b",
+              "text": "about what the work means"
+            },
+            {
+              "id": "s003-c",
+              "text": "by where it is, when it was made,"
+            },
+            {
+              "id": "s003-d",
+              "text": "what culture it came from, who created it, or why it was made."
+            }
+          ],
+          "displayOrder": [
+            "s003-c",
+            "s003-a",
+            "s003-d",
+            "s003-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "look and think",
+            "be given clues",
+            "work means",
+            "where and when",
+            "culture",
+            "creator and reason"
+          ]
+        }
+      },
+      "id": "s003",
+      "no": 3
+    },
+    {
+      "source": "Any information we can gather helps us understand the work’s context, that is, for what historical, social, personal, political, or scientific reasons the work of art was made.",
+      "translation": "우리가 수집할 수 있는 모든 정보는 작품이 어떤 역사적, 사회적, 개인적, 정치적 또는 과학적 이유로 만들어졌는지, 곧 작품의 맥락을 이해하도록 돕는다.",
+      "meaningSegments": [
+        {
+          "en": "Any information we can gather",
+          "ko": "우리가 수집할 수 있는 모든 정보는",
+          "id": "s004-m01"
+        },
+        {
+          "en": "helps us understand",
+          "ko": "우리가 이해하도록 돕는다",
+          "id": "s004-m02"
+        },
+        {
+          "en": "the work’s context,",
+          "ko": "작품의 맥락을,",
+          "id": "s004-m03"
+        },
+        {
+          "en": "that is,",
+          "ko": "바꾸어 말하면,",
+          "id": "s004-m04"
+        },
+        {
+          "en": "for what historical, social, personal, political, or scientific reasons",
+          "ko": "어떤 역사적, 사회적, 개인적, 정치적 또는 과학적 이유로",
+          "id": "s004-m05"
+        },
+        {
+          "en": "the work of art was made.",
+          "ko": "예술 작품이 만들어졌는지를.",
+          "id": "s004-m06"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "can gather",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "수집할 수 있는",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m01-p01",
+            "segmentId": "s004-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "helps",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "돕는다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m02-p01",
+            "segmentId": "s004-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "was made",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "만들어졌는지를",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m06-p01",
+            "segmentId": "s004-m06"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "context",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "맥락",
+              "occurrence": 1
+            },
+            "meaning": "작품이 만들어진 배경과 관련 상황",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s004-m03-v01",
+            "segmentId": "s004-m03",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "scientific reasons",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "과학적 이유",
+              "occurrence": 1
+            },
+            "meaning": "과학과 관련된 근거나 목적",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s004-m05-v02",
+            "segmentId": "s004-m05",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s004-ko-01",
+              "target": {
+                "text": "작품의 맥락",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-ko-02",
+              "target": {
+                "text": "역사적, 사회적, 개인적, 정치적 또는 과학적 이유",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s004-en-01",
+              "target": {
+                "text": "helps us understand the work’s context",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-en-02",
+              "target": {
+                "text": "historical, social, personal, political, or scientific reasons",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "can gather",
+                "occurrence": 1
+              },
+              "cue": "gather",
+              "lemma": "gather",
+              "id": "s004-verb-01"
+            },
+            {
+              "target": {
+                "text": "helps",
+                "occurrence": 1
+              },
+              "cue": "help",
+              "lemma": "help",
+              "id": "s004-verb-02"
+            },
+            {
+              "target": {
+                "text": "was made",
+                "occurrence": 1
+              },
+              "cue": "make",
+              "lemma": "make",
+              "id": "s004-verb-03"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "context",
+                "occurrence": 1
+              },
+              "options": [
+                "context",
+                "surface appearance only"
+              ],
+              "id": "s004-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s004-a",
+              "text": "Any information we can gather"
+            },
+            {
+              "id": "s004-b",
+              "text": "helps us understand the work’s context,"
+            },
+            {
+              "id": "s004-c",
+              "text": "that is, for what historical, social, personal, political, or scientific reasons"
+            },
+            {
+              "id": "s004-d",
+              "text": "the work of art was made."
+            }
+          ],
+          "displayOrder": [
+            "s004-b",
+            "s004-d",
+            "s004-a",
+            "s004-c"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "any information",
+            "gather",
+            "help us understand",
+            "work’s context",
+            "historical and social reasons",
+            "be made"
+          ]
+        }
+      },
+      "id": "s004",
+      "no": 4
+    },
+    {
+      "source": "And then, using all the contextual information we have gathered, we interpret the work of art’s content to discover what it means or symbolizes.",
+      "translation": "그런 다음 수집한 모든 맥락 정보를 사용하여 우리는 작품이 무엇을 의미하거나 상징하는지 알아내기 위해 예술 작품의 내용을 해석한다.",
+      "meaningSegments": [
+        {
+          "en": "And then,",
+          "ko": "그런 다음,",
+          "id": "s005-m01"
+        },
+        {
+          "en": "using all the contextual information",
+          "ko": "모든 맥락 정보를 사용하여",
+          "id": "s005-m02"
+        },
+        {
+          "en": "we have gathered,",
+          "ko": "우리가 수집한,",
+          "id": "s005-m03"
+        },
+        {
+          "en": "we interpret the work of art’s content",
+          "ko": "우리는 예술 작품의 내용을 해석한다",
+          "id": "s005-m04"
+        },
+        {
+          "en": "to discover",
+          "ko": "알아내기 위해",
+          "id": "s005-m05"
+        },
+        {
+          "en": "what it means or symbolizes.",
+          "ko": "그것이 무엇을 의미하거나 상징하는지를.",
+          "id": "s005-m06"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "have gathered",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "수집한",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m03-p01",
+            "segmentId": "s005-m03"
+          },
+          {
+            "en": [
+              {
+                "text": "interpret",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "해석한다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m04-p01",
+            "segmentId": "s005-m04"
+          },
+          {
+            "en": [
+              {
+                "text": "means",
+                "occurrence": 1
+              },
+              {
+                "text": "symbolizes",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "의미하거나",
+                "occurrence": 1
+              },
+              {
+                "text": "상징하는지를",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m06-p01",
+            "segmentId": "s005-m06"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "contextual information",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "맥락 정보",
+              "occurrence": 1
+            },
+            "meaning": "작품의 배경과 상황에 관한 정보",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s005-m02-v01",
+            "segmentId": "s005-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "content",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "내용",
+              "occurrence": 1
+            },
+            "meaning": "작품이 담고 있는 대상과 생각",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s005-m04-v02",
+            "segmentId": "s005-m04",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s005-ko-01",
+              "target": {
+                "text": "모든 맥락 정보를 사용하여",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-ko-02",
+              "target": {
+                "text": "예술 작품의 내용을 해석한다",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s005-en-01",
+              "target": {
+                "text": "all the contextual information",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-en-02",
+              "target": {
+                "text": "interpret the work of art’s content",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "have gathered",
+                "occurrence": 1
+              },
+              "cue": "gather",
+              "lemma": "gather",
+              "id": "s005-verb-01"
+            },
+            {
+              "target": {
+                "text": "interpret",
+                "occurrence": 1
+              },
+              "cue": "interpret",
+              "lemma": "interpret",
+              "id": "s005-verb-02"
+            },
+            {
+              "target": {
+                "text": "means",
+                "occurrence": 1
+              },
+              "cue": "mean",
+              "lemma": "mean",
+              "id": "s005-verb-03"
+            },
+            {
+              "target": {
+                "text": "symbolizes",
+                "occurrence": 1
+              },
+              "cue": "symbolize",
+              "lemma": "symbolize",
+              "id": "s005-verb-04"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "interpret",
+                "occurrence": 1
+              },
+              "options": [
+                "interpret",
+                "ignore"
+              ],
+              "id": "s005-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s005-a",
+              "text": "And then, using all the contextual information"
+            },
+            {
+              "id": "s005-b",
+              "text": "we have gathered,"
+            },
+            {
+              "id": "s005-c",
+              "text": "we interpret the work of art’s content"
+            },
+            {
+              "id": "s005-d",
+              "text": "to discover what it means or symbolizes."
+            }
+          ],
+          "displayOrder": [
+            "s005-c",
+            "s005-a",
+            "s005-d",
+            "s005-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "and then",
+            "contextual information",
+            "gather",
+            "interpret",
+            "work of art’s content",
+            "mean or symbolize"
+          ]
+        }
+      },
+      "id": "s005",
+      "no": 5
+    }
+  ],
+  "passageActivities": {
+    "correction": [
+      {
+        "textOverride": "The process we go through when we look at a work of art to determine if we recognize and can make sense of its content are not just a visual one. It is a mental process as well, largely base on the elements within and about the work we can identify and categorize. As we look and think, we may be gave clues about what the work means by where it is, when it was made, what culture it came from, who created it, or why it was made. Any information we can gather help us understand the work’s context, that is, for what historical, social, personal, political, or scientific reasons the work of art was made. And then, using all the contextual information we have gathered, we interprets the work of art’s content to discover what it means or symbolize.",
+        "targets": [
+          {
+            "target": {
+              "text": "content are not",
+              "occurrence": 1
+            },
+            "incorrect": "content are not",
+            "correct": "content is not",
+            "id": "correction-01-01"
+          },
+          {
+            "target": {
+              "text": "largely base on",
+              "occurrence": 1
+            },
+            "incorrect": "largely base on",
+            "correct": "largely based on",
+            "id": "correction-01-02"
+          },
+          {
+            "target": {
+              "text": "may be gave",
+              "occurrence": 1
+            },
+            "incorrect": "may be gave",
+            "correct": "may be given",
+            "id": "correction-01-03"
+          },
+          {
+            "target": {
+              "text": "information we can gather help",
+              "occurrence": 1
+            },
+            "incorrect": "information we can gather help",
+            "correct": "information we can gather helps",
+            "id": "correction-01-04"
+          },
+          {
+            "target": {
+              "text": "we interprets",
+              "occurrence": 1
+            },
+            "incorrect": "we interprets",
+            "correct": "we interpret",
+            "id": "correction-01-05"
+          },
+          {
+            "target": {
+              "text": "means or symbolize",
+              "occurrence": 1
+            },
+            "incorrect": "means or symbolize",
+            "correct": "means or symbolizes",
+            "id": "correction-01-06"
+          }
+        ],
+        "id": "correction-01"
+      }
+    ],
+    "paragraphOrder": [
+      {
+        "blocks": [
+          {
+            "id": "A",
+            "sentenceIds": [
+              "s001",
+              "s002"
+            ]
+          },
+          {
+            "id": "B",
+            "sentenceIds": [
+              "s003"
+            ]
+          },
+          {
+            "id": "C",
+            "sentenceIds": [
+              "s004",
+              "s005"
+            ]
+          }
+        ],
+        "displayOrder": [
+          "B",
+          "C",
+          "A"
+        ],
+        "answerOrder": [
+          "A",
+          "B",
+          "C"
+        ],
+        "id": "paragraph-order-01"
+      }
+    ]
+  }
+}

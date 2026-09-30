@@ -1,0 +1,13 @@
+{
+  "capturedAt": "2026-08-28T14:42:46+09:00",
+  "purpose": "Authoring workflow changes must not silently rewrite reviewed canonical content.",
+  "sha256": {
+    "workbooks/2026-june-grade2-q20/content.json": "65c4ba2c9269ec3ca24a9de09bc6baa0f7fbe2de312eb3615e95ee77f1fc9485",
+    "workbooks/2026-june-grade2-q21/content.json": "b655acff41939784374558be10ab3a2d9aa5a73b1d9ae7bfa9ab8eb46eb88af7",
+    "workbooks/2026-june-grade2-q22/content.json": "2ac6127f8a08fe3a7a6cd943cbb30e7d1e40c413b66fe1b8012cdb34a3dc7897",
+    "workbooks/2026-june-grade2-q23/content.json": "2133178b74a309b4416cb2a156169870951a4216bfb7eb950b9616f94fbfcd55",
+    "workbooks/chocolate/content.json": "2d56ade814385b69d1d9c65b3dc52bed3e03256cd0c605a22b76583cb6de57f2",
+    "workbooks/soccer-jersey-swap/content.json": "0f681829fb0f6aaa23fb1ebeb8dbe99fdf92f64247cee21136fb544513c58992",
+    "workbooks/when-failure-become-ideas/content.json": "82ff4197b48481c69feb87d8fc48ea77d8e880e17d83e4b41b604d96add69a80"
+  }
+}

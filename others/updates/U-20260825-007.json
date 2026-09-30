@@ -1,0 +1,45 @@
+{
+  "$schema": "../schemas/update.schema.json",
+  "id": "U-20260825-007",
+  "title": "공개 워크북 파일의 macOS 숨김 속성 전파 차단",
+  "date": "2026-08-25",
+  "summary": "비공개 빌드의 파일 시스템 메타데이터가 공개 산출물로 복사되지 않도록 하고, 공개 파일에서 macOS 숨김 플래그를 방어적으로 제거합니다.",
+  "category": "release-safety",
+  "applyTo": "all",
+  "affectedStages": [
+    "publish"
+  ],
+  "request": "앞으로 공개된 워크북 폴더가 Finder에서 빈 폴더로 보이는 문제가 재발하지 않게 합니다.",
+  "directChanges": {
+    "files": [
+      "config/versions.json",
+      "tests/test_release_safety.py",
+      "updates/U-20260825-007.json",
+      "workbook_engine/__init__.py",
+      "workbook_engine/release.py"
+    ],
+    "jsonPaths": [
+      {
+        "manifest": "build",
+        "path": "$"
+      }
+    ]
+  },
+  "verification": [
+    {
+      "name": "hidden-flag-regression",
+      "status": "pass",
+      "details": "숨김 플래그가 설정된 비공개 파일을 공개 복사해도 결과 파일에는 숨김 플래그가 남지 않는 회귀 검사를 추가했습니다."
+    },
+    {
+      "name": "existing-output-repair",
+      "status": "pass",
+      "details": "20번과 21번의 기존 공개 파일 8개에서 숨김 플래그를 제거하고 Finder에서 4개 항목이 표시되는 것을 확인했습니다."
+    },
+    {
+      "name": "release-validation",
+      "status": "pass",
+      "details": "숨김 플래그 회귀 검사를 포함한 전체 단위 테스트 32개가 통과했습니다."
+    }
+  ]
+}

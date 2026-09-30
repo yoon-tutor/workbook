@@ -1,0 +1,1709 @@
+{
+  "$schema": "../../schemas/canonical-workbook.schema.json",
+  "schemaVersion": "1.0.0",
+  "specVersion": "1.0.6",
+  "contentVersion": "1.0.0",
+  "workbookId": "2026-june-grade2-q31",
+  "metadata": {
+    "title": "2026학년도 6월 고2 31번 10단계 워크북",
+    "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 31번",
+    "kicker": "High School Reading",
+    "grade": "고등학교 2학년",
+    "topic": "도시 공간이 시대 변화에 맞춰 다양한 용도를 계속 수용하는 지속성",
+    "sourceLanguage": "en",
+    "targetLanguage": "ko"
+  },
+  "sourceStatus": {
+    "status": "confirmed",
+    "sourceType": "pdf",
+    "references": [
+      "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+    ],
+    "sentenceCount": 7,
+    "verifiedAt": "2026-09-03T15:05:00+09:00",
+    "notes": "원본 PDF 5쪽의 31번 본문, 빈칸, 선택지를 고해상도로 렌더링해 전사했습니다. 빈칸은 문맥과 선택지를 대조해 정답 ① evolving uses를 canonical 본문에 복원했습니다."
+  },
+  "updateState": {
+    "defaultScope": "new-only",
+    "appliedUpdates": [
+      {
+        "id": "U-20260903-016",
+        "scope": "selected",
+        "fromContentVersion": "0.0.0",
+        "toContentVersion": "1.0.0",
+        "appliedAt": "2026-09-03T15:10:00+09:00",
+        "report": "reports/updates/U-20260903-016.md"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "source": "One easily underappreciated feature of a city street or square is its “future-proof” nature.",
+      "translation": "쉽게 과소평가되는 도시의 거리나 광장의 한 가지 특징은 그것의 ‘미래 대응형’ 성격이다.",
+      "meaningSegments": [
+        {
+          "en": "One easily underappreciated feature",
+          "ko": "쉽게 과소평가되는 한 가지 특징은",
+          "id": "s001-m01"
+        },
+        {
+          "en": "of a city street or square",
+          "ko": "도시의 거리나 광장의",
+          "id": "s001-m02"
+        },
+        {
+          "en": "is its “future-proof” nature.",
+          "ko": "그것의 ‘미래 대응형’ 성격이다.",
+          "id": "s001-m03"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "is",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "성격이다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m03-p01",
+            "segmentId": "s001-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "underappreciated",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "과소평가되는",
+              "occurrence": 1
+            },
+            "meaning": "가치가 충분히 인정되지 않는",
+            "reasons": [
+              "academic",
+              "structure-critical"
+            ],
+            "id": "s001-m01-v01",
+            "segmentId": "s001-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "future-proof",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "미래 대응형",
+              "occurrence": 1
+            },
+            "meaning": "미래의 변화에도 쓸모를 유지하는",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s001-m03-v02",
+            "segmentId": "s001-m03",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s001-ko-01",
+              "target": {
+                "text": "쉽게 과소평가되는",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-ko-02",
+              "target": {
+                "text": "‘미래 대응형’ 성격",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s001-en-01",
+              "target": {
+                "text": "easily underappreciated feature",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-en-02",
+              "target": {
+                "text": "“future-proof” nature",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "is",
+                "occurrence": 1
+              },
+              "cue": "be",
+              "lemma": "be",
+              "id": "s001-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "underappreciated",
+                "occurrence": 1
+              },
+              "options": [
+                "underappreciated",
+                "overestimated"
+              ],
+              "id": "s001-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s001-a",
+              "text": "One easily underappreciated feature"
+            },
+            {
+              "id": "s001-b",
+              "text": "of a city street or square"
+            },
+            {
+              "id": "s001-c",
+              "text": "is its “future-proof” nature."
+            }
+          ],
+          "displayOrder": [
+            "s001-b",
+            "s001-c",
+            "s001-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "easily underappreciated",
+            "feature",
+            "city street or square",
+            "future-proof",
+            "nature"
+          ]
+        }
+      },
+      "id": "s001",
+      "no": 1
+    },
+    {
+      "source": "The ancient medieval squares in places like Marrakesh and Siena are still places where stuff is sold every day, even if the stuff itself has changed over the last five hundred years.",
+      "translation": "마라케시와 시에나 같은 곳의 오랜 중세 광장들은 물건 자체가 지난 500년 동안 바뀌어 왔음에도 여전히 날마다 물건이 팔리는 장소이다.",
+      "meaningSegments": [
+        {
+          "en": "The ancient medieval squares",
+          "ko": "오랜 중세 광장들은",
+          "id": "s002-m01"
+        },
+        {
+          "en": "in places like Marrakesh and Siena",
+          "ko": "마라케시와 시에나 같은 곳의",
+          "id": "s002-m02"
+        },
+        {
+          "en": "are still places",
+          "ko": "여전히 장소이다",
+          "id": "s002-m03"
+        },
+        {
+          "en": "where stuff is sold every day,",
+          "ko": "물건이 날마다 팔리는",
+          "id": "s002-m04"
+        },
+        {
+          "en": "even if the stuff itself has changed",
+          "ko": "비록 그 물건 자체는 바뀌어 왔음에도",
+          "id": "s002-m05"
+        },
+        {
+          "en": "over the last five hundred years.",
+          "ko": "지난 500년 동안.",
+          "id": "s002-m06"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "are",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "장소이다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m03-p01",
+            "segmentId": "s002-m03"
+          },
+          {
+            "en": [
+              {
+                "text": "is sold",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "팔리는",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m04-p01",
+            "segmentId": "s002-m04"
+          },
+          {
+            "en": [
+              {
+                "text": "has changed",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "바뀌어 왔음에도",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m05-p01",
+            "segmentId": "s002-m05"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "medieval",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "중세",
+              "occurrence": 1
+            },
+            "meaning": "중세 시대의",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s002-m01-v01",
+            "segmentId": "s002-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "has changed",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "바뀌어 왔음에도",
+              "occurrence": 1
+            },
+            "meaning": "과거부터 지금까지 변해 왔다",
+            "reasons": [
+              "structure-critical",
+              "topic-core"
+            ],
+            "id": "s002-m05-v02",
+            "segmentId": "s002-m05",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s002-ko-01",
+              "target": {
+                "text": "여전히 날마다 물건이 팔리는 장소",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s002-ko-02",
+              "target": {
+                "text": "지난 500년 동안 바뀌어 왔음에도",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s002-en-01",
+              "target": {
+                "text": "are still places where stuff is sold every day",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s002-en-02",
+              "target": {
+                "text": "has changed over the last five hundred years",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "are still places",
+                "occurrence": 1
+              },
+              "cue": "be",
+              "lemma": "be",
+              "id": "s002-verb-01"
+            },
+            {
+              "target": {
+                "text": "is sold",
+                "occurrence": 1
+              },
+              "cue": "sell",
+              "lemma": "sell",
+              "id": "s002-verb-02"
+            },
+            {
+              "target": {
+                "text": "has changed",
+                "occurrence": 1
+              },
+              "cue": "change",
+              "lemma": "change",
+              "id": "s002-verb-03"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "has changed",
+                "occurrence": 1
+              },
+              "options": [
+                "has changed",
+                "has remained unchanged"
+              ],
+              "id": "s002-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s002-a",
+              "text": "The ancient medieval squares in places like Marrakesh and Siena"
+            },
+            {
+              "id": "s002-b",
+              "text": "are still places where stuff is sold every day,"
+            },
+            {
+              "id": "s002-c",
+              "text": "even if the stuff itself has changed"
+            },
+            {
+              "id": "s002-d",
+              "text": "over the last five hundred years."
+            }
+          ],
+          "displayOrder": [
+            "s002-c",
+            "s002-a",
+            "s002-d",
+            "s002-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "ancient medieval squares",
+            "Marrakesh and Siena",
+            "still places",
+            "stuff",
+            "be sold",
+            "has changed"
+          ]
+        }
+      },
+      "id": "s002",
+      "no": 2
+    },
+    {
+      "source": "The city square is a fairly future-proof technology, as is the shopping street, even in an age of online shopping.",
+      "translation": "도시 광장은 상당히 미래 변화에 견디는 기술이며, 온라인 쇼핑 시대에도 상점가 역시 그러하다.",
+      "meaningSegments": [
+        {
+          "en": "The city square is",
+          "ko": "도시 광장은 해당한다",
+          "id": "s003-m01"
+        },
+        {
+          "en": "a fairly future-proof technology,",
+          "ko": "상당히 미래 변화에 견디는 기술에,",
+          "id": "s003-m02"
+        },
+        {
+          "en": "as is the shopping street,",
+          "ko": "상점가 역시 그러하며,",
+          "id": "s003-m03"
+        },
+        {
+          "en": "even in an age of online shopping.",
+          "ko": "온라인 쇼핑 시대에도.",
+          "id": "s003-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "is",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "해당한다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m01-p01",
+            "segmentId": "s003-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "is",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "그러하며",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m03-p01",
+            "segmentId": "s003-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "fairly",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "상당히",
+              "occurrence": 1
+            },
+            "meaning": "꽤, 상당히",
+            "reasons": [
+              "structure-critical"
+            ],
+            "id": "s003-m02-v01",
+            "segmentId": "s003-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "future-proof",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "미래 변화에 견디는",
+              "occurrence": 1
+            },
+            "meaning": "미래에도 계속 유용한",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s003-m02-v02",
+            "segmentId": "s003-m02",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s003-ko-01",
+              "target": {
+                "text": "미래 변화에 견디는 기술",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s003-ko-02",
+              "target": {
+                "text": "온라인 쇼핑 시대에도",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s003-en-01",
+              "target": {
+                "text": "a fairly future-proof technology",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s003-en-02",
+              "target": {
+                "text": "even in an age of online shopping",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "city square is",
+                "occurrence": 1
+              },
+              "cue": "be",
+              "lemma": "be",
+              "id": "s003-verb-01"
+            },
+            {
+              "target": {
+                "text": "is the shopping street",
+                "occurrence": 1
+              },
+              "cue": "be",
+              "lemma": "be",
+              "id": "s003-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "future-proof",
+                "occurrence": 1
+              },
+              "options": [
+                "future-proof",
+                "quickly obsolete"
+              ],
+              "id": "s003-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s003-a",
+              "text": "The city square is a fairly future-proof technology,"
+            },
+            {
+              "id": "s003-b",
+              "text": "as is the shopping street,"
+            },
+            {
+              "id": "s003-c",
+              "text": "even in an age of online shopping."
+            }
+          ],
+          "displayOrder": [
+            "s003-b",
+            "s003-c",
+            "s003-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "city square",
+            "fairly future-proof technology",
+            "shopping street",
+            "even",
+            "online shopping"
+          ]
+        }
+      },
+      "id": "s003",
+      "no": 3
+    },
+    {
+      "source": "For example, the same physical store that once sold buggy whips and typewriters might now repair damaged phones and sell bubble tea.",
+      "translation": "예를 들어 한때 마차 채찍과 타자기를 팔던 동일한 실제 상점이 이제는 손상된 휴대전화를 수리하고 버블티를 팔 수도 있다.",
+      "meaningSegments": [
+        {
+          "en": "For example,",
+          "ko": "예를 들어,",
+          "id": "s004-m01"
+        },
+        {
+          "en": "the same physical store",
+          "ko": "동일한 실제 상점이",
+          "id": "s004-m02"
+        },
+        {
+          "en": "that once sold buggy whips and typewriters",
+          "ko": "한때 마차 채찍과 타자기를 팔던",
+          "id": "s004-m03"
+        },
+        {
+          "en": "might now repair damaged phones",
+          "ko": "이제는 손상된 휴대전화를 수리할 수도 있고",
+          "id": "s004-m04"
+        },
+        {
+          "en": "and sell bubble tea.",
+          "ko": "버블티를 팔 수도 있다.",
+          "id": "s004-m05"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "sold",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "팔던",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m03-p01",
+            "segmentId": "s004-m03"
+          },
+          {
+            "en": [
+              {
+                "text": "might now repair",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "수리할 수도 있고",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m04-p01",
+            "segmentId": "s004-m04"
+          },
+          {
+            "en": [
+              {
+                "text": "sell",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "팔 수도 있다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m05-p01",
+            "segmentId": "s004-m05"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "physical store",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "실제 상점",
+              "occurrence": 1
+            },
+            "meaning": "온라인이 아닌 현실 공간의 가게",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s004-m02-v01",
+            "segmentId": "s004-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "buggy whips",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "마차 채찍",
+              "occurrence": 1
+            },
+            "meaning": "마차를 모는 데 쓰던 채찍",
+            "reasons": [
+              "technical"
+            ],
+            "id": "s004-m03-v02",
+            "segmentId": "s004-m03",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s004-ko-01",
+              "target": {
+                "text": "한때 마차 채찍과 타자기를 팔던",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-ko-02",
+              "target": {
+                "text": "손상된 휴대전화를 수리하고",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s004-en-01",
+              "target": {
+                "text": "once sold buggy whips and typewriters",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-en-02",
+              "target": {
+                "text": "might now repair damaged phones",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "sold",
+                "occurrence": 1
+              },
+              "cue": "sell",
+              "lemma": "sell",
+              "id": "s004-verb-01"
+            },
+            {
+              "target": {
+                "text": "might now repair",
+                "occurrence": 1
+              },
+              "cue": "repair",
+              "lemma": "repair",
+              "id": "s004-verb-02"
+            },
+            {
+              "target": {
+                "text": "sell bubble tea",
+                "occurrence": 1
+              },
+              "cue": "sell",
+              "lemma": "sell",
+              "id": "s004-verb-03"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "might now repair",
+                "occurrence": 1
+              },
+              "options": [
+                "might now repair",
+                "could never repair"
+              ],
+              "id": "s004-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s004-a",
+              "text": "For example, the same physical store"
+            },
+            {
+              "id": "s004-b",
+              "text": "that once sold buggy whips and typewriters"
+            },
+            {
+              "id": "s004-c",
+              "text": "might now repair damaged phones"
+            },
+            {
+              "id": "s004-d",
+              "text": "and sell bubble tea."
+            }
+          ],
+          "displayOrder": [
+            "s004-c",
+            "s004-a",
+            "s004-d",
+            "s004-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "for example",
+            "same physical store",
+            "once sell",
+            "buggy whips and typewriters",
+            "repair damaged phones",
+            "bubble tea"
+          ]
+        }
+      },
+      "id": "s004",
+      "no": 4
+    },
+    {
+      "source": "The same infrastructure supports evolving uses.",
+      "translation": "동일한 기반 시설이 변화해 가는 용도들을 뒷받침한다.",
+      "meaningSegments": [
+        {
+          "en": "The same infrastructure supports",
+          "ko": "동일한 기반 시설이 뒷받침한다",
+          "id": "s005-m01"
+        },
+        {
+          "en": "evolving uses.",
+          "ko": "변화해 가는 용도들을.",
+          "id": "s005-m02"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "supports",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "뒷받침한다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m01-p01",
+            "segmentId": "s005-m01"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "infrastructure",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "기반 시설",
+              "occurrence": 1
+            },
+            "meaning": "활동을 가능하게 하는 기본 시설",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s005-m01-v01",
+            "segmentId": "s005-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "evolving uses",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "변화해 가는 용도",
+              "occurrence": 1
+            },
+            "meaning": "시대에 따라 달라지는 쓰임",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s005-m02-v02",
+            "segmentId": "s005-m02",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s005-ko-01",
+              "target": {
+                "text": "동일한 기반 시설",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-ko-02",
+              "target": {
+                "text": "변화해 가는 용도들",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s005-en-01",
+              "target": {
+                "text": "same infrastructure",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-en-02",
+              "target": {
+                "text": "evolving uses",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "supports",
+                "occurrence": 1
+              },
+              "cue": "support",
+              "lemma": "support",
+              "id": "s005-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "evolving uses",
+                "occurrence": 1
+              },
+              "options": [
+                "evolving uses",
+                "limited functions"
+              ],
+              "id": "s005-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s005-a",
+              "text": "The same infrastructure supports"
+            },
+            {
+              "id": "s005-b",
+              "text": "evolving uses."
+            }
+          ],
+          "displayOrder": [
+            "s005-b",
+            "s005-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "same infrastructure",
+            "support",
+            "evolving uses"
+          ]
+        }
+      },
+      "id": "s005",
+      "no": 5
+    },
+    {
+      "source": "Jane Jacobs, the great prophet of the city economy, made much of this fact in her books, including The Death and Life of Great American Cities and The Nature of Economies.",
+      "translation": "도시 경제의 위대한 예언자 제인 제이콥스는 『미국 대도시의 죽음과 삶』과 『경제의 본질』을 포함한 자신의 책들에서 이 사실을 매우 중시했다.",
+      "meaningSegments": [
+        {
+          "en": "Jane Jacobs,",
+          "ko": "제인 제이콥스는,",
+          "id": "s006-m01"
+        },
+        {
+          "en": "the great prophet of the city economy,",
+          "ko": "도시 경제의 위대한 예언자인,",
+          "id": "s006-m02"
+        },
+        {
+          "en": "made much of this fact",
+          "ko": "이 사실을 매우 중시했다",
+          "id": "s006-m03"
+        },
+        {
+          "en": "in her books,",
+          "ko": "자신의 책들에서,",
+          "id": "s006-m04"
+        },
+        {
+          "en": "including The Death and Life of Great American Cities",
+          "ko": "『미국 대도시의 죽음과 삶』을 포함하여",
+          "id": "s006-m05"
+        },
+        {
+          "en": "and The Nature of Economies.",
+          "ko": "그리고 『경제의 본질』을.",
+          "id": "s006-m06"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "made much of",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "매우 중시했다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s006-m03-p01",
+            "segmentId": "s006-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "prophet",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "예언자",
+              "occurrence": 1
+            },
+            "meaning": "앞날을 내다보는 사람",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s006-m02-v01",
+            "segmentId": "s006-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "made much of",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "매우 중시했다",
+              "occurrence": 1
+            },
+            "meaning": "매우 중요하게 여겼다",
+            "reasons": [
+              "structure-critical",
+              "topic-core"
+            ],
+            "id": "s006-m03-v02",
+            "segmentId": "s006-m03",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s006-ko-01",
+              "target": {
+                "text": "도시 경제의 위대한 예언자",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s006-ko-02",
+              "target": {
+                "text": "이 사실을 매우 중시했다",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s006-en-01",
+              "target": {
+                "text": "the great prophet of the city economy",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s006-en-02",
+              "target": {
+                "text": "made much of this fact",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "made much of",
+                "occurrence": 1
+              },
+              "cue": "make much of",
+              "lemma": "make",
+              "id": "s006-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "made much of",
+                "occurrence": 1
+              },
+              "options": [
+                "made much of",
+                "dismissed"
+              ],
+              "id": "s006-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s006-a",
+              "text": "Jane Jacobs, the great prophet of the city economy,"
+            },
+            {
+              "id": "s006-b",
+              "text": "made much of this fact in her books,"
+            },
+            {
+              "id": "s006-c",
+              "text": "including The Death and Life of Great American Cities"
+            },
+            {
+              "id": "s006-d",
+              "text": "and The Nature of Economies."
+            }
+          ],
+          "displayOrder": [
+            "s006-b",
+            "s006-d",
+            "s006-a",
+            "s006-c"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "Jane Jacobs",
+            "great prophet",
+            "city economy",
+            "make much of",
+            "fact",
+            "in her books"
+          ]
+        }
+      },
+      "id": "s006",
+      "no": 6
+    },
+    {
+      "source": "As she pointed out, the great advantage of a city architecture is its ability to support change in uses, and Jacobs correctly predicted the persistence of the city itself, unlike those who predicted the rise of the Internet would mean the death of the city.",
+      "translation": "그녀가 지적했듯이 도시 건축의 큰 장점은 용도의 변화를 수용하는 능력이며, 제이콥스는 인터넷의 부상이 도시의 죽음을 뜻할 것이라고 예측한 사람들과 달리 도시 자체의 지속성을 정확히 예측했다.",
+      "meaningSegments": [
+        {
+          "en": "As she pointed out,",
+          "ko": "그녀가 지적했듯이,",
+          "id": "s007-m01"
+        },
+        {
+          "en": "the great advantage of a city architecture is",
+          "ko": "도시 건축의 큰 장점은 해당한다",
+          "id": "s007-m02"
+        },
+        {
+          "en": "its ability to support change in uses,",
+          "ko": "용도의 변화를 수용하는 능력에,",
+          "id": "s007-m03"
+        },
+        {
+          "en": "and Jacobs correctly predicted",
+          "ko": "그리고 제이콥스는 정확히 예측했다",
+          "id": "s007-m04"
+        },
+        {
+          "en": "the persistence of the city itself,",
+          "ko": "도시 자체의 지속성을,",
+          "id": "s007-m05"
+        },
+        {
+          "en": "unlike those who predicted",
+          "ko": "예측한 사람들과 달리",
+          "id": "s007-m06"
+        },
+        {
+          "en": "the rise of the Internet would mean",
+          "ko": "인터넷의 부상이 뜻할 것이라고",
+          "id": "s007-m07"
+        },
+        {
+          "en": "the death of the city.",
+          "ko": "도시의 죽음을.",
+          "id": "s007-m08"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "pointed out",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "지적했듯이",
+                "occurrence": 1
+              }
+            ],
+            "id": "s007-m01-p01",
+            "segmentId": "s007-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "is",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "해당한다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s007-m02-p01",
+            "segmentId": "s007-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "predicted",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "예측했다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s007-m04-p01",
+            "segmentId": "s007-m04"
+          },
+          {
+            "en": [
+              {
+                "text": "predicted",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "예측한",
+                "occurrence": 1
+              }
+            ],
+            "id": "s007-m06-p01",
+            "segmentId": "s007-m06"
+          },
+          {
+            "en": [
+              {
+                "text": "would mean",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "뜻할 것이라고",
+                "occurrence": 1
+              }
+            ],
+            "id": "s007-m07-p01",
+            "segmentId": "s007-m07"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "architecture",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "건축",
+              "occurrence": 1
+            },
+            "meaning": "건축물과 그 구조",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s007-m02-v01",
+            "segmentId": "s007-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "persistence",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "지속성",
+              "occurrence": 1
+            },
+            "meaning": "오래 계속 존재하는 성질",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s007-m05-v02",
+            "segmentId": "s007-m05",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "the rise",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "부상",
+              "occurrence": 1
+            },
+            "meaning": "세력이 커지거나 널리 퍼짐",
+            "reasons": [
+              "abstract"
+            ],
+            "id": "s007-m07-v03",
+            "segmentId": "s007-m07",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s007-ko-01",
+              "target": {
+                "text": "용도의 변화를 수용하는 능력",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s007-ko-02",
+              "target": {
+                "text": "도시 자체의 지속성",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s007-en-01",
+              "target": {
+                "text": "ability to support change in uses",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s007-en-02",
+              "target": {
+                "text": "predicted the persistence of the city itself",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "pointed out",
+                "occurrence": 1
+              },
+              "cue": "point out",
+              "lemma": "point",
+              "id": "s007-verb-01"
+            },
+            {
+              "target": {
+                "text": "correctly predicted",
+                "occurrence": 1
+              },
+              "cue": "predict",
+              "lemma": "predict",
+              "id": "s007-verb-02"
+            },
+            {
+              "target": {
+                "text": "would mean",
+                "occurrence": 1
+              },
+              "cue": "mean",
+              "lemma": "mean",
+              "id": "s007-verb-03"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "persistence",
+                "occurrence": 1
+              },
+              "options": [
+                "persistence",
+                "disappearance"
+              ],
+              "id": "s007-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s007-a",
+              "text": "As she pointed out, the great advantage of a city architecture"
+            },
+            {
+              "id": "s007-b",
+              "text": "is its ability to support change in uses,"
+            },
+            {
+              "id": "s007-c",
+              "text": "and Jacobs correctly predicted the persistence of the city itself,"
+            },
+            {
+              "id": "s007-d",
+              "text": "unlike those who predicted the rise of the Internet would mean the death of the city."
+            }
+          ],
+          "displayOrder": [
+            "s007-c",
+            "s007-a",
+            "s007-d",
+            "s007-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "point out",
+            "great advantage",
+            "city architecture",
+            "support change in uses",
+            "predict",
+            "persistence of the city"
+          ]
+        }
+      },
+      "id": "s007",
+      "no": 7
+    }
+  ],
+  "passageActivities": {
+    "correction": [
+      {
+        "textOverride": "One easily underappreciated feature of a city street or square are its “future-proof” nature. The ancient medieval squares in places like Marrakesh and Siena is still places where stuff is sold every day, even if the stuff itself have changed over the last five hundred years. The city square is a fairly future-proof technology, as are the shopping street, even in an age of online shopping. For example, the same physical store that once sell buggy whips and typewriters might now repair damaged phones and sell bubble tea. The same infrastructure support evolving uses. Jane Jacobs, the great prophet of the city economy, make much of this fact in her books, including The Death and Life of Great American Cities and The Nature of Economies. As she pointed out, the great advantage of a city architecture are its ability to support change in uses, and Jacobs correctly predicted the persistence of the city itself, unlike those who predicted the rise of the Internet will mean the death of the city.",
+        "targets": [
+          {
+            "target": {
+              "text": "square are",
+              "occurrence": 1
+            },
+            "incorrect": "square are",
+            "correct": "square is",
+            "id": "correction-01-01"
+          },
+          {
+            "target": {
+              "text": "The ancient medieval squares in places like Marrakesh and Siena is",
+              "occurrence": 1
+            },
+            "incorrect": "The ancient medieval squares in places like Marrakesh and Siena is",
+            "correct": "The ancient medieval squares in places like Marrakesh and Siena are",
+            "id": "correction-01-02"
+          },
+          {
+            "target": {
+              "text": "itself have changed",
+              "occurrence": 1
+            },
+            "incorrect": "itself have changed",
+            "correct": "itself has changed",
+            "id": "correction-01-03"
+          },
+          {
+            "target": {
+              "text": "as are the shopping street",
+              "occurrence": 1
+            },
+            "incorrect": "as are the shopping street",
+            "correct": "as is the shopping street",
+            "id": "correction-01-04"
+          },
+          {
+            "target": {
+              "text": "once sell",
+              "occurrence": 1
+            },
+            "incorrect": "once sell",
+            "correct": "once sold",
+            "id": "correction-01-05"
+          },
+          {
+            "target": {
+              "text": "infrastructure support",
+              "occurrence": 1
+            },
+            "incorrect": "infrastructure support",
+            "correct": "infrastructure supports",
+            "id": "correction-01-06"
+          },
+          {
+            "target": {
+              "text": "Jacobs, the great prophet of the city economy, make",
+              "occurrence": 1
+            },
+            "incorrect": "Jacobs, the great prophet of the city economy, make",
+            "correct": "Jacobs, the great prophet of the city economy, made",
+            "id": "correction-01-07"
+          },
+          {
+            "target": {
+              "text": "city architecture are",
+              "occurrence": 1
+            },
+            "incorrect": "city architecture are",
+            "correct": "city architecture is",
+            "id": "correction-01-08"
+          },
+          {
+            "target": {
+              "text": "Internet will mean",
+              "occurrence": 1
+            },
+            "incorrect": "Internet will mean",
+            "correct": "Internet would mean",
+            "id": "correction-01-09"
+          }
+        ],
+        "id": "correction-01"
+      }
+    ],
+    "paragraphOrder": [
+      {
+        "blocks": [
+          {
+            "id": "A",
+            "sentenceIds": [
+              "s001",
+              "s002"
+            ]
+          },
+          {
+            "id": "B",
+            "sentenceIds": [
+              "s003",
+              "s004",
+              "s005"
+            ]
+          },
+          {
+            "id": "C",
+            "sentenceIds": [
+              "s006",
+              "s007"
+            ]
+          }
+        ],
+        "displayOrder": [
+          "B",
+          "C",
+          "A"
+        ],
+        "answerOrder": [
+          "A",
+          "B",
+          "C"
+        ],
+        "id": "paragraph-order-01"
+      }
+    ]
+  }
+}

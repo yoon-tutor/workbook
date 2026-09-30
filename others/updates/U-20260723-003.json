@@ -1,0 +1,55 @@
+{
+  "$schema": "../schemas/update.schema.json",
+  "id": "U-20260723-003",
+  "title": "When Failure Become Ideas 10단계 워크북 신규 등록",
+  "date": "2026-07-23",
+  "summary": "제공된 Lesson 3 추가 지문 사진을 단일 canonical 정본으로 전사하고 학생용·해설용 10단계 워크북을 생성합니다.",
+  "category": "new-content",
+  "applyTo": "new-only",
+  "selectedWorkbooks": [
+    "when-failure-become-ideas"
+  ],
+  "affectedStages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "request": "제공된 When Failure Become Ideas 사진으로 작업을 시작합니다.",
+  "directChanges": {
+    "files": [
+      "config/versions.json",
+      "updates/U-20260723-003.json",
+      "workbooks/when-failure-become-ideas/content.json"
+    ],
+    "jsonPaths": [
+      {
+        "manifest": "canonical",
+        "path": "$"
+      }
+    ]
+  },
+  "verification": [
+    {
+      "name": "source-transcription",
+      "status": "pass",
+      "details": "사진의 본문 전체를 21개 학습 단위로 보존하며, 짧은 응답 Not always!는 바로 앞 질문과 한 단위로 구성합니다."
+    },
+    {
+      "name": "source-question-cross-check",
+      "status": "pass",
+      "details": "하단 독해 문항의 정답 ④와 ③을 본문 전사 교차 확인에 사용했습니다."
+    },
+    {
+      "name": "release-validation",
+      "status": "skipped",
+      "details": "canonical 작성 후 실행합니다."
+    }
+  ]
+}

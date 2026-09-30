@@ -1,0 +1,3126 @@
+{
+  "build": {
+    "appliedUpdates": [
+      "U-20260825-006",
+      "U-20260826-009",
+      "U-20260826-010",
+      "U-20260826-011",
+      "U-20260826-012"
+    ],
+    "buildVersion": "1.0.4",
+    "builtAt": "2026-08-26T23:22:06+09:00",
+    "canonicalDigest": "31e9db7e5c21b99607ab60d62a2a8cc1db8840a8802223f2dca772cee176ae68",
+    "compilerVersion": "1.0.7",
+    "contentVersion": "1.0.4",
+    "engineDigest": "755fa39f2f38e0c481da489f7b37fc92110b71ae3cf018dda83004df187ac114",
+    "engineInputs": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      }
+    ],
+    "files": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      },
+      {
+        "path": "문제.html",
+        "sha256": "0346a24588f2a4e59e74c19bc7d117421175a29fc823c3f7c6f647751eb182df",
+        "size": 145563
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "6c74c994af3e70ae14d316b63b634caceb88be3e6ec4aec71a2f568336674680",
+        "size": 607353
+      },
+      {
+        "path": "해설.html",
+        "sha256": "30f0a56dfabea28ef6ec9eae74f283f29bd7ea9b18f53c2ccae87033a324d45c",
+        "size": 154705
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "71ad1fe6d3654c73fabb21ad731c48fe03831d8cdb20bc91c1523c76dada4360",
+        "size": 743175
+      }
+    ],
+    "outputs": [
+      {
+        "path": "문제.html",
+        "sha256": "0346a24588f2a4e59e74c19bc7d117421175a29fc823c3f7c6f647751eb182df",
+        "size": 145563
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "6c74c994af3e70ae14d316b63b634caceb88be3e6ec4aec71a2f568336674680",
+        "size": 607353
+      },
+      {
+        "path": "해설.html",
+        "sha256": "30f0a56dfabea28ef6ec9eae74f283f29bd7ea9b18f53c2ccae87033a324d45c",
+        "size": 154705
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "71ad1fe6d3654c73fabb21ad731c48fe03831d8cdb20bc91c1523c76dada4360",
+        "size": 743175
+      }
+    ],
+    "pages": [
+      {
+        "digest": "8bbbf03aca57d4beb0235abc5172eea361bb9324437444684c1f3dbe87beae67",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q21-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q21-p01",
+        "part": "1-8",
+        "stageId": "1"
+      },
+      {
+        "digest": "880380458aa667ff57449653f5ace3aa7acfe410d664dce74808bd4b46cc970e",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q21-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q21-p02",
+        "part": "1-8",
+        "stageId": "2"
+      },
+      {
+        "digest": "118a0cd56a9e61ea731698d3ae9db7815336b351d09552ebe6761588c438b5fa",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q21-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q21-p03",
+        "part": "1-8",
+        "stageId": "3"
+      },
+      {
+        "digest": "eff89666fa3992429cf3383c5c52a29d534bb154202800311a916388e44bbf02",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q21-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q21-p04",
+        "part": "1-8",
+        "stageId": "4"
+      },
+      {
+        "digest": "f0445ec8970b6cc20b21301b785e16d221c36117274daabf9c7f308556d3a162",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q21-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q21-p05",
+        "part": "1-8",
+        "stageId": "5"
+      },
+      {
+        "digest": "6e4ee274686d3e5e2d11f223cb31f2d774b6feccbfc12cd5d37529db46145e12",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q21-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q21-p06",
+        "part": "1-8",
+        "stageId": "6"
+      },
+      {
+        "digest": "00e5271bcfdf543cddda4366dee647afcae113bffb78db859432357073b89a77",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q21-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q21-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "7edce66aef1674914f16e2b4e267db67d24c272c1cc01a8d2333f157093f641f",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q21-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q21-p08",
+        "part": "1-4",
+        "stageId": "8"
+      },
+      {
+        "digest": "33faf8aaa767880665aff7fbe1c8831c8af7dfd007c8092f4580a1fcd36e8818",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q21-p09",
+        "itemIds": [
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 9,
+        "pageId": "2026-june-grade2-q21-p09",
+        "part": "5-8",
+        "stageId": "8"
+      },
+      {
+        "digest": "d0b691416eb3d539dbc59550f13158e8ed59a07542fba4a4646d418505e20487",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q21-p10",
+        "itemIds": [],
+        "page": 10,
+        "pageId": "2026-june-grade2-q21-p10",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "b0ad22eb6dda0dd0982132aa75e360664a5b065c1ffc10fe02c0ba83da0c916e",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q21-p11",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 11,
+        "pageId": "2026-june-grade2-q21-p11",
+        "part": "1-8",
+        "stageId": "10"
+      },
+      {
+        "digest": "8bbbf03aca57d4beb0235abc5172eea361bb9324437444684c1f3dbe87beae67",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q21-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q21-p01",
+        "part": "1-8",
+        "stageId": "1"
+      },
+      {
+        "digest": "51013ff786341a0413c09cf1711a7d9f938572e8cd6d4db21a835cf8db86f2fc",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q21-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q21-p02",
+        "part": "1-8",
+        "stageId": "2"
+      },
+      {
+        "digest": "bad1f5a952b4e6c61c9b8a88c2f235d542ae8cda7c1f0c3b39e282312863671e",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q21-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q21-p03",
+        "part": "1-8",
+        "stageId": "3"
+      },
+      {
+        "digest": "553ea049ac1f991abe6cc43e5f5eaae478a07b7a604e57fd1d45a87fbc098592",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q21-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q21-p04",
+        "part": "1-8",
+        "stageId": "4"
+      },
+      {
+        "digest": "4008ec45aa78fe5daada032b9cb6772f5d3c15a4912bc40113047dba2af7ce51",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q21-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q21-p05",
+        "part": "1-8",
+        "stageId": "5"
+      },
+      {
+        "digest": "5c42dab9c0e661eab165e84b0a36fdb84e07e2da988c390f38a5236e9653213f",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q21-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q21-p06",
+        "part": "1-8",
+        "stageId": "6"
+      },
+      {
+        "digest": "b7218464deb358e15d43558a6ade2ba5bad107cf45adb2c5a8f39a08003a85eb",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q21-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q21-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "3cb4a2ae6b95b02983f80835e879f2dc75c907198936d5813ded37afab02a0c7",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q21-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q21-p08",
+        "part": "1-4",
+        "stageId": "8"
+      },
+      {
+        "digest": "e3080477919db5544e81a828d0654535346afc71bcca2f5b56d3dbf9e135848c",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q21-p09",
+        "itemIds": [
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 9,
+        "pageId": "2026-june-grade2-q21-p09",
+        "part": "5-8",
+        "stageId": "8"
+      },
+      {
+        "digest": "cbf5f9c4e638d493657ef989aa7978ff6eabc2bcf550da979dfaef5b7d6435f1",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q21-p10",
+        "itemIds": [],
+        "page": 10,
+        "pageId": "2026-june-grade2-q21-p10",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "495140773be7b7276d527979217f01d6c49dbb3301e48621ee1fe0c397704393",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q21-p11",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007",
+          "s008"
+        ],
+        "page": 11,
+        "pageId": "2026-june-grade2-q21-p11",
+        "part": "1-8",
+        "stageId": "10"
+      }
+    ],
+    "qa": {
+      "contactSheets": [
+        "qa/samples/student-contact-sheet.png",
+        "qa/samples/answer-contact-sheet.png"
+      ],
+      "dom": {
+        "answer": {
+          "pages": 11,
+          "solutions": 86
+        },
+        "matchedResponseBoxCount": 24,
+        "matchedResponseLineCount": 35,
+        "matchedSolutionSlotCount": 69,
+        "sharedTargetSlotCount": 93,
+        "student": {
+          "pages": 11,
+          "solutions": 0
+        }
+      },
+      "pdf": {
+        "answerPages": 11,
+        "studentPages": 11
+      },
+      "status": "passed",
+      "visualSamples": [
+        "qa/samples/student-p01.png",
+        "qa/samples/student-p02.png",
+        "qa/samples/student-p03.png",
+        "qa/samples/student-p04.png",
+        "qa/samples/student-p05.png",
+        "qa/samples/student-p06.png",
+        "qa/samples/student-p07.png",
+        "qa/samples/student-p08.png",
+        "qa/samples/student-p10.png",
+        "qa/samples/student-p11.png",
+        "qa/samples/answer-p01.png",
+        "qa/samples/answer-p02.png",
+        "qa/samples/answer-p03.png",
+        "qa/samples/answer-p04.png",
+        "qa/samples/answer-p05.png",
+        "qa/samples/answer-p06.png",
+        "qa/samples/answer-p07.png",
+        "qa/samples/answer-p08.png",
+        "qa/samples/answer-p10.png",
+        "qa/samples/answer-p11.png"
+      ]
+    },
+    "reportFormatVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "semanticRubricVersion": "1.0.0",
+    "sourceDigest": "d6302a49d275b6d670e630fe7362e1ce0dacf9a8a6d983fef34ecaa437ed60bb",
+    "specVersion": "1.0.6",
+    "templateVersion": "1.0.4",
+    "validationStatus": "passed",
+    "visualReview": {
+      "notes": "학생용·해설용 전체 10단계 contact sheet와 2·3·4·5·6·7·8·9·10단계를 확인했습니다. 문장 속 빈칸 69개와 작성형 24개의 위치·가로·세로가 일치하며, 해설의 검정 문제 단서와 빨간 답을 유지한 뒤 학생용에서는 답만 제거했습니다. 잘림·겹침·정답 노출·비정상 빨강이 없습니다.",
+      "reviewedAt": "2026-08-26T23:23:15+09:00",
+      "reviewer": "Codex",
+      "status": "passed"
+    },
+    "workbookId": "2026-june-grade2-q21"
+  },
+  "bundleVersion": 1,
+  "canonical": {
+    "canonical": {
+      "$schema": "../../schemas/canonical-workbook.schema.json",
+      "contentVersion": "1.0.4",
+      "metadata": {
+        "grade": "고등학교 2학년",
+        "kicker": "High School Reading",
+        "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 21번",
+        "sourceLanguage": "en",
+        "targetLanguage": "ko",
+        "title": "2026학년도 6월 고2 21번 10단계 워크북",
+        "topic": "상상이 현실보다 덜 생생하도록 제한된 진화적 이유"
+      },
+      "passageActivities": {
+        "correction": [
+          {
+            "id": "correction-01",
+            "targets": [
+              {
+                "correct": "excel",
+                "id": "correction-01-01",
+                "incorrect": "excels",
+                "target": {
+                  "occurrence": 1,
+                  "text": "excels"
+                }
+              },
+              {
+                "correct": "evolved",
+                "id": "correction-01-02",
+                "incorrect": "evolve",
+                "target": {
+                  "occurrence": 1,
+                  "text": "evolve"
+                }
+              },
+              {
+                "correct": "regions",
+                "id": "correction-01-03",
+                "incorrect": "region",
+                "target": {
+                  "occurrence": 1,
+                  "text": "region"
+                }
+              },
+              {
+                "correct": "are",
+                "id": "correction-01-04",
+                "incorrect": "is",
+                "target": {
+                  "occurrence": 5,
+                  "text": "is"
+                }
+              },
+              {
+                "correct": "simply",
+                "id": "correction-01-05",
+                "incorrect": "simple",
+                "target": {
+                  "occurrence": 1,
+                  "text": "simple"
+                }
+              },
+              {
+                "correct": "starve",
+                "id": "correction-01-06",
+                "incorrect": "starves",
+                "target": {
+                  "occurrence": 1,
+                  "text": "starves"
+                }
+              },
+              {
+                "correct": "cloy",
+                "id": "correction-01-07",
+                "incorrect": "cloys",
+                "target": {
+                  "occurrence": 1,
+                  "text": "cloys"
+                }
+              }
+            ],
+            "textOverride": "Humans excels at visual imagery. Our brains evolve this ability to create an internal mental picture or model of the world in which we can rehearse forthcoming actions, without the risks or the penalties of doing them in the real world. There are even hints from brain-imaging studies by Harvard University psychologist Steve Kosslyn showing that your brain uses the same region to imagine a scene as when you actually view one. But evolution has seen to it that such internally generated representations is never as authentic as the real thing. This is a wise bit of self-restraint on your genes’ part. If your internal model of the world were a perfect substitute, then anytime you felt hungry you could simple imagine yourself at a banquet, consuming a feast. You would have no incentive to find real food and would soon starves to death. As the Bard said, “You cannot cloys the hungry edge of appetite by bare imagination of a feast.”"
+          }
+        ],
+        "paragraphOrder": [
+          {
+            "answerOrder": [
+              "A",
+              "B",
+              "C"
+            ],
+            "blocks": [
+              {
+                "id": "A",
+                "sentenceIds": [
+                  "s001",
+                  "s002",
+                  "s003"
+                ]
+              },
+              {
+                "id": "B",
+                "sentenceIds": [
+                  "s004",
+                  "s005"
+                ]
+              },
+              {
+                "id": "C",
+                "sentenceIds": [
+                  "s006",
+                  "s007",
+                  "s008"
+                ]
+              }
+            ],
+            "displayOrder": [
+              "C",
+              "A",
+              "B"
+            ],
+            "id": "paragraph-order-01"
+          }
+        ]
+      },
+      "schemaVersion": "1.0.0",
+      "sentences": [
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "excel at"
+                  }
+                ],
+                "id": "s001-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "뛰어나다"
+                  }
+                ],
+                "segmentId": "s001-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "cefr": "B2",
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "visual imagery"
+                },
+                "id": "s001-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "시각적 심상"
+                },
+                "meaning": "마음속에 떠올리는 시각적 모습",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s001-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s001-a",
+                  "text": "Humans"
+                },
+                {
+                  "id": "s001-b",
+                  "text": "excel at visual imagery."
+                }
+              ],
+              "displayOrder": [
+                "s001-b",
+                "s001-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s001-choice-01",
+                  "options": [
+                    "visual",
+                    "visually"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "visual"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s001-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "visual imagery"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s001-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "시각적 심상"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "excel",
+                  "id": "s001-verb-01",
+                  "lemma": "excel",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "excel"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "humans",
+                "excel at",
+                "visual imagery"
+              ]
+            }
+          },
+          "id": "s001",
+          "meaningSegments": [
+            {
+              "en": "Humans",
+              "id": "s001-m01",
+              "ko": "인간은"
+            },
+            {
+              "en": "excel at visual imagery.",
+              "id": "s001-m02",
+              "ko": "뛰어나다 시각적 심상에."
+            }
+          ],
+          "no": 1,
+          "source": "Humans excel at visual imagery.",
+          "translation": "인간은 시각적 심상에 뛰어나다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "evolved"
+                  }
+                ],
+                "id": "s002-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "발달시켰다"
+                  }
+                ],
+                "segmentId": "s002-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can rehearse"
+                  }
+                ],
+                "id": "s002-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "연습할 수 있다"
+                  }
+                ],
+                "segmentId": "s002-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "cefr": "B2",
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "rehearse"
+                },
+                "id": "s002-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "연습"
+                },
+                "meaning": "머릿속으로 미리 해 보다",
+                "reasons": [
+                  "topic-core",
+                  "student-difficulty"
+                ],
+                "segmentId": "s002-m03"
+              },
+              {
+                "cefr": "C1",
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "forthcoming"
+                },
+                "id": "s002-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "앞으로 할"
+                },
+                "meaning": "다가오는",
+                "reasons": [
+                  "student-difficulty"
+                ],
+                "segmentId": "s002-m03"
+              },
+              {
+                "cefr": "B2",
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "penalties"
+                },
+                "id": "s002-m04-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "불이익"
+                },
+                "meaning": "불이익",
+                "reasons": [
+                  "abstract"
+                ],
+                "segmentId": "s002-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s002-a",
+                  "text": "Our brains evolved this ability"
+                },
+                {
+                  "id": "s002-b",
+                  "text": "to create an internal mental picture or model of the world"
+                },
+                {
+                  "id": "s002-c",
+                  "text": "in which we can rehearse forthcoming actions,"
+                },
+                {
+                  "id": "s002-d",
+                  "text": "without the risks or the penalties"
+                },
+                {
+                  "id": "s002-e",
+                  "text": "of doing them in the real world."
+                }
+              ],
+              "displayOrder": [
+                "s002-d",
+                "s002-b",
+                "s002-e",
+                "s002-a",
+                "s002-c"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s002-choice-01",
+                  "options": [
+                    "forthcoming",
+                    "previous"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "forthcoming"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s002-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "rehearse forthcoming actions"
+                  }
+                },
+                {
+                  "id": "s002-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "penalties"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s002-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "앞으로 할 행동"
+                  }
+                },
+                {
+                  "id": "s002-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "위험이나 불이익 없이"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "evolve",
+                  "id": "s002-verb-01",
+                  "lemma": "evolve",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "evolved"
+                  }
+                },
+                {
+                  "cue": "rehearse",
+                  "id": "s002-verb-02",
+                  "lemma": "rehearse",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can rehearse"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "evolve",
+                "internal mental picture",
+                "rehearse",
+                "forthcoming actions"
+              ]
+            }
+          },
+          "id": "s002",
+          "meaningSegments": [
+            {
+              "en": "Our brains evolved this ability",
+              "id": "s002-m01",
+              "ko": "우리의 뇌는 발달시켰다 이 능력을"
+            },
+            {
+              "en": "to create an internal mental picture or model of the world",
+              "id": "s002-m02",
+              "ko": "만들어 내기 위한 내부의 정신적 그림이나 세계의 모형을"
+            },
+            {
+              "en": "in which we can rehearse forthcoming actions,",
+              "id": "s002-m03",
+              "ko": "그 안에서 우리는 머릿속으로 연습할 수 있다 앞으로 할 행동을,"
+            },
+            {
+              "en": "without the risks or the penalties",
+              "id": "s002-m04",
+              "ko": "위험이나 불이익 없이"
+            },
+            {
+              "en": "of doing them in the real world.",
+              "id": "s002-m05",
+              "ko": "그것들을 현실 세계에서 하는 데 따르는."
+            }
+          ],
+          "no": 2,
+          "source": "Our brains evolved this ability to create an internal mental picture or model of the world in which we can rehearse forthcoming actions, without the risks or the penalties of doing them in the real world.",
+          "translation": "우리의 뇌는 위험이나 불이익 없이 현실 세계에서 앞으로 할 행동을 머릿속으로 연습할 수 있는, 세계에 대한 내부의 정신적 그림이나 모형을 만들어 내는 능력을 발달시켰다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "There are"
+                  }
+                ],
+                "id": "s003-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "있다"
+                  }
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "uses"
+                  }
+                ],
+                "id": "s003-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "사용한다는"
+                  }
+                ],
+                "segmentId": "s003-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "view"
+                  }
+                ],
+                "id": "s003-m06-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "볼"
+                  }
+                ],
+                "segmentId": "s003-m06"
+              }
+            ],
+            "vocabulary": [
+              {
+                "cefr": "B2",
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "hints"
+                },
+                "id": "s003-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "암시"
+                },
+                "meaning": "암시",
+                "reasons": [
+                  "abstract"
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "brain-imaging"
+                },
+                "id": "s003-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "뇌 영상"
+                },
+                "meaning": "뇌 영상 촬영의",
+                "reasons": [
+                  "technical"
+                ],
+                "segmentId": "s003-m02"
+              },
+              {
+                "cefr": "B2",
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "regions"
+                },
+                "id": "s003-m04-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "영역"
+                },
+                "meaning": "영역",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s003-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s003-a",
+                  "text": "There are even hints"
+                },
+                {
+                  "id": "s003-b",
+                  "text": "from brain-imaging studies"
+                },
+                {
+                  "id": "s003-c",
+                  "text": "by Harvard University psychologist Steve Kosslyn"
+                },
+                {
+                  "id": "s003-d",
+                  "text": "showing that your brain uses the same regions"
+                },
+                {
+                  "id": "s003-e",
+                  "text": "to imagine a scene"
+                },
+                {
+                  "id": "s003-f",
+                  "text": "as when you actually view one."
+                }
+              ],
+              "displayOrder": [
+                "s003-d",
+                "s003-b",
+                "s003-f",
+                "s003-a",
+                "s003-e",
+                "s003-c"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s003-choice-01",
+                  "options": [
+                    "uses",
+                    "use"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "uses"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s003-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "same regions"
+                  }
+                },
+                {
+                  "id": "s003-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "actually view one"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s003-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "동일한 영역"
+                  }
+                },
+                {
+                  "id": "s003-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "실제로 볼 때"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s003-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                },
+                {
+                  "cue": "use",
+                  "id": "s003-verb-02",
+                  "lemma": "use",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "uses"
+                  }
+                },
+                {
+                  "cue": "view",
+                  "id": "s003-verb-03",
+                  "lemma": "view",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "view"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "brain-imaging studies",
+                "same regions",
+                "imagine a scene",
+                "actually view"
+              ]
+            }
+          },
+          "id": "s003",
+          "meaningSegments": [
+            {
+              "en": "There are even hints",
+              "id": "s003-m01",
+              "ko": "심지어 암시가 있다"
+            },
+            {
+              "en": "from brain-imaging studies",
+              "id": "s003-m02",
+              "ko": "뇌 영상 연구들에서 나온"
+            },
+            {
+              "en": "by Harvard University psychologist Steve Kosslyn",
+              "id": "s003-m03",
+              "ko": "하버드대학교 심리학자 스티브 코슬린의"
+            },
+            {
+              "en": "showing that your brain uses the same regions",
+              "id": "s003-m04",
+              "ko": "보여 주는 당신의 뇌가 동일한 영역들을 사용한다는 것을"
+            },
+            {
+              "en": "to imagine a scene",
+              "id": "s003-m05",
+              "ko": "장면을 상상하기 위해"
+            },
+            {
+              "en": "as when you actually view one.",
+              "id": "s003-m06",
+              "ko": "당신이 실제로 그것을 볼 때와 마찬가지로."
+            }
+          ],
+          "no": 3,
+          "source": "There are even hints from brain-imaging studies by Harvard University psychologist Steve Kosslyn showing that your brain uses the same regions to imagine a scene as when you actually view one.",
+          "translation": "하버드대학교 심리학자 스티브 코슬린의 뇌 영상 연구에는 장면을 상상할 때와 실제로 볼 때 뇌가 동일한 영역을 사용한다는 것을 보여 주는 암시까지 있다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "has seen to it"
+                  }
+                ],
+                "id": "s004-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "반드시 그렇게 되도록 해 왔다"
+                  }
+                ],
+                "segmentId": "s004-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                ],
+                "id": "s004-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "진짜 같지 않도록"
+                  }
+                ],
+                "segmentId": "s004-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "cefr": "C1",
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "seen to it"
+                },
+                "id": "s004-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "반드시 그렇게 되도록"
+                },
+                "meaning": "반드시 그렇게 되게 하다",
+                "reasons": [
+                  "structure-critical"
+                ],
+                "segmentId": "s004-m01"
+              },
+              {
+                "cefr": "C1",
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "representations"
+                },
+                "id": "s004-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "표상"
+                },
+                "meaning": "머릿속에 나타낸 모습",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s004-m02"
+              },
+              {
+                "cefr": "B2",
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "authentic"
+                },
+                "id": "s004-m03-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "진짜"
+                },
+                "meaning": "진짜와 같은",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s004-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s004-a",
+                  "text": "But evolution has seen to it"
+                },
+                {
+                  "id": "s004-b",
+                  "text": "that such internally generated representations"
+                },
+                {
+                  "id": "s004-c",
+                  "text": "are never as authentic"
+                },
+                {
+                  "id": "s004-d",
+                  "text": "as the real thing."
+                }
+              ],
+              "displayOrder": [
+                "s004-c",
+                "s004-a",
+                "s004-d",
+                "s004-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s004-choice-01",
+                  "options": [
+                    "authentic",
+                    "authentically"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "authentic"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s004-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "internally generated representations"
+                  }
+                },
+                {
+                  "id": "s004-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "authentic"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s004-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "내부에서 생성된 표상"
+                  }
+                },
+                {
+                  "id": "s004-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "실제의 것만큼 진짜 같지는 않도록"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "see to it",
+                  "id": "s004-verb-01",
+                  "lemma": "see to it",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "has seen to it"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s004-verb-02",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "evolution",
+                "see to it",
+                "representations",
+                "the real thing"
+              ]
+            }
+          },
+          "id": "s004",
+          "meaningSegments": [
+            {
+              "en": "But evolution has seen to it",
+              "id": "s004-m01",
+              "ko": "그러나 진화는 반드시 그렇게 되도록 해 왔다"
+            },
+            {
+              "en": "that such internally generated representations",
+              "id": "s004-m02",
+              "ko": "그처럼 내부에서 생성된 표상들이"
+            },
+            {
+              "en": "are never as authentic",
+              "id": "s004-m03",
+              "ko": "결코 진짜 같지 않도록"
+            },
+            {
+              "en": "as the real thing.",
+              "id": "s004-m04",
+              "ko": "실제의 것만큼."
+            }
+          ],
+          "no": 4,
+          "source": "But evolution has seen to it that such internally generated representations are never as authentic as the real thing.",
+          "translation": "그러나 진화는 그처럼 내부에서 생성된 표상이 결코 실제의 것만큼 진짜 같지는 않도록 해 왔다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s005-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "것이다"
+                  }
+                ],
+                "segmentId": "s005-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "cefr": "C1",
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "self-restraint"
+                },
+                "id": "s005-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "자제력"
+                },
+                "meaning": "자제력",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s005-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "genes’ part"
+                },
+                "id": "s005-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "유전자 쪽"
+                },
+                "meaning": "유전자 측에서",
+                "reasons": [
+                  "structure-critical"
+                ],
+                "segmentId": "s005-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s005-a",
+                  "text": "This is a wise bit of self-restraint"
+                },
+                {
+                  "id": "s005-b",
+                  "text": "on your genes’ part."
+                }
+              ],
+              "displayOrder": [
+                "s005-b",
+                "s005-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s005-choice-01",
+                  "options": [
+                    "wise",
+                    "wisely"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "wise"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s005-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "wise bit of self-restraint"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s005-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "현명하게 약간의 자제력을 발휘한 것"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s005-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "wise",
+                "self-restraint",
+                "genes",
+                "on one's part"
+              ]
+            }
+          },
+          "id": "s005",
+          "meaningSegments": [
+            {
+              "en": "This is a wise bit of self-restraint",
+              "id": "s005-m01",
+              "ko": "이것은 현명하게 약간의 자제력을 발휘한 것이다"
+            },
+            {
+              "en": "on your genes’ part.",
+              "id": "s005-m02",
+              "ko": "당신의 유전자 쪽에서."
+            }
+          ],
+          "no": 5,
+          "source": "This is a wise bit of self-restraint on your genes’ part.",
+          "translation": "이것은 유전자가 현명하게 약간의 자제력을 발휘한 것이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "were"
+                  }
+                ],
+                "id": "s006-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "대체물이라면"
+                  }
+                ],
+                "segmentId": "s006-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "felt"
+                  }
+                ],
+                "id": "s006-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "느낄"
+                  }
+                ],
+                "segmentId": "s006-m03"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "could simply imagine"
+                  }
+                ],
+                "id": "s006-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "상상할 수 있을 것이다"
+                  }
+                ],
+                "segmentId": "s006-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "cefr": "B2",
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "substitute"
+                },
+                "id": "s006-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "대체물"
+                },
+                "meaning": "대체물",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s006-m02"
+              },
+              {
+                "cefr": "C1",
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "banquet"
+                },
+                "id": "s006-m05-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "연회"
+                },
+                "meaning": "연회",
+                "reasons": [
+                  "student-difficulty"
+                ],
+                "segmentId": "s006-m05"
+              },
+              {
+                "cefr": "B2",
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "feast"
+                },
+                "id": "s006-m06-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "진수성찬"
+                },
+                "meaning": "진수성찬",
+                "reasons": [
+                  "student-difficulty"
+                ],
+                "segmentId": "s006-m06"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s006-a",
+                  "text": "If your internal model of the world"
+                },
+                {
+                  "id": "s006-b",
+                  "text": "were a perfect substitute,"
+                },
+                {
+                  "id": "s006-c",
+                  "text": "then anytime you felt hungry"
+                },
+                {
+                  "id": "s006-d",
+                  "text": "you could simply imagine yourself"
+                },
+                {
+                  "id": "s006-e",
+                  "text": "at a banquet,"
+                },
+                {
+                  "id": "s006-f",
+                  "text": "consuming a feast."
+                }
+              ],
+              "displayOrder": [
+                "s006-d",
+                "s006-b",
+                "s006-f",
+                "s006-a",
+                "s006-e",
+                "s006-c"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s006-choice-01",
+                  "options": [
+                    "were",
+                    "was"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "were"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s006-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "perfect substitute"
+                  }
+                },
+                {
+                  "id": "s006-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "consuming a feast"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s006-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "완벽한 대체물"
+                  }
+                },
+                {
+                  "id": "s006-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "연회에서 진수성찬"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s006-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "were"
+                  }
+                },
+                {
+                  "cue": "feel",
+                  "id": "s006-verb-02",
+                  "lemma": "feel",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "felt"
+                  }
+                },
+                {
+                  "cue": "imagine",
+                  "id": "s006-verb-03",
+                  "lemma": "imagine",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "could simply imagine"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "internal model",
+                "perfect substitute",
+                "feel hungry",
+                "banquet"
+              ]
+            }
+          },
+          "id": "s006",
+          "meaningSegments": [
+            {
+              "en": "If your internal model of the world",
+              "id": "s006-m01",
+              "ko": "만약 세계에 대한 당신의 내적 모형이"
+            },
+            {
+              "en": "were a perfect substitute,",
+              "id": "s006-m02",
+              "ko": "완벽한 대체물이라면,"
+            },
+            {
+              "en": "then anytime you felt hungry",
+              "id": "s006-m03",
+              "ko": "그러면 당신이 배고픔을 느낄 때마다"
+            },
+            {
+              "en": "you could simply imagine yourself",
+              "id": "s006-m04",
+              "ko": "당신은 그저 상상할 수 있을 것이다 자신을"
+            },
+            {
+              "en": "at a banquet,",
+              "id": "s006-m05",
+              "ko": "연회에 있는,"
+            },
+            {
+              "en": "consuming a feast.",
+              "id": "s006-m06",
+              "ko": "진수성찬을 먹고 있는."
+            }
+          ],
+          "no": 6,
+          "source": "If your internal model of the world were a perfect substitute, then anytime you felt hungry you could simply imagine yourself at a banquet, consuming a feast.",
+          "translation": "세계에 대한 내적 모형이 완벽한 대체물이라면, 배고픔을 느낄 때마다 그저 연회에서 진수성찬을 먹고 있는 자신을 상상할 수 있을 것이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "would have"
+                  }
+                ],
+                "id": "s007-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "없을 것이다"
+                  }
+                ],
+                "segmentId": "s007-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "would soon starve to death"
+                  }
+                ],
+                "id": "s007-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "곧 굶어 죽을 것이다"
+                  }
+                ],
+                "segmentId": "s007-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "cefr": "B2",
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "incentive"
+                },
+                "id": "s007-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "동기"
+                },
+                "meaning": "행동하게 하는 동기",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s007-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "starve to death"
+                },
+                "id": "s007-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "굶어 죽을"
+                },
+                "meaning": "굶어 죽다",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s007-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s007-a",
+                  "text": "You would have no incentive"
+                },
+                {
+                  "id": "s007-b",
+                  "text": "to find real food"
+                },
+                {
+                  "id": "s007-c",
+                  "text": "and would soon starve to death."
+                }
+              ],
+              "displayOrder": [
+                "s007-c",
+                "s007-a",
+                "s007-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s007-choice-01",
+                  "options": [
+                    "to find",
+                    "finding"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "to find"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s007-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "incentive"
+                  }
+                },
+                {
+                  "id": "s007-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "starve to death"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s007-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "동기가 전혀 없을 것"
+                  }
+                },
+                {
+                  "id": "s007-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "굶어 죽을 것"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "have",
+                  "id": "s007-verb-01",
+                  "lemma": "have",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "would have"
+                  }
+                },
+                {
+                  "cue": "starve",
+                  "id": "s007-verb-02",
+                  "lemma": "starve",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "would soon starve"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "no incentive",
+                "real food",
+                "soon",
+                "starve to death"
+              ]
+            }
+          },
+          "id": "s007",
+          "meaningSegments": [
+            {
+              "en": "You would have no incentive",
+              "id": "s007-m01",
+              "ko": "당신은 동기가 전혀 없을 것이다"
+            },
+            {
+              "en": "to find real food",
+              "id": "s007-m02",
+              "ko": "실제 음식을 찾을"
+            },
+            {
+              "en": "and would soon starve to death.",
+              "id": "s007-m03",
+              "ko": "그리고 곧 굶어 죽을 것이다."
+            }
+          ],
+          "no": 7,
+          "source": "You would have no incentive to find real food and would soon starve to death.",
+          "translation": "당신은 실제 음식을 찾을 동기가 전혀 없을 것이고 곧 굶어 죽을 것이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "said"
+                  }
+                ],
+                "id": "s008-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "말했듯이"
+                  }
+                ],
+                "segmentId": "s008-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "cannot cloy"
+                  }
+                ],
+                "id": "s008-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "채울 수 없다"
+                  }
+                ],
+                "segmentId": "s008-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "the Bard"
+                },
+                "id": "s008-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "셰익스피어"
+                },
+                "meaning": "셰익스피어",
+                "reasons": [
+                  "student-difficulty"
+                ],
+                "segmentId": "s008-m01"
+              },
+              {
+                "cefr": "C2",
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "cloy"
+                },
+                "id": "s008-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "채울"
+                },
+                "meaning": "물리도록 채우다",
+                "reasons": [
+                  "student-difficulty"
+                ],
+                "segmentId": "s008-m02"
+              },
+              {
+                "cefr": "C1",
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "bare imagination"
+                },
+                "id": "s008-m04-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "단지 상상"
+                },
+                "meaning": "단순한 상상",
+                "reasons": [
+                  "abstract"
+                ],
+                "segmentId": "s008-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s008-a",
+                  "text": "As the Bard said,"
+                },
+                {
+                  "id": "s008-b",
+                  "text": "“You cannot cloy"
+                },
+                {
+                  "id": "s008-c",
+                  "text": "the hungry edge of appetite"
+                },
+                {
+                  "id": "s008-d",
+                  "text": "by bare imagination of a feast.”"
+                }
+              ],
+              "displayOrder": [
+                "s008-c",
+                "s008-a",
+                "s008-d",
+                "s008-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s008-choice-01",
+                  "options": [
+                    "hungry",
+                    "hungrily"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "hungry"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s008-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "hungry edge of appetite"
+                  }
+                },
+                {
+                  "id": "s008-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "bare imagination of a feast"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s008-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "날카로운 식욕을 채울 수 없다"
+                  }
+                },
+                {
+                  "id": "s008-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "단지 상상하는 것만으로"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "say",
+                  "id": "s008-verb-01",
+                  "lemma": "say",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "said"
+                  }
+                },
+                {
+                  "cue": "cloy",
+                  "id": "s008-verb-02",
+                  "lemma": "cloy",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "cannot cloy"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "the Bard",
+                "cannot cloy",
+                "hungry edge",
+                "bare imagination"
+              ]
+            }
+          },
+          "id": "s008",
+          "meaningSegments": [
+            {
+              "en": "As the Bard said,",
+              "id": "s008-m01",
+              "ko": "셰익스피어가 말했듯이,"
+            },
+            {
+              "en": "“You cannot cloy",
+              "id": "s008-m02",
+              "ko": "‘너는 채울 수 없다"
+            },
+            {
+              "en": "the hungry edge of appetite",
+              "id": "s008-m03",
+              "ko": "날카로운 식욕을"
+            },
+            {
+              "en": "by bare imagination of a feast.”",
+              "id": "s008-m04",
+              "ko": "잔치를 단지 상상하는 것으로.’"
+            }
+          ],
+          "no": 8,
+          "source": "As the Bard said, “You cannot cloy the hungry edge of appetite by bare imagination of a feast.”",
+          "translation": "셰익스피어가 말했듯이, ‘잔치를 단지 상상하는 것만으로는 날카로운 식욕을 채울 수 없다.’"
+        }
+      ],
+      "sourceStatus": {
+        "notes": "원본 PDF 3쪽의 21번 본문을 전사했으며, 본문 아래 별표 어휘 주석과 문항 선택지는 지문 정본에서 제외했습니다.",
+        "references": [
+          "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+        ],
+        "sentenceCount": 8,
+        "sourceType": "pdf",
+        "status": "confirmed",
+        "verifiedAt": "2026-08-25T15:42:00+09:00"
+      },
+      "specVersion": "1.0.6",
+      "updateState": {
+        "appliedUpdates": [
+          {
+            "appliedAt": "2026-08-25T15:42:00+09:00",
+            "fromContentVersion": "0.0.0",
+            "id": "U-20260825-006",
+            "report": "reports/updates/U-20260825-006.md",
+            "scope": "selected",
+            "toContentVersion": "1.0.0"
+          },
+          {
+            "appliedAt": "2026-08-26T22:30:14+09:00",
+            "fromContentVersion": "1.0.0",
+            "id": "U-20260826-009",
+            "report": "reports/updates/U-20260826-009.md",
+            "scope": "all",
+            "toContentVersion": "1.0.1"
+          },
+          {
+            "appliedAt": "2026-08-26T22:42:19+09:00",
+            "fromContentVersion": "1.0.1",
+            "id": "U-20260826-010",
+            "report": "reports/updates/U-20260826-010.md",
+            "scope": "all",
+            "toContentVersion": "1.0.2"
+          },
+          {
+            "appliedAt": "2026-08-26T23:06:04+09:00",
+            "fromContentVersion": "1.0.2",
+            "id": "U-20260826-011",
+            "report": "reports/updates/U-20260826-011.md",
+            "scope": "all",
+            "toContentVersion": "1.0.3"
+          },
+          {
+            "appliedAt": "2026-08-26T23:20:00+09:00",
+            "fromContentVersion": "1.0.3",
+            "id": "U-20260826-012",
+            "report": "reports/updates/U-20260826-012.md",
+            "scope": "all",
+            "toContentVersion": "1.0.4"
+          }
+        ],
+        "defaultScope": "new-only"
+      },
+      "workbookId": "2026-june-grade2-q21"
+    },
+    "contentVersion": "1.0.4",
+    "files": [
+      {
+        "path": "workbooks/2026-june-grade2-q21/content.json",
+        "sha256": "b655acff41939784374558be10ab3a2d9aa5a73b1d9ae7bfa9ab8eb46eb88af7",
+        "size": 29536
+      }
+    ],
+    "workbookId": "2026-june-grade2-q21"
+  },
+  "spec": {
+    "files": [
+      {
+        "path": "config/versions.json",
+        "sha256": "acd7a6469e17719beb827893b39a6608e8f270f2851b97e5d66de816dbf89a8f",
+        "size": 1599
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "sha256": "aadb3fe161b100e3a68ecb42fab51775e9738153a04278a53b27e7172f8d8f69",
+        "size": 17021
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+        "size": 8058
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "schemaFiles": [
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "semanticRubricFile": {
+      "path": "docs/semantic-rubric.md",
+      "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+      "size": 8058
+    },
+    "semanticRubricVersion": "1.0.0",
+    "spec": {
+      "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "answerEditionContract": {
+        "answerFillClassMayAutoColor": false,
+        "choicePromptVisibleInAnswer": true,
+        "redAllowedOnlyOnSolutionValues": true,
+        "sameStageAndExerciseDomAsStudent": true,
+        "solutionClass": "solution-value",
+        "solutionColor": "#D71920",
+        "solutionInsertion": "fill-the-same-solution-slot",
+        "studentDerivation": "render answer first, lock every solution slot and writing response geometry, then remove solution values only",
+        "studentPayloadMayContainSolutions": false
+      },
+      "canonicalSchema": "schemas/canonical-workbook.schema.json",
+      "canonicalText": {
+        "baseTextOverride": {
+          "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+          "defaultStorage": "omit-baseText-and-derive-from-canonical",
+          "redundantDefaultCopy": "forbidden",
+          "requiredCompanionField": "overrideReason"
+        },
+        "displayDefault": "source",
+        "exerciseBaseTextDefaults": {
+          "choice": "display-or-source",
+          "enBlank": "display-or-source",
+          "koBlank": "translation",
+          "verb": "display-or-source"
+        },
+        "markup": "forbidden",
+        "reconstruction": {
+          "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+          "meaningSegments": "join meaningSegments[].en with one ASCII space",
+          "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+        },
+        "sourceWhitespace": "single-space-between-tokens",
+        "targetAnchor": {
+          "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다.",
+          "shape": {
+            "occurrence": "one-based occurrence in the applicable base text",
+            "text": "exact substring"
+          }
+        }
+      },
+      "contentOwnership": {
+        "authorable": [
+          "metadata",
+          "sourceStatus",
+          "sentences[].source",
+          "sentences[].display",
+          "sentences[].translation",
+          "sentences[].meaningSegments",
+          "sentences[].annotations",
+          "sentences[].exercises",
+          "passageActivities.correction",
+          "passageActivities.paragraphOrder",
+          "updateState"
+        ],
+        "derived": [
+          "stage number, title, instruction and renderer mode",
+          "item and unit numbers",
+          "part ranges and page boundaries",
+          "student and answer projections",
+          "blank, predicate, vocabulary and solution markup",
+          "answer-line height and layout classes",
+          "page count, footer number and output filenames"
+        ],
+        "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+      },
+      "logicalStages": [
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].meaningSegments",
+            "sentences[].annotations.predicates",
+            "sentences[].annotations.vocabulary"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "passage-practice",
+          "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean-inline-hint"
+            ],
+            "vocabularyColoring": true
+          },
+          "number": 1,
+          "pagination": {
+            "hardMaximum": 13,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 12,
+            "unit": "sentence"
+          },
+          "rendererMode": "meaning",
+          "scope": "sentence",
+          "title": "지문 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].exercises.koBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "korean-cloze",
+          "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 2,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (우리말)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.enBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "english-cloze",
+          "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 3,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (영문)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].translation"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "translation-practice",
+          "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 4,
+          "pagination": {
+            "hardMaximum": 11,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 10,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "해석 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.verb"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "verb-form",
+          "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 5,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "동사형 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.choice"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "grammar-vocabulary-choice",
+          "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 6,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "어법·어휘 고르기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.correction"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "correction",
+          "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+          "layout": {
+            "fieldOrder": [
+              "passage",
+              "correction-rows"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 7,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "correction",
+          "scope": "passage-activity",
+          "title": "어색한 곳 찾기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.arrange"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "sentence-order",
+          "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+          "layout": {
+            "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+            "arrangementSlots": "forbidden",
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 8,
+          "pagination": {
+            "hardMaximum": 6,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 6,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "순서 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.paragraphOrder"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "paragraph-order",
+          "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "fixed-intro",
+              "shuffled-blocks",
+              "fixed-outro",
+              "sequence-slots"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 9,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "paragraph-order",
+          "scope": "passage-activity",
+          "title": "문단 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.writing",
+            "sentences[].display|source"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "composition",
+          "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "studentEnglishSkeleton": "forbidden",
+            "vocabularyColoring": false
+          },
+          "number": 10,
+          "pagination": {
+            "hardMaximum": 8,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 8,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "영작 연습하기"
+        }
+      ],
+      "paginationContract": {
+        "continuationPageMinimumItems": 2,
+        "forbidden": [
+          "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+          "legacy 흐름 or 뜻 작성 columns",
+          "content crossing the page footer",
+          "content from one page overlapping the next page",
+          "clipped text",
+          "a singleton continuation page that can be avoided within the stage hard maximum",
+          "renumbering a new part from one"
+        ],
+        "layoutPreference": "vertical",
+        "numbering": "continuous-original-sentence-number",
+        "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+        "partLabel": "inclusive-original-sentence-number-range",
+        "readingLayout": "allowed-only-after-explicit-user-request",
+        "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+        "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+        "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+        "visualFitOverridesTargetCount": true
+      },
+      "principles": {
+        "canonicalDataContainsHtml": false,
+        "logicalStageCount": 10,
+        "publishOnlyAfterAllChecksPass": true,
+        "singleContentSource": true,
+        "studentAndAnswerShareExerciseStructure": true,
+        "studentProjectionSource": "answer-edition-after-browser-measured-all-solution-layouts",
+        "uncertainSourcePolicy": "stop-and-request-clearer-source"
+      },
+      "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+      "releaseContract": {
+        "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+        "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+        "filenames": [
+          "문제.html",
+          "문제.pdf",
+          "해설.html",
+          "해설.pdf"
+        ],
+        "finalHtmlDependencies": "self-contained",
+        "outputRoot": "outputs",
+        "previewFixture": "one-shared-canonical-fixture",
+        "publish": "atomic-after-all-gates-pass",
+        "stagingRoot": ".build/releases",
+        "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture"
+      },
+      "semanticRubric": "docs/semantic-rubric.md",
+      "specVersion": "1.0.6",
+      "updates": {
+        "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+        "allowedScopes": [
+          "new-only",
+          "all",
+          "selected",
+          "manual-review"
+        ],
+        "changelogPath": "CHANGELOG.md",
+        "defaultScope": "new-only",
+        "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+        "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+        "reportRequired": true,
+        "requiredImpactDimensions": [
+          "canonical fields",
+          "stage numbers",
+          "sentence or activity ids",
+          "student and answer editions",
+          "page count and part ranges",
+          "component versions"
+        ],
+        "requiredReportSections": [
+          "요약",
+          "요청 내용",
+          "직접 변경",
+          "파생 변경",
+          "영향 없음",
+          "파일 변경",
+          "출력 변화",
+          "검증 결과",
+          "호환성",
+          "버전"
+        ],
+        "versionBump": {
+          "backward-compatible field or stage capability": "minor",
+          "breaking schema or canonical semantics": "major",
+          "bug fix, validation strengthening or copy correction": "patch"
+        }
+      },
+      "validationGates": {
+        "canonical": [
+          "JSON Schema passes",
+          "sourceStatus.status is confirmed",
+          "sentence ids and numbers are unique, consecutive and aligned",
+          "meaning segment English joined with one space equals display or source",
+          "every meaning segment has one-to-one English and Korean text",
+          "all target anchors resolve exactly at their declared occurrence",
+          "choice options contain the correct target exactly once",
+          "arrange chunks in canonical order reconstruct display or source exactly",
+          "arrange displayOrder contains every chunk id exactly once",
+          "paragraph displayOrder contains every block id exactly once",
+          "correction targets restore their base excerpt exactly",
+          "vocabulary and predicate annotations resolve inside their meaning segment"
+        ],
+        "compiled": [
+          "exactly ten logical stages appear in fixed order",
+          "sentence stages contain exactly one item for every source sentence",
+          "all part ranges are complete, consecutive and match item numbers",
+          "student and answer exercise structures are identical",
+          "every non-writing solution-slot position, width, and height is copied from the browser-measured answer edition before solution text is removed",
+          "student response-line positions, widths, and heights are copied from the browser-measured answer edition before solution text is removed",
+          "student writing areas do not draw replacement guide lines after the answer text is removed",
+          "student edition exposes no solution values",
+          "every bank, target and slot cardinality is internally consistent",
+          "stage 10 student edition contains no English skeleton"
+        ],
+        "release": [
+          "problem HTML exists",
+          "problem PDF exists",
+          "answer HTML exists",
+          "answer PDF exists",
+          "build manifest records all component versions and applied updates",
+          "update report exists when an update id is applied"
+        ],
+        "rendered": [
+          "document fonts and images are ready",
+          "browser console and page errors are empty",
+          "data-render-validation is exactly ok",
+          "no unresolved template placeholder remains",
+          "no preview fixture data remains in final HTML",
+          "no page or footer overflow exists under print media",
+          "answer red is present only on solution-value nodes",
+          "every student and answer non-writing solution-slot has matching page-relative left, top, width, and height within 0.75px",
+          "every student and answer writing response box and answer-line trace matches within 0.75px",
+          "representative and risk pages pass visual review"
+        ]
+      },
+      "vocabularyContract": {
+        "allowedStageNumbers": [
+          1
+        ],
+        "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+        "maximumPerSentence": 3,
+        "redSlotForbidden": true,
+        "rendererClasses": {
+          "english": "vocab vocab-{slot} gloss",
+          "korean": "vocab vocab-{slot}"
+        },
+        "sameEnglishAndKoreanSlot": true,
+        "slots": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "specVersion": "1.0.6"
+  },
+  "template": {
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+        "size": 29359
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "sha256": "25a21d18af7ee1100e7a4d0023af1175140e82dd2cce2a246d0fcd5ece2411ee",
+        "size": 42558
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+        "size": 1212
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "sha256": "ceab51f4246462f507a1de7c6aea850fb577113c37e74b4d98a645f23744a330",
+        "size": 15185
+      }
+    ],
+    "rendererContract": "shared-dom-explicit-targets-fail-closed",
+    "templateVersion": "1.0.4"
+  }
+}

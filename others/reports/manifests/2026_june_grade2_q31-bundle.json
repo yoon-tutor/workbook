@@ -1,0 +1,2896 @@
+{
+  "build": {
+    "appliedUpdates": [
+      "U-20260903-016"
+    ],
+    "buildVersion": "1.0.0",
+    "builtAt": "2026-09-03T15:13:57+09:00",
+    "canonicalDigest": "69524680c1e81770491f8b81db368a9c2a06a62fb6af30896ffd132f0166befe",
+    "compilerVersion": "1.0.7",
+    "contentVersion": "1.0.0",
+    "engineDigest": "755fa39f2f38e0c481da489f7b37fc92110b71ae3cf018dda83004df187ac114",
+    "engineInputs": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      }
+    ],
+    "files": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      },
+      {
+        "path": "문제.html",
+        "sha256": "676ea6518b0a9d9faa30a5fc52dbdd5385a2ea87f7e23a1632abf643666fc890",
+        "size": 144947
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "b622817de1a8998ace85d98a783bae12313efe5cec9f04eeef39b677e40cd929",
+        "size": 608464
+      },
+      {
+        "path": "해설.html",
+        "sha256": "1642ca7582c920b78b89a29aa717b305ddf9fb13e357475893df8eac6dab7a00",
+        "size": 155127
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "25b1def8614055b220500a434b272c1dfb84a284d273700697f3e529118886ba",
+        "size": 754807
+      }
+    ],
+    "outputs": [
+      {
+        "path": "문제.html",
+        "sha256": "676ea6518b0a9d9faa30a5fc52dbdd5385a2ea87f7e23a1632abf643666fc890",
+        "size": 144947
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "b622817de1a8998ace85d98a783bae12313efe5cec9f04eeef39b677e40cd929",
+        "size": 608464
+      },
+      {
+        "path": "해설.html",
+        "sha256": "1642ca7582c920b78b89a29aa717b305ddf9fb13e357475893df8eac6dab7a00",
+        "size": 155127
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "25b1def8614055b220500a434b272c1dfb84a284d273700697f3e529118886ba",
+        "size": 754807
+      }
+    ],
+    "pages": [
+      {
+        "digest": "aafc6ac1773a5cd831592683f4b8ee46a23e1b8fec53e211d8d3f0945d15fdc8",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q31-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q31-p01",
+        "part": "1-7",
+        "stageId": "1"
+      },
+      {
+        "digest": "df80b3837630b917457096631c7df6ee38756dbed8795ed122970f8c0c4d13ef",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q31-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q31-p02",
+        "part": "1-7",
+        "stageId": "2"
+      },
+      {
+        "digest": "244f577a0c2e0d0641fb3a2b52808bc09237cf1c7d317ae58fbeea76e65ee04c",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q31-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q31-p03",
+        "part": "1-7",
+        "stageId": "3"
+      },
+      {
+        "digest": "8b39b8768bebb595c9b54283967293f2e794ddeec8cdb739e9ec95425b805410",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q31-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q31-p04",
+        "part": "1-7",
+        "stageId": "4"
+      },
+      {
+        "digest": "b3e3c71d5ab460300fc8c39b5bdcf11c9024dde7e9b7b38f7a3bf9efef61c0bd",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q31-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q31-p05",
+        "part": "1-7",
+        "stageId": "5"
+      },
+      {
+        "digest": "254c2b4d264eb2987babe51f684f7900b3dacd354c07cee97b21c92ea7258c2d",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q31-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q31-p06",
+        "part": "1-7",
+        "stageId": "6"
+      },
+      {
+        "digest": "9dd9879f1c5c1f38ef143d6e56c084e6c2c2e039cb6e6285f6edc0763be828f3",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q31-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q31-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "08f6cb18d11dea13ee9f41a4b80683fcd1bc71dbdddc5f128ae941dc15b855c5",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q31-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q31-p08",
+        "part": "1-4",
+        "stageId": "8"
+      },
+      {
+        "digest": "a0ebba63ca429ace6fabb3a18c4316fccd955e8fb89f13e09dc3a05ea4eca9ac",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q31-p09",
+        "itemIds": [
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 9,
+        "pageId": "2026-june-grade2-q31-p09",
+        "part": "5-7",
+        "stageId": "8"
+      },
+      {
+        "digest": "3433332ce88a3b5c54f529b281eecd6377413c4f9a9279f8adab759195b06b45",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q31-p10",
+        "itemIds": [],
+        "page": 10,
+        "pageId": "2026-june-grade2-q31-p10",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "f56eb3591b6637bb0281f406399e640fffac668e66d7120a369d842795e284ae",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q31-p11",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 11,
+        "pageId": "2026-june-grade2-q31-p11",
+        "part": "1-7",
+        "stageId": "10"
+      },
+      {
+        "digest": "aafc6ac1773a5cd831592683f4b8ee46a23e1b8fec53e211d8d3f0945d15fdc8",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q31-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q31-p01",
+        "part": "1-7",
+        "stageId": "1"
+      },
+      {
+        "digest": "91f82540a9c4d74de86f41c32e52988b1315ab750143001caa65b5fd7f29d090",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q31-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q31-p02",
+        "part": "1-7",
+        "stageId": "2"
+      },
+      {
+        "digest": "4f629e6f4c3c162fcda423cbb0f5ea59409d188db5e87b22bc32465120126f58",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q31-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q31-p03",
+        "part": "1-7",
+        "stageId": "3"
+      },
+      {
+        "digest": "9ce4ff14e0181466a082dd3b52da26675c870fa7df68ce1fff2eb020bd3ea0eb",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q31-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q31-p04",
+        "part": "1-7",
+        "stageId": "4"
+      },
+      {
+        "digest": "30b2fbd14afa0304710cb09eb4369d94a9bee390b6584c89d9d1ecffeeb6d86d",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q31-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q31-p05",
+        "part": "1-7",
+        "stageId": "5"
+      },
+      {
+        "digest": "2ca9cb7d72ea6fc4295c770617a5cf29818d6e4133031493395c4034dd03534d",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q31-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q31-p06",
+        "part": "1-7",
+        "stageId": "6"
+      },
+      {
+        "digest": "53b49e7514c32c5d7e4af728ed63525595894779d74f092c2ff8e0f7d195d4ae",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q31-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q31-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "eee7ac7a176aec5c4985962d1706cb62f077e2a204a760c9e1c0265f451bdc5a",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q31-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q31-p08",
+        "part": "1-4",
+        "stageId": "8"
+      },
+      {
+        "digest": "60684e6a9e9447c2ae70dee526abca9b708ffc5fc505193e6737d68bb566993a",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q31-p09",
+        "itemIds": [
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 9,
+        "pageId": "2026-june-grade2-q31-p09",
+        "part": "5-7",
+        "stageId": "8"
+      },
+      {
+        "digest": "e47ee4296b92433569641d5b9c2ee1e208bc7c85213394858d5f59b5f4874378",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q31-p10",
+        "itemIds": [],
+        "page": 10,
+        "pageId": "2026-june-grade2-q31-p10",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "5c90f9bab36f65d48caf6e04aa87a73b48b94fdc37b1dc7b6aa90a059bb5c5bd",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q31-p11",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006",
+          "s007"
+        ],
+        "page": 11,
+        "pageId": "2026-june-grade2-q31-p11",
+        "part": "1-7",
+        "stageId": "10"
+      }
+    ],
+    "qa": {
+      "contactSheets": [
+        "qa/samples/student-contact-sheet.png",
+        "qa/samples/answer-contact-sheet.png"
+      ],
+      "dom": {
+        "answer": {
+          "pages": 11,
+          "solutions": 82
+        },
+        "matchedResponseBoxCount": 21,
+        "matchedResponseLineCount": 36,
+        "matchedSolutionSlotCount": 70,
+        "sharedTargetSlotCount": 91,
+        "student": {
+          "pages": 11,
+          "solutions": 0
+        }
+      },
+      "pdf": {
+        "answerPages": 11,
+        "studentPages": 11
+      },
+      "status": "passed",
+      "visualSamples": [
+        "qa/samples/student-p01.png",
+        "qa/samples/student-p02.png",
+        "qa/samples/student-p03.png",
+        "qa/samples/student-p04.png",
+        "qa/samples/student-p05.png",
+        "qa/samples/student-p06.png",
+        "qa/samples/student-p07.png",
+        "qa/samples/student-p08.png",
+        "qa/samples/student-p10.png",
+        "qa/samples/student-p11.png",
+        "qa/samples/answer-p01.png",
+        "qa/samples/answer-p02.png",
+        "qa/samples/answer-p03.png",
+        "qa/samples/answer-p04.png",
+        "qa/samples/answer-p05.png",
+        "qa/samples/answer-p06.png",
+        "qa/samples/answer-p07.png",
+        "qa/samples/answer-p08.png",
+        "qa/samples/answer-p10.png",
+        "qa/samples/answer-p11.png"
+      ]
+    },
+    "reportFormatVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "semanticRubricVersion": "1.0.0",
+    "sourceDigest": "1eac8384496ef491d8d3d759c7ba45a60a3997890de988b543127142203388f3",
+    "specVersion": "1.0.6",
+    "templateVersion": "1.0.4",
+    "validationStatus": "passed",
+    "visualReview": {
+      "notes": "학생용·해설용 11쪽 전체 contact sheet와 7단계 상세 페이지를 확인했습니다. 1단계 다음 part, 2·3단계 빈칸, 4·8·10단계 작성 영역, 7단계 교정 색상, 9단계 문단 순서, 마지막 페이지에 잘림·겹침·정답 누출이 없고 문제·해설 target 배치가 일치합니다.",
+      "reviewedAt": "2026-09-03T15:14:25+09:00",
+      "reviewer": "Codex",
+      "status": "passed"
+    },
+    "workbookId": "2026-june-grade2-q31"
+  },
+  "bundleVersion": 1,
+  "canonical": {
+    "canonical": {
+      "$schema": "../../schemas/canonical-workbook.schema.json",
+      "contentVersion": "1.0.0",
+      "metadata": {
+        "grade": "고등학교 2학년",
+        "kicker": "High School Reading",
+        "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 31번",
+        "sourceLanguage": "en",
+        "targetLanguage": "ko",
+        "title": "2026학년도 6월 고2 31번 10단계 워크북",
+        "topic": "도시 공간이 시대 변화에 맞춰 다양한 용도를 계속 수용하는 지속성"
+      },
+      "passageActivities": {
+        "correction": [
+          {
+            "id": "correction-01",
+            "targets": [
+              {
+                "correct": "square is",
+                "id": "correction-01-01",
+                "incorrect": "square are",
+                "target": {
+                  "occurrence": 1,
+                  "text": "square are"
+                }
+              },
+              {
+                "correct": "The ancient medieval squares in places like Marrakesh and Siena are",
+                "id": "correction-01-02",
+                "incorrect": "The ancient medieval squares in places like Marrakesh and Siena is",
+                "target": {
+                  "occurrence": 1,
+                  "text": "The ancient medieval squares in places like Marrakesh and Siena is"
+                }
+              },
+              {
+                "correct": "itself has changed",
+                "id": "correction-01-03",
+                "incorrect": "itself have changed",
+                "target": {
+                  "occurrence": 1,
+                  "text": "itself have changed"
+                }
+              },
+              {
+                "correct": "as is the shopping street",
+                "id": "correction-01-04",
+                "incorrect": "as are the shopping street",
+                "target": {
+                  "occurrence": 1,
+                  "text": "as are the shopping street"
+                }
+              },
+              {
+                "correct": "once sold",
+                "id": "correction-01-05",
+                "incorrect": "once sell",
+                "target": {
+                  "occurrence": 1,
+                  "text": "once sell"
+                }
+              },
+              {
+                "correct": "infrastructure supports",
+                "id": "correction-01-06",
+                "incorrect": "infrastructure support",
+                "target": {
+                  "occurrence": 1,
+                  "text": "infrastructure support"
+                }
+              },
+              {
+                "correct": "Jacobs, the great prophet of the city economy, made",
+                "id": "correction-01-07",
+                "incorrect": "Jacobs, the great prophet of the city economy, make",
+                "target": {
+                  "occurrence": 1,
+                  "text": "Jacobs, the great prophet of the city economy, make"
+                }
+              },
+              {
+                "correct": "city architecture is",
+                "id": "correction-01-08",
+                "incorrect": "city architecture are",
+                "target": {
+                  "occurrence": 1,
+                  "text": "city architecture are"
+                }
+              },
+              {
+                "correct": "Internet would mean",
+                "id": "correction-01-09",
+                "incorrect": "Internet will mean",
+                "target": {
+                  "occurrence": 1,
+                  "text": "Internet will mean"
+                }
+              }
+            ],
+            "textOverride": "One easily underappreciated feature of a city street or square are its “future-proof” nature. The ancient medieval squares in places like Marrakesh and Siena is still places where stuff is sold every day, even if the stuff itself have changed over the last five hundred years. The city square is a fairly future-proof technology, as are the shopping street, even in an age of online shopping. For example, the same physical store that once sell buggy whips and typewriters might now repair damaged phones and sell bubble tea. The same infrastructure support evolving uses. Jane Jacobs, the great prophet of the city economy, make much of this fact in her books, including The Death and Life of Great American Cities and The Nature of Economies. As she pointed out, the great advantage of a city architecture are its ability to support change in uses, and Jacobs correctly predicted the persistence of the city itself, unlike those who predicted the rise of the Internet will mean the death of the city."
+          }
+        ],
+        "paragraphOrder": [
+          {
+            "answerOrder": [
+              "A",
+              "B",
+              "C"
+            ],
+            "blocks": [
+              {
+                "id": "A",
+                "sentenceIds": [
+                  "s001",
+                  "s002"
+                ]
+              },
+              {
+                "id": "B",
+                "sentenceIds": [
+                  "s003",
+                  "s004",
+                  "s005"
+                ]
+              },
+              {
+                "id": "C",
+                "sentenceIds": [
+                  "s006",
+                  "s007"
+                ]
+              }
+            ],
+            "displayOrder": [
+              "B",
+              "C",
+              "A"
+            ],
+            "id": "paragraph-order-01"
+          }
+        ]
+      },
+      "schemaVersion": "1.0.0",
+      "sentences": [
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s001-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "성격이다"
+                  }
+                ],
+                "segmentId": "s001-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "underappreciated"
+                },
+                "id": "s001-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "과소평가되는"
+                },
+                "meaning": "가치가 충분히 인정되지 않는",
+                "reasons": [
+                  "academic",
+                  "structure-critical"
+                ],
+                "segmentId": "s001-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "future-proof"
+                },
+                "id": "s001-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "미래 대응형"
+                },
+                "meaning": "미래의 변화에도 쓸모를 유지하는",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s001-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s001-a",
+                  "text": "One easily underappreciated feature"
+                },
+                {
+                  "id": "s001-b",
+                  "text": "of a city street or square"
+                },
+                {
+                  "id": "s001-c",
+                  "text": "is its “future-proof” nature."
+                }
+              ],
+              "displayOrder": [
+                "s001-b",
+                "s001-c",
+                "s001-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s001-choice-01",
+                  "options": [
+                    "underappreciated",
+                    "overestimated"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "underappreciated"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s001-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "easily underappreciated feature"
+                  }
+                },
+                {
+                  "id": "s001-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "“future-proof” nature"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s001-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "쉽게 과소평가되는"
+                  }
+                },
+                {
+                  "id": "s001-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "‘미래 대응형’ 성격"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s001-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "easily underappreciated",
+                "feature",
+                "city street or square",
+                "future-proof",
+                "nature"
+              ]
+            }
+          },
+          "id": "s001",
+          "meaningSegments": [
+            {
+              "en": "One easily underappreciated feature",
+              "id": "s001-m01",
+              "ko": "쉽게 과소평가되는 한 가지 특징은"
+            },
+            {
+              "en": "of a city street or square",
+              "id": "s001-m02",
+              "ko": "도시의 거리나 광장의"
+            },
+            {
+              "en": "is its “future-proof” nature.",
+              "id": "s001-m03",
+              "ko": "그것의 ‘미래 대응형’ 성격이다."
+            }
+          ],
+          "no": 1,
+          "source": "One easily underappreciated feature of a city street or square is its “future-proof” nature.",
+          "translation": "쉽게 과소평가되는 도시의 거리나 광장의 한 가지 특징은 그것의 ‘미래 대응형’ 성격이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "are"
+                  }
+                ],
+                "id": "s002-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "장소이다"
+                  }
+                ],
+                "segmentId": "s002-m03"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is sold"
+                  }
+                ],
+                "id": "s002-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "팔리는"
+                  }
+                ],
+                "segmentId": "s002-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "has changed"
+                  }
+                ],
+                "id": "s002-m05-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "바뀌어 왔음에도"
+                  }
+                ],
+                "segmentId": "s002-m05"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "medieval"
+                },
+                "id": "s002-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "중세"
+                },
+                "meaning": "중세 시대의",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s002-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "has changed"
+                },
+                "id": "s002-m05-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "바뀌어 왔음에도"
+                },
+                "meaning": "과거부터 지금까지 변해 왔다",
+                "reasons": [
+                  "structure-critical",
+                  "topic-core"
+                ],
+                "segmentId": "s002-m05"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s002-a",
+                  "text": "The ancient medieval squares in places like Marrakesh and Siena"
+                },
+                {
+                  "id": "s002-b",
+                  "text": "are still places where stuff is sold every day,"
+                },
+                {
+                  "id": "s002-c",
+                  "text": "even if the stuff itself has changed"
+                },
+                {
+                  "id": "s002-d",
+                  "text": "over the last five hundred years."
+                }
+              ],
+              "displayOrder": [
+                "s002-c",
+                "s002-a",
+                "s002-d",
+                "s002-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s002-choice-01",
+                  "options": [
+                    "has changed",
+                    "has remained unchanged"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "has changed"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s002-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are still places where stuff is sold every day"
+                  }
+                },
+                {
+                  "id": "s002-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "has changed over the last five hundred years"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s002-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "여전히 날마다 물건이 팔리는 장소"
+                  }
+                },
+                {
+                  "id": "s002-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "지난 500년 동안 바뀌어 왔음에도"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s002-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "are still places"
+                  }
+                },
+                {
+                  "cue": "sell",
+                  "id": "s002-verb-02",
+                  "lemma": "sell",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is sold"
+                  }
+                },
+                {
+                  "cue": "change",
+                  "id": "s002-verb-03",
+                  "lemma": "change",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "has changed"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "ancient medieval squares",
+                "Marrakesh and Siena",
+                "still places",
+                "stuff",
+                "be sold",
+                "has changed"
+              ]
+            }
+          },
+          "id": "s002",
+          "meaningSegments": [
+            {
+              "en": "The ancient medieval squares",
+              "id": "s002-m01",
+              "ko": "오랜 중세 광장들은"
+            },
+            {
+              "en": "in places like Marrakesh and Siena",
+              "id": "s002-m02",
+              "ko": "마라케시와 시에나 같은 곳의"
+            },
+            {
+              "en": "are still places",
+              "id": "s002-m03",
+              "ko": "여전히 장소이다"
+            },
+            {
+              "en": "where stuff is sold every day,",
+              "id": "s002-m04",
+              "ko": "물건이 날마다 팔리는"
+            },
+            {
+              "en": "even if the stuff itself has changed",
+              "id": "s002-m05",
+              "ko": "비록 그 물건 자체는 바뀌어 왔음에도"
+            },
+            {
+              "en": "over the last five hundred years.",
+              "id": "s002-m06",
+              "ko": "지난 500년 동안."
+            }
+          ],
+          "no": 2,
+          "source": "The ancient medieval squares in places like Marrakesh and Siena are still places where stuff is sold every day, even if the stuff itself has changed over the last five hundred years.",
+          "translation": "마라케시와 시에나 같은 곳의 오랜 중세 광장들은 물건 자체가 지난 500년 동안 바뀌어 왔음에도 여전히 날마다 물건이 팔리는 장소이다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s003-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "해당한다"
+                  }
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s003-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "그러하며"
+                  }
+                ],
+                "segmentId": "s003-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "fairly"
+                },
+                "id": "s003-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "상당히"
+                },
+                "meaning": "꽤, 상당히",
+                "reasons": [
+                  "structure-critical"
+                ],
+                "segmentId": "s003-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "future-proof"
+                },
+                "id": "s003-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "미래 변화에 견디는"
+                },
+                "meaning": "미래에도 계속 유용한",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s003-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s003-a",
+                  "text": "The city square is a fairly future-proof technology,"
+                },
+                {
+                  "id": "s003-b",
+                  "text": "as is the shopping street,"
+                },
+                {
+                  "id": "s003-c",
+                  "text": "even in an age of online shopping."
+                }
+              ],
+              "displayOrder": [
+                "s003-b",
+                "s003-c",
+                "s003-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s003-choice-01",
+                  "options": [
+                    "future-proof",
+                    "quickly obsolete"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "future-proof"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s003-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "a fairly future-proof technology"
+                  }
+                },
+                {
+                  "id": "s003-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "even in an age of online shopping"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s003-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "미래 변화에 견디는 기술"
+                  }
+                },
+                {
+                  "id": "s003-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "온라인 쇼핑 시대에도"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s003-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "city square is"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s003-verb-02",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is the shopping street"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "city square",
+                "fairly future-proof technology",
+                "shopping street",
+                "even",
+                "online shopping"
+              ]
+            }
+          },
+          "id": "s003",
+          "meaningSegments": [
+            {
+              "en": "The city square is",
+              "id": "s003-m01",
+              "ko": "도시 광장은 해당한다"
+            },
+            {
+              "en": "a fairly future-proof technology,",
+              "id": "s003-m02",
+              "ko": "상당히 미래 변화에 견디는 기술에,"
+            },
+            {
+              "en": "as is the shopping street,",
+              "id": "s003-m03",
+              "ko": "상점가 역시 그러하며,"
+            },
+            {
+              "en": "even in an age of online shopping.",
+              "id": "s003-m04",
+              "ko": "온라인 쇼핑 시대에도."
+            }
+          ],
+          "no": 3,
+          "source": "The city square is a fairly future-proof technology, as is the shopping street, even in an age of online shopping.",
+          "translation": "도시 광장은 상당히 미래 변화에 견디는 기술이며, 온라인 쇼핑 시대에도 상점가 역시 그러하다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "sold"
+                  }
+                ],
+                "id": "s004-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "팔던"
+                  }
+                ],
+                "segmentId": "s004-m03"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "might now repair"
+                  }
+                ],
+                "id": "s004-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "수리할 수도 있고"
+                  }
+                ],
+                "segmentId": "s004-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "sell"
+                  }
+                ],
+                "id": "s004-m05-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "팔 수도 있다"
+                  }
+                ],
+                "segmentId": "s004-m05"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "physical store"
+                },
+                "id": "s004-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "실제 상점"
+                },
+                "meaning": "온라인이 아닌 현실 공간의 가게",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s004-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "buggy whips"
+                },
+                "id": "s004-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "마차 채찍"
+                },
+                "meaning": "마차를 모는 데 쓰던 채찍",
+                "reasons": [
+                  "technical"
+                ],
+                "segmentId": "s004-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s004-a",
+                  "text": "For example, the same physical store"
+                },
+                {
+                  "id": "s004-b",
+                  "text": "that once sold buggy whips and typewriters"
+                },
+                {
+                  "id": "s004-c",
+                  "text": "might now repair damaged phones"
+                },
+                {
+                  "id": "s004-d",
+                  "text": "and sell bubble tea."
+                }
+              ],
+              "displayOrder": [
+                "s004-c",
+                "s004-a",
+                "s004-d",
+                "s004-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s004-choice-01",
+                  "options": [
+                    "might now repair",
+                    "could never repair"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "might now repair"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s004-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "once sold buggy whips and typewriters"
+                  }
+                },
+                {
+                  "id": "s004-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "might now repair damaged phones"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s004-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "한때 마차 채찍과 타자기를 팔던"
+                  }
+                },
+                {
+                  "id": "s004-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "손상된 휴대전화를 수리하고"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "sell",
+                  "id": "s004-verb-01",
+                  "lemma": "sell",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "sold"
+                  }
+                },
+                {
+                  "cue": "repair",
+                  "id": "s004-verb-02",
+                  "lemma": "repair",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "might now repair"
+                  }
+                },
+                {
+                  "cue": "sell",
+                  "id": "s004-verb-03",
+                  "lemma": "sell",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "sell bubble tea"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "for example",
+                "same physical store",
+                "once sell",
+                "buggy whips and typewriters",
+                "repair damaged phones",
+                "bubble tea"
+              ]
+            }
+          },
+          "id": "s004",
+          "meaningSegments": [
+            {
+              "en": "For example,",
+              "id": "s004-m01",
+              "ko": "예를 들어,"
+            },
+            {
+              "en": "the same physical store",
+              "id": "s004-m02",
+              "ko": "동일한 실제 상점이"
+            },
+            {
+              "en": "that once sold buggy whips and typewriters",
+              "id": "s004-m03",
+              "ko": "한때 마차 채찍과 타자기를 팔던"
+            },
+            {
+              "en": "might now repair damaged phones",
+              "id": "s004-m04",
+              "ko": "이제는 손상된 휴대전화를 수리할 수도 있고"
+            },
+            {
+              "en": "and sell bubble tea.",
+              "id": "s004-m05",
+              "ko": "버블티를 팔 수도 있다."
+            }
+          ],
+          "no": 4,
+          "source": "For example, the same physical store that once sold buggy whips and typewriters might now repair damaged phones and sell bubble tea.",
+          "translation": "예를 들어 한때 마차 채찍과 타자기를 팔던 동일한 실제 상점이 이제는 손상된 휴대전화를 수리하고 버블티를 팔 수도 있다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "supports"
+                  }
+                ],
+                "id": "s005-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "뒷받침한다"
+                  }
+                ],
+                "segmentId": "s005-m01"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "infrastructure"
+                },
+                "id": "s005-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "기반 시설"
+                },
+                "meaning": "활동을 가능하게 하는 기본 시설",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s005-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "evolving uses"
+                },
+                "id": "s005-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "변화해 가는 용도"
+                },
+                "meaning": "시대에 따라 달라지는 쓰임",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s005-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s005-a",
+                  "text": "The same infrastructure supports"
+                },
+                {
+                  "id": "s005-b",
+                  "text": "evolving uses."
+                }
+              ],
+              "displayOrder": [
+                "s005-b",
+                "s005-a"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s005-choice-01",
+                  "options": [
+                    "evolving uses",
+                    "limited functions"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "evolving uses"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s005-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "same infrastructure"
+                  }
+                },
+                {
+                  "id": "s005-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "evolving uses"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s005-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "동일한 기반 시설"
+                  }
+                },
+                {
+                  "id": "s005-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "변화해 가는 용도들"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "support",
+                  "id": "s005-verb-01",
+                  "lemma": "support",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "supports"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "same infrastructure",
+                "support",
+                "evolving uses"
+              ]
+            }
+          },
+          "id": "s005",
+          "meaningSegments": [
+            {
+              "en": "The same infrastructure supports",
+              "id": "s005-m01",
+              "ko": "동일한 기반 시설이 뒷받침한다"
+            },
+            {
+              "en": "evolving uses.",
+              "id": "s005-m02",
+              "ko": "변화해 가는 용도들을."
+            }
+          ],
+          "no": 5,
+          "source": "The same infrastructure supports evolving uses.",
+          "translation": "동일한 기반 시설이 변화해 가는 용도들을 뒷받침한다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "made much of"
+                  }
+                ],
+                "id": "s006-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "매우 중시했다"
+                  }
+                ],
+                "segmentId": "s006-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "prophet"
+                },
+                "id": "s006-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "예언자"
+                },
+                "meaning": "앞날을 내다보는 사람",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s006-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "made much of"
+                },
+                "id": "s006-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "매우 중시했다"
+                },
+                "meaning": "매우 중요하게 여겼다",
+                "reasons": [
+                  "structure-critical",
+                  "topic-core"
+                ],
+                "segmentId": "s006-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s006-a",
+                  "text": "Jane Jacobs, the great prophet of the city economy,"
+                },
+                {
+                  "id": "s006-b",
+                  "text": "made much of this fact in her books,"
+                },
+                {
+                  "id": "s006-c",
+                  "text": "including The Death and Life of Great American Cities"
+                },
+                {
+                  "id": "s006-d",
+                  "text": "and The Nature of Economies."
+                }
+              ],
+              "displayOrder": [
+                "s006-b",
+                "s006-d",
+                "s006-a",
+                "s006-c"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s006-choice-01",
+                  "options": [
+                    "made much of",
+                    "dismissed"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "made much of"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s006-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "the great prophet of the city economy"
+                  }
+                },
+                {
+                  "id": "s006-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "made much of this fact"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s006-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "도시 경제의 위대한 예언자"
+                  }
+                },
+                {
+                  "id": "s006-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "이 사실을 매우 중시했다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "make much of",
+                  "id": "s006-verb-01",
+                  "lemma": "make",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "made much of"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "Jane Jacobs",
+                "great prophet",
+                "city economy",
+                "make much of",
+                "fact",
+                "in her books"
+              ]
+            }
+          },
+          "id": "s006",
+          "meaningSegments": [
+            {
+              "en": "Jane Jacobs,",
+              "id": "s006-m01",
+              "ko": "제인 제이콥스는,"
+            },
+            {
+              "en": "the great prophet of the city economy,",
+              "id": "s006-m02",
+              "ko": "도시 경제의 위대한 예언자인,"
+            },
+            {
+              "en": "made much of this fact",
+              "id": "s006-m03",
+              "ko": "이 사실을 매우 중시했다"
+            },
+            {
+              "en": "in her books,",
+              "id": "s006-m04",
+              "ko": "자신의 책들에서,"
+            },
+            {
+              "en": "including The Death and Life of Great American Cities",
+              "id": "s006-m05",
+              "ko": "『미국 대도시의 죽음과 삶』을 포함하여"
+            },
+            {
+              "en": "and The Nature of Economies.",
+              "id": "s006-m06",
+              "ko": "그리고 『경제의 본질』을."
+            }
+          ],
+          "no": 6,
+          "source": "Jane Jacobs, the great prophet of the city economy, made much of this fact in her books, including The Death and Life of Great American Cities and The Nature of Economies.",
+          "translation": "도시 경제의 위대한 예언자 제인 제이콥스는 『미국 대도시의 죽음과 삶』과 『경제의 본질』을 포함한 자신의 책들에서 이 사실을 매우 중시했다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "pointed out"
+                  }
+                ],
+                "id": "s007-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "지적했듯이"
+                  }
+                ],
+                "segmentId": "s007-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s007-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "해당한다"
+                  }
+                ],
+                "segmentId": "s007-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "predicted"
+                  }
+                ],
+                "id": "s007-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "예측했다"
+                  }
+                ],
+                "segmentId": "s007-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "predicted"
+                  }
+                ],
+                "id": "s007-m06-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "예측한"
+                  }
+                ],
+                "segmentId": "s007-m06"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "would mean"
+                  }
+                ],
+                "id": "s007-m07-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "뜻할 것이라고"
+                  }
+                ],
+                "segmentId": "s007-m07"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "architecture"
+                },
+                "id": "s007-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "건축"
+                },
+                "meaning": "건축물과 그 구조",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s007-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "persistence"
+                },
+                "id": "s007-m05-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "지속성"
+                },
+                "meaning": "오래 계속 존재하는 성질",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s007-m05"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "the rise"
+                },
+                "id": "s007-m07-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "부상"
+                },
+                "meaning": "세력이 커지거나 널리 퍼짐",
+                "reasons": [
+                  "abstract"
+                ],
+                "segmentId": "s007-m07"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s007-a",
+                  "text": "As she pointed out, the great advantage of a city architecture"
+                },
+                {
+                  "id": "s007-b",
+                  "text": "is its ability to support change in uses,"
+                },
+                {
+                  "id": "s007-c",
+                  "text": "and Jacobs correctly predicted the persistence of the city itself,"
+                },
+                {
+                  "id": "s007-d",
+                  "text": "unlike those who predicted the rise of the Internet would mean the death of the city."
+                }
+              ],
+              "displayOrder": [
+                "s007-c",
+                "s007-a",
+                "s007-d",
+                "s007-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s007-choice-01",
+                  "options": [
+                    "persistence",
+                    "disappearance"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "persistence"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s007-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "ability to support change in uses"
+                  }
+                },
+                {
+                  "id": "s007-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "predicted the persistence of the city itself"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s007-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "용도의 변화를 수용하는 능력"
+                  }
+                },
+                {
+                  "id": "s007-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "도시 자체의 지속성"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "point out",
+                  "id": "s007-verb-01",
+                  "lemma": "point",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "pointed out"
+                  }
+                },
+                {
+                  "cue": "predict",
+                  "id": "s007-verb-02",
+                  "lemma": "predict",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "correctly predicted"
+                  }
+                },
+                {
+                  "cue": "mean",
+                  "id": "s007-verb-03",
+                  "lemma": "mean",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "would mean"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "point out",
+                "great advantage",
+                "city architecture",
+                "support change in uses",
+                "predict",
+                "persistence of the city"
+              ]
+            }
+          },
+          "id": "s007",
+          "meaningSegments": [
+            {
+              "en": "As she pointed out,",
+              "id": "s007-m01",
+              "ko": "그녀가 지적했듯이,"
+            },
+            {
+              "en": "the great advantage of a city architecture is",
+              "id": "s007-m02",
+              "ko": "도시 건축의 큰 장점은 해당한다"
+            },
+            {
+              "en": "its ability to support change in uses,",
+              "id": "s007-m03",
+              "ko": "용도의 변화를 수용하는 능력에,"
+            },
+            {
+              "en": "and Jacobs correctly predicted",
+              "id": "s007-m04",
+              "ko": "그리고 제이콥스는 정확히 예측했다"
+            },
+            {
+              "en": "the persistence of the city itself,",
+              "id": "s007-m05",
+              "ko": "도시 자체의 지속성을,"
+            },
+            {
+              "en": "unlike those who predicted",
+              "id": "s007-m06",
+              "ko": "예측한 사람들과 달리"
+            },
+            {
+              "en": "the rise of the Internet would mean",
+              "id": "s007-m07",
+              "ko": "인터넷의 부상이 뜻할 것이라고"
+            },
+            {
+              "en": "the death of the city.",
+              "id": "s007-m08",
+              "ko": "도시의 죽음을."
+            }
+          ],
+          "no": 7,
+          "source": "As she pointed out, the great advantage of a city architecture is its ability to support change in uses, and Jacobs correctly predicted the persistence of the city itself, unlike those who predicted the rise of the Internet would mean the death of the city.",
+          "translation": "그녀가 지적했듯이 도시 건축의 큰 장점은 용도의 변화를 수용하는 능력이며, 제이콥스는 인터넷의 부상이 도시의 죽음을 뜻할 것이라고 예측한 사람들과 달리 도시 자체의 지속성을 정확히 예측했다."
+        }
+      ],
+      "sourceStatus": {
+        "notes": "원본 PDF 5쪽의 31번 본문, 빈칸, 선택지를 고해상도로 렌더링해 전사했습니다. 빈칸은 문맥과 선택지를 대조해 정답 ① evolving uses를 canonical 본문에 복원했습니다.",
+        "references": [
+          "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+        ],
+        "sentenceCount": 7,
+        "sourceType": "pdf",
+        "status": "confirmed",
+        "verifiedAt": "2026-09-03T15:05:00+09:00"
+      },
+      "specVersion": "1.0.6",
+      "updateState": {
+        "appliedUpdates": [
+          {
+            "appliedAt": "2026-09-03T15:10:00+09:00",
+            "fromContentVersion": "0.0.0",
+            "id": "U-20260903-016",
+            "report": "reports/updates/U-20260903-016.md",
+            "scope": "selected",
+            "toContentVersion": "1.0.0"
+          }
+        ],
+        "defaultScope": "new-only"
+      },
+      "workbookId": "2026-june-grade2-q31"
+    },
+    "contentVersion": "1.0.0",
+    "files": [
+      {
+        "path": "workbooks/2026-june-grade2-q31/content.json",
+        "sha256": "84db50ce4241a77bb8e066800a0b641e9ebed48431e1dd6d36d80ab38cd1d8b5",
+        "size": 46634
+      }
+    ],
+    "workbookId": "2026-june-grade2-q31"
+  },
+  "spec": {
+    "files": [
+      {
+        "path": "config/versions.json",
+        "sha256": "ca932853263987cc7d3cdbab03c49e6e931ff9ea8f0387ebb438c4a513a9f872",
+        "size": 1687
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "sha256": "aadb3fe161b100e3a68ecb42fab51775e9738153a04278a53b27e7172f8d8f69",
+        "size": 17021
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+        "size": 8058
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "schemaFiles": [
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "semanticRubricFile": {
+      "path": "docs/semantic-rubric.md",
+      "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+      "size": 8058
+    },
+    "semanticRubricVersion": "1.0.0",
+    "spec": {
+      "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "answerEditionContract": {
+        "answerFillClassMayAutoColor": false,
+        "choicePromptVisibleInAnswer": true,
+        "redAllowedOnlyOnSolutionValues": true,
+        "sameStageAndExerciseDomAsStudent": true,
+        "solutionClass": "solution-value",
+        "solutionColor": "#D71920",
+        "solutionInsertion": "fill-the-same-solution-slot",
+        "studentDerivation": "render answer first, lock every solution slot and writing response geometry, then remove solution values only",
+        "studentPayloadMayContainSolutions": false
+      },
+      "canonicalSchema": "schemas/canonical-workbook.schema.json",
+      "canonicalText": {
+        "baseTextOverride": {
+          "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+          "defaultStorage": "omit-baseText-and-derive-from-canonical",
+          "redundantDefaultCopy": "forbidden",
+          "requiredCompanionField": "overrideReason"
+        },
+        "displayDefault": "source",
+        "exerciseBaseTextDefaults": {
+          "choice": "display-or-source",
+          "enBlank": "display-or-source",
+          "koBlank": "translation",
+          "verb": "display-or-source"
+        },
+        "markup": "forbidden",
+        "reconstruction": {
+          "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+          "meaningSegments": "join meaningSegments[].en with one ASCII space",
+          "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+        },
+        "sourceWhitespace": "single-space-between-tokens",
+        "targetAnchor": {
+          "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다.",
+          "shape": {
+            "occurrence": "one-based occurrence in the applicable base text",
+            "text": "exact substring"
+          }
+        }
+      },
+      "contentOwnership": {
+        "authorable": [
+          "metadata",
+          "sourceStatus",
+          "sentences[].source",
+          "sentences[].display",
+          "sentences[].translation",
+          "sentences[].meaningSegments",
+          "sentences[].annotations",
+          "sentences[].exercises",
+          "passageActivities.correction",
+          "passageActivities.paragraphOrder",
+          "updateState"
+        ],
+        "derived": [
+          "stage number, title, instruction and renderer mode",
+          "item and unit numbers",
+          "part ranges and page boundaries",
+          "student and answer projections",
+          "blank, predicate, vocabulary and solution markup",
+          "answer-line height and layout classes",
+          "page count, footer number and output filenames"
+        ],
+        "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+      },
+      "logicalStages": [
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].meaningSegments",
+            "sentences[].annotations.predicates",
+            "sentences[].annotations.vocabulary"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "passage-practice",
+          "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean-inline-hint"
+            ],
+            "vocabularyColoring": true
+          },
+          "number": 1,
+          "pagination": {
+            "hardMaximum": 13,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 12,
+            "unit": "sentence"
+          },
+          "rendererMode": "meaning",
+          "scope": "sentence",
+          "title": "지문 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].exercises.koBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "korean-cloze",
+          "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 2,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (우리말)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.enBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "english-cloze",
+          "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 3,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (영문)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].translation"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "translation-practice",
+          "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 4,
+          "pagination": {
+            "hardMaximum": 11,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 10,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "해석 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.verb"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "verb-form",
+          "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 5,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "동사형 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.choice"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "grammar-vocabulary-choice",
+          "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 6,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "어법·어휘 고르기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.correction"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "correction",
+          "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+          "layout": {
+            "fieldOrder": [
+              "passage",
+              "correction-rows"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 7,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "correction",
+          "scope": "passage-activity",
+          "title": "어색한 곳 찾기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.arrange"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "sentence-order",
+          "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+          "layout": {
+            "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+            "arrangementSlots": "forbidden",
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 8,
+          "pagination": {
+            "hardMaximum": 6,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 6,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "순서 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.paragraphOrder"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "paragraph-order",
+          "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "fixed-intro",
+              "shuffled-blocks",
+              "fixed-outro",
+              "sequence-slots"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 9,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "paragraph-order",
+          "scope": "passage-activity",
+          "title": "문단 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.writing",
+            "sentences[].display|source"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "composition",
+          "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "studentEnglishSkeleton": "forbidden",
+            "vocabularyColoring": false
+          },
+          "number": 10,
+          "pagination": {
+            "hardMaximum": 8,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 8,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "영작 연습하기"
+        }
+      ],
+      "paginationContract": {
+        "continuationPageMinimumItems": 2,
+        "forbidden": [
+          "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+          "legacy 흐름 or 뜻 작성 columns",
+          "content crossing the page footer",
+          "content from one page overlapping the next page",
+          "clipped text",
+          "a singleton continuation page that can be avoided within the stage hard maximum",
+          "renumbering a new part from one"
+        ],
+        "layoutPreference": "vertical",
+        "numbering": "continuous-original-sentence-number",
+        "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+        "partLabel": "inclusive-original-sentence-number-range",
+        "readingLayout": "allowed-only-after-explicit-user-request",
+        "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+        "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+        "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+        "visualFitOverridesTargetCount": true
+      },
+      "principles": {
+        "canonicalDataContainsHtml": false,
+        "logicalStageCount": 10,
+        "publishOnlyAfterAllChecksPass": true,
+        "singleContentSource": true,
+        "studentAndAnswerShareExerciseStructure": true,
+        "studentProjectionSource": "answer-edition-after-browser-measured-all-solution-layouts",
+        "uncertainSourcePolicy": "stop-and-request-clearer-source"
+      },
+      "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+      "releaseContract": {
+        "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+        "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+        "filenames": [
+          "문제.html",
+          "문제.pdf",
+          "해설.html",
+          "해설.pdf"
+        ],
+        "finalHtmlDependencies": "self-contained",
+        "outputRoot": "outputs",
+        "previewFixture": "one-shared-canonical-fixture",
+        "publish": "atomic-after-all-gates-pass",
+        "stagingRoot": ".build/releases",
+        "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture"
+      },
+      "semanticRubric": "docs/semantic-rubric.md",
+      "specVersion": "1.0.6",
+      "updates": {
+        "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+        "allowedScopes": [
+          "new-only",
+          "all",
+          "selected",
+          "manual-review"
+        ],
+        "changelogPath": "CHANGELOG.md",
+        "defaultScope": "new-only",
+        "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+        "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+        "reportRequired": true,
+        "requiredImpactDimensions": [
+          "canonical fields",
+          "stage numbers",
+          "sentence or activity ids",
+          "student and answer editions",
+          "page count and part ranges",
+          "component versions"
+        ],
+        "requiredReportSections": [
+          "요약",
+          "요청 내용",
+          "직접 변경",
+          "파생 변경",
+          "영향 없음",
+          "파일 변경",
+          "출력 변화",
+          "검증 결과",
+          "호환성",
+          "버전"
+        ],
+        "versionBump": {
+          "backward-compatible field or stage capability": "minor",
+          "breaking schema or canonical semantics": "major",
+          "bug fix, validation strengthening or copy correction": "patch"
+        }
+      },
+      "validationGates": {
+        "canonical": [
+          "JSON Schema passes",
+          "sourceStatus.status is confirmed",
+          "sentence ids and numbers are unique, consecutive and aligned",
+          "meaning segment English joined with one space equals display or source",
+          "every meaning segment has one-to-one English and Korean text",
+          "all target anchors resolve exactly at their declared occurrence",
+          "choice options contain the correct target exactly once",
+          "arrange chunks in canonical order reconstruct display or source exactly",
+          "arrange displayOrder contains every chunk id exactly once",
+          "paragraph displayOrder contains every block id exactly once",
+          "correction targets restore their base excerpt exactly",
+          "vocabulary and predicate annotations resolve inside their meaning segment"
+        ],
+        "compiled": [
+          "exactly ten logical stages appear in fixed order",
+          "sentence stages contain exactly one item for every source sentence",
+          "all part ranges are complete, consecutive and match item numbers",
+          "student and answer exercise structures are identical",
+          "every non-writing solution-slot position, width, and height is copied from the browser-measured answer edition before solution text is removed",
+          "student response-line positions, widths, and heights are copied from the browser-measured answer edition before solution text is removed",
+          "student writing areas do not draw replacement guide lines after the answer text is removed",
+          "student edition exposes no solution values",
+          "every bank, target and slot cardinality is internally consistent",
+          "stage 10 student edition contains no English skeleton"
+        ],
+        "release": [
+          "problem HTML exists",
+          "problem PDF exists",
+          "answer HTML exists",
+          "answer PDF exists",
+          "build manifest records all component versions and applied updates",
+          "update report exists when an update id is applied"
+        ],
+        "rendered": [
+          "document fonts and images are ready",
+          "browser console and page errors are empty",
+          "data-render-validation is exactly ok",
+          "no unresolved template placeholder remains",
+          "no preview fixture data remains in final HTML",
+          "no page or footer overflow exists under print media",
+          "answer red is present only on solution-value nodes",
+          "every student and answer non-writing solution-slot has matching page-relative left, top, width, and height within 0.75px",
+          "every student and answer writing response box and answer-line trace matches within 0.75px",
+          "representative and risk pages pass visual review"
+        ]
+      },
+      "vocabularyContract": {
+        "allowedStageNumbers": [
+          1
+        ],
+        "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+        "maximumPerSentence": 3,
+        "redSlotForbidden": true,
+        "rendererClasses": {
+          "english": "vocab vocab-{slot} gloss",
+          "korean": "vocab vocab-{slot}"
+        },
+        "sameEnglishAndKoreanSlot": true,
+        "slots": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "specVersion": "1.0.6"
+  },
+  "template": {
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+        "size": 29359
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "sha256": "25a21d18af7ee1100e7a4d0023af1175140e82dd2cce2a246d0fcd5ece2411ee",
+        "size": 42558
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+        "size": 1212
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "sha256": "ceab51f4246462f507a1de7c6aea850fb577113c37e74b4d98a645f23744a330",
+        "size": 15185
+      }
+    ],
+    "rendererContract": "shared-dom-explicit-targets-fail-closed",
+    "templateVersion": "1.0.4"
+  }
+}

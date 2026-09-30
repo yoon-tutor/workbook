@@ -1,0 +1,499 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+  "specVersion": "1.0.6",
+  "canonicalSchema": "schemas/canonical-workbook.schema.json",
+  "semanticRubric": "docs/semantic-rubric.md",
+  "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+  "principles": {
+    "singleContentSource": true,
+    "studentAndAnswerShareExerciseStructure": true,
+    "studentProjectionSource": "answer-edition-after-browser-measured-all-solution-layouts",
+    "canonicalDataContainsHtml": false,
+    "logicalStageCount": 10,
+    "publishOnlyAfterAllChecksPass": true,
+    "uncertainSourcePolicy": "stop-and-request-clearer-source"
+  },
+  "contentOwnership": {
+    "authorable": [
+      "metadata",
+      "sourceStatus",
+      "sentences[].source",
+      "sentences[].display",
+      "sentences[].translation",
+      "sentences[].meaningSegments",
+      "sentences[].annotations",
+      "sentences[].exercises",
+      "passageActivities.correction",
+      "passageActivities.paragraphOrder",
+      "updateState"
+    ],
+    "derived": [
+      "stage number, title, instruction and renderer mode",
+      "item and unit numbers",
+      "part ranges and page boundaries",
+      "student and answer projections",
+      "blank, predicate, vocabulary and solution markup",
+      "answer-line height and layout classes",
+      "page count, footer number and output filenames"
+    ],
+    "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+  },
+  "canonicalText": {
+    "sourceWhitespace": "single-space-between-tokens",
+    "displayDefault": "source",
+    "reconstruction": {
+      "meaningSegments": "join meaningSegments[].en with one ASCII space",
+      "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+      "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+    },
+    "exerciseBaseTextDefaults": {
+      "koBlank": "translation",
+      "enBlank": "display-or-source",
+      "verb": "display-or-source",
+      "choice": "display-or-source"
+    },
+    "baseTextOverride": {
+      "defaultStorage": "omit-baseText-and-derive-from-canonical",
+      "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+      "requiredCompanionField": "overrideReason",
+      "redundantDefaultCopy": "forbidden"
+    },
+    "markup": "forbidden",
+    "targetAnchor": {
+      "shape": {
+        "text": "exact substring",
+        "occurrence": "one-based occurrence in the applicable base text"
+      },
+      "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다."
+    }
+  },
+  "logicalStages": [
+    {
+      "number": 1,
+      "id": "passage-practice",
+      "title": "지문 연습하기",
+      "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+      "scope": "sentence",
+      "rendererMode": "meaning",
+      "canonicalInputs": [
+        "sentences[].display|source",
+        "sentences[].meaningSegments",
+        "sentences[].annotations.predicates",
+        "sentences[].annotations.vocabulary"
+      ],
+      "coverage": "all-sentences-exactly-once",
+      "pagination": {
+        "unit": "sentence",
+        "targetPerPage": 12,
+        "hardMaximum": 13,
+        "overflowAction": "reduce-current-part-and-render-again"
+      },
+      "layout": {
+        "fieldOrder": [
+          "english",
+          "korean-inline-hint"
+        ],
+        "vocabularyColoring": true
+      }
+    },
+    {
+      "number": 2,
+      "id": "korean-cloze",
+      "title": "빈칸 완성하기 (우리말)",
+      "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+      "scope": "sentence",
+      "rendererMode": "parallel",
+      "canonicalInputs": [
+        "sentences[].display|source",
+        "sentences[].exercises.koBlank"
+      ],
+      "coverage": "all-sentences-exactly-once",
+      "pagination": {
+        "unit": "sentence",
+        "targetPerPage": 14,
+        "hardMaximum": 14,
+        "overflowAction": "reduce-current-part-and-render-again"
+      },
+      "layout": {
+        "fieldOrder": [
+          "english",
+          "korean"
+        ],
+        "vocabularyColoring": false
+      }
+    },
+    {
+      "number": 3,
+      "id": "english-cloze",
+      "title": "빈칸 완성하기 (영문)",
+      "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+      "scope": "sentence",
+      "rendererMode": "parallel",
+      "canonicalInputs": [
+        "sentences[].translation",
+        "sentences[].exercises.enBlank"
+      ],
+      "coverage": "all-sentences-exactly-once",
+      "pagination": {
+        "unit": "sentence",
+        "targetPerPage": 14,
+        "hardMaximum": 14,
+        "overflowAction": "reduce-current-part-and-render-again"
+      },
+      "layout": {
+        "fieldOrder": [
+          "english",
+          "korean"
+        ],
+        "vocabularyColoring": false
+      }
+    },
+    {
+      "number": 4,
+      "id": "translation-practice",
+      "title": "해석 연습하기",
+      "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+      "scope": "sentence",
+      "rendererMode": "writing",
+      "canonicalInputs": [
+        "sentences[].display|source",
+        "sentences[].translation"
+      ],
+      "coverage": "all-sentences-exactly-once",
+      "pagination": {
+        "unit": "sentence",
+        "targetPerPage": 10,
+        "hardMaximum": 11,
+        "overflowAction": "reduce-current-part-and-render-again"
+      },
+      "layout": {
+        "fieldOrder": [
+          "english",
+          "answer-lines"
+        ],
+        "vocabularyColoring": false
+      }
+    },
+    {
+      "number": 5,
+      "id": "verb-form",
+      "title": "동사형 연습하기",
+      "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+      "scope": "sentence",
+      "rendererMode": "parallel",
+      "canonicalInputs": [
+        "sentences[].translation",
+        "sentences[].exercises.verb"
+      ],
+      "coverage": "all-sentences-exactly-once",
+      "pagination": {
+        "unit": "sentence",
+        "targetPerPage": 14,
+        "hardMaximum": 14,
+        "overflowAction": "reduce-current-part-and-render-again"
+      },
+      "layout": {
+        "fieldOrder": [
+          "english",
+          "korean"
+        ],
+        "vocabularyColoring": false
+      }
+    },
+    {
+      "number": 6,
+      "id": "grammar-vocabulary-choice",
+      "title": "어법·어휘 고르기",
+      "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+      "scope": "sentence",
+      "rendererMode": "parallel",
+      "canonicalInputs": [
+        "sentences[].translation",
+        "sentences[].exercises.choice"
+      ],
+      "coverage": "all-sentences-exactly-once",
+      "pagination": {
+        "unit": "sentence",
+        "targetPerPage": 14,
+        "hardMaximum": 14,
+        "overflowAction": "reduce-current-part-and-render-again"
+      },
+      "layout": {
+        "fieldOrder": [
+          "english",
+          "korean"
+        ],
+        "vocabularyColoring": false
+      }
+    },
+    {
+      "number": 7,
+      "id": "correction",
+      "title": "어색한 곳 찾기",
+      "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+      "scope": "passage-activity",
+      "rendererMode": "correction",
+      "canonicalInputs": [
+        "passageActivities.correction"
+      ],
+      "coverage": "all-declared-activities",
+      "pagination": {
+        "unit": "activity",
+        "targetPerPage": 1,
+        "hardMaximum": 1,
+        "overflowAction": "split-activity-with-same-stage-identity-or-block-release"
+      },
+      "layout": {
+        "fieldOrder": [
+          "passage",
+          "correction-rows"
+        ],
+        "vocabularyColoring": false
+      }
+    },
+    {
+      "number": 8,
+      "id": "sentence-order",
+      "title": "순서 배열하기",
+      "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+      "scope": "sentence",
+      "rendererMode": "writing",
+      "canonicalInputs": [
+        "sentences[].translation",
+        "sentences[].exercises.arrange"
+      ],
+      "coverage": "all-sentences-exactly-once",
+      "pagination": {
+        "unit": "sentence",
+        "targetPerPage": 6,
+        "hardMaximum": 6,
+        "overflowAction": "reduce-current-part-and-render-again"
+      },
+      "layout": {
+        "fieldOrder": [
+          "korean",
+          "bank",
+          "answer-lines"
+        ],
+        "arrangementSlots": "forbidden",
+        "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+        "vocabularyColoring": false
+      }
+    },
+    {
+      "number": 9,
+      "id": "paragraph-order",
+      "title": "문단 배열하기",
+      "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+      "scope": "passage-activity",
+      "rendererMode": "paragraph-order",
+      "canonicalInputs": [
+        "passageActivities.paragraphOrder"
+      ],
+      "coverage": "all-declared-activities",
+      "pagination": {
+        "unit": "activity",
+        "targetPerPage": 1,
+        "hardMaximum": 1,
+        "overflowAction": "split-activity-with-same-stage-identity-or-block-release"
+      },
+      "layout": {
+        "fieldOrder": [
+          "fixed-intro",
+          "shuffled-blocks",
+          "fixed-outro",
+          "sequence-slots"
+        ],
+        "vocabularyColoring": false
+      }
+    },
+    {
+      "number": 10,
+      "id": "composition",
+      "title": "영작 연습하기",
+      "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+      "scope": "sentence",
+      "rendererMode": "writing",
+      "canonicalInputs": [
+        "sentences[].translation",
+        "sentences[].exercises.writing",
+        "sentences[].display|source"
+      ],
+      "coverage": "all-sentences-exactly-once",
+      "pagination": {
+        "unit": "sentence",
+        "targetPerPage": 8,
+        "hardMaximum": 8,
+        "overflowAction": "reduce-current-part-and-render-again"
+      },
+      "layout": {
+        "fieldOrder": [
+          "korean",
+          "bank",
+          "answer-lines"
+        ],
+        "studentEnglishSkeleton": "forbidden",
+        "vocabularyColoring": false
+      }
+    }
+  ],
+  "paginationContract": {
+    "partLabel": "inclusive-original-sentence-number-range",
+    "numbering": "continuous-original-sentence-number",
+    "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+    "layoutPreference": "vertical",
+    "readingLayout": "allowed-only-after-explicit-user-request",
+    "visualFitOverridesTargetCount": true,
+    "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+    "continuationPageMinimumItems": 2,
+    "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+    "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+    "forbidden": [
+      "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+      "legacy 흐름 or 뜻 작성 columns",
+      "content crossing the page footer",
+      "content from one page overlapping the next page",
+      "clipped text",
+      "a singleton continuation page that can be avoided within the stage hard maximum",
+      "renumbering a new part from one"
+    ]
+  },
+  "answerEditionContract": {
+    "sameStageAndExerciseDomAsStudent": true,
+    "solutionInsertion": "fill-the-same-solution-slot",
+    "solutionClass": "solution-value",
+    "solutionColor": "#D71920",
+    "redAllowedOnlyOnSolutionValues": true,
+    "studentPayloadMayContainSolutions": false,
+    "answerFillClassMayAutoColor": false,
+    "studentDerivation": "render answer first, lock every solution slot and writing response geometry, then remove solution values only",
+    "choicePromptVisibleInAnswer": true
+  },
+  "vocabularyContract": {
+    "allowedStageNumbers": [
+      1
+    ],
+    "slots": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "maximumPerSentence": 3,
+    "sameEnglishAndKoreanSlot": true,
+    "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+    "rendererClasses": {
+      "english": "vocab vocab-{slot} gloss",
+      "korean": "vocab vocab-{slot}"
+    },
+    "redSlotForbidden": true
+  },
+  "validationGates": {
+    "canonical": [
+      "JSON Schema passes",
+      "sourceStatus.status is confirmed",
+      "sentence ids and numbers are unique, consecutive and aligned",
+      "meaning segment English joined with one space equals display or source",
+      "every meaning segment has one-to-one English and Korean text",
+      "all target anchors resolve exactly at their declared occurrence",
+      "choice options contain the correct target exactly once",
+      "arrange chunks in canonical order reconstruct display or source exactly",
+      "arrange displayOrder contains every chunk id exactly once",
+      "paragraph displayOrder contains every block id exactly once",
+      "correction targets restore their base excerpt exactly",
+      "vocabulary and predicate annotations resolve inside their meaning segment"
+    ],
+    "compiled": [
+      "exactly ten logical stages appear in fixed order",
+      "sentence stages contain exactly one item for every source sentence",
+      "all part ranges are complete, consecutive and match item numbers",
+      "student and answer exercise structures are identical",
+      "every non-writing solution-slot position, width, and height is copied from the browser-measured answer edition before solution text is removed",
+      "student response-line positions, widths, and heights are copied from the browser-measured answer edition before solution text is removed",
+      "student writing areas do not draw replacement guide lines after the answer text is removed",
+      "student edition exposes no solution values",
+      "every bank, target and slot cardinality is internally consistent",
+      "stage 10 student edition contains no English skeleton"
+    ],
+    "rendered": [
+      "document fonts and images are ready",
+      "browser console and page errors are empty",
+      "data-render-validation is exactly ok",
+      "no unresolved template placeholder remains",
+      "no preview fixture data remains in final HTML",
+      "no page or footer overflow exists under print media",
+      "answer red is present only on solution-value nodes",
+      "every student and answer non-writing solution-slot has matching page-relative left, top, width, and height within 0.75px",
+      "every student and answer writing response box and answer-line trace matches within 0.75px",
+      "representative and risk pages pass visual review"
+    ],
+    "release": [
+      "problem HTML exists",
+      "problem PDF exists",
+      "answer HTML exists",
+      "answer PDF exists",
+      "build manifest records all component versions and applied updates",
+      "update report exists when an update id is applied"
+    ]
+  },
+  "releaseContract": {
+    "stagingRoot": ".build/releases",
+    "outputRoot": "outputs",
+    "filenames": [
+      "문제.html",
+      "문제.pdf",
+      "해설.html",
+      "해설.pdf"
+    ],
+    "publish": "atomic-after-all-gates-pass",
+    "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+    "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+    "previewFixture": "one-shared-canonical-fixture",
+    "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture",
+    "finalHtmlDependencies": "self-contained"
+  },
+  "updates": {
+    "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+    "allowedScopes": [
+      "new-only",
+      "all",
+      "selected",
+      "manual-review"
+    ],
+    "defaultScope": "new-only",
+    "reportRequired": true,
+    "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+    "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+    "changelogPath": "CHANGELOG.md",
+    "requiredReportSections": [
+      "요약",
+      "요청 내용",
+      "직접 변경",
+      "파생 변경",
+      "영향 없음",
+      "파일 변경",
+      "출력 변화",
+      "검증 결과",
+      "호환성",
+      "버전"
+    ],
+    "requiredImpactDimensions": [
+      "canonical fields",
+      "stage numbers",
+      "sentence or activity ids",
+      "student and answer editions",
+      "page count and part ranges",
+      "component versions"
+    ],
+    "versionBump": {
+      "breaking schema or canonical semantics": "major",
+      "backward-compatible field or stage capability": "minor",
+      "bug fix, validation strengthening or copy correction": "patch"
+    }
+  }
+}

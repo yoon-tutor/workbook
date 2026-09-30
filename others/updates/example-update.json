@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/update.schema.json",
+  "id": "U-20260710-001",
+  "title": "순서 배열 문장부호 보존 강화",
+  "date": "2026-07-10",
+  "summary": "8단계 배열 청크의 문장부호를 원문 그대로 보존하고 복원 검사를 추가합니다.",
+  "category": "compiler",
+  "applyTo": "all",
+  "affectedStages": [
+    8
+  ],
+  "request": [
+    "기존 콘텐츠의 단어와 순서는 변경하지 않습니다.",
+    "학생용과 답지의 완성 문장이 원문과 일치해야 합니다."
+  ],
+  "directChanges": {
+    "files": [
+      "workbook_engine/compiler.py",
+      "workbook_engine/validator.py"
+    ],
+    "jsonPaths": [
+      {
+        "manifest": "spec",
+        "path": "$.stages[7].ordering.preservePunctuation"
+      }
+    ]
+  },
+  "verification": [
+    {
+      "name": "ordering-source-restore",
+      "status": "pass",
+      "details": "배열 정답을 합친 결과가 원문과 같습니다."
+    }
+  ]
+}

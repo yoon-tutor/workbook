@@ -1,0 +1,253 @@
+{
+  "$schema": "../../schemas/canonical-workbook.schema.json",
+  "schemaVersion": "1.0.0",
+  "specVersion": "1.0.6",
+  "contentVersion": "1.0.0",
+  "workbookId": "2026-june-grade2-q23",
+  "metadata": {
+    "title": "2026학년도 6월 고2 23번 10단계 워크북",
+    "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 23번",
+    "kicker": "High School Reading",
+    "grade": "고등학교 2학년",
+    "topic": "공통 통화가 거래 비용을 줄이고 경제의 생산성과 성장을 높이는 효과",
+    "sourceLanguage": "en",
+    "targetLanguage": "ko"
+  },
+  "sourceStatus": {
+    "status": "confirmed",
+    "sourceType": "pdf",
+    "references": [
+      "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+    ],
+    "sentenceCount": 6,
+    "verifiedAt": "2026-08-27T14:45:00+09:00",
+    "notes": "원본 PDF 3쪽의 23번 본문을 렌더링하여 전사했으며, 본문 아래 별표 어휘 주석과 문항 선택지는 지문 정본에서 제외했습니다."
+  },
+  "updateState": {
+    "defaultScope": "new-only",
+    "appliedUpdates": [
+      {
+        "id": "U-20260827-013",
+        "scope": "selected",
+        "fromContentVersion": "0.0.0",
+        "toContentVersion": "1.0.0",
+        "appliedAt": "2026-08-27T14:45:00+09:00",
+        "report": "reports/updates/U-20260827-013.md"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s001",
+      "no": 1,
+      "source": "Many of the barriers to trade exist not because of a lack of markets or customers, but because there are major barriers to getting products to market at competitive prices.",
+      "translation": "무역을 가로막는 많은 장벽은 시장이나 고객이 부족해서가 아니라, 제품을 경쟁력 있는 가격으로 시장에 내놓는 데 큰 장벽이 있기 때문에 존재한다.",
+      "meaningSegments": [
+        {"id": "s001-m01", "en": "Many of the barriers to trade exist", "ko": "무역을 가로막는 많은 장벽은 존재한다"},
+        {"id": "s001-m02", "en": "not because of a lack", "ko": "부족 때문이 아니라"},
+        {"id": "s001-m03", "en": "of markets or customers,", "ko": "시장이나 고객의,"},
+        {"id": "s001-m04", "en": "but because there are major barriers", "ko": "중요한 장벽이 있기 때문에"},
+        {"id": "s001-m05", "en": "to getting products to market", "ko": "제품을 시장에 내놓는 것에"},
+        {"id": "s001-m06", "en": "at competitive prices.", "ko": "경쟁력 있는 가격으로."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s001-m01-p01", "segmentId": "s001-m01", "en": [{"text": "exist", "occurrence": 1}], "ko": [{"text": "존재한다", "occurrence": 1}]},
+          {"id": "s001-m04-p01", "segmentId": "s001-m04", "en": [{"text": "there are", "occurrence": 1}], "ko": [{"text": "있기 때문에", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s001-m01-v01", "segmentId": "s001-m01", "colorSlot": 1, "en": {"text": "barriers to trade", "occurrence": 1}, "ko": {"text": "무역을 가로막는", "occurrence": 1}, "meaning": "무역 장벽", "reasons": ["academic", "topic-core"]},
+          {"id": "s001-m05-v02", "segmentId": "s001-m05", "colorSlot": 2, "en": {"text": "getting products to market", "occurrence": 1}, "ko": {"text": "제품을 시장에 내놓는", "occurrence": 1}, "meaning": "제품을 시장에 출시하는 것", "reasons": ["structure-critical"]},
+          {"id": "s001-m06-v03", "segmentId": "s001-m06", "colorSlot": 3, "en": {"text": "competitive prices", "occurrence": 1}, "ko": {"text": "경쟁력 있는 가격", "occurrence": 1}, "meaning": "경쟁력 있는 가격", "reasons": ["academic", "topic-core"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s001-ko-01", "target": {"text": "제품을 경쟁력 있는 가격으로 시장에 내놓는", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s001-en-01", "target": {"text": "barriers to trade", "occurrence": 1}}, {"id": "s001-en-02", "target": {"text": "competitive prices", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s001-verb-01", "target": {"text": "exist", "occurrence": 1}, "cue": "exist", "lemma": "exist"}, {"id": "s001-verb-02", "target": {"text": "there are", "occurrence": 1}, "cue": "be", "lemma": "be"}]},
+        "choice": {"targets": [{"id": "s001-choice-01", "target": {"text": "because of", "occurrence": 1}, "options": ["because of", "because"]}]},
+        "arrange": {"chunks": [{"id": "s001-a", "text": "Many of the barriers to trade exist"}, {"id": "s001-b", "text": "not because of a lack of markets or customers,"}, {"id": "s001-c", "text": "but because there are major barriers"}, {"id": "s001-d", "text": "to getting products to market at competitive prices."}], "displayOrder": ["s001-c", "s001-a", "s001-d", "s001-b"]},
+        "writing": {"bank": ["barriers to trade", "not because of", "markets or customers", "get products to market", "competitive prices"]}
+      }
+    },
+    {
+      "id": "s002",
+      "no": 2,
+      "source": "Transaction costs are significant for companies—not only the straight exchange costs, but also the cost of converting, paying, and hedging funds just to pay for the goods and services.",
+      "translation": "거래 비용은 기업에 상당하다. 순수한 환전 비용뿐만 아니라, 상품과 서비스의 대금을 지불하기 위해 자금을 환전하고, 송금하고, 헤지하는 비용도 포함된다.",
+      "meaningSegments": [
+        {"id": "s002-m01", "en": "Transaction costs are significant for companies—not only the straight exchange costs,", "ko": "거래 비용은 기업에 상당하다—순수한 환전 비용뿐만 아니라,"},
+        {"id": "s002-m02", "en": "but also the cost", "ko": "그 비용도"},
+        {"id": "s002-m03", "en": "of converting, paying, and hedging funds", "ko": "자금을 환전하고, 송금하고, 헤지하는"},
+        {"id": "s002-m04", "en": "just to pay for the goods and services.", "ko": "단지 상품과 서비스의 대금을 지불하기 위한."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s002-m01-p01", "segmentId": "s002-m01", "en": [{"text": "are", "occurrence": 1}], "ko": [{"text": "상당하다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s002-m01-v01", "segmentId": "s002-m01", "colorSlot": 1, "en": {"text": "Transaction costs", "occurrence": 1}, "ko": {"text": "거래 비용", "occurrence": 1}, "meaning": "거래 과정에서 드는 비용", "reasons": ["academic", "topic-core"]},
+          {"id": "s002-m01-v02", "segmentId": "s002-m01", "colorSlot": 2, "en": {"text": "significant", "occurrence": 1}, "ko": {"text": "상당", "occurrence": 1}, "meaning": "상당한", "reasons": ["academic"]},
+          {"id": "s002-m03-v03", "segmentId": "s002-m03", "colorSlot": 3, "en": {"text": "hedging", "occurrence": 1}, "ko": {"text": "헤지", "occurrence": 1}, "meaning": "위험을 줄이는 반대 거래를 하는 것", "reasons": ["student-difficulty", "topic-core"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s002-ko-01", "target": {"text": "거래 비용은 기업에 상당하다", "occurrence": 1}}, {"id": "s002-ko-02", "target": {"text": "자금을 환전하고, 송금하고, 헤지하는 비용", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s002-en-01", "target": {"text": "Transaction costs", "occurrence": 1}}, {"id": "s002-en-02", "target": {"text": "converting, paying, and hedging funds", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s002-verb-01", "target": {"text": "are", "occurrence": 1}, "cue": "be", "lemma": "be"}]},
+        "choice": {"targets": [{"id": "s002-choice-01", "target": {"text": "not only", "occurrence": 1}, "options": ["not only", "only not"]}]},
+        "arrange": {"chunks": [{"id": "s002-a", "text": "Transaction costs are significant for companies—not only the straight exchange costs,"}, {"id": "s002-b", "text": "but also the cost of converting, paying, and hedging funds"}, {"id": "s002-c", "text": "just to pay for the goods and services."}], "displayOrder": ["s002-c", "s002-a", "s002-b"]},
+        "writing": {"bank": ["transaction costs", "significant", "not only", "but also", "hedge funds", "goods and services"]}
+      }
+    },
+    {
+      "id": "s003",
+      "no": 3,
+      "source": "Having a common currency means that many of those transaction costs disappear and the savings can be reinvested back into firms’ productivity and innovation.",
+      "translation": "공통 통화를 사용한다는 것은 그러한 거래 비용의 많은 부분이 사라지고, 그 절감액을 기업의 생산성과 혁신에 다시 투자할 수 있음을 의미한다.",
+      "meaningSegments": [
+        {"id": "s003-m01", "en": "Having a common currency means", "ko": "공통 통화를 사용한다는 것은 의미한다"},
+        {"id": "s003-m02", "en": "that many of those transaction costs disappear", "ko": "그러한 거래 비용의 많은 부분이 사라지고"},
+        {"id": "s003-m03", "en": "and the savings can be reinvested back", "ko": "그 절감액이 다시 투자될 수 있음을"},
+        {"id": "s003-m04", "en": "into firms’ productivity and innovation.", "ko": "기업의 생산성과 혁신에."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s003-m01-p01", "segmentId": "s003-m01", "en": [{"text": "means", "occurrence": 1}], "ko": [{"text": "의미한다", "occurrence": 1}]},
+          {"id": "s003-m02-p01", "segmentId": "s003-m02", "en": [{"text": "disappear", "occurrence": 1}], "ko": [{"text": "사라지고", "occurrence": 1}]},
+          {"id": "s003-m03-p01", "segmentId": "s003-m03", "en": [{"text": "can be reinvested", "occurrence": 1}], "ko": [{"text": "투자될 수 있음을", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s003-m01-v01", "segmentId": "s003-m01", "colorSlot": 1, "en": {"text": "common currency", "occurrence": 1}, "ko": {"text": "공통 통화", "occurrence": 1}, "meaning": "여러 국가가 함께 쓰는 통화", "reasons": ["academic", "topic-core"]},
+          {"id": "s003-m03-v02", "segmentId": "s003-m03", "colorSlot": 2, "en": {"text": "reinvested", "occurrence": 1}, "ko": {"text": "투자", "occurrence": 1}, "meaning": "다시 투자하다", "reasons": ["academic", "topic-core"]},
+          {"id": "s003-m04-v03", "segmentId": "s003-m04", "colorSlot": 3, "en": {"text": "productivity and innovation", "occurrence": 1}, "ko": {"text": "생산성과 혁신", "occurrence": 1}, "meaning": "생산성과 혁신", "reasons": ["academic", "topic-core"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s003-ko-01", "target": {"text": "공통 통화", "occurrence": 1}}, {"id": "s003-ko-02", "target": {"text": "생산성과 혁신에 다시 투자", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s003-en-01", "target": {"text": "common currency", "occurrence": 1}}, {"id": "s003-en-02", "target": {"text": "can be reinvested", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s003-verb-01", "target": {"text": "means", "occurrence": 1}, "cue": "mean", "lemma": "mean"}, {"id": "s003-verb-02", "target": {"text": "disappear", "occurrence": 1}, "cue": "disappear", "lemma": "disappear"}, {"id": "s003-verb-03", "target": {"text": "can be reinvested", "occurrence": 1}, "cue": "reinvest", "lemma": "reinvest"}]},
+        "choice": {"targets": [{"id": "s003-choice-01", "target": {"text": "can be reinvested", "occurrence": 1}, "options": ["can be reinvested", "can reinvest"]}]},
+        "arrange": {"chunks": [{"id": "s003-a", "text": "Having a common currency means"}, {"id": "s003-b", "text": "that many of those transaction costs disappear"}, {"id": "s003-c", "text": "and the savings can be reinvested back"}, {"id": "s003-d", "text": "into firms’ productivity and innovation."}], "displayOrder": ["s003-c", "s003-a", "s003-d", "s003-b"]},
+        "writing": {"bank": ["common currency", "transaction costs", "disappear", "savings", "reinvest", "productivity and innovation"]}
+      }
+    },
+    {
+      "id": "s004",
+      "no": 4,
+      "source": "Basically, useless costs turn into productive costs—with longer-term benefits to the whole economy.",
+      "translation": "기본적으로, 쓸모없는 비용이 생산적인 비용으로 바뀌어 경제 전체에 더 장기적인 혜택을 가져온다.",
+      "meaningSegments": [
+        {"id": "s004-m01", "en": "Basically,", "ko": "기본적으로,"},
+        {"id": "s004-m02", "en": "useless costs turn into productive costs—with longer-term benefits", "ko": "쓸모없는 비용이 생산적인 비용으로 바뀌어—더 장기적인 혜택을 주는"},
+        {"id": "s004-m03", "en": "to the whole economy.", "ko": "경제 전체에."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s004-m02-p01", "segmentId": "s004-m02", "en": [{"text": "turn into", "occurrence": 1}], "ko": [{"text": "바뀌어", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s004-m02-v01", "segmentId": "s004-m02", "colorSlot": 1, "en": {"text": "productive costs", "occurrence": 1}, "ko": {"text": "생산적인 비용", "occurrence": 1}, "meaning": "생산성을 높이는 비용", "reasons": ["abstract", "topic-core"]},
+          {"id": "s004-m02-v02", "segmentId": "s004-m02", "colorSlot": 2, "en": {"text": "longer-term benefits", "occurrence": 1}, "ko": {"text": "더 장기적인 혜택", "occurrence": 1}, "meaning": "더 장기적인 혜택", "reasons": ["academic"]},
+          {"id": "s004-m03-v03", "segmentId": "s004-m03", "colorSlot": 3, "en": {"text": "the whole economy", "occurrence": 1}, "ko": {"text": "경제 전체", "occurrence": 1}, "meaning": "경제 전체", "reasons": ["topic-core"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s004-ko-01", "target": {"text": "쓸모없는 비용이 생산적인 비용으로 바뀌어", "occurrence": 1}}, {"id": "s004-ko-02", "target": {"text": "경제 전체", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s004-en-01", "target": {"text": "turn into productive costs", "occurrence": 1}}, {"id": "s004-en-02", "target": {"text": "longer-term benefits", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s004-verb-01", "target": {"text": "turn into", "occurrence": 1}, "cue": "turn into", "lemma": "turn into"}]},
+        "choice": {"targets": [{"id": "s004-choice-01", "target": {"text": "productive", "occurrence": 1}, "options": ["productive", "productively"]}]},
+        "arrange": {"chunks": [{"id": "s004-a", "text": "Basically,"}, {"id": "s004-b", "text": "useless costs turn into productive costs—with longer-term benefits"}, {"id": "s004-c", "text": "to the whole economy."}], "displayOrder": ["s004-c", "s004-a", "s004-b"]},
+        "writing": {"bank": ["useless costs", "turn into", "productive costs", "longer-term benefits", "whole economy"]}
+      }
+    },
+    {
+      "id": "s005",
+      "no": 5,
+      "source": "By unifying some of the currencies, whole economies benefit and grow more than they would as independents.",
+      "translation": "통화의 일부를 통합함으로써, 경제 전체는 각자 독립된 단위로 존재할 때보다 더 큰 혜택을 얻고 더 성장한다.",
+      "meaningSegments": [
+        {"id": "s005-m01", "en": "By unifying some of the currencies,", "ko": "통화의 일부를 통합함으로써,"},
+        {"id": "s005-m02", "en": "whole economies benefit and grow more", "ko": "경제 전체는 더 큰 혜택을 얻고 더 성장한다"},
+        {"id": "s005-m03", "en": "than they would as independents.", "ko": "그들이 각자 독립된 단위일 때보다."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s005-m02-p01", "segmentId": "s005-m02", "en": [{"text": "benefit and grow", "occurrence": 1}], "ko": [{"text": "혜택을 얻고 더 성장한다", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s005-m01-v01", "segmentId": "s005-m01", "colorSlot": 1, "en": {"text": "unifying", "occurrence": 1}, "ko": {"text": "통합", "occurrence": 1}, "meaning": "하나로 통합하는 것", "reasons": ["academic", "topic-core"]},
+          {"id": "s005-m02-v02", "segmentId": "s005-m02", "colorSlot": 2, "en": {"text": "whole economies", "occurrence": 1}, "ko": {"text": "경제 전체", "occurrence": 1}, "meaning": "경제 전체", "reasons": ["topic-core"]},
+          {"id": "s005-m03-v03", "segmentId": "s005-m03", "colorSlot": 3, "en": {"text": "independents", "occurrence": 1}, "ko": {"text": "독립된 단위", "occurrence": 1}, "meaning": "각자 독립된 채로", "reasons": ["abstract", "student-difficulty"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s005-ko-01", "target": {"text": "통화의 일부를 통합함으로써", "occurrence": 1}}, {"id": "s005-ko-02", "target": {"text": "더 큰 혜택을 얻고 더 성장한다", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s005-en-01", "target": {"text": "unifying some of the currencies", "occurrence": 1}}, {"id": "s005-en-02", "target": {"text": "benefit and grow more", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s005-verb-01", "target": {"text": "benefit and grow", "occurrence": 1}, "cue": "benefit and grow", "lemma": "benefit and grow"}]},
+        "choice": {"targets": [{"id": "s005-choice-01", "target": {"text": "unifying", "occurrence": 1}, "options": ["unifying", "unify"]}]},
+        "arrange": {"chunks": [{"id": "s005-a", "text": "By unifying some of the currencies,"}, {"id": "s005-b", "text": "whole economies benefit and grow more"}, {"id": "s005-c", "text": "than they would as independents."}], "displayOrder": ["s005-c", "s005-a", "s005-b"]},
+        "writing": {"bank": ["unify currencies", "whole economies", "benefit", "grow", "independents"]}
+      }
+    },
+    {
+      "id": "s006",
+      "no": 6,
+      "source": "So a common currency provides for a strong economic foundation that all can benefit from.",
+      "translation": "그러므로 공통 통화는 모두가 혜택을 얻을 수 있는 견고한 경제적 기반을 마련한다.",
+      "meaningSegments": [
+        {"id": "s006-m01", "en": "So a common currency provides for", "ko": "그러므로 공통 통화는 마련한다"},
+        {"id": "s006-m02", "en": "a strong economic foundation", "ko": "견고한 경제적 기반을"},
+        {"id": "s006-m03", "en": "that all can benefit from.", "ko": "모두가 혜택을 얻을 수 있는."}
+      ],
+      "annotations": {
+        "predicates": [
+          {"id": "s006-m01-p01", "segmentId": "s006-m01", "en": [{"text": "provides for", "occurrence": 1}], "ko": [{"text": "마련한다", "occurrence": 1}]},
+          {"id": "s006-m03-p01", "segmentId": "s006-m03", "en": [{"text": "can benefit from", "occurrence": 1}], "ko": [{"text": "혜택을 얻을 수 있는", "occurrence": 1}]}
+        ],
+        "vocabulary": [
+          {"id": "s006-m01-v01", "segmentId": "s006-m01", "colorSlot": 1, "en": {"text": "provides for", "occurrence": 1}, "ko": {"text": "마련한다", "occurrence": 1}, "meaning": "마련하다", "reasons": ["structure-critical"]},
+          {"id": "s006-m02-v02", "segmentId": "s006-m02", "colorSlot": 2, "en": {"text": "economic foundation", "occurrence": 1}, "ko": {"text": "경제적 기반", "occurrence": 1}, "meaning": "경제적 기반", "reasons": ["academic", "topic-core"]},
+          {"id": "s006-m03-v03", "segmentId": "s006-m03", "colorSlot": 3, "en": {"text": "benefit from", "occurrence": 1}, "ko": {"text": "혜택을 얻", "occurrence": 1}, "meaning": "~에서 혜택을 얻다", "reasons": ["structure-critical"]}
+        ]
+      },
+      "exercises": {
+        "koBlank": {"targets": [{"id": "s006-ko-01", "target": {"text": "견고한 경제적 기반", "occurrence": 1}}, {"id": "s006-ko-02", "target": {"text": "모두가 혜택을 얻을 수 있는", "occurrence": 1}}]},
+        "enBlank": {"targets": [{"id": "s006-en-01", "target": {"text": "strong economic foundation", "occurrence": 1}}, {"id": "s006-en-02", "target": {"text": "all can benefit from", "occurrence": 1}}]},
+        "verb": {"targets": [{"id": "s006-verb-01", "target": {"text": "provides for", "occurrence": 1}, "cue": "provide for", "lemma": "provide for"}, {"id": "s006-verb-02", "target": {"text": "can benefit from", "occurrence": 1}, "cue": "benefit from", "lemma": "benefit from"}]},
+        "choice": {"targets": [{"id": "s006-choice-01", "target": {"text": "provides", "occurrence": 1}, "options": ["provides", "provide"]}]},
+        "arrange": {"chunks": [{"id": "s006-a", "text": "So a common currency provides for"}, {"id": "s006-b", "text": "a strong economic foundation"}, {"id": "s006-c", "text": "that all can benefit from."}], "displayOrder": ["s006-c", "s006-a", "s006-b"]},
+        "writing": {"bank": ["common currency", "provide for", "strong economic foundation", "benefit from"]}
+      }
+    }
+  ],
+  "passageActivities": {
+    "correction": [
+      {
+        "id": "correction-01",
+        "textOverride": "Many of the barriers to trade exists not because of a lack of markets or customers, but because there are major barriers to getting products to market at competitive prices. Transaction costs is significant for companies—not only the straight exchange costs, but also the cost of converting, paying, and hedging funds just to pay for the goods and services. Having a common currency mean that many of those transaction costs disappear and the savings can reinvested back into firms’ productivity and innovation. Basically, useless costs turns into productive costs—with longer-term benefits to the whole economy. By unifying some of the currencies, whole economies benefits and grow more than they would as independents. So a common currency provide for a strong economic foundation that all can benefit from.",
+        "targets": [
+          {"id": "correction-01-01", "target": {"text": "exists", "occurrence": 1}, "incorrect": "exists", "correct": "exist"},
+          {"id": "correction-01-02", "target": {"text": "costs is", "occurrence": 1}, "incorrect": "costs is", "correct": "costs are"},
+          {"id": "correction-01-03", "target": {"text": "mean", "occurrence": 1}, "incorrect": "mean", "correct": "means"},
+          {"id": "correction-01-04", "target": {"text": "can reinvested", "occurrence": 1}, "incorrect": "can reinvested", "correct": "can be reinvested"},
+          {"id": "correction-01-05", "target": {"text": "costs turns", "occurrence": 1}, "incorrect": "costs turns", "correct": "costs turn"},
+          {"id": "correction-01-06", "target": {"text": "economies benefits", "occurrence": 1}, "incorrect": "economies benefits", "correct": "economies benefit"},
+          {"id": "correction-01-07", "target": {"text": "currency provide", "occurrence": 1}, "incorrect": "currency provide", "correct": "currency provides"}
+        ]
+      }
+    ],
+    "paragraphOrder": [
+      {
+        "id": "paragraph-order-01",
+        "blocks": [
+          {"id": "A", "sentenceIds": ["s001", "s002"]},
+          {"id": "B", "sentenceIds": ["s003", "s004"]},
+          {"id": "C", "sentenceIds": ["s005", "s006"]}
+        ],
+        "displayOrder": ["C", "A", "B"],
+        "answerOrder": ["A", "B", "C"]
+      }
+    ]
+  }
+}

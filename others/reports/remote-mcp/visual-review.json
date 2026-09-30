@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "buildDir": "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-003316-93e71bb4",
+  "reviewer": "Codex",
+  "scope": "Representative contact sheets; not a new semantic content audit",
+  "studentPages": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    10,
+    12,
+    14,
+    15,
+    19,
+    20,
+    22
+  ],
+  "answerPages": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    10,
+    12,
+    14,
+    15,
+    19,
+    20,
+    22
+  ],
+  "notes": "학생용과 해설용 contact sheet를 직접 확인했다. 2·3단계 빈칸(3·5쪽), 4단계 작성형(7쪽), 8단계 작성형(15쪽), 10단계 작성형(20·22쪽)의 세로 배치가 유지되고 해설 정답이 빨간색으로 표시된다. 학생용 해당 영역은 빈칸으로 남으며 공통 문제 단서는 유지된다. 대표 이미지에서 눈에 띄는 잘림·겹침·푸터 침범이 없다. 정밀 정답 슬롯 위치·크기는 원래 자동 QA의 0.75px 기준으로 통과했다.",
+  "publicPublishPerformed": false,
+  "directlyViewedBuildDir": "C:\\dev\\영어\\에이전트\\워크북 3\\워크북\\others\\.build\\releases\\chocolate_reading\\20260922-002818-a8dcef0f",
+  "finalRuntimeContactSheetComparison": [
+    {
+      "name": "student-contact-sheet.png",
+      "byteIdentical": true,
+      "sha256": "f6f5e2e1d8fedb6e58978ff6c76443a3638ab7fd6629661d6c745092ac5ee093"
+    },
+    {
+      "name": "answer-contact-sheet.png",
+      "byteIdentical": true,
+      "sha256": "3c680a31e51bac654ca0b077de932c7e4c2b188eff95d6461f41c8f0932ce43e"
+    }
+  ]
+}

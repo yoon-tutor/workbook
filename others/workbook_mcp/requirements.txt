@@ -1,0 +1,4 @@
+fastmcp==4.0.2
+google-cloud-storage==3.4.1
+PyMuPDF==1.28.2
+Pillow==10.0.1

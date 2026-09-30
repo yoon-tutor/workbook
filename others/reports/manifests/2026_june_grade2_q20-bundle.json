@@ -1,0 +1,2830 @@
+{
+  "build": {
+    "appliedUpdates": [
+      "U-20260825-006",
+      "U-20260826-009",
+      "U-20260826-010",
+      "U-20260826-011",
+      "U-20260826-012"
+    ],
+    "buildVersion": "1.0.4",
+    "builtAt": "2026-08-26T23:22:22+09:00",
+    "canonicalDigest": "f28e5b74fe63489c7319af9232a43abb8c242c7fe7be1a2c05ad3f55e5e62a3f",
+    "compilerVersion": "1.0.7",
+    "contentVersion": "1.0.4",
+    "engineDigest": "755fa39f2f38e0c481da489f7b37fc92110b71ae3cf018dda83004df187ac114",
+    "engineInputs": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      }
+    ],
+    "files": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      },
+      {
+        "path": "문제.html",
+        "sha256": "557f3559673678ba0b761ebc19a846b15e96e255f03280f66612ac91ce1ac0f5",
+        "size": 141063
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "54077126ff095cbcc3abb28c77cb1c0f0cd74fcca3d970dec770c232a10a9f51",
+        "size": 567269
+      },
+      {
+        "path": "해설.html",
+        "sha256": "40d77763be1abee9fb213c4dd6ea7c745c5d737f0114985dfcd2fd215bf884d9",
+        "size": 149409
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "383b4a5de46fa277a6044f8858abf9c06b1ecb7bdd17c4638177ab87e63a97e4",
+        "size": 689653
+      }
+    ],
+    "outputs": [
+      {
+        "path": "문제.html",
+        "sha256": "557f3559673678ba0b761ebc19a846b15e96e255f03280f66612ac91ce1ac0f5",
+        "size": 141063
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "54077126ff095cbcc3abb28c77cb1c0f0cd74fcca3d970dec770c232a10a9f51",
+        "size": 567269
+      },
+      {
+        "path": "해설.html",
+        "sha256": "40d77763be1abee9fb213c4dd6ea7c745c5d737f0114985dfcd2fd215bf884d9",
+        "size": 149409
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "383b4a5de46fa277a6044f8858abf9c06b1ecb7bdd17c4638177ab87e63a97e4",
+        "size": 689653
+      }
+    ],
+    "pages": [
+      {
+        "digest": "0305b346217ef695043582a1eebd4732d7348ad4f8f0a2c0dedd9b0bae57588d",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q20-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q20-p01",
+        "part": "1-6",
+        "stageId": "1"
+      },
+      {
+        "digest": "1875200eb2fd4b9f15b9dfe13f6a642b2aabc809cb726a4f86e246c0b5e3188a",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q20-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q20-p02",
+        "part": "1-6",
+        "stageId": "2"
+      },
+      {
+        "digest": "5146be5dceaf2be004e0df596d3049af1454417324acdfa7cf118753fba40e95",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q20-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q20-p03",
+        "part": "1-6",
+        "stageId": "3"
+      },
+      {
+        "digest": "b1593bc420f7410851bfd4ea0fdd0a843d8fb1ec29c599fa26ae30d9f85ce54f",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q20-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q20-p04",
+        "part": "1-6",
+        "stageId": "4"
+      },
+      {
+        "digest": "41b142f2a751b28b2c58aedb26e6180a62e17b43250089e6b6fa8a5c6b792d6e",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q20-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q20-p05",
+        "part": "1-6",
+        "stageId": "5"
+      },
+      {
+        "digest": "d59814ccc62ead2fd318713cb2964c1edbf7015a640a61130d833c22a8f788d4",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q20-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q20-p06",
+        "part": "1-6",
+        "stageId": "6"
+      },
+      {
+        "digest": "db1437fbe26b33f048e6de0c6e93a1302b4914d43d4a9040e173fe2f086a9b15",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q20-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q20-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "28fb8a721fbc5549cc468683d0e56badc404663406d03152d84ee6766c5df6bb",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q20-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q20-p08",
+        "part": "1-6",
+        "stageId": "8"
+      },
+      {
+        "digest": "a620aa0900553ee5f37d61a08937f174c398598c7a2cafa0773ba7e4c25b0ee1",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q20-p09",
+        "itemIds": [],
+        "page": 9,
+        "pageId": "2026-june-grade2-q20-p09",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "acfbacccfb38b0f55bdbe018c3e29b410792edd845fec2a8074f558dac404a70",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q20-p10",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 10,
+        "pageId": "2026-june-grade2-q20-p10",
+        "part": "1-6",
+        "stageId": "10"
+      },
+      {
+        "digest": "0305b346217ef695043582a1eebd4732d7348ad4f8f0a2c0dedd9b0bae57588d",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q20-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q20-p01",
+        "part": "1-6",
+        "stageId": "1"
+      },
+      {
+        "digest": "21cb3c112b41c353c70c6b8f6e1699fa764d23d74359a1ee043d5d11326838e9",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q20-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q20-p02",
+        "part": "1-6",
+        "stageId": "2"
+      },
+      {
+        "digest": "1cca50d519b449334db540cc150370ed521b4ee4f885f84d3b64dbaaea244a55",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q20-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q20-p03",
+        "part": "1-6",
+        "stageId": "3"
+      },
+      {
+        "digest": "e6a2ec2ec876b2ec5f1f30d612dada34cc1ec8a110d9e751cfd287ff8371c041",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q20-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q20-p04",
+        "part": "1-6",
+        "stageId": "4"
+      },
+      {
+        "digest": "b683bb4bdf1bcf3c6865bbf6249d33fb9f6e71df74625bff35af31615a266c0e",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q20-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q20-p05",
+        "part": "1-6",
+        "stageId": "5"
+      },
+      {
+        "digest": "d0c65467419ef50ba343dc9fbe482692c11311d793e028282de5f8748b8c3e87",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q20-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q20-p06",
+        "part": "1-6",
+        "stageId": "6"
+      },
+      {
+        "digest": "0fb51134c07c7f4deb0d10d79c780cf2f9829ae4e1149e3c5739d2a0115ea8a5",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q20-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q20-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "1aebd06f6b7c8dc5039a79b38795545d921a92e707c75f3db009b56443a9ca21",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q20-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q20-p08",
+        "part": "1-6",
+        "stageId": "8"
+      },
+      {
+        "digest": "9e71d62edf854f440744c335781a6292297b6a4a1ef412af909ae0e5daf8150a",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q20-p09",
+        "itemIds": [],
+        "page": 9,
+        "pageId": "2026-june-grade2-q20-p09",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "6f7939700fe5e9a828415e1bc31c224e1111906ecf58a56d658c966fd71e05d3",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q20-p10",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005",
+          "s006"
+        ],
+        "page": 10,
+        "pageId": "2026-june-grade2-q20-p10",
+        "part": "1-6",
+        "stageId": "10"
+      }
+    ],
+    "qa": {
+      "contactSheets": [
+        "qa/samples/student-contact-sheet.png",
+        "qa/samples/answer-contact-sheet.png"
+      ],
+      "dom": {
+        "answer": {
+          "pages": 10,
+          "solutions": 73
+        },
+        "matchedResponseBoxCount": 18,
+        "matchedResponseLineCount": 32,
+        "matchedSolutionSlotCount": 60,
+        "sharedTargetSlotCount": 78,
+        "student": {
+          "pages": 10,
+          "solutions": 0
+        }
+      },
+      "pdf": {
+        "answerPages": 10,
+        "studentPages": 10
+      },
+      "status": "passed",
+      "visualSamples": [
+        "qa/samples/student-p01.png",
+        "qa/samples/student-p02.png",
+        "qa/samples/student-p03.png",
+        "qa/samples/student-p04.png",
+        "qa/samples/student-p05.png",
+        "qa/samples/student-p06.png",
+        "qa/samples/student-p07.png",
+        "qa/samples/student-p08.png",
+        "qa/samples/student-p09.png",
+        "qa/samples/student-p10.png",
+        "qa/samples/answer-p01.png",
+        "qa/samples/answer-p02.png",
+        "qa/samples/answer-p03.png",
+        "qa/samples/answer-p04.png",
+        "qa/samples/answer-p05.png",
+        "qa/samples/answer-p06.png",
+        "qa/samples/answer-p07.png",
+        "qa/samples/answer-p08.png",
+        "qa/samples/answer-p09.png",
+        "qa/samples/answer-p10.png"
+      ]
+    },
+    "reportFormatVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "semanticRubricVersion": "1.0.0",
+    "sourceDigest": "3d01721f87538ac15219c3a9c28b36757d34c800cfbd05efc2bf58210edf2711",
+    "specVersion": "1.0.6",
+    "templateVersion": "1.0.4",
+    "validationStatus": "passed",
+    "visualReview": {
+      "notes": "학생용·해설용 전체 10단계 contact sheet와 2·3·4·5·6·7·8·9·10단계를 확인했습니다. 문장 속 빈칸 60개와 작성형 18개의 위치·가로·세로가 일치하며, 해설의 검정 문제 단서와 빨간 답을 유지한 뒤 학생용에서는 답만 제거했습니다. 잘림·겹침·정답 노출·비정상 빨강이 없습니다.",
+      "reviewedAt": "2026-08-26T23:23:15+09:00",
+      "reviewer": "Codex",
+      "status": "passed"
+    },
+    "workbookId": "2026-june-grade2-q20"
+  },
+  "bundleVersion": 1,
+  "canonical": {
+    "canonical": {
+      "$schema": "../../schemas/canonical-workbook.schema.json",
+      "contentVersion": "1.0.4",
+      "metadata": {
+        "grade": "고등학교 2학년",
+        "kicker": "High School Reading",
+        "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 20번",
+        "sourceLanguage": "en",
+        "targetLanguage": "ko",
+        "title": "2026학년도 6월 고2 20번 10단계 워크북",
+        "topic": "구성의 오류를 피하고 팀의 부분과 전체를 함께 살펴야 하는 이유"
+      },
+      "passageActivities": {
+        "correction": [
+          {
+            "id": "correction-01",
+            "targets": [
+              {
+                "correct": "parts",
+                "id": "correction-01-01",
+                "incorrect": "part",
+                "target": {
+                  "occurrence": 1,
+                  "text": "part"
+                }
+              },
+              {
+                "correct": "is",
+                "id": "correction-01-02",
+                "incorrect": "are",
+                "target": {
+                  "occurrence": 1,
+                  "text": "are"
+                }
+              },
+              {
+                "correct": "logical",
+                "id": "correction-01-03",
+                "incorrect": "logic",
+                "target": {
+                  "occurrence": 1,
+                  "text": "logic"
+                }
+              },
+              {
+                "correct": "interact",
+                "id": "correction-01-04",
+                "incorrect": "interacts",
+                "target": {
+                  "occurrence": 1,
+                  "text": "interacts"
+                }
+              },
+              {
+                "correct": "individuals",
+                "id": "correction-01-05",
+                "incorrect": "individual",
+                "target": {
+                  "occurrence": 1,
+                  "text": "individual"
+                }
+              }
+            ],
+            "textOverride": "We can sometimes assume that the whole will be as good as each of its part. Suppose, for example, you’re in charge of a startup, and you know that everyone you’ve brought on board are productive and efficient. It might seem logic to assume that, as a result, the startup will be productive and efficient, too—but this isn’t necessarily true. The fallacy of composition fails to allow for how the different “parts” interacts with each other—if, for example, your efficient administrator and your highly skilled head of IT each assumes the other is in charge of collating prototype test results, then you have a problem. Equally, a unit composed of good people can still be working on a doomed project, and a project composed of good ideas may lack a stable center. When assembling a team with a common goal, always check the overall view as well as the individual involved."
+          }
+        ],
+        "paragraphOrder": [
+          {
+            "answerOrder": [
+              "A",
+              "B",
+              "C"
+            ],
+            "blocks": [
+              {
+                "id": "A",
+                "sentenceIds": [
+                  "s001",
+                  "s002"
+                ]
+              },
+              {
+                "id": "B",
+                "sentenceIds": [
+                  "s003",
+                  "s004"
+                ]
+              },
+              {
+                "id": "C",
+                "sentenceIds": [
+                  "s005",
+                  "s006"
+                ]
+              }
+            ],
+            "displayOrder": [
+              "C",
+              "A",
+              "B"
+            ],
+            "id": "paragraph-order-01"
+          }
+        ]
+      },
+      "schemaVersion": "1.0.0",
+      "sentences": [
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can sometimes assume"
+                  }
+                ],
+                "id": "s001-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "가정할 수 있다"
+                  }
+                ],
+                "segmentId": "s001-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "will be"
+                  }
+                ],
+                "id": "s001-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "훌륭할 것이라고"
+                  }
+                ],
+                "segmentId": "s001-m02"
+              }
+            ],
+            "vocabulary": [
+              {
+                "cefr": "B2",
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "assume"
+                },
+                "id": "s001-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "가정"
+                },
+                "meaning": "가정하다",
+                "reasons": [
+                  "abstract",
+                  "structure-critical"
+                ],
+                "segmentId": "s001-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "the whole"
+                },
+                "id": "s001-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "전체"
+                },
+                "meaning": "전체",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s001-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s001-a",
+                  "text": "We can sometimes assume"
+                },
+                {
+                  "id": "s001-b",
+                  "text": "that the whole will be as good"
+                },
+                {
+                  "id": "s001-c",
+                  "text": "as each of its parts."
+                }
+              ],
+              "displayOrder": [
+                "s001-c",
+                "s001-a",
+                "s001-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s001-choice-01",
+                  "options": [
+                    "each",
+                    "every"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "each"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s001-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "the whole"
+                  }
+                },
+                {
+                  "id": "s001-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "as good as"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s001-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "전체가 그 각각의 부분만큼 훌륭할 것"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "assume",
+                  "id": "s001-verb-01",
+                  "lemma": "assume",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can sometimes assume"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s001-verb-02",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "will be"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "assume",
+                "the whole",
+                "as good as",
+                "each of its parts"
+              ]
+            }
+          },
+          "id": "s001",
+          "meaningSegments": [
+            {
+              "en": "We can sometimes assume",
+              "id": "s001-m01",
+              "ko": "우리는 때때로 가정할 수 있다"
+            },
+            {
+              "en": "that the whole will be as good",
+              "id": "s001-m02",
+              "ko": "전체가 그만큼 훌륭할 것이라고"
+            },
+            {
+              "en": "as each of its parts.",
+              "id": "s001-m03",
+              "ko": "그것의 각각의 부분만큼."
+            }
+          ],
+          "no": 1,
+          "source": "We can sometimes assume that the whole will be as good as each of its parts.",
+          "translation": "우리는 때때로 전체가 그 각각의 부분만큼 훌륭할 것이라고 가정할 수 있다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "Suppose"
+                  }
+                ],
+                "id": "s002-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "생각해 보라"
+                  }
+                ],
+                "segmentId": "s002-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "you’re in charge of"
+                  }
+                ],
+                "id": "s002-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "맡고 있고"
+                  }
+                ],
+                "segmentId": "s002-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "know"
+                  }
+                ],
+                "id": "s002-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "안다"
+                  }
+                ],
+                "segmentId": "s002-m03"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "you’ve brought on board"
+                  }
+                ],
+                "id": "s002-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "합류시킨"
+                  }
+                ],
+                "segmentId": "s002-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s002-m05-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "생산적이고 효율적이라는"
+                  }
+                ],
+                "segmentId": "s002-m05"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "in charge of"
+                },
+                "id": "s002-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "맡고"
+                },
+                "meaning": "~을 맡아",
+                "reasons": [
+                  "structure-critical"
+                ],
+                "segmentId": "s002-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "brought on board"
+                },
+                "id": "s002-m04-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "합류시킨"
+                },
+                "meaning": "합류시키다",
+                "reasons": [
+                  "student-difficulty"
+                ],
+                "segmentId": "s002-m04"
+              },
+              {
+                "cefr": "B2",
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "efficient"
+                },
+                "id": "s002-m05-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "효율적"
+                },
+                "meaning": "효율적인",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s002-m05"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s002-a",
+                  "text": "Suppose, for example,"
+                },
+                {
+                  "id": "s002-b",
+                  "text": "you’re in charge of a startup,"
+                },
+                {
+                  "id": "s002-c",
+                  "text": "and you know that everyone you’ve brought on board"
+                },
+                {
+                  "id": "s002-d",
+                  "text": "is productive and efficient."
+                }
+              ],
+              "displayOrder": [
+                "s002-c",
+                "s002-d",
+                "s002-a",
+                "s002-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s002-choice-01",
+                  "options": [
+                    "is",
+                    "are"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s002-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "in charge of"
+                  }
+                },
+                {
+                  "id": "s002-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "brought on board"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s002-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "스타트업을 맡고 있고"
+                  }
+                },
+                {
+                  "id": "s002-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "합류시킨"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "suppose",
+                  "id": "s002-verb-01",
+                  "lemma": "suppose",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "Suppose"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s002-verb-02",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "you’re"
+                  }
+                },
+                {
+                  "cue": "know",
+                  "id": "s002-verb-03",
+                  "lemma": "know",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "know"
+                  }
+                },
+                {
+                  "cue": "bring",
+                  "id": "s002-verb-04",
+                  "lemma": "bring",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "you’ve brought"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s002-verb-05",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "suppose",
+                "in charge of",
+                "bring on board",
+                "productive and efficient"
+              ]
+            }
+          },
+          "id": "s002",
+          "meaningSegments": [
+            {
+              "en": "Suppose, for example,",
+              "id": "s002-m01",
+              "ko": "가령 예를 들어 생각해 보라,"
+            },
+            {
+              "en": "you’re in charge of a startup,",
+              "id": "s002-m02",
+              "ko": "당신이 맡고 있고 스타트업을,"
+            },
+            {
+              "en": "and you know",
+              "id": "s002-m03",
+              "ko": "그리고 당신이 안다"
+            },
+            {
+              "en": "that everyone you’ve brought on board",
+              "id": "s002-m04",
+              "ko": "당신이 합류시킨 모든 사람이"
+            },
+            {
+              "en": "is productive and efficient.",
+              "id": "s002-m05",
+              "ko": "생산적이고 효율적이라는 것을."
+            }
+          ],
+          "no": 2,
+          "source": "Suppose, for example, you’re in charge of a startup, and you know that everyone you’ve brought on board is productive and efficient.",
+          "translation": "가령 당신이 스타트업을 맡고 있고, 합류시킨 모든 사람이 생산적이고 효율적이라는 것을 알고 있다고 해 보자."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "might seem"
+                  }
+                ],
+                "id": "s003-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "보일지도 모른다"
+                  }
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "will be"
+                  }
+                ],
+                "id": "s003-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "생산적이고 효율적일 것이라고"
+                  }
+                ],
+                "segmentId": "s003-m03"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "isn’t"
+                  }
+                ],
+                "id": "s003-m03-p02",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "사실인 것은 아니다"
+                  }
+                ],
+                "segmentId": "s003-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "cefr": "B2",
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "logical"
+                },
+                "id": "s003-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "논리적"
+                },
+                "meaning": "논리적인",
+                "reasons": [
+                  "abstract"
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "as a result"
+                },
+                "id": "s003-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "결과적으로"
+                },
+                "meaning": "그 결과",
+                "reasons": [
+                  "structure-critical"
+                ],
+                "segmentId": "s003-m02"
+              },
+              {
+                "cefr": "B2",
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "necessarily"
+                },
+                "id": "s003-m03-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "반드시"
+                },
+                "meaning": "반드시",
+                "reasons": [
+                  "abstract"
+                ],
+                "segmentId": "s003-m03"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s003-a",
+                  "text": "It might seem logical"
+                },
+                {
+                  "id": "s003-b",
+                  "text": "to assume that, as a result,"
+                },
+                {
+                  "id": "s003-c",
+                  "text": "the startup will be productive and efficient, too—but this isn’t necessarily true."
+                }
+              ],
+              "displayOrder": [
+                "s003-c",
+                "s003-a",
+                "s003-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s003-choice-01",
+                  "options": [
+                    "necessarily",
+                    "necessary"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "necessarily"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s003-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "as a result"
+                  }
+                },
+                {
+                  "id": "s003-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "necessarily"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s003-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "논리적으로 보일지도"
+                  }
+                },
+                {
+                  "id": "s003-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "반드시 사실인 것은 아니다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "seem",
+                  "id": "s003-verb-01",
+                  "lemma": "seem",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "might seem"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s003-verb-02",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "will be"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s003-verb-03",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "isn’t"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "seem logical",
+                "as a result",
+                "productive and efficient",
+                "not necessarily true"
+              ]
+            }
+          },
+          "id": "s003",
+          "meaningSegments": [
+            {
+              "en": "It might seem logical",
+              "id": "s003-m01",
+              "ko": "그것은 논리적으로 보일지도 모른다"
+            },
+            {
+              "en": "to assume that, as a result,",
+              "id": "s003-m02",
+              "ko": "결과적으로 가정하는 것이"
+            },
+            {
+              "en": "the startup will be productive and efficient, too—but this isn’t necessarily true.",
+              "id": "s003-m03",
+              "ko": "그 스타트업도 생산적이고 효율적일 것이라고—하지만 이것이 반드시 사실인 것은 아니다."
+            }
+          ],
+          "no": 3,
+          "source": "It might seem logical to assume that, as a result, the startup will be productive and efficient, too—but this isn’t necessarily true.",
+          "translation": "그 결과 그 스타트업도 생산적이고 효율적일 것이라고 가정하는 것이 논리적으로 보일지도 모르지만, 이것이 반드시 사실인 것은 아니다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "fails to allow for"
+                  }
+                ],
+                "id": "s004-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "고려하지 못한다"
+                  }
+                ],
+                "segmentId": "s004-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "interact"
+                  }
+                ],
+                "id": "s004-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "상호작용하는"
+                  }
+                ],
+                "segmentId": "s004-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "assumes"
+                  }
+                ],
+                "id": "s004-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "여긴다면"
+                  }
+                ],
+                "segmentId": "s004-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is in charge"
+                  }
+                ],
+                "id": "s004-m04-p02",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "맡고 있다고"
+                  }
+                ],
+                "segmentId": "s004-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "have"
+                  }
+                ],
+                "id": "s004-m06-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "문제가 생긴다"
+                  }
+                ],
+                "segmentId": "s004-m06"
+              }
+            ],
+            "vocabulary": [
+              {
+                "cefr": "C1",
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "fallacy of composition"
+                },
+                "id": "s004-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "구성의 오류"
+                },
+                "meaning": "부분의 속성을 전체의 속성으로 잘못 판단하는 오류",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s004-m01"
+              },
+              {
+                "cefr": "B2",
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "interact"
+                },
+                "id": "s004-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "상호작용"
+                },
+                "meaning": "상호작용하다",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s004-m02"
+              },
+              {
+                "cefr": "C1",
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "collating"
+                },
+                "id": "s004-m05-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "맞춰 확인"
+                },
+                "meaning": "대조하여 확인하는 것",
+                "reasons": [
+                  "student-difficulty"
+                ],
+                "segmentId": "s004-m05"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s004-a",
+                  "text": "The fallacy of composition fails to allow for"
+                },
+                {
+                  "id": "s004-b",
+                  "text": "how the different “parts” interact with each other—if, for example,"
+                },
+                {
+                  "id": "s004-c",
+                  "text": "your efficient administrator and your highly skilled head of IT"
+                },
+                {
+                  "id": "s004-d",
+                  "text": "each assumes the other is in charge"
+                },
+                {
+                  "id": "s004-e",
+                  "text": "of collating prototype test results,"
+                },
+                {
+                  "id": "s004-f",
+                  "text": "then you have a problem."
+                }
+              ],
+              "displayOrder": [
+                "s004-d",
+                "s004-b",
+                "s004-f",
+                "s004-a",
+                "s004-e",
+                "s004-c"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s004-choice-01",
+                  "options": [
+                    "assumes",
+                    "assume"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "assumes"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s004-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "fallacy of composition"
+                  }
+                },
+                {
+                  "id": "s004-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "collating prototype test results"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s004-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "구성의 오류"
+                  }
+                },
+                {
+                  "id": "s004-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "시제품 시험 결과의 대조 확인"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "fail to allow for",
+                  "id": "s004-verb-01",
+                  "lemma": "fail to allow for",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "fails to allow for"
+                  }
+                },
+                {
+                  "cue": "interact",
+                  "id": "s004-verb-02",
+                  "lemma": "interact",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "interact"
+                  }
+                },
+                {
+                  "cue": "assume",
+                  "id": "s004-verb-03",
+                  "lemma": "assume",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "assumes"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s004-verb-04",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                },
+                {
+                  "cue": "have",
+                  "id": "s004-verb-05",
+                  "lemma": "have",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "have"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "fallacy of composition",
+                "interact",
+                "in charge of",
+                "prototype test results"
+              ]
+            }
+          },
+          "id": "s004",
+          "meaningSegments": [
+            {
+              "en": "The fallacy of composition fails to allow for",
+              "id": "s004-m01",
+              "ko": "구성의 오류는 고려하지 못한다"
+            },
+            {
+              "en": "how the different “parts” interact with each other—if, for example,",
+              "id": "s004-m02",
+              "ko": "서로 다른 ‘부분들’이 서로 상호작용하는 방식을—예를 들어 만약,"
+            },
+            {
+              "en": "your efficient administrator and your highly skilled head of IT",
+              "id": "s004-m03",
+              "ko": "당신의 유능한 관리자와 매우 숙련된 정보 기술 책임자가"
+            },
+            {
+              "en": "each assumes the other is in charge",
+              "id": "s004-m04",
+              "ko": "각각 상대방이 맡고 있다고 여긴다면"
+            },
+            {
+              "en": "of collating prototype test results,",
+              "id": "s004-m05",
+              "ko": "서로 맞춰 확인하는 일을 시제품 시험 결과를,"
+            },
+            {
+              "en": "then you have a problem.",
+              "id": "s004-m06",
+              "ko": "그러면 당신에게 문제가 생긴다."
+            }
+          ],
+          "no": 4,
+          "source": "The fallacy of composition fails to allow for how the different “parts” interact with each other—if, for example, your efficient administrator and your highly skilled head of IT each assumes the other is in charge of collating prototype test results, then you have a problem.",
+          "translation": "구성의 오류는 서로 다른 ‘부분들’이 상호작용하는 방식을 고려하지 못한다. 예를 들어, 유능한 관리자와 매우 숙련된 정보 기술 책임자가 각각 상대방이 시제품 시험 결과의 대조 확인을 맡고 있다고 여긴다면 문제가 생긴다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can still be working on"
+                  }
+                ],
+                "id": "s005-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "수행하고 있을 수도 있다"
+                  }
+                ],
+                "segmentId": "s005-m03"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "may lack"
+                  }
+                ],
+                "id": "s005-m05-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "부족할 수도 있다"
+                  }
+                ],
+                "segmentId": "s005-m05"
+              }
+            ],
+            "vocabulary": [
+              {
+                "cefr": "B2",
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "composed of"
+                },
+                "id": "s005-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "구성된"
+                },
+                "meaning": "~로 구성된",
+                "reasons": [
+                  "structure-critical"
+                ],
+                "segmentId": "s005-m02"
+              },
+              {
+                "cefr": "C1",
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "doomed"
+                },
+                "id": "s005-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "가망 없는"
+                },
+                "meaning": "실패할 운명인",
+                "reasons": [
+                  "student-difficulty"
+                ],
+                "segmentId": "s005-m03"
+              },
+              {
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "stable center"
+                },
+                "id": "s005-m05-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "안정적인 중심"
+                },
+                "meaning": "안정적인 중심",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s005-m05"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s005-a",
+                  "text": "Equally,"
+                },
+                {
+                  "id": "s005-b",
+                  "text": "a unit composed of good people"
+                },
+                {
+                  "id": "s005-c",
+                  "text": "can still be working on a doomed project,"
+                },
+                {
+                  "id": "s005-d",
+                  "text": "and a project composed of good ideas"
+                },
+                {
+                  "id": "s005-e",
+                  "text": "may lack a stable center."
+                }
+              ],
+              "displayOrder": [
+                "s005-d",
+                "s005-b",
+                "s005-e",
+                "s005-a",
+                "s005-c"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s005-choice-01",
+                  "options": [
+                    "composed",
+                    "composing"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "composed"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s005-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "doomed project"
+                  }
+                },
+                {
+                  "id": "s005-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "stable center"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s005-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "가망 없는 프로젝트"
+                  }
+                },
+                {
+                  "id": "s005-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "안정적인 중심"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "work on",
+                  "id": "s005-verb-01",
+                  "lemma": "work on",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can still be working on"
+                  }
+                },
+                {
+                  "cue": "lack",
+                  "id": "s005-verb-02",
+                  "lemma": "lack",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "may lack"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "composed of",
+                "doomed project",
+                "good ideas",
+                "stable center"
+              ]
+            }
+          },
+          "id": "s005",
+          "meaningSegments": [
+            {
+              "en": "Equally,",
+              "id": "s005-m01",
+              "ko": "마찬가지로,"
+            },
+            {
+              "en": "a unit composed of good people",
+              "id": "s005-m02",
+              "ko": "훌륭한 사람들로 구성된 단위가"
+            },
+            {
+              "en": "can still be working on a doomed project,",
+              "id": "s005-m03",
+              "ko": "여전히 수행하고 있을 수도 있다 가망 없는 프로젝트를,"
+            },
+            {
+              "en": "and a project composed of good ideas",
+              "id": "s005-m04",
+              "ko": "그리고 훌륭한 아이디어들로 구성된 프로젝트가"
+            },
+            {
+              "en": "may lack a stable center.",
+              "id": "s005-m05",
+              "ko": "부족할 수도 있다 안정적인 중심이."
+            }
+          ],
+          "no": 5,
+          "source": "Equally, a unit composed of good people can still be working on a doomed project, and a project composed of good ideas may lack a stable center.",
+          "translation": "마찬가지로, 훌륭한 사람들로 구성된 단위가 여전히 가망 없는 프로젝트를 수행하고 있을 수도 있고, 훌륭한 아이디어들로 구성된 프로젝트가 안정적인 중심이 부족할 수도 있다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "check"
+                  }
+                ],
+                "id": "s006-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "점검하라"
+                  }
+                ],
+                "segmentId": "s006-m03"
+              }
+            ],
+            "vocabulary": [
+              {
+                "cefr": "B2",
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "assembling"
+                },
+                "id": "s006-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "구성"
+                },
+                "meaning": "구성하는 것",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s006-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "overall view"
+                },
+                "id": "s006-m03-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "전체적인 관점"
+                },
+                "meaning": "전체적인 관점",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s006-m03"
+              },
+              {
+                "cefr": "B2",
+                "colorSlot": 3,
+                "en": {
+                  "occurrence": 1,
+                  "text": "involved"
+                },
+                "id": "s006-m04-v03",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "관련된"
+                },
+                "meaning": "관련된",
+                "reasons": [
+                  "student-difficulty"
+                ],
+                "segmentId": "s006-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s006-a",
+                  "text": "When assembling a team"
+                },
+                {
+                  "id": "s006-b",
+                  "text": "with a common goal,"
+                },
+                {
+                  "id": "s006-c",
+                  "text": "always check the overall view"
+                },
+                {
+                  "id": "s006-d",
+                  "text": "as well as the individuals involved."
+                }
+              ],
+              "displayOrder": [
+                "s006-c",
+                "s006-a",
+                "s006-d",
+                "s006-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s006-choice-01",
+                  "options": [
+                    "involved",
+                    "involving"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "involved"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s006-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "overall view"
+                  }
+                },
+                {
+                  "id": "s006-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "individuals involved"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s006-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "전체적인 관점"
+                  }
+                },
+                {
+                  "id": "s006-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "관련된 개인들"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "check",
+                  "id": "s006-verb-01",
+                  "lemma": "check",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "check"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "assemble a team",
+                "common goal",
+                "overall view",
+                "individuals involved"
+              ]
+            }
+          },
+          "id": "s006",
+          "meaningSegments": [
+            {
+              "en": "When assembling a team",
+              "id": "s006-m01",
+              "ko": "구성할 때 팀을"
+            },
+            {
+              "en": "with a common goal,",
+              "id": "s006-m02",
+              "ko": "공동의 목표를 가진,"
+            },
+            {
+              "en": "always check the overall view",
+              "id": "s006-m03",
+              "ko": "항상 점검하라 전체적인 관점을"
+            },
+            {
+              "en": "as well as the individuals involved.",
+              "id": "s006-m04",
+              "ko": "관련된 개인들뿐만 아니라."
+            }
+          ],
+          "no": 6,
+          "source": "When assembling a team with a common goal, always check the overall view as well as the individuals involved.",
+          "translation": "공동의 목표를 가진 팀을 구성할 때는 관련된 개인들뿐만 아니라 항상 전체적인 관점도 점검하라."
+        }
+      ],
+      "sourceStatus": {
+        "notes": "원본 PDF 2쪽의 20번 본문을 전사했으며, 본문 아래 별표 어휘 주석과 문항 선택지는 지문 정본에서 제외했습니다.",
+        "references": [
+          "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+        ],
+        "sentenceCount": 6,
+        "sourceType": "pdf",
+        "status": "confirmed",
+        "verifiedAt": "2026-08-25T15:42:00+09:00"
+      },
+      "specVersion": "1.0.6",
+      "updateState": {
+        "appliedUpdates": [
+          {
+            "appliedAt": "2026-08-25T15:42:00+09:00",
+            "fromContentVersion": "0.0.0",
+            "id": "U-20260825-006",
+            "report": "reports/updates/U-20260825-006.md",
+            "scope": "selected",
+            "toContentVersion": "1.0.0"
+          },
+          {
+            "appliedAt": "2026-08-26T22:30:14+09:00",
+            "fromContentVersion": "1.0.0",
+            "id": "U-20260826-009",
+            "report": "reports/updates/U-20260826-009.md",
+            "scope": "all",
+            "toContentVersion": "1.0.1"
+          },
+          {
+            "appliedAt": "2026-08-26T22:42:19+09:00",
+            "fromContentVersion": "1.0.1",
+            "id": "U-20260826-010",
+            "report": "reports/updates/U-20260826-010.md",
+            "scope": "all",
+            "toContentVersion": "1.0.2"
+          },
+          {
+            "appliedAt": "2026-08-26T23:06:04+09:00",
+            "fromContentVersion": "1.0.2",
+            "id": "U-20260826-011",
+            "report": "reports/updates/U-20260826-011.md",
+            "scope": "all",
+            "toContentVersion": "1.0.3"
+          },
+          {
+            "appliedAt": "2026-08-26T23:20:00+09:00",
+            "fromContentVersion": "1.0.3",
+            "id": "U-20260826-012",
+            "report": "reports/updates/U-20260826-012.md",
+            "scope": "all",
+            "toContentVersion": "1.0.4"
+          }
+        ],
+        "defaultScope": "new-only"
+      },
+      "workbookId": "2026-june-grade2-q20"
+    },
+    "contentVersion": "1.0.4",
+    "files": [
+      {
+        "path": "workbooks/2026-june-grade2-q20/content.json",
+        "sha256": "65c4ba2c9269ec3ca24a9de09bc6baa0f7fbe2de312eb3615e95ee77f1fc9485",
+        "size": 26655
+      }
+    ],
+    "workbookId": "2026-june-grade2-q20"
+  },
+  "spec": {
+    "files": [
+      {
+        "path": "config/versions.json",
+        "sha256": "acd7a6469e17719beb827893b39a6608e8f270f2851b97e5d66de816dbf89a8f",
+        "size": 1599
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "sha256": "aadb3fe161b100e3a68ecb42fab51775e9738153a04278a53b27e7172f8d8f69",
+        "size": 17021
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+        "size": 8058
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "schemaFiles": [
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "semanticRubricFile": {
+      "path": "docs/semantic-rubric.md",
+      "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+      "size": 8058
+    },
+    "semanticRubricVersion": "1.0.0",
+    "spec": {
+      "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "answerEditionContract": {
+        "answerFillClassMayAutoColor": false,
+        "choicePromptVisibleInAnswer": true,
+        "redAllowedOnlyOnSolutionValues": true,
+        "sameStageAndExerciseDomAsStudent": true,
+        "solutionClass": "solution-value",
+        "solutionColor": "#D71920",
+        "solutionInsertion": "fill-the-same-solution-slot",
+        "studentDerivation": "render answer first, lock every solution slot and writing response geometry, then remove solution values only",
+        "studentPayloadMayContainSolutions": false
+      },
+      "canonicalSchema": "schemas/canonical-workbook.schema.json",
+      "canonicalText": {
+        "baseTextOverride": {
+          "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+          "defaultStorage": "omit-baseText-and-derive-from-canonical",
+          "redundantDefaultCopy": "forbidden",
+          "requiredCompanionField": "overrideReason"
+        },
+        "displayDefault": "source",
+        "exerciseBaseTextDefaults": {
+          "choice": "display-or-source",
+          "enBlank": "display-or-source",
+          "koBlank": "translation",
+          "verb": "display-or-source"
+        },
+        "markup": "forbidden",
+        "reconstruction": {
+          "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+          "meaningSegments": "join meaningSegments[].en with one ASCII space",
+          "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+        },
+        "sourceWhitespace": "single-space-between-tokens",
+        "targetAnchor": {
+          "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다.",
+          "shape": {
+            "occurrence": "one-based occurrence in the applicable base text",
+            "text": "exact substring"
+          }
+        }
+      },
+      "contentOwnership": {
+        "authorable": [
+          "metadata",
+          "sourceStatus",
+          "sentences[].source",
+          "sentences[].display",
+          "sentences[].translation",
+          "sentences[].meaningSegments",
+          "sentences[].annotations",
+          "sentences[].exercises",
+          "passageActivities.correction",
+          "passageActivities.paragraphOrder",
+          "updateState"
+        ],
+        "derived": [
+          "stage number, title, instruction and renderer mode",
+          "item and unit numbers",
+          "part ranges and page boundaries",
+          "student and answer projections",
+          "blank, predicate, vocabulary and solution markup",
+          "answer-line height and layout classes",
+          "page count, footer number and output filenames"
+        ],
+        "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+      },
+      "logicalStages": [
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].meaningSegments",
+            "sentences[].annotations.predicates",
+            "sentences[].annotations.vocabulary"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "passage-practice",
+          "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean-inline-hint"
+            ],
+            "vocabularyColoring": true
+          },
+          "number": 1,
+          "pagination": {
+            "hardMaximum": 13,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 12,
+            "unit": "sentence"
+          },
+          "rendererMode": "meaning",
+          "scope": "sentence",
+          "title": "지문 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].exercises.koBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "korean-cloze",
+          "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 2,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (우리말)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.enBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "english-cloze",
+          "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 3,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (영문)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].translation"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "translation-practice",
+          "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 4,
+          "pagination": {
+            "hardMaximum": 11,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 10,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "해석 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.verb"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "verb-form",
+          "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 5,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "동사형 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.choice"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "grammar-vocabulary-choice",
+          "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 6,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "어법·어휘 고르기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.correction"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "correction",
+          "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+          "layout": {
+            "fieldOrder": [
+              "passage",
+              "correction-rows"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 7,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "correction",
+          "scope": "passage-activity",
+          "title": "어색한 곳 찾기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.arrange"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "sentence-order",
+          "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+          "layout": {
+            "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+            "arrangementSlots": "forbidden",
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 8,
+          "pagination": {
+            "hardMaximum": 6,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 6,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "순서 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.paragraphOrder"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "paragraph-order",
+          "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "fixed-intro",
+              "shuffled-blocks",
+              "fixed-outro",
+              "sequence-slots"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 9,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "paragraph-order",
+          "scope": "passage-activity",
+          "title": "문단 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.writing",
+            "sentences[].display|source"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "composition",
+          "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "studentEnglishSkeleton": "forbidden",
+            "vocabularyColoring": false
+          },
+          "number": 10,
+          "pagination": {
+            "hardMaximum": 8,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 8,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "영작 연습하기"
+        }
+      ],
+      "paginationContract": {
+        "continuationPageMinimumItems": 2,
+        "forbidden": [
+          "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+          "legacy 흐름 or 뜻 작성 columns",
+          "content crossing the page footer",
+          "content from one page overlapping the next page",
+          "clipped text",
+          "a singleton continuation page that can be avoided within the stage hard maximum",
+          "renumbering a new part from one"
+        ],
+        "layoutPreference": "vertical",
+        "numbering": "continuous-original-sentence-number",
+        "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+        "partLabel": "inclusive-original-sentence-number-range",
+        "readingLayout": "allowed-only-after-explicit-user-request",
+        "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+        "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+        "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+        "visualFitOverridesTargetCount": true
+      },
+      "principles": {
+        "canonicalDataContainsHtml": false,
+        "logicalStageCount": 10,
+        "publishOnlyAfterAllChecksPass": true,
+        "singleContentSource": true,
+        "studentAndAnswerShareExerciseStructure": true,
+        "studentProjectionSource": "answer-edition-after-browser-measured-all-solution-layouts",
+        "uncertainSourcePolicy": "stop-and-request-clearer-source"
+      },
+      "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+      "releaseContract": {
+        "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+        "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+        "filenames": [
+          "문제.html",
+          "문제.pdf",
+          "해설.html",
+          "해설.pdf"
+        ],
+        "finalHtmlDependencies": "self-contained",
+        "outputRoot": "outputs",
+        "previewFixture": "one-shared-canonical-fixture",
+        "publish": "atomic-after-all-gates-pass",
+        "stagingRoot": ".build/releases",
+        "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture"
+      },
+      "semanticRubric": "docs/semantic-rubric.md",
+      "specVersion": "1.0.6",
+      "updates": {
+        "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+        "allowedScopes": [
+          "new-only",
+          "all",
+          "selected",
+          "manual-review"
+        ],
+        "changelogPath": "CHANGELOG.md",
+        "defaultScope": "new-only",
+        "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+        "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+        "reportRequired": true,
+        "requiredImpactDimensions": [
+          "canonical fields",
+          "stage numbers",
+          "sentence or activity ids",
+          "student and answer editions",
+          "page count and part ranges",
+          "component versions"
+        ],
+        "requiredReportSections": [
+          "요약",
+          "요청 내용",
+          "직접 변경",
+          "파생 변경",
+          "영향 없음",
+          "파일 변경",
+          "출력 변화",
+          "검증 결과",
+          "호환성",
+          "버전"
+        ],
+        "versionBump": {
+          "backward-compatible field or stage capability": "minor",
+          "breaking schema or canonical semantics": "major",
+          "bug fix, validation strengthening or copy correction": "patch"
+        }
+      },
+      "validationGates": {
+        "canonical": [
+          "JSON Schema passes",
+          "sourceStatus.status is confirmed",
+          "sentence ids and numbers are unique, consecutive and aligned",
+          "meaning segment English joined with one space equals display or source",
+          "every meaning segment has one-to-one English and Korean text",
+          "all target anchors resolve exactly at their declared occurrence",
+          "choice options contain the correct target exactly once",
+          "arrange chunks in canonical order reconstruct display or source exactly",
+          "arrange displayOrder contains every chunk id exactly once",
+          "paragraph displayOrder contains every block id exactly once",
+          "correction targets restore their base excerpt exactly",
+          "vocabulary and predicate annotations resolve inside their meaning segment"
+        ],
+        "compiled": [
+          "exactly ten logical stages appear in fixed order",
+          "sentence stages contain exactly one item for every source sentence",
+          "all part ranges are complete, consecutive and match item numbers",
+          "student and answer exercise structures are identical",
+          "every non-writing solution-slot position, width, and height is copied from the browser-measured answer edition before solution text is removed",
+          "student response-line positions, widths, and heights are copied from the browser-measured answer edition before solution text is removed",
+          "student writing areas do not draw replacement guide lines after the answer text is removed",
+          "student edition exposes no solution values",
+          "every bank, target and slot cardinality is internally consistent",
+          "stage 10 student edition contains no English skeleton"
+        ],
+        "release": [
+          "problem HTML exists",
+          "problem PDF exists",
+          "answer HTML exists",
+          "answer PDF exists",
+          "build manifest records all component versions and applied updates",
+          "update report exists when an update id is applied"
+        ],
+        "rendered": [
+          "document fonts and images are ready",
+          "browser console and page errors are empty",
+          "data-render-validation is exactly ok",
+          "no unresolved template placeholder remains",
+          "no preview fixture data remains in final HTML",
+          "no page or footer overflow exists under print media",
+          "answer red is present only on solution-value nodes",
+          "every student and answer non-writing solution-slot has matching page-relative left, top, width, and height within 0.75px",
+          "every student and answer writing response box and answer-line trace matches within 0.75px",
+          "representative and risk pages pass visual review"
+        ]
+      },
+      "vocabularyContract": {
+        "allowedStageNumbers": [
+          1
+        ],
+        "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+        "maximumPerSentence": 3,
+        "redSlotForbidden": true,
+        "rendererClasses": {
+          "english": "vocab vocab-{slot} gloss",
+          "korean": "vocab vocab-{slot}"
+        },
+        "sameEnglishAndKoreanSlot": true,
+        "slots": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "specVersion": "1.0.6"
+  },
+  "template": {
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+        "size": 29359
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "sha256": "25a21d18af7ee1100e7a4d0023af1175140e82dd2cce2a246d0fcd5ece2411ee",
+        "size": 42558
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+        "size": 1212
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "sha256": "ceab51f4246462f507a1de7c6aea850fb577113c37e74b4d98a645f23744a330",
+        "size": 15185
+      }
+    ],
+    "rendererContract": "shared-dom-explicit-targets-fail-closed",
+    "templateVersion": "1.0.4"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "../schemas/update.schema.json",
+  "id": "U-20260825-006",
+  "title": "2026학년도 6월 고2 20·21번 10단계 워크북 신규 등록",
+  "date": "2026-08-25",
+  "summary": "제공된 2026학년도 6월 고2 전국연합학력평가 PDF의 20번과 21번 지문을 각각 단일 canonical 정본으로 전사하고 학생용·해설용 10단계 워크북을 생성합니다.",
+  "category": "new-content",
+  "applyTo": "selected",
+  "selectedWorkbooks": [
+    "2026-june-grade2-q20",
+    "2026-june-grade2-q21"
+  ],
+  "affectedStages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "request": "고2 6월 원본 PDF의 20~21번으로 작업을 시작합니다.",
+  "directChanges": {
+    "files": [
+      "config/versions.json",
+      "updates/U-20260825-006.json",
+      "tmp/build_chocolate_reading_json.py",
+      "workbooks/2026-june-grade2-q20/content.json",
+      "workbooks/2026-june-grade2-q21/content.json"
+    ],
+    "jsonPaths": [
+      {
+        "manifest": "canonical",
+        "path": "$"
+      }
+    ]
+  },
+  "verification": [
+    {
+      "name": "source-transcription",
+      "status": "pass",
+      "details": "원본 PDF 2쪽의 20번과 3쪽의 21번을 렌더링해 본문 단어, 대소문자, 문장부호를 시각 확인했습니다."
+    },
+    {
+      "name": "source-question-cross-check",
+      "status": "pass",
+      "details": "20번 주장 문항의 정답 ③과 21번 밑줄 의미 문항의 정답 ①을 지문 의미 검토에 교차 사용했습니다."
+    },
+    {
+      "name": "legacy-test-fixture-restoration",
+      "status": "pass",
+      "details": "기존 테스트가 참조하던 누락 자료를 정본에 기록된 SHA-256 값과 일치하는 보관본으로 복원했습니다. 새 20·21번 정본 작성에는 사용하지 않았습니다."
+    },
+    {
+      "name": "release-validation",
+      "status": "pass",
+      "details": "두 canonical의 스키마·구조 검증이 통과했고 전체 단위 테스트 31개가 통과했습니다."
+    }
+  ]
+}

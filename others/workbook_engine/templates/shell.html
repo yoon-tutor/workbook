@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko" data-render-validation="pending" data-workbook-edition="student">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>워크북</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./workbook.css" />
+    <script>
+      /*
+       * A build may assign both globals before renderer.js runs.
+       * Keeping this shell data-free prevents preview fixtures from entering releases.
+       */
+      window.WORKBOOK_DATA = window.WORKBOOK_DATA || null;
+      window.WORKBOOK_EDITION =
+        window.WORKBOOK_EDITION ||
+        document.documentElement.dataset.workbookEdition ||
+        "student";
+    </script>
+  </head>
+  <body>
+    <header class="screen-bar">
+      <p class="screen-title">워크북</p>
+      <div>
+        <span class="render-status" aria-live="polite">검증 중</span>
+        <button type="button" data-print-button>인쇄</button>
+      </div>
+    </header>
+
+    <main id="pages" aria-live="polite"></main>
+
+    <noscript>이 문서는 JavaScript가 활성화되어야 표시됩니다.</noscript>
+
+    <script src="./renderer.js" defer></script>
+  </body>
+</html>

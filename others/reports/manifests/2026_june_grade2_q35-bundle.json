@@ -1,0 +1,2602 @@
+{
+  "build": {
+    "appliedUpdates": [
+      "U-20260908-018"
+    ],
+    "buildVersion": "1.0.0",
+    "builtAt": "2026-09-08T15:27:55+09:00",
+    "canonicalDigest": "72f80291149dd218cbf897abbefe05a24e674274ae6170189be3b16f73dcb47b",
+    "compilerVersion": "1.0.7",
+    "contentVersion": "1.0.0",
+    "engineDigest": "755fa39f2f38e0c481da489f7b37fc92110b71ae3cf018dda83004df187ac114",
+    "engineInputs": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      }
+    ],
+    "files": [
+      {
+        "path": "workbook_engine/__init__.py",
+        "sha256": "af1c6c8451bc16d5769b0dbe55225c9d66e68ed46b6cd64eea4ce5e2f7eb0edd",
+        "size": 139
+      },
+      {
+        "path": "workbook_engine/__main__.py",
+        "sha256": "4abb421f270f4e5fb739aaac7d68ba89c65c17df0099564abcd730d95ca777e8",
+        "size": 5332
+      },
+      {
+        "path": "workbook_engine/change_report.py",
+        "sha256": "b70b6885ba408923d66b6eabd9280081eb22aa0e00fd51b53b54b9c830ee9c89",
+        "size": 35564
+      },
+      {
+        "path": "workbook_engine/compiler.py",
+        "sha256": "30f60ef9ddb93dd7a8d3462a0fccb652ada4ae2d5703d5c2928ed6f7a65785b8",
+        "size": 19480
+      },
+      {
+        "path": "workbook_engine/manifest.py",
+        "sha256": "046fe32ef8bc39f1f11bac7b11ed368e5697e96d453fa3a425f89f58edcdfee6",
+        "size": 6606
+      },
+      {
+        "path": "workbook_engine/migrate_legacy.py",
+        "sha256": "724a9f9e08c22d48d8f884ebf0629f1699b7542303685bff96192d2326e4d714",
+        "size": 12027
+      },
+      {
+        "path": "workbook_engine/paginator.py",
+        "sha256": "21a86b05605d8782e22ccf7b9ef3760efc59928d278e952a5aeec98cc3e26c00",
+        "size": 3394
+      },
+      {
+        "path": "workbook_engine/qa.py",
+        "sha256": "24b628516d4feacd50a3bc7b18cafdd9d9c8d96246b33f69f9eeea8d327ba604",
+        "size": 43563
+      },
+      {
+        "path": "workbook_engine/release.py",
+        "sha256": "097925500dc84f6a4bc13efab144343fcd4d6dbe1f1685fe1db5e87a7c90501e",
+        "size": 31383
+      },
+      {
+        "path": "workbook_engine/render.py",
+        "sha256": "8f6e83f0709c29001c1ec07acdd0c3db2095844b71f42362503918f045765053",
+        "size": 4492
+      },
+      {
+        "path": "workbook_engine/schema_gate.py",
+        "sha256": "fe4b1014e6bcb1dfe0353d8e6b2dec82745aa7cb92dae78f619c6b371f3e966b",
+        "size": 7611
+      },
+      {
+        "path": "workbook_engine/textops.py",
+        "sha256": "8bf721d88f5901515b440edb3fee7fd77aee82a8d1858aeac1b8afeb0c77c0f3",
+        "size": 9891
+      },
+      {
+        "path": "workbook_engine/validator.py",
+        "sha256": "9a276f045506d98337bd9effd1a97fe25a89c45e20716506665d4c7fd36909b1",
+        "size": 26644
+      },
+      {
+        "path": "문제.html",
+        "sha256": "fe918598ede6b89b1d6cb8b4a68718b105c764d0cb2fb1bd029f62f80e5d50a7",
+        "size": 136508
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "b30b45c080e0b06cd0088eafce7cad7dd4bee0a4e7fd5ff048ee14a52a296dd2",
+        "size": 523441
+      },
+      {
+        "path": "해설.html",
+        "sha256": "2ddbf793d8ab403a8b1789e638c6646d905922df467d922859eacd11381e583b",
+        "size": 144239
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "ccf3f0829bb4a33a18598a386996dbfd9f04d8a181e7a063126ccc820de53b92",
+        "size": 639468
+      }
+    ],
+    "outputs": [
+      {
+        "path": "문제.html",
+        "sha256": "fe918598ede6b89b1d6cb8b4a68718b105c764d0cb2fb1bd029f62f80e5d50a7",
+        "size": 136508
+      },
+      {
+        "path": "문제.pdf",
+        "sha256": "b30b45c080e0b06cd0088eafce7cad7dd4bee0a4e7fd5ff048ee14a52a296dd2",
+        "size": 523441
+      },
+      {
+        "path": "해설.html",
+        "sha256": "2ddbf793d8ab403a8b1789e638c6646d905922df467d922859eacd11381e583b",
+        "size": 144239
+      },
+      {
+        "path": "해설.pdf",
+        "sha256": "ccf3f0829bb4a33a18598a386996dbfd9f04d8a181e7a063126ccc820de53b92",
+        "size": 639468
+      }
+    ],
+    "pages": [
+      {
+        "digest": "3012430e3c9fa93030858e2817bf0648c02f9ca5d73662682b7ce42589824d0e",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q35-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q35-p01",
+        "part": "1-5",
+        "stageId": "1"
+      },
+      {
+        "digest": "96532c7ce4a14c1504a0b7941aea4b343b6a1cbaaaab6c355b4b4b7ae4091d1a",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q35-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q35-p02",
+        "part": "1-5",
+        "stageId": "2"
+      },
+      {
+        "digest": "c9c4f6385e2f39bed69f322763f669bb8123d9a1da6393317947dde5fa947b1e",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q35-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q35-p03",
+        "part": "1-5",
+        "stageId": "3"
+      },
+      {
+        "digest": "45845e2d005576df27280359141e79de47b4abd7353f031eb0e4a1872b59083a",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q35-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q35-p04",
+        "part": "1-5",
+        "stageId": "4"
+      },
+      {
+        "digest": "421e6dccd98fd41d47bbd79a5003318a3df51bbb20d3b6089df0d1052b6b46a2",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q35-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q35-p05",
+        "part": "1-5",
+        "stageId": "5"
+      },
+      {
+        "digest": "88b61b2ef796472a27de6b3847c87c6153e8ae95d6b50ba4b4b5228a7f75ef28",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q35-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q35-p06",
+        "part": "1-5",
+        "stageId": "6"
+      },
+      {
+        "digest": "eb96206bef7ec879a4747c2b4651eeaaa53e6d7abd4162438a956f1390ddf1ca",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q35-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q35-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "abe1125c2fd1346e8a856a7e23492ad3eb75dea69db0c0867af8345d365dbc8f",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q35-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q35-p08",
+        "part": "1-5",
+        "stageId": "8"
+      },
+      {
+        "digest": "604a5b13e808ffbceda4f7a867b283bfe5d82af3c3a9537f985057e4c4392e0a",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q35-p09",
+        "itemIds": [],
+        "page": 9,
+        "pageId": "2026-june-grade2-q35-p09",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "16b38f49c003e7d8575d21f41e2a97bbac54be1de4e26308a2886156311cc60c",
+        "edition": "student",
+        "id": "student:2026-june-grade2-q35-p10",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 10,
+        "pageId": "2026-june-grade2-q35-p10",
+        "part": "1-5",
+        "stageId": "10"
+      },
+      {
+        "digest": "3012430e3c9fa93030858e2817bf0648c02f9ca5d73662682b7ce42589824d0e",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q35-p01",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 1,
+        "pageId": "2026-june-grade2-q35-p01",
+        "part": "1-5",
+        "stageId": "1"
+      },
+      {
+        "digest": "8d3ca7d755923b5a3f337af59cf450ad3a28b69a5a9379d64ae5f551aae70384",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q35-p02",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 2,
+        "pageId": "2026-june-grade2-q35-p02",
+        "part": "1-5",
+        "stageId": "2"
+      },
+      {
+        "digest": "9b674e38beb92220929ac50557886c1c0fc23c7100cf72d74bebdacaf16978e5",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q35-p03",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 3,
+        "pageId": "2026-june-grade2-q35-p03",
+        "part": "1-5",
+        "stageId": "3"
+      },
+      {
+        "digest": "d10d7832392a8b31beb1c359e4bae892b68b28169cacb578a873d9284e0c0785",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q35-p04",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 4,
+        "pageId": "2026-june-grade2-q35-p04",
+        "part": "1-5",
+        "stageId": "4"
+      },
+      {
+        "digest": "7adc1e6a0180e26e7d52e590a235be6e61c43b2b1a67899221daf8864b92add1",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q35-p05",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 5,
+        "pageId": "2026-june-grade2-q35-p05",
+        "part": "1-5",
+        "stageId": "5"
+      },
+      {
+        "digest": "84f0461f8a2d2fd26c358f97a6ec17c24685632026264a2d235540f1944befbe",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q35-p06",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 6,
+        "pageId": "2026-june-grade2-q35-p06",
+        "part": "1-5",
+        "stageId": "6"
+      },
+      {
+        "digest": "794f713f145c7602091fdc67108066d2b2962bb1c6c6435f7bbd37a95c0d20cf",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q35-p07",
+        "itemIds": [],
+        "page": 7,
+        "pageId": "2026-june-grade2-q35-p07",
+        "part": null,
+        "stageId": "7"
+      },
+      {
+        "digest": "f224cb4bfabce60e57f9adb2ee195846d38ee1787c1de7abc1b10779dd326a17",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q35-p08",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 8,
+        "pageId": "2026-june-grade2-q35-p08",
+        "part": "1-5",
+        "stageId": "8"
+      },
+      {
+        "digest": "ac1319e60951a908f1a41b0adcea47615a035dc2044affa7ea5996e3b6470ed4",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q35-p09",
+        "itemIds": [],
+        "page": 9,
+        "pageId": "2026-june-grade2-q35-p09",
+        "part": null,
+        "stageId": "9"
+      },
+      {
+        "digest": "e5252369b005055844fcca6cca030a369fae065339939ad7d9d953491efd1183",
+        "edition": "answer",
+        "id": "answer:2026-june-grade2-q35-p10",
+        "itemIds": [
+          "s001",
+          "s002",
+          "s003",
+          "s004",
+          "s005"
+        ],
+        "page": 10,
+        "pageId": "2026-june-grade2-q35-p10",
+        "part": "1-5",
+        "stageId": "10"
+      }
+    ],
+    "qa": {
+      "contactSheets": [
+        "qa/samples/student-contact-sheet.png",
+        "qa/samples/answer-contact-sheet.png"
+      ],
+      "dom": {
+        "answer": {
+          "pages": 10,
+          "solutions": 66
+        },
+        "matchedResponseBoxCount": 15,
+        "matchedResponseLineCount": 27,
+        "matchedSolutionSlotCount": 57,
+        "sharedTargetSlotCount": 72,
+        "student": {
+          "pages": 10,
+          "solutions": 0
+        }
+      },
+      "pdf": {
+        "answerPages": 10,
+        "studentPages": 10
+      },
+      "status": "passed",
+      "visualSamples": [
+        "qa/samples/student-p01.png",
+        "qa/samples/student-p02.png",
+        "qa/samples/student-p03.png",
+        "qa/samples/student-p04.png",
+        "qa/samples/student-p05.png",
+        "qa/samples/student-p06.png",
+        "qa/samples/student-p07.png",
+        "qa/samples/student-p08.png",
+        "qa/samples/student-p09.png",
+        "qa/samples/student-p10.png",
+        "qa/samples/answer-p01.png",
+        "qa/samples/answer-p02.png",
+        "qa/samples/answer-p03.png",
+        "qa/samples/answer-p04.png",
+        "qa/samples/answer-p05.png",
+        "qa/samples/answer-p06.png",
+        "qa/samples/answer-p07.png",
+        "qa/samples/answer-p08.png",
+        "qa/samples/answer-p09.png",
+        "qa/samples/answer-p10.png"
+      ]
+    },
+    "reportFormatVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "semanticRubricVersion": "1.0.0",
+    "sourceDigest": "fe6a8d55a86d02b0e8f5786b4d8db63250e69d1545c062ecf52a3a8026df45ee",
+    "specVersion": "1.0.6",
+    "templateVersion": "1.0.4",
+    "validationStatus": "passed",
+    "visualReview": {
+      "notes": "학생용·해설용 10쪽 전체 contact sheet와 7단계 상세 페이지를 확인했습니다. 1단계, 2·3단계 빈칸, 4·8·10단계 작성 영역, 7단계 교정 색상, 9단계 문단 순서, 마지막 페이지와 푸터에 잘림·겹침·정답 누출이 없고 문제·해설 target 배치가 일치합니다.",
+      "reviewedAt": "2026-09-08T15:35:26+09:00",
+      "reviewer": "Codex",
+      "status": "passed"
+    },
+    "workbookId": "2026-june-grade2-q35"
+  },
+  "bundleVersion": 1,
+  "canonical": {
+    "canonical": {
+      "$schema": "../../schemas/canonical-workbook.schema.json",
+      "contentVersion": "1.0.0",
+      "metadata": {
+        "grade": "고등학교 2학년",
+        "kicker": "High School Reading",
+        "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 35번",
+        "sourceLanguage": "en",
+        "targetLanguage": "ko",
+        "title": "2026학년도 6월 고2 35번 10단계 워크북",
+        "topic": "맥락 정보를 활용해 예술 작품의 내용과 의미를 해석하는 과정"
+      },
+      "passageActivities": {
+        "correction": [
+          {
+            "id": "correction-01",
+            "targets": [
+              {
+                "correct": "content is not",
+                "id": "correction-01-01",
+                "incorrect": "content are not",
+                "target": {
+                  "occurrence": 1,
+                  "text": "content are not"
+                }
+              },
+              {
+                "correct": "largely based on",
+                "id": "correction-01-02",
+                "incorrect": "largely base on",
+                "target": {
+                  "occurrence": 1,
+                  "text": "largely base on"
+                }
+              },
+              {
+                "correct": "may be given",
+                "id": "correction-01-03",
+                "incorrect": "may be gave",
+                "target": {
+                  "occurrence": 1,
+                  "text": "may be gave"
+                }
+              },
+              {
+                "correct": "information we can gather helps",
+                "id": "correction-01-04",
+                "incorrect": "information we can gather help",
+                "target": {
+                  "occurrence": 1,
+                  "text": "information we can gather help"
+                }
+              },
+              {
+                "correct": "we interpret",
+                "id": "correction-01-05",
+                "incorrect": "we interprets",
+                "target": {
+                  "occurrence": 1,
+                  "text": "we interprets"
+                }
+              },
+              {
+                "correct": "means or symbolizes",
+                "id": "correction-01-06",
+                "incorrect": "means or symbolize",
+                "target": {
+                  "occurrence": 1,
+                  "text": "means or symbolize"
+                }
+              }
+            ],
+            "textOverride": "The process we go through when we look at a work of art to determine if we recognize and can make sense of its content are not just a visual one. It is a mental process as well, largely base on the elements within and about the work we can identify and categorize. As we look and think, we may be gave clues about what the work means by where it is, when it was made, what culture it came from, who created it, or why it was made. Any information we can gather help us understand the work’s context, that is, for what historical, social, personal, political, or scientific reasons the work of art was made. And then, using all the contextual information we have gathered, we interprets the work of art’s content to discover what it means or symbolize."
+          }
+        ],
+        "paragraphOrder": [
+          {
+            "answerOrder": [
+              "A",
+              "B",
+              "C"
+            ],
+            "blocks": [
+              {
+                "id": "A",
+                "sentenceIds": [
+                  "s001",
+                  "s002"
+                ]
+              },
+              {
+                "id": "B",
+                "sentenceIds": [
+                  "s003"
+                ]
+              },
+              {
+                "id": "C",
+                "sentenceIds": [
+                  "s004",
+                  "s005"
+                ]
+              }
+            ],
+            "displayOrder": [
+              "B",
+              "C",
+              "A"
+            ],
+            "id": "paragraph-order-01"
+          }
+        ]
+      },
+      "schemaVersion": "1.0.0",
+      "sentences": [
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "go through"
+                  }
+                ],
+                "id": "s001-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "거치는"
+                  }
+                ],
+                "segmentId": "s001-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "look at"
+                  }
+                ],
+                "id": "s001-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "볼 때"
+                  }
+                ],
+                "segmentId": "s001-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "recognize"
+                  }
+                ],
+                "id": "s001-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "알아보는지를"
+                  }
+                ],
+                "segmentId": "s001-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can make sense of"
+                  }
+                ],
+                "id": "s001-m05-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "이해할 수 있는지를"
+                  }
+                ],
+                "segmentId": "s001-m05"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is not"
+                  }
+                ],
+                "id": "s001-m06-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "아니다"
+                  }
+                ],
+                "segmentId": "s001-m06"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "content"
+                },
+                "id": "s001-m05-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "내용"
+                },
+                "meaning": "작품이 담고 있는 대상과 생각",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s001-m05"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "visual"
+                },
+                "id": "s001-m06-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "시각적인"
+                },
+                "meaning": "보는 감각과 관련된",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s001-m06"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s001-a",
+                  "text": "The process we go through when we look at a work of art"
+                },
+                {
+                  "id": "s001-b",
+                  "text": "to determine if we recognize"
+                },
+                {
+                  "id": "s001-c",
+                  "text": "and can make sense of its content"
+                },
+                {
+                  "id": "s001-d",
+                  "text": "is not just a visual one."
+                }
+              ],
+              "displayOrder": [
+                "s001-c",
+                "s001-a",
+                "s001-d",
+                "s001-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s001-choice-01",
+                  "options": [
+                    "not just a visual one",
+                    "entirely visual"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "not just a visual one"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s001-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "recognize and can make sense of its content"
+                  }
+                },
+                {
+                  "id": "s001-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is not just a visual one"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s001-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "그 내용을 알아보고 이해할 수 있는지"
+                  }
+                },
+                {
+                  "id": "s001-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "단지 시각적인 것만은 아니다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "go through",
+                  "id": "s001-verb-01",
+                  "lemma": "go",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "go through"
+                  }
+                },
+                {
+                  "cue": "look at",
+                  "id": "s001-verb-02",
+                  "lemma": "look",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "look at"
+                  }
+                },
+                {
+                  "cue": "make sense of",
+                  "id": "s001-verb-03",
+                  "lemma": "make",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can make sense of"
+                  }
+                },
+                {
+                  "cue": "be",
+                  "id": "s001-verb-04",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "is not"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "process",
+                "go through",
+                "look at a work of art",
+                "determine",
+                "recognize",
+                "make sense of content"
+              ]
+            }
+          },
+          "id": "s001",
+          "meaningSegments": [
+            {
+              "en": "The process we go through",
+              "id": "s001-m01",
+              "ko": "우리가 거치는 과정은"
+            },
+            {
+              "en": "when we look at a work of art",
+              "id": "s001-m02",
+              "ko": "예술 작품을 볼 때"
+            },
+            {
+              "en": "to determine",
+              "id": "s001-m03",
+              "ko": "판단하기 위한"
+            },
+            {
+              "en": "if we recognize",
+              "id": "s001-m04",
+              "ko": "우리가 알아보는지를"
+            },
+            {
+              "en": "and can make sense of its content",
+              "id": "s001-m05",
+              "ko": "그리고 그 내용을 이해할 수 있는지를"
+            },
+            {
+              "en": "is not just a visual one.",
+              "id": "s001-m06",
+              "ko": "단지 시각적인 것만은 아니다."
+            }
+          ],
+          "no": 1,
+          "source": "The process we go through when we look at a work of art to determine if we recognize and can make sense of its content is not just a visual one.",
+          "translation": "예술 작품을 볼 때 그 내용을 알아보고 이해할 수 있는지 판단하기 위해 거치는 과정은 단지 시각적인 것만은 아니다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "is"
+                  }
+                ],
+                "id": "s002-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "과정이다"
+                  }
+                ],
+                "segmentId": "s002-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can identify"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "categorize"
+                  }
+                ],
+                "id": "s002-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "식별하고"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "분류할 수 있는"
+                  }
+                ],
+                "segmentId": "s002-m04"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "mental"
+                },
+                "id": "s002-m01-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "정신적인"
+                },
+                "meaning": "생각과 판단에 관련된",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s002-m01"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "elements"
+                },
+                "id": "s002-m02-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "요소들"
+                },
+                "meaning": "전체를 이루는 부분들",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s002-m02"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s002-a",
+                  "text": "It is a mental process as well,"
+                },
+                {
+                  "id": "s002-b",
+                  "text": "largely based on the elements"
+                },
+                {
+                  "id": "s002-c",
+                  "text": "within and about the work"
+                },
+                {
+                  "id": "s002-d",
+                  "text": "we can identify and categorize."
+                }
+              ],
+              "displayOrder": [
+                "s002-b",
+                "s002-d",
+                "s002-a",
+                "s002-c"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s002-choice-01",
+                  "options": [
+                    "mental process",
+                    "purely physical reaction"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "mental process"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s002-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "a mental process as well"
+                  }
+                },
+                {
+                  "id": "s002-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "identify and categorize"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s002-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "또한 정신적인 과정"
+                  }
+                },
+                {
+                  "id": "s002-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "식별하고 분류할 수 있는"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "be",
+                  "id": "s002-verb-01",
+                  "lemma": "be",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "It is"
+                  }
+                },
+                {
+                  "cue": "identify and categorize",
+                  "id": "s002-verb-02",
+                  "lemma": "identify",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can identify and categorize"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "mental process",
+                "as well",
+                "largely based on",
+                "elements",
+                "within and about the work",
+                "identify and categorize"
+              ]
+            }
+          },
+          "id": "s002",
+          "meaningSegments": [
+            {
+              "en": "It is a mental process as well,",
+              "id": "s002-m01",
+              "ko": "그것은 또한 정신적인 과정이다"
+            },
+            {
+              "en": "largely based on the elements",
+              "id": "s002-m02",
+              "ko": "대체로 그 요소들에 바탕을 둔"
+            },
+            {
+              "en": "within and about the work",
+              "id": "s002-m03",
+              "ko": "작품 안과 작품에 관한"
+            },
+            {
+              "en": "we can identify and categorize.",
+              "id": "s002-m04",
+              "ko": "우리가 식별하고 분류할 수 있는."
+            }
+          ],
+          "no": 2,
+          "source": "It is a mental process as well, largely based on the elements within and about the work we can identify and categorize.",
+          "translation": "그것은 또한 정신적인 과정이며, 대체로 우리가 식별하고 분류할 수 있는 작품 안팎의 요소들에 바탕을 둔다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "look"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "think"
+                  }
+                ],
+                "id": "s003-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "보고"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "생각할 때"
+                  }
+                ],
+                "segmentId": "s003-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "may be given"
+                  }
+                ],
+                "id": "s003-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "얻을 수 있다"
+                  }
+                ],
+                "segmentId": "s003-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "means"
+                  }
+                ],
+                "id": "s003-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "의미하는지"
+                  }
+                ],
+                "segmentId": "s003-m03"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was made"
+                  }
+                ],
+                "id": "s003-m05-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "만들어졌는지"
+                  }
+                ],
+                "segmentId": "s003-m05"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "came from"
+                  }
+                ],
+                "id": "s003-m06-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "나왔는지를"
+                  }
+                ],
+                "segmentId": "s003-m06"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "clues"
+                },
+                "id": "s003-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "단서"
+                },
+                "meaning": "판단이나 해석에 도움이 되는 정보",
+                "reasons": [
+                  "topic-core"
+                ],
+                "segmentId": "s003-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "culture"
+                },
+                "id": "s003-m06-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "문화"
+                },
+                "meaning": "한 사회의 생활 방식과 가치 체계",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s003-m06"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s003-a",
+                  "text": "As we look and think, we may be given clues"
+                },
+                {
+                  "id": "s003-b",
+                  "text": "about what the work means"
+                },
+                {
+                  "id": "s003-c",
+                  "text": "by where it is, when it was made,"
+                },
+                {
+                  "id": "s003-d",
+                  "text": "what culture it came from, who created it, or why it was made."
+                }
+              ],
+              "displayOrder": [
+                "s003-c",
+                "s003-a",
+                "s003-d",
+                "s003-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s003-choice-01",
+                  "options": [
+                    "may be given clues",
+                    "must ignore all clues"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "may be given clues"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s003-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "may be given clues"
+                  }
+                },
+                {
+                  "id": "s003-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "what culture it came from"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s003-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "작품의 의미에 관한 단서"
+                  }
+                },
+                {
+                  "id": "s003-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "어느 문화에서 나왔는지"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "give",
+                  "id": "s003-verb-01",
+                  "lemma": "give",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "may be given"
+                  }
+                },
+                {
+                  "cue": "mean",
+                  "id": "s003-verb-02",
+                  "lemma": "mean",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "means"
+                  }
+                },
+                {
+                  "cue": "make",
+                  "id": "s003-verb-03",
+                  "lemma": "make",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was made"
+                  }
+                },
+                {
+                  "cue": "come from",
+                  "id": "s003-verb-04",
+                  "lemma": "come",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "came from"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "look and think",
+                "be given clues",
+                "work means",
+                "where and when",
+                "culture",
+                "creator and reason"
+              ]
+            }
+          },
+          "id": "s003",
+          "meaningSegments": [
+            {
+              "en": "As we look and think,",
+              "id": "s003-m01",
+              "ko": "우리가 보고 생각할 때,"
+            },
+            {
+              "en": "we may be given clues",
+              "id": "s003-m02",
+              "ko": "우리는 단서를 얻을 수 있다"
+            },
+            {
+              "en": "about what the work means",
+              "id": "s003-m03",
+              "ko": "작품이 무엇을 의미하는지에 관한"
+            },
+            {
+              "en": "by where it is,",
+              "id": "s003-m04",
+              "ko": "그것이 어디에 있는지를 통해,"
+            },
+            {
+              "en": "when it was made,",
+              "id": "s003-m05",
+              "ko": "언제 만들어졌는지를 통해,"
+            },
+            {
+              "en": "what culture it came from,",
+              "id": "s003-m06",
+              "ko": "어느 문화에서 나왔는지를 통해,"
+            },
+            {
+              "en": "who created it,",
+              "id": "s003-m07",
+              "ko": "누가 그것을 만들었는지를 통해,"
+            },
+            {
+              "en": "or why it was made.",
+              "id": "s003-m08",
+              "ko": "또는 왜 만들어졌는지를 통해."
+            }
+          ],
+          "no": 3,
+          "source": "As we look and think, we may be given clues about what the work means by where it is, when it was made, what culture it came from, who created it, or why it was made.",
+          "translation": "우리가 보고 생각할 때, 작품이 어디에 있는지, 언제 만들어졌는지, 어느 문화에서 나왔는지, 누가 만들었는지, 왜 만들어졌는지를 통해 작품의 의미에 관한 단서를 얻을 수 있다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "can gather"
+                  }
+                ],
+                "id": "s004-m01-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "수집할 수 있는"
+                  }
+                ],
+                "segmentId": "s004-m01"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "helps"
+                  }
+                ],
+                "id": "s004-m02-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "돕는다"
+                  }
+                ],
+                "segmentId": "s004-m02"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "was made"
+                  }
+                ],
+                "id": "s004-m06-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "만들어졌는지를"
+                  }
+                ],
+                "segmentId": "s004-m06"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "context"
+                },
+                "id": "s004-m03-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "맥락"
+                },
+                "meaning": "작품이 만들어진 배경과 관련 상황",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s004-m03"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "scientific reasons"
+                },
+                "id": "s004-m05-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "과학적 이유"
+                },
+                "meaning": "과학과 관련된 근거나 목적",
+                "reasons": [
+                  "academic"
+                ],
+                "segmentId": "s004-m05"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s004-a",
+                  "text": "Any information we can gather"
+                },
+                {
+                  "id": "s004-b",
+                  "text": "helps us understand the work’s context,"
+                },
+                {
+                  "id": "s004-c",
+                  "text": "that is, for what historical, social, personal, political, or scientific reasons"
+                },
+                {
+                  "id": "s004-d",
+                  "text": "the work of art was made."
+                }
+              ],
+              "displayOrder": [
+                "s004-b",
+                "s004-d",
+                "s004-a",
+                "s004-c"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s004-choice-01",
+                  "options": [
+                    "context",
+                    "surface appearance only"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "context"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s004-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "helps us understand the work’s context"
+                  }
+                },
+                {
+                  "id": "s004-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "historical, social, personal, political, or scientific reasons"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s004-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "작품의 맥락"
+                  }
+                },
+                {
+                  "id": "s004-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "역사적, 사회적, 개인적, 정치적 또는 과학적 이유"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "gather",
+                  "id": "s004-verb-01",
+                  "lemma": "gather",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "can gather"
+                  }
+                },
+                {
+                  "cue": "help",
+                  "id": "s004-verb-02",
+                  "lemma": "help",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "helps"
+                  }
+                },
+                {
+                  "cue": "make",
+                  "id": "s004-verb-03",
+                  "lemma": "make",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "was made"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "any information",
+                "gather",
+                "help us understand",
+                "work’s context",
+                "historical and social reasons",
+                "be made"
+              ]
+            }
+          },
+          "id": "s004",
+          "meaningSegments": [
+            {
+              "en": "Any information we can gather",
+              "id": "s004-m01",
+              "ko": "우리가 수집할 수 있는 모든 정보는"
+            },
+            {
+              "en": "helps us understand",
+              "id": "s004-m02",
+              "ko": "우리가 이해하도록 돕는다"
+            },
+            {
+              "en": "the work’s context,",
+              "id": "s004-m03",
+              "ko": "작품의 맥락을,"
+            },
+            {
+              "en": "that is,",
+              "id": "s004-m04",
+              "ko": "바꾸어 말하면,"
+            },
+            {
+              "en": "for what historical, social, personal, political, or scientific reasons",
+              "id": "s004-m05",
+              "ko": "어떤 역사적, 사회적, 개인적, 정치적 또는 과학적 이유로"
+            },
+            {
+              "en": "the work of art was made.",
+              "id": "s004-m06",
+              "ko": "예술 작품이 만들어졌는지를."
+            }
+          ],
+          "no": 4,
+          "source": "Any information we can gather helps us understand the work’s context, that is, for what historical, social, personal, political, or scientific reasons the work of art was made.",
+          "translation": "우리가 수집할 수 있는 모든 정보는 작품이 어떤 역사적, 사회적, 개인적, 정치적 또는 과학적 이유로 만들어졌는지, 곧 작품의 맥락을 이해하도록 돕는다."
+        },
+        {
+          "annotations": {
+            "predicates": [
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "have gathered"
+                  }
+                ],
+                "id": "s005-m03-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "수집한"
+                  }
+                ],
+                "segmentId": "s005-m03"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "interpret"
+                  }
+                ],
+                "id": "s005-m04-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "해석한다"
+                  }
+                ],
+                "segmentId": "s005-m04"
+              },
+              {
+                "en": [
+                  {
+                    "occurrence": 1,
+                    "text": "means"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "symbolizes"
+                  }
+                ],
+                "id": "s005-m06-p01",
+                "ko": [
+                  {
+                    "occurrence": 1,
+                    "text": "의미하거나"
+                  },
+                  {
+                    "occurrence": 1,
+                    "text": "상징하는지를"
+                  }
+                ],
+                "segmentId": "s005-m06"
+              }
+            ],
+            "vocabulary": [
+              {
+                "colorSlot": 1,
+                "en": {
+                  "occurrence": 1,
+                  "text": "contextual information"
+                },
+                "id": "s005-m02-v01",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "맥락 정보"
+                },
+                "meaning": "작품의 배경과 상황에 관한 정보",
+                "reasons": [
+                  "academic",
+                  "topic-core"
+                ],
+                "segmentId": "s005-m02"
+              },
+              {
+                "colorSlot": 2,
+                "en": {
+                  "occurrence": 1,
+                  "text": "content"
+                },
+                "id": "s005-m04-v02",
+                "ko": {
+                  "occurrence": 1,
+                  "text": "내용"
+                },
+                "meaning": "작품이 담고 있는 대상과 생각",
+                "reasons": [
+                  "abstract",
+                  "topic-core"
+                ],
+                "segmentId": "s005-m04"
+              }
+            ]
+          },
+          "exercises": {
+            "arrange": {
+              "chunks": [
+                {
+                  "id": "s005-a",
+                  "text": "And then, using all the contextual information"
+                },
+                {
+                  "id": "s005-b",
+                  "text": "we have gathered,"
+                },
+                {
+                  "id": "s005-c",
+                  "text": "we interpret the work of art’s content"
+                },
+                {
+                  "id": "s005-d",
+                  "text": "to discover what it means or symbolizes."
+                }
+              ],
+              "displayOrder": [
+                "s005-c",
+                "s005-a",
+                "s005-d",
+                "s005-b"
+              ]
+            },
+            "choice": {
+              "targets": [
+                {
+                  "id": "s005-choice-01",
+                  "options": [
+                    "interpret",
+                    "ignore"
+                  ],
+                  "target": {
+                    "occurrence": 1,
+                    "text": "interpret"
+                  }
+                }
+              ]
+            },
+            "enBlank": {
+              "targets": [
+                {
+                  "id": "s005-en-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "all the contextual information"
+                  }
+                },
+                {
+                  "id": "s005-en-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "interpret the work of art’s content"
+                  }
+                }
+              ]
+            },
+            "koBlank": {
+              "targets": [
+                {
+                  "id": "s005-ko-01",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "모든 맥락 정보를 사용하여"
+                  }
+                },
+                {
+                  "id": "s005-ko-02",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "예술 작품의 내용을 해석한다"
+                  }
+                }
+              ]
+            },
+            "verb": {
+              "targets": [
+                {
+                  "cue": "gather",
+                  "id": "s005-verb-01",
+                  "lemma": "gather",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "have gathered"
+                  }
+                },
+                {
+                  "cue": "interpret",
+                  "id": "s005-verb-02",
+                  "lemma": "interpret",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "interpret"
+                  }
+                },
+                {
+                  "cue": "mean",
+                  "id": "s005-verb-03",
+                  "lemma": "mean",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "means"
+                  }
+                },
+                {
+                  "cue": "symbolize",
+                  "id": "s005-verb-04",
+                  "lemma": "symbolize",
+                  "target": {
+                    "occurrence": 1,
+                    "text": "symbolizes"
+                  }
+                }
+              ]
+            },
+            "writing": {
+              "bank": [
+                "and then",
+                "contextual information",
+                "gather",
+                "interpret",
+                "work of art’s content",
+                "mean or symbolize"
+              ]
+            }
+          },
+          "id": "s005",
+          "meaningSegments": [
+            {
+              "en": "And then,",
+              "id": "s005-m01",
+              "ko": "그런 다음,"
+            },
+            {
+              "en": "using all the contextual information",
+              "id": "s005-m02",
+              "ko": "모든 맥락 정보를 사용하여"
+            },
+            {
+              "en": "we have gathered,",
+              "id": "s005-m03",
+              "ko": "우리가 수집한,"
+            },
+            {
+              "en": "we interpret the work of art’s content",
+              "id": "s005-m04",
+              "ko": "우리는 예술 작품의 내용을 해석한다"
+            },
+            {
+              "en": "to discover",
+              "id": "s005-m05",
+              "ko": "알아내기 위해"
+            },
+            {
+              "en": "what it means or symbolizes.",
+              "id": "s005-m06",
+              "ko": "그것이 무엇을 의미하거나 상징하는지를."
+            }
+          ],
+          "no": 5,
+          "source": "And then, using all the contextual information we have gathered, we interpret the work of art’s content to discover what it means or symbolizes.",
+          "translation": "그런 다음 수집한 모든 맥락 정보를 사용하여 우리는 작품이 무엇을 의미하거나 상징하는지 알아내기 위해 예술 작품의 내용을 해석한다."
+        }
+      ],
+      "sourceStatus": {
+        "notes": "원본 PDF 6쪽의 35번 본문과 번호 표시를 고해상도로 렌더링해 전사했습니다. 전체 흐름과 관계없는 정답 문장 ③ We should strive to understand a work of art as we see it, without being influenced by the background of the work, its creator, or its historical context.는 출제 정보로 보존하고, 학습용 canonical에는 이를 제외한 일관된 지문을 수록했습니다.",
+        "references": [
+          "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+        ],
+        "sentenceCount": 5,
+        "sourceType": "pdf",
+        "status": "confirmed",
+        "verifiedAt": "2026-09-08T10:00:00+09:00"
+      },
+      "specVersion": "1.0.6",
+      "updateState": {
+        "appliedUpdates": [
+          {
+            "appliedAt": "2026-09-08T10:05:00+09:00",
+            "fromContentVersion": "0.0.0",
+            "id": "U-20260908-018",
+            "report": "reports/updates/U-20260908-018.md",
+            "scope": "selected",
+            "toContentVersion": "1.0.0"
+          }
+        ],
+        "defaultScope": "new-only"
+      },
+      "workbookId": "2026-june-grade2-q35"
+    },
+    "contentVersion": "1.0.0",
+    "files": [
+      {
+        "path": "workbooks/2026-june-grade2-q35/content.json",
+        "sha256": "52b9b5616c109fc177f90f1196723d61c78a905f7ef778c83883cfafff23b78b",
+        "size": 39794
+      }
+    ],
+    "workbookId": "2026-june-grade2-q35"
+  },
+  "spec": {
+    "files": [
+      {
+        "path": "config/versions.json",
+        "sha256": "5cc87ad2d4bbf7020c85dd1758306a2c645b0d9e21a21d129586b99512eff9e8",
+        "size": 1731
+      },
+      {
+        "path": "config/workbook-spec.json",
+        "sha256": "aadb3fe161b100e3a68ecb42fab51775e9738153a04278a53b27e7172f8d8f69",
+        "size": 17021
+      },
+      {
+        "path": "docs/semantic-rubric.md",
+        "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+        "size": 8058
+      },
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "schemaFiles": [
+      {
+        "path": "schemas/canonical-workbook.schema.json",
+        "sha256": "a128297a50c8aecca1122e4d8fcb186937dcb070d5e8b998cae0abfb218e6997",
+        "size": 17478
+      },
+      {
+        "path": "schemas/update.schema.json",
+        "sha256": "76758164ed8c5bb1349c7c0d338c2d97837647aa19688a50553ed872fbb3dd7f",
+        "size": 3456
+      }
+    ],
+    "semanticRubricFile": {
+      "path": "docs/semantic-rubric.md",
+      "sha256": "2b21b6f5ab1c47bd9109bf4172ed54f7bc4f6d6de87abf5588e820d743b895a2",
+      "size": 8058
+    },
+    "semanticRubricVersion": "1.0.0",
+    "spec": {
+      "$id": "https://local.workbook/spec/workbook-spec-1.0.0.json",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "answerEditionContract": {
+        "answerFillClassMayAutoColor": false,
+        "choicePromptVisibleInAnswer": true,
+        "redAllowedOnlyOnSolutionValues": true,
+        "sameStageAndExerciseDomAsStudent": true,
+        "solutionClass": "solution-value",
+        "solutionColor": "#D71920",
+        "solutionInsertion": "fill-the-same-solution-slot",
+        "studentDerivation": "render answer first, lock every solution slot and writing response geometry, then remove solution values only",
+        "studentPayloadMayContainSolutions": false
+      },
+      "canonicalSchema": "schemas/canonical-workbook.schema.json",
+      "canonicalText": {
+        "baseTextOverride": {
+          "allowedOnlyWhen": "the approved exercise must intentionally differ from the canonical default",
+          "defaultStorage": "omit-baseText-and-derive-from-canonical",
+          "redundantDefaultCopy": "forbidden",
+          "requiredCompanionField": "overrideReason"
+        },
+        "displayDefault": "source",
+        "exerciseBaseTextDefaults": {
+          "choice": "display-or-source",
+          "enBlank": "display-or-source",
+          "koBlank": "translation",
+          "verb": "display-or-source"
+        },
+        "markup": "forbidden",
+        "reconstruction": {
+          "arrangeChunks": "join arrange.chunks[].text in canonical array order with one ASCII space",
+          "meaningSegments": "join meaningSegments[].en with one ASCII space",
+          "paragraphBlocks": "join each referenced sentence display or source with one ASCII space"
+        },
+        "sourceWhitespace": "single-space-between-tokens",
+        "targetAnchor": {
+          "rendererRule": "targetId를 solution slot과 연결하고 문자열 종류별 정규식 순서에 의존하지 않는다.",
+          "shape": {
+            "occurrence": "one-based occurrence in the applicable base text",
+            "text": "exact substring"
+          }
+        }
+      },
+      "contentOwnership": {
+        "authorable": [
+          "metadata",
+          "sourceStatus",
+          "sentences[].source",
+          "sentences[].display",
+          "sentences[].translation",
+          "sentences[].meaningSegments",
+          "sentences[].annotations",
+          "sentences[].exercises",
+          "passageActivities.correction",
+          "passageActivities.paragraphOrder",
+          "updateState"
+        ],
+        "derived": [
+          "stage number, title, instruction and renderer mode",
+          "item and unit numbers",
+          "part ranges and page boundaries",
+          "student and answer projections",
+          "blank, predicate, vocabulary and solution markup",
+          "answer-line height and layout classes",
+          "page count, footer number and output filenames"
+        ],
+        "rule": "콘텐츠 작성자는 derived 필드를 저장하지 않으며 compiler가 이 spec에서 계산한다."
+      },
+      "logicalStages": [
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].meaningSegments",
+            "sentences[].annotations.predicates",
+            "sentences[].annotations.vocabulary"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "passage-practice",
+          "instruction": "영문과 해석을 읽고 문장의 의미를 이해해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean-inline-hint"
+            ],
+            "vocabularyColoring": true
+          },
+          "number": 1,
+          "pagination": {
+            "hardMaximum": 13,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 12,
+            "unit": "sentence"
+          },
+          "rendererMode": "meaning",
+          "scope": "sentence",
+          "title": "지문 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].exercises.koBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "korean-cloze",
+          "instruction": "영문을 읽고 우리말 해석의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 2,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (우리말)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.enBlank"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "english-cloze",
+          "instruction": "우리말 해석을 읽고 영문의 빈칸을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 3,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "빈칸 완성하기 (영문)"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].display|source",
+            "sentences[].translation"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "translation-practice",
+          "instruction": "문장 전체의 자연스러운 해석을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 4,
+          "pagination": {
+            "hardMaximum": 11,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 10,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "해석 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.verb"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "verb-form",
+          "instruction": "괄호 안의 동사를 문맥에 맞는 형태로 바꾸어 문장을 완성해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 5,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "동사형 연습하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.choice"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "grammar-vocabulary-choice",
+          "instruction": "괄호 안에서 옳은 어법과 어휘를 골라 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "english",
+              "korean"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 6,
+          "pagination": {
+            "hardMaximum": 14,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 14,
+            "unit": "sentence"
+          },
+          "rendererMode": "parallel",
+          "scope": "sentence",
+          "title": "어법·어휘 고르기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.correction"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "correction",
+          "instruction": "밑줄 친 부분 중 어법상 어색한 곳을 찾아 알맞게 고쳐 쓰세요.",
+          "layout": {
+            "fieldOrder": [
+              "passage",
+              "correction-rows"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 7,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "correction",
+          "scope": "passage-activity",
+          "title": "어색한 곳 찾기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.arrange"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "sentence-order",
+          "instruction": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열해 보세요.",
+          "layout": {
+            "answerEditionSolution": "complete sentence in the shared answer-lines response slot",
+            "arrangementSlots": "forbidden",
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 8,
+          "pagination": {
+            "hardMaximum": 6,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 6,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "순서 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "passageActivities.paragraphOrder"
+          ],
+          "coverage": "all-declared-activities",
+          "id": "paragraph-order",
+          "instruction": "다음 문단을 알맞은 순서로 배열해 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "fixed-intro",
+              "shuffled-blocks",
+              "fixed-outro",
+              "sequence-slots"
+            ],
+            "vocabularyColoring": false
+          },
+          "number": 9,
+          "pagination": {
+            "hardMaximum": 1,
+            "overflowAction": "split-activity-with-same-stage-identity-or-block-release",
+            "targetPerPage": 1,
+            "unit": "activity"
+          },
+          "rendererMode": "paragraph-order",
+          "scope": "passage-activity",
+          "title": "문단 배열하기"
+        },
+        {
+          "canonicalInputs": [
+            "sentences[].translation",
+            "sentences[].exercises.writing",
+            "sentences[].display|source"
+          ],
+          "coverage": "all-sentences-exactly-once",
+          "id": "composition",
+          "instruction": "우리말과 제시어만 보고 원문과 같은 뜻의 영어 문장을 써 보세요.",
+          "layout": {
+            "fieldOrder": [
+              "korean",
+              "bank",
+              "answer-lines"
+            ],
+            "studentEnglishSkeleton": "forbidden",
+            "vocabularyColoring": false
+          },
+          "number": 10,
+          "pagination": {
+            "hardMaximum": 8,
+            "overflowAction": "reduce-current-part-and-render-again",
+            "targetPerPage": 8,
+            "unit": "sentence"
+          },
+          "rendererMode": "writing",
+          "scope": "sentence",
+          "title": "영작 연습하기"
+        }
+      ],
+      "paginationContract": {
+        "continuationPageMinimumItems": 2,
+        "forbidden": [
+          "legacy closed seven-stage layout or B1/B2/B3/B4 structure",
+          "legacy 흐름 or 뜻 작성 columns",
+          "content crossing the page footer",
+          "content from one page overlapping the next page",
+          "clipped text",
+          "a singleton continuation page that can be avoided within the stage hard maximum",
+          "renumbering a new part from one"
+        ],
+        "layoutPreference": "vertical",
+        "numbering": "continuous-original-sentence-number",
+        "packingStrategy": "fewest-pages-balanced-within-hard-maximum",
+        "partLabel": "inclusive-original-sentence-number-range",
+        "readingLayout": "allowed-only-after-explicit-user-request",
+        "singletonTailPage": "forbidden-when-the-stage-has-multiple-items",
+        "stageIdentityAcrossParts": "number-title-instruction-renderer-mode-unchanged",
+        "underfilledTailAction": "rebalance-all-pages-of-the-same-stage",
+        "visualFitOverridesTargetCount": true
+      },
+      "principles": {
+        "canonicalDataContainsHtml": false,
+        "logicalStageCount": 10,
+        "publishOnlyAfterAllChecksPass": true,
+        "singleContentSource": true,
+        "studentAndAnswerShareExerciseStructure": true,
+        "studentProjectionSource": "answer-edition-after-browser-measured-all-solution-layouts",
+        "uncertainSourcePolicy": "stop-and-request-clearer-source"
+      },
+      "purpose": "확정된 콘텐츠를 한 번만 저장하고 학생용·해설용 10단계 워크북을 결정론적으로 생성한다.",
+      "releaseContract": {
+        "collisionPolicy": "allocate-_v2-_v3-without-overwriting",
+        "failedBuildPolicy": "do-not-create-or-modify-output-directory",
+        "filenames": [
+          "문제.html",
+          "문제.pdf",
+          "해설.html",
+          "해설.pdf"
+        ],
+        "finalHtmlDependencies": "self-contained",
+        "outputRoot": "outputs",
+        "previewFixture": "one-shared-canonical-fixture",
+        "publish": "atomic-after-all-gates-pass",
+        "stagingRoot": ".build/releases",
+        "templatePreview": "student and answer template entrypoints open directly with the same fixed ten-stage fixture"
+      },
+      "semanticRubric": "docs/semantic-rubric.md",
+      "specVersion": "1.0.6",
+      "updates": {
+        "aggregateReportPathPattern": "reports/updates/{updateId}.md",
+        "allowedScopes": [
+          "new-only",
+          "all",
+          "selected",
+          "manual-review"
+        ],
+        "changelogPath": "CHANGELOG.md",
+        "defaultScope": "new-only",
+        "idPattern": "^U-[0-9]{8}-[0-9]{3,}$",
+        "reportPathPattern": "reports/updates/{updateId}/{workbookId}.md",
+        "reportRequired": true,
+        "requiredImpactDimensions": [
+          "canonical fields",
+          "stage numbers",
+          "sentence or activity ids",
+          "student and answer editions",
+          "page count and part ranges",
+          "component versions"
+        ],
+        "requiredReportSections": [
+          "요약",
+          "요청 내용",
+          "직접 변경",
+          "파생 변경",
+          "영향 없음",
+          "파일 변경",
+          "출력 변화",
+          "검증 결과",
+          "호환성",
+          "버전"
+        ],
+        "versionBump": {
+          "backward-compatible field or stage capability": "minor",
+          "breaking schema or canonical semantics": "major",
+          "bug fix, validation strengthening or copy correction": "patch"
+        }
+      },
+      "validationGates": {
+        "canonical": [
+          "JSON Schema passes",
+          "sourceStatus.status is confirmed",
+          "sentence ids and numbers are unique, consecutive and aligned",
+          "meaning segment English joined with one space equals display or source",
+          "every meaning segment has one-to-one English and Korean text",
+          "all target anchors resolve exactly at their declared occurrence",
+          "choice options contain the correct target exactly once",
+          "arrange chunks in canonical order reconstruct display or source exactly",
+          "arrange displayOrder contains every chunk id exactly once",
+          "paragraph displayOrder contains every block id exactly once",
+          "correction targets restore their base excerpt exactly",
+          "vocabulary and predicate annotations resolve inside their meaning segment"
+        ],
+        "compiled": [
+          "exactly ten logical stages appear in fixed order",
+          "sentence stages contain exactly one item for every source sentence",
+          "all part ranges are complete, consecutive and match item numbers",
+          "student and answer exercise structures are identical",
+          "every non-writing solution-slot position, width, and height is copied from the browser-measured answer edition before solution text is removed",
+          "student response-line positions, widths, and heights are copied from the browser-measured answer edition before solution text is removed",
+          "student writing areas do not draw replacement guide lines after the answer text is removed",
+          "student edition exposes no solution values",
+          "every bank, target and slot cardinality is internally consistent",
+          "stage 10 student edition contains no English skeleton"
+        ],
+        "release": [
+          "problem HTML exists",
+          "problem PDF exists",
+          "answer HTML exists",
+          "answer PDF exists",
+          "build manifest records all component versions and applied updates",
+          "update report exists when an update id is applied"
+        ],
+        "rendered": [
+          "document fonts and images are ready",
+          "browser console and page errors are empty",
+          "data-render-validation is exactly ok",
+          "no unresolved template placeholder remains",
+          "no preview fixture data remains in final HTML",
+          "no page or footer overflow exists under print media",
+          "answer red is present only on solution-value nodes",
+          "every student and answer non-writing solution-slot has matching page-relative left, top, width, and height within 0.75px",
+          "every student and answer writing response box and answer-line trace matches within 0.75px",
+          "representative and risk pages pass visual review"
+        ]
+      },
+      "vocabularyContract": {
+        "allowedStageNumbers": [
+          1
+        ],
+        "differentTermsInOneMeaningSegmentNeedDifferentSlots": true,
+        "maximumPerSentence": 3,
+        "redSlotForbidden": true,
+        "rendererClasses": {
+          "english": "vocab vocab-{slot} gloss",
+          "korean": "vocab vocab-{slot}"
+        },
+        "sameEnglishAndKoreanSlot": true,
+        "slots": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "specVersion": "1.0.6"
+  },
+  "template": {
+    "files": [
+      {
+        "path": "assets/yonjogyo-logo-footer.png",
+        "sha256": "e717b1b2e4adeb9bd80e3779d5963414d98cb0da493d15ad36629bc62f303bf1",
+        "size": 29359
+      },
+      {
+        "path": "workbook_engine/templates/renderer.js",
+        "sha256": "25a21d18af7ee1100e7a4d0023af1175140e82dd2cce2a246d0fcd5ece2411ee",
+        "size": 42558
+      },
+      {
+        "path": "workbook_engine/templates/shell.html",
+        "sha256": "1a0d56b95811b303e3fa73650dfe1ad690e2531e0628885a16cac72d5476007c",
+        "size": 1212
+      },
+      {
+        "path": "workbook_engine/templates/workbook.css",
+        "sha256": "ceab51f4246462f507a1de7c6aea850fb577113c37e74b4d98a645f23744a330",
+        "size": 15185
+      }
+    ],
+    "rendererContract": "shared-dom-explicit-targets-fail-closed",
+    "templateVersion": "1.0.4"
+  }
+}

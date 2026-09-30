@@ -1,0 +1,2133 @@
+{
+  "$schema": "../../schemas/canonical-workbook.schema.json",
+  "schemaVersion": "1.0.0",
+  "specVersion": "1.0.6",
+  "contentVersion": "1.0.0",
+  "workbookId": "2026-june-grade2-q24",
+  "metadata": {
+    "title": "2026학년도 6월 고2 24번 10단계 워크북",
+    "lessonLabel": "2026학년도 6월 고2 전국연합학력평가 24번",
+    "kicker": "High School Reading",
+    "grade": "고등학교 2학년",
+    "topic": "먼 별의 빛을 통해 우주의 과거를 볼 수 있는 원리",
+    "sourceLanguage": "en",
+    "targetLanguage": "ko"
+  },
+  "sourceStatus": {
+    "status": "confirmed",
+    "sourceType": "pdf",
+    "references": [
+      "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/가족/램 2026 중간고사 대비/풍동고 고2 중간고사/고2 6월 원본.pdf"
+    ],
+    "sentenceCount": 10,
+    "verifiedAt": "2026-09-01T15:00:00+09:00",
+    "notes": "원본 PDF 3쪽의 24번 본문을 고해상도로 렌더링해 전사했으며, 본문 아래 별표 어휘 주석과 문항 선택지는 지문 정본에서 제외했습니다."
+  },
+  "updateState": {
+    "defaultScope": "new-only",
+    "appliedUpdates": [
+      {
+        "id": "U-20260901-015",
+        "scope": "selected",
+        "fromContentVersion": "0.0.0",
+        "toContentVersion": "1.0.0",
+        "appliedAt": "2026-09-01T15:05:00+09:00",
+        "report": "reports/updates/U-20260901-015.md"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "source": "The light from even our nearest stellar neighbour takes four years to reach us.",
+      "translation": "우리에게 가장 가까운 이웃 별에서 오는 빛조차 우리에게 도달하는 데 4년이 걸린다.",
+      "meaningSegments": [
+        {
+          "en": "The light",
+          "ko": "빛은",
+          "id": "s001-m01"
+        },
+        {
+          "en": "from even our nearest stellar neighbour",
+          "ko": "우리의 가장 가까운 이웃 별에서조차 오는",
+          "id": "s001-m02"
+        },
+        {
+          "en": "takes four years",
+          "ko": "4년이 걸린다",
+          "id": "s001-m03"
+        },
+        {
+          "en": "to reach us.",
+          "ko": "우리에게 도달하는 데.",
+          "id": "s001-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "takes",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "걸린다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s001-m03-p01",
+            "segmentId": "s001-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "stellar neighbour",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "이웃 별",
+              "occurrence": 1
+            },
+            "meaning": "인접한 별",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s001-m02-v01",
+            "segmentId": "s001-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "reach",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "도달",
+              "occurrence": 1
+            },
+            "meaning": "도달하다",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s001-m04-v02",
+            "segmentId": "s001-m04",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s001-ko-01",
+              "target": {
+                "text": "가장 가까운 이웃 별",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-ko-02",
+              "target": {
+                "text": "4년이 걸린다",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s001-en-01",
+              "target": {
+                "text": "nearest stellar neighbour",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s001-en-02",
+              "target": {
+                "text": "takes four years",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "takes",
+                "occurrence": 1
+              },
+              "cue": "take",
+              "lemma": "take",
+              "id": "s001-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "takes",
+                "occurrence": 1
+              },
+              "options": [
+                "takes",
+                "take"
+              ],
+              "id": "s001-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s001-a",
+              "text": "The light from even our nearest stellar neighbour"
+            },
+            {
+              "id": "s001-b",
+              "text": "takes four years"
+            },
+            {
+              "id": "s001-c",
+              "text": "to reach us."
+            }
+          ],
+          "displayOrder": [
+            "s001-c",
+            "s001-a",
+            "s001-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "light",
+            "nearest stellar neighbour",
+            "take four years",
+            "reach us"
+          ]
+        }
+      },
+      "id": "s001",
+      "no": 1
+    },
+    {
+      "source": "When we look at the stars, we are looking back in time.",
+      "translation": "우리가 별을 볼 때, 우리는 시간을 거슬러 과거를 보고 있는 것이다.",
+      "meaningSegments": [
+        {
+          "en": "When we look at the stars,",
+          "ko": "우리가 별을 볼 때,",
+          "id": "s002-m01"
+        },
+        {
+          "en": "we are looking back",
+          "ko": "우리는 과거를 보고 있다",
+          "id": "s002-m02"
+        },
+        {
+          "en": "in time.",
+          "ko": "시간을 거슬러.",
+          "id": "s002-m03"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "look at",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "볼 때",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m01-p01",
+            "segmentId": "s002-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "are looking back",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "과거를 보고 있다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s002-m02-p01",
+            "segmentId": "s002-m02"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "looking back",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "과거를 보고",
+              "occurrence": 1
+            },
+            "meaning": "과거를 뒤돌아보다",
+            "reasons": [
+              "topic-core",
+              "structure-critical"
+            ],
+            "id": "s002-m02-v01",
+            "segmentId": "s002-m02",
+            "colorSlot": 1
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s002-ko-01",
+              "target": {
+                "text": "시간을 거슬러 과거를 보고",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s002-en-01",
+              "target": {
+                "text": "looking back in time",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "look at",
+                "occurrence": 1
+              },
+              "cue": "look at",
+              "lemma": "look at",
+              "id": "s002-verb-01"
+            },
+            {
+              "target": {
+                "text": "are looking back",
+                "occurrence": 1
+              },
+              "cue": "look back",
+              "lemma": "look back",
+              "id": "s002-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "are looking",
+                "occurrence": 1
+              },
+              "options": [
+                "are looking",
+                "looked"
+              ],
+              "id": "s002-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s002-a",
+              "text": "When we look at the stars,"
+            },
+            {
+              "id": "s002-b",
+              "text": "we are looking back"
+            },
+            {
+              "id": "s002-c",
+              "text": "in time."
+            }
+          ],
+          "displayOrder": [
+            "s002-b",
+            "s002-c",
+            "s002-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "when",
+            "look at the stars",
+            "look back",
+            "in time"
+          ]
+        }
+      },
+      "id": "s002",
+      "no": 2
+    },
+    {
+      "source": "This is an incredible gift.",
+      "translation": "이것은 놀라운 선물이다.",
+      "meaningSegments": [
+        {
+          "en": "This is an incredible gift.",
+          "ko": "이것은 놀라운 선물이다.",
+          "id": "s003-m01"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "is",
+                "occurrence": 2
+              }
+            ],
+            "ko": [
+              {
+                "text": "선물이다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s003-m01-p01",
+            "segmentId": "s003-m01"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "incredible",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "놀라운",
+              "occurrence": 1
+            },
+            "meaning": "믿기 힘들 만큼 놀라운",
+            "reasons": [
+              "abstract"
+            ],
+            "id": "s003-m01-v01",
+            "segmentId": "s003-m01",
+            "colorSlot": 1
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s003-ko-01",
+              "target": {
+                "text": "놀라운 선물",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s003-en-01",
+              "target": {
+                "text": "incredible gift",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "is",
+                "occurrence": 2
+              },
+              "cue": "be",
+              "lemma": "be",
+              "id": "s003-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "an",
+                "occurrence": 1
+              },
+              "options": [
+                "an",
+                "a"
+              ],
+              "id": "s003-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s003-a",
+              "text": "This is"
+            },
+            {
+              "id": "s003-b",
+              "text": "an incredible gift."
+            }
+          ],
+          "displayOrder": [
+            "s003-b",
+            "s003-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "this",
+            "incredible",
+            "gift"
+          ]
+        }
+      },
+      "id": "s003",
+      "no": 3
+    },
+    {
+      "source": "We can see parts of space, parts of our universe, as they were many years ago.",
+      "translation": "우리는 우주 공간의 일부, 곧 우리 우주의 일부를 수많은 해 전의 모습대로 볼 수 있다.",
+      "meaningSegments": [
+        {
+          "en": "We can see",
+          "ko": "우리는 볼 수 있다",
+          "id": "s004-m01"
+        },
+        {
+          "en": "parts of space, parts of our universe,",
+          "ko": "우주 공간의 일부, 우리 우주의 일부를,",
+          "id": "s004-m02"
+        },
+        {
+          "en": "as they were",
+          "ko": "그것들이 있던 모습대로",
+          "id": "s004-m03"
+        },
+        {
+          "en": "many years ago.",
+          "ko": "수많은 해 전에.",
+          "id": "s004-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "can see",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "볼 수 있다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m01-p01",
+            "segmentId": "s004-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "were",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "있던",
+                "occurrence": 1
+              }
+            ],
+            "id": "s004-m03-p01",
+            "segmentId": "s004-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "universe",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "우리 우주",
+              "occurrence": 1
+            },
+            "meaning": "물질과 공간 전체",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s004-m02-v01",
+            "segmentId": "s004-m02",
+            "colorSlot": 1
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s004-ko-01",
+              "target": {
+                "text": "우리 우주의 일부",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-ko-02",
+              "target": {
+                "text": "수많은 해 전의 모습대로",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s004-en-01",
+              "target": {
+                "text": "parts of our universe",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s004-en-02",
+              "target": {
+                "text": "as they were",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "can see",
+                "occurrence": 1
+              },
+              "cue": "see",
+              "lemma": "see",
+              "id": "s004-verb-01"
+            },
+            {
+              "target": {
+                "text": "were",
+                "occurrence": 1
+              },
+              "cue": "be",
+              "lemma": "be",
+              "id": "s004-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "were",
+                "occurrence": 1
+              },
+              "options": [
+                "were",
+                "are"
+              ],
+              "id": "s004-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s004-a",
+              "text": "We can see"
+            },
+            {
+              "id": "s004-b",
+              "text": "parts of space, parts of our universe,"
+            },
+            {
+              "id": "s004-c",
+              "text": "as they were many years ago."
+            }
+          ],
+          "displayOrder": [
+            "s004-c",
+            "s004-a",
+            "s004-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "parts of space",
+            "our universe",
+            "as",
+            "many years ago"
+          ]
+        }
+      },
+      "id": "s004",
+      "no": 4
+    },
+    {
+      "source": "The further we can collect light from, the further back in time we can look.",
+      "translation": "우리가 더 먼 곳에서 빛을 모을수록, 시간을 더 멀리 거슬러 볼 수 있다.",
+      "meaningSegments": [
+        {
+          "en": "The further",
+          "ko": "더 먼 곳에서",
+          "id": "s005-m01"
+        },
+        {
+          "en": "we can collect light from,",
+          "ko": "우리가 빛을 모을수록,",
+          "id": "s005-m02"
+        },
+        {
+          "en": "the further back in time",
+          "ko": "시간을 더 멀리 거슬러",
+          "id": "s005-m03"
+        },
+        {
+          "en": "we can look.",
+          "ko": "우리는 볼 수 있다.",
+          "id": "s005-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "can collect",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "모을수록",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m02-p01",
+            "segmentId": "s005-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "can look",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "볼 수 있다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s005-m04-p01",
+            "segmentId": "s005-m04"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "light",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "빛",
+              "occurrence": 1
+            },
+            "meaning": "별에서 오는 관측 빛",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s005-m02-v01",
+            "segmentId": "s005-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "back in time",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "시간을 더 멀리 거슬러",
+              "occurrence": 1
+            },
+            "meaning": "과거 시점으로",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s005-m03-v02",
+            "segmentId": "s005-m03",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s005-ko-01",
+              "target": {
+                "text": "더 먼 곳에서 빛을 모을수록",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-ko-02",
+              "target": {
+                "text": "시간을 더 멀리 거슬러",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s005-en-01",
+              "target": {
+                "text": "The further",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s005-en-02",
+              "target": {
+                "text": "the further",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "can collect",
+                "occurrence": 1
+              },
+              "cue": "collect",
+              "lemma": "collect",
+              "id": "s005-verb-01"
+            },
+            {
+              "target": {
+                "text": "can look",
+                "occurrence": 1
+              },
+              "cue": "look",
+              "lemma": "look",
+              "id": "s005-verb-02"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "further",
+                "occurrence": 2
+              },
+              "options": [
+                "further",
+                "furthest"
+              ],
+              "id": "s005-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s005-a",
+              "text": "The further we can collect light from,"
+            },
+            {
+              "id": "s005-b",
+              "text": "the further back in time"
+            },
+            {
+              "id": "s005-c",
+              "text": "we can look."
+            }
+          ],
+          "displayOrder": [
+            "s005-b",
+            "s005-c",
+            "s005-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "the further",
+            "collect light",
+            "back in time",
+            "look"
+          ]
+        }
+      },
+      "id": "s005",
+      "no": 5
+    },
+    {
+      "source": "If you look at the bright star Betelgeuse, which glows in the Orion constellation, you wind time back more than six hundred years.",
+      "translation": "오리온자리에서 빛나는 밝은 별 베텔게우스를 보면, 시간을 600년 이상 되돌리는 셈이다.",
+      "meaningSegments": [
+        {
+          "en": "If you look at the bright star Betelgeuse,",
+          "ko": "밝은 별 베텔게우스를 보면,",
+          "id": "s006-m01"
+        },
+        {
+          "en": "which glows",
+          "ko": "빛나는",
+          "id": "s006-m02"
+        },
+        {
+          "en": "in the Orion constellation,",
+          "ko": "오리온자리에서,",
+          "id": "s006-m03"
+        },
+        {
+          "en": "you wind time back",
+          "ko": "시간을 되돌린다",
+          "id": "s006-m04"
+        },
+        {
+          "en": "more than six hundred years.",
+          "ko": "600년 이상.",
+          "id": "s006-m05"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "look at",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "보면",
+                "occurrence": 1
+              }
+            ],
+            "id": "s006-m01-p01",
+            "segmentId": "s006-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "glows",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "빛나는",
+                "occurrence": 1
+              }
+            ],
+            "id": "s006-m02-p01",
+            "segmentId": "s006-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "wind time back",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "시간을 되돌린다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s006-m04-p01",
+            "segmentId": "s006-m04"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "Betelgeuse",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "베텔게우스",
+              "occurrence": 1
+            },
+            "meaning": "오리온자리의 붉은 초거성",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s006-m01-v01",
+            "segmentId": "s006-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "Orion constellation",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "오리온자리",
+              "occurrence": 1
+            },
+            "meaning": "오리온의 모습을 본떤 별자리",
+            "reasons": [
+              "technical"
+            ],
+            "id": "s006-m03-v02",
+            "segmentId": "s006-m03",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "wind time back",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "시간을 되돌린다",
+              "occurrence": 1
+            },
+            "meaning": "시간을 과거로 되돌리다",
+            "reasons": [
+              "abstract",
+              "topic-core"
+            ],
+            "id": "s006-m04-v03",
+            "segmentId": "s006-m04",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s006-ko-01",
+              "target": {
+                "text": "오리온자리에서 빛나는",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s006-ko-02",
+              "target": {
+                "text": "시간을 600년 이상 되돌리는",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s006-en-01",
+              "target": {
+                "text": "Orion constellation",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s006-en-02",
+              "target": {
+                "text": "wind time back",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "look at",
+                "occurrence": 1
+              },
+              "cue": "look at",
+              "lemma": "look at",
+              "id": "s006-verb-01"
+            },
+            {
+              "target": {
+                "text": "glows",
+                "occurrence": 1
+              },
+              "cue": "glow",
+              "lemma": "glow",
+              "id": "s006-verb-02"
+            },
+            {
+              "target": {
+                "text": "wind time back",
+                "occurrence": 1
+              },
+              "cue": "wind time back",
+              "lemma": "wind time back",
+              "id": "s006-verb-03"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "which",
+                "occurrence": 1
+              },
+              "options": [
+                "which",
+                "where"
+              ],
+              "id": "s006-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s006-a",
+              "text": "If you look at the bright star Betelgeuse,"
+            },
+            {
+              "id": "s006-b",
+              "text": "which glows in the Orion constellation,"
+            },
+            {
+              "id": "s006-c",
+              "text": "you wind time back"
+            },
+            {
+              "id": "s006-d",
+              "text": "more than six hundred years."
+            }
+          ],
+          "displayOrder": [
+            "s006-c",
+            "s006-a",
+            "s006-d",
+            "s006-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "bright star Betelgeuse",
+            "glow",
+            "Orion constellation",
+            "wind time back",
+            "six hundred years"
+          ]
+        }
+      },
+      "id": "s006",
+      "no": 6
+    },
+    {
+      "source": "Its reddish glow started its journey to Earth in the Middle Ages.",
+      "translation": "그 붉은 빛은 중세에 지구를 향한 여정을 시작했다.",
+      "meaningSegments": [
+        {
+          "en": "Its reddish glow started",
+          "ko": "그 붉은 빛은 시작했다",
+          "id": "s007-m01"
+        },
+        {
+          "en": "its journey to Earth",
+          "ko": "지구를 향한 여정을",
+          "id": "s007-m02"
+        },
+        {
+          "en": "in the Middle Ages.",
+          "ko": "중세에.",
+          "id": "s007-m03"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "started",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "시작했다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s007-m01-p01",
+            "segmentId": "s007-m01"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "reddish glow",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "붉은 빛",
+              "occurrence": 1
+            },
+            "meaning": "붉은빛을 띠는 빛",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s007-m01-v01",
+            "segmentId": "s007-m01",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "Middle Ages",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "중세",
+              "occurrence": 1
+            },
+            "meaning": "유럽사의 중세 시대",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s007-m03-v02",
+            "segmentId": "s007-m03",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s007-ko-01",
+              "target": {
+                "text": "중세에",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s007-ko-02",
+              "target": {
+                "text": "지구를 향한 여정",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s007-en-01",
+              "target": {
+                "text": "reddish glow",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s007-en-02",
+              "target": {
+                "text": "Middle Ages",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "started",
+                "occurrence": 1
+              },
+              "cue": "start",
+              "lemma": "start",
+              "id": "s007-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "Its",
+                "occurrence": 1
+              },
+              "options": [
+                "Its",
+                "It’s"
+              ],
+              "id": "s007-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s007-a",
+              "text": "Its reddish glow started"
+            },
+            {
+              "id": "s007-b",
+              "text": "its journey to Earth"
+            },
+            {
+              "id": "s007-c",
+              "text": "in the Middle Ages."
+            }
+          ],
+          "displayOrder": [
+            "s007-b",
+            "s007-c",
+            "s007-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "reddish glow",
+            "start",
+            "journey to Earth",
+            "Middle Ages"
+          ]
+        }
+      },
+      "id": "s007",
+      "no": 7
+    },
+    {
+      "source": "The stars in Orion’s belt are even further away.",
+      "translation": "오리온자리의 허리띠를 이루는 별들은 훨씬 더 멀리 떨어져 있다.",
+      "meaningSegments": [
+        {
+          "en": "The stars",
+          "ko": "별들은",
+          "id": "s008-m01"
+        },
+        {
+          "en": "in Orion’s belt",
+          "ko": "오리온자리의 허리띠를 이루는",
+          "id": "s008-m02"
+        },
+        {
+          "en": "are even further away.",
+          "ko": "훨씬 더 멀리 떨어져 있다.",
+          "id": "s008-m03"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "are",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "떨어져 있다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s008-m03-p01",
+            "segmentId": "s008-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "Orion’s belt",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "오리온자리의 허리띠",
+              "occurrence": 1
+            },
+            "meaning": "오리온자리 중앙의 세 별",
+            "reasons": [
+              "technical",
+              "topic-core"
+            ],
+            "id": "s008-m02-v01",
+            "segmentId": "s008-m02",
+            "colorSlot": 1
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s008-ko-01",
+              "target": {
+                "text": "오리온자리의 허리띠",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s008-ko-02",
+              "target": {
+                "text": "훨씬 더 멀리",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s008-en-01",
+              "target": {
+                "text": "Orion’s belt",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s008-en-02",
+              "target": {
+                "text": "further away",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "are",
+                "occurrence": 1
+              },
+              "cue": "be",
+              "lemma": "be",
+              "id": "s008-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "are",
+                "occurrence": 1
+              },
+              "options": [
+                "are",
+                "is"
+              ],
+              "id": "s008-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s008-a",
+              "text": "The stars"
+            },
+            {
+              "id": "s008-b",
+              "text": "in Orion’s belt"
+            },
+            {
+              "id": "s008-c",
+              "text": "are even further away."
+            }
+          ],
+          "displayOrder": [
+            "s008-c",
+            "s008-a",
+            "s008-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "stars",
+            "Orion’s belt",
+            "even",
+            "further away"
+          ]
+        }
+      },
+      "id": "s008",
+      "no": 8
+    },
+    {
+      "source": "Their light, familiar to generations of humans, has travelled at least 1,000 years to reach us.",
+      "translation": "수세대의 인류에게 익숙한 그 별들의 빛은 우리에게 도달하기까지 최소 1,000년 동안 여행해 왔다.",
+      "meaningSegments": [
+        {
+          "en": "Their light,",
+          "ko": "그 별들의 빛은,",
+          "id": "s009-m01"
+        },
+        {
+          "en": "familiar to generations of humans,",
+          "ko": "수세대의 인류에게 익숙한,",
+          "id": "s009-m02"
+        },
+        {
+          "en": "has travelled at least 1,000 years",
+          "ko": "최소 1,000년 동안 여행해 왔다",
+          "id": "s009-m03"
+        },
+        {
+          "en": "to reach us.",
+          "ko": "우리에게 도달하기 위해.",
+          "id": "s009-m04"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "has travelled",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "여행해 왔다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s009-m03-p01",
+            "segmentId": "s009-m03"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "generations",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "수세대",
+              "occurrence": 1
+            },
+            "meaning": "여러 세대",
+            "reasons": [
+              "abstract"
+            ],
+            "id": "s009-m02-v01",
+            "segmentId": "s009-m02",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "has travelled",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "여행해 왔다",
+              "occurrence": 1
+            },
+            "meaning": "긴 시간 이동해 왔다",
+            "reasons": [
+              "topic-core",
+              "structure-critical"
+            ],
+            "id": "s009-m03-v02",
+            "segmentId": "s009-m03",
+            "colorSlot": 2
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s009-ko-01",
+              "target": {
+                "text": "수세대의 인류에게 익숙한",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s009-ko-02",
+              "target": {
+                "text": "최소 1,000년",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s009-en-01",
+              "target": {
+                "text": "generations of humans",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s009-en-02",
+              "target": {
+                "text": "at least 1,000 years",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "has travelled",
+                "occurrence": 1
+              },
+              "cue": "travel",
+              "lemma": "travel",
+              "id": "s009-verb-01"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "has travelled",
+                "occurrence": 1
+              },
+              "options": [
+                "has travelled",
+                "have travelled"
+              ],
+              "id": "s009-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s009-a",
+              "text": "Their light, familiar to generations of humans,"
+            },
+            {
+              "id": "s009-b",
+              "text": "has travelled at least 1,000 years"
+            },
+            {
+              "id": "s009-c",
+              "text": "to reach us."
+            }
+          ],
+          "displayOrder": [
+            "s009-b",
+            "s009-c",
+            "s009-a"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "their light",
+            "familiar to",
+            "generations of humans",
+            "travel",
+            "reach us"
+          ]
+        }
+      },
+      "id": "s009",
+      "no": 9
+    },
+    {
+      "source": "This means we have a chance of understanding the history of the universe because we can see the more distant parts of it as they were in the past, thousands or millions or billions of years ago.",
+      "translation": "이것은 우리가 우주의 역사를 이해할 기회가 있음을 의미한다. 왜냐하면 우리는 우주의 더 먼 부분을 수천, 수백만, 또는 수십억 년 전의 모습대로 볼 수 있기 때문이다.",
+      "meaningSegments": [
+        {
+          "en": "This means",
+          "ko": "이것은 의미한다",
+          "id": "s010-m01"
+        },
+        {
+          "en": "we have a chance",
+          "ko": "우리가 기회가 있음을",
+          "id": "s010-m02"
+        },
+        {
+          "en": "of understanding the history of the universe",
+          "ko": "우주의 역사를 이해할",
+          "id": "s010-m03"
+        },
+        {
+          "en": "because we can see",
+          "ko": "왜냐하면 우리는 볼 수 있기 때문이다",
+          "id": "s010-m04"
+        },
+        {
+          "en": "the more distant parts of it",
+          "ko": "그것의 더 먼 부분을",
+          "id": "s010-m05"
+        },
+        {
+          "en": "as they were in the past,",
+          "ko": "그것들이 과거에 있던 모습대로,",
+          "id": "s010-m06"
+        },
+        {
+          "en": "thousands or millions or billions of years ago.",
+          "ko": "수천, 수백만, 또는 수십억 년 전에.",
+          "id": "s010-m07"
+        }
+      ],
+      "annotations": {
+        "predicates": [
+          {
+            "en": [
+              {
+                "text": "means",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "의미한다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s010-m01-p01",
+            "segmentId": "s010-m01"
+          },
+          {
+            "en": [
+              {
+                "text": "have",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "있음을",
+                "occurrence": 1
+              }
+            ],
+            "id": "s010-m02-p01",
+            "segmentId": "s010-m02"
+          },
+          {
+            "en": [
+              {
+                "text": "can see",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "볼 수 있기 때문이다",
+                "occurrence": 1
+              }
+            ],
+            "id": "s010-m04-p01",
+            "segmentId": "s010-m04"
+          },
+          {
+            "en": [
+              {
+                "text": "were",
+                "occurrence": 1
+              }
+            ],
+            "ko": [
+              {
+                "text": "있던",
+                "occurrence": 1
+              }
+            ],
+            "id": "s010-m06-p01",
+            "segmentId": "s010-m06"
+          }
+        ],
+        "vocabulary": [
+          {
+            "en": {
+              "text": "the history of the universe",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "우주의 역사",
+              "occurrence": 1
+            },
+            "meaning": "우주가 변해 온 과정",
+            "reasons": [
+              "academic",
+              "topic-core"
+            ],
+            "id": "s010-m03-v01",
+            "segmentId": "s010-m03",
+            "colorSlot": 1
+          },
+          {
+            "en": {
+              "text": "distant",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "먼",
+              "occurrence": 1
+            },
+            "meaning": "멀리 떨어진",
+            "reasons": [
+              "topic-core"
+            ],
+            "id": "s010-m05-v02",
+            "segmentId": "s010-m05",
+            "colorSlot": 2
+          },
+          {
+            "en": {
+              "text": "billions",
+              "occurrence": 1
+            },
+            "ko": {
+              "text": "수십억",
+              "occurrence": 1
+            },
+            "meaning": "수십억 단위",
+            "reasons": [
+              "academic"
+            ],
+            "id": "s010-m07-v03",
+            "segmentId": "s010-m07",
+            "colorSlot": 3
+          }
+        ]
+      },
+      "exercises": {
+        "koBlank": {
+          "targets": [
+            {
+              "id": "s010-ko-01",
+              "target": {
+                "text": "우주의 역사를 이해할 기회",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s010-ko-02",
+              "target": {
+                "text": "더 먼 부분",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s010-ko-03",
+              "target": {
+                "text": "수천, 수백만, 또는 수십억 년 전",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "enBlank": {
+          "targets": [
+            {
+              "id": "s010-en-01",
+              "target": {
+                "text": "understanding the history of the universe",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s010-en-02",
+              "target": {
+                "text": "more distant parts",
+                "occurrence": 1
+              }
+            },
+            {
+              "id": "s010-en-03",
+              "target": {
+                "text": "thousands or millions or billions of years ago",
+                "occurrence": 1
+              }
+            }
+          ]
+        },
+        "verb": {
+          "targets": [
+            {
+              "target": {
+                "text": "means",
+                "occurrence": 1
+              },
+              "cue": "mean",
+              "lemma": "mean",
+              "id": "s010-verb-01"
+            },
+            {
+              "target": {
+                "text": "have",
+                "occurrence": 1
+              },
+              "cue": "have",
+              "lemma": "have",
+              "id": "s010-verb-02"
+            },
+            {
+              "target": {
+                "text": "can see",
+                "occurrence": 1
+              },
+              "cue": "see",
+              "lemma": "see",
+              "id": "s010-verb-03"
+            },
+            {
+              "target": {
+                "text": "were",
+                "occurrence": 1
+              },
+              "cue": "be",
+              "lemma": "be",
+              "id": "s010-verb-04"
+            }
+          ]
+        },
+        "choice": {
+          "targets": [
+            {
+              "target": {
+                "text": "of understanding",
+                "occurrence": 1
+              },
+              "options": [
+                "of understanding",
+                "to understand"
+              ],
+              "id": "s010-choice-01"
+            }
+          ]
+        },
+        "arrange": {
+          "chunks": [
+            {
+              "id": "s010-a",
+              "text": "This means we have a chance"
+            },
+            {
+              "id": "s010-b",
+              "text": "of understanding the history of the universe"
+            },
+            {
+              "id": "s010-c",
+              "text": "because we can see the more distant parts of it"
+            },
+            {
+              "id": "s010-d",
+              "text": "as they were in the past, thousands or millions or billions of years ago."
+            }
+          ],
+          "displayOrder": [
+            "s010-c",
+            "s010-a",
+            "s010-d",
+            "s010-b"
+          ]
+        },
+        "writing": {
+          "bank": [
+            "have a chance",
+            "understand",
+            "history of the universe",
+            "distant parts",
+            "as they were",
+            "years ago"
+          ]
+        }
+      },
+      "id": "s010",
+      "no": 10
+    }
+  ],
+  "passageActivities": {
+    "correction": [
+      {
+        "textOverride": "The light from even our nearest stellar neighbour take four years to reach us. When we look at the stars, we is looking back in time. This are an incredible gift. We can see parts of space, parts of our universe, as they was many years ago. The further we can collect light from, the further back in time we could look. If you look at the bright star Betelgeuse, which glow in the Orion constellation, you wind time back more than six hundred years. Its reddish glow start its journey to Earth in the Middle Ages. The stars in Orion’s belt is even further away. Their light, familiar to generations of humans, have travelled at least 1,000 years to reach us. This mean we have a chance of understanding the history of the universe because we can see the more distant parts of it as they were in the past, thousands or millions or billions of years ago.",
+        "targets": [
+          {
+            "target": {
+              "text": "take four years",
+              "occurrence": 1
+            },
+            "incorrect": "take four years",
+            "correct": "takes four years",
+            "id": "correction-01-01"
+          },
+          {
+            "target": {
+              "text": "we is looking",
+              "occurrence": 1
+            },
+            "incorrect": "we is looking",
+            "correct": "we are looking",
+            "id": "correction-01-02"
+          },
+          {
+            "target": {
+              "text": "This are",
+              "occurrence": 1
+            },
+            "incorrect": "This are",
+            "correct": "This is",
+            "id": "correction-01-03"
+          },
+          {
+            "target": {
+              "text": "they was",
+              "occurrence": 1
+            },
+            "incorrect": "they was",
+            "correct": "they were",
+            "id": "correction-01-04"
+          },
+          {
+            "target": {
+              "text": "could look",
+              "occurrence": 1
+            },
+            "incorrect": "could look",
+            "correct": "can look",
+            "id": "correction-01-05"
+          },
+          {
+            "target": {
+              "text": "which glow",
+              "occurrence": 1
+            },
+            "incorrect": "which glow",
+            "correct": "which glows",
+            "id": "correction-01-06"
+          },
+          {
+            "target": {
+              "text": "glow start",
+              "occurrence": 1
+            },
+            "incorrect": "glow start",
+            "correct": "glow started",
+            "id": "correction-01-07"
+          },
+          {
+            "target": {
+              "text": "belt is",
+              "occurrence": 1
+            },
+            "incorrect": "belt is",
+            "correct": "belt are",
+            "id": "correction-01-08"
+          },
+          {
+            "target": {
+              "text": "light, familiar to generations of humans, have travelled",
+              "occurrence": 1
+            },
+            "incorrect": "light, familiar to generations of humans, have travelled",
+            "correct": "light, familiar to generations of humans, has travelled",
+            "id": "correction-01-09"
+          },
+          {
+            "target": {
+              "text": "This mean",
+              "occurrence": 1
+            },
+            "incorrect": "This mean",
+            "correct": "This means",
+            "id": "correction-01-10"
+          }
+        ],
+        "id": "correction-01"
+      }
+    ],
+    "paragraphOrder": [
+      {
+        "blocks": [
+          {
+            "id": "A",
+            "sentenceIds": [
+              "s001",
+              "s002",
+              "s003"
+            ]
+          },
+          {
+            "id": "B",
+            "sentenceIds": [
+              "s004",
+              "s005",
+              "s006"
+            ]
+          },
+          {
+            "id": "C",
+            "sentenceIds": [
+              "s007",
+              "s008",
+              "s009",
+              "s010"
+            ]
+          }
+        ],
+        "displayOrder": [
+          "C",
+          "A",
+          "B"
+        ],
+        "answerOrder": [
+          "A",
+          "B",
+          "C"
+        ],
+        "id": "paragraph-order-01"
+      }
+    ]
+  }
+}
