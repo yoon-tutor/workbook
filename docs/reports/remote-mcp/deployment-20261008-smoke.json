@@ -1,0 +1,25 @@
+{
+  "service": "workbook-maker",
+  "revision": "workbook-maker-00004-muq",
+  "candidateOrigin": "https://shared-runtime-20261008---workbook-maker-yzxn4wai2a-du.a.run.app",
+  "imageDigest": "sha256:0b937bd92f72e39cb8c4276ed2003003413a8f7b6c30731762e5860bf6008fb7",
+  "checks": [
+    {
+      "check": "health",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "check": "unauthenticated_mcp",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "check": "foreign_origin",
+      "status": 403,
+      "passed": true
+    }
+  ],
+  "authenticatedGroupSmoke": "pending-root",
+  "legacySignedLinkProbe": "not performed: no known unexpired capability URL available; identical signing value preserved by version metadata"
+}

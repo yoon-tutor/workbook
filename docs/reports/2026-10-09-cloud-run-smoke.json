@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-09",
+  "invalid_auth": "rejected",
+  "server": {
+    "name": "workbook-maker",
+    "version": "2.0.0"
+  },
+  "tools": [
+    "workbook_authoring_expand",
+    "workbook_authoring_verify",
+    "workbook_compile",
+    "workbook_get_artifacts",
+    "workbook_get_guidance",
+    "workbook_prepare_release",
+    "workbook_publish_release",
+    "workbook_read_artifact",
+    "workbook_review_image",
+    "workbook_validate_canonical"
+  ],
+  "guidance": {
+    "status": "ok",
+    "version": "2.0.0",
+    "engineId": "aa38f8d00b8cb3d98365f9a5b7eca554100bcb58fb9b8b656136b684c3e70931"
+  },
+  "validate": {
+    "example": "ok",
+    "empty": "invalid_input"
+  },
+  "release": {
+    "releaseId": "f1968cf84b764e9ca4aab57e93c6d07c",
+    "pageCount": 22,
+    "reviewImages": 26,
+    "files": [
+      "문제.html",
+      "문제.pdf",
+      "해설.html",
+      "해설.pdf"
+    ]
+  }
+}

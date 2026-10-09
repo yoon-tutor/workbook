@@ -1,0 +1,6 @@
+.env
+.work/
+.build/
+outputs/
+__pycache__/
+*.pyc

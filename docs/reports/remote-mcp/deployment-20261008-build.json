@@ -1,0 +1,24 @@
+{
+  "id": "18670368-e7e5-4f63-9845-2e661caa994d",
+  "status": "SUCCESS",
+  "createTime": "2026-10-08T06:30:27.737168690Z",
+  "startTime": "2026-10-08T06:30:28.669669025Z",
+  "finishTime": "2026-10-08T06:33:35.243437Z",
+  "images": [
+    {
+      "artifactRegistryPackage": "projects/yoontutor-507902/locations/asia-northeast3/repositories/cloud-run-source-deploy/packages/workbook-maker/versions/sha256:ef7f49b996e96e7379160d5d2226c8a9cf7b42c8f9d1f87c364e60f9a3d082be",
+      "digest": "sha256:ef7f49b996e96e7379160d5d2226c8a9cf7b42c8f9d1f87c364e60f9a3d082be",
+      "name": "asia-northeast3-docker.pkg.dev/yoontutor-507902/cloud-run-source-deploy/workbook-maker:20261008-shared-runtime",
+      "pushTiming": {
+        "endTime": "2026-10-08T06:33:34.575694595Z",
+        "startTime": "2026-10-08T06:32:29.003754292Z"
+      }
+    }
+  ],
+  "logUrl": "https://console.cloud.google.com/cloud-build/builds/18670368-e7e5-4f63-9845-2e661caa994d?project=972256519381",
+  "source": {
+    "bucket": "yoontutor-507902_cloudbuild",
+    "generation": "1791441027241667",
+    "object": "source/1791441025.40422-f8ecfc8c260c4c97b3d4ff094dfa50ba.tgz"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "service": "workbook-maker",
+  "svc": "workbook",
+  "skill": "workbook-maker",
+  "gcp": {
+    "project": "yoontutor-507902",
+    "region": "asia-northeast1",
+    "repository": "workbook-maker",
+    "service_account": "workbook-runtime@yoontutor-507902.iam.gserviceaccount.com",
+    "buckets": [
+      {
+        "name": "workbook-release-an1-yoontutor-507902",
+        "lifecycle": "server/config/direct-release-bucket-lifecycle.json",
+        "role": "roles/storage.objectUser"
+      }
+    ]
+  },
+  "build": {
+    "dockerfile": "server/Dockerfile",
+    "context": [
+      "server/requirements.txt",
+      "server/workbook_mcp",
+      "server/workbook_engine",
+      "server/workbook_authoring",
+      "server/shared_mcp_runtime",
+      "server/config/workbook-spec.json",
+      "server/config/versions.json",
+      "server/schemas",
+      "server/assets",
+      "server/docs"
+    ]
+  },
+  "run": {
+    "memory": "2Gi",
+    "cpu": "2",
+    "max_instances": 1,
+    "concurrency": 1,
+    "timeout": 900,
+    "env": {
+      "MCP_SHARED_SCHEMA": "public",
+      "WORKBOOK_RELEASE_BUCKET": "workbook-release-an1-yoontutor-507902",
+      "WORKBOOK_PUBLIC_ORIGIN": "{service_url}"
+    },
+    "secrets": {
+      "DATABASE_URL": "toefl-maker-database-url:1",
+      "WORKBOOK_ARTIFACT_SIGNING_SECRET": "workbook-runtime-token:1"
+    }
+  },
+  "audit": {
+    "private_patterns": [
+      "풍동|풍산|지도중|성사중|KakaoTalk",
+      "CloudDocs|codex-clipboard|/var/folders/"
+    ]
+  }
+}

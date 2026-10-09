@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "image": "asia-northeast1-docker.pkg.dev/yoontutor-507902/workbook-maker/server:2.0.0-20261009-092043",
+  "digest": "sha256:70921f39c03ddfe62643a88c2a7be3571dde99b2fe3e97afc66a2a1180c2bed5",
+  "built_at": "2026-10-09T09:23:58+00:00",
+  "service": "workbook-maker",
+  "region": "asia-northeast1",
+  "url": "https://workbook-maker-yzxn4wai2a-an.a.run.app",
+  "urls": [
+    "https://workbook-maker-yzxn4wai2a-an.a.run.app",
+    "https://workbook-maker-972256519381.asia-northeast1.run.app"
+  ],
+  "revision": "workbook-maker-00003-qqf",
+  "deployed_at": "2026-10-09T16:23:39+00:00",
+  "service_version": "2.0.0-beta.1"
+}
