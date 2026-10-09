@@ -1,0 +1,8 @@
+fastmcp==4.0.2
+mcp==2.1.1
+pydantic==2.13.5
+psycopg[binary]==3.3.5
+psycopg-pool==3.3.1
+google-cloud-storage==3.4.1
+PyMuPDF==1.28.2
+Pillow==10.0.1

@@ -1,0 +1,43 @@
+{
+  "service": "workbook-maker",
+  "project": "yoontutor-507902",
+  "region": "asia-northeast3",
+  "revision": "workbook-maker-00001-9vv",
+  "image": "asia-northeast3-docker.pkg.dev/yoontutor-507902/cloud-run-source-deploy/workbook-runtime-stage9@sha256:eb2cd951d518abdc9729cddafd3b3c8cf9d4ea6ad36698f27a1ccb6561687e46",
+  "traffic": [
+    {
+      "revisionName": "workbook-maker-00001-9vv",
+      "percent": 100
+    }
+  ],
+  "account": "workbook-runtime@yoontutor-507902.iam.gserviceaccount.com",
+  "cpu": "2",
+  "memory": "2Gi",
+  "concurrency": 1,
+  "timeoutSeconds": 900,
+  "revisionMaxScale": 1,
+  "serviceMaxScale": 20,
+  "releaseBucket": "workbook-release-stage9-yoontutor-507902",
+  "publicOrigin": "https://workbook-maker-972256519381.asia-northeast3.run.app",
+  "urlAliases": [
+    "https://workbook-maker-972256519381.asia-northeast3.run.app",
+    "https://workbook-maker-yzxn4wai2a-du.a.run.app"
+  ],
+  "signingSecret": {
+    "name": "workbook-runtime-token",
+    "version": "latest",
+    "originalEnv": "WORKBOOK_MCP_API_TOKEN"
+  },
+  "startupProbe": {
+    "periodSeconds": 240,
+    "port": 8080,
+    "timeoutSeconds": 240,
+    "failureThreshold": 1
+  },
+  "iam": {
+    "role": "roles/run.invoker",
+    "members": [
+      "allUsers"
+    ]
+  }
+}

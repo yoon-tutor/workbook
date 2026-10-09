@@ -1,0 +1,4 @@
+# Keep LF everywhere: vendored files and golden outputs are checked by SHA-256 (STANDARD.md 12).
+* text=auto eol=lf
+# Reviewed canonical content and release history are byte-locked by tests.
+content/** -text

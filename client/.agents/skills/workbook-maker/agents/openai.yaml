@@ -1,0 +1,4 @@
+interface:
+  display_name: "워크북 제작"
+  short_description: "영어 지문으로 학생용·해설용 10단계 워크북 HTML·PDF를 만듭니다"
+  default_prompt: "inputs의 지문을 확인하고 $workbook-maker로 10단계 워크북을 만들어 주세요."

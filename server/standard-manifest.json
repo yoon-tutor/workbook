@@ -1,0 +1,25 @@
+{
+  "standard_version": "0.2.0",
+  "files": {
+    "server/shared_mcp_runtime/__init__.py": "e83ff4fce5792ed4cd25889a6ce0d8d59769d65b85623309fb5d9fc0f2aa5e7c",
+    "server/shared_mcp_runtime/artifacts.py": "820303686c9d0af67735e22e3fba5e3694adf471b292a75872c3582bc1d584e2",
+    "server/shared_mcp_runtime/auth.py": "db0b79894efde544c621fc3424fb177c7a57f47ab8fe8a52d864db45affbc58c",
+    "server/shared_mcp_runtime/config.py": "5149a1726d511712164af393f9fb153732930be67836745685a61b06cddace72",
+    "server/shared_mcp_runtime/envelope.py": "48e67a54ea4b8dc5455ce6cf768ea2ee42dfa0ff248622b672c161f2bbe157d4",
+    "server/shared_mcp_runtime/http.py": "6d8bb3816c0ae60a132fc10faffbc1459cda6612b9cce03478be5c58e38397ff",
+    "server/shared_mcp_runtime/logging.py": "6fe36ce613bf715c43f972e58e96aece441d446eda5e5935adcbdbffbfbc32be",
+    "server/shared_mcp_runtime/models.py": "a1944dff4c9af54fb4e98f3bc366742fff4820dcf4d95fbe323c4c7ded94db6b",
+    "server/shared_mcp_runtime/README.md": "2d7b0abc8456903698cbd4f36ed6879afa6301191c4e0da2c2777f7b0e087fe7",
+    "server/shared_mcp_runtime/runtime.py": "98b455a4ffd3a4f637374d3c6c28b24c137c185bd941ffd8e9625d83f95e6460",
+    "server/shared_mcp_runtime/store.py": "8eb1d4d3cf5fe8d3bb61a33dd2f5292e1263b365898940d3917f658fd4502af0",
+    "server/shared_mcp_runtime/telemetry.py": "16cb1b2dd8527a931eaf3b66e0414971b7912f62f39df416e21deda7b3c49a5f",
+    "client/.agents/skills/workbook-maker/scripts/mcp_client.py": "9fe55ffa2d2a2250cc2362aaee84a5f63613e6780f18425c82d9f84f16d07c31",
+    "server/scripts/audit_client.py": "3e01ee12a3d06197c39d02b8ab797315ed3d5153748c885dfef5f2dbd11d4236",
+    "server/scripts/build_release.py": "90544461bfebf7e204f2f2df2af82f5cfdb81381c963f1cd26c287ab5bf82a81",
+    "server/scripts/deploy.py": "d1b5873b13db281f4893e0dcd1f61aeeb907f3d86eb91f10e49a71590775a88a",
+    "server/scripts/sandbox_client.py": "819d3e1730c2109ba7dc5c468207eda8d0bdb87f0afa4195e48018e0a75fbcf4",
+    "server/scripts/standard_tools.py": "a08b2808c5ec3d29d17489aba0fd0c0517ee0fe98b1b02a2f95c07208b876adb",
+    "server/tests/test_standard_conformance.py": "9412935b4c41a5932aae70730d2182f4967a60341a4ab139b77184559305667d",
+    "docs/STANDARD.md": "92531c3c6a5f504eda12c47687ada0e26c375768202102e3dd9a370baed66b90"
+  }
+}

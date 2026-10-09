@@ -1,7 +1,10 @@
 # Secrets and machine-specific credentials
 .env
 .env.*
+**/.env
+**/.env.*
 !.env.example
+!**/.env.example
 !.env.sample
 !.env.template
 *.pem
@@ -14,12 +17,11 @@ service_account*.json
 .aws/
 .codex/auth.json
 
-# Python environments and caches
+# Python, JavaScript and tool caches
 __pycache__/
 *.py[cod]
 .venv/
 venv/
-env/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -27,33 +29,22 @@ env/
 .coverage.*
 htmlcov/
 *.egg-info/
-
-# JavaScript dependencies and build caches
 node_modules/
 .npm/
-.next/
 .cache/
 
-# Private build staging, downloaded runtimes, and server packages
-.build/
-.runtime/
-server-dist/
-build/
-dist/
-
-# Temporary files and browser profiles
-tmp/
-temp/
+# Browser, temporary and OS/editor leftovers
+.playwright-cli/
 .playwright/
 playwright-report/
 test-results/
+tmp/
+**/tmp/
+temp/
 *.log
 *.tmp
 *.temp
-
-# OS and editor files
 .DS_Store
-*.DS_Store
 Thumbs.db
 Desktop.ini
 .vscode/
@@ -62,7 +53,25 @@ Desktop.ini
 *.swo
 *~
 
-# This link mirrors the public outputs directory at the repository root
-/others/outputs
+# Work files and build outputs (STANDARD.md 12)
+.work/
+**/.work/
+releases/
+build/
+# Private staging: authoring packets, signing material, release builds (root and content/)
+.build/
+**/.build/
 
-# Canonical input, source code, documentation, and root outputs are tracked.
+# User distribution: only the package source is tracked
+client/outputs/
+client/inputs/*
+!client/inputs/README.md
+client/workbooks/*
+!client/workbooks/README.md
+client/updates/*
+!client/updates/README.md
+client/*.json
+
+# Legacy local-runtime caches and old server packages (kept locally, never tracked)
+.runtime/
+server-dist/

@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-08",
+  "verificationSource": "Root agent grouped production verification and traffic promotion completion",
+  "project": "yoontutor-507902",
+  "region": "asia-northeast3",
+  "service": "workbook-maker",
+  "revision": "workbook-maker-00004-muq",
+  "productionTrafficPercent": 100,
+  "image": "asia-northeast3-docker.pkg.dev/yoontutor-507902/cloud-run-source-deploy/workbook-maker@sha256:0b937bd92f72e39cb8c4276ed2003003413a8f7b6c30731762e5860bf6008fb7",
+  "buildId": "b920fe55-6e6b-4d2b-8cc8-ac289b3cb1f8",
+  "mcpUrls": [
+    "https://workbook-maker-972256519381.asia-northeast3.run.app/mcp",
+    "https://workbook-maker-yzxn4wai2a-du.a.run.app/mcp"
+  ],
+  "healthPath": "/health",
+  "legacyLocalHealthPath": "/healthz",
+  "databaseSecret": {
+    "name": "toefl-maker-database-url",
+    "version": "1",
+    "schema": "public"
+  },
+  "signingSecret": {
+    "envName": "WORKBOOK_ARTIFACT_SIGNING_SECRET",
+    "name": "workbook-runtime-token",
+    "version": "1",
+    "sameValueAsPriorLatest": true
+  },
+  "preserved": {
+    "runtimeAccount": "workbook-runtime@yoontutor-507902.iam.gserviceaccount.com",
+    "cpu": "2",
+    "memory": "2Gi",
+    "concurrency": 1,
+    "timeoutSeconds": 900,
+    "startupProbe": true,
+    "maxInstancesSettings": true,
+    "releaseBucket": "workbook-release-stage9-yoontutor-507902",
+    "publicOrigin": "https://workbook-maker-972256519381.asia-northeast3.run.app",
+    "invokerIam": true
+  },
+  "verification": {
+    "sharedMigration002": "verified before deployment",
+    "candidateHealthStatus": 200,
+    "candidateUnauthenticatedMcpStatus": 401,
+    "candidateForeignOriginStatus": 403,
+    "productionTwoOwnerSharedKeyAuthentication": "passed",
+    "productionUsageEventCount": 6,
+    "productionRevocation": "passed",
+    "existingToeflDbKeyBothAliasesAllThreeServices": "passed",
+    "syntheticDataCleanup": "verified",
+    "postCleanupCounts": {
+      "users": 2,
+      "apiKeys": 1,
+      "contracts": 8,
+      "usageEvents": 231
+    }
+  },
+  "customerEnvChanged": false,
+  "permanentCustomerKeysIssuedOrRotated": false,
+  "legacyReleasesAdopted": false,
+  "artifactsPublished": false,
+  "oldResourcesDeleted": false,
+  "historicalCandidateEvidencePreserved": true
+}

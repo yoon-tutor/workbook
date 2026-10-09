@@ -1,0 +1,46 @@
+{
+  "project": "yoontutor-507902",
+  "region": "asia-northeast3",
+  "service": "workbook-maker",
+  "buildId": "b920fe55-6e6b-4d2b-8cc8-ac289b3cb1f8",
+  "imageTag": "asia-northeast3-docker.pkg.dev/yoontutor-507902/cloud-run-source-deploy/workbook-maker:20261008-shared-runtime-health",
+  "tag": "shared-runtime-20261008",
+  "noTraffic": true,
+  "databaseSecret": {
+    "name": "toefl-maker-database-url",
+    "schema": "public",
+    "version": "1"
+  },
+  "signingSecret": {
+    "envNames": [
+      "WORKBOOK_MCP_API_TOKEN",
+      "WORKBOOK_ARTIFACT_SIGNING_SECRET"
+    ],
+    "name": "workbook-runtime-token",
+    "version": "1"
+  },
+  "allowedHosts": [
+    "workbook-maker-972256519381.asia-northeast3.run.app",
+    "workbook-maker-yzxn4wai2a-du.a.run.app",
+    "shared-runtime-20261008---workbook-maker-yzxn4wai2a-du.a.run.app"
+  ],
+  "allowedOrigins": [
+    "https://workbook-maker-972256519381.asia-northeast3.run.app",
+    "https://workbook-maker-yzxn4wai2a-du.a.run.app",
+    "https://shared-runtime-20261008---workbook-maker-yzxn4wai2a-du.a.run.app"
+  ],
+  "preserve": {
+    "cpu": "2",
+    "maxInstances": 1,
+    "startupProbeUnchanged": true,
+    "publicOrigin": "https://workbook-maker-972256519381.asia-northeast3.run.app",
+    "memory": "2Gi",
+    "iamUnchanged": true,
+    "releaseBucket": "workbook-release-stage9-yoontutor-507902",
+    "concurrency": 1,
+    "timeoutSeconds": 900,
+    "account": "workbook-runtime@yoontutor-507902.iam.gserviceaccount.com"
+  },
+  "prerequisite": "Shared DB 002 upgrade verified by root: job mcp-shared-usage-upgrade-kb8jf",
+  "trafficGate": "root group-authenticated smoke across all three candidate services succeeds"
+}

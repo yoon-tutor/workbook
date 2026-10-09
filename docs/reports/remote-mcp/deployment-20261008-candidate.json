@@ -1,0 +1,103 @@
+{
+  "service": "workbook-maker",
+  "url": "https://workbook-maker-yzxn4wai2a-du.a.run.app",
+  "latestReadyRevision": "workbook-maker-00004-muq",
+  "latestCreatedRevision": "workbook-maker-00004-muq",
+  "conditions": [
+    {
+      "lastTransitionTime": "2026-10-08T06:45:24.715594Z",
+      "status": "True",
+      "type": "Ready"
+    },
+    {
+      "lastTransitionTime": "2026-10-08T06:45:16.048779Z",
+      "status": "True",
+      "type": "ConfigurationsReady"
+    },
+    {
+      "lastTransitionTime": "2026-10-08T06:45:24.691421Z",
+      "status": "True",
+      "type": "RoutesReady"
+    }
+  ],
+  "traffic": [
+    {
+      "percent": 100,
+      "revisionName": "workbook-maker-00001-9vv"
+    },
+    {
+      "revisionName": "workbook-maker-00004-muq",
+      "tag": "shared-runtime-20261008",
+      "url": "https://shared-runtime-20261008---workbook-maker-yzxn4wai2a-du.a.run.app"
+    }
+  ],
+  "account": "workbook-runtime@yoontutor-507902.iam.gserviceaccount.com",
+  "timeoutSeconds": 900,
+  "concurrency": 1,
+  "annotations": {
+    "autoscaling.knative.dev/maxScale": "1",
+    "run.googleapis.com/client-name": "gcloud",
+    "run.googleapis.com/client-version": "583.0.0",
+    "run.googleapis.com/startup-cpu-boost": "true"
+  },
+  "container": {
+    "startupProbe": {
+      "failureThreshold": 1,
+      "periodSeconds": 240,
+      "tcpSocket": {
+        "port": 8080
+      },
+      "timeoutSeconds": 240
+    },
+    "image": "asia-northeast3-docker.pkg.dev/yoontutor-507902/cloud-run-source-deploy/workbook-maker@sha256:0b937bd92f72e39cb8c4276ed2003003413a8f7b6c30731762e5860bf6008fb7",
+    "env": [
+      {
+        "secret": {
+          "key": "latest",
+          "name": "workbook-runtime-token"
+        },
+        "name": "WORKBOOK_MCP_API_TOKEN"
+      },
+      {
+        "value": "workbook-release-stage9-yoontutor-507902",
+        "name": "WORKBOOK_RELEASE_BUCKET"
+      },
+      {
+        "value": "https://workbook-maker-972256519381.asia-northeast3.run.app",
+        "name": "WORKBOOK_PUBLIC_ORIGIN"
+      },
+      {
+        "value": "public",
+        "name": "MCP_SHARED_SCHEMA"
+      },
+      {
+        "value": "workbook-maker-972256519381.asia-northeast3.run.app,workbook-maker-yzxn4wai2a-du.a.run.app,shared-runtime-20261008---workbook-maker-yzxn4wai2a-du.a.run.app",
+        "name": "MCP_ALLOWED_HOSTS"
+      },
+      {
+        "value": "https://workbook-maker-972256519381.asia-northeast3.run.app,https://workbook-maker-yzxn4wai2a-du.a.run.app,https://shared-runtime-20261008---workbook-maker-yzxn4wai2a-du.a.run.app",
+        "name": "MCP_ALLOWED_ORIGINS"
+      },
+      {
+        "secret": {
+          "key": "1",
+          "name": "toefl-maker-database-url"
+        },
+        "name": "DATABASE_URL"
+      },
+      {
+        "secret": {
+          "key": "1",
+          "name": "workbook-runtime-token"
+        },
+        "name": "WORKBOOK_ARTIFACT_SIGNING_SECRET"
+      }
+    ],
+    "resources": {
+      "limits": {
+        "cpu": "2",
+        "memory": "2Gi"
+      }
+    }
+  }
+}

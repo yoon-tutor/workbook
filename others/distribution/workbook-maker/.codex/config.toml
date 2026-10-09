@@ -1,7 +1,0 @@
-[mcp_servers.workbook_runtime]
-url = "https://workbook-runtime-stage9-972256519381.asia-northeast3.run.app/mcp"
-# Read the package-local .env at MCP connection time; no session environment is needed.
-http_headers_helper = "python3 -c \"import json,pathlib; cwd=pathlib.Path.cwd(); root=next((p for p in (cwd,*cwd.parents) if (p/'.codex/config.toml').is_file()),None); assert root is not None, 'Workbook project config not found'; tokens=[line.partition('=')[2].strip() for line in (root/'.env').read_text(encoding='utf-8').splitlines() if line.startswith('WORKBOOK_MCP_API_TOKEN=')]; assert len(tokens)==1 and tokens[0], 'Package .env token is missing'; print(json.dumps({'Authorization':'Bearer '+tokens[0]}))\""
-enabled = true
-required = true
-tool_timeout_sec = 900
