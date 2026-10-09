@@ -135,9 +135,15 @@ def validate_canonical(canonical: dict) -> dict[str, Any]:
 
 def _authoring(packet: dict, stage: str) -> tuple[dict | None, dict | None]:
     from workbook_authoring import AuthoringPacketError, expand_packet, verify_new_packet_policy
+    from workbook_engine.validator import ValidationFailure
+    from .release_worker import _field
     try:
         verify_new_packet_policy(packet)
         return expand_packet(packet), None
+    except ValidationFailure as error:
+        # The expanded canonical broke an engine rule; report each issue instead of a masked tool error.
+        problems = [violation(_field("packet", issue.path), f"{issue.code}: {issue.message}")
+                    for issue in error.issues] or [violation("packet", str(error)[:2000])]
     except AuthoringPacketError as error:
         path, separator, message = str(error).partition(": ")
         field = "packet." + path if separator and " " not in path else "packet"

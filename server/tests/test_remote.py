@@ -140,6 +140,16 @@ class HttpRoundTripTests(unittest.TestCase):
         for tool in ("workbook_authoring_verify", "workbook_authoring_expand"):
             with self.subTest(tool=tool):
                 self.assertEqual("invalid_input", self.call(tool, packet={})["status"])
+        # A permutation that passes packet checks but fails canonical validation must come back as
+        # invalid_input with the engine rule, not as a masked tool error.
+        unordered = authoring_packet()
+        unordered["passageActivities"]["paragraphOrder"][0]["answerOrder"] = [2, 3, 1]
+        for tool in ("workbook_authoring_verify", "workbook_authoring_expand"):
+            with self.subTest(tool=tool, case="canonical rule"):
+                rejected = self.call(tool, packet=unordered)
+                self.assertEqual("invalid_input", rejected["status"])
+                self.assertEqual([("packet.passageActivities.paragraphOrder[0]", "paragraph.answer")],
+                                 [(item["field"], item["message"].split(":")[0]) for item in rejected["violations"]])
         verified = self.call("workbook_authoring_verify", packet=authoring_packet())
         self.assertEqual(("ok", "authoring-fixture", 6), (verified["status"], verified["data"]["workbookId"],
                                                           verified["data"]["sentences"]))
